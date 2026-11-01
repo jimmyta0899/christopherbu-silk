@@ -2,25 +2,35 @@ import Link from "next/link";
 import Image from "next/image";
 
 const products = [
-  { href: "/products/raw-silk", label: "Raw Silk" },
-  { href: "/products/greige-fabric", label: "Greige Fabric" },
-  { href: "/products/douppioni", label: "Douppioni" },
+  { href: "/products/raw-silk", label: "Raw Silk", external: false },
+  { href: "/products/greige-fabric", label: "Greige Fabric", external: false },
+  { href: "/products/douppioni", label: "Douppioni", external: false },
 ];
 
-// 导航结构：Products 下拉、Contact 下拉（Sample Book / Trade Terms）
-// Couture 与 RTW 目前为占位链接，待提供 christopherbu.com 实际页面 URL 后替换
+// RTW 下拉：来自 christopherbu.com 官网的季节系列，链接到官网对应路径
+const rtwSeasons = [
+  "SS20", "RE20", "AW19", "PF19", "SS19", "RE19", "AW18", "PF18",
+  "SS18", "RE18", "AW17", "PF17", "SS17", "RE17", "AW16", "PF16",
+  "SS16", "RE16", "Coca-cola", "AW15", "SS15", "AW14", "SS14", "AW13", "SS13",
+].map((code) => ({
+  href: `https://christopherbu.com/${code}`,
+  label: code,
+  external: true,
+}));
+
+// 导航结构
 const nav = [
   { href: "/products", label: "Products", children: products },
-  { href: "/about", label: "Couture", external: false }, // 占位：礼服 blog，待补 URL
-  { href: "https://christopherbu.com", label: "RTW", external: true }, // 占位：成衣展示
+  { href: "https://christopherbu.com", label: "Couture", external: true },
+  { href: "https://christopherbu.com", label: "RTW", external: true, children: rtwSeasons },
   { href: "/about", label: "About" },
   {
     href: "/contact",
     label: "Contact",
     children: [
-      { href: "/samples", label: "Sample Book" },
-      { href: "/trade-terms", label: "Trade Terms" },
-      { href: "/contact", label: "Contact B2B Team" },
+      { href: "/samples", label: "Sample Book", external: false },
+      { href: "/trade-terms", label: "Trade Terms", external: false },
+      { href: "/contact", label: "Contact B2B Team", external: false },
     ],
   },
 ];
@@ -81,11 +91,16 @@ export function Header() {
                 </Link>
                 {/* 下拉菜单 */}
                 <div className="invisible absolute left-0 top-full pt-2 opacity-0 transition-all group-hover:visible group-hover:opacity-100">
-                  <div className="w-48 border border-gold-bright/40 bg-jade-deep/95 py-1.5 shadow-lg backdrop-blur">
+                  <div
+                    className={`border border-gold-bright/40 bg-jade-deep/95 py-1.5 shadow-lg backdrop-blur ${
+                      item.children.length > 12 ? "grid w-[360px] grid-cols-2" : "w-48"
+                    }`}
+                  >
                     {item.children.map((c) => (
                       <Link
                         key={c.href}
                         href={c.href}
+                        {...(c.external || item.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                         className="block px-4 py-2 text-sm text-ivory/90 transition-colors hover:bg-gold-bright/10 hover:text-gold-bright"
                       >
                         {c.label}
