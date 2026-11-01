@@ -49,8 +49,8 @@ export function Header() {
           </span>
         </Link>
 
-        {/* 第二行：品牌 logo 图，slogan 正下方是三个产品小字 */}
-        <div className="mt-3">
+        {/* 第二行：logo 图 + 三个产品词（竖线分隔）+ Products 导航目录，同一行对齐 */}
+        <div className="mt-3 flex flex-wrap items-center gap-x-7 gap-y-2">
           <Image
             src="/christopherbu-silk/brand-logo.png"
             alt="Christopher Bu × Yizhou Silk"
@@ -58,19 +58,16 @@ export function Header() {
             height={79}
             className="h-8 w-auto"
           />
-        </div>
-
-        {/* 第三行：三个产品小字（纯文字，无链接）+ 紧跟导航目录 */}
-        <nav className="mt-3 flex flex-wrap items-center gap-x-7 gap-y-2">
-          <span className="flex flex-wrap items-center gap-x-5 text-sm tracking-wide text-gold-bright/90">
+          <span className="flex items-center whitespace-nowrap text-sm tracking-wide">
             {products.map((p, i) => (
-              <span key={p.href} className="flex items-center gap-x-5">
-                {i > 0 && <span aria-hidden="true" className="text-gold-bright/40">·</span>}
+              <span key={p.href} className="flex items-center">
+                {i > 0 && <span aria-hidden="true" className="mx-3 text-gold-bright/40">|</span>}
                 <span className="text-ivory/90">{p.label}</span>
               </span>
             ))}
           </span>
           <span aria-hidden="true" className="hidden h-4 w-px bg-gold-bright/40 sm:inline-block" />
+          <nav className="flex flex-wrap items-center gap-x-7 gap-y-2">
           {nav.map((item) =>
             item.children ? (
               <div key={item.href} className="group relative">
@@ -122,7 +119,8 @@ export function Header() {
               </Link>
             ),
           )}
-        </nav>
+          </nav>
+        </div>
       </div>
     </header>
   );
