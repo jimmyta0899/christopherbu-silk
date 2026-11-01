@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { EmbroideryBand } from "@/components/EmbroideryBand";
 import { featuredProducts } from "@/lib/products";
 import { pressItems } from "@/lib/press";
 import { siteConfig } from "@/lib/site-config";
@@ -13,7 +12,7 @@ export default function HomePage() {
       <main>
         {/* Hero：深墨绿 + 金，紫禁城绿金刺绣的意象 */}
         <section className="bg-jade-deep text-ivory">
-          <div className="mx-auto max-w-6xl px-6 py-20 md:py-28">
+          <div className="mx-auto max-w-6xl px-6 py-12 md:py-16">
             <h1 className="font-display max-w-3xl text-4xl font-medium leading-[1.15] md:text-6xl">
               Raw silk and greige, sourced from the world&apos;s raw silk
               capital.
@@ -41,11 +40,8 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* 品牌刺绣纹样带 */}
-        <EmbroideryBand id="band-hero" />
-
         {/* 核心产品 */}
-        <section className="mx-auto max-w-6xl px-6 py-16 md:py-24">
+        <section className="mx-auto max-w-6xl px-6 py-12 md:py-16">
           <div className="mb-10">
             <h2 className="font-display text-3xl font-medium text-jade-deep md:text-4xl">
               Three primary silk products
