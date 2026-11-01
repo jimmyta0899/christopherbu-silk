@@ -39,6 +39,12 @@ export default function HomePage() {
               textile mills, brands and designers worldwide. No retail, B2B
               only.
             </p>
+            <p className="mt-4 max-w-2xl text-base leading-relaxed text-ivory/70">
+              As a Christopher Bu silk fabric supplier, we source directly from
+              Yizhou — the world&apos;s largest raw silk origin — and offer
+              silk fabric for wholesale and export from China with OEKO-TEX
+              and GOTS certification available on request.
+            </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Link
                 href="/samples"
@@ -83,7 +89,7 @@ export default function HomePage() {
                   {p.introAnswer}
                 </p>
                 <span className="mt-4 inline-block text-sm font-medium text-gold transition-transform group-hover:translate-x-1">
-                  View details →
+                  Source {p.name.toLowerCase()} →
                 </span>
               </Link>
             ))}

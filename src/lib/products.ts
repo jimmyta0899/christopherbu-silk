@@ -14,6 +14,8 @@ export type Product = {
   featured: boolean;
   // 长尾关键词（落地到 meta keywords + 内链锚文本）
   keywords: string[];
+  // 正文段落（自然融入长尾词，GEO/SEO 深度落地）
+  body: string[];
   // 规格字段
   specs: { label: string; value: string }[];
   // 应用场景
@@ -45,6 +47,10 @@ export const products: Product[] = [
       "raw silk yarn export China",
       "Yizhou raw silk supplier",
     ],
+    body: [
+      "As a Yizhou raw silk supplier, we ship 20/22 denier mulberry raw silk — also called filature silk or white raw silk — directly to weaving and knitting mills, dyeing plants and textile manufacturers worldwide. The 5A and 6A grades we source are the same tiers demanded by luxury fashion houses for warp and weft that must hold tension and take dye evenly.",
+      "If you are a fashion designer or brand sourcing raw silk for weaving, hand and evenness are what separate a smooth production run from a costly one. Our raw silk yarn export from China is graded to GB/T 1797-2008, with moisture controlled below 11% and packaging sized for containerised, export-ready bales.",
+    ],
     specs: [
       { label: "Type", value: "Mulberry raw silk / white filature silk" },
       { label: "Denier", value: "20/22D (13/15D, 27/29D on request)" },
@@ -63,15 +69,15 @@ export const products: Product[] = [
     ],
     faq: [
       {
-        q: "What grade of raw silk do you supply?",
+        q: "What grade of mulberry raw silk yarn do you supply?",
         a: "We supply 4A, 5A and 6A grade mulberry raw silk, with the majority at 5A and above — sourced from Yizhou partner mills whose output regularly reaches 5A/6A quality.",
       },
       {
-        q: "What is the minimum order quantity for raw silk?",
-        a: "Raw silk is sold by weight. MOQ varies by denier and grade; contact our B2B team with your target volume for a tailored quotation.",
+        q: "What is the minimum order quantity (MOQ) for raw silk yarn export?",
+        a: "Raw silk is sold by weight, not by the meter. MOQ varies by denier and grade; contact our B2B team with your target volume for a tailored FOB Qinzhou quotation.",
       },
       {
-        q: "Can I get a sample before bulk ordering?",
+        q: "Can I get a 20/22 denier raw silk sample before bulk ordering?",
         a: "Yes. Order our $25 sample book to verify hand, grade and color, or request a raw silk sample — the sample fee is credited against your first bulk order.",
       },
     ],
@@ -98,6 +104,10 @@ export const products: Product[] = [
       "undyed silk fabric wholesale",
       "silk fabric for custom dyeing",
     ],
+    body: [
+      "Greige silk fabric is undyed mulberry silk straight off the loom — the blank canvas brands, ateliers and finishing plants use for custom dyeing, printing and color development. We supply 19 momme mulberry silk fabric, including double crepe (crepe de chine), in a 140 cm width that suits garment cutting and bridal atelier work alike.",
+      "For designers who develop signature colors in-house, undyed silk fabric wholesale gives you full control over the finished shade. Our greige silk double crepe 19mm is a favorite for couture and bridal because it drapes cleanly, dyes richly and holds a print without losing its hand. Every batch is supplied ready for your own dye house or finishing partner.",
+    ],
     specs: [
       { label: "Type", value: "Greige (undyed) mulberry silk fabric" },
       { label: "Weave", value: "Crepe de chine, charmeuse, habotai (by request)" },
@@ -114,15 +124,15 @@ export const products: Product[] = [
     ],
     faq: [
       {
-        q: "What is greige silk fabric?",
-        a: "Greige (or grey) fabric is undyed, unfinished silk cloth straight off the loom. It gives you full control over color, printing and finishing for your own production.",
+        q: "What is greige silk fabric, and why buy it undyed?",
+        a: "Greige (or grey) fabric is undyed, unfinished silk cloth straight off the loom. Buying 19 momme mulberry silk fabric greige gives you full control over color, printing and finishing for your own production.",
       },
       {
-        q: "What width and weight is available?",
-        a: "Standard widths are 114 cm and 140 cm, in 16–22 momme. Weave and weight can be confirmed with our team against current mill availability.",
+        q: "What width and weight is your double crepe available in?",
+        a: "Standard widths are 114 cm and 140 cm, in 12, 16, 19 and 30 momme. Our greige silk double crepe 19mm is the most-requested for couture and bridal.",
       },
       {
-        q: "Can you match a specific color or finish?",
+        q: "Can you match a specific color or finish for custom dyeing?",
         a: "Greige fabric is supplied undyed. For custom dyeing, printing or finishing, contact us — we can route the request to our partner network.",
       },
     ],
@@ -149,6 +159,10 @@ export const products: Product[] = [
       "textured silk for couture",
       "Yizhou douppioni supplier",
     ],
+    body: [
+      "Douppioni silk is a textured mulberry silk woven from irregular double-cocoon filaments, giving it the distinctive slubbed surface designers prize. We supply 19 momme douppioni — the most-requested weight for evening gowns and bridal — alongside 23, 30 and 40 momme options in 90, 114 and 140 cm widths.",
+      "Because the slub is part of the weave rather than a flaw, douppioni for bridal and structured couture reads as deliberately luxurious. As a Yizhou douppioni supplier, we ship greige as standard and can route dyed colorways through our partner network on request, with shrinkage around 5% accounted for in cutting.",
+    ],
     specs: [
       { label: "Type", value: "Douppioni (double-cocoon) mulberry silk" },
       { label: "Momme", value: "19 / 23 / 30 / 40 mm" },
@@ -170,8 +184,12 @@ export const products: Product[] = [
         a: "Douppioni's slubbed, textured character makes it a favorite for evening gowns, bridal wear and structured garments where the fabric itself is a design feature.",
       },
       {
-        q: "Is douppioni available in color?",
-        a: "Douppioni is typically supplied greige; dyed options can be arranged on request through our partner network.",
+        q: "Is douppioni silk for evening gowns available in color?",
+        a: "Douppioni is typically supplied greige; dyed colorways for evening gowns and bridal can be arranged on request through our partner network.",
+      },
+      {
+        q: "What weights does 19 momme douppioni come in?",
+        a: "Douppioni is woven in 19, 23, 30 and 40 momme. The 19 momme douppioni is the standard entry weight for gowns; heavier weights suit tailored jackets and structured couture.",
       },
     ],
   },

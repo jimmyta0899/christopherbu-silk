@@ -7,6 +7,13 @@ export const metadata: Metadata = {
   title: "FAQ — Sourcing Mulberry Silk from Yizhou",
   description:
     "Answers on sourcing mulberry raw silk, greige fabric and douppioni from Yizhou, China: MOQ, export terms, lead times and OEKO-TEX & GOTS certification.",
+  keywords: [
+    "bulk silk fabric MOQ",
+    "silk fabric export China",
+    "custom silk fabric MOQ",
+    "silk fabric quality inspection",
+    "sustainable silk fabric B2B",
+  ],
 };
 
 const faqs = [

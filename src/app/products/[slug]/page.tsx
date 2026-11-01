@@ -125,6 +125,15 @@ export default async function ProductPage({ params }: Props) {
           </p>
         </div>
 
+        {/* 正文：长尾词自然融入 */}
+        <section className="mt-8 max-w-3xl space-y-5">
+          {product.body.map((para, i) => (
+            <p key={i} className="text-base leading-relaxed text-ink">
+              {para}
+            </p>
+          ))}
+        </section>
+
         {/* 规格表 */}
         <section className="mt-12">
           <h2 className="font-display text-2xl font-medium text-jade-deep">

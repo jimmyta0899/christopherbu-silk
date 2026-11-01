@@ -31,6 +31,12 @@ export default function SamplesPage() {
           {`$${siteConfig.trade.swatchFee}`} fee covers global DHL shipping and is
           deducted from your first bulk order.
         </p>
+        <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink-soft">
+          A silk fabric hand feel sample is the only way to judge drape, slub
+          and luster before you commit to bulk. Order our silk swatch book for{" "}
+          {`$${siteConfig.trade.swatchFee}`} — the full amount is credited on
+          your first bulk order, so the sample is effectively free.
+        </p>
 
         <div className="mt-14 grid gap-10 md:grid-cols-2">
           {/* 表单 */}
