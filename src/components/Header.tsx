@@ -13,9 +13,9 @@ const nav = [
 export function Header() {
   return (
     <header className="sticky top-0 z-50 bg-jade-deep">
-      {/* 第一层：品牌 logo 独立一行，凸显品牌 */}
+      {/* 第一行：品牌 logo 靠左，凸显品牌 */}
       <div className="border-b border-gold/30">
-        <div className="mx-auto max-w-6xl px-6 py-5 text-center">
+        <div className="mx-auto max-w-6xl px-6 py-5">
           <Link href="/" className="inline-block">
             <span className="font-display text-2xl font-medium tracking-wide text-ivory md:text-3xl">
               Christopher Bu
@@ -24,7 +24,16 @@ export function Header() {
         </div>
       </div>
 
-      {/* 第二层：导航 */}
+      {/* 第二行：品牌 × Yizhou Silk 完整名 */}
+      <div className="border-b border-gold/30">
+        <div className="mx-auto max-w-6xl px-6 py-2">
+          <span className="font-display text-sm tracking-[0.18em] text-gold-bright md:text-base">
+            Christopher Bu × Yizhou Silk
+          </span>
+        </div>
+      </div>
+
+      {/* 第三行：导航 */}
       <nav className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-8 gap-y-2 px-6 py-3.5">
         {nav.map((item) => (
           <Link
