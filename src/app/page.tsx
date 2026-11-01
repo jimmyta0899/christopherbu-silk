@@ -6,8 +6,24 @@ import { pressItems } from "@/lib/press";
 import { siteConfig } from "@/lib/site-config";
 
 export default function HomePage() {
+  const organizationJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: siteConfig.name,
+    url: siteConfig.url,
+    description: siteConfig.tagline,
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "CN",
+    },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+      />
       <Header />
       <main>
         {/* Hero：深墨绿 + 金，紫禁城绿金刺绣的意象 */}

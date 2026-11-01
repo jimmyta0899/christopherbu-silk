@@ -1,5 +1,6 @@
-// 产品数据：生丝、坯绸、双宫丝（主推），定制面料（次要）
+// 产品数据：生丝、坯绸、双宫丝（主推三个，其余品类以后再加）
 // 规格为行业通用值占位，上线前与工厂核对真实值
+// title 按 6 段公式：品牌背书 + 品类 + 规格 + 场景 + 采购意图 + 产地/贸易条款 + silk fabric supplier
 
 export type Product = {
   slug: string;
@@ -9,7 +10,7 @@ export type Product = {
   h1: string;
   metaDescription: string;
   introAnswer: string; // 40-60 字直接答案（GEO 关键）
-  category: "raw-silk" | "greige-fabric" | "douppioni" | "custom";
+  category: "raw-silk" | "greige-fabric" | "douppioni";
   featured: boolean;
   // 规格字段
   specs: { label: string; value: string }[];
@@ -24,8 +25,8 @@ export const products: Product[] = [
     slug: "raw-silk",
     name: "Mulberry Raw Silk (Filature Silk)",
     title:
-      "Mulberry Raw Silk (Filature Silk) | 20/22D, 4A–6A Grade",
-    h1: "Premium Mulberry Raw Silk (Filature Silk) from Yizhou, China",
+      "Christopher Bu Mulberry Raw Silk Yarn 20/22D 5A for Weaving & Embroidery — Swatch Book MOQ FOB Qinzhou Yizhou Silk Supplier",
+    h1: "Mulberry Raw Silk Yarn 20/22D for Weaving & Embroidery",
     metaDescription:
       "Source 20/22 denier mulberry raw silk (filature silk), 4A–6A grade, from Yizhou — the world's largest raw silk origin. OEKO-TEX & GOTS available on request. B2B bulk supply.",
     introAnswer:
@@ -66,8 +67,8 @@ export const products: Product[] = [
     slug: "greige-fabric",
     name: "Greige Silk Fabric",
     title:
-      "Greige Silk Fabric (Undyed) | Mulberry Silk",
-    h1: "Greige Mulberry Silk Fabric for Dyeing, Printing & Finishing",
+      "Christopher Bu Greige Silk Double Crepe 19mm 140cm for Couture & Bridal — Custom Dye MOQ FOB Shanghai Yizhou Silk B2B",
+    h1: "Greige Silk Double Crepe 19mm for Couture & Bridal",
     metaDescription:
       "Source undyed greige mulberry silk fabric from Yizhou, China for custom dyeing, printing and finishing. Bulk supply with OEKO-TEX & GOTS available on request.",
     introAnswer:
@@ -107,8 +108,8 @@ export const products: Product[] = [
     slug: "douppioni",
     name: "Douppioni Silk",
     title:
-      "Douppioni Silk Fabric | Slub Texture",
-    h1: "Douppioni Silk — Textured Mulberry Silk for Gowns & Eveningwear",
+      "Christopher Bu Greige Silk Douppioni 22mm for Evening Gowns & Sculptural Tailoring — Swatch Book FCA Yizhou Silk Supplier",
+    h1: "Douppioni Silk 22mm for Gowns & Sculptural Tailoring",
     metaDescription:
       "Source douppioni silk with its signature slub texture from Yizhou, China. Ideal for evening gowns, bridal and structured couture. B2B bulk supply.",
     introAnswer:
@@ -136,40 +137,6 @@ export const products: Product[] = [
       {
         q: "Is douppioni available in color?",
         a: "Douppioni is typically supplied greige; dyed options can be arranged on request through our partner network.",
-      },
-    ],
-  },
-  {
-    slug: "custom",
-    name: "Custom & Jacquard (On Request)",
-    title:
-      "Custom Jacquard & Dyed Silk Fabric | On Request",
-    h1: "Custom Jacquard, Dyed & Specialty Silk Fabric — On Request",
-    metaDescription:
-      "Explore custom jacquard, dyed and specialty silk fabric sourced through our Yizhou partner network. Couture-grade custom weaving on request. Contact our B2B team.",
-    introAnswer:
-      "Beyond our core raw silk and greige supply, we can source custom jacquard, dyed and specialty silk fabrics through our Yizhou partner network on request.",
-    category: "custom",
-    featured: false,
-    specs: [
-      { label: "Type", value: "Custom jacquard, dyed, specialty weaves" },
-      { label: "Source", value: "Routed through Yizhou partner network" },
-      { label: "Lead time", value: "Confirmed per project" },
-      { label: "MOQ", value: "Project-based — contact for quotation" },
-    ],
-    useCases: [
-      "Signature jacquard patterns",
-      "Custom color development",
-      "Specialty couture fabrics",
-    ],
-    faq: [
-      {
-        q: "Can you produce custom jacquard fabric?",
-        a: "Yes — as an extension of our core supply. We route custom jacquard, dyed and specialty requests through our Yizhou partner network. Lead time and MOQ are confirmed per project.",
-      },
-      {
-        q: "Is custom fabric a core offering?",
-        a: "Our core supply is raw silk, greige fabric and douppioni. Custom and jacquard fabric is available on request for clients with specific requirements.",
       },
     ],
   },

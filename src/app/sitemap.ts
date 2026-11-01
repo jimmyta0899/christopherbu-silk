@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { siteConfig } from "@/lib/site-config";
 import { products } from "@/lib/products";
+import { blogPosts } from "@/lib/blog";
 
 export const dynamic = "force-static";
 
@@ -15,6 +16,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/about",
     "/sustainability",
     "/contact",
+    "/faq",
+    "/certificates",
+    "/blog",
   ].map((route) => ({
     url: `${base}${route}`,
     lastModified: new Date(),
@@ -29,5 +33,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: p.featured ? 0.9 : 0.5,
   }));
 
-  return [...staticRoutes, ...productRoutes];
+  const blogRoutes = blogPosts.map((post) => ({
+    url: `${base}/blog/${post.slug}`,
+    lastModified: new Date(post.publishDate),
+    changeFrequency: "monthly" as const,
+    priority: 0.6,
+  }));
+
+  return [...staticRoutes, ...productRoutes, ...blogRoutes];
 }

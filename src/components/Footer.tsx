@@ -44,6 +44,16 @@ export function Footer() {
                 Sample Book
               </Link>
             </li>
+            <li>
+              <Link href="/faq" className="transition-colors hover:text-ivory">
+                FAQ
+              </Link>
+            </li>
+            <li>
+              <Link href="/blog" className="transition-colors hover:text-ivory">
+                Blog
+              </Link>
+            </li>
           </ul>
         </div>
 
@@ -60,6 +70,11 @@ export function Footer() {
             <li>
               <Link href="/trade-terms" className="transition-colors hover:text-ivory">
                 Trade Terms
+              </Link>
+            </li>
+            <li>
+              <Link href="/certificates" className="transition-colors hover:text-ivory">
+                Certifications
               </Link>
             </li>
             <li>

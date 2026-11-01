@@ -24,12 +24,14 @@ const nav = [
   { href: "https://christopherbu.com", label: "Couture", external: true },
   { href: "https://christopherbu.com", label: "RTW", external: true, children: rtwSeasons },
   { href: "/about", label: "About" },
+  { href: "/blog", label: "Blog" },
   {
     href: "/contact",
     label: "Contact",
     children: [
       { href: "/samples", label: "Sample Book", external: false },
       { href: "/trade-terms", label: "Trade Terms", external: false },
+      { href: "/faq", label: "FAQ", external: false },
       { href: "/contact", label: "Contact B2B Team", external: false },
     ],
   },
