@@ -49,24 +49,18 @@ export function Header() {
           </span>
         </Link>
 
-        {/* 第二行：logo 图 + 三个产品词（竖线分隔）+ Products 导航目录，同一行对齐 */}
-        <div className="mt-3 flex flex-wrap items-center gap-x-7 gap-y-2">
-          <Image
-            src="/christopherbu-silk/brand-logo.png"
-            alt="Christopher Bu × Yizhou Silk"
-            width={556}
-            height={79}
-            className="h-8 w-auto"
-          />
-          <span className="flex items-center whitespace-nowrap text-sm tracking-wide">
-            {products.map((p, i) => (
-              <span key={p.href} className="flex items-center">
-                {i > 0 && <span aria-hidden="true" className="mx-3 text-gold-bright/40">|</span>}
-                <span className="text-ivory/90">{p.label}</span>
-              </span>
-            ))}
-          </span>
-          <span aria-hidden="true" className="hidden h-4 w-px bg-gold-bright/40 sm:inline-block" />
+        {/* 第二行：完整 logo 图（含品牌名 + 产品词）+ Products 导航目录 */}
+        <div className="mt-3 flex flex-wrap items-center gap-x-8 gap-y-2">
+          <Link href="/" className="inline-block">
+            <Image
+              src="/christopherbu-silk/brand-logo.png"
+              alt="Christopher Bu × Yizhou Silk — Raw Silk · Greige Fabric · Douppioni"
+              width={454}
+              height={82}
+              className="h-auto w-56 sm:w-72"
+            />
+          </Link>
+          <span aria-hidden="true" className="hidden h-6 w-px bg-gold-bright/40 sm:inline-block" />
           <nav className="flex flex-wrap items-center gap-x-7 gap-y-2">
           {nav.map((item) =>
             item.children ? (
