@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { PrintBackground } from "@/components/PrintBackground";
+import Image from "next/image";
 
 const nav = [
   { href: "/products", label: "Products" },
@@ -13,44 +13,57 @@ const nav = [
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-50">
-      {/* 满屏品牌印花背景（绝对定位铺满页头） */}
-      <PrintBackground id="header-print" overlay />
+    <header className="relative z-50">
+      {/* 满屏印花背景：直接用品牌印花截图 */}
+      <div className="absolute inset-0 overflow-hidden">
+        <img
+          src="/christopherbu-silk/print-bg.jpg"
+          alt=""
+          aria-hidden="true"
+          className="h-full w-full object-cover"
+        />
+        {/* 深色遮罩，保证前景文字可读 */}
+        <div className="absolute inset-0 bg-jade-deep/70" />
+      </div>
 
-      {/* 中央内容：半透明横幅，三行 */}
-      <div className="relative mx-auto flex max-w-6xl flex-col items-center px-6 py-6">
-        {/* 第一行：品牌名（衬线大标题） */}
-        <Link href="/" className="inline-block text-center">
+      {/* 前景内容 */}
+      <div className="relative mx-auto max-w-6xl px-6 py-6">
+        {/* 第一行：品牌名，靠最左 */}
+        <Link href="/" className="inline-block">
           <span className="font-display text-3xl font-medium tracking-wide text-ivory md:text-4xl">
             Christopher Bu
           </span>
         </Link>
 
-        {/* 第二行：Christopher Bu × Yizhou Silk 拆成两行 */}
-        <p className="mt-2 text-center font-display text-sm leading-relaxed tracking-[0.14em] text-gold-bright md:text-base">
-          Christopher Bu
-          <br />
-          × Yizhou Silk
-        </p>
-
-        {/* 第三行：导航目录 */}
-        <nav className="mt-4 flex flex-wrap items-center justify-center gap-x-7 gap-y-2">
-          {nav.map((item) => (
+        {/* 第二行：最左 logo 图 + 紧跟 Products 目录 */}
+        <div className="mt-4 flex flex-wrap items-center gap-x-8 gap-y-3">
+          {/* 品牌 logo 图片 */}
+          <Image
+            src="/christopherbu-silk/brand-logo.png"
+            alt="Christopher Bu × Yizhou Silk"
+            width={556}
+            height={79}
+            className="h-9 w-auto"
+          />
+          {/* 目录 */}
+          <nav className="flex flex-wrap items-center gap-x-7 gap-y-2">
+            {nav.map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className="text-sm text-ivory/90 transition-colors hover:text-gold-bright"
+              >
+                {item.label}
+              </Link>
+            ))}
             <Link
-              key={item.href}
-              href={item.href}
-              className="text-sm text-ivory/90 transition-colors hover:text-gold-bright"
+              href="/contact"
+              className="rounded-full border border-gold-bright/70 px-4 py-1.5 text-sm text-gold-bright transition-colors hover:bg-gold-bright hover:text-jade-deep"
             >
-              {item.label}
+              Contact B2B Team
             </Link>
-          ))}
-          <Link
-            href="/contact"
-            className="rounded-full border border-gold-bright/70 px-4 py-1.5 text-sm text-gold-bright transition-colors hover:bg-gold-bright hover:text-jade-deep"
-          >
-            Contact B2B Team
-          </Link>
-        </nav>
+          </nav>
+        </div>
       </div>
     </header>
   );
