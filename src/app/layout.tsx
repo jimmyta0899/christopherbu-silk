@@ -41,6 +41,13 @@ export const metadata: Metadata = {
     "silk fabric B2B",
     "China silk export",
     "20/22 denier silk",
+    "Christopher Bu silk fabric supplier",
+    "Yizhou silk fabric export",
+    "Yizhou mulberry silk supplier",
+    "silk fabric export China",
+    "silk fabric wholesale China",
+    "Yizhou silk supply chain B2B",
+    "traceable mulberry silk supplier",
   ],
   openGraph: {
     type: "website",

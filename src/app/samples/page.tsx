@@ -9,6 +9,12 @@ export const metadata: Metadata = {
   title: "Request Silk Sample Book | $25 Credited on First Bulk Order",
   description:
     "Order our $25 silk sample book to verify hand, grade and color before bulk ordering. The fee is credited against your first bulk order. Worldwide DHL shipping.",
+  keywords: [
+    "silk fabric swatch book $25",
+    "silk swatch book credited on first order",
+    "silk fabric hand feel sample",
+    "silk sample book Yizhou",
+  ],
 };
 
 export default function SamplesPage() {

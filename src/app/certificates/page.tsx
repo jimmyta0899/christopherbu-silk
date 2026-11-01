@@ -8,6 +8,12 @@ export const metadata: Metadata = {
   title: "Certifications — OEKO-TEX & GOTS",
   description:
     "Our Yizhou partner mill holds OEKO-TEX STANDARD 100 and GOTS certification. Certificate numbers are provided with quotation and shipping documents.",
+  keywords: [
+    "OEKO-TEX 100 silk fabric",
+    "GOTS certified silk fabric B2B",
+    "silk fabric quality inspection",
+    "Yizhou silk certification",
+  ],
 };
 
 export default function CertificatesPage() {

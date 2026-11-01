@@ -7,6 +7,12 @@ export const metadata: Metadata = {
   title: "Shipping & Terms | FOB Qinzhou / FCA Yizhou / FOB Shanghai",
   description:
     "Export terms for Christopher Bu × Yizhou Silk B2B supply: FOB Qinzhou / FCA Yizhou for bulk, FOB Shanghai for samples, T/T payment, OEKO-TEX & GOTS available on request.",
+  keywords: [
+    "FCA Yizhou silk fabric",
+    "FOB Qinzhou silk fabric",
+    "FOB Shanghai silk swatch",
+    "silk fabric lead time 25 days",
+  ],
 };
 
 const terms = [

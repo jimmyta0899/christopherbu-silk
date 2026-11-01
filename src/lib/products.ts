@@ -12,6 +12,8 @@ export type Product = {
   introAnswer: string; // 40-60 字直接答案（GEO 关键）
   category: "raw-silk" | "greige-fabric" | "douppioni";
   featured: boolean;
+  // 长尾关键词（落地到 meta keywords + 内链锚文本）
+  keywords: string[];
   // 规格字段
   specs: { label: string; value: string }[];
   // 应用场景
@@ -33,10 +35,21 @@ export const products: Product[] = [
       "We supply 20/22 denier mulberry raw silk (filature silk) in 4A, 5A and 6A grades, sourced directly from Yizhou, China — the world's largest raw silk producing region.",
     category: "raw-silk",
     featured: true,
+    keywords: [
+      "mulberry raw silk yarn",
+      "20/22 denier silk",
+      "filature silk supplier",
+      "white raw silk 5A 6A",
+      "raw silk for weaving",
+      "silk fabric for fashion designer",
+      "raw silk yarn export China",
+      "Yizhou raw silk supplier",
+    ],
     specs: [
       { label: "Type", value: "Mulberry raw silk / white filature silk" },
       { label: "Denier", value: "20/22D (13/15D, 27/29D on request)" },
-      { label: "Grade", value: "4A / 5A / 6A" },
+      { label: "Grade", value: "4A / 5A / 6A (majority 5A and above)" },
+      { label: "Standard", value: "GB/T 1797-2008" },
       { label: "Color", value: "Natural undyed white" },
       { label: "Moisture", value: "Max 11%" },
       { label: "Packaging", value: "Export cartons / bales (60 kg per bale typical)" },
@@ -75,12 +88,22 @@ export const products: Product[] = [
       "We supply undyed greige mulberry silk fabric from Yizhou partner mills, ideal for brands and mills that want full control over dyeing, printing and finishing.",
     category: "greige-fabric",
     featured: true,
+    keywords: [
+      "greige silk fabric",
+      "19 momme mulberry silk fabric",
+      "140cm width silk fabric",
+      "custom dyed silk fabric bulk",
+      "silk fabric for bridal atelier",
+      "silk double crepe 19mm",
+      "undyed silk fabric wholesale",
+      "silk fabric for custom dyeing",
+    ],
     specs: [
       { label: "Type", value: "Greige (undyed) mulberry silk fabric" },
+      { label: "Weave", value: "Crepe de chine, charmeuse, habotai (by request)" },
+      { label: "Momme", value: "12 / 16 / 19 / 30 mm" },
       { label: "Width", value: "114 cm / 140 cm" },
-      { label: "Momme", value: "16–22 mm" },
       { label: "Finish", value: "Greige (ready for dyeing/printing)" },
-      { label: "Weave", value: "Plain, twill, satin (by request)" },
       { label: "MOQ", value: "50–200 m by item — contact for quotation" },
     ],
     useCases: [
@@ -108,19 +131,31 @@ export const products: Product[] = [
     slug: "douppioni",
     name: "Douppioni Silk",
     title:
-      "Christopher Bu Greige Silk Douppioni 22mm for Evening Gowns & Sculptural Tailoring — Swatch Book FCA Yizhou Silk Supplier",
-    h1: "Douppioni Silk 22mm for Gowns & Sculptural Tailoring",
+      "Christopher Bu Greige Silk Douppioni 19mm 140cm for Evening Gowns & Sculptural Tailoring — Swatch Book FCA Yizhou Silk Supplier",
+    h1: "Douppioni Silk 19mm for Gowns & Sculptural Tailoring",
     metaDescription:
-      "Source douppioni silk with its signature slub texture from Yizhou, China. Ideal for evening gowns, bridal and structured couture. B2B bulk supply.",
+      "Source douppioni silk with its signature slub texture from Yizhou, China. Available in 19/23/30/40 momme, 114/140cm. Ideal for evening gowns, bridal and structured couture. B2B bulk supply.",
     introAnswer:
-      "Douppioni silk is a textured mulberry silk with a distinctive slubbed surface, widely used for evening gowns, bridal wear and structured couture garments.",
+      "Douppioni silk is a textured mulberry silk with a distinctive slubbed surface, widely used for evening gowns, bridal wear and structured couture garments. Available in 19, 23, 30 and 40 momme.",
     category: "douppioni",
     featured: true,
+    keywords: [
+      "douppioni silk",
+      "douppioni silk for evening gowns",
+      "19 momme douppioni",
+      "silk douppioni wholesale",
+      "slub silk fabric",
+      "douppioni for bridal",
+      "textured silk for couture",
+      "Yizhou douppioni supplier",
+    ],
     specs: [
-      { label: "Type", value: "Douppioni (double) mulberry silk" },
+      { label: "Type", value: "Douppioni (double-cocoon) mulberry silk" },
+      { label: "Momme", value: "19 / 23 / 30 / 40 mm" },
+      { label: "Width", value: "90 cm / 114 cm / 140 cm" },
       { label: "Texture", value: "Slubbed, textured surface" },
-      { label: "Width", value: "114 cm / 140 cm" },
       { label: "Finish", value: "Greige or dyed (on request)" },
+      { label: "Shrinkage", value: "Approx. 5%" },
       { label: "MOQ", value: "50–200 m by item — contact for quotation" },
     ],
     useCases: [
