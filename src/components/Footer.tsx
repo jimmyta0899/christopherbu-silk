@@ -3,11 +3,11 @@ import { siteConfig } from "@/lib/site-config";
 
 export function Footer() {
   return (
-    <footer className="mt-auto border-t border-line bg-jade-deep text-ivory">
+    <footer className="mt-auto border-t border-gold/40 bg-jade-deep text-ivory">
       <div className="mx-auto grid max-w-6xl gap-10 px-6 py-14 md:grid-cols-3">
         <div>
           <p className="font-display text-lg font-semibold text-ivory">
-            Christopher Bu <span className="text-gold-soft">×</span> Yizhou Silk
+            Christopher Bu <span className="text-gold-bright">×</span> Yizhou Silk
           </p>
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-ivory/70">
             {siteConfig.oneLiner}

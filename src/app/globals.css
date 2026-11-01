@@ -22,8 +22,9 @@
   /* 品牌强调色：深墨绿 + 鎏金 */
   --jade: #1d3a2f;           /* 深墨绿：品牌主色 */
   --jade-deep: #14261f;      /* 更深的墨绿 */
-  --gold: #7d6232;           /* 鎏金（加深，满足对比度） */
+  --gold: #7d6232;           /* 鎏金（深档：用于浅色底上的文字，满足对比度） */
   --gold-soft: #a8854d;
+  --gold-bright: #c9a86a;    /* 亮金：用于深绿底上的文字/金边/刺绣纹样 */
 
   /* 线条 */
   --line: #e4dccf;
@@ -49,6 +50,7 @@
   --color-jade-deep: var(--jade-deep);
   --color-gold: var(--gold);
   --color-gold-soft: var(--gold-soft);
+  --color-gold-bright: var(--gold-bright);
   --color-line: var(--line);
   --color-line-strong: var(--line-strong);
   --color-silk: var(--silk);
@@ -64,6 +66,11 @@ body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+}
+
+/* 正文段落避免末行孤词 */
+p {
+  text-wrap: pretty;
 }
 
 /* 标题使用衬线字体，体现高定奢华 */
