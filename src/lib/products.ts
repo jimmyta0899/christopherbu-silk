@@ -16,6 +16,9 @@ export type Product = {
   keywords: string[];
   // 正文段落（自然融入长尾词，GEO/SEO 深度落地）
   body: string[];
+  // 产品图（测试占位图，正式上线前需替换为自有/授权图）
+  image: string;
+  imageAlt: string; // 长尾词 alt 文本
   // 规格字段
   specs: { label: string; value: string }[];
   // 应用场景
@@ -51,6 +54,9 @@ export const products: Product[] = [
       "As a Yizhou raw silk supplier, we ship 20/22 denier mulberry raw silk — also called filature silk or white raw silk — directly to weaving and knitting mills, dyeing plants and textile manufacturers worldwide. The 5A and 6A grades we source are the same tiers demanded by luxury fashion houses for warp and weft that must hold tension and take dye evenly.",
       "If you are a fashion designer or brand sourcing raw silk for weaving, hand and evenness are what separate a smooth production run from a costly one. Our raw silk yarn export from China is graded to GB/T 1797-2008, with moisture controlled below 11% and packaging sized for containerised, export-ready bales.",
     ],
+    image: "/christopherbu-silk/products/raw-silk2.webp",
+    imageAlt:
+      "20/22 denier mulberry raw silk yarn hanks in natural white from Yizhou raw silk supplier",
     specs: [
       { label: "Type", value: "Mulberry raw silk / white filature silk" },
       { label: "Denier", value: "20/22D (13/15D, 27/29D on request)" },
@@ -108,6 +114,9 @@ export const products: Product[] = [
       "Greige silk fabric is undyed mulberry silk straight off the loom — the blank canvas brands, ateliers and finishing plants use for custom dyeing, printing and color development. We supply 19 momme mulberry silk fabric, including double crepe (crepe de chine), in a 140 cm width that suits garment cutting and bridal atelier work alike.",
       "For designers who develop signature colors in-house, undyed silk fabric wholesale gives you full control over the finished shade. Our greige silk double crepe 19mm is a favorite for couture and bridal because it drapes cleanly, dyes richly and holds a print without losing its hand. Every batch is supplied ready for your own dye house or finishing partner.",
     ],
+    image: "/christopherbu-silk/products/greige-fabric.webp",
+    imageAlt:
+      "Greige silk double crepe 19mm 140cm width undyed fabric for custom dyeing wholesale",
     specs: [
       { label: "Type", value: "Greige (undyed) mulberry silk fabric" },
       { label: "Weave", value: "Crepe de chine, charmeuse, habotai (by request)" },
@@ -163,6 +172,9 @@ export const products: Product[] = [
       "Douppioni silk is a textured mulberry silk woven from irregular double-cocoon filaments, giving it the distinctive slubbed surface designers prize. We supply 19 momme douppioni — the most-requested weight for evening gowns and bridal — alongside 23, 30 and 40 momme options in 90, 114 and 140 cm widths.",
       "Because the slub is part of the weave rather than a flaw, douppioni for bridal and structured couture reads as deliberately luxurious. As a Yizhou douppioni supplier, we ship greige as standard and can route dyed colorways through our partner network on request, with shrinkage around 5% accounted for in cutting.",
     ],
+    image: "/christopherbu-silk/products/douppioni2.jpg",
+    imageAlt:
+      "Douppioni silk fabric 19 momme with slub texture for evening gowns and bridal",
     specs: [
       { label: "Type", value: "Douppioni (double-cocoon) mulberry silk" },
       { label: "Momme", value: "19 / 23 / 30 / 40 mm" },

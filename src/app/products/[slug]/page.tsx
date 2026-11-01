@@ -125,14 +125,25 @@ export default async function ProductPage({ params }: Props) {
           </p>
         </div>
 
-        {/* 正文：长尾词自然融入 */}
-        <section className="mt-8 max-w-3xl space-y-5">
-          {product.body.map((para, i) => (
-            <p key={i} className="text-base leading-relaxed text-ink">
-              {para}
-            </p>
-          ))}
-        </section>
+        {/* 产品图（长尾词 alt） */}
+        <div className="mt-8 grid gap-8 md:grid-cols-[1fr_1.2fr] md:items-start">
+          <div className="overflow-hidden border border-line">
+            <img
+              src={product.image}
+              alt={product.imageAlt}
+              className="h-auto w-full object-cover"
+            />
+          </div>
+
+          {/* 正文：长尾词自然融入 */}
+          <div className="space-y-5">
+            {product.body.map((para, i) => (
+              <p key={i} className="text-base leading-relaxed text-ink">
+                {para}
+              </p>
+            ))}
+          </div>
+        </div>
 
         {/* 规格表 */}
         <section className="mt-12">
