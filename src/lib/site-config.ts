@@ -2,8 +2,8 @@
 // 单一数据源，便于维护与 SEO/GEO 一致
 
 export const siteConfig = {
-  name: "Christopher Bu × Yizhou Silk",
-  shortName: "CB × Yizhou Silk",
+  name: "Christopher Bu",
+  shortName: "Christopher Bu",
   domain: "christopherbu.com",
   // 当前部署到 GitHub Pages 项目页；绑定 christopherbu.com 自定义域名后改回 https://christopherbu.com
   url: "https://jimmyta0899.github.io/christopherbu-silk",

@@ -18,7 +18,7 @@ export function Header() {
         <div className="mx-auto max-w-6xl px-6 py-5 text-center">
           <Link href="/" className="inline-block">
             <span className="font-display text-2xl font-medium tracking-wide text-ivory md:text-3xl">
-              Christopher Bu <span className="text-gold-bright">×</span> Yizhou Silk
+              Christopher Bu
             </span>
           </Link>
         </div>
