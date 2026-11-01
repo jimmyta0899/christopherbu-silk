@@ -49,8 +49,8 @@ export function Header() {
           </span>
         </Link>
 
-        {/* 第二行：品牌 logo 图 + 三个核心产品 */}
-        <div className="mt-3 flex flex-wrap items-baseline gap-x-6 gap-y-2">
+        {/* 第二行：品牌 logo 图，slogan 正下方是三个产品小字 */}
+        <div className="mt-3">
           <Image
             src="/christopherbu-silk/brand-logo.png"
             alt="Christopher Bu × Yizhou Silk"
@@ -58,20 +58,19 @@ export function Header() {
             height={79}
             className="h-8 w-auto"
           />
-          <span className="flex flex-wrap items-center gap-x-2 text-sm tracking-wide text-gold-bright/90">
+        </div>
+
+        {/* 第三行：三个产品小字（纯文字，无链接）+ 紧跟导航目录 */}
+        <nav className="mt-3 flex flex-wrap items-center gap-x-7 gap-y-2">
+          <span className="flex flex-wrap items-center gap-x-5 text-sm tracking-wide text-gold-bright/90">
             {products.map((p, i) => (
-              <span key={p.href} className="flex items-center gap-x-2">
-                {i > 0 && <span aria-hidden="true" className="text-gold-bright/50">·</span>}
-                <Link href={p.href} className="transition-colors hover:text-gold-bright">
-                  {p.label}
-                </Link>
+              <span key={p.href} className="flex items-center gap-x-5">
+                {i > 0 && <span aria-hidden="true" className="text-gold-bright/40">·</span>}
+                <span className="text-ivory/90">{p.label}</span>
               </span>
             ))}
           </span>
-        </div>
-
-        {/* 第三行：导航目录（Products / Contact 为下拉） */}
-        <nav className="mt-4 flex flex-wrap items-center gap-x-7 gap-y-2">
+          <span aria-hidden="true" className="hidden h-4 w-px bg-gold-bright/40 sm:inline-block" />
           {nav.map((item) =>
             item.children ? (
               <div key={item.href} className="group relative">
