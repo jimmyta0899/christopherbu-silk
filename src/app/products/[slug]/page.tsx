@@ -1,0 +1,180 @@
+import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import Link from "next/link";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { getProduct, products } from "@/lib/products";
+import { siteConfig } from "@/lib/site-config";
+
+type Props = {
+  params: Promise<{ slug: string }>;
+};
+
+export function generateStaticParams() {
+  return products.map((p) => ({ slug: p.slug }));
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params;
+  const product = getProduct(slug);
+  if (!product) return {};
+  return {
+    title: product.title,
+    description: product.metaDescription,
+    alternates: { canonical: `/products/${product.slug}` },
+  };
+}
+
+export default async function ProductPage({ params }: Props) {
+  const { slug } = await params;
+  const product = getProduct(slug);
+  if (!product) notFound();
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name: product.name,
+    description: product.metaDescription,
+    brand: {
+      "@type": "Brand",
+      name: siteConfig.name,
+    },
+    category: product.category,
+    offers: {
+      "@type": "Offer",
+      availability: "https://schema.org/PreOrder",
+      priceCurrency: "USD",
+      url: `${siteConfig.url}/products/${product.slug}`,
+    },
+  };
+
+  return (
+    <>
+      <Header />
+      <main className="mx-auto max-w-6xl px-6 py-16 md:py-20">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+
+        {/* 面包屑 */}
+        <nav className="text-sm text-ink-muted">
+          <Link href="/" className="hover:text-jade">
+            Home
+          </Link>
+          <span className="mx-2">/</span>
+          <Link href="/products" className="hover:text-jade">
+            Products
+          </Link>
+          <span className="mx-2">/</span>
+          <span className="text-ink-soft">{product.name}</span>
+        </nav>
+
+        {/* 标题 */}
+        <div className="mt-8">
+          <h1 className="font-display max-w-3xl text-4xl font-medium text-jade-deep md:text-5xl">
+            {product.h1}
+          </h1>
+          <p className="mt-2 text-sm font-medium text-gold">
+            {product.featured ? "Core supply" : "On request"}
+          </p>
+          {/* GEO 答案前置 */}
+          <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-soft">
+            {product.introAnswer}
+          </p>
+        </div>
+
+        {/* 规格表 */}
+        <section className="mt-12">
+          <h2 className="font-display text-2xl font-medium text-jade-deep">
+            Specifications
+          </h2>
+          <div className="mt-5 overflow-hidden border border-line">
+            <table className="w-full text-sm">
+              <tbody>
+                {product.specs.map((spec, i) => (
+                  <tr
+                    key={spec.label}
+                    className={i % 2 === 0 ? "bg-ivory-deep" : "bg-ivory"}
+                  >
+                    <th className="w-1/3 px-5 py-3.5 text-left font-medium text-ink-soft">
+                      {spec.label}
+                    </th>
+                    <td className="px-5 py-3.5 text-ink">{spec.value}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="mt-3 text-xs text-ink-muted">
+            Specifications are industry-standard values and are confirmed
+            against current mill availability before quotation.
+          </p>
+        </section>
+
+        {/* 应用场景 */}
+        <section className="mt-12">
+          <h2 className="font-display text-2xl font-medium text-jade-deep">
+            Applications
+          </h2>
+          <ul className="mt-5 flex flex-wrap gap-3">
+            {product.useCases.map((u) => (
+              <li
+                key={u}
+                className="rounded-full border border-line px-4 py-2 text-sm text-ink-soft"
+              >
+                {u}
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        {/* FAQ */}
+        <section className="mt-12">
+          <h2 className="font-display text-2xl font-medium text-jade-deep">
+            Frequently asked questions
+          </h2>
+          <div className="mt-5 space-y-4">
+            {product.faq.map((f) => (
+              <div key={f.q} className="border border-line p-6">
+                <h3 className="text-base font-semibold text-jade-deep">
+                  {f.q}
+                </h3>
+                <p className="mt-2 text-sm leading-relaxed text-ink-soft">
+                  {f.a}
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* CTA */}
+        <section className="mt-14 border-t border-line pt-10">
+          <h2 className="font-display text-2xl font-medium text-jade-deep">
+            Request a quotation
+          </h2>
+          <p className="mt-3 max-w-xl text-sm leading-relaxed text-ink-soft">
+            Tell us your denier or momme, grade, target volume, deadline and
+            destination. Our B2B team will respond with a tailored quotation and
+            available certification.
+          </p>
+          <div className="mt-6 flex flex-wrap gap-4">
+            <Link
+              href="/samples"
+              className="rounded-full bg-jade px-7 py-3.5 text-sm font-medium text-ivory transition-colors hover:bg-jade-deep"
+            >
+              Request Sample Book
+            </Link>
+            <Link
+              href="/contact"
+              className="rounded-full border border-jade px-7 py-3.5 text-sm font-medium text-jade transition-colors hover:bg-jade hover:text-ivory"
+            >
+              Contact B2B Team
+            </Link>
+          </div>
+        </section>
+      </main>
+      <Footer />
+    </>
+  );
+}

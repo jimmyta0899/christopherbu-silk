@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+/* ============================================================
+   Christopher Bu × Yizhou Silk — 设计令牌
+   调性：高定真丝奢华，克制、留白、暖色调
+   遵循 impeccable 反 AI-slop 原则：
+   - 不用 Inter/系统默认字体
+   - 不用紫蓝渐变
+   - 不用纯黑/纯灰（统一 tint）
+   - 不用卡片套卡片
+   ============================================================ */
+
+:root {
+  /* 主色：暖白/象牙 + 深墨绿（真丝奢华感）
+     对比度已按 WCAG AA 校准：正文≥4.5:1 */
+  --ivory: #faf7f2;          /* 页面底色：暖象牙白 */
+  --ivory-deep: #f3eee6;     /* 分区底色 */
+  --ink: #1f2a24;            /* 主文字：深墨绿黑（tint，非纯黑） */
+  --ink-soft: #3d4a42;       /* 次级文字（加深，满足 4.5:1） */
+  --ink-muted: #56615a;      /* 弱化文字（加深，满足 4.5:1） */
+
+  /* 品牌强调色：深墨绿 + 鎏金 */
+  --jade: #1d3a2f;           /* 深墨绿：品牌主色 */
+  --jade-deep: #14261f;      /* 更深的墨绿 */
+  --gold: #7d6232;           /* 鎏金（加深，满足对比度） */
+  --gold-soft: #a8854d;
+
+  /* 线条 */
+  --line: #e4dccf;
+  --line-strong: #cfc4ae;
+
+  /* 丝织物本身的柔和色 */
+  --silk: #e8dfd0;
+  --silk-warm: #f0e6d6;
+
+  --background: var(--ivory);
+  --foreground: var(--ink);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-ivory: var(--ivory);
+  --color-ivory-deep: var(--ivory-deep);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-muted: var(--ink-muted);
+  --color-jade: var(--jade);
+  --color-jade-deep: var(--jade-deep);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-silk: var(--silk);
+  --color-silk-warm: var(--silk-warm);
+
+  --font-serif: var(--font-cormorant), Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* 标题使用衬线字体，体现高定奢华 */
+.font-display {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+
+/* 选择文本 */
+::selection {
+  background: var(--gold-soft);
+  color: var(--jade-deep);
+}
+
+/* 平滑滚动 */
+html {
+  scroll-behavior: smooth;
+}

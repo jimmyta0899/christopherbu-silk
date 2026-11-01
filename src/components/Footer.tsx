@@ -1,0 +1,91 @@
+import Link from "next/link";
+import { siteConfig } from "@/lib/site-config";
+
+export function Footer() {
+  return (
+    <footer className="mt-auto border-t border-line bg-jade-deep text-ivory">
+      <div className="mx-auto grid max-w-6xl gap-10 px-6 py-14 md:grid-cols-3">
+        <div>
+          <p className="font-display text-lg font-semibold text-ivory">
+            Christopher Bu <span className="text-gold-soft">×</span> Yizhou Silk
+          </p>
+          <p className="mt-3 max-w-xs text-sm leading-relaxed text-ivory/70">
+            {siteConfig.oneLiner}
+          </p>
+        </div>
+
+        <div>
+          <p className="text-sm font-semibold text-gold-soft">
+            Explore
+          </p>
+          <ul className="mt-4 space-y-2.5 text-sm text-ivory/80">
+            <li>
+              <Link href="/products" className="transition-colors hover:text-ivory">
+                Products
+              </Link>
+            </li>
+            <li>
+              <Link href="/products/raw-silk" className="transition-colors hover:text-ivory">
+                Raw Silk
+              </Link>
+            </li>
+            <li>
+              <Link href="/products/greige-fabric" className="transition-colors hover:text-ivory">
+                Greige Fabric
+              </Link>
+            </li>
+            <li>
+              <Link href="/products/douppioni" className="transition-colors hover:text-ivory">
+                Douppioni Silk
+              </Link>
+            </li>
+            <li>
+              <Link href="/samples" className="transition-colors hover:text-ivory">
+                Sample Book
+              </Link>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <p className="text-sm font-semibold text-gold-soft">
+            Company
+          </p>
+          <ul className="mt-4 space-y-2.5 text-sm text-ivory/80">
+            <li>
+              <Link href="/about" className="transition-colors hover:text-ivory">
+                About
+              </Link>
+            </li>
+            <li>
+              <Link href="/trade-terms" className="transition-colors hover:text-ivory">
+                Trade Terms
+              </Link>
+            </li>
+            <li>
+              <Link href="/sustainability" className="transition-colors hover:text-ivory">
+                Sustainability
+              </Link>
+            </li>
+            <li>
+              <Link href="/contact" className="transition-colors hover:text-ivory">
+                Contact B2B Team
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="border-t border-ivory/15">
+        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-6 py-6 text-xs text-ivory/50 md:flex-row md:items-center md:justify-between">
+          <p>
+            © 2026 {siteConfig.name}. All rights reserved.
+          </p>
+          <p>
+            Sourced from Yizhou partner mills · No retail · B2B only
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+}
