@@ -1,7 +1,7 @@
-:HL["/christopherbu-silk/_next/static/chunks/1d1r5m98005i2.css","style"]
+:HL["/christopherbu-silk/_next/static/chunks/3t_ze2sq15yso.css","style"]
 :HL["/christopherbu-silk/_next/static/media/6f3ab718e3727c1a-s.p.3huc2loe0ie8a.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/christopherbu-silk/_next/static/media/82450a180bcad83c-s.p.0p-wng2nn8o-p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"couture-jacquard-yizhou-to-red-carpet","s":[]},"h":96,"c":"$Q3"}]]
 1:[["children",{"s":"blog","h":96,"c":"$Q2"}]]
-0:{"b":"bM7UFVx90k2rLREoYswJZ","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"R_H2o9gzeFxQTzCYJ60h4","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
