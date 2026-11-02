@@ -1,4 +1,4 @@
-:HL["/christopherbu-silk/_next/static/chunks/1yx3ot4u-j1xj.css","style"]
+:HL["/christopherbu-silk/_next/static/chunks/1mzdifvlzlfu1.css","style"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"/_not-found","h":96,"c":"$Q2"}]]
-0:{"b":"5ZX5F_YXguHI_A4hcmfdm","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"v__6we1c8pHi81PHm4B56","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
