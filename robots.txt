@@ -1,0 +1,25 @@
+User-Agent: *
+Allow: /
+
+User-Agent: GPTBot
+Allow: /
+
+User-Agent: OAI-SearchBot
+Allow: /
+
+User-Agent: ChatGPT-User
+Allow: /
+
+User-Agent: PerplexityBot
+Allow: /
+
+User-Agent: ClaudeBot
+Allow: /
+
+User-Agent: Google-Extended
+Allow: /
+
+User-Agent: CCBot
+Allow: /
+
+Sitemap: https://jimmyta0899.github.io/christopherbu-silk/sitemap.xml
