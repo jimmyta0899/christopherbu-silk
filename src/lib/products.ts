@@ -84,7 +84,7 @@ export const products: Product[] = [
       { label: "Character", value: "Highly breathable, moisture-wicking, strong, low elasticity" },
       { label: "Organic", value: "GOTS-certified organic raw silk available (GOTS-30270)" },
       { label: "Packaging", value: "Export cartons / bales (60 kg per bale typical); luxury silk in 5 kg bundles" },
-      { label: "MOQ", value: "By order — contact for quotation" },
+      { label: "MOQ", value: "Reference MOQ — no fixed minimum; confirmed in the written quotation" },
     ],
     useCases: [
       "Silk weaving & knitting mills",
@@ -125,7 +125,7 @@ export const products: Product[] = [
       },
       {
         q: "What is the minimum order quantity (MOQ) for raw silk yarn export?",
-        a: "Raw silk is sold by weight, not by the meter. MOQ varies by denier and grade — dupion silk yarn is typically quoted at a 10 kg minimum, luxury silk yarn at 5 kg. Contact our B2B team with your target volume for a tailored FOB Qinzhou quotation.",
+        a: "Raw silk is sold by weight, not by the meter. There is no universal fixed MOQ — the reference minimum varies by denier and grade (for example, dupion silk yarn is typically quoted around 10 kg and luxury silk yarn around 5 kg), and the final MOQ and any organic status are confirmed in the written quotation.",
       },
       {
         q: "Can I get a raw silk yarn sample before bulk ordering?",
@@ -158,7 +158,7 @@ export const products: Product[] = [
           { label: "Count", value: "20" },
           { label: "Colour", value: "Natural (unbleached, un-dyed)" },
           { label: "Usage", value: "Knitting, weaving, interior textiles (curtains, lampshades)" },
-          { label: "MOQ", value: "10 kg" },
+          { label: "Reference MOQ", value: "≈10 kg (confirmed in quotation)" },
         ],
         image: "/christopherbu-silk/products/dupion-silk-yarn.webp",
         imageAlt:
@@ -176,7 +176,7 @@ export const products: Product[] = [
           { label: "Colour", value: "White" },
           { label: "Usage", value: "Weaving, luxury garments, statement pieces" },
           { label: "Packaging", value: "5 kg bundles" },
-          { label: "MOQ", value: "5 kg" },
+          { label: "Reference MOQ", value: "≈5 kg (confirmed in quotation)" },
         ],
         image: "/christopherbu-silk/products/luxury-silk-yarn.webp",
         imageAlt:
@@ -224,7 +224,7 @@ export const products: Product[] = [
       { label: "Shrinkage", value: "Double crepe up to 10% (pre-shrink recommended)" },
       { label: "Colourfastness", value: "Wash 4; rub dry 4 / wet 3 (ISO 105)" },
       { label: "Organic", value: "GOTS-certified organic greige fabric available (GOTS-30270)" },
-      { label: "MOQ", value: "50–200 m by item — contact for quotation" },
+      { label: "MOQ", value: "Reference MOQ — no fixed minimum; confirmed in the written quotation" },
     ],
     useCases: [
       "Garment manufacturing",
@@ -285,7 +285,7 @@ export const products: Product[] = [
       { label: "Texture", value: "Slubbed, textured surface" },
       { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
       { label: "Shrinkage", value: "Approx. 5%" },
-      { label: "MOQ", value: "50–200 m by item — contact for quotation" },
+      { label: "MOQ", value: "Reference MOQ — no fixed minimum; confirmed in the written quotation" },
     ],
     useCases: [
       "Evening gowns",
@@ -361,7 +361,7 @@ export const products: Product[] = [
       { label: "Shrinkage", value: "Satin up to 5%" },
       { label: "Colourfastness", value: "Wash 4; rub dry 4 / wet 3 (ISO 105)" },
       { label: "Character", value: "High-gloss face, matt reverse, fluid drape" },
-      { label: "MOQ", value: "50–200 m by item — contact for quotation" },
+      { label: "MOQ", value: "Reference MOQ — no fixed minimum; confirmed in the written quotation" },
     ],
     useCases: [
       "Bridal & evening gowns",
@@ -422,7 +422,7 @@ export const products: Product[] = [
       { label: "Width", value: "114 cm / 140 cm" },
       { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
       { label: "Pattern", value: "Stock motifs or custom pattern development" },
-      { label: "MOQ", value: "200 m for custom jacquard — contact for quotation" },
+      { label: "MOQ", value: "Reference MOQ — no fixed minimum for custom jacquard; confirmed in the written quotation" },
     ],
     useCases: [
       "Couture & occasionwear",
@@ -437,7 +437,7 @@ export const products: Product[] = [
       },
       {
         q: "Can I weave my own custom motif?",
-        a: "Yes. We offer custom pattern development — from a house motif to a commissioned artwork. Custom jacquard carries a higher minimum (around 200 m) because cutting a new card and setting the loom has to be spread over enough cloth.",
+        a: "Yes. We offer custom pattern development — from a house motif to a commissioned artwork. Custom jacquard carries no fixed minimum; the reference MOQ is confirmed in the written quotation, since cutting a new card and setting the loom has to be spread over the right amount of cloth.",
       },
       {
         q: "How is jacquard different from embroidery?",
@@ -488,7 +488,7 @@ export const products: Product[] = [
       { label: "Organic content", value: "100% organic silk" },
       { label: "Forms", value: "Raw silk (filature silk), greige yarns, greige fabrics" },
       { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
-      { label: "MOQ", value: "By order — contact for quotation" },
+      { label: "MOQ", value: "Reference MOQ — no fixed minimum; confirmed in the written quotation" },
     ],
     useCases: [
       "Brands with organic sourcing requirements",
@@ -553,7 +553,7 @@ export const products: Product[] = [
       { label: "Width", value: "114 cm / 140 cm" },
       { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
       { label: "Character", value: "Sheer, crinkled texture, flowing drape" },
-      { label: "MOQ", value: "50–200 m by item — contact for quotation" },
+      { label: "MOQ", value: "Reference MOQ — no fixed minimum; confirmed in the written quotation" },
     ],
     useCases: [
       "Scarves & shawls",
@@ -612,7 +612,7 @@ export const products: Product[] = [
       { label: "Width", value: "114 cm" },
       { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
       { label: "Character", value: "Crisp, firm hand, even surface" },
-      { label: "MOQ", value: "50–200 m by item — contact for quotation" },
+      { label: "MOQ", value: "Reference MOQ — no fixed minimum; confirmed in the written quotation" },
     ],
     useCases: [
       "Linings",
@@ -673,7 +673,7 @@ export const products: Product[] = [
       { label: "Width", value: "114 cm / 140 cm" },
       { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
       { label: "Character", value: "Satin face, comfort stretch, good recovery" },
-      { label: "MOQ", value: "50–200 m by item — contact for quotation" },
+      { label: "MOQ", value: "Reference MOQ — no fixed minimum; confirmed in the written quotation" },
     ],
     useCases: [
       "Fitted dresses",
@@ -735,7 +735,7 @@ export const products: Product[] = [
       { label: "Width", value: "114 cm / 140 cm" },
       { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
       { label: "Character", value: "Silk sheen with cotton/linen breathability, temperature-regulating" },
-      { label: "MOQ", value: "50–200 m by item — contact for quotation" },
+      { label: "MOQ", value: "Reference MOQ — no fixed minimum; confirmed in the written quotation" },
     ],
     useCases: [
       "Shirts & blouses",

@@ -67,6 +67,32 @@ export default function SustainabilityPage() {
               {siteConfig.certifications.gotsOrganic.note}
             </p>
           </div>
+          <div className="border border-line p-8">
+            <h2 className="font-display text-2xl font-medium text-jade-deep">
+              {siteConfig.certifications.chinaOrganic.label}
+            </h2>
+            <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+              China Organic certification and quality-system files are available
+              alongside GOTS and OEKO-TEX, for buyers with domestic or
+              destination-market organic requirements.
+            </p>
+            <p className="mt-3 text-sm text-ink-muted">
+              {siteConfig.certifications.chinaOrganic.note}
+            </p>
+          </div>
+          <div className="border border-line p-8">
+            <h2 className="font-display text-2xl font-medium text-jade-deep">
+              {siteConfig.certifications.destinationMarket.label}
+            </h2>
+            <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+              California Prop 65, EU textile-safety and other destination-market
+              requirements are reviewed against product-specific test reports
+              before order approval.
+            </p>
+            <p className="mt-3 text-sm text-ink-muted">
+              {siteConfig.certifications.destinationMarket.note}
+            </p>
+          </div>
         </div>
 
         <section className="mt-14 border-t border-line pt-10">

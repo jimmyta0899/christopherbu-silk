@@ -4,14 +4,16 @@ import { Footer } from "@/components/Footer";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Shipping & Terms | FOB Qinzhou / FCA Yizhou / FOB Shanghai",
+  title: "Shipping & Terms | Reference MOQ & Lead Time, GOTS / OEKO-TEX",
   description:
-    "Export terms for Christopher Bu × Yizhou Silk B2B supply: FOB Qinzhou / FCA Yizhou for bulk, FOB Shanghai for samples, T/T payment, OEKO-TEX & GOTS available on request.",
+    "Export terms for Christopher Bu × Yizhou Silk B2B supply: FOB Qinzhou / FCA Yizhou for bulk, FOB Shanghai for samples, T/T payment, reference MOQ and 15–25 day lead time confirmed in writing. GOTS, OEKO-TEX Class II, China Organic and destination-market compliance available.",
   keywords: [
     "FCA Yizhou silk fabric",
     "FOB Qinzhou silk fabric",
     "FOB Shanghai silk swatch",
     "silk fabric lead time 25 days",
+    "silk reference MOQ",
+    "silk fabric Prop 65 compliance",
   ],
 };
 
@@ -24,10 +26,33 @@ const terms = [
     ],
   },
   {
-    section: "Minimum Order",
+    section: "Reference MOQ",
     items: [
-      { label: "Raw silk", value: "By weight (kg) — contact for quotation" },
-      { label: "Greige / dupioni", value: "50–200 m by item" },
+      {
+        label: "Minimum order",
+        value:
+          "No universal fixed MOQ. Small trial rolls, custom widths and fabric swatches may be available subject to material, mill and schedule review.",
+      },
+      {
+        label: "Confirmation",
+        value:
+          "The final MOQ and any organic status are confirmed in the written quotation and applicable document scope.",
+      },
+    ],
+  },
+  {
+    section: "Production Lead Time",
+    items: [
+      {
+        label: "Planning estimate",
+        value:
+          "15–25 working days for eligible regular bulk orders, after the sample, specification, deposit and material availability are confirmed.",
+      },
+      {
+        label: "Binding schedule",
+        value:
+          "The binding production and delivery schedule is stated in the signed order documents.",
+      },
     ],
   },
   {
@@ -40,8 +65,16 @@ const terms = [
   {
     section: "Certification",
     items: [
-      { label: "OEKO-TEX® 100", value: "Held by local mill; certificate no. on quotation" },
-      { label: "GOTS", value: "Held by local mill; certificate no. on quotation" },
+      {
+        label: "Available files",
+        value:
+          "GOTS, OEKO-TEX Standard 100 Class II, China Organic and quality-system files for qualified buyer review within each document's listed scope.",
+      },
+      {
+        label: "Destination market",
+        value:
+          "California Prop 65, EU textile-safety and other destination-market requirements are reviewed against product-specific test reports and confirmed in writing before order approval.",
+      },
     ],
   },
   {

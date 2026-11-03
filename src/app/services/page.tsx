@@ -118,10 +118,10 @@ const process = [
 ];
 
 const moq = [
-  { label: "Raw silk", value: "By weight (kg) — no fixed MOQ; contact for quotation" },
-  { label: "Greige / dupioni / satin", value: "50–200 m by item" },
-  { label: "Custom jacquard", value: "From ~200 m (loom setup)" },
-  { label: "Production lead time", value: "15–25 working days for regular bulk orders" },
+  { label: "Reference MOQ", value: "No universal fixed MOQ — small trial rolls, custom widths and swatches may be available subject to material, mill and schedule review." },
+  { label: "Final MOQ & organic status", value: "Confirmed in the written quotation and applicable document scope." },
+  { label: "Production lead time", value: "15–25 working days is a planning estimate for eligible regular bulk orders after sample, specification, deposit and material availability are confirmed." },
+  { label: "Binding schedule", value: "The binding production and delivery schedule is stated in the signed order documents." },
 ];
 
 export default function ServicesPage() {

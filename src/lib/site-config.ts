@@ -35,7 +35,7 @@ export const siteConfig = {
   // 认证/证书口径（诚实：由本地工厂持有，报价时提供）
   certifications: {
     oekoTex: {
-      label: "OEKO-TEX® STANDARD 100",
+      label: "OEKO-TEX® STANDARD 100 (Class II)",
       note: "held by local mill; certificate number provided on quotation",
     },
     gots: {
@@ -45,6 +45,14 @@ export const siteConfig = {
     gotsOrganic: {
       label: "GOTS-Certified Organic Silk",
       note: "Certified by ECOCERT Greenlife SAS — GOTS license no. GOTS-30270, valid to 2027-10-19",
+    },
+    chinaOrganic: {
+      label: "China Organic",
+      note: "available for qualified buyer review within the document's listed scope",
+    },
+    destinationMarket: {
+      label: "Destination-market compliance",
+      note: "California Prop 65, EU textile-safety and other market requirements reviewed against product-specific test reports and confirmed in writing before order approval",
     },
   },
   // 贸易条款

@@ -18,7 +18,7 @@ export const faqs: FaqItem[] = [
   },
   {
     q: "Are OEKO-TEX or GOTS certifications available?",
-    a: "Yes, held by our local mill in Yizhou. Certificate numbers are provided with your quotation and shipping documents.",
+    a: "Yes. GOTS, OEKO-TEX Standard 100 Class II, China Organic and quality-system files are held by our local mill in Yizhou and available for qualified buyer review within each document's listed scope. Certificate numbers are provided with your quotation and shipping documents.",
   },
   {
     q: "Do you supply GOTS-certified organic silk?",

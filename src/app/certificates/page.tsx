@@ -5,13 +5,15 @@ import { Footer } from "@/components/Footer";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Certifications — OEKO-TEX, GOTS & Organic Silk",
+  title: "Certifications — GOTS, OEKO-TEX Class II, China Organic & Compliance",
   description:
-    "Our local mill in Yizhou holds OEKO-TEX STANDARD 100 and GOTS certification, including GOTS-certified organic silk (GOTS-30270, ECOCERT). Certificate numbers provided with quotation.",
+    "Our local mill in Yizhou holds GOTS, OEKO-TEX STANDARD 100 Class II, China Organic and quality-system certification, including GOTS-certified organic silk (GOTS-30270, ECOCERT). Prop 65 and EU destination-market compliance reviewed before order approval.",
   keywords: [
     "OEKO-TEX 100 silk fabric",
     "GOTS certified silk fabric B2B",
     "organic silk GOTS certified",
+    "China Organic silk certification",
+    "silk fabric Prop 65 compliance",
     "silk fabric quality inspection",
     "Yizhou silk certification",
   ],
@@ -33,7 +35,7 @@ export default function CertificatesPage() {
         <div className="mt-12 space-y-6">
           <div className="border border-line p-8">
             <h2 className="font-display text-2xl font-medium text-jade-deep">
-              OEKO-TEX® STANDARD 100
+              OEKO-TEX® STANDARD 100 (Class II)
             </h2>
             <p className="mt-3 text-sm leading-relaxed text-ink-soft">
               Confirms the fabric has been tested for harmful substances and is
@@ -73,6 +75,35 @@ export default function CertificatesPage() {
               GOTS license no. GOTS-30270, valid to 2027-10-19. Verify the
               certification on the GOTS public database with the certificate
               number provided on your quotation.
+            </p>
+          </div>
+
+          <div className="border border-line p-8">
+            <h2 className="font-display text-2xl font-medium text-jade-deep">
+              China Organic &amp; quality-system files
+            </h2>
+            <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+              China Organic certification and quality-system files are also
+              available for qualified buyer review, alongside GOTS and
+              OEKO-TEX Standard 100 Class II. Each file is shared within its
+              own listed document scope.
+            </p>
+            <p className="mt-3 text-sm font-medium text-gold">
+              Available for qualified buyer review within each document's
+              listed scope.
+            </p>
+          </div>
+
+          <div className="border border-line p-8">
+            <h2 className="font-display text-2xl font-medium text-jade-deep">
+              Destination-market compliance
+            </h2>
+            <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+              California Proposition 65, EU textile-safety and other
+              destination-market requirements are reviewed against
+              product-specific test reports, and confirmed in writing before
+              order approval — so the certification position for your market is
+              clear before you commit.
             </p>
           </div>
         </div>

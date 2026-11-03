@@ -204,7 +204,7 @@ export const blogPosts: BlogPost[] = [
       "An atelier in Milan, a workshop in New York, and a bridal house in Dubai all order the same thing: mulberry silk that arrives on time, in the weight they asked for, at a cost they budgeted. The process is the same wherever the atelier sits, and the surprises are the same too. This guide walks the timeline, the terms, and the one cheap step that prevents most mistakes.",
     takeaways: [
       "Bulk silk orders ship in 20 to 25 days, not a week, wherever the atelier is.",
-      "Plain weaves start at a 50m small batch; custom jacquard needs 200m for the loom setup.",
+      "There is no universal fixed MOQ — small batches (e.g. 50m plain weave) and custom jacquard runs are reference figures, confirmed in the written quotation.",
       "FOB means the supplier covers freight to the named port; you cover insurance and onward shipping.",
       "A $25 swatch, credited on the first order, is the cheapest way to catch a wrong weight or hand before bulk.",
     ],
@@ -227,14 +227,14 @@ export const blogPosts: BlogPost[] = [
         ],
       },
       {
-        heading: "MOQ: small batch 50m, custom jacquard 200m",
-        body: "**MOQ** is the minimum order quantity, the smallest run a supplier will accept. [ORIGINAL DATA] Plain weaves start at a 50m small batch, which suits an atelier testing a fabric, and custom jacquard needs 200m because the cost of cutting a new card and setting the loom has to be spread over enough cloth to make sense. For example, a motif woven for one gown would carry the whole setup cost on a few meters, so the supplier sets a floor that keeps the price workable. Know your volume before you enquire. A 50m test order and a 200m jacquard run are two different conversations, and naming which one you want saves a round of questions.",
+        heading: "MOQ: reference minimums, confirmed in writing",
+        body: "**MOQ** is the minimum order quantity, the smallest run a supplier will accept. There is no universal fixed MOQ — small trial rolls, custom widths and swatches may be available subject to material, mill and schedule review, and the final figure is confirmed in the written quotation. [REFERENCE EXAMPLE] A plain weave is often quoted from around a 50m small batch, which suits an atelier testing a fabric, while custom jacquard is typically quoted from around 200m because the cost of cutting a new card and setting the loom has to be spread over enough cloth to make sense. For example, a motif woven for one gown would carry the whole setup cost on a few meters, so the supplier sets a reference floor that keeps the price workable. Know your volume before you enquire. A 50m test order and a 200m jacquard run are two different conversations, and naming which one you want saves a round of questions.",
         table: {
-          caption: "Order minimums at a glance",
-          headers: ["Order type", "Minimum", "Why"],
+          caption: "Reference order minimums at a glance",
+          headers: ["Order type", "Reference minimum", "Why"],
           rows: [
-            ["Plain weave", "50m", "Small test batch for hand and weight"],
-            ["Custom jacquard", "200m", "Loom and card setup spread over the run"],
+            ["Plain weave", "≈50m", "Small test batch for hand and weight"],
+            ["Custom jacquard", "≈200m", "Loom and card setup spread over the run"],
             ["Swatch", "$25", "Credited on the first bulk order"],
           ],
         },
