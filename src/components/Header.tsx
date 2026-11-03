@@ -75,11 +75,14 @@ export function Header() {
 
       {/* 前景内容 */}
       <div className="relative mx-auto max-w-6xl px-6 py-6">
-        {/* 第一行：品牌名，靠最左 */}
-        <Link href="/" className="inline-block">
-          <span className="font-display text-3xl font-medium tracking-wide text-ivory md:text-4xl">
-            Christopher Bu
-          </span>
+        {/* 第一行：品牌 logo（金色字标），靠最左 */}
+        <Link href="/" className="inline-block" aria-label="Christopher Bu — home">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/christopherbu-silk/brand-wordmark.png"
+            alt="Christopher Bu"
+            className="h-7 w-auto md:h-9"
+          />
         </Link>
 
         {/* 第二行：完整 logo 图（含品牌名 + 产品词）+ Products 导航目录 */}

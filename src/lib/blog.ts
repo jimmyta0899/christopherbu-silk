@@ -55,7 +55,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "yizhou-mulberry-silk-longevity-to-world",
     title:
-      "From the Land of Longevity to the World's Red Carpets: Yizhou's Mulberry Silk",
+      "From the Land of Longevity to the World's Red Carpets: Local Mulberry Silk",
     metaDescription:
       "How Yizhou, a longevity town in Guangxi that grows more mulberry silk than any county in China, became the source of silk for couture gowns seen on the world's red carpets.",
     type: "Provenance / brand",

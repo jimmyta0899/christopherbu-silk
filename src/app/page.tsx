@@ -185,23 +185,36 @@ export default function HomePage() {
                 <Link
                   key={item.slug}
                   href={`/blog/${item.slug}`}
-                  className="group block border border-line bg-ivory p-8 transition-colors hover:border-gold"
+                  className="group flex gap-5 border border-line bg-ivory p-5 transition-colors hover:border-gold"
                 >
-                  <div className="flex flex-wrap items-center gap-3 text-xs">
-                    <span className="rounded-full border border-gold/40 px-3 py-1 font-medium text-gold">
-                      {item.type}
-                    </span>
-                    <span className="text-ink-muted">{item.publishDate}</span>
+                  {/* 模特预览图 */}
+                  <div className="w-28 shrink-0 self-start overflow-hidden md:w-32">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={`/christopherbu-silk/blog/${item.image}`}
+                      alt={item.imageAlt}
+                      loading="lazy"
+                      className="aspect-[3/4] w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
                   </div>
-                  <h3 className="font-display mt-4 text-xl font-medium text-jade-deep group-hover:text-jade">
-                    {item.title}
-                  </h3>
-                  <p className="mt-3 text-sm leading-relaxed text-ink-soft">
-                    {item.summary}
-                  </p>
-                  <span className="mt-5 inline-block text-sm font-medium text-gold transition-transform group-hover:translate-x-1">
-                    Read article →
-                  </span>
+
+                  <div className="flex min-w-0 flex-col">
+                    <div className="flex flex-wrap items-center gap-2 text-xs">
+                      <span className="rounded-full border border-gold/40 px-2.5 py-0.5 font-medium text-gold">
+                        {item.type}
+                      </span>
+                      <span className="text-ink-muted">{item.publishDate}</span>
+                    </div>
+                    <h3 className="font-display mt-2 text-lg font-medium leading-snug text-jade-deep group-hover:text-jade">
+                      {item.title}
+                    </h3>
+                    <p className="mt-2 text-sm leading-relaxed text-ink-soft">
+                      {item.summary}
+                    </p>
+                    <span className="mt-auto pt-3 inline-block text-sm font-medium text-gold transition-transform group-hover:translate-x-1">
+                      Read article →
+                    </span>
+                  </div>
                 </Link>
               ))}
             </div>
