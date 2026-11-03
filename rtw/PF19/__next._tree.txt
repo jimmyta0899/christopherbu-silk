@@ -1,8 +1,8 @@
-:HL["/christopherbu-silk/_next/static/chunks/1x9ltqgi2o04y.css","style"]
+:HL["/christopherbu-silk/_next/static/chunks/0n9-hnu54bj6a.css","style"]
 :HL["/christopherbu-silk/_next/static/media/6f3ab718e3727c1a-s.p.3huc2loe0ie8a.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/christopherbu-silk/_next/static/media/82450a180bcad83c-s.p.0p-wng2nn8o-p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/christopherbu-silk/brand-wordmark.png","image"]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"PF19","s":[]},"h":96,"c":"$Q3"}]]
 1:[["children",{"s":"rtw","h":64,"c":"$Q2"}]]
-0:{"b":"KDMf_zqm-2QJNLciPWUF3","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
+0:{"b":"Why04JRM4FedlcAHlhRTO","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
