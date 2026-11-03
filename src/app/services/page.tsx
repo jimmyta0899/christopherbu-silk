@@ -68,6 +68,26 @@ const productMatrix = [
     href: "/products/organic-silk",
     desc: "GOTS-certified organic silk (GOTS-30270) — raw silk and greige fabric for brands with organic requirements.",
   },
+  {
+    name: "Georgette Silk",
+    href: "/products/georgette",
+    desc: "Sheer, crinkled silk in 8–12 momme for scarves and flowing summer garments.",
+  },
+  {
+    name: "Pongee Silk",
+    href: "/products/pongee",
+    desc: "Plain-weave silk with a crisp hand for linings, scarves and light shirts.",
+  },
+  {
+    name: "Stretch Silk",
+    href: "/products/stretch-silk",
+    desc: "Silk-spandex blend (90–95% silk) in 16–19 momme for comfort and fit.",
+  },
+  {
+    name: "Blended Silk",
+    href: "/products/blended-silk",
+    desc: "Silk-cotton and silk-linen weaves pairing silk sheen with natural-fiber breathability.",
+  },
 ];
 
 const customDimensions = [
@@ -143,7 +163,7 @@ export default function ServicesPage() {
             Silk product matrix
           </h2>
           <p className="mt-3 max-w-2xl text-sm leading-relaxed text-ink-soft">
-            Six silk categories, each with custom width, colour and pattern
+            Ten silk categories, each with custom width, colour and pattern
             development where the weave allows.
           </p>
           <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">

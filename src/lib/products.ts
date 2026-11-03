@@ -10,7 +10,7 @@ export type Product = {
   h1: string;
   metaDescription: string;
   introAnswer: string; // 40-60 字直接答案（GEO 关键）
-  category: "raw-silk" | "greige-fabric" | "dupioni" | "satin" | "jacquard-luo" | "organic-silk";
+  category: "raw-silk" | "greige-fabric" | "dupioni" | "satin" | "jacquard-luo" | "organic-silk" | "georgette" | "pongee" | "stretch-silk" | "blended-silk";
   featured: boolean;
   // 长尾关键词（落地到 meta keywords + 内链锚文本）
   keywords: string[];
@@ -119,11 +119,14 @@ export const products: Product[] = [
     imageAlt:
       "Greige silk double crepe 19mm 140cm width undyed fabric for custom dyeing wholesale",
     specs: [
-      { label: "Type", value: "Greige (undyed) mulberry silk fabric" },
+      { label: "Type", value: "Greige (undyed) mulberry silk fabric — double crepe (crepe de chine)" },
       { label: "Weave", value: "Crepe de chine, charmeuse, habotai (by request)" },
       { label: "Momme", value: "12 / 16 / 19 / 30 mm" },
+      { label: "Weight", value: "≈50–129 g/m² by momme (19mm ≈ 82 g/m²)" },
       { label: "Width", value: "114 cm / 140 cm" },
       { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
+      { label: "Shrinkage", value: "Double crepe up to 10% (pre-shrink recommended)" },
+      { label: "Colourfastness", value: "Wash 4; rub dry 4 / wet 3 (ISO 105)" },
       { label: "Organic", value: "GOTS-certified organic greige fabric available (GOTS-30270)" },
       { label: "MOQ", value: "50–200 m by item — contact for quotation" },
     ],
@@ -254,11 +257,14 @@ export const products: Product[] = [
     imageAlt:
       "Satin silk fabric rolls in ivory and soft pastel shades for bridal and eveningwear wholesale",
     specs: [
-      { label: "Type", value: "Mulberry silk satin (charmeuse)" },
-      { label: "Momme", value: "16 / 19 / 22 / 30 mm" },
+      { label: "Type", value: "Mulberry silk satin (crepe-back satin, 5-end weave)" },
+      { label: "Momme", value: "12 / 16 / 19 / 22 / 25–30 mm" },
+      { label: "Weight", value: "≈52–129 g/m² by momme (19mm ≈ 82 g/m²)" },
       { label: "Width", value: "114 cm / 140 cm" },
       { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
-      { label: "Character", value: "High-gloss face, soft sheen, fluid drape" },
+      { label: "Shrinkage", value: "Satin up to 5%" },
+      { label: "Colourfastness", value: "Wash 4; rub dry 4 / wet 3 (ISO 105)" },
+      { label: "Character", value: "High-gloss face, matt reverse, fluid drape" },
       { label: "MOQ", value: "50–200 m by item — contact for quotation" },
     ],
     useCases: [
@@ -410,6 +416,245 @@ export const products: Product[] = [
       {
         q: "Can I verify the GOTS certification independently?",
         a: "Yes. The certificate number is provided with your quotation so you can verify the certification, scope and validity on the GOTS public database before ordering.",
+      },
+    ],
+  },
+  {
+    slug: "georgette",
+    name: "Georgette Silk",
+    title:
+      "Christopher Bu Georgette Silk Fabric 8–12mm 114/140cm for Scarves & Flowing Garments — Yizhou Silk Supplier",
+    h1: "Georgette Silk for Scarves & Flowing Garments",
+    metaDescription:
+      "Source georgette silk fabric from Yizhou, China — a sheer, crinkled mulberry silk in 8/12 momme, 114/140 cm. Ideal for scarves, summer wear and flowing dresses. B2B bulk supply.",
+    introAnswer:
+      "Georgette is a sheer, crinkled mulberry silk with a slight crepe texture and flowing drape, supplied greige or dyed to order for scarves, summer wear and airy garments.",
+    category: "georgette",
+    featured: true,
+    keywords: [
+      "georgette silk",
+      "georgette silk fabric",
+      "silk georgette wholesale",
+      "8 momme georgette",
+      "12 momme georgette",
+      "sheer silk fabric",
+      "georgette for scarves",
+      "crinkled silk fabric",
+      "Yizhou georgette supplier",
+    ],
+    body: [
+      "Georgette is a sheer, lightweight mulberry silk woven from highly twisted yarns, which gives it a subtle crinkle and a soft, flowing drape that floats rather than clings. It is the classic choice for scarves, summer dresses and any garment where airy movement is the point.",
+      "We supply georgette silk in 8 and 12 momme, with the 12 momme weight offering more body while keeping the characteristic sheerness. Standard widths are 114 cm and 140 cm.",
+      "Like all our silk, georgette is supplied greige for your own colour development, or dyed to order from a standard shade card or your custom colour.",
+    ],
+    image: "/christopherbu-silk/products/georgette.webp",
+    imageAlt:
+      "Georgette silk fabric in soft sheer drape for scarves and flowing summer garments",
+    specs: [
+      { label: "Type", value: "Mulberry silk georgette" },
+      { label: "Momme", value: "8 / 12 mm" },
+      { label: "Weight", value: "≈34–52 g/m²" },
+      { label: "Width", value: "114 cm / 140 cm" },
+      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
+      { label: "Character", value: "Sheer, crinkled texture, flowing drape" },
+      { label: "MOQ", value: "50–200 m by item — contact for quotation" },
+    ],
+    useCases: [
+      "Scarves & shawls",
+      "Summer dresses & blouses",
+      "Flowing, airy garments",
+    ],
+    faq: [
+      {
+        q: "What is georgette silk used for?",
+        a: "Georgette's sheer, crinkled texture and flowing drape make it the standard choice for scarves, summer dresses, blouses and any airy garment where movement matters.",
+      },
+      {
+        q: "What momme weights does your georgette come in?",
+        a: "Georgette is supplied in 8 and 12 momme. The 8 momme is the classic sheer weight; 12 momme offers more body while keeping the characteristic sheerness.",
+      },
+      {
+        q: "Is your georgette silk available in colour?",
+        a: "Yes. Georgette is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom colour matching.",
+      },
+    ],
+  },
+  {
+    slug: "pongee",
+    name: "Pongee Silk",
+    title:
+      "Christopher Bu Pongee Silk Fabric 8–15mm 114cm for Linings & Light Shirts — Yizhou Silk Supplier",
+    h1: "Pongee Silk for Linings & Light Shirts",
+    metaDescription:
+      "Source pongee silk fabric from Yizhou, China — a plain-weave mulberry silk in 8/15 momme, 114 cm, with a crisp, firm hand. Ideal for linings, scarves and light shirts. B2B bulk supply.",
+    introAnswer:
+      "Pongee is a plain-weave mulberry silk with a crisp, firm hand and a subtle texture, supplied greige or dyed to order for linings, scarves and light shirts.",
+    category: "pongee",
+    featured: true,
+    keywords: [
+      "pongee silk",
+      "pongee silk fabric",
+      "silk pongee wholesale",
+      "plain weave silk fabric",
+      "silk for linings",
+      "8 momme pongee",
+      "15 momme pongee",
+      "crisp silk fabric",
+      "Yizhou pongee supplier",
+    ],
+    body: [
+      "Pongee is a plain-weave mulberry silk with a crisp, slightly firm hand and a fine, even surface. Unlike the liquid drape of satin, pongee holds its shape, which makes it the workhorse silk for linings, scarves and light shirts where structure and durability matter more than lustre.",
+      "We supply pongee silk in 8 and 15 momme, in a 114 cm width. The 8 momme is the classic lining weight; 15 momme gives a firmer, more durable fabric for light outerwear and shirts.",
+      "Pongee is supplied greige for your own colour development, or dyed to order from a standard shade card or your custom colour.",
+    ],
+    image: "/christopherbu-silk/products/pongee.webp",
+    imageAlt:
+      "Pongee silk fabric plain weave with crisp hand for linings and light shirts",
+    specs: [
+      { label: "Type", value: "Mulberry silk pongee (plain weave)" },
+      { label: "Momme", value: "8 / 15 mm" },
+      { label: "Width", value: "114 cm" },
+      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
+      { label: "Character", value: "Crisp, firm hand, even surface" },
+      { label: "MOQ", value: "50–200 m by item — contact for quotation" },
+    ],
+    useCases: [
+      "Linings",
+      "Scarves",
+      "Light shirts & blouses",
+    ],
+    faq: [
+      {
+        q: "What is pongee silk used for?",
+        a: "Pongee's crisp, firm hand makes it ideal for linings, scarves and light shirts — anywhere a silk that holds its shape is preferred over a liquid drape.",
+      },
+      {
+        q: "What weights does your pongee come in?",
+        a: "Pongee is supplied in 8 and 15 momme, in a 114 cm width. The 8 momme is the classic lining weight; 15 momme is firmer for shirts and light outerwear.",
+      },
+      {
+        q: "Is your pongee silk available in colour?",
+        a: "Yes. Pongee is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom colour matching.",
+      },
+    ],
+  },
+  {
+    slug: "stretch-silk",
+    name: "Stretch Silk",
+    title:
+      "Christopher Bu Stretch Silk Fabric 16–19mm 114/140cm Silk-Spandex Blend — Yizhou Silk Supplier",
+    h1: "Stretch Silk (Silk-Spandex) for Comfort & Fit",
+    metaDescription:
+      "Source stretch silk fabric from Yizhou, China — a 90–95% mulberry silk, 5–10% spandex blend in 16–19 momme, 114/140 cm. Comfort, recovery and ease of movement. B2B bulk supply.",
+    introAnswer:
+      "Stretch silk blends 90–95% mulberry silk with 5–10% spandex for comfort and recovery, supplied greige or dyed to order in 16–19 momme.",
+    category: "stretch-silk",
+    featured: true,
+    keywords: [
+      "stretch silk fabric",
+      "silk spandex blend",
+      "silk elastane fabric",
+      "stretch silk for dresses",
+      "silk with stretch",
+      "silk lycra blend",
+      "comfort stretch silk",
+      "silk jersey fabric",
+      "Yizhou stretch silk supplier",
+    ],
+    body: [
+      "Stretch silk blends 90–95% mulberry silk with 5–10% spandex, adding recovery and ease of movement to silk's natural softness. The result is a fabric that keeps the luxury hand of silk while forgiving the cut — ideal for fitted dresses, blouses and knit-style pieces where comfort and fit matter.",
+      "We supply stretch silk in 16 to 19 momme, in 114 cm and 140 cm widths. The silk content stays dominant so the fabric reads and wears as silk, with the spandex there only to add stretch and recovery.",
+      "Stretch silk is supplied greige for your own colour development, or dyed to order from a standard shade card or your custom colour.",
+    ],
+    image: "/christopherbu-silk/products/stretch-silk.webp",
+    imageAlt:
+      "Stretch silk fabric silk-spandex blend for fitted garments with comfort stretch",
+    specs: [
+      { label: "Type", value: "Mulberry silk + spandex blend" },
+      { label: "Composition", value: "90–95% silk, 5–10% spandex" },
+      { label: "Momme", value: "16 / 19 mm" },
+      { label: "Width", value: "114 cm / 140 cm" },
+      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
+      { label: "Character", value: "Comfort stretch, good recovery, silk hand" },
+      { label: "MOQ", value: "50–200 m by item — contact for quotation" },
+    ],
+    useCases: [
+      "Fitted dresses",
+      "Blouses & tops",
+      "Knit-style pieces",
+      "Comfort-driven apparel",
+    ],
+    faq: [
+      {
+        q: "What is stretch silk?",
+        a: "Stretch silk blends 90–95% mulberry silk with 5–10% spandex, adding recovery and ease of movement to silk's natural softness while keeping the fabric's silk hand and drape.",
+      },
+      {
+        q: "What is the composition of your stretch silk?",
+        a: "Stretch silk is 90–95% mulberry silk and 5–10% spandex. The silk content stays dominant so the fabric reads and wears as silk, with spandex added only for stretch and recovery.",
+      },
+      {
+        q: "Is your stretch silk available in colour?",
+        a: "Yes. Stretch silk is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom colour matching.",
+      },
+    ],
+  },
+  {
+    slug: "blended-silk",
+    name: "Blended Silk (Silk-Cotton / Silk-Linen)",
+    title:
+      "Christopher Bu Blended Silk Fabric Silk-Cotton & Silk-Linen 114/140cm — Yizhou Silk Supplier",
+    h1: "Blended Silk (Silk-Cotton / Silk-Linen)",
+    metaDescription:
+      "Source blended silk fabric from Yizhou, China — silk-cotton and silk-linen weaves in 114/140 cm. The comfort of cotton or linen with silk's sheen. Ideal for shirts and summer wear. B2B bulk supply.",
+    introAnswer:
+      "Blended silk combines mulberry silk with cotton or linen, pairing silk's sheen and softness with the comfort and breathability of natural fibers.",
+    category: "blended-silk",
+    featured: true,
+    keywords: [
+      "silk cotton blend fabric",
+      "silk linen blend fabric",
+      "blended silk fabric",
+      "silk cotton fabric wholesale",
+      "silk linen fabric wholesale",
+      "silk blend for shirts",
+      "natural fiber blend silk",
+      "breathable silk fabric",
+      "Yizhou blended silk supplier",
+    ],
+    body: [
+      "Blended silk pairs mulberry silk with cotton or linen, combining silk's sheen and softness with the breathability and matte comfort of natural fibers. Silk-cotton leans soft and easy-care, while silk-linen adds texture and a cool, crisp hand for warm-weather wear.",
+      "These blends let you specify the ratio and character you need — more silk for lustre and drape, or more cotton or linen for structure and breathability — so the fabric lands where your collection needs it.",
+      "Blended silk is supplied greige for your own colour development, or dyed to order from a standard shade card or your custom colour.",
+    ],
+    image: "/christopherbu-silk/products/blended-silk.webp",
+    imageAlt:
+      "Blended silk fabric silk-cotton and silk-linen weave for shirts and summer wear",
+    specs: [
+      { label: "Type", value: "Mulberry silk blended with cotton or linen" },
+      { label: "Blends", value: "Silk-cotton, silk-linen (ratio by specification)" },
+      { label: "Width", value: "114 cm / 140 cm" },
+      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
+      { label: "Character", value: "Silk sheen with cotton/linen breathability" },
+      { label: "MOQ", value: "50–200 m by item — contact for quotation" },
+    ],
+    useCases: [
+      "Shirts & blouses",
+      "Summer wear",
+      "Casual luxury apparel",
+    ],
+    faq: [
+      {
+        q: "What is blended silk?",
+        a: "Blended silk combines mulberry silk with cotton or linen, pairing silk's sheen and softness with the breathability and matte comfort of natural fibers — silk-cotton for softness, silk-linen for texture and coolness.",
+      },
+      {
+        q: "Can I specify the blend ratio?",
+        a: "Yes. You can specify the silk-to-cotton or silk-to-linen ratio to control lustre, drape and breathability. Contact our team with your target composition for a quotation.",
+      },
+      {
+        q: "Is your blended silk available in colour?",
+        a: "Yes. Blended silk is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom colour matching.",
       },
     ],
   },

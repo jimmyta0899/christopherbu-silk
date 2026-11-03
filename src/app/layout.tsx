@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
     default:
-      "Christopher Bu × Yizhou Silk | Raw Silk, Greige, Dupioni, Satin, Jacquard & Organic Silk B2B Supplier",
+      "Christopher Bu × Yizhou Silk | Raw Silk, Greige, Dupioni, Satin, Jacquard, Georgette & Organic Silk B2B Supplier",
     template: "%s | Christopher Bu × Yizhou Silk",
   },
   description: siteConfig.tagline,
@@ -41,6 +41,11 @@ export const metadata: Metadata = {
     "jacquard silk fabric",
     "organic silk",
     "GOTS certified silk",
+    "georgette silk",
+    "pongee silk",
+    "stretch silk fabric",
+    "silk cotton blend",
+    "silk linen blend",
     "Yizhou silk",
     "filature silk",
     "silk fabric B2B",
