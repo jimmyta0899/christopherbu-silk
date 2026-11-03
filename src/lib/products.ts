@@ -62,7 +62,7 @@ export const products: Product[] = [
       { label: "Denier", value: "20/22D (13/15D, 27/29D on request)" },
       { label: "Grade", value: "4A / 5A / 6A (majority 5A and above)" },
       { label: "Standard", value: "GB/T 1797-2008" },
-      { label: "Color", value: "Natural undyed white" },
+      { label: "Color", value: "Natural white; dyed to order from a standard shade card or your custom colour" },
       { label: "Moisture", value: "Max 11%" },
       { label: "Packaging", value: "Export cartons / bales (60 kg per bale typical)" },
       { label: "MOQ", value: "By order — contact for quotation" },
@@ -94,9 +94,9 @@ export const products: Product[] = [
       "Christopher Bu Greige Silk Double Crepe 19mm 140cm for Couture & Bridal — Swatch MOQ FOB Shanghai Yizhou Silk B2B",
     h1: "Greige Silk Double Crepe 19mm for Couture & Bridal",
     metaDescription:
-      "Source undyed greige mulberry silk fabric from Yizhou, China — the blank canvas for your own colour and finish. Bulk supply with OEKO-TEX & GOTS available on request.",
+      "Source mulberry silk fabric from Yizhou, China — supplied greige (undyed) or dyed to your colour. Bulk supply with OEKO-TEX & GOTS available on request.",
     introAnswer:
-      "We supply undyed greige mulberry silk fabric from local mills, ideal for brands and mills that want full control over colour and finishing in their own production.",
+      "We supply mulberry silk fabric from local mills, either greige for your own colour development or dyed to order from a standard shade card or your custom colour.",
     category: "greige-fabric",
     featured: true,
     keywords: [
@@ -108,10 +108,11 @@ export const products: Product[] = [
       "silk double crepe 19mm",
       "undyed silk fabric wholesale",
       "silk fabric for custom dyeing",
+      "dyed silk fabric to order",
     ],
     body: [
       "Greige silk fabric is undyed mulberry silk straight off the loom — the blank canvas brands, ateliers and finishing houses use for their own colour, print and finish development. We supply 19 momme mulberry silk fabric, including double crepe (crepe de chine), in a 140 cm width that suits garment cutting and bridal atelier work alike.",
-      "For designers who develop signature colours in-house, undyed silk fabric wholesale gives you full control over the finished shade. Our greige silk double crepe 19mm is a favorite for couture and bridal because it drapes cleanly and holds its hand. Every batch is supplied ready for your own dye house or finishing partner.",
+      "You can take it greige and develop your own signature colours in-house, or have it dyed to order — we offer both a standard shade card and custom colour matching, so the finished shade is exactly what your collection needs. Our greige silk double crepe 19mm is a favorite for couture and bridal because it drapes cleanly and holds its hand.",
     ],
     image: "/christopherbu-silk/products/greige-fabric.webp",
     imageAlt:
@@ -121,7 +122,7 @@ export const products: Product[] = [
       { label: "Weave", value: "Crepe de chine, charmeuse, habotai (by request)" },
       { label: "Momme", value: "12 / 16 / 19 / 30 mm" },
       { label: "Width", value: "114 cm / 140 cm" },
-      { label: "Finish", value: "Greige (undyed, ready for your own finishing)" },
+      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
       { label: "MOQ", value: "50–200 m by item — contact for quotation" },
     ],
     useCases: [
@@ -135,12 +136,12 @@ export const products: Product[] = [
         a: "Greige (or grey) fabric is undyed, unfinished silk cloth straight off the loom. Buying 19 momme mulberry silk fabric greige gives you full control over colour, print and finishing for your own production.",
       },
       {
-        q: "What width and weight is your double crepe available in?",
-        a: "Standard widths are 114 cm and 140 cm, in 12, 16, 19 and 30 momme. Our greige silk double crepe 19mm is the most-requested for couture and bridal.",
+        q: "Can you dye the fabric for me?",
+        a: "Yes. You can take the fabric greige and finish it yourself, or have it dyed to order — we offer both a standard shade card and custom colour matching. Contact our team with your target colour or Pantone reference for a quotation.",
       },
       {
-        q: "Can you match a specific colour or finish?",
-        a: "Greige fabric is supplied undyed, ready for your own colour and finishing. We do not offer dyeing — this keeps full control of the finished shade in your hands.",
+        q: "What width and weight is your double crepe available in?",
+        a: "Standard widths are 114 cm and 140 cm, in 12, 16, 19 and 30 momme. Our greige silk double crepe 19mm is the most-requested for couture and bridal.",
       },
     ],
   },
@@ -171,7 +172,7 @@ export const products: Product[] = [
       "Silk dupioni is a tightly woven, crisp silk fabric made by pairing a fine standard silk yarn in the warp with an uneven yarn reeled from two or more entangled cocoons in the weft. Those double-cocoon threads — called dupion threads — are thicker and more irregular than standard silk, and that is exactly what creates dupioni's signature look: bold, prominent slubs running across the grain, exceptional body, and a stiff, sculptural drape.",
       "Dupioni is prized for evening wear, bridal gowns and special-occasion garments, as well as light home decorating. Because the weft and warp are often woven in different colours, it carries a natural two-tone iridescence that shifts as the fabric catches light — a subtle luxury that solid-dyed silks cannot match.",
       "Traditional, high-quality dupioni is hand-woven, which adds to its characteristic irregularity and heavier weight; more affordable versions are now machine-woven. The white Thai-style silk is a natural fibre, so a finished piece may carry minor variations and irregularities in the weave. These are a mark of a fine silk yarn, not defects, and should not be treated as such.",
-      "We supply 19 momme dupioni — the most-requested weight for gowns and bridal — alongside 23, 30 and 40 momme options in 90, 114 and 140 cm widths. As a Yizhou dupioni supplier, we ship greige as standard, with shrinkage around 5% accounted for in cutting.",
+      "We supply 19 momme dupioni — the most-requested weight for gowns and bridal — alongside 23, 30 and 40 momme options in 90, 114 and 140 cm widths. As a Yizhou dupioni supplier, we ship greige as standard, or dyed to order from a standard shade card or your custom colour, with shrinkage around 5% accounted for in cutting.",
     ],
     image: "/christopherbu-silk/products/dupioni2.webp",
     imageAlt:
@@ -181,7 +182,7 @@ export const products: Product[] = [
       { label: "Momme", value: "19 / 23 / 30 / 40 mm" },
       { label: "Width", value: "90 cm / 114 cm / 140 cm" },
       { label: "Texture", value: "Slubbed, textured surface" },
-      { label: "Finish", value: "Greige (undyed)" },
+      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
       { label: "Shrinkage", value: "Approx. 5%" },
       { label: "MOQ", value: "50–200 m by item — contact for quotation" },
     ],
@@ -211,7 +212,7 @@ export const products: Product[] = [
       },
       {
         q: "Is dupioni silk for evening gowns available in colour?",
-        a: "Dupioni is supplied greige (undyed), ready for your own colour and finishing. We do not offer dyeing; this keeps full control of the finished shade in your hands.",
+        a: "Yes. Dupioni is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom colour matching, so you get the exact shade your collection needs.",
       },
       {
         q: "What weights does 19 momme dupioni come in?",

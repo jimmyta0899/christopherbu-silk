@@ -22,7 +22,7 @@ export const faqs: FaqItem[] = [
   },
   {
     q: "What products do you supply?",
-    a: "Three core products: mulberry raw silk (filature silk) in 20/22 denier, greige silk fabric (undyed, ready for your own dyeing and finishing), and dupioni silk with its signature slub texture.",
+    a: "Three core products: mulberry raw silk (filature silk) in 20/22 denier, silk fabric supplied greige or dyed to order, and dupioni silk with its signature slub texture.",
   },
   {
     q: "Who do you supply?",
