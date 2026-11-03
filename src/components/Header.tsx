@@ -7,22 +7,40 @@ const products = [
   { href: "/products/douppioni", label: "Douppioni", external: false },
 ];
 
-// RTW 下拉：来自 christopherbu.com 官网的季节系列，链接到官网对应路径
+// RTW 下拉：站内 /rtw 路由，指向本地迁移的季节系列
 const rtwSeasons = [
-  "SS20", "RE20", "AW19", "PF19", "SS19", "RE19", "AW18", "PF18",
-  "SS18", "RE18", "AW17", "PF17", "SS17", "RE17", "AW16", "PF16",
-  "SS16", "RE16", "Coca-cola", "AW15", "SS15", "AW14", "SS14", "AW13", "SS13",
-].map((code) => ({
-  href: `https://christopherbu.com/${code}`,
-  label: code,
-  external: true,
-}));
+  { href: "/rtw/SS20", label: "SS20", external: false },
+  { href: "/rtw/RE20", label: "RE20", external: false },
+  { href: "/rtw/AW19", label: "AW19", external: false },
+  { href: "/rtw/PF19", label: "PF19", external: false },
+  { href: "/rtw/SS19", label: "SS19", external: false },
+  { href: "/rtw/RE19", label: "RE19", external: false },
+  { href: "/rtw/AW18", label: "AW18", external: false },
+  { href: "/rtw/PF18", label: "PF18", external: false },
+  { href: "/rtw/SS18", label: "SS18", external: false },
+  { href: "/rtw/RE18", label: "RE18", external: false },
+  { href: "/rtw/AW17", label: "AW17", external: false },
+  { href: "/rtw/PF17", label: "PF17", external: false },
+  { href: "/rtw/SS17", label: "SS17", external: false },
+  { href: "/rtw/RE17", label: "RE17", external: false },
+  { href: "/rtw/AW16", label: "AW16", external: false },
+  { href: "/rtw/PF16", label: "PF16", external: false },
+  { href: "/rtw/SS16", label: "SS16", external: false },
+  { href: "/rtw/RE16", label: "RE16", external: false },
+  { href: "/rtw/CC16", label: "Coca-cola", external: false },
+  { href: "/rtw/AW15", label: "AW15", external: false },
+  { href: "/rtw/SS15", label: "SS15", external: false },
+  { href: "/rtw/AW14", label: "AW14", external: false },
+  { href: "/rtw/SS14", label: "SS14", external: false },
+  { href: "/rtw/AW13", label: "AW13", external: false },
+  { href: "/rtw/SS13", label: "SS13", external: false },
+];
 
 // 导航结构
 const nav = [
   { href: "/products", label: "Products", children: products },
-  { href: "https://christopherbu.com", label: "Couture", external: true },
-  { href: "https://christopherbu.com", label: "RTW", external: true, children: rtwSeasons },
+  { href: "/rtw", label: "Couture" },
+  { href: "/rtw", label: "RTW", children: rtwSeasons },
   { href: "/about", label: "About" },
   { href: "/blog", label: "Blog" },
   {
@@ -105,7 +123,7 @@ export function Header() {
                       <Link
                         key={c.href}
                         href={c.href}
-                        {...(c.external || item.external ? { target: "_blank", rel: "noopener noreferrer nofollow" } : {})}
+                        {...(c.external ? { target: "_blank", rel: "noopener noreferrer nofollow" } : {})}
                         className="block px-4 py-2 text-sm text-ivory/90 transition-colors hover:bg-gold-bright/10 hover:text-gold-bright"
                       >
                         {c.label}
@@ -126,7 +144,6 @@ export function Header() {
               <Link
                 key={item.href}
                 href={item.href}
-                {...(item.external ? { target: "_blank", rel: "noopener noreferrer nofollow" } : {})}
                 className="text-sm text-ivory/90 transition-colors hover:text-gold-bright"
               >
                 {item.label}
