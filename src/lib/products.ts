@@ -168,8 +168,10 @@ export const products: Product[] = [
       "Yizhou dupioni supplier",
     ],
     body: [
-      "Dupioni silk is a textured mulberry silk woven from irregular double-cocoon filaments, giving it the distinctive slubbed surface designers prize. We supply 19 momme dupioni — the most-requested weight for evening gowns and bridal — alongside 23, 30 and 40 momme options in 90, 114 and 140 cm widths.",
-      "Because the slub is part of the weave rather than a flaw, dupioni for bridal and structured couture reads as deliberately luxurious. As a Yizhou dupioni supplier, we ship greige as standard, with shrinkage around 5% accounted for in cutting.",
+      "Silk dupioni is a tightly woven, crisp silk fabric made by pairing a fine standard silk yarn in the warp with an uneven yarn reeled from two or more entangled cocoons in the weft. Those double-cocoon threads — called dupion threads — are thicker and more irregular than standard silk, and that is exactly what creates dupioni's signature look: bold, prominent slubs running across the grain, exceptional body, and a stiff, sculptural drape.",
+      "Dupioni is prized for evening wear, bridal gowns and special-occasion garments, as well as light home decorating. Because the weft and warp are often woven in different colours, it carries a natural two-tone iridescence that shifts as the fabric catches light — a subtle luxury that solid-dyed silks cannot match.",
+      "Traditional, high-quality dupioni is hand-woven, which adds to its characteristic irregularity and heavier weight; more affordable versions are now machine-woven. The white Thai-style silk is a natural fibre, so a finished piece may carry minor variations and irregularities in the weave. These are a mark of a fine silk yarn, not defects, and should not be treated as such.",
+      "We supply 19 momme dupioni — the most-requested weight for gowns and bridal — alongside 23, 30 and 40 momme options in 90, 114 and 140 cm widths. As a Yizhou dupioni supplier, we ship greige as standard, with shrinkage around 5% accounted for in cutting.",
     ],
     image: "/christopherbu-silk/products/dupioni2.webp",
     imageAlt:
@@ -188,11 +190,24 @@ export const products: Product[] = [
       "Bridal & occasion wear",
       "Structured couture",
       "Jackets & tailored pieces",
+      "Light home decorating (draperies, cushions, upholstery)",
     ],
     faq: [
       {
         q: "What is dupioni silk used for?",
-        a: "Dupioni's slubbed, textured character makes it a favorite for evening gowns, bridal wear and structured garments where the fabric itself is a design feature.",
+        a: "Dupioni's slubbed, textured character makes it a favorite for evening gowns, bridal wear and special-occasion garments, as well as light home decorating such as draperies, cushions and upholstery — anywhere the fabric's bold slubs and structured drape are part of the design.",
+      },
+      {
+        q: "Why does dupioni silk have a two-tone, iridescent sheen?",
+        a: "Dupioni's iridescence comes from the weave itself: the warp and weft are often spun in different colours, so the fabric shimmers and shifts between two tones as it catches light. It is a natural quality of the fabric, not an applied finish.",
+      },
+      {
+        q: "Are the slubs and irregularities in dupioni a defect?",
+        a: "No. Dupioni is woven from uneven double-cocoon threads, so minor variations and irregularities are characteristic of a fine silk yarn. They are a signature of the fabric and should not be treated as defects.",
+      },
+      {
+        q: "Is your dupioni hand-woven or machine-woven?",
+        a: "Traditional high-quality dupioni is hand-woven, which adds to its irregular, artisanal character and heavier weight; more affordable versions are machine-woven. Contact our team to confirm the weave for the weight you are sourcing.",
       },
       {
         q: "Is dupioni silk for evening gowns available in colour?",
