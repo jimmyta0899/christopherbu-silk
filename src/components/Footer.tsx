@@ -15,7 +15,7 @@ export function Footer() {
         </div>
 
         <div>
-          <p className="text-sm font-semibold text-gold-soft">
+          <p className="text-sm font-semibold text-gold-bright">
             Explore
           </p>
           <ul className="mt-4 space-y-2.5 text-sm text-ivory/80">
@@ -58,7 +58,7 @@ export function Footer() {
         </div>
 
         <div>
-          <p className="text-sm font-semibold text-gold-soft">
+          <p className="text-sm font-semibold text-gold-bright">
             Company
           </p>
           <ul className="mt-4 space-y-2.5 text-sm text-ivory/80">
@@ -92,12 +92,12 @@ export function Footer() {
       </div>
 
       <div className="border-t border-ivory/15">
-        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-6 py-6 text-xs text-ivory/50 md:flex-row md:items-center md:justify-between">
+        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-6 py-6 text-xs text-ivory/70 md:flex-row md:items-center md:justify-between">
           <p>
             © 2026 {siteConfig.name}. All rights reserved.
           </p>
           <p>
-            Sourced from Yizhou partner mills · No retail · B2B only
+            Sourced from local mills · No retail · B2B only
           </p>
         </div>
       </div>

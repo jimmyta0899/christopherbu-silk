@@ -44,7 +44,12 @@ export default function SamplesPage() {
             <h2 className="font-display text-2xl font-medium text-jade-deep">
               Request your swatches
             </h2>
-            <form className="mt-6 space-y-5">
+            <form
+              action={`mailto:${siteConfig.email}`}
+              method="post"
+              encType="text/plain"
+              className="mt-6 space-y-5"
+            >
               <div className="grid gap-5 sm:grid-cols-2">
                 <Field label="Name" required />
                 <Field label="Brand / Company" required />

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { featuredProducts } from "@/lib/products";
@@ -12,10 +13,22 @@ export default function HomePage() {
     name: siteConfig.name,
     url: siteConfig.url,
     description: siteConfig.tagline,
+    logo: `${siteConfig.url}/brand-logo.png`,
+    email: siteConfig.email,
     address: {
       "@type": "PostalAddress",
       addressCountry: "CN",
     },
+    brand: {
+      "@type": "Brand",
+      name: siteConfig.name,
+    },
+    founder: {
+      "@type": "Person",
+      name: "Christopher Bu",
+      jobTitle: "Founder & Designer",
+    },
+    sameAs: [siteConfig.social.instagram],
   };
 
   return (
@@ -26,38 +39,62 @@ export default function HomePage() {
       />
       <Header />
       <main>
-        {/* Hero：深墨绿 + 金，紫禁城绿金刺绣的意象 */}
+        {/* Hero：深墨绿 + 金，紫禁城绿金刺绣的意象；左文右图 */}
         <section className="bg-jade-deep text-ivory">
           <div className="mx-auto max-w-6xl px-6 py-12 md:py-16">
-            <h1 className="font-display max-w-3xl text-4xl font-medium leading-[1.15] md:text-6xl">
-              Raw silk and greige, sourced from the world&apos;s raw silk
-              capital.
-            </h1>
-            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ivory/80">
-              From the couture house that dressed the Oscars red carpet, we
-              supply Yizhou mulberry raw silk, greige fabric and douppioni to
-              textile mills, brands and designers worldwide. No retail, B2B
-              only.
-            </p>
-            <p className="mt-4 max-w-2xl text-base leading-relaxed text-ivory/70">
-              As a Christopher Bu silk fabric supplier, we source directly from
-              Yizhou — the world&apos;s largest raw silk origin — and offer
-              silk fabric for wholesale and export from China with OEKO-TEX
-              and GOTS certification available on request.
-            </p>
-            <div className="mt-8 flex flex-wrap gap-4">
-              <Link
-                href="/samples"
-                className="rounded-full bg-gold-bright px-7 py-3.5 text-sm font-semibold text-jade-deep transition-colors hover:bg-ivory"
-              >
-                Request Sample Book (${siteConfig.trade.swatchFee} → credited)
-              </Link>
-              <Link
-                href="/products"
-                className="rounded-full border border-gold-bright/60 px-7 py-3.5 text-sm font-medium text-ivory transition-colors hover:border-gold-bright hover:text-gold-bright"
-              >
-                Explore Products
-              </Link>
+            <div className="grid items-center gap-10 md:grid-cols-2">
+              <div>
+                <h1 className="font-display max-w-3xl text-4xl font-medium leading-[1.15] md:text-6xl">
+                  Raw silk and greige, sourced from the world&apos;s raw silk
+                  capital.
+                </h1>
+                <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ivory/80">
+                  Christopher Bu is the couture house behind some of the
+                  world&apos;s most-watched red-carpet silk gowns. Now the
+                  brand brings that same eye for silk to its own line of
+                  Yizhou mulberry raw silk, greige fabric and douppioni — for
+                  textile mills, brands and designers worldwide. No retail, B2B
+                  only.
+                </p>
+                <p className="mt-4 max-w-2xl text-base leading-relaxed text-ivory/70">
+                  From our roots in Yizhou — the world&apos;s largest raw silk
+                  origin — we offer silk fabric for wholesale and export from
+                  China, with OEKO-TEX and GOTS certification available on
+                  request.
+                </p>
+                <div className="mt-8 flex flex-wrap gap-4">
+                  <Link
+                    href="/samples"
+                    className="rounded-full bg-gold-bright px-7 py-3.5 text-sm font-semibold text-jade-deep transition-colors hover:bg-ivory"
+                  >
+                    Request Sample Book (${siteConfig.trade.swatchFee} →
+                    credited)
+                  </Link>
+                  <Link
+                    href="/products"
+                    className="rounded-full border border-gold-bright/60 px-7 py-3.5 text-sm font-medium text-ivory transition-colors hover:border-gold-bright hover:text-gold-bright"
+                  >
+                    Explore Products
+                  </Link>
+                </div>
+              </div>
+              <div className="relative md:justify-self-end">
+                <figure className="w-full max-w-md">
+                  <Image
+                    src="/christopherbu-silk/blog/fan-bingbing-met-gala-illustration.webp"
+                    alt="Fan Bingbing wearing a gold sequin gown with a silk jacquard cape by Christopher Bu at the 2015 Met Gala"
+                    width={1080}
+                    height={1080}
+                    className="w-full border border-gold/40 object-cover"
+                    priority
+                  />
+                  <figcaption className="mt-3 text-xs leading-relaxed text-ivory/60">
+                    Fan Bingbing in Christopher Bu at the 2015 Met Gala — a
+                    gold sequin gown with a silk jacquard cape. Illustration by
+                    JiweiJW.
+                  </figcaption>
+                </figure>
+              </div>
             </div>
           </div>
         </section>
@@ -96,39 +133,42 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* 品牌背书 */}
+        {/* 精选故事（Press） */}
         <section className="border-y border-gold/40 bg-ivory-deep">
           <div className="mx-auto max-w-6xl px-6 py-16 md:py-24">
             <div className="mb-10">
               <h2 className="font-display max-w-2xl text-3xl font-medium text-jade-deep md:text-4xl">
-                Worn on the Oscars red carpet, sourced from Yizhou.
+                From Yizhou looms to the world&apos;s red carpets.
               </h2>
               <p className="mt-3 max-w-2xl text-base text-ink-soft">
-                The Christopher Bu couture house has dressed leading names for
-                the world&apos;s most-watched red carpets. That same eye for
-                silk quality now selects every grade we ship.
+                Stories of the silk we source — from the longevity town that
+                grows it, to the couture gowns that wore it.
               </p>
             </div>
 
-            <div className="grid gap-10 md:grid-cols-2">
+            <div className="grid gap-6 md:grid-cols-2">
               {pressItems.map((item) => (
-                <div key={item.name} className="border-l-2 border-gold pl-6">
-                  <p className="text-sm font-medium text-ink-muted">
-                    {item.role} · {item.year}
-                  </p>
-                  <h3 className="font-display mt-2 text-2xl font-medium text-jade-deep">
-                    {item.name}
+                <Link
+                  key={item.slug}
+                  href={`/blog/${item.slug}`}
+                  className="group block border border-line bg-ivory p-8 transition-colors hover:border-gold"
+                >
+                  <div className="flex flex-wrap items-center gap-3 text-xs">
+                    <span className="rounded-full border border-gold/40 px-3 py-1 font-medium text-gold">
+                      {item.type}
+                    </span>
+                    <span className="text-ink-muted">{item.publishDate}</span>
+                  </div>
+                  <h3 className="font-display mt-4 text-xl font-medium text-jade-deep group-hover:text-jade">
+                    {item.title}
                   </h3>
-                  <p className="mt-1 text-sm font-medium text-gold">
-                    {item.event}
-                  </p>
                   <p className="mt-3 text-sm leading-relaxed text-ink-soft">
-                    {item.description}
+                    {item.summary}
                   </p>
-                  <p className="mt-3 text-xs text-ink-muted">
-                    As reported by: {item.sources.join(" · ")}
-                  </p>
-                </div>
+                  <span className="mt-5 inline-block text-sm font-medium text-gold transition-transform group-hover:translate-x-1">
+                    Read article →
+                  </span>
+                </Link>
               ))}
             </div>
           </div>

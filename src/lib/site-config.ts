@@ -14,27 +14,33 @@ export const siteConfig = {
   oneLiner:
     "From the world's raw silk capital of Yizhou, for the global textile, couture and fashion industry.",
   // 联系方式
-  email: "sourcing@christopherbu.com",
-  // 实体信息
+  email: "info@christopherbu.com",
+  // 法律实体（真实公司信息，用于知识图谱实体关联与信任）
+  legalEntity: {
+    name: "Beijing Qingshanyimu Trading Co., Ltd.",
+    role: "Export & sourcing operations",
+  },
+  // 商标（用于实体背书，诚实标注）
+  trademarks: {
+    brand: "Christopher Bu",
+    rtwLabel: "Chris by Christopher Bu",
+  },
+  // 实体信息（展示用）
   entities: {
     china: {
-      name: "Beijing trading company",
+      name: "Beijing Qingshanyimu Trading Co., Ltd.",
       role: "Export & sourcing operations",
     },
-    usa: {
-      name: "New York LLC",
-      role: "US entity for payments & client service",
-    },
   },
-  // 认证/证书口径（诚实：由合作工厂持有，报价时提供）
+  // 认证/证书口径（诚实：由本地工厂持有，报价时提供）
   certifications: {
     oekoTex: {
       label: "OEKO-TEX® STANDARD 100",
-      note: "held by partner mill; certificate number provided on quotation",
+      note: "held by local mill; certificate number provided on quotation",
     },
     gots: {
       label: "GOTS (Global Organic Textile Standard)",
-      note: "held by partner mill; certificate number provided on quotation",
+      note: "held by local mill; certificate number provided on quotation",
     },
   },
   // 贸易条款
@@ -45,7 +51,9 @@ export const siteConfig = {
     swatchFee: 25,
   },
   // 社交媒体
-  social: {},
+  social: {
+    instagram: "https://www.instagram.com/christopherbu_official",
+  },
 } as const;
 
 export type SiteConfig = typeof siteConfig;

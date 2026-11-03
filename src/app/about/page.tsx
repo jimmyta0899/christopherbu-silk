@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { pressItems } from "@/lib/press";
@@ -35,7 +36,7 @@ export default function AboutPage() {
           <p>
             Christopher Bu × Yizhou Silk brings these two threads together:
             couture-grade design judgment, applied to the sourcing of raw silk,
-            greige fabric and douppioni from Yizhou partner mills — for textile
+            greige fabric and douppioni from local mills — for textile
             mills, brands and designers worldwide.
           </p>
         </div>
@@ -45,23 +46,29 @@ export default function AboutPage() {
           <h2 className="font-display text-3xl font-medium text-jade-deep">
             Recognized on the world stage
           </h2>
-          <div className="mt-8 grid gap-10 md:grid-cols-2">
+          <div className="mt-8 grid gap-6 md:grid-cols-2">
             {pressItems.map((item) => (
-              <div key={item.name} className="border-l-2 border-gold pl-6">
-                <p className="text-sm font-medium text-ink-muted">
-                  {item.role} · {item.year}
-                </p>
-                <h3 className="font-display mt-2 text-2xl font-medium text-jade-deep">
-                  {item.name}
+              <Link
+                key={item.slug}
+                href={`/blog/${item.slug}`}
+                className="group block border border-line bg-ivory p-8 transition-colors hover:border-gold"
+              >
+                <div className="flex flex-wrap items-center gap-3 text-xs">
+                  <span className="rounded-full border border-gold/40 px-3 py-1 font-medium text-gold">
+                    {item.type}
+                  </span>
+                  <span className="text-ink-muted">{item.publishDate}</span>
+                </div>
+                <h3 className="font-display mt-4 text-xl font-medium text-jade-deep group-hover:text-jade">
+                  {item.title}
                 </h3>
-                <p className="mt-1 text-sm font-medium text-gold">{item.event}</p>
                 <p className="mt-3 text-sm leading-relaxed text-ink-soft">
-                  {item.description}
+                  {item.summary}
                 </p>
-                <p className="mt-3 text-xs text-ink-muted">
-                  As reported by: {item.sources.join(" · ")}
-                </p>
-              </div>
+                <span className="mt-5 inline-block text-sm font-medium text-gold transition-transform group-hover:translate-x-1">
+                  Read article →
+                </span>
+              </Link>
             ))}
           </div>
         </section>
@@ -75,7 +82,7 @@ export default function AboutPage() {
             {[
               {
                 t: "Source-first",
-                d: "We source directly from Yizhou partner mills, not through layers of intermediaries — for verifiable origin and consistent quality.",
+                d: "Silk sourced from local mills with verifiable origin and consistent quality.",
               },
               {
                 t: "Designer's eye",

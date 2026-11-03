@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     q: "Are OEKO-TEX or GOTS certifications available?",
-    a: "Yes, held by our partner mill in Yizhou. Certificate numbers are provided with your quotation and shipping documents.",
+    a: "Yes, held by our local mill in Yizhou. Certificate numbers are provided with your quotation and shipping documents.",
   },
   {
     q: "What products do you supply?",

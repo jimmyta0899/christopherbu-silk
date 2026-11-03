@@ -7,7 +7,7 @@ import { siteConfig } from "@/lib/site-config";
 export const metadata: Metadata = {
   title: "Certifications — OEKO-TEX & GOTS",
   description:
-    "Our Yizhou partner mill holds OEKO-TEX STANDARD 100 and GOTS certification. Certificate numbers are provided with quotation and shipping documents.",
+    "Our local mill in Yizhou holds OEKO-TEX STANDARD 100 and GOTS certification. Certificate numbers are provided with quotation and shipping documents.",
   keywords: [
     "OEKO-TEX 100 silk fabric",
     "GOTS certified silk fabric B2B",
@@ -26,7 +26,7 @@ export default function CertificatesPage() {
         </h1>
         <p className="mt-5 text-lg leading-relaxed text-ink-soft">
           Silk that meets the standards your buyers require — verified by
-          certificates held by our partner mill in Yizhou.
+          certificates held by our local mill in Yizhou.
         </p>
 
         <div className="mt-12 space-y-6">
@@ -54,7 +54,7 @@ export default function CertificatesPage() {
               requirements.
             </p>
             <p className="mt-3 text-sm font-medium text-gold">
-              Held by our partner mill; certificate number provided on
+              Held by our local mill; certificate number provided on
               quotation.
             </p>
           </div>

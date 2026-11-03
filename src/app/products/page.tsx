@@ -19,7 +19,7 @@ export default function ProductsPage() {
           Silk supply from Yizhou, for the global textile industry.
         </h1>
         <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-soft">
-          Three core products, sourced from Yizhou partner mills and curated
+          Three core products, sourced from local mills and curated
           under the design eye of the Christopher Bu couture house.
         </p>
 

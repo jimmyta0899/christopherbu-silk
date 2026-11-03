@@ -37,8 +37,8 @@ const terms = [
   {
     section: "Certification",
     items: [
-      { label: "OEKO-TEX® 100", value: "Held by partner mill; certificate no. on quotation" },
-      { label: "GOTS", value: "Held by partner mill; certificate no. on quotation" },
+      { label: "OEKO-TEX® 100", value: "Held by local mill; certificate no. on quotation" },
+      { label: "GOTS", value: "Held by local mill; certificate no. on quotation" },
     ],
   },
   {

@@ -24,7 +24,12 @@ export default function ContactPage() {
 
         <div className="mt-12 grid gap-10 md:grid-cols-2">
           <section>
-            <form className="space-y-5">
+            <form
+              action={`mailto:${siteConfig.email}`}
+              method="post"
+              encType="text/plain"
+              className="space-y-5"
+            >
               <div className="grid gap-5 sm:grid-cols-2">
                 <Field label="Name" required />
                 <Field label="Company" required />
@@ -66,7 +71,7 @@ export default function ContactPage() {
             </div>
             <div className="border border-line p-6">
               <h2 className="font-display text-xl font-medium text-jade-deep">
-                Entities
+                Entity
               </h2>
               <ul className="mt-3 space-y-2 text-sm text-ink-soft">
                 <li>
@@ -74,8 +79,10 @@ export default function ContactPage() {
                   — {siteConfig.entities.china.role}
                 </li>
                 <li>
-                  <strong className="text-ink">{siteConfig.entities.usa.name}</strong>{" "}
-                  — {siteConfig.entities.usa.role}
+                  <strong className="text-ink">{siteConfig.trademarks.brand}</strong>{" "}
+                  and{" "}
+                  <strong className="text-ink">{siteConfig.trademarks.rtwLabel}</strong>{" "}
+                  are registered trademarks of the company.
                 </li>
               </ul>
             </div>

@@ -42,11 +42,14 @@ export function Header() {
     <header className="relative z-50">
       {/* 满屏印花背景：直接用品牌印花截图 */}
       <div className="absolute inset-0 overflow-hidden">
-        <img
-          src="/christopherbu-silk/print-bg.jpg"
+        <Image
+          src="/christopherbu-silk/print-bg.webp"
           alt=""
           aria-hidden="true"
-          className="h-full w-full object-cover"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
         />
         {/* 深色遮罩，保证前景文字可读 */}
         <div className="absolute inset-0 bg-jade-deep/70" />
@@ -102,7 +105,7 @@ export function Header() {
                       <Link
                         key={c.href}
                         href={c.href}
-                        {...(c.external || item.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                        {...(c.external || item.external ? { target: "_blank", rel: "noopener noreferrer nofollow" } : {})}
                         className="block px-4 py-2 text-sm text-ivory/90 transition-colors hover:bg-gold-bright/10 hover:text-gold-bright"
                       >
                         {c.label}
@@ -123,7 +126,7 @@ export function Header() {
               <Link
                 key={item.href}
                 href={item.href}
-                {...(item.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                {...(item.external ? { target: "_blank", rel: "noopener noreferrer nofollow" } : {})}
                 className="text-sm text-ivory/90 transition-colors hover:text-gold-bright"
               >
                 {item.label}

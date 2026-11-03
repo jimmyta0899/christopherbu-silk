@@ -6,7 +6,7 @@ import { siteConfig } from "@/lib/site-config";
 export const metadata: Metadata = {
   title: "Sustainability & Traceability — OEKO-TEX & GOTS Silk",
   description:
-    "Christopher Bu × Yizhou Silk supplies traceable mulberry raw silk and greige fabric with OEKO-TEX Standard 100 and GOTS certification available on request from partner mills.",
+    "Christopher Bu × Yizhou Silk supplies traceable mulberry raw silk and greige fabric with OEKO-TEX Standard 100 and GOTS certification available on request from local mills.",
   keywords: [
     "sustainable silk fabric B2B",
     "traceable mulberry silk supplier",
@@ -68,11 +68,11 @@ export default function SustainabilityPage() {
               },
               {
                 q: "Can you provide OEKO-TEX or GOTS certification?",
-                a: "Certification is held by our partner mills. The certificate number is provided with your quotation, so you can verify it independently before ordering.",
+                a: "Certification is held by our local mills. The certificate number is provided with your quotation, so you can verify it independently before ordering.",
               },
               {
                 q: "Is the silk traceable to origin?",
-                a: "We source from Yizhou partner mills and can provide origin documentation and records aligned to your order, subject to destination-market requirements.",
+                a: "We source from local mills and can provide origin documentation and records aligned to your order, subject to destination-market requirements.",
               },
             ].map((f) => (
               <div key={f.q} className="border border-line p-6">
