@@ -304,3 +304,16 @@ export const rtwSeasonsSorted = [...rtwSeasons].sort((a, b) => {
 export function getRtwSeason(slug: string): RtwSeason | undefined {
   return rtwSeasons.find((s) => s.slug === slug);
 }
+
+// 缩略图文件名 → 高清大图文件名
+// 老官网命名规律：{季度码}{序号}{序号}.{ext}（如 2020SS01.jpg → 2020SS0101.jpg）
+// 注：老官网 data 数组里有几处 typo（如 2020SS3232jpg、2013AW4549.JPG），
+// 但服务器上的真实文件均为规则命名（2020SS3232.jpg、2013AW4949.JPG），故用纯规则推导。
+export function bigImageFor(thumb: string, folder: string): string {
+  const m = thumb.match(/^(.+?)(\d+)\.(jpg|jpeg|JPG|JPEG)$/);
+  if (!m) return thumb;
+  const code = m[1]; // 如 2020SS
+  const num = m[2]; // 如 01
+  const ext = m[3];
+  return `${code}${num}${num}.${ext}`;
+}

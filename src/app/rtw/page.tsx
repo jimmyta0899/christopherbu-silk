@@ -76,9 +76,7 @@ export default function RtwPage() {
                   <h2 className="font-display text-xl font-medium text-jade-deep group-hover:text-jade">
                     {season.name}
                   </h2>
-                  <p className="mt-1 text-sm text-ink-muted">
-                    {season.nameZh} · {season.count} looks
-                  </p>
+                  <p className="mt-1 text-sm text-ink-muted">{season.count} looks</p>
                 </div>
               </Link>
             ))}
