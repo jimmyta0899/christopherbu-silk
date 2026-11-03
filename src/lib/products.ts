@@ -270,7 +270,7 @@ export const products: Product[] = [
     ],
     image: "/christopherbu-silk/products/satin.webp",
     imageAlt:
-      "Satin silk fabric rolls in ivory and soft pastel shades for bridal and eveningwear wholesale",
+      "Mulberry silk satin fabric with a high-gloss face and fluid drape, shown in deep red",
     specs: [
       { label: "Type", value: "Mulberry silk satin (crepe-back satin, 5-end weave)" },
       { label: "Momme", value: "12 / 16 / 19 / 22 / 25–30 mm" },
@@ -333,7 +333,7 @@ export const products: Product[] = [
     ],
     image: "/christopherbu-silk/products/jacquard-luo.webp",
     imageAlt:
-      "Jacquard luo silk fabric swatches with woven motifs in multiple colourways for couture",
+      "Jacquard luo silk fabric with tone-on-tone woven scroll motifs in ivory for couture",
     specs: [
       { label: "Type", value: "Mulberry silk jacquard luo" },
       { label: "Weave", value: "Jacquard (motif woven into the cloth)" },
@@ -464,7 +464,7 @@ export const products: Product[] = [
     ],
     image: "/christopherbu-silk/products/georgette.webp",
     imageAlt:
-      "Georgette silk fabric in soft sheer drape for scarves and flowing summer garments",
+      "Georgette silk fabric in a sheer, semi-transparent black drape for scarves and flowing garments",
     specs: [
       { label: "Type", value: "Mulberry silk georgette" },
       { label: "Momme", value: "8 / 12 mm" },
@@ -524,7 +524,7 @@ export const products: Product[] = [
     ],
     image: "/christopherbu-silk/products/pongee.webp",
     imageAlt:
-      "Pongee silk fabric plain weave with crisp hand for linings and light shirts",
+      "Pongee silk fabric in a light plain weave with soft pearl sheen for linings and light shirts",
     specs: [
       { label: "Type", value: "Mulberry silk pongee (plain weave)" },
       { label: "Momme", value: "8 / 15 mm" },
@@ -583,7 +583,7 @@ export const products: Product[] = [
     ],
     image: "/christopherbu-silk/products/stretch-silk.webp",
     imageAlt:
-      "Silk stretch satin fabric with satin face and comfort stretch for fitted dresses",
+      "Silk stretch satin fabric in a soft knit drape with satin sheen and comfort stretch for fitted dresses",
     specs: [
       { label: "Type", value: "Mulberry silk satin + spandex blend" },
       { label: "Weave", value: "Satin (5-end)" },
@@ -646,7 +646,7 @@ export const products: Product[] = [
     ],
     image: "/christopherbu-silk/products/silk-blend.webp",
     imageAlt:
-      "Silk blend fabric silk-cotton and silk-linen weave for shirts and summer wear",
+      "Silk blend fabric with a soft matte sheen and fine weave for shirts and summer wear",
     specs: [
       { label: "Type", value: "Mulberry silk blended with cotton or linen" },
       { label: "Blends", value: "Silk-cotton, silk-linen (ratio by specification)" },
