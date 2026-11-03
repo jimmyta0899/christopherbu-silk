@@ -90,7 +90,7 @@ export default function HomePage() {
                     className="w-full border border-gold/40 object-cover"
                     fetchPriority="high"
                   />
-                  <figcaption className="mt-3 text-xs leading-relaxed text-ivory/60">
+                  <figcaption className="mt-3 text-base leading-relaxed text-gold-bright">
                     Fan Bingbing in Christopher Bu at the 2015 Met Gala — a
                     gold sequin gown with a silk jacquard cape. Illustration by
                     JiweiJW.
@@ -172,7 +172,7 @@ export default function HomePage() {
           <div className="mx-auto max-w-6xl px-6 py-16 md:py-24">
             <div className="mb-10">
               <h2 className="font-display max-w-2xl text-3xl font-medium text-jade-deep md:text-4xl">
-                From Yizhou looms to the world&apos;s red carpets.
+                From local looms to the world&apos;s red carpets.
               </h2>
               <p className="mt-3 max-w-2xl text-base text-ink-soft">
                 Stories of the silk we source — from the longevity town that
@@ -191,7 +191,7 @@ export default function HomePage() {
                   <div className="w-28 shrink-0 self-start overflow-hidden md:w-32">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
-                      src={`/christopherbu-silk/blog/${item.image}`}
+                      src={`/christopherbu-silk/${item.image}`}
                       alt={item.imageAlt}
                       loading="lazy"
                       className="aspect-[3/4] w-full object-cover transition-transform duration-500 group-hover:scale-105"

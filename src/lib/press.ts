@@ -18,27 +18,27 @@ export type PressItem = {
 const pressSlugs: { slug: string; image: string; imageAlt: string }[] = [
   {
     slug: "yizhou-mulberry-silk-longevity-to-world",
-    image: "yizhou-riverside-dawn.webp",
+    image: "blog/yizhou-riverside-dawn.webp",
     imageAlt:
       "The Xiajian River valley in Yizhou at dawn, the mulberry silk growing region",
   },
   {
     slug: "paz-vega-hand-embroidered-silk-oscars",
-    image: "paz-vega-oscars-rcfa.webp",
+    image: "couture/white-plum-gown.webp",
     imageAlt:
-      "Paz Vega in the Christopher Bu Snow Plum Blossom gown on the 2018 Oscars red carpet",
+      "A white mulberry silk gown with red plum-blossom embroidery, echoing the hand-embroidered Snow Plum Blossom dress",
   },
   {
     slug: "forbidden-city-silk-jacquard-fan-bingbing",
-    image: "fan-bingbing-forbidden-city-cape.webp",
+    image: "blog/fan-bingbing-forbidden-city-cape.webp",
     imageAlt:
       "Fan Bingbing in the Christopher Bu Forbidden City jacquard cape at the 2015 Met Gala",
   },
   {
     slug: "christopher-bu-couture-house-profile",
-    image: "fan-bingbing-met-gala-illustration.webp",
+    image: "blog/fan-bingbing-paris-stamp-skirt.webp",
     imageAlt:
-      "Fan Bingbing in a gold sequin gown with silk jacquard cape by Christopher Bu at the 2015 Met Gala",
+      "Fan Bingbing in a Christopher Bu silk ensemble against the Eiffel Tower in Paris",
   },
 ];
 
