@@ -26,7 +26,7 @@ export const faqs: FaqItem[] = [
   },
   {
     q: "What products do you supply?",
-    a: "Ten core silk categories: mulberry raw silk (filature silk), greige fabric, dupioni, satin, jacquard luo, GOTS-certified organic silk, georgette, pongee, stretch silk (silk-spandex) and blended silk (silk-cotton / silk-linen) — supplied greige or dyed to order.",
+    a: "Ten core silk categories: mulberry raw silk (filature silk), greige fabric, dupioni, satin, jacquard luo, GOTS-certified organic silk, georgette, pongee, silk stretch satin (silk-spandex) and blended silk (silk-cotton / silk-linen) — supplied greige or dyed to order.",
   },
   {
     q: "Who do you supply?",

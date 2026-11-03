@@ -79,9 +79,9 @@ const productMatrix = [
     desc: "Plain-weave silk with a crisp hand for linings, scarves and light shirts.",
   },
   {
-    name: "Stretch Silk",
+    name: "Silk Stretch Satin",
     href: "/products/stretch-silk",
-    desc: "Silk-spandex blend (90–95% silk) in 16–19 momme for comfort and fit.",
+    desc: "Satin-weave silk-spandex blend (90–95% silk) in 16–19 momme for comfort and fit.",
   },
   {
     name: "Blended Silk",

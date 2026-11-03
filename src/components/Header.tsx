@@ -10,7 +10,7 @@ const products = [
   { href: "/products/organic-silk", label: "Organic Silk", external: false },
   { href: "/products/georgette", label: "Georgette", external: false },
   { href: "/products/pongee", label: "Pongee", external: false },
-  { href: "/products/stretch-silk", label: "Stretch Silk", external: false },
+  { href: "/products/stretch-silk", label: "Silk Stretch Satin", external: false },
   { href: "/products/blended-silk", label: "Blended Silk", external: false },
 ];
 
