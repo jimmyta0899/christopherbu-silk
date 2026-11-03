@@ -90,7 +90,7 @@ export default function AboutPage() {
               },
               {
                 t: "Transparent trade",
-                d: "Clear terms, verifiable certification, and honest specifications — no retail, B2B only.",
+                d: "Clear terms, verifiable certification, and honest specifications.",
               },
             ].map((v) => (
               <div key={v.t} className="border border-line p-7">

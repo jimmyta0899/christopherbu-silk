@@ -61,9 +61,8 @@ export default function TradeTermsPage() {
           Export terms: FOB Qinzhou, FCA Yizhou, FOB Shanghai.
         </h1>
         <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-soft">
-          Clear, transparent trade terms for B2B silk sourcing. No retail, no
-          online checkout — except the {`$${siteConfig.trade.swatchFee}`} sample
-          book.
+          Clear, transparent trade terms for silk sourcing — including the{" "}
+          {`$${siteConfig.trade.swatchFee}`} sample book.
         </p>
 
         <div className="mt-14 space-y-8">

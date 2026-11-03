@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { siteConfig } from "@/lib/site-config";
+import { faqs } from "@/lib/faq";
 
 export const metadata: Metadata = {
   title: "FAQ — Sourcing Mulberry Silk from Yizhou",
@@ -15,33 +16,6 @@ export const metadata: Metadata = {
     "sustainable silk fabric B2B",
   ],
 };
-
-const faqs = [
-  {
-    q: "Where is the fabric sourced?",
-    a: "All mulberry silk fabric is sourced from Yizhou, Guangxi, China — known as the world's raw silk capital, with 30+ years of sericulture and degumming expertise.",
-  },
-  {
-    q: "What is the minimum order quantity (MOQ)?",
-    a: "Swatch books start at $25 (credited on your first order). Bulk MOQ ranges from 50m for plain weaves to 200m for custom jacquard.",
-  },
-  {
-    q: "What are the export terms?",
-    a: "Swatches ship FOB Shanghai (5–7 days). Bulk orders ship FOB Qinzhou or FCA Yizhou (20–25 days). Payment is T/T 30% deposit, 70% against Bill of Lading.",
-  },
-  {
-    q: "Are OEKO-TEX or GOTS certifications available?",
-    a: "Yes, held by our local mill in Yizhou. Certificate numbers are provided with your quotation and shipping documents.",
-  },
-  {
-    q: "What products do you supply?",
-    a: "Three core products: mulberry raw silk (filature silk) in 20/22 denier, greige silk fabric (undyed, ready for your own dyeing and finishing), and douppioni silk with its signature slub texture.",
-  },
-  {
-    q: "Do you sell retail?",
-    a: "No. We are a B2B supplier only — we serve mills, brands and ateliers, not end consumers. Bulk orders below 50m are not accepted (swatch books excepted).",
-  },
-];
 
 const jsonLd = {
   "@context": "https://schema.org",

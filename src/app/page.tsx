@@ -4,6 +4,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { featuredProducts } from "@/lib/products";
 import { pressItems } from "@/lib/press";
+import { faqs } from "@/lib/faq";
 import { siteConfig } from "@/lib/site-config";
 
 export default function HomePage() {
@@ -53,8 +54,7 @@ export default function HomePage() {
                   world&apos;s most-watched red-carpet silk gowns. Now the
                   brand brings that same eye for silk to its own line of
                   Yizhou mulberry raw silk, greige fabric and douppioni — for
-                  textile mills, brands and designers worldwide. No retail, B2B
-                  only.
+                  textile mills, brands and designers worldwide.
                 </p>
                 <p className="mt-4 max-w-2xl text-base leading-relaxed text-ivory/70">
                   From our roots in Yizhou — the world&apos;s largest raw silk
@@ -101,15 +101,47 @@ export default function HomePage() {
 
         {/* 核心产品 */}
         <section className="mx-auto max-w-6xl px-6 py-12 md:py-16">
-          <div className="mb-10">
-            <h2 className="font-display text-3xl font-medium text-jade-deep md:text-4xl">
-              Three primary silk products
-            </h2>
-            <p className="mt-3 max-w-2xl text-base text-ink-soft">
-              Our core supply spans the three grades and forms buyers request
-              most: raw silk for weaving, greige fabric for finishing, and
-              douppioni for structured couture.
-            </p>
+          <div className="mb-10 grid gap-8 md:grid-cols-[1fr_auto] md:items-center">
+            <div>
+              <h2 className="font-display text-3xl font-medium text-jade-deep md:text-4xl">
+                Three primary silk products
+              </h2>
+              <p className="mt-3 max-w-2xl text-base text-ink-soft">
+                Our core supply spans the three grades and forms buyers request
+                most: raw silk for weaving, greige fabric for finishing, and
+                douppioni for structured couture.
+              </p>
+              <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink-soft">
+                All of it comes from Yizhou, in Guangxi, China — the world&apos;s
+                largest raw silk origin, holding the country&apos;s top ranking
+                for mulberry field area, cocoon output and raw silk production
+                for over two decades. Its raw silk regularly reaches 5A and 6A
+                grades, the highest quality tiers.
+              </p>
+              <p className="mt-4 text-sm text-ink-muted">
+                &ldquo;世界桑蚕看中国，中国桑蚕看宜州&rdquo; — World
+                sericulture looks to China; China&apos;s sericulture looks to
+                Yizhou.
+              </p>
+            </div>
+            <div className="grid grid-cols-2 gap-4">
+              {[
+                { n: "5A / 6A", l: "Raw silk grades achieved" },
+                { n: "20+ yrs", l: "No.1 silk county ranking" },
+                { n: "20/22D", l: "Standard raw silk denier" },
+                { n: "OEKO-TEX / GOTS", l: "Certification available on request" },
+              ].map((s) => (
+                <div
+                  key={s.l}
+                  className="border border-gold/70 bg-jade p-6 text-ivory"
+                >
+                  <p className="font-display text-3xl font-semibold text-gold-bright">
+                    {s.n}
+                  </p>
+                  <p className="mt-2 text-sm text-ivory/85">{s.l}</p>
+                </div>
+              ))}
+            </div>
           </div>
 
           <div className="grid gap-8 md:grid-cols-3">
@@ -174,45 +206,39 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* 产地背书：绿色块 + 金边 */}
-        <section className="mx-auto max-w-6xl px-6 py-16 md:py-24">
-          <div className="grid gap-10 md:grid-cols-2 md:items-center">
-            <div>
-              <h2 className="font-display text-3xl font-medium text-jade-deep md:text-4xl">
-                Yizhou: the world&apos;s largest raw silk origin.
-              </h2>
-              <p className="mt-5 text-base leading-relaxed text-ink-soft">
-                Yizhou, in Guangxi, China, has held the country&apos;s top
-                ranking for mulberry field area, cocoon output and raw silk
-                production for over two decades. Its raw silk regularly reaches
-                5A and 6A grades, the highest quality tiers, and supplies
-                leading luxury brands worldwide.
-              </p>
-              <p className="mt-4 text-sm text-ink-muted">
-                &ldquo;世界桑蚕看中国，中国桑蚕看宜州&rdquo; — World
-                sericulture looks to China; China&apos;s sericulture looks to
-                Yizhou.
-              </p>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              {[
-                { n: "5A / 6A", l: "Raw silk grades achieved" },
-                { n: "20+ yrs", l: "No.1 silk county ranking" },
-                { n: "20/22D", l: "Standard raw silk denier" },
-                { n: "B2B", l: "Trade only, no retail" },
-              ].map((s) => (
-                <div
-                  key={s.l}
-                  className="border border-gold/70 bg-jade p-6 text-ivory"
-                >
-                  <p className="font-display text-3xl font-semibold text-gold-bright">
-                    {s.n}
-                  </p>
-                  <p className="mt-2 text-sm text-ivory/85">{s.l}</p>
-                </div>
-              ))}
-            </div>
+        {/* FAQ 索引 */}
+        <section className="mx-auto max-w-6xl px-6 py-16 md:py-20">
+          <div className="mb-8">
+            <h2 className="font-display text-3xl font-medium text-jade-deep md:text-4xl">
+              Sourcing silk from Yizhou, answered.
+            </h2>
+            <p className="mt-3 max-w-2xl text-base text-ink-soft">
+              The questions our B2B buyers ask most — sourcing, MOQ, export
+              terms and certification.
+            </p>
           </div>
+          <div className="grid gap-4 md:grid-cols-2">
+            {faqs.map((f) => (
+              <Link
+                key={f.q}
+                href="/faq"
+                className="group border border-line bg-ivory-deep p-6 transition-colors hover:border-gold"
+              >
+                <h3 className="text-base font-semibold text-jade-deep group-hover:text-jade">
+                  {f.q}
+                </h3>
+                <p className="mt-2 text-sm leading-relaxed text-ink-soft">
+                  {f.a}
+                </p>
+              </Link>
+            ))}
+          </div>
+          <Link
+            href="/faq"
+            className="mt-6 inline-block text-sm font-medium text-gold transition-transform hover:translate-x-1"
+          >
+            View all FAQs →
+          </Link>
         </section>
 
         {/* CTA：深绿底 + 内嵌金边画框 */}

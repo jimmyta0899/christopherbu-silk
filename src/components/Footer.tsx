@@ -97,7 +97,7 @@ export function Footer() {
             © 2026 {siteConfig.name}. All rights reserved.
           </p>
           <p>
-            Sourced from local mills · No retail · B2B only
+            Sourced from local mills · OEKO-TEX & GOTS available on request
           </p>
         </div>
       </div>
