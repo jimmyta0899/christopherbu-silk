@@ -167,6 +167,60 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* Why Us：B2B 批发采购核心风险解决方案 */}
+        <section className="bg-ivory-deep">
+          <div className="mx-auto max-w-6xl px-6 py-16 md:py-24">
+            <div className="mb-12">
+              <h2 className="font-display max-w-3xl text-3xl font-medium text-jade-deep md:text-4xl">
+                Why us: built to solve core B2B wholesale sourcing risks.
+              </h2>
+              <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink-soft">
+                Five areas address the key wholesale procurement demands:
+                coordinated vertical supply, broad product-category coverage,
+                applicable certification documentation, ethnic product
+                differentiation and responsive custom-order review.
+              </p>
+            </div>
+
+            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+              {[
+                {
+                  t: "Unique Supply Chain",
+                  d: "Coordinated vertical industrial chain covering mulberry resources, silkworm cocoon sourcing, raw silk reeling, fabric weaving and finishing — all in one local area.",
+                },
+                {
+                  t: "Complete Product Portfolio",
+                  d: "Full product portfolio including 6A Grade raw silk, silk fabrics, supporting bulk raw material supply, and finished private label and wholesale orders.",
+                },
+                {
+                  t: "Extensive Industry Immersion",
+                  d: "From looms to red carpet, our expertise in textiles, production, fashion design and retail makes us unparalleled in this role.",
+                },
+                {
+                  t: "Documented Compliance Review",
+                  d: "Available GOTS, OEKO-TEX Standard 100 Class II, China Organic and ISO files support buyer review within their stated scope and validity. Order applicability is confirmed in writing.",
+                },
+                {
+                  t: "Flexible Cooperation",
+                  d: "Diversified flexible cooperation modes: in-stock bulk wholesale, custom private label OEM, full ODM development and high-end limited-edition customized production.",
+                },
+              ].map((item) => (
+                <div
+                  key={item.t}
+                  className="border border-line bg-ivory p-8 transition-colors hover:border-gold"
+                >
+                  <h3 className="font-display text-xl font-medium text-jade-deep">
+                    {item.t}
+                  </h3>
+                  <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+                    {item.d}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* 精选故事（Press） */}
         <section className="border-y border-gold/40 bg-ivory-deep">
           <div className="mx-auto max-w-6xl px-6 py-16 md:py-24">
