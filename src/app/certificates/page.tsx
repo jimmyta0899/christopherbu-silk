@@ -5,12 +5,13 @@ import { Footer } from "@/components/Footer";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Certifications — OEKO-TEX & GOTS",
+  title: "Certifications — OEKO-TEX, GOTS & Organic Silk",
   description:
-    "Our local mill in Yizhou holds OEKO-TEX STANDARD 100 and GOTS certification. Certificate numbers are provided with quotation and shipping documents.",
+    "Our local mill in Yizhou holds OEKO-TEX STANDARD 100 and GOTS certification, including GOTS-certified organic silk (GOTS-30270, ECOCERT). Certificate numbers provided with quotation.",
   keywords: [
     "OEKO-TEX 100 silk fabric",
     "GOTS certified silk fabric B2B",
+    "organic silk GOTS certified",
     "silk fabric quality inspection",
     "Yizhou silk certification",
   ],
@@ -54,8 +55,24 @@ export default function CertificatesPage() {
               requirements.
             </p>
             <p className="mt-3 text-sm font-medium text-gold">
-              Held by our local mill; certificate number provided on
-              quotation.
+              Certified by ECOCERT Greenlife SAS — GOTS license no. GOTS-30270,
+              valid to 2027-10-19. Certificate number provided on quotation.
+            </p>
+          </div>
+
+          <div className="border border-line p-8">
+            <h2 className="font-display text-2xl font-medium text-jade-deep">
+              GOTS-Certified Organic Silk
+            </h2>
+            <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+              Our organic mulberry silk is certified 100% organic across the
+              full process — boiling, pre-treatment, spinning and weaving —
+              supplied as raw silk, greige yarns and greige fabrics.
+            </p>
+            <p className="mt-3 text-sm font-medium text-gold">
+              GOTS license no. GOTS-30270, valid to 2027-10-19. Verify the
+              certification on the GOTS public database with the certificate
+              number provided on your quotation.
             </p>
           </div>
         </div>

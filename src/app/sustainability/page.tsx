@@ -54,6 +54,19 @@ export default function SustainabilityPage() {
               {siteConfig.certifications.gots.note}
             </p>
           </div>
+          <div className="border border-line p-8 md:col-span-2">
+            <h2 className="font-display text-2xl font-medium text-jade-deep">
+              {siteConfig.certifications.gotsOrganic.label}
+            </h2>
+            <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+              Our mulberry silk is available GOTS-certified organic, covering
+              the full process — boiling, pre-treatment, spinning and weaving —
+              as 100% organic raw silk, greige yarns and greige fabrics.
+            </p>
+            <p className="mt-3 text-sm text-ink-muted">
+              {siteConfig.certifications.gotsOrganic.note}
+            </p>
+          </div>
         </div>
 
         <section className="mt-14 border-t border-line pt-10">
@@ -69,6 +82,10 @@ export default function SustainabilityPage() {
               {
                 q: "Can you provide OEKO-TEX or GOTS certification?",
                 a: "Certification is held by our local mills. The certificate number is provided with your quotation, so you can verify it independently before ordering.",
+              },
+              {
+                q: "Do you supply GOTS-certified organic silk?",
+                a: "Yes. Our organic mulberry silk is certified by ECOCERT Greenlife SAS under GOTS license no. GOTS-30270, valid to October 2027, covering 100% organic raw silk, greige yarns and greige fabrics.",
               },
               {
                 q: "Is the silk traceable to origin?",

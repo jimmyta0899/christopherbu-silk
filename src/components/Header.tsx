@@ -7,6 +7,7 @@ const products = [
   { href: "/products/dupioni", label: "Dupioni", external: false },
   { href: "/products/satin", label: "Satin", external: false },
   { href: "/products/jacquard-luo", label: "Jacquard Luo", external: false },
+  { href: "/products/organic-silk", label: "Organic Silk", external: false },
 ];
 
 // RTW 下拉：站内 /rtw 路由，指向本地迁移的季节系列

@@ -21,8 +21,12 @@ export const faqs: FaqItem[] = [
     a: "Yes, held by our local mill in Yizhou. Certificate numbers are provided with your quotation and shipping documents.",
   },
   {
+    q: "Do you supply GOTS-certified organic silk?",
+    a: "Yes. Our organic mulberry silk is certified by ECOCERT Greenlife SAS under GOTS license no. GOTS-30270, valid to October 2027, covering 100% organic raw silk, greige yarns and greige fabrics.",
+  },
+  {
     q: "What products do you supply?",
-    a: "Three core products: mulberry raw silk (filature silk) in 20/22 denier, silk fabric supplied greige or dyed to order, and dupioni silk with its signature slub texture.",
+    a: "Six core products: mulberry raw silk (filature silk) in 20/22 denier, greige silk fabric, dupioni silk, satin silk, jacquard luo and GOTS-certified organic silk — supplied greige or dyed to order.",
   },
   {
     q: "Who do you supply?",

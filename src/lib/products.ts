@@ -10,7 +10,7 @@ export type Product = {
   h1: string;
   metaDescription: string;
   introAnswer: string; // 40-60 字直接答案（GEO 关键）
-  category: "raw-silk" | "greige-fabric" | "dupioni" | "satin" | "jacquard-luo";
+  category: "raw-silk" | "greige-fabric" | "dupioni" | "satin" | "jacquard-luo" | "organic-silk";
   featured: boolean;
   // 长尾关键词（落地到 meta keywords + 内链锚文本）
   keywords: string[];
@@ -64,6 +64,7 @@ export const products: Product[] = [
       { label: "Standard", value: "GB/T 1797-2008" },
       { label: "Color", value: "Natural white; dyed to order from a standard shade card or your custom colour" },
       { label: "Moisture", value: "Max 11%" },
+      { label: "Organic", value: "GOTS-certified organic raw silk available (GOTS-30270)" },
       { label: "Packaging", value: "Export cartons / bales (60 kg per bale typical)" },
       { label: "MOQ", value: "By order — contact for quotation" },
     ],
@@ -123,6 +124,7 @@ export const products: Product[] = [
       { label: "Momme", value: "12 / 16 / 19 / 30 mm" },
       { label: "Width", value: "114 cm / 140 cm" },
       { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
+      { label: "Organic", value: "GOTS-certified organic greige fabric available (GOTS-30270)" },
       { label: "MOQ", value: "50–200 m by item — contact for quotation" },
     ],
     useCases: [
@@ -342,6 +344,72 @@ export const products: Product[] = [
       {
         q: "Is your jacquard silk available in colour?",
         a: "Yes. Jacquard luo is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom colour matching, including multi-colour jacquard where the motif and ground are woven in different colours.",
+      },
+    ],
+  },
+  {
+    slug: "organic-silk",
+    name: "Organic Silk",
+    title:
+      "Christopher Bu GOTS-Certified Organic Silk Raw Silk & Greige Fabric — ECOCERT GOTS-30270 Yizhou Silk Supplier",
+    h1: "GOTS-Certified Organic Silk",
+    metaDescription:
+      "Source GOTS-certified organic mulberry silk from Yizhou, China — raw silk and greige fabric, certified organic by ECOCERT Greenlife SAS (GOTS-30270). For brands with organic sourcing requirements. B2B bulk supply.",
+    introAnswer:
+      "We supply GOTS-certified organic mulberry silk — raw silk and greige fabric — certified by ECOCERT Greenlife SAS under GOTS license no. GOTS-30270, valid to October 2027.",
+    category: "organic-silk",
+    featured: true,
+    keywords: [
+      "organic silk",
+      "GOTS certified silk",
+      "organic mulberry silk",
+      "organic raw silk",
+      "organic silk fabric wholesale",
+      "GOTS certified silk supplier",
+      "organic silk yarn",
+      "eco silk fabric B2B",
+      "Yizhou organic silk",
+    ],
+    body: [
+      "Organic silk is mulberry silk grown and processed to the Global Organic Textile Standard (GOTS), which covers every stage from the organic mulberry cultivation through boiling, spinning and weaving to the finished fabric. It is the silk buyers choose when their brand or market requires verifiable organic status — not just a soft sustainability claim, but a certified one.",
+      "Our organic silk is certified by ECOCERT Greenlife SAS under GOTS license no. GOTS-30270, valid to October 2027. The scope covers the full silk process — boiling, pre-treatment, spinning and weaving — and the certified products are 100% organic silk: raw silk, greige yarns and greige fabrics.",
+      "We supply organic silk both as raw silk (filature silk for your own weaving) and as greige fabric, supplied undyed or dyed to order from a standard shade card or your custom colour. Certification status is confirmed against the current certificate scope before quotation, so you can verify it independently.",
+    ],
+    image: "/christopherbu-silk/products/organic-silk.webp",
+    imageAlt:
+      "GOTS-certified organic mulberry silk cocoons and raw silk hanks from Yizhou",
+    specs: [
+      { label: "Certification", value: "GOTS (Global Organic Textile Standard)" },
+      { label: "License no.", value: "GOTS-30270 (ECOCERT Greenlife SAS)" },
+      { label: "Validity", value: "To 2027-10-19" },
+      { label: "Scope", value: "Boiling, pre-treatment, spinning, weaving" },
+      { label: "Organic content", value: "100% organic silk" },
+      { label: "Forms", value: "Raw silk (filature silk), greige yarns, greige fabrics" },
+      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
+      { label: "MOQ", value: "By order — contact for quotation" },
+    ],
+    useCases: [
+      "Brands with organic sourcing requirements",
+      "Eco-conscious fashion & ateliers",
+      "Private-label organic lines",
+      "Textile mills weaving organic silk",
+    ],
+    faq: [
+      {
+        q: "What is organic silk?",
+        a: "Organic silk is mulberry silk grown and processed to the Global Organic Textile Standard (GOTS), covering organic mulberry cultivation and every processing stage from boiling and spinning to weaving. It carries verifiable organic certification rather than a soft sustainability claim.",
+      },
+      {
+        q: "Is your organic silk GOTS certified?",
+        a: "Yes. Our organic silk is certified by ECOCERT Greenlife SAS under GOTS license no. GOTS-30270, valid to October 2027. The certified scope covers boiling, pre-treatment, spinning and weaving, with 100% organic silk content.",
+      },
+      {
+        q: "What forms does your organic silk come in?",
+        a: "Organic silk is supplied as raw silk (filature silk), greige yarns and greige fabrics. It is available greige (undyed) or dyed to order from a standard shade card or your custom colour.",
+      },
+      {
+        q: "Can I verify the GOTS certification independently?",
+        a: "Yes. The certificate number is provided with your quotation so you can verify the certification, scope and validity on the GOTS public database before ordering.",
       },
     ],
   },

@@ -42,6 +42,10 @@ export const siteConfig = {
       label: "GOTS (Global Organic Textile Standard)",
       note: "held by local mill; certificate number provided on quotation",
     },
+    gotsOrganic: {
+      label: "GOTS-Certified Organic Silk",
+      note: "Certified by ECOCERT Greenlife SAS — GOTS license no. GOTS-30270, valid to 2027-10-19",
+    },
   },
   // 贸易条款
   trade: {

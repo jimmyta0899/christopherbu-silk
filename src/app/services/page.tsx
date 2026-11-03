@@ -63,6 +63,11 @@ const productMatrix = [
     href: "/products/jacquard-luo",
     desc: "Silk with motifs woven into the cloth, including custom pattern development.",
   },
+  {
+    name: "Organic Silk",
+    href: "/products/organic-silk",
+    desc: "GOTS-certified organic silk (GOTS-30270) — raw silk and greige fabric for brands with organic requirements.",
+  },
 ];
 
 const customDimensions = [
@@ -138,7 +143,7 @@ export default function ServicesPage() {
             Silk product matrix
           </h2>
           <p className="mt-3 max-w-2xl text-sm leading-relaxed text-ink-soft">
-            Five silk categories, each with custom width, colour and pattern
+            Six silk categories, each with custom width, colour and pattern
             development where the weave allows.
           </p>
           <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
