@@ -39,7 +39,7 @@ const rtwSeasons = [
 // 导航结构
 const nav = [
   { href: "/products", label: "Products", children: products },
-  { href: "/rtw", label: "Couture" },
+  { href: "/couture", label: "Couture" },
   { href: "/rtw", label: "RTW", children: rtwSeasons },
   { href: "/about", label: "About" },
   { href: "/blog", label: "Blog" },
