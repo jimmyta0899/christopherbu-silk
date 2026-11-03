@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { featuredProducts } from "@/lib/products";
@@ -80,13 +79,16 @@ export default function HomePage() {
               </div>
               <div className="relative md:justify-self-end">
                 <figure className="w-full max-w-md">
-                  <Image
-                    src="/christopherbu-silk/blog/fan-bingbing-met-gala-illustration.webp"
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/christopherbu-silk/blog/fan-bingbing-met-gala-illustration-640.webp"
+                    srcSet="/christopherbu-silk/blog/fan-bingbing-met-gala-illustration-640.webp 640w, /christopherbu-silk/blog/fan-bingbing-met-gala-illustration.webp 1080w"
+                    sizes="(max-width: 768px) 640px, 1080px"
                     alt="Fan Bingbing wearing a gold sequin gown with a silk jacquard cape by Christopher Bu at the 2015 Met Gala"
                     width={1080}
                     height={1080}
                     className="w-full border border-gold/40 object-cover"
-                    priority
+                    fetchPriority="high"
                   />
                   <figcaption className="mt-3 text-xs leading-relaxed text-ivory/60">
                     Fan Bingbing in Christopher Bu at the 2015 Met Gala — a

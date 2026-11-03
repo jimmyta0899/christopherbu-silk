@@ -473,6 +473,38 @@ export const blogPosts: BlogPost[] = [
         },
       },
       {
+        heading: "Frequently asked questions",
+        body: "The questions buyers ask most often about douppioni, answered directly.",
+      },
+      {
+        heading: "What makes douppioni different from other silk?",
+        level: 3,
+        body: "The slub. Two silkworms spin one cocoon and their filaments tangle, leaving thick-and-thin slubs in the yarn. Woven plain, those slubs give the cloth a visible, irregular texture that flat crepe cannot match.",
+      },
+      {
+        heading: "What weights and widths do you supply douppioni in?",
+        level: 3,
+        body: "We supply greige douppioni in 19, 23, 30 and 40 momme, in 90, 114 and 140 cm widths. The 19 momme weight is the standard for gowns.",
+      },
+      {
+        heading: "Do I need to allow for shrinkage?",
+        level: 3,
+        body: "Yes. Allow about 5% shrinkage in the cutting block, because the slub is part of the weave. A cutter builds the allowance into the block before cutting.",
+      },
+      {
+        heading: "What did Fan Bingbing wear in douppioni?",
+        level: 3,
+        body: "Two Christopher Bu pieces in 2013: a stamp-printed umbrella skirt photographed in Paris, and a spring/summer 2013 plaid ensemble worn to the Skiptrace press conference in Cannes.",
+      },
+      {
+        heading: "Conclusion",
+        body: "Douppioni is the clearest example of how a silk's texture comes from its yarn, not its finish. Two silkworms, one cocoon, and the slubs that result are what give the cloth its structure and its play of light. For a buyer, the lesson is simple: specify the weight, the width, and the grade up front, and confirm the slub character on a swatch before you commit to meters.",
+        links: [
+          { text: "douppioni silk greige", href: "/products/douppioni" },
+          { text: "request a swatch book", href: "/samples" },
+        ],
+      },
+      {
         heading: "Specifying your order",
         level: 3,
         body: "Specify the weight, the width, and the quantity you need. Order the swatch book first, at $25 credited against your first bulk order, and confirm the slub character and hand before you commit to meters. Full specs and MOQ are on the douppioni silk product page. Read about us for the company behind the supply, or contact the B2B team directly.",
