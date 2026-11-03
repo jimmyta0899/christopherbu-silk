@@ -52,18 +52,21 @@ export const products: Product[] = [
     ],
     body: [
       "As a Yizhou raw silk supplier, we ship 20/22 denier mulberry raw silk — also called filature silk or white raw silk — directly to weaving and knitting mills and textile manufacturers worldwide. The 5A and 6A grades we source are the same tiers demanded by luxury fashion houses for warp and weft that must hold tension and take colour evenly.",
-      "If you are a fashion designer or brand sourcing raw silk for weaving, hand and evenness are what separate a smooth production run from a costly one. Our raw silk yarn export from China is graded to GB/T 1797-2008, with moisture controlled below 11% and packaging sized for containerised, export-ready bales.",
+      "Raw silk begins with the Bombyx mori silkworm, which feeds only on mulberry leaves and spins a single continuous filament. Each cocoon is boiled to soften the sericin gum, then carefully unwound into a thread of 600 to 900 metres. Multiple filaments are then twisted together into the strong, even yarn we grade and ship — which is why raw silk is measured in denier (20/22D), not momme like woven cloth.",
+      "If you are a fashion designer or brand sourcing raw silk for weaving, hand and evenness are what separate a smooth production run from a costly one. Silk is prized for its high breathability, natural moisture-wicking and surprising strength, with low elasticity and little tendency to pill. Our raw silk yarn export from China is graded to GB/T 1797-2008, with moisture controlled below 11% and packaging sized for containerised, export-ready bales.",
     ],
     image: "/christopherbu-silk/products/raw-silk2.webp",
     imageAlt:
       "20/22 denier mulberry raw silk yarn hanks in natural white from Yizhou raw silk supplier",
     specs: [
       { label: "Type", value: "Mulberry raw silk / white filature silk" },
+      { label: "Origin", value: "Bombyx mori silkworm, mulberry-fed" },
       { label: "Denier", value: "20/22D (13/15D, 27/29D on request)" },
       { label: "Grade", value: "4A / 5A / 6A (majority 5A and above)" },
       { label: "Standard", value: "GB/T 1797-2008" },
       { label: "Color", value: "Natural white; dyed to order from a standard shade card or your custom colour" },
       { label: "Moisture", value: "Max 11%" },
+      { label: "Character", value: "Highly breathable, moisture-wicking, strong, low elasticity" },
       { label: "Organic", value: "GOTS-certified organic raw silk available (GOTS-30270)" },
       { label: "Packaging", value: "Export cartons / bales (60 kg per bale typical)" },
       { label: "MOQ", value: "By order — contact for quotation" },
@@ -77,6 +80,18 @@ export const products: Product[] = [
       {
         q: "What grade of mulberry raw silk yarn do you supply?",
         a: "We supply 4A, 5A and 6A grade mulberry raw silk, with the majority at 5A and above — sourced from local mills whose output regularly reaches 5A/6A quality.",
+      },
+      {
+        q: "How is raw silk made?",
+        a: "Raw silk comes from the Bombyx mori silkworm, which feeds on mulberry leaves and spins a single continuous filament. Each cocoon is boiled to soften the sericin gum, then unwound into a thread of 600–900 metres. Several filaments are twisted together into the strong, even yarn that is graded and shipped.",
+      },
+      {
+        q: "What is the difference between denier and momme?",
+        a: "Denier measures silk yarn weight — our raw silk is 20/22 denier. Momme measures the weight of woven silk fabric (e.g. 19 momme). You use denier when buying yarn, and momme when buying cloth.",
+      },
+      {
+        q: "What are the key properties of mulberry raw silk?",
+        a: "Mulberry raw silk is highly breathable and naturally moisture-wicking, with surprising tensile strength, low elasticity and little tendency to pill. These properties make it ideal for warp and weft that must hold tension and take colour evenly.",
       },
       {
         q: "What is the minimum order quantity (MOQ) for raw silk yarn export?",
