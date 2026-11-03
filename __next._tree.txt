@@ -3,4 +3,4 @@
 :HL["/christopherbu-silk/_next/static/media/82450a180bcad83c-s.p.0p-wng2nn8o-p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/christopherbu-silk/blog/fan-bingbing-met-gala-illustration-640.webp","image",{"imageSrcSet":"/christopherbu-silk/blog/fan-bingbing-met-gala-illustration-640.webp 640w, /christopherbu-silk/blog/fan-bingbing-met-gala-illustration.webp 1080w","imageSizes":"(max-width: 768px) 640px, 1080px","fetchPriority":"high"}]
 1:[["children",{"s":"__PAGE__","h":128}]]
-0:{"b":"E--Xr1rQ9T1SOPh7u-YBS","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
+0:{"b":"qOA2OFvDMl18TBC7-N7Tb","t":{"t":{"s":"","h":16,"c":"$Q1"}}}

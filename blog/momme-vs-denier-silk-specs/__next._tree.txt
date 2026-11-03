@@ -5,4 +5,4 @@
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"momme-vs-denier-silk-specs","s":[]},"h":96,"c":"$Q3"}]]
 1:[["children",{"s":"blog","h":64,"c":"$Q2"}]]
-0:{"b":"E--Xr1rQ9T1SOPh7u-YBS","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
+0:{"b":"qOA2OFvDMl18TBC7-N7Tb","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
