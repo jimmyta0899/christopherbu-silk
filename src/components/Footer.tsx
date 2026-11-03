@@ -35,8 +35,8 @@ export function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="/products/douppioni" className="transition-colors hover:text-ivory">
-                Douppioni Silk
+              <Link href="/products/dupioni" className="transition-colors hover:text-ivory">
+                Dupioni Silk
               </Link>
             </li>
             <li>

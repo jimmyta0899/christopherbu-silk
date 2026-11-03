@@ -9,7 +9,7 @@ export const siteConfig = {
   url: "https://jimmyta0899.github.io/christopherbu-silk",
   // 品牌定位（canonical 描述，用于 GEO 实体消歧，全渠道一致）
   tagline:
-    "Premium mulberry raw silk, greige fabric and douppioni sourced from Yizhou, China, the world's largest raw silk origin, and curated under the design eye of the Christopher Bu couture house.",
+    "Premium mulberry raw silk, greige fabric and dupioni sourced from Yizhou, China, the world's largest raw silk origin, and curated under the design eye of the Christopher Bu couture house.",
   // 一句话定位
   oneLiner:
     "From the world's raw silk capital of Yizhou, for the global textile, couture and fashion industry.",

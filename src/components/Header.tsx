@@ -4,7 +4,7 @@ import Image from "next/image";
 const products = [
   { href: "/products/raw-silk", label: "Raw Silk", external: false },
   { href: "/products/greige-fabric", label: "Greige Fabric", external: false },
-  { href: "/products/douppioni", label: "Douppioni", external: false },
+  { href: "/products/dupioni", label: "Dupioni", external: false },
 ];
 
 // RTW 下拉：站内 /rtw 路由，指向本地迁移的季节系列
@@ -92,7 +92,7 @@ export function Header() {
           <Link href="/" className="inline-block">
             <Image
               src="/christopherbu-silk/brand-logo.png"
-              alt="Christopher Bu × Yizhou Silk — Raw Silk · Greige Fabric · Douppioni"
+              alt="Christopher Bu × Yizhou Silk — Raw Silk · Greige Fabric · Dupioni"
               width={454}
               height={82}
               className="h-auto w-56 sm:w-72"

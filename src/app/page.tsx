@@ -52,7 +52,7 @@ export default function HomePage() {
                   Christopher Bu is the couture house behind some of the
                   world&apos;s most-watched red-carpet silk gowns. Now the
                   brand brings that same eye for silk to its own line of
-                  Yizhou mulberry raw silk, greige fabric and douppioni — for
+                  Yizhou mulberry raw silk, greige fabric and dupioni — for
                   textile mills, brands and designers worldwide.
                 </p>
                 <p className="mt-4 max-w-2xl text-base leading-relaxed text-ivory/70">
@@ -111,7 +111,7 @@ export default function HomePage() {
               <p className="mt-3 max-w-2xl text-base text-ink-soft">
                 Our core supply spans the three grades and forms buyers request
                 most: raw silk for weaving, greige fabric for finishing, and
-                douppioni for structured couture.
+                dupioni for structured couture.
               </p>
               <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink-soft">
                 All of it comes from Yizhou, in Guangxi, China — the world&apos;s

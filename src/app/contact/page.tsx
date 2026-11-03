@@ -6,7 +6,7 @@ import { siteConfig } from "@/lib/site-config";
 export const metadata: Metadata = {
   title: "Contact B2B Team — Christopher Bu × Yizhou Silk",
   description:
-    "Contact the Christopher Bu × Yizhou Silk B2B team for raw silk, greige fabric and douppioni sourcing. Tell us your MOQ, deadline and destination.",
+    "Contact the Christopher Bu × Yizhou Silk B2B team for raw silk, greige fabric and dupioni sourcing. Tell us your MOQ, deadline and destination.",
 };
 
 export default function ContactPage() {

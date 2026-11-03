@@ -10,7 +10,7 @@ export type Product = {
   h1: string;
   metaDescription: string;
   introAnswer: string; // 40-60 字直接答案（GEO 关键）
-  category: "raw-silk" | "greige-fabric" | "douppioni";
+  category: "raw-silk" | "greige-fabric" | "dupioni";
   featured: boolean;
   // 长尾关键词（落地到 meta keywords + 内链锚文本）
   keywords: string[];
@@ -145,36 +145,37 @@ export const products: Product[] = [
     ],
   },
   {
-    slug: "douppioni",
-    name: "Douppioni Silk",
+    slug: "dupioni",
+    name: "Dupioni Silk",
     title:
-      "Christopher Bu Greige Silk Douppioni 19mm 140cm for Evening Gowns & Sculptural Tailoring — Swatch FCA Yizhou Silk Supplier",
-    h1: "Douppioni Silk 19mm for Gowns & Sculptural Tailoring",
+      "Christopher Bu Greige Silk Dupioni 19mm 140cm for Evening Gowns & Sculptural Tailoring — Swatch FCA Yizhou Silk Supplier",
+    h1: "Dupioni Silk 19mm for Gowns & Sculptural Tailoring",
     metaDescription:
-      "Source douppioni silk with its signature slub texture from Yizhou, China. Available in 19/23/30/40 momme, 114/140cm. Ideal for evening gowns, bridal and structured couture. B2B bulk supply.",
+      "Source dupioni silk with its signature slub texture from Yizhou, China. Available in 19/23/30/40 momme, 114/140cm. Ideal for evening gowns, bridal and structured couture. B2B bulk supply.",
     introAnswer:
-      "Douppioni silk is a textured mulberry silk with a distinctive slubbed surface, widely used for evening gowns, bridal wear and structured couture garments. Available in 19, 23, 30 and 40 momme.",
-    category: "douppioni",
+      "Dupioni silk is a textured mulberry silk with a distinctive slubbed surface, widely used for evening gowns, bridal wear and structured couture garments. Available in 19, 23, 30 and 40 momme.",
+    category: "dupioni",
     featured: true,
     keywords: [
+      "dupioni silk",
       "douppioni silk",
-      "douppioni silk for evening gowns",
-      "19 momme douppioni",
-      "silk douppioni wholesale",
+      "dupioni silk for evening gowns",
+      "19 momme dupioni",
+      "silk dupioni wholesale",
       "slub silk fabric",
-      "douppioni for bridal",
+      "dupioni for bridal",
       "textured silk for couture",
-      "Yizhou douppioni supplier",
+      "Yizhou dupioni supplier",
     ],
     body: [
-      "Douppioni silk is a textured mulberry silk woven from irregular double-cocoon filaments, giving it the distinctive slubbed surface designers prize. We supply 19 momme douppioni — the most-requested weight for evening gowns and bridal — alongside 23, 30 and 40 momme options in 90, 114 and 140 cm widths.",
-      "Because the slub is part of the weave rather than a flaw, douppioni for bridal and structured couture reads as deliberately luxurious. As a Yizhou douppioni supplier, we ship greige as standard, with shrinkage around 5% accounted for in cutting.",
+      "Dupioni silk is a textured mulberry silk woven from irregular double-cocoon filaments, giving it the distinctive slubbed surface designers prize. We supply 19 momme dupioni — the most-requested weight for evening gowns and bridal — alongside 23, 30 and 40 momme options in 90, 114 and 140 cm widths.",
+      "Because the slub is part of the weave rather than a flaw, dupioni for bridal and structured couture reads as deliberately luxurious. As a Yizhou dupioni supplier, we ship greige as standard, with shrinkage around 5% accounted for in cutting.",
     ],
-    image: "/christopherbu-silk/products/douppioni2.webp",
+    image: "/christopherbu-silk/products/dupioni2.webp",
     imageAlt:
-      "Douppioni silk fabric 19 momme with slub texture for evening gowns and bridal",
+      "Dupioni silk fabric 19 momme with slub texture for evening gowns and bridal",
     specs: [
-      { label: "Type", value: "Douppioni (double-cocoon) mulberry silk" },
+      { label: "Type", value: "Dupioni (double-cocoon) mulberry silk" },
       { label: "Momme", value: "19 / 23 / 30 / 40 mm" },
       { label: "Width", value: "90 cm / 114 cm / 140 cm" },
       { label: "Texture", value: "Slubbed, textured surface" },
@@ -190,16 +191,16 @@ export const products: Product[] = [
     ],
     faq: [
       {
-        q: "What is douppioni silk used for?",
-        a: "Douppioni's slubbed, textured character makes it a favorite for evening gowns, bridal wear and structured garments where the fabric itself is a design feature.",
+        q: "What is dupioni silk used for?",
+        a: "Dupioni's slubbed, textured character makes it a favorite for evening gowns, bridal wear and structured garments where the fabric itself is a design feature.",
       },
       {
-        q: "Is douppioni silk for evening gowns available in colour?",
-        a: "Douppioni is supplied greige (undyed), ready for your own colour and finishing. We do not offer dyeing; this keeps full control of the finished shade in your hands.",
+        q: "Is dupioni silk for evening gowns available in colour?",
+        a: "Dupioni is supplied greige (undyed), ready for your own colour and finishing. We do not offer dyeing; this keeps full control of the finished shade in your hands.",
       },
       {
-        q: "What weights does 19 momme douppioni come in?",
-        a: "Douppioni is woven in 19, 23, 30 and 40 momme. The 19 momme douppioni is the standard entry weight for gowns; heavier weights suit tailored jackets and structured couture.",
+        q: "What weights does 19 momme dupioni come in?",
+        a: "Dupioni is woven in 19, 23, 30 and 40 momme. The 19 momme dupioni is the standard entry weight for gowns; heavier weights suit tailored jackets and structured couture.",
       },
     ],
   },

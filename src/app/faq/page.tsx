@@ -7,7 +7,7 @@ import { faqs } from "@/lib/faq";
 export const metadata: Metadata = {
   title: "FAQ — Sourcing Mulberry Silk from Yizhou",
   description:
-    "Answers on sourcing mulberry raw silk, greige fabric and douppioni from Yizhou, China: MOQ, export terms, lead times and OEKO-TEX & GOTS certification.",
+    "Answers on sourcing mulberry raw silk, greige fabric and dupioni from Yizhou, China: MOQ, export terms, lead times and OEKO-TEX & GOTS certification.",
   keywords: [
     "bulk silk fabric MOQ",
     "silk fabric export China",

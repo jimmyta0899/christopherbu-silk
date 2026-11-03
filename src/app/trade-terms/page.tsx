@@ -27,7 +27,7 @@ const terms = [
     section: "Minimum Order",
     items: [
       { label: "Raw silk", value: "By weight (kg) — contact for quotation" },
-      { label: "Greige / douppioni", value: "50–200 m by item" },
+      { label: "Greige / dupioni", value: "50–200 m by item" },
     ],
   },
   {

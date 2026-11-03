@@ -62,7 +62,7 @@ export default function CouturePage() {
         <section className="mt-14 border-t border-line pt-10">
           <p className="max-w-2xl text-sm leading-relaxed text-ink-muted">
             Explore the raw material behind these silhouettes — premium mulberry
-            raw silk, greige fabric and douppioni, sourced from local mills and
+            raw silk, greige fabric and dupioni, sourced from local mills and
             offered for the global couture and fashion industry.
           </p>
           <div className="mt-6 flex flex-wrap gap-4">

@@ -104,7 +104,7 @@ export const blogPosts: BlogPost[] = [
             ["Sericulture", "Silkworms fed on mulberry leaves spin cocoons", "Fresh cocoons"],
             ["Reeling", "Cocoons reeled into long filament", "20/22 denier raw silk"],
             ["Grading", "Yarn graded to national standard", "4A to 6A grades"],
-            ["Weaving", "Graded yarn woven into cloth", "Greige, jacquard, douppioni"],
+            ["Weaving", "Graded yarn woven into cloth", "Greige, jacquard, dupioni"],
           ],
         },
       },
@@ -130,9 +130,9 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "How Yizhou silk reaches the world's red carpets",
-        body: "This is where the longevity town connects to the label. The mulberry silk woven in Yizhou is the base of the couture gowns Christopher Bu designs. The douppioni cut for Fan Bingbing in 2013 came from this silk base, as did the jacquard of the Forbidden City gown she wore to the 2015 Met Gala and the Snow Plum Blossom dress Paz Vega wore to the 2018 Oscars. The silk does the quiet work in each piece: it holds the shape, carries the motif, and gives the gown its movement, while the design and the craft decide what the world sees. [UNIQUE INSIGHT] The connection runs through three different crafts but one cloth. Douppioni, jacquard, and embroidery all begin from the same reeling and grading, so the consistency of the county shows up as the one thing the three gowns share before the design diverges. A buyer who wants that consistency is really asking for the same origin, not the same style. [ORIGINAL DATA] The label's own production records place the silk for these gowns in Yizhou. What the press photographs of those red-carpet moments do not show is the county behind the cloth, a place that has grown more silk than anywhere else in the country for two decades.",
+        body: "This is where the longevity town connects to the label. The mulberry silk woven in Yizhou is the base of the couture gowns Christopher Bu designs. The dupioni cut for Fan Bingbing in 2013 came from this silk base, as did the jacquard of the Forbidden City gown she wore to the 2015 Met Gala and the Snow Plum Blossom dress Paz Vega wore to the 2018 Oscars. The silk does the quiet work in each piece: it holds the shape, carries the motif, and gives the gown its movement, while the design and the craft decide what the world sees. [UNIQUE INSIGHT] The connection runs through three different crafts but one cloth. Dupioni, jacquard, and embroidery all begin from the same reeling and grading, so the consistency of the county shows up as the one thing the three gowns share before the design diverges. A buyer who wants that consistency is really asking for the same origin, not the same style. [ORIGINAL DATA] The label's own production records place the silk for these gowns in Yizhou. What the press photographs of those red-carpet moments do not show is the county behind the cloth, a place that has grown more silk than anywhere else in the country for two decades.",
         links: [
-          { text: "read the douppioni story", href: "/blog/christopher-bu-couture-house-profile" },
+          { text: "read the dupioni story", href: "/blog/christopher-bu-couture-house-profile" },
           { text: "read the jacquard story", href: "/blog/forbidden-city-silk-jacquard-fan-bingbing" },
           { text: "read the embroidery story", href: "/blog/paz-vega-hand-embroidered-silk-oscars" },
         ],
@@ -141,7 +141,7 @@ export const blogPosts: BlogPost[] = [
         heading: "What this means for a buyer of mulberry silk",
         body: "For a buyer, the origin matters in two ways. First, it explains consistency: a region that rears and reels at this scale, and grades to a national standard, produces a yarn you can specify and reorder. Second, it explains availability: the largest mulberry silk county in the country is the kind of place that can meet a bulk order without improvisation. When you specify silk, name the weight, the weave, and the grade you want, and ask where the silk is from. A supplier who can name the region and the grade is working from a real supply, not a guess.",
         links: [
-          { text: "douppioni silk greige", href: "/products/douppioni" },
+          { text: "dupioni silk greige", href: "/products/dupioni" },
           { text: "request a swatch", href: "/samples" },
           { text: "about us", href: "/about" },
           { text: "contact the B2B team", href: "/contact" },
@@ -239,7 +239,7 @@ export const blogPosts: BlogPost[] = [
           ],
         },
         links: [
-          { text: "douppioni silk greige", href: "/products/douppioni" },
+          { text: "dupioni silk greige", href: "/products/dupioni" },
           { text: "raw silk yarn for weaving", href: "/products/raw-silk" },
         ],
       },
@@ -309,7 +309,7 @@ export const blogPosts: BlogPost[] = [
         heading: "What momme measures",
         body: "**Momme** is a unit of silk fabric weight, equal to about 3.75 grams per square meter. A higher momme means a heavier, more structured cloth, and a lower momme means a lighter, softer one. The number comes from the weight of a standard bolt, and it is the figure a mill quotes when you ask how heavy the silk is[1]. For gowns the useful range is narrow, and it helps to think of it as a band rather than a single number. A 19 momme double crepe is the entry weight, light enough to move and heavy enough to hold a silhouette, while a 22 momme fabric has more presence and is what a structured evening gown wants. Below 19 the cloth starts to feel like a lining; above 30 it reads as a jacket or coat weight. For example, the same dress cut in 19 momme drapes softly, where the 30 momme version stands away from the body.",
         image: {
-          src: "/christopherbu-silk/products/douppioni2.webp",
+          src: "/christopherbu-silk/products/dupioni2.webp",
           alt: "A close view of silk fabric showing the weave that momme weight and denier determine",
           caption:
             "The weave of the silk determines how momme weight and denier yarn read in the hand.",
@@ -330,7 +330,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Matching spec to use",
-        body: "The right weight depends on the job the silk has to do. For a structured gown, choose a heavier momme double crepe or douppioni, because the cloth has to hold a shape without collapsing under its own weight. For an overlay, choose a lighter fabric that drapes instead of standing. For an embroidery base, choose a stable greige, because the ground has to hold still while thread is stitched into it. The rule is simple: match the spec to the end use. A gown cut from overlay-weight silk will not hold its line, and an overlay cut from gown-weight silk will not fall. Naming the end use before you name the weight avoids the most common ordering mistake.",
+        body: "The right weight depends on the job the silk has to do. For a structured gown, choose a heavier momme double crepe or dupioni, because the cloth has to hold a shape without collapsing under its own weight. For an overlay, choose a lighter fabric that drapes instead of standing. For an embroidery base, choose a stable greige, because the ground has to hold still while thread is stitched into it. The rule is simple: match the spec to the end use. A gown cut from overlay-weight silk will not hold its line, and an overlay cut from gown-weight silk will not fall. Naming the end use before you name the weight avoids the most common ordering mistake.",
         table: {
           caption: "Momme weights and their typical uses",
           headers: ["Weight", "Approx. gsm", "Typical use"],
@@ -342,7 +342,7 @@ export const blogPosts: BlogPost[] = [
           ],
         },
         links: [
-          { text: "douppioni silk greige", href: "/products/douppioni" },
+          { text: "dupioni silk greige", href: "/products/dupioni" },
           { text: "raw silk yarn for weaving", href: "/products/raw-silk" },
         ],
       },
@@ -381,37 +381,37 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "christopher-bu-couture-house-profile",
     title:
-      "Douppioni Silk in Practice: From Greige Slub to Exquisite Garments - Fan Bingbing's Story",
+      "Dupioni Silk in Practice: From Greige Slub to Exquisite Garments - Fan Bingbing's Story",
     metaDescription:
-      "How douppioni silk travels from 20/22 denier raw silk in Yizhou to a finished gown. Slub texture, 19/23/30/40 momme weights, 5% shrinkage, and the 2013 Fan Bingbing pieces as proof.",
+      "How dupioni silk travels from 20/22 denier raw silk in Yizhou to a finished gown. Slub texture, 19/23/30/40 momme weights, 5% shrinkage, and the 2013 Fan Bingbing pieces as proof.",
     type: "Material deep-dive",
     publishDate: "2026-10-30",
     keywords: [
-      "douppioni silk fabric supplier",
-      "douppioni silk for evening gowns",
-      "19 momme douppioni greige",
+      "dupioni silk fabric supplier",
+      "dupioni silk for evening gowns",
+      "19 momme dupioni greige",
       "slub silk fabric wholesale",
-      "Yizhou douppioni supplier",
+      "Yizhou dupioni supplier",
     ],
-    anchorTexts: ["douppioni silk for gowns", "19 momme douppioni", "Yizhou douppioni supplier"],
-    linkTo: "/products/douppioni",
+    anchorTexts: ["dupioni silk for gowns", "19 momme dupioni", "Yizhou dupioni supplier"],
+    linkTo: "/products/dupioni",
     intro:
-      "Douppioni is a mulberry silk with a visible, irregular texture. Two silkworms spin one cocoon, their filaments tangle, and the yarn comes off the reel with thick-and-thin slubs along its length. Woven plain, those slubs give a dress structure and a play of light that a flat crepe cannot match. This guide walks the fabric from raw silk to a finished garment, with the 2013 Fan Bingbing pieces as proof of how it performs on a body.",
+      "Dupioni is a mulberry silk with a visible, irregular texture. Two silkworms spin one cocoon, their filaments tangle, and the yarn comes off the reel with thick-and-thin slubs along its length. Woven plain, those slubs give a dress structure and a play of light that a flat crepe cannot match. This guide walks the fabric from raw silk to a finished garment, with the 2013 Fan Bingbing pieces as proof of how it performs on a body.",
     takeaways: [
-      "Douppioni forms when two silkworms spin a single cocoon and the filaments cannot separate cleanly, leaving slubs in the yarn.",
+      "Dupioni forms when two silkworms spin a single cocoon and the filaments cannot separate cleanly, leaving slubs in the yarn.",
       "We supply it as greige in 19, 23, 30 and 40 momme, in 90, 114 and 140 cm widths; 19 momme is the standard gown weight.",
       "Allow about 5% shrinkage because the slub is part of the weave, so a cutter builds it into the block.",
-      "Fan Bingbing wore two Christopher Bu douppioni pieces in 2013, one in Paris and one in Cannes, and the photographs show how the cloth holds a shape.",
+      "Fan Bingbing wore two Christopher Bu dupioni pieces in 2013, one in Paris and one in Cannes, and the photographs show how the cloth holds a shape.",
     ],
     sections: [
       {
         heading: "Step 1: raw silk, reeled and wound",
-        body: "Every douppioni starts as raw silk. In Yizhou, Guangxi, mulberry cocoons are reeled into 20/22 denier filature silk, graded 4A to 6A under GB/T 1797-2008[1], and wound into hanks. This is the same raw silk we supply to weaving mills, and it is the base yarn a douppioni loom feeds on. The quality at this stage sets the ceiling for everything after it. The weights and grades cited here follow the same spec sheet we give buyers, so the numbers match what a mill will quote.",
+        body: "Every dupioni starts as raw silk. In Yizhou, Guangxi, mulberry cocoons are reeled into 20/22 denier filature silk, graded 4A to 6A under GB/T 1797-2008[1], and wound into hanks. This is the same raw silk we supply to weaving mills, and it is the base yarn a dupioni loom feeds on. The quality at this stage sets the ceiling for everything after it. The weights and grades cited here follow the same spec sheet we give buyers, so the numbers match what a mill will quote.",
         image: {
           src: "/christopherbu-silk/products/raw-silk2.webp",
-          alt: "20/22 denier mulberry raw silk yarn hanks in natural white, the base yarn for douppioni silk",
+          alt: "20/22 denier mulberry raw silk yarn hanks in natural white, the base yarn for dupioni silk",
           caption:
-            "20/22 denier raw silk hanks in natural white. This reeled filature silk is the base yarn douppioni begins from.",
+            "20/22 denier raw silk hanks in natural white. This reeled filature silk is the base yarn dupioni begins from.",
         },
         links: [
           { text: "raw silk yarn for weaving", href: "/products/raw-silk" },
@@ -419,19 +419,19 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Step 2: the double-cocoon weave that makes the slub",
-        body: "[ORIGINAL DATA] **Douppioni** is a plain-weave mulberry silk woven from paired-cocoon filaments. Because the two filaments refuse to separate cleanly, the yarn carries thick-and-thin slubs along its length. Woven plain, those slubs become the fabric's signature: a fine irregular rib that reflects light unevenly. The texture is part of the weave, which is why it reads as deliberate and why no two lengths look exactly the same.",
+        body: "[ORIGINAL DATA] **Dupioni** is a plain-weave mulberry silk woven from paired-cocoon filaments. Because the two filaments refuse to separate cleanly, the yarn carries thick-and-thin slubs along its length. Woven plain, those slubs become the fabric's signature: a fine irregular rib that reflects light unevenly. The texture is part of the weave, which is why it reads as deliberate and why no two lengths look exactly the same.",
         image: {
-          src: "/christopherbu-silk/products/douppioni2.webp",
-          alt: "19 momme douppioni silk greige fabric showing the slub texture from the double-cocoon weave",
+          src: "/christopherbu-silk/products/dupioni2.webp",
+          alt: "19 momme dupioni silk greige fabric showing the slub texture from the double-cocoon weave",
           caption:
-            "19 momme douppioni greige. The slub texture in the weave is the fabric's signature, straight off the loom.",
+            "19 momme dupioni greige. The slub texture in the weave is the fabric's signature, straight off the loom.",
         },
       },
       {
         heading: "Step 3: the weights, widths and shrinkage to specify",
-        body: "We supply douppioni as greige, undyed cloth straight off the loom, so your finishing house or atelier controls the color. **Momme** is a silk weight unit; one momme equals about 3.75 grams per square meter. **Slub** is the irregular thick-and-thin texture woven into the cloth. Standard douppioni weights are 19, 23, 30 and 40 momme in 90, 114 and 140 cm widths. The 19 momme douppioni is the entry weight for gowns: light enough to move, heavy enough to hold a silhouette. Because the slub is part of the weave, allow about 5% shrinkage in the cutting block, the hand-wash shrinkage standard for dupioni[2].",
+        body: "We supply dupioni as greige, undyed cloth straight off the loom, so your finishing house or atelier controls the color. **Momme** is a silk weight unit; one momme equals about 3.75 grams per square meter. **Slub** is the irregular thick-and-thin texture woven into the cloth. Standard dupioni weights are 19, 23, 30 and 40 momme in 90, 114 and 140 cm widths. The 19 momme dupioni is the entry weight for gowns: light enough to move, heavy enough to hold a silhouette. Because the slub is part of the weave, allow about 5% shrinkage in the cutting block, the hand-wash shrinkage standard for dupioni[2].",
         table: {
-          caption: "Douppioni weights and their typical uses",
+          caption: "Dupioni weights and their typical uses",
           headers: ["Weight", "Approx. gsm", "Typical use"],
           rows: [
             ["19 momme", "82 gsm", "Dresses, blouses, lining-adjacent gown work"],
@@ -441,50 +441,50 @@ export const blogPosts: BlogPost[] = [
           ],
         },
         links: [
-          { text: "douppioni silk greige", href: "/products/douppioni" },
+          { text: "dupioni silk greige", href: "/products/dupioni" },
         ],
       },
       {
         heading: "Step 4: the cloth on a body, in 2013",
-        body: "In 2013 the Christopher Bu atelier cut two douppioni pieces for the actress Fan Bingbing. The first was a stamp-printed umbrella skirt, photographed in Paris with the Eiffel Tower behind her[3]. The second was a spring/summer 2013 plaid ensemble, worn to the Skiptrace press conference in Cannes[3]. [UNIQUE INSIGHT] Look at how the print sits on the slub, and how the skirts hold their shape. For example, a 19 momme douppioni skirt holds its A-line instead of collapsing, because the slubbed weave resists the drape that flattens a crepe. Both garments appear again on the label's own lookbook models, which confirms them as Christopher Bu product cut from the same douppioni we supply as greige today.",
+        body: "In 2013 the Christopher Bu atelier cut two dupioni pieces for the actress Fan Bingbing. The first was a stamp-printed umbrella skirt, photographed in Paris with the Eiffel Tower behind her[3]. The second was a spring/summer 2013 plaid ensemble, worn to the Skiptrace press conference in Cannes[3]. [UNIQUE INSIGHT] Look at how the print sits on the slub, and how the skirts hold their shape. For example, a 19 momme dupioni skirt holds its A-line instead of collapsing, because the slubbed weave resists the drape that flattens a crepe. Both garments appear again on the label's own lookbook models, which confirms them as Christopher Bu product cut from the same dupioni we supply as greige today.",
         image: {
           src: "/christopherbu-silk/blog/fan-bingbing-paris-stamp-skirt.webp",
-          alt: "Fan Bingbing wearing a Christopher Bu stamp-printed douppioni silk umbrella skirt in Paris, with the Eiffel Tower behind her",
+          alt: "Fan Bingbing wearing a Christopher Bu stamp-printed dupioni silk umbrella skirt in Paris, with the Eiffel Tower behind her",
           caption:
-            "Fan Bingbing in the stamp-printed douppioni silk umbrella skirt, photographed in Paris with the Eiffel Tower behind her. Photo: Sina Fashion (2013)[3].",
+            "Fan Bingbing in the stamp-printed dupioni silk umbrella skirt, photographed in Paris with the Eiffel Tower behind her. Photo: Sina Fashion (2013)[3].",
         },
         secondImage: {
           src: "/christopherbu-silk/blog/fan-bingbing-cannes-plaid-ensemble.webp",
-          alt: "Fan Bingbing wearing a Christopher Bu spring/summer 2013 printed douppioni silk plaid ensemble in Cannes, with Jackie Chan",
+          alt: "Fan Bingbing wearing a Christopher Bu spring/summer 2013 printed dupioni silk plaid ensemble in Cannes, with Jackie Chan",
           caption:
             "Fan Bingbing in the spring/summer 2013 plaid ensemble, at the Skiptrace press conference in Cannes. Photo: Sina Fashion (2013)[3].",
         },
         thirdImage: {
           src: "/christopherbu-silk/blog/fan-bingbing-stamp-print-dress.webp",
-          alt: "Christopher Bu stamp-printed douppioni silk umbrella skirt on the lookbook model",
+          alt: "Christopher Bu stamp-printed dupioni silk umbrella skirt on the lookbook model",
           caption:
-            "The same stamp-printed douppioni skirt on the Christopher Bu lookbook model.",
+            "The same stamp-printed dupioni skirt on the Christopher Bu lookbook model.",
         },
         fourthImage: {
           src: "/christopherbu-silk/blog/fan-bingbing-plaid-silk-ensemble.webp",
-          alt: "Christopher Bu spring/summer 2013 printed douppioni silk plaid ensemble on the lookbook model",
+          alt: "Christopher Bu spring/summer 2013 printed dupioni silk plaid ensemble on the lookbook model",
           caption:
             "The same spring/summer 2013 plaid ensemble on the Christopher Bu lookbook model.",
         },
       },
       {
         heading: "Frequently asked questions",
-        body: "The questions buyers ask most often about douppioni, answered directly.",
+        body: "The questions buyers ask most often about dupioni, answered directly.",
       },
       {
-        heading: "What makes douppioni different from other silk?",
+        heading: "What makes dupioni different from other silk?",
         level: 3,
         body: "The slub. Two silkworms spin one cocoon and their filaments tangle, leaving thick-and-thin slubs in the yarn. Woven plain, those slubs give the cloth a visible, irregular texture that flat crepe cannot match.",
       },
       {
-        heading: "What weights and widths do you supply douppioni in?",
+        heading: "What weights and widths do you supply dupioni in?",
         level: 3,
-        body: "We supply greige douppioni in 19, 23, 30 and 40 momme, in 90, 114 and 140 cm widths. The 19 momme weight is the standard for gowns.",
+        body: "We supply greige dupioni in 19, 23, 30 and 40 momme, in 90, 114 and 140 cm widths. The 19 momme weight is the standard for gowns.",
       },
       {
         heading: "Do I need to allow for shrinkage?",
@@ -492,22 +492,22 @@ export const blogPosts: BlogPost[] = [
         body: "Yes. Allow about 5% shrinkage in the cutting block, because the slub is part of the weave. A cutter builds the allowance into the block before cutting.",
       },
       {
-        heading: "What did Fan Bingbing wear in douppioni?",
+        heading: "What did Fan Bingbing wear in dupioni?",
         level: 3,
         body: "Two Christopher Bu pieces in 2013: a stamp-printed umbrella skirt photographed in Paris, and a spring/summer 2013 plaid ensemble worn to the Skiptrace press conference in Cannes.",
       },
       {
         heading: "Conclusion",
-        body: "Douppioni is the clearest example of how a silk's texture comes from its yarn, not its finish. Two silkworms, one cocoon, and the slubs that result are what give the cloth its structure and its play of light. For a buyer, the lesson is simple: specify the weight, the width, and the grade up front, and confirm the slub character on a swatch before you commit to meters.",
+        body: "Dupioni is the clearest example of how a silk's texture comes from its yarn, not its finish. Two silkworms, one cocoon, and the slubs that result are what give the cloth its structure and its play of light. For a buyer, the lesson is simple: specify the weight, the width, and the grade up front, and confirm the slub character on a swatch before you commit to meters.",
         links: [
-          { text: "douppioni silk greige", href: "/products/douppioni" },
+          { text: "dupioni silk greige", href: "/products/dupioni" },
           { text: "request a swatch", href: "/samples" },
         ],
       },
       {
         heading: "Specifying your order",
         level: 3,
-        body: "Specify the weight, the width, and the quantity you need. Order the swatch first, at $25 credited against your first bulk order, and confirm the slub character and hand before you commit to meters. Full specs and MOQ are on the douppioni silk product page. Read about us for the company behind the supply, or contact the B2B team directly.",
+        body: "Specify the weight, the width, and the quantity you need. Order the swatch first, at $25 credited against your first bulk order, and confirm the slub character and hand before you commit to meters. Full specs and MOQ are on the dupioni silk product page. Read about us for the company behind the supply, or contact the B2B team directly.",
         links: [
           { text: "request a swatch", href: "/samples" },
           { text: "check MOQ and trade terms", href: "/trade-terms" },
@@ -543,7 +543,7 @@ export const blogPosts: BlogPost[] = [
       },
     ],
     methodology:
-      "Methodology: momme, denier and shrinkage figures come from the spec sheet we quote to buyers. Each bracketed number above points to the matching source below, and each source is listed against the single claim it supports. No press article names the fibre of the 2013 dresses; the douppioni attribution rests on the brand's own production records.",
+      "Methodology: momme, denier and shrinkage figures come from the spec sheet we quote to buyers. Each bracketed number above points to the matching source below, and each source is listed against the single claim it supports. No press article names the fibre of the 2013 dresses; the dupioni attribution rests on the brand's own production records.",
   },
   {
     slug: "paz-vega-hand-embroidered-silk-oscars",
@@ -560,7 +560,7 @@ export const blogPosts: BlogPost[] = [
       "silk couture",
     ],
     anchorTexts: ["hand embroidered silk", "mulberry silk embroidery", "silk couture gown"],
-    linkTo: "/products/douppioni",
+    linkTo: "/products/dupioni",
     intro:
       "When the Spanish actress Paz Vega walked the 90th Academy Awards red carpet on March 4, 2018, she wore a strapless white gown covered in large red plum blossoms. The blossoms were not printed and not woven in. They were embroidered onto the mulberry silk by hand, one thread at a time. The dress, named Snow Plum Blossom, was the first Chinese-designed gown on an Oscars red carpet, according to the Global Times[1].",
     takeaways: [
@@ -620,7 +620,7 @@ export const blogPosts: BlogPost[] = [
         heading: "What to specify when you order embroidered silk",
         body: "If you are ordering a similar cloth, pin down four things before you commit. First, the base: ask for the mulberry silk weight and width, so you know what the embroidery is going onto. Second, the embroidery thread and stitch, and whether the work is hand or machine, because that changes the price by a wide margin. Third, the finished yardage, since embroidery work is usually priced on the embroidered area and motif count. Fourth, request a swatch or strike-off before bulk, so the embroidery reads the way you expect under your own light. The safest first step is the same as for any silk order: confirm the hand and the embroidery on a sample before you buy meters.",
         links: [
-          { text: "douppioni silk greige", href: "/products/douppioni" },
+          { text: "dupioni silk greige", href: "/products/dupioni" },
           { text: "request a swatch", href: "/samples" },
           { text: "about us", href: "/about" },
           { text: "contact the B2B team", href: "/contact" },
@@ -694,7 +694,7 @@ export const blogPosts: BlogPost[] = [
       "jacquard vs embroidery",
     ],
     anchorTexts: ["silk jacquard", "mulberry silk jacquard", "jacquard vs embroidery"],
-    linkTo: "/products/douppioni",
+    linkTo: "/products/dupioni",
     intro:
       "At the 2015 Met Gala, themed China: Through the Looking Glass, the actress Fan Bingbing wore a gown whose green and gold cape opened from the back like a set of palace doors. The motif was not painted on and not stitched on. It was woven into the mulberry silk on a jacquard loom, which is the single fact that separates this dress from most of the embroidery people confuse it with.",
     takeaways: [
@@ -731,7 +731,7 @@ export const blogPosts: BlogPost[] = [
         heading: "How a jacquard motif is woven",
         body: "A motif starts as a design, usually a drawing that is translated into a weave plan. The plan tells the loom which warp threads to lift and which to leave down for each row of weft. The raised and lowered threads form the pattern as the cloth grows. Because the motif is in the weave, it survives washing and wear the way a print or a surface embroidery cannot. For example, a gold line woven into a green ground stays level through repeated wear, where a stitched line would lift and catch. For a silk jacquard, the base yarn is mulberry silk, and the motif is woven in the same silk or a contrasting yarn. The density of the weave, the size of the motif repeat, and the weight of the silk are all set before the loom starts, which is why a jacquard order needs those three numbers up front.",
         links: [
-          { text: "douppioni silk greige", href: "/products/douppioni" },
+          { text: "dupioni silk greige", href: "/products/dupioni" },
         ],
       },
       {

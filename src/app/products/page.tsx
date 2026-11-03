@@ -5,9 +5,9 @@ import { Footer } from "@/components/Footer";
 import { products } from "@/lib/products";
 
 export const metadata: Metadata = {
-  title: "Silk Products — Raw Silk, Greige & Douppioni",
+  title: "Silk Products — Raw Silk, Greige & Dupioni",
   description:
-    "Browse Christopher Bu × Yizhou Silk B2B product range: mulberry raw silk (filature silk), greige fabric and douppioni, sourced from Yizhou, China.",
+    "Browse Christopher Bu × Yizhou Silk B2B product range: mulberry raw silk (filature silk), greige fabric and dupioni, sourced from Yizhou, China.",
 };
 
 export default function ProductsPage() {
