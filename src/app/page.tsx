@@ -45,7 +45,7 @@ export default function HomePage() {
             <div className="grid items-center gap-10 md:grid-cols-2">
               <div>
                 <h1 className="font-display max-w-3xl text-4xl font-medium leading-[1.15] md:text-6xl">
-                  Raw silk and greige, sourced from the world&apos;s raw silk
+                  Raw silk and Fabrics, sourced from the world&apos;s Silk
                   capital.
                 </h1>
                 <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ivory/80">
@@ -66,8 +66,7 @@ export default function HomePage() {
                     href="/samples"
                     className="rounded-full bg-gold-bright px-7 py-3.5 text-sm font-semibold text-jade-deep transition-colors hover:bg-ivory"
                   >
-                    Request Sample (${siteConfig.trade.swatchFee} →
-                    credited)
+                    Request Sample
                   </Link>
                   <Link
                     href="/products"
@@ -109,7 +108,7 @@ export default function HomePage() {
                 Three primary silk products
               </h2>
               <p className="mt-3 max-w-2xl text-base text-ink-soft">
-                Our core supply spans the three grades and forms buyers request
+                Our core supply spans the three forms buyers request
                 most: raw silk for weaving, greige fabric for finishing, and
                 dupioni for structured couture.
               </p>
@@ -117,8 +116,8 @@ export default function HomePage() {
                 All of it comes from Yizhou, in Guangxi, China — the world&apos;s
                 largest raw silk origin, holding the country&apos;s top ranking
                 for mulberry field area, cocoon output and raw silk production
-                for over two decades. Its raw silk regularly reaches 5A and 6A
-                grades, the highest quality tiers.
+                for over two decades. Its raw silk is renowned for its
+                consistent, premium quality and even hand.
               </p>
               <p className="mt-4 text-sm text-ink-muted">
                 &ldquo;世界桑蚕看中国，中国桑蚕看宜州&rdquo; — World
@@ -128,10 +127,10 @@ export default function HomePage() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               {[
-                { n: "5A / 6A", l: "Raw silk grades achieved" },
                 { n: "20+ yrs", l: "No.1 silk county ranking" },
-                { n: "20/22D", l: "Standard raw silk denier" },
+                { n: "20/22D", sub: "and more", l: "Standard raw silk denier" },
                 { n: "OEKO-TEX / GOTS", l: "Certification available on request" },
+                { n: "GOTS Organic", l: "Certified organic silk (GOTS-30270)" },
               ].map((s) => (
                 <div
                   key={s.l}
@@ -139,6 +138,11 @@ export default function HomePage() {
                 >
                   <p className="font-display text-3xl font-semibold text-gold-bright">
                     {s.n}
+                    {"sub" in s && s.sub && (
+                      <span className="ml-1 align-middle font-sans text-sm font-normal text-ivory/75">
+                        {s.sub}
+                      </span>
+                    )}
                   </p>
                   <p className="mt-2 text-sm text-ivory/85">{s.l}</p>
                 </div>
@@ -315,12 +319,13 @@ export default function HomePage() {
           <div className="mx-auto max-w-6xl px-6 py-16 md:py-20">
             <div className="border border-gold/50 px-8 py-12 md:px-14">
               <h2 className="font-display max-w-2xl text-3xl font-medium md:text-4xl">
-                Verify hand, grade and color before you commit.
+                Verify hand and color before you commit.
               </h2>
               <p className="mt-4 max-w-xl text-base leading-relaxed text-ivory/75">
-                Order our ${siteConfig.trade.swatchFee} sample, the fee is
-                credited against your first bulk order. Need a custom weave or
-                color? Tell us your MOQ, deadline and destination.
+                Mini fabric swatches are supplied free of material charge after
+                availability is confirmed, and full-size samples are
+                chargeable. Need a custom weave or color? Tell us your MOQ,
+                deadline and destination.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <Link

@@ -91,8 +91,8 @@ export default function ContactPage() {
                 Prefer samples first?
               </h2>
               <p className="mt-2 text-sm text-ink-soft">
-                Order our {`$${siteConfig.trade.swatchFee}`} sample to verify
-                quality before committing.
+                Mini fabric swatches are supplied free of material charge after
+                availability is confirmed; full-size samples are chargeable.
               </p>
               <a
                 href="/samples"

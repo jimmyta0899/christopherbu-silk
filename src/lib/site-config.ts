@@ -60,11 +60,18 @@ export const siteConfig = {
     sampleShipping: "FOB Shanghai, 5–7 days (DHL worldwide, 5 business days)",
     bulkShipping: "FOB Qinzhou / FCA Yizhou (preferred), 20–25 days",
     payment: "T/T 30% deposit, 70% against B/L",
-    swatchFee: 25,
+  },
+  // 样品服务政策
+  samplePolicy: {
+    freeSwatches:
+      "Mini fabric swatches may be supplied without a material charge after availability is confirmed; buyers bear all courier, customs and related international shipping costs (usually DHL) or designated couriers.",
+    chargeableSamples:
+      "Full-size silk fabrics and finished apparel are chargeable. Any sample-fee credit against a later bulk order applies only when stated in the written quotation or pro forma invoice.",
   },
   // 社交媒体
   social: {
     instagram: "https://www.instagram.com/christopherbu_official",
+    whatsapp: "+1-202-579-8256",
   },
 } as const;
 

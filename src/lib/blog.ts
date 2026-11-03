@@ -206,7 +206,7 @@ export const blogPosts: BlogPost[] = [
       "Bulk silk orders ship in 20 to 25 days, not a week, wherever the atelier is.",
       "There is no universal fixed MOQ — small batches (e.g. 50m plain weave) and custom jacquard runs are reference figures, confirmed in the written quotation.",
       "FOB means the supplier covers freight to the named port; you cover insurance and onward shipping.",
-      "A $25 swatch, credited on the first order, is the cheapest way to catch a wrong weight or hand before bulk.",
+      "A free fabric swatch, with the buyer covering shipping, is the cheapest way to catch a wrong weight or hand before bulk.",
     ],
     sections: [
       {
@@ -235,7 +235,7 @@ export const blogPosts: BlogPost[] = [
           rows: [
             ["Plain weave", "≈50m", "Small test batch for hand and weight"],
             ["Custom jacquard", "≈200m", "Loom and card setup spread over the run"],
-            ["Swatch", "$25", "Credited on the first bulk order"],
+            ["Mini swatch", "Free (buyer covers shipping)", "Availability confirmed first"],
           ],
         },
         links: [
@@ -245,7 +245,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "The swatch safety net",
-        body: "A $25 swatch, credited against the first bulk order, lets an atelier verify the hand, the weight, and the weave before committing to meters. It is the cheapest insurance against the expensive kind of rework: cutting hundreds of meters of the wrong cloth because the screen lied about the drape. Color on a screen is a suggestion; color in the hand is a decision. The swatch is where the regional differences stop mattering. An atelier in any country receives the same swatch, checks the same hand, and makes the same call before the loom starts. [UNIQUE INSIGHT] When you check the swatch, check the grade as well as the hand. Mulberry raw silk is graded from 4A to 6A under the national standard GB/T 1797-2008, and a higher grade means a cleaner, more even yarn for the weave[2]. Two suppliers can quote the same weight and still differ on grade, which is why the number is worth asking for.",
+        body: "A mini fabric swatch — supplied without a material charge once availability is confirmed, with the buyer covering courier and customs — lets an atelier verify the hand, the weight, and the weave before committing to meters. It is the cheapest insurance against the expensive kind of rework: cutting hundreds of meters of the wrong cloth because the screen lied about the drape. Color on a screen is a suggestion; color in the hand is a decision. The swatch is where the regional differences stop mattering. An atelier in any country receives the same swatch, checks the same hand, and makes the same call before the loom starts. Full-size silk fabrics and finished apparel are chargeable, and any sample-fee credit against a later bulk order applies only when stated in the written quotation or pro forma invoice.",
         links: [
           { text: "request a swatch", href: "/samples" },
         ],
@@ -507,7 +507,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Specifying your order",
         level: 3,
-        body: "Specify the weight, the width, and the quantity you need. Order the swatch first, at $25 credited against your first bulk order, and confirm the slub character and hand before you commit to meters. Full specs and MOQ are on the dupioni silk product page. Read about us for the company behind the supply, or contact the B2B team directly.",
+        body: "Specify the weight, the width, and the quantity you need. Order the swatch first — mini swatches are supplied free of material charge once availability is confirmed — and confirm the slub character and hand before you commit to meters. Full specs and MOQ are on the dupioni silk product page. Read about us for the company behind the supply, or contact the B2B team directly.",
         links: [
           { text: "request a swatch", href: "/samples" },
           { text: "check MOQ and trade terms", href: "/trade-terms" },
@@ -629,7 +629,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Specifying your order",
         level: 3,
-        body: "Know whether the pattern is woven, printed, or embroidered, and specify the base before you specify the surface. Request the swatch first, at $25 credited against your first bulk order, and confirm the embroidery and hand before you commit to meters.",
+        body: "Know whether the pattern is woven, printed, or embroidered, and specify the base before you specify the surface. Request the swatch first — mini swatches are supplied free of material charge once availability is confirmed — and confirm the embroidery and hand before you commit to meters.",
         links: [
           { text: "request a swatch", href: "/samples" },
           { text: "check MOQ and trade terms", href: "/trade-terms" },

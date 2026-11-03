@@ -6,14 +6,15 @@ import { products } from "@/lib/products";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Request Silk Sample | $25 Credited on First Bulk Order",
+  title: "Sample Service Policy | Free Fabric Swatches & Chargeable Full-Size Samples",
   description:
-    "Order our $25 silk sample to verify hand, grade and color before bulk ordering. The fee is credited against your first bulk order. Worldwide DHL shipping.",
+    "Our sample service policy: mini fabric swatches supplied free of material charge (buyers cover shipping), and full-size silk fabrics and finished apparel are chargeable. B2B worldwide.",
   keywords: [
-    "silk fabric swatch $25",
-    "silk swatch credited on first order",
+    "silk fabric swatch",
+    "free silk swatch",
     "silk fabric hand feel sample",
     "silk sample Yizhou",
+    "silk sample service policy",
   ],
 };
 
@@ -23,20 +24,31 @@ export default function SamplesPage() {
       <Header />
       <main className="mx-auto max-w-6xl px-6 py-16 md:py-20">
         <h1 className="font-display max-w-3xl text-4xl font-medium text-jade-deep md:text-5xl">
-          Order your silk sample — {`$${siteConfig.trade.swatchFee}`},
-          credited on first bulk order.
+          Sample service policy
         </h1>
         <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-soft">
-          Choose 8–12 swatches by product, weight and finish. The{" "}
-          {`$${siteConfig.trade.swatchFee}`} fee covers global DHL shipping and is
-          deducted from your first bulk order.
+          A silk fabric hand-feel sample is the only way to judge drape, slub
+          and luster before you commit to bulk. Here is how our sampling works.
         </p>
-        <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink-soft">
-          A silk fabric hand feel sample is the only way to judge drape, slub
-          and luster before you commit to bulk. Order our silk swatch for{" "}
-          {`$${siteConfig.trade.swatchFee}`} — the full amount is credited on
-          your first bulk order, so the sample is effectively free.
-        </p>
+
+        <div className="mt-12 grid gap-8 md:grid-cols-2">
+          <div className="border border-line p-8">
+            <h2 className="font-display text-2xl font-medium text-jade-deep">
+              Free fabric swatches
+            </h2>
+            <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+              {siteConfig.samplePolicy.freeSwatches}
+            </p>
+          </div>
+          <div className="border border-line p-8">
+            <h2 className="font-display text-2xl font-medium text-jade-deep">
+              Chargeable full-size samples
+            </h2>
+            <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+              {siteConfig.samplePolicy.chargeableSamples}
+            </p>
+          </div>
+        </div>
 
         <div className="mt-14 grid gap-10 md:grid-cols-2">
           {/* 表单 */}
@@ -103,9 +115,9 @@ export default function SamplesPage() {
                 What you receive
               </h3>
               <ul className="mt-4 space-y-2.5 text-sm text-ink-soft">
-                <li>• 8–12 curated swatches by product, weight and finish</li>
+                <li>• Mini swatches by product, weight and finish</li>
                 <li>• Hand, weight and color verification before production</li>
-                <li>• {`$${siteConfig.trade.swatchFee}`} credited against your first bulk order</li>
+                <li>• Full-size samples on request (chargeable)</li>
                 <li>• Global DHL shipping, 5 business days</li>
               </ul>
             </div>

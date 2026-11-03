@@ -42,21 +42,21 @@ export type Product = {
 export const products: Product[] = [
   {
     slug: "raw-silk",
-    name: "Raw Silk Yarn (3 Grades)",
+    name: "Raw Silk Yarn",
     title:
-      "Christopher Bu Raw Silk Yarn 20/22D, Dupion & Luxury Silk — 4A/5A Grades for Weaving & Embroidery | Yizhou Silk Supplier",
+      "Christopher Bu Raw Silk Yarn 20/22D, Dupion & Luxury Silk for Weaving & Embroidery | Yizhou Silk Supplier",
     h1: "Raw Silk Yarn: 20/22D, Dupion & Luxury Silk",
     metaDescription:
-      "Source raw silk yarn from Yizhou, China in three grades — 20/22D white raw silk, natural dupion silk yarn and 1-ply luxury silk yarn, 4A/5A. For weaving, knitting and embroidery. B2B bulk supply.",
+      "Source raw silk yarn from Yizhou, China in three varieties — 20/22D white raw silk, natural dupion silk yarn and 1-ply luxury silk yarn. For weaving, knitting and embroidery. B2B bulk supply.",
     introAnswer:
-      "We supply raw silk yarn in three grades — 20/22 denier white raw silk, natural dupion silk yarn and luxury silk yarn — in 4A and 5A grades, sourced from Yizhou, China, the world's largest raw silk region.",
+      "We supply three varieties of raw silk yarn — 20/22 denier white raw silk, natural dupion silk yarn and luxury silk yarn — sourced from Yizhou, China, the world's largest raw silk region.",
     category: "raw-silk",
     featured: true,
     keywords: [
       "mulberry raw silk yarn",
       "20/22 denier silk",
       "filature silk supplier",
-      "white raw silk 5A 6A",
+      "white raw silk",
       "raw silk for weaving",
       "dupion silk yarn",
       "luxury silk yarn",
@@ -65,19 +65,18 @@ export const products: Product[] = [
       "Yizhou raw silk supplier",
     ],
     body: [
-      "As a Yizhou raw silk supplier, we ship mulberry raw silk yarn — also called filature silk or white raw silk — directly to weaving and knitting mills and textile manufacturers worldwide. We stock three grades of raw silk yarn, so you can source the exact yarn your production needs from a single supplier: 20/22 denier white raw silk, natural dupion silk yarn and luxury silk yarn, in 4A and 5A grades.",
-      "Raw silk begins with the Bombyx mori silkworm, which feeds only on mulberry leaves and spins a single continuous filament. Each cocoon is boiled to soften the sericin gum, then carefully unwound into a thread of 600 to 900 metres. Multiple filaments are then twisted together into the strong, even yarn we grade and ship — which is why raw silk is measured in denier (20/22D), not momme like woven cloth.",
-      "If you are a fashion designer or brand sourcing raw silk for weaving, hand and evenness are what separate a smooth production run from a costly one. Silk is prized for its high breathability, natural moisture-wicking and surprising strength, with low elasticity and little tendency to pill. Our raw silk yarn export from China is graded to GB/T 1797-2008, with moisture controlled below 11% and packaging sized for containerised, export-ready bales.",
+      "As a Yizhou raw silk supplier, we ship mulberry raw silk yarn — also called filature silk or white raw silk — directly to weaving and knitting mills and textile manufacturers worldwide. We stock three varieties of raw silk yarn, so you can source the exact yarn your production needs from a single supplier: 20/22 denier white raw silk, natural dupion silk yarn and luxury silk yarn.",
+      "Raw silk begins with the Bombyx mori silkworm, which feeds only on mulberry leaves and spins a single continuous filament. Each cocoon is boiled to soften the sericin gum, then carefully unwound into a thread of 600 to 900 metres. Multiple filaments are then twisted together into the strong, even yarn we ship — which is why raw silk is measured in denier (20/22D), not momme like woven cloth.",
+      "If you are a fashion designer or brand sourcing raw silk for weaving, hand and evenness are what separate a smooth production run from a costly one. Silk is prized for its high breathability, natural moisture-wicking and surprising strength, with low elasticity and little tendency to pill. Our raw silk yarn export from China is produced to GB/T 1797-2008, with moisture controlled below 11% and packaging sized for containerised, export-ready bales.",
     ],
     image: "/christopherbu-silk/products/raw-silk-20-22d.webp",
     imageAlt:
       "20/22 denier mulberry raw silk yarn in natural white from Yizhou raw silk supplier",
     specs: [
-      { label: "Type", value: "Mulberry raw silk yarn (filature silk) — 3 grades" },
-      { label: "Grades", value: "20/22D white raw silk · Natural dupion silk yarn · Luxury silk yarn" },
+      { label: "Type", value: "Mulberry raw silk yarn (filature silk)" },
+      { label: "Varieties", value: "20/22D white raw silk · Natural dupion silk yarn · Luxury silk yarn" },
       { label: "Origin", value: "Bombyx mori silkworm, mulberry-fed" },
       { label: "Denier", value: "20/22D (13/15D, 27/29D on request)" },
-      { label: "Grade", value: "4A / 5A (majority 5A and above)" },
       { label: "Standard", value: "GB/T 1797-2008" },
       { label: "Color", value: "Natural white or natural dupion; dyed to order from a standard shade card or your custom colour" },
       { label: "Moisture", value: "Max 11%" },
@@ -96,12 +95,12 @@ export const products: Product[] = [
     ],
     faq: [
       {
-        q: "What grades of raw silk yarn do you supply?",
-        a: "We supply three grades of raw silk yarn from a single source: 20/22 denier white raw silk (the precision-graded workhorse for crepe and satin), natural dupion silk yarn (thick, slubbed and unbleached for textured weaving and interior textiles), and luxury silk yarn (1-ply, 20 denier, selected from the finest batches for statement pieces). All are graded 4A or 5A.",
+        q: "What varieties of raw silk yarn do you supply?",
+        a: "We supply three varieties of raw silk yarn from a single source: 20/22 denier white raw silk (the workhorse for crepe and satin), natural dupion silk yarn (thick, slubbed and unbleached for textured weaving and interior textiles), and luxury silk yarn (1-ply, 20 denier, selected from the finest batches for statement pieces).",
       },
       {
         q: "What is 20/22D white raw silk yarn?",
-        a: "20/22D white raw silk is a precision-graded filature silk measured at the 20–22 denier range for ultimate consistency and fineness. It is the standard for silk crepes and satins — weavers value it for creating intricate patterns without adding bulk, and dyers prize its pure white base for accurate colour matching.",
+        a: "20/22D white raw silk is a filature silk measured at the 20–22 denier range for ultimate consistency and fineness. It is the standard for silk crepes and satins — weavers value it for creating intricate patterns without adding bulk, and dyers prize its pure white base for accurate colour matching.",
       },
       {
         q: "What is natural dupion silk yarn?",
@@ -113,7 +112,7 @@ export const products: Product[] = [
       },
       {
         q: "How is raw silk made?",
-        a: "Raw silk comes from the Bombyx mori silkworm, which feeds on mulberry leaves and spins a single continuous filament. Each cocoon is boiled to soften the sericin gum, then unwound into a thread of 600–900 metres. Several filaments are twisted together into the strong, even yarn that is graded and shipped.",
+        a: "Raw silk comes from the Bombyx mori silkworm, which feeds on mulberry leaves and spins a single continuous filament. Each cocoon is boiled to soften the sericin gum, then unwound into a thread of 600–900 metres. Several filaments are twisted together into the strong, even yarn that is wound and shipped.",
       },
       {
         q: "What is the difference between denier and momme?",
@@ -125,11 +124,11 @@ export const products: Product[] = [
       },
       {
         q: "What is the minimum order quantity (MOQ) for raw silk yarn export?",
-        a: "Raw silk is sold by weight, not by the meter. There is no universal fixed MOQ — the reference minimum varies by denier and grade (for example, dupion silk yarn is typically quoted around 10 kg and luxury silk yarn around 5 kg), and the final MOQ and any organic status are confirmed in the written quotation.",
+        a: "Raw silk is sold by weight, not by the meter. There is no universal fixed MOQ — the reference minimum varies by variety (for example, dupion silk yarn is typically quoted around 10 kg and luxury silk yarn around 5 kg), and the final MOQ and any organic status are confirmed in the written quotation.",
       },
       {
         q: "Can I get a raw silk yarn sample before bulk ordering?",
-        a: "Yes. Order our $25 sample to verify hand, grade and color, or request a raw silk sample — the sample fee is credited against your first bulk order.",
+        a: "Yes. Free mini fabric swatches may be supplied after availability is confirmed, and full-size samples are chargeable. See our Sample Service Policy for details.",
       },
     ],
     yarnVariants: [
@@ -137,10 +136,9 @@ export const products: Product[] = [
         key: "20-22d-white",
         name: "20/22D White Raw Silk Yarn",
         description:
-          "A precision-graded filature silk measured at the delicate 20–22 denier range for ultimate consistency and fineness. It is the technical benchmark of modern reeling, with every metre checked for uniformity, and the bright, clean white reflects the high-grade mulberry cocoons it is drawn from. Weavers value this specific denier for its ability to create intricate patterns without adding bulk, and it is the secret ingredient in the world's finest silk crepes — a high-performance yarn for the most demanding weaving, knitting, embroidery and saree projects.",
+          "A filature silk measured at the delicate 20–22 denier range for ultimate consistency and fineness. It is the technical benchmark of modern reeling, with every metre checked for uniformity, and the bright, clean white reflects the fine mulberry cocoons it is drawn from. Weavers value this specific denier for its ability to create intricate patterns without adding bulk, and it is the secret ingredient in the world's finest silk crepes — a high-performance yarn for the most demanding weaving, knitting, embroidery and saree projects.",
         specs: [
           { label: "Denier", value: "20/22D" },
-          { label: "Grade", value: "4A" },
           { label: "Colour", value: "White (bright, clean)" },
           { label: "Usage", value: "Dress material, embroidery, weaving, knitting, sarees, home textile" },
         ],
@@ -243,81 +241,6 @@ export const products: Product[] = [
       {
         q: "What width and weight is your double crepe available in?",
         a: "Standard widths are 114 cm and 140 cm, in 12, 16, 19 and 30 momme. Our greige silk double crepe 19mm is the most-requested for couture and bridal.",
-      },
-    ],
-  },
-  {
-    slug: "dupioni",
-    name: "Dupioni Silk",
-    title:
-      "Christopher Bu Greige Silk Dupioni 19mm 140cm for Evening Gowns & Sculptural Tailoring — Swatch FCA Yizhou Silk Supplier",
-    h1: "Dupioni Silk 19mm for Gowns & Sculptural Tailoring",
-    metaDescription:
-      "Source dupioni silk with its signature slub texture from Yizhou, China. Available in 19/23/30/40 momme, 114/140cm. Ideal for evening gowns, bridal and structured couture. B2B bulk supply.",
-    introAnswer:
-      "Dupioni silk is a textured mulberry silk with a distinctive slubbed surface, widely used for evening gowns, bridal wear and structured couture garments. Available in 19, 23, 30 and 40 momme.",
-    category: "dupioni",
-    featured: true,
-    keywords: [
-      "dupioni silk",
-      "douppioni silk",
-      "dupioni silk for evening gowns",
-      "19 momme dupioni",
-      "silk dupioni wholesale",
-      "slub silk fabric",
-      "dupioni for bridal",
-      "textured silk for couture",
-      "Yizhou dupioni supplier",
-    ],
-    body: [
-      "Silk dupioni is a tightly woven, crisp silk fabric made by pairing a fine standard silk yarn in the warp with an uneven yarn reeled from two or more entangled cocoons in the weft. Those double-cocoon threads — called dupion threads — are thicker and more irregular than standard silk, and that is exactly what creates dupioni's signature look: bold, prominent slubs running across the grain, exceptional body, and a stiff, sculptural drape.",
-      "Dupioni is prized for evening wear, bridal gowns and special-occasion garments, as well as light home decorating. Because the weft and warp are often woven in different colours, it carries a natural two-tone iridescence that shifts as the fabric catches light — a subtle luxury that solid-dyed silks cannot match.",
-      "Traditional, high-quality dupioni is hand-woven, which adds to its characteristic irregularity and heavier weight; more affordable versions are now machine-woven. The white Thai-style silk is a natural fibre, so a finished piece may carry minor variations and irregularities in the weave. These are a mark of a fine silk yarn, not defects, and should not be treated as such.",
-      "We supply 19 momme dupioni — the most-requested weight for gowns and bridal — alongside 23, 30 and 40 momme options in 90, 114 and 140 cm widths. As a Yizhou dupioni supplier, we ship greige as standard, or dyed to order from a standard shade card or your custom colour, with shrinkage around 5% accounted for in cutting.",
-    ],
-    image: "/christopherbu-silk/products/dupioni2.webp",
-    imageAlt:
-      "Dupioni silk fabric 19 momme with slub texture for evening gowns and bridal",
-    specs: [
-      { label: "Type", value: "Dupioni (double-cocoon) mulberry silk" },
-      { label: "Momme", value: "19 / 23 / 30 / 40 mm" },
-      { label: "Width", value: "90 cm / 114 cm / 140 cm" },
-      { label: "Texture", value: "Slubbed, textured surface" },
-      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
-      { label: "Shrinkage", value: "Approx. 5%" },
-      { label: "MOQ", value: "Reference MOQ — no fixed minimum; confirmed in the written quotation" },
-    ],
-    useCases: [
-      "Evening gowns",
-      "Bridal & occasion wear",
-      "Structured couture",
-      "Jackets & tailored pieces",
-      "Light home decorating (draperies, cushions, upholstery)",
-    ],
-    faq: [
-      {
-        q: "What is dupioni silk used for?",
-        a: "Dupioni's slubbed, textured character makes it a favorite for evening gowns, bridal wear and special-occasion garments, as well as light home decorating such as draperies, cushions and upholstery — anywhere the fabric's bold slubs and structured drape are part of the design.",
-      },
-      {
-        q: "Why does dupioni silk have a two-tone, iridescent sheen?",
-        a: "Dupioni's iridescence comes from the weave itself: the warp and weft are often spun in different colours, so the fabric shimmers and shifts between two tones as it catches light. It is a natural quality of the fabric, not an applied finish.",
-      },
-      {
-        q: "Are the slubs and irregularities in dupioni a defect?",
-        a: "No. Dupioni is woven from uneven double-cocoon threads, so minor variations and irregularities are characteristic of a fine silk yarn. They are a signature of the fabric and should not be treated as defects.",
-      },
-      {
-        q: "Is your dupioni hand-woven or machine-woven?",
-        a: "Traditional high-quality dupioni is hand-woven, which adds to its irregular, artisanal character and heavier weight; more affordable versions are machine-woven. Contact our team to confirm the weave for the weight you are sourcing.",
-      },
-      {
-        q: "Is dupioni silk for evening gowns available in colour?",
-        a: "Yes. Dupioni is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom colour matching, so you get the exact shade your collection needs.",
-      },
-      {
-        q: "What weights does 19 momme dupioni come in?",
-        a: "Dupioni is woven in 19, 23, 30 and 40 momme. The 19 momme dupioni is the standard entry weight for gowns; heavier weights suit tailored jackets and structured couture.",
       },
     ],
   },
@@ -764,6 +687,81 @@ export const products: Product[] = [
       {
         q: "Is your silk blend available in colour?",
         a: "Yes. Silk blend is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom colour matching.",
+      },
+    ],
+  },
+  {
+    slug: "dupioni",
+    name: "Dupioni Silk",
+    title:
+      "Christopher Bu Greige Silk Dupioni 12/16/19mm 114/140cm for Evening Gowns & Sculptural Tailoring — Swatch FCA Yizhou Silk Supplier",
+    h1: "Dupioni Silk for Gowns & Sculptural Tailoring",
+    metaDescription:
+      "Source dupioni silk with its signature slub texture from Yizhou, China. Available in 12/16/19 momme, 114/140cm. Ideal for evening gowns, bridal and structured couture. B2B bulk supply.",
+    introAnswer:
+      "Dupioni silk is a textured mulberry silk with a distinctive slubbed surface, widely used for evening gowns, bridal wear and structured couture garments. Available in 12, 16 and 19 momme.",
+    category: "dupioni",
+    featured: true,
+    keywords: [
+      "dupioni silk",
+      "douppioni silk",
+      "dupioni silk for evening gowns",
+      "19 momme dupioni",
+      "silk dupioni wholesale",
+      "slub silk fabric",
+      "dupioni for bridal",
+      "textured silk for couture",
+      "Yizhou dupioni supplier",
+    ],
+    body: [
+      "Silk dupioni is a tightly woven, crisp silk fabric made by pairing a fine standard silk yarn in the warp with an uneven yarn reeled from two or more entangled cocoons in the weft. Those double-cocoon threads — called dupion threads — are thicker and more irregular than standard silk, and that is exactly what creates dupioni's signature look: bold, prominent slubs running across the grain, exceptional body, and a stiff, sculptural drape.",
+      "Dupioni is prized for evening wear, bridal gowns and special-occasion garments, as well as light home decorating. Because the weft and warp are often woven in different colours, it carries a natural two-tone iridescence that shifts as the fabric catches light — a subtle luxury that solid-dyed silks cannot match.",
+      "Traditional, high-quality dupioni is hand-woven, which adds to its characteristic irregularity and heavier weight; more affordable versions are now machine-woven. The white Thai-style silk is a natural fibre, so a finished piece may carry minor variations and irregularities in the weave. These are a mark of a fine silk yarn, not defects, and should not be treated as such.",
+      "We supply 19 momme dupioni — the most-requested weight for gowns and bridal — alongside 12 and 16 momme options in 114 and 140 cm widths. As a Yizhou dupioni supplier, we ship greige as standard, or dyed to order from a standard shade card or your custom colour, with shrinkage around 5% accounted for in cutting.",
+    ],
+    image: "/christopherbu-silk/products/dupioni2.webp",
+    imageAlt:
+      "Dupioni silk fabric 19 momme with slub texture for evening gowns and bridal",
+    specs: [
+      { label: "Type", value: "Dupioni (double-cocoon) mulberry silk" },
+      { label: "Momme", value: "12 / 16 / 19 mm" },
+      { label: "Width", value: "114 cm / 140 cm" },
+      { label: "Texture", value: "Slubbed, textured surface" },
+      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
+      { label: "Shrinkage", value: "Approx. 5%" },
+      { label: "MOQ", value: "Reference MOQ — no fixed minimum; confirmed in the written quotation" },
+    ],
+    useCases: [
+      "Evening gowns",
+      "Bridal & occasion wear",
+      "Structured couture",
+      "Jackets & tailored pieces",
+      "Light home decorating (draperies, cushions, upholstery)",
+    ],
+    faq: [
+      {
+        q: "What is dupioni silk used for?",
+        a: "Dupioni's slubbed, textured character makes it a favorite for evening gowns, bridal wear and special-occasion garments, as well as light home decorating such as draperies, cushions and upholstery — anywhere the fabric's bold slubs and structured drape are part of the design.",
+      },
+      {
+        q: "Why does dupioni silk have a two-tone, iridescent sheen?",
+        a: "Dupioni's iridescence comes from the weave itself: the warp and weft are often spun in different colours, so the fabric shimmers and shifts between two tones as it catches light. It is a natural quality of the fabric, not an applied finish.",
+      },
+      {
+        q: "Are the slubs and irregularities in dupioni a defect?",
+        a: "No. Dupioni is woven from uneven double-cocoon threads, so minor variations and irregularities are characteristic of a fine silk yarn. They are a signature of the fabric and should not be treated as defects.",
+      },
+      {
+        q: "Is your dupioni hand-woven or machine-woven?",
+        a: "Traditional high-quality dupioni is hand-woven, which adds to its irregular, artisanal character and heavier weight; more affordable versions are machine-woven. Contact our team to confirm the weave for the weight you are sourcing.",
+      },
+      {
+        q: "Is dupioni silk for evening gowns available in colour?",
+        a: "Yes. Dupioni is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom colour matching, so you get the exact shade your collection needs.",
+      },
+      {
+        q: "What weights does dupioni silk come in?",
+        a: "Dupioni is woven in 12, 16 and 19 momme. The 19 momme dupioni is the standard weight for gowns and bridal; the lighter 12 and 16 momme weights suit blouses, linings and softer structured pieces.",
       },
     ],
   },

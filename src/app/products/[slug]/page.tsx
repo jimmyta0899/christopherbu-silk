@@ -149,10 +149,10 @@ export default async function ProductPage({ params }: Props) {
         {product.yarnVariants && product.yarnVariants.length > 0 && (
           <section className="mt-12">
             <h2 className="font-display text-2xl font-medium text-jade-deep">
-              Three grades of raw silk yarn
+              Three varieties of raw silk yarn
             </h2>
             <p className="mt-3 max-w-2xl text-sm leading-relaxed text-ink-soft">
-              We stock three grades of raw silk yarn from a single Yizhou
+              We stock three varieties of raw silk yarn from a single Yizhou
               source, so you can specify the exact yarn your production needs.
             </p>
             <div className="mt-6 grid gap-6 md:grid-cols-3">
@@ -263,7 +263,7 @@ export default async function ProductPage({ params }: Props) {
             Request a quotation
           </h2>
           <p className="mt-3 max-w-xl text-sm leading-relaxed text-ink-soft">
-            Tell us your denier or momme, grade, target volume, deadline and
+            Tell us your denier or momme, target volume, deadline and
             destination. Our B2B team will respond with a tailored quotation and
             available certification.
           </p>

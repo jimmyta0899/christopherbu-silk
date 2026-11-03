@@ -10,7 +10,7 @@ export const faqs: FaqItem[] = [
   },
   {
     q: "What is the minimum order quantity (MOQ)?",
-    a: "Swatches start at $25 (credited on your first order). Bulk MOQ ranges from 50m for plain weaves to 200m for custom jacquard.",
+    a: "There is no universal fixed MOQ — trial rolls, custom widths and swatches may be available subject to material, mill and schedule review. The final MOQ and any organic status are confirmed in the written quotation.",
   },
   {
     q: "What are the export terms?",
