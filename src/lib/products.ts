@@ -624,9 +624,10 @@ export const products: Product[] = [
       "Yizhou blended silk supplier",
     ],
     body: [
-      "Blended silk pairs mulberry silk with cotton or linen, combining silk's sheen and softness with the breathability and matte comfort of natural fibers. Silk-cotton leans soft and easy-care, while silk-linen adds texture and a cool, crisp hand for warm-weather wear.",
-      "These blends let you specify the ratio and character you need — more silk for lustre and drape, or more cotton or linen for structure and breathability — so the fabric lands where your collection needs it.",
-      "Blended silk is supplied greige for your own colour development, or dyed to order from a standard shade card or your custom colour.",
+      "Silk blend pairs mulberry silk with cotton or linen, combining silk's sheen and softness with the breathability and matte comfort of natural fibers. Silk-cotton leans soft and easy-care, while silk-linen adds texture and a cool, crisp hand for warm-weather wear.",
+      "The blend ratio sets the character. A 70% cotton / 30% silk blend keeps cotton's breathability at the fore with a subtle silk sheen — ideal for summer blouses and dresses. A 50/50 silk-cotton blend balances softness, lustre and durability for premium shirts and scarves, while higher-silk blends (up to 80% silk) give a lighter, more fluid drape for evening wear and sheer layers.",
+      "Both silk and cotton are natural, biodegradable fibers, so silk blends offer a more responsible alternative to synthetic mixes — breathable, temperature-regulating and gentle on the skin, with silk's natural sheen removing the need for chemical shine finishes.",
+      "Silk blend is supplied greige for your own colour development, or dyed to order from a standard shade card or your custom colour.",
     ],
     image: "/christopherbu-silk/products/silk-blend.webp",
     imageAlt:
@@ -634,28 +635,39 @@ export const products: Product[] = [
     specs: [
       { label: "Type", value: "Mulberry silk blended with cotton or linen" },
       { label: "Blends", value: "Silk-cotton, silk-linen (ratio by specification)" },
+      { label: "Silk-cotton ratios", value: "70/30, 50/50, up to 80% silk" },
       { label: "Width", value: "114 cm / 140 cm" },
       { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
-      { label: "Character", value: "Silk sheen with cotton/linen breathability" },
+      { label: "Character", value: "Silk sheen with cotton/linen breathability, temperature-regulating" },
       { label: "MOQ", value: "50–200 m by item — contact for quotation" },
     ],
     useCases: [
       "Shirts & blouses",
+      "Dresses & skirts",
       "Summer wear",
-      "Casual luxury apparel",
+      "Scarves & accessories",
+      "Bedding & home textiles",
     ],
     faq: [
       {
-        q: "What is blended silk?",
-        a: "Blended silk combines mulberry silk with cotton or linen, pairing silk's sheen and softness with the breathability and matte comfort of natural fibers — silk-cotton for softness, silk-linen for texture and coolness.",
+        q: "What is silk blend fabric?",
+        a: "Silk blend combines mulberry silk with cotton or linen, pairing silk's sheen and softness with the breathability and matte comfort of natural fibers — silk-cotton for softness and easy care, silk-linen for texture and a cool, crisp hand.",
       },
       {
-        q: "Can I specify the blend ratio?",
-        a: "Yes. You can specify the silk-to-cotton or silk-to-linen ratio to control lustre, drape and breathability. Contact our team with your target composition for a quotation.",
+        q: "What blend ratios do you offer?",
+        a: "Common silk-cotton ratios are 70% cotton / 30% silk, 50/50, and higher-silk blends of up to 80% silk. The ratio sets the balance of lustre, drape and breathability, and can be specified to suit your collection.",
       },
       {
-        q: "Is your blended silk available in colour?",
-        a: "Yes. Blended silk is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom colour matching.",
+        q: "What is silk-cotton fabric used for?",
+        a: "Silk-cotton is used across apparel, home textiles and accessories: blouses, dresses, shirts and skirts, scarves and wraps, and high-quality bedding and pillowcases. Higher-cotton blends suit everyday wear, while higher-silk blends suit evening and formal pieces.",
+      },
+      {
+        q: "Is silk blend more sustainable than synthetic blends?",
+        a: "Yes. Both silk and cotton are natural, biodegradable fibers, so silk blends reduce reliance on synthetic fibers and decompose more readily. Silk's natural sheen also removes the need for chemical finishing to add shine.",
+      },
+      {
+        q: "Is your silk blend available in colour?",
+        a: "Yes. Silk blend is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom colour matching.",
       },
     ],
   },
