@@ -2,6 +2,16 @@
 // 规格为行业通用值占位，上线前与工厂核对真实值
 // title 按 6 段公式：品牌背书 + 品类 + 规格 + 场景 + 采购意图 + 产地/贸易条款 + silk fabric supplier
 
+// 生丝三分类子条目（用于 raw-silk 等需要细分类别的产品页）
+export type SilkYarnVariant = {
+  key: string;
+  name: string;
+  description: string;
+  specs: { label: string; value: string }[];
+  image: string;
+  imageAlt: string;
+};
+
 export type Product = {
   slug: string;
   name: string;
@@ -25,19 +35,21 @@ export type Product = {
   useCases: string[];
   // FAQ
   faq: { q: string; a: string }[];
+  // 可选：生丝纱线分类（仅 raw-silk 类产品需要时提供）
+  yarnVariants?: SilkYarnVariant[];
 };
 
 export const products: Product[] = [
   {
     slug: "raw-silk",
-    name: "Mulberry Raw Silk (Filature Silk)",
+    name: "Raw Silk Yarn (3 Grades)",
     title:
-      "Christopher Bu Mulberry Raw Silk Yarn 20/22D 5A for Weaving & Embroidery — Swatch MOQ FOB Qinzhou Yizhou Silk Supplier",
-    h1: "Mulberry Raw Silk Yarn 20/22D for Weaving & Embroidery",
+      "Christopher Bu Raw Silk Yarn 20/22D, Dupion & Luxury Silk — 4A/5A Grades for Weaving & Embroidery | Yizhou Silk Supplier",
+    h1: "Raw Silk Yarn: 20/22D, Dupion & Luxury Silk",
     metaDescription:
-      "Source 20/22 denier mulberry raw silk (filature silk), 4A–6A grade, from Yizhou — the world's largest raw silk origin. OEKO-TEX & GOTS available on request. B2B bulk supply.",
+      "Source raw silk yarn from Yizhou, China in three grades — 20/22D white raw silk, natural dupion silk yarn and 1-ply luxury silk yarn, 4A/5A. For weaving, knitting and embroidery. B2B bulk supply.",
     introAnswer:
-      "We supply 20/22 denier mulberry raw silk (filature silk) in 4A, 5A and 6A grades, sourced directly from Yizhou, China — the world's largest raw silk producing region.",
+      "We supply raw silk yarn in three grades — 20/22 denier white raw silk, natural dupion silk yarn and luxury silk yarn — in 4A and 5A grades, sourced from Yizhou, China, the world's largest raw silk region.",
     category: "raw-silk",
     featured: true,
     keywords: [
@@ -46,40 +58,58 @@ export const products: Product[] = [
       "filature silk supplier",
       "white raw silk 5A 6A",
       "raw silk for weaving",
-      "silk fabric for fashion designer",
+      "dupion silk yarn",
+      "luxury silk yarn",
+      "1 ply silk yarn",
       "raw silk yarn export China",
       "Yizhou raw silk supplier",
     ],
     body: [
-      "As a Yizhou raw silk supplier, we ship 20/22 denier mulberry raw silk — also called filature silk or white raw silk — directly to weaving and knitting mills and textile manufacturers worldwide. The 5A and 6A grades we source are the same tiers demanded by luxury fashion houses for warp and weft that must hold tension and take colour evenly.",
+      "As a Yizhou raw silk supplier, we ship mulberry raw silk yarn — also called filature silk or white raw silk — directly to weaving and knitting mills and textile manufacturers worldwide. We stock three grades of raw silk yarn, so you can source the exact yarn your production needs from a single supplier: 20/22 denier white raw silk, natural dupion silk yarn and luxury silk yarn, in 4A and 5A grades.",
       "Raw silk begins with the Bombyx mori silkworm, which feeds only on mulberry leaves and spins a single continuous filament. Each cocoon is boiled to soften the sericin gum, then carefully unwound into a thread of 600 to 900 metres. Multiple filaments are then twisted together into the strong, even yarn we grade and ship — which is why raw silk is measured in denier (20/22D), not momme like woven cloth.",
       "If you are a fashion designer or brand sourcing raw silk for weaving, hand and evenness are what separate a smooth production run from a costly one. Silk is prized for its high breathability, natural moisture-wicking and surprising strength, with low elasticity and little tendency to pill. Our raw silk yarn export from China is graded to GB/T 1797-2008, with moisture controlled below 11% and packaging sized for containerised, export-ready bales.",
     ],
-    image: "/christopherbu-silk/products/raw-silk2.webp",
+    image: "/christopherbu-silk/products/raw-silk-20-22d.webp",
     imageAlt:
-      "20/22 denier mulberry raw silk yarn hanks in natural white from Yizhou raw silk supplier",
+      "20/22 denier mulberry raw silk yarn in natural white from Yizhou raw silk supplier",
     specs: [
-      { label: "Type", value: "Mulberry raw silk / white filature silk" },
+      { label: "Type", value: "Mulberry raw silk yarn (filature silk) — 3 grades" },
+      { label: "Grades", value: "20/22D white raw silk · Natural dupion silk yarn · Luxury silk yarn" },
       { label: "Origin", value: "Bombyx mori silkworm, mulberry-fed" },
       { label: "Denier", value: "20/22D (13/15D, 27/29D on request)" },
-      { label: "Grade", value: "4A / 5A / 6A (majority 5A and above)" },
+      { label: "Grade", value: "4A / 5A (majority 5A and above)" },
       { label: "Standard", value: "GB/T 1797-2008" },
-      { label: "Color", value: "Natural white; dyed to order from a standard shade card or your custom colour" },
+      { label: "Color", value: "Natural white or natural dupion; dyed to order from a standard shade card or your custom colour" },
       { label: "Moisture", value: "Max 11%" },
       { label: "Character", value: "Highly breathable, moisture-wicking, strong, low elasticity" },
       { label: "Organic", value: "GOTS-certified organic raw silk available (GOTS-30270)" },
-      { label: "Packaging", value: "Export cartons / bales (60 kg per bale typical)" },
+      { label: "Packaging", value: "Export cartons / bales (60 kg per bale typical); luxury silk in 5 kg bundles" },
       { label: "MOQ", value: "By order — contact for quotation" },
     ],
     useCases: [
       "Silk weaving & knitting mills",
       "Textile manufacturers",
+      "Embroidery & handloom",
+      "Sarees & luxury garments",
+      "Home textiles",
       "Luxury brand sourcing teams",
     ],
     faq: [
       {
-        q: "What grade of mulberry raw silk yarn do you supply?",
-        a: "We supply 4A, 5A and 6A grade mulberry raw silk, with the majority at 5A and above — sourced from local mills whose output regularly reaches 5A/6A quality.",
+        q: "What grades of raw silk yarn do you supply?",
+        a: "We supply three grades of raw silk yarn from a single source: 20/22 denier white raw silk (the precision-graded workhorse for crepe and satin), natural dupion silk yarn (thick, slubbed and unbleached for textured weaving and interior textiles), and luxury silk yarn (1-ply, 20 denier, selected from the finest batches for statement pieces). All are graded 4A or 5A.",
+      },
+      {
+        q: "What is 20/22D white raw silk yarn?",
+        a: "20/22D white raw silk is a precision-graded filature silk measured at the 20–22 denier range for ultimate consistency and fineness. It is the standard for silk crepes and satins — weavers value it for creating intricate patterns without adding bulk, and dyers prize its pure white base for accurate colour matching.",
+      },
+      {
+        q: "What is natural dupion silk yarn?",
+        a: "Natural dupion silk yarn is the unbleached, un-dyed form of dupion — left in its natural state with a warm, earthy cocoon tone. It is thick and full of character, with prominent slubs that create a beautiful, random pattern when woven. It is the classic choice for interior textiles such as curtains and lampshades.",
+      },
+      {
+        q: "What is luxury silk yarn?",
+        a: "Luxury silk yarn is curated from the finest batches of the silk harvest — every strand selected for exceptional length and brilliant white sheen. It is a 1-ply, 20 denier yarn treated with extra care during spinning to preserve the silk proteins, designed for statement pieces where quality and radiance are the point.",
       },
       {
         q: "How is raw silk made?",
@@ -87,7 +117,7 @@ export const products: Product[] = [
       },
       {
         q: "What is the difference between denier and momme?",
-        a: "Denier measures silk yarn weight — our raw silk is 20/22 denier. Momme measures the weight of woven silk fabric (e.g. 19 momme). You use denier when buying yarn, and momme when buying cloth.",
+        a: "Denier measures silk yarn weight — our 20/22D raw silk is 20/22 denier. Momme measures the weight of woven silk fabric (e.g. 19 momme). You use denier when buying yarn, and momme when buying cloth.",
       },
       {
         q: "What are the key properties of mulberry raw silk?",
@@ -95,11 +125,62 @@ export const products: Product[] = [
       },
       {
         q: "What is the minimum order quantity (MOQ) for raw silk yarn export?",
-        a: "Raw silk is sold by weight, not by the meter. MOQ varies by denier and grade; contact our B2B team with your target volume for a tailored FOB Qinzhou quotation.",
+        a: "Raw silk is sold by weight, not by the meter. MOQ varies by denier and grade — dupion silk yarn is typically quoted at a 10 kg minimum, luxury silk yarn at 5 kg. Contact our B2B team with your target volume for a tailored FOB Qinzhou quotation.",
       },
       {
-        q: "Can I get a 20/22 denier raw silk sample before bulk ordering?",
+        q: "Can I get a raw silk yarn sample before bulk ordering?",
         a: "Yes. Order our $25 sample to verify hand, grade and color, or request a raw silk sample — the sample fee is credited against your first bulk order.",
+      },
+    ],
+    yarnVariants: [
+      {
+        key: "20-22d-white",
+        name: "20/22D White Raw Silk Yarn",
+        description:
+          "A precision-graded filature silk measured at the delicate 20–22 denier range for ultimate consistency and fineness. It is the technical benchmark of modern reeling, with every metre checked for uniformity, and the bright, clean white reflects the high-grade mulberry cocoons it is drawn from. Weavers value this specific denier for its ability to create intricate patterns without adding bulk, and it is the secret ingredient in the world's finest silk crepes — a high-performance yarn for the most demanding weaving, knitting, embroidery and saree projects.",
+        specs: [
+          { label: "Denier", value: "20/22D" },
+          { label: "Grade", value: "4A" },
+          { label: "Colour", value: "White (bright, clean)" },
+          { label: "Usage", value: "Dress material, embroidery, weaving, knitting, sarees, home textile" },
+        ],
+        image: "/christopherbu-silk/products/raw-silk-20-22d.webp",
+        imageAlt:
+          "20/22 denier white mulberry raw silk yarn with bright clean colour for weaving and embroidery",
+      },
+      {
+        key: "natural-dupion",
+        name: "Natural Dupion Silk Yarn",
+        description:
+          "The natural, unbleached and un-dyed state of dupion silk, with a warm, earthy tone that reflects the actual colour of the silk cocoon before processing. It is thick and full of character, with prominent slubs that weave into a beautiful, seemingly random pattern. It is the quintessential choice for interior design — especially curtains and lampshades that need to diffuse light — and its natural hue brings a grounding, organic feel to any room, celebrating the imperfections of the natural world.",
+        specs: [
+          { label: "Material", value: "Dupion silk yarn (mulberry)" },
+          { label: "Count", value: "20" },
+          { label: "Colour", value: "Natural (unbleached, un-dyed)" },
+          { label: "Usage", value: "Knitting, weaving, interior textiles (curtains, lampshades)" },
+          { label: "MOQ", value: "10 kg" },
+        ],
+        image: "/christopherbu-silk/products/dupion-silk-yarn.webp",
+        imageAlt:
+          "Natural dupion silk yarn skeins in warm earthy unbleached tone for knitting and interior textiles",
+      },
+      {
+        key: "luxury",
+        name: "Luxury Silk Yarn",
+        description:
+          "Curated from the finest batches of the silk harvest for a superior experience, with every strand selected for exceptional length and brilliant white sheen to ensure a high-gloss result. It is treated with extra care during spinning to preserve the integrity of the delicate silk proteins. This yarn is made for statement pieces — garments meant to be noticed for their sheer quality and radiance — draping with a heavy, liquid-like grace that is the hallmark of true high-end luxury silk.",
+        specs: [
+          { label: "Ply", value: "1 ply" },
+          { label: "Count", value: "20" },
+          { label: "Denier", value: "20" },
+          { label: "Colour", value: "White" },
+          { label: "Usage", value: "Weaving, luxury garments, statement pieces" },
+          { label: "Packaging", value: "5 kg bundles" },
+          { label: "MOQ", value: "5 kg" },
+        ],
+        image: "/christopherbu-silk/products/luxury-silk-yarn.webp",
+        imageAlt:
+          "Luxury silk yarn in brilliant white sheen for high-end weaving and statement garments",
       },
     ],
   },

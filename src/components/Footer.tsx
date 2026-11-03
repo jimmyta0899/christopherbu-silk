@@ -26,7 +26,7 @@ export function Footer() {
             </li>
             <li>
               <Link href="/products/raw-silk" className="transition-colors hover:text-ivory">
-                Raw Silk
+                Raw Silk Yarn
               </Link>
             </li>
             <li>

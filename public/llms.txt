@@ -8,7 +8,7 @@ A couture house's red-carpet heritage, applied to raw silk sourcing. We supply t
 
 - [Home](https://jimmyta0899.github.io/christopherbu-silk/): Brand overview, core products, couture heritage and Yizhou origin.
 - [Products](https://jimmyta0899.github.io/christopherbu-silk/products): Full product range overview.
-- [Raw Silk](https://jimmyta0899.github.io/christopherbu-silk/products/raw-silk): 20/22D mulberry raw silk, 4A–6A grade, core product.
+- [Raw Silk Yarn](https://jimmyta0899.github.io/christopherbu-silk/products/raw-silk): Raw silk yarn in three grades — 20/22D white raw silk, natural dupion silk yarn and luxury silk yarn — 4A/5A grade, core product.
 - [Greige Fabric](https://jimmyta0899.github.io/christopherbu-silk/products/greige-fabric): Mulberry silk fabric supplied greige (undyed) or dyed to order (standard shade card / custom colour).
 - [Dupioni](https://jimmyta0899.github.io/christopherbu-silk/products/dupioni): Textured mulberry silk for gowns and eveningwear (also spelled douppioni / doupioni).
 - [Satin](https://jimmyta0899.github.io/christopherbu-silk/products/satin): Lustrous satin silk for bridal, eveningwear and luxury linings.
@@ -29,7 +29,7 @@ A couture house's red-carpet heritage, applied to raw silk sourcing. We supply t
 ## Core facts
 
 - Origin: Yizhou, Guangxi, China — world's largest raw silk producing region.
-- Products: Mulberry raw silk (20/22D, 4A–6A), greige fabric / double crepe (114/140cm, 12/16/19/30 momme), dupioni (19/23/30/40 momme), satin (12/16/19/22/25–30 momme), jacquard luo (custom motifs), GOTS-certified organic silk (GOTS-30270), georgette (8/12 momme), pongee (8/15 momme), stretch silk (16–19 momme, silk-spandex), blended silk (silk-cotton / silk-linen).
+- Products: Mulberry raw silk yarn (three grades: 20/22D white raw silk, natural dupion silk yarn, luxury silk yarn; 4A/5A), greige fabric / double crepe (114/140cm, 12/16/19/30 momme), dupioni (19/23/30/40 momme), satin (12/16/19/22/25–30 momme), jacquard luo (custom motifs), GOTS-certified organic silk (GOTS-30270), georgette (8/12 momme), pongee (8/15 momme), stretch silk (16–19 momme, silk-spandex), blended silk (silk-cotton / silk-linen).
 - Certification: OEKO-TEX Standard 100 and GOTS available on request from local mills. Organic silk certified by ECOCERT Greenlife SAS — GOTS-30270, valid to 2027-10-19.
 - Trade: FOB Qinzhou / FCA Yizhou (bulk), FOB Shanghai (samples). Small orders: PayPal, Stripe, Venmo, Zelle. Bulk: T/T 30% deposit, 70% against B/L.
 - Samples: $25 sample, credited on first bulk order (worldwide DHL shipping).

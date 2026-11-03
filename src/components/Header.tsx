@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 const products = [
-  { href: "/products/raw-silk", label: "Raw Silk", external: false },
+  { href: "/products/raw-silk", label: "Raw Silk Yarn", external: false },
   { href: "/products/greige-fabric", label: "Greige Fabric", external: false },
   { href: "/products/dupioni", label: "Dupioni", external: false },
   { href: "/products/satin", label: "Satin", external: false },

@@ -145,6 +145,54 @@ export default async function ProductPage({ params }: Props) {
           </div>
         </div>
 
+        {/* 生丝纱线三分类（仅 raw-silk 等有 yarnVariants 的产品） */}
+        {product.yarnVariants && product.yarnVariants.length > 0 && (
+          <section className="mt-12">
+            <h2 className="font-display text-2xl font-medium text-jade-deep">
+              Three grades of raw silk yarn
+            </h2>
+            <p className="mt-3 max-w-2xl text-sm leading-relaxed text-ink-soft">
+              We stock three grades of raw silk yarn from a single Yizhou
+              source, so you can specify the exact yarn your production needs.
+            </p>
+            <div className="mt-6 grid gap-6 md:grid-cols-3">
+              {product.yarnVariants.map((v) => (
+                <div
+                  key={v.key}
+                  className="flex flex-col overflow-hidden border border-line"
+                >
+                  <div className="overflow-hidden border-b border-line">
+                    <img
+                      src={v.image}
+                      alt={v.imageAlt}
+                      className="h-44 w-full object-cover"
+                    />
+                  </div>
+                  <div className="flex flex-1 flex-col p-5">
+                    <h3 className="text-base font-semibold text-jade-deep">
+                      {v.name}
+                    </h3>
+                    <p className="mt-2 text-sm leading-relaxed text-ink-soft">
+                      {v.description}
+                    </p>
+                    <dl className="mt-4 border-t border-line pt-3 text-sm">
+                      {v.specs.map((s) => (
+                        <div
+                          key={s.label}
+                          className="flex justify-between gap-3 py-1"
+                        >
+                          <dt className="text-ink-muted">{s.label}</dt>
+                          <dd className="text-right text-ink">{s.value}</dd>
+                        </div>
+                      ))}
+                    </dl>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
         {/* 规格表 */}
         <section className="mt-12">
           <h2 className="font-display text-2xl font-medium text-jade-deep">
