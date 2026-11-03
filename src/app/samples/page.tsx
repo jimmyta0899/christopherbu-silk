@@ -6,14 +6,14 @@ import { products } from "@/lib/products";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Request Silk Sample Book | $25 Credited on First Bulk Order",
+  title: "Request Silk Sample | $25 Credited on First Bulk Order",
   description:
-    "Order our $25 silk sample book to verify hand, grade and color before bulk ordering. The fee is credited against your first bulk order. Worldwide DHL shipping.",
+    "Order our $25 silk sample to verify hand, grade and color before bulk ordering. The fee is credited against your first bulk order. Worldwide DHL shipping.",
   keywords: [
-    "silk fabric swatch book $25",
-    "silk swatch book credited on first order",
+    "silk fabric swatch $25",
+    "silk swatch credited on first order",
     "silk fabric hand feel sample",
-    "silk sample book Yizhou",
+    "silk sample Yizhou",
   ],
 };
 
@@ -23,7 +23,7 @@ export default function SamplesPage() {
       <Header />
       <main className="mx-auto max-w-6xl px-6 py-16 md:py-20">
         <h1 className="font-display max-w-3xl text-4xl font-medium text-jade-deep md:text-5xl">
-          Order your silk sample book — {`$${siteConfig.trade.swatchFee}`},
+          Order your silk sample — {`$${siteConfig.trade.swatchFee}`},
           credited on first bulk order.
         </h1>
         <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-soft">
@@ -33,7 +33,7 @@ export default function SamplesPage() {
         </p>
         <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink-soft">
           A silk fabric hand feel sample is the only way to judge drape, slub
-          and luster before you commit to bulk. Order our silk swatch book for{" "}
+          and luster before you commit to bulk. Order our silk swatch for{" "}
           {`$${siteConfig.trade.swatchFee}`} — the full amount is credited on
           your first bulk order, so the sample is effectively free.
         </p>

@@ -296,7 +296,7 @@ export default async function BlogPostPage({ params }: Props) {
             href="/samples"
             className="mt-6 inline-block rounded-full bg-jade px-7 py-3.5 text-sm font-medium text-ivory transition-colors hover:bg-jade-deep"
           >
-            Request a $25 swatch book
+            Request a $25 swatch
           </Link>
         </div>
       </main>

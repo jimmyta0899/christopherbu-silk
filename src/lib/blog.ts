@@ -142,7 +142,7 @@ export const blogPosts: BlogPost[] = [
         body: "For a buyer, the origin matters in two ways. First, it explains consistency: a region that rears and reels at this scale, and grades to a national standard, produces a yarn you can specify and reorder. Second, it explains availability: the largest mulberry silk county in the country is the kind of place that can meet a bulk order without improvisation. When you specify silk, name the weight, the weave, and the grade you want, and ask where the silk is from. A supplier who can name the region and the grade is working from a real supply, not a guess.",
         links: [
           { text: "douppioni silk greige", href: "/products/douppioni" },
-          { text: "request a swatch book", href: "/samples" },
+          { text: "request a swatch", href: "/samples" },
           { text: "about us", href: "/about" },
           { text: "contact the B2B team", href: "/contact" },
         ],
@@ -189,14 +189,14 @@ export const blogPosts: BlogPost[] = [
     slug: "sourcing-silk-for-ateliers-worldwide",
     title: "Sourcing Silk for Couture Ateliers Worldwide: Lead Times, MOQs and Trade Terms",
     metaDescription:
-      "A practical guide for couture ateliers in Europe, North America and the Middle East sourcing mulberry silk: lead times, MOQ, FOB terms, landed cost and why a swatch book comes first.",
+      "A practical guide for couture ateliers in Europe, North America and the Middle East sourcing mulberry silk: lead times, MOQ, FOB terms, landed cost and why a swatch comes first.",
     type: "Buyer guide",
     publishDate: "2026-11-03",
     keywords: [
       "silk fabric for couture atelier",
       "mulberry silk MOQ",
       "FOB silk fabric",
-      "silk swatch book",
+      "silk swatch",
     ],
     anchorTexts: ["silk sourcing for ateliers", "mulberry silk MOQ", "FOB silk fabric"],
     linkTo: "/trade-terms",
@@ -206,7 +206,7 @@ export const blogPosts: BlogPost[] = [
       "Bulk silk orders ship in 20 to 25 days, not a week, wherever the atelier is.",
       "Plain weaves start at a 50m small batch; custom jacquard needs 200m for the loom setup.",
       "FOB means the supplier covers freight to the named port; you cover insurance and onward shipping.",
-      "A $25 swatch book, credited on the first order, is the cheapest way to catch a wrong weight or hand before bulk.",
+      "A $25 swatch, credited on the first order, is the cheapest way to catch a wrong weight or hand before bulk.",
     ],
     sections: [
       {
@@ -235,7 +235,7 @@ export const blogPosts: BlogPost[] = [
           rows: [
             ["Plain weave", "50m", "Small test batch for hand and weight"],
             ["Custom jacquard", "200m", "Loom and card setup spread over the run"],
-            ["Swatch book", "$25", "Credited on the first bulk order"],
+            ["Swatch", "$25", "Credited on the first bulk order"],
           ],
         },
         links: [
@@ -244,16 +244,16 @@ export const blogPosts: BlogPost[] = [
         ],
       },
       {
-        heading: "The swatch book safety net",
-        body: "A $25 swatch book, credited against the first bulk order, lets an atelier verify the hand, the weight, and the weave before committing to meters. It is the cheapest insurance against the expensive kind of rework: cutting hundreds of meters of the wrong cloth because the screen lied about the drape. Color on a screen is a suggestion; color in the hand is a decision. The swatch is where the regional differences stop mattering. An atelier in any country receives the same book, checks the same hand, and makes the same call before the loom starts. [UNIQUE INSIGHT] When you check the swatch, check the grade as well as the hand. Mulberry raw silk is graded from 4A to 6A under the national standard GB/T 1797-2008, and a higher grade means a cleaner, more even yarn for the weave[2]. Two suppliers can quote the same weight and still differ on grade, which is why the number is worth asking for.",
+        heading: "The swatch safety net",
+        body: "A $25 swatch, credited against the first bulk order, lets an atelier verify the hand, the weight, and the weave before committing to meters. It is the cheapest insurance against the expensive kind of rework: cutting hundreds of meters of the wrong cloth because the screen lied about the drape. Color on a screen is a suggestion; color in the hand is a decision. The swatch is where the regional differences stop mattering. An atelier in any country receives the same swatch, checks the same hand, and makes the same call before the loom starts. [UNIQUE INSIGHT] When you check the swatch, check the grade as well as the hand. Mulberry raw silk is graded from 4A to 6A under the national standard GB/T 1797-2008, and a higher grade means a cleaner, more even yarn for the weave[2]. Two suppliers can quote the same weight and still differ on grade, which is why the number is worth asking for.",
         links: [
-          { text: "request a swatch book", href: "/samples" },
+          { text: "request a swatch", href: "/samples" },
         ],
       },
       {
         heading: "Specifying your order",
         level: 3,
-        body: "Confirm the hand on a swatch, name the volume, and read the landed cost rather than the FOB quote. Treat the swatch book as the first step, not an afterthought.",
+        body: "Confirm the hand on a swatch, name the volume, and read the landed cost rather than the FOB quote. Treat the swatch as the first step, not an afterthought.",
         links: [
           { text: "about us", href: "/about" },
           { text: "contact the B2B team", href: "/contact" },
@@ -351,7 +351,7 @@ export const blogPosts: BlogPost[] = [
         level: 3,
         body: "Name the end use first, whether that is a gown, an overlay, or an embroidery base, then pick the weight that matches and confirm the hand on a swatch before ordering bulk.",
         links: [
-          { text: "request a swatch book", href: "/samples" },
+          { text: "request a swatch", href: "/samples" },
           { text: "about us", href: "/about" },
           { text: "contact the B2B team", href: "/contact" },
         ],
@@ -501,15 +501,15 @@ export const blogPosts: BlogPost[] = [
         body: "Douppioni is the clearest example of how a silk's texture comes from its yarn, not its finish. Two silkworms, one cocoon, and the slubs that result are what give the cloth its structure and its play of light. For a buyer, the lesson is simple: specify the weight, the width, and the grade up front, and confirm the slub character on a swatch before you commit to meters.",
         links: [
           { text: "douppioni silk greige", href: "/products/douppioni" },
-          { text: "request a swatch book", href: "/samples" },
+          { text: "request a swatch", href: "/samples" },
         ],
       },
       {
         heading: "Specifying your order",
         level: 3,
-        body: "Specify the weight, the width, and the quantity you need. Order the swatch book first, at $25 credited against your first bulk order, and confirm the slub character and hand before you commit to meters. Full specs and MOQ are on the douppioni silk product page. Read about us for the company behind the supply, or contact the B2B team directly.",
+        body: "Specify the weight, the width, and the quantity you need. Order the swatch first, at $25 credited against your first bulk order, and confirm the slub character and hand before you commit to meters. Full specs and MOQ are on the douppioni silk product page. Read about us for the company behind the supply, or contact the B2B team directly.",
         links: [
-          { text: "request a swatch book", href: "/samples" },
+          { text: "request a swatch", href: "/samples" },
           { text: "check MOQ and trade terms", href: "/trade-terms" },
           { text: "about us", href: "/about" },
           { text: "contact the B2B team", href: "/contact" },
@@ -621,7 +621,7 @@ export const blogPosts: BlogPost[] = [
         body: "If you are ordering a similar cloth, pin down four things before you commit. First, the base: ask for the mulberry silk weight and width, so you know what the embroidery is going onto. Second, the embroidery thread and stitch, and whether the work is hand or machine, because that changes the price by a wide margin. Third, the finished yardage, since embroidery work is usually priced on the embroidered area and motif count. Fourth, request a swatch or strike-off before bulk, so the embroidery reads the way you expect under your own light. The safest first step is the same as for any silk order: confirm the hand and the embroidery on a sample before you buy meters.",
         links: [
           { text: "douppioni silk greige", href: "/products/douppioni" },
-          { text: "request a swatch book", href: "/samples" },
+          { text: "request a swatch", href: "/samples" },
           { text: "about us", href: "/about" },
           { text: "contact the B2B team", href: "/contact" },
         ],
@@ -629,9 +629,9 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Specifying your order",
         level: 3,
-        body: "Know whether the pattern is woven, printed, or embroidered, and specify the base before you specify the surface. Request the swatch book first, at $25 credited against your first bulk order, and confirm the embroidery and hand before you commit to meters.",
+        body: "Know whether the pattern is woven, printed, or embroidered, and specify the base before you specify the surface. Request the swatch first, at $25 credited against your first bulk order, and confirm the embroidery and hand before you commit to meters.",
         links: [
-          { text: "request a swatch book", href: "/samples" },
+          { text: "request a swatch", href: "/samples" },
           { text: "check MOQ and trade terms", href: "/trade-terms" },
         ],
       },
@@ -761,7 +761,7 @@ export const blogPosts: BlogPost[] = [
         heading: "What to specify when you order a silk jacquard",
         body: "A jacquard order needs three decisions before the loom is set. First, the motif and its repeat size, because the weave plan is built from it. Second, the weave density, which sets how firm or open the cloth is. Third, the silk weight and width, which fix the hand and the yield. A strike-off confirms the motif and density before bulk weaving starts, and it is the point where changes are cheap and later changes are not.",
         links: [
-          { text: "request a swatch book", href: "/samples" },
+          { text: "request a swatch", href: "/samples" },
           { text: "check MOQ and trade terms", href: "/trade-terms" },
           { text: "about us", href: "/about" },
           { text: "contact the B2B team", href: "/contact" },

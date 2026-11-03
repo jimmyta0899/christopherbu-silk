@@ -91,14 +91,14 @@ export default function ContactPage() {
                 Prefer samples first?
               </h2>
               <p className="mt-2 text-sm text-ink-soft">
-                Order our {`$${siteConfig.trade.swatchFee}`} sample book to verify
+                Order our {`$${siteConfig.trade.swatchFee}`} sample to verify
                 quality before committing.
               </p>
               <a
                 href="/samples"
                 className="mt-3 inline-block text-sm font-medium text-gold hover:text-jade"
               >
-                Request Sample Book →
+                Request Sample →
               </a>
             </div>
           </section>

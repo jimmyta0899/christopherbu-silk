@@ -66,7 +66,7 @@ export default function HomePage() {
                     href="/samples"
                     className="rounded-full bg-gold-bright px-7 py-3.5 text-sm font-semibold text-jade-deep transition-colors hover:bg-ivory"
                   >
-                    Request Sample Book (${siteConfig.trade.swatchFee} →
+                    Request Sample (${siteConfig.trade.swatchFee} →
                     credited)
                   </Link>
                   <Link
@@ -251,7 +251,7 @@ export default function HomePage() {
                 Verify hand, grade and color before you commit.
               </h2>
               <p className="mt-4 max-w-xl text-base leading-relaxed text-ivory/75">
-                Order our ${siteConfig.trade.swatchFee} sample book, the fee is
+                Order our ${siteConfig.trade.swatchFee} sample, the fee is
                 credited against your first bulk order. Need a custom weave or
                 color? Tell us your MOQ, deadline and destination.
               </p>
@@ -260,7 +260,7 @@ export default function HomePage() {
                   href="/samples"
                   className="rounded-full bg-gold-bright px-7 py-3.5 text-sm font-semibold text-jade-deep transition-colors hover:bg-ivory"
                 >
-                  Request Sample Book
+                  Request Sample
                 </Link>
                 <Link
                   href="/contact"

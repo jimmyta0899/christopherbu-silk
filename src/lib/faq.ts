@@ -10,7 +10,7 @@ export const faqs: FaqItem[] = [
   },
   {
     q: "What is the minimum order quantity (MOQ)?",
-    a: "Swatch books start at $25 (credited on your first order). Bulk MOQ ranges from 50m for plain weaves to 200m for custom jacquard.",
+    a: "Swatches start at $25 (credited on your first order). Bulk MOQ ranges from 50m for plain weaves to 200m for custom jacquard.",
   },
   {
     q: "What are the export terms?",
@@ -26,6 +26,6 @@ export const faqs: FaqItem[] = [
   },
   {
     q: "Who do you supply?",
-    a: "We work with mills, brands and ateliers on bulk orders from 50m (swatch books are available for smaller needs).",
+    a: "We work with mills, brands and ateliers on bulk orders from 50m (swatches are available for smaller needs).",
   },
 ];

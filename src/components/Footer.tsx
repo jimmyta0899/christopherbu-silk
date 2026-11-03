@@ -41,7 +41,7 @@ export function Footer() {
             </li>
             <li>
               <Link href="/samples" className="transition-colors hover:text-ivory">
-                Sample Book
+                Sample
               </Link>
             </li>
             <li>

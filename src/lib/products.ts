@@ -32,7 +32,7 @@ export const products: Product[] = [
     slug: "raw-silk",
     name: "Mulberry Raw Silk (Filature Silk)",
     title:
-      "Christopher Bu Mulberry Raw Silk Yarn 20/22D 5A for Weaving & Embroidery — Swatch Book MOQ FOB Qinzhou Yizhou Silk Supplier",
+      "Christopher Bu Mulberry Raw Silk Yarn 20/22D 5A for Weaving & Embroidery — Swatch MOQ FOB Qinzhou Yizhou Silk Supplier",
     h1: "Mulberry Raw Silk Yarn 20/22D for Weaving & Embroidery",
     metaDescription:
       "Source 20/22 denier mulberry raw silk (filature silk), 4A–6A grade, from Yizhou — the world's largest raw silk origin. OEKO-TEX & GOTS available on request. B2B bulk supply.",
@@ -83,7 +83,7 @@ export const products: Product[] = [
       },
       {
         q: "Can I get a 20/22 denier raw silk sample before bulk ordering?",
-        a: "Yes. Order our $25 sample book to verify hand, grade and color, or request a raw silk sample — the sample fee is credited against your first bulk order.",
+        a: "Yes. Order our $25 sample to verify hand, grade and color, or request a raw silk sample — the sample fee is credited against your first bulk order.",
       },
     ],
   },
@@ -91,7 +91,7 @@ export const products: Product[] = [
     slug: "greige-fabric",
     name: "Greige Silk Fabric",
     title:
-      "Christopher Bu Greige Silk Double Crepe 19mm 140cm for Couture & Bridal — Swatch Book MOQ FOB Shanghai Yizhou Silk B2B",
+      "Christopher Bu Greige Silk Double Crepe 19mm 140cm for Couture & Bridal — Swatch MOQ FOB Shanghai Yizhou Silk B2B",
     h1: "Greige Silk Double Crepe 19mm for Couture & Bridal",
     metaDescription:
       "Source undyed greige mulberry silk fabric from Yizhou, China — the blank canvas for your own colour and finish. Bulk supply with OEKO-TEX & GOTS available on request.",
@@ -148,7 +148,7 @@ export const products: Product[] = [
     slug: "douppioni",
     name: "Douppioni Silk",
     title:
-      "Christopher Bu Greige Silk Douppioni 19mm 140cm for Evening Gowns & Sculptural Tailoring — Swatch Book FCA Yizhou Silk Supplier",
+      "Christopher Bu Greige Silk Douppioni 19mm 140cm for Evening Gowns & Sculptural Tailoring — Swatch FCA Yizhou Silk Supplier",
     h1: "Douppioni Silk 19mm for Gowns & Sculptural Tailoring",
     metaDescription:
       "Source douppioni silk with its signature slub texture from Yizhou, China. Available in 19/23/30/40 momme, 114/140cm. Ideal for evening gowns, bridal and structured couture. B2B bulk supply.",
