@@ -5,6 +5,8 @@ const products = [
   { href: "/products/raw-silk", label: "Raw Silk", external: false },
   { href: "/products/greige-fabric", label: "Greige Fabric", external: false },
   { href: "/products/dupioni", label: "Dupioni", external: false },
+  { href: "/products/satin", label: "Satin", external: false },
+  { href: "/products/jacquard-luo", label: "Jacquard Luo", external: false },
 ];
 
 // RTW 下拉：站内 /rtw 路由，指向本地迁移的季节系列
@@ -39,6 +41,7 @@ const rtwSeasons = [
 // 导航结构
 const nav = [
   { href: "/products", label: "Products", children: products },
+  { href: "/services", label: "Services" },
   { href: "/couture", label: "Couture" },
   { href: "/rtw", label: "RTW", children: rtwSeasons },
   { href: "/about", label: "About" },

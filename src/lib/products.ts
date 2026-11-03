@@ -10,7 +10,7 @@ export type Product = {
   h1: string;
   metaDescription: string;
   introAnswer: string; // 40-60 字直接答案（GEO 关键）
-  category: "raw-silk" | "greige-fabric" | "dupioni";
+  category: "raw-silk" | "greige-fabric" | "dupioni" | "satin" | "jacquard-luo";
   featured: boolean;
   // 长尾关键词（落地到 meta keywords + 内链锚文本）
   keywords: string[];
@@ -217,6 +217,131 @@ export const products: Product[] = [
       {
         q: "What weights does 19 momme dupioni come in?",
         a: "Dupioni is woven in 19, 23, 30 and 40 momme. The 19 momme dupioni is the standard entry weight for gowns; heavier weights suit tailored jackets and structured couture.",
+      },
+    ],
+  },
+  {
+    slug: "satin",
+    name: "Satin Silk Fabric",
+    title:
+      "Christopher Bu Satin Silk Fabric 16–30mm 114/140cm for Bridal & Eveningwear — Swatch FOB Shanghai Yizhou Silk Supplier",
+    h1: "Satin Silk Fabric for Bridal & Eveningwear",
+    metaDescription:
+      "Source lustrous satin silk fabric from Yizhou, China, in 16/19/22/30 momme and 114/140 cm widths. Supplied greige or dyed to order. Ideal for bridal, eveningwear and luxury linings. B2B bulk supply.",
+    introAnswer:
+      "Satin silk is a lustrous, smooth-faced mulberry silk with a soft sheen and fluid drape, supplied greige or dyed to order from a standard shade card or your custom colour.",
+    category: "satin",
+    featured: true,
+    keywords: [
+      "satin silk fabric",
+      "silk satin wholesale",
+      "satin silk fabric supplier",
+      "bridal satin silk",
+      "charmeuse satin",
+      "19 momme satin silk",
+      "silk satin for eveningwear",
+      "dyed satin silk fabric",
+      "Yizhou satin silk supplier",
+    ],
+    body: [
+      "Satin silk is the silk people picture when they think of liquid lustre: a smooth, glossy face with a soft sheen that slides under the hand and catches light as it moves. It is woven so the warp floats over the weft, which is what gives satin its signature high-gloss front and matt reverse — the same drape and shine that make it the default choice for bridal gowns, eveningwear and luxury linings.",
+      "We supply satin silk fabric in 16, 19, 22 and 30 momme, with the 19 momme satin the most-requested weight for bridal and eveningwear because it balances sheen, body and drape. Standard widths are 114 cm and 140 cm, which suit both garment cutting and soft furnishings.",
+      "Like all our silk, satin is supplied greige for your own colour development, or dyed to order — we offer both a standard shade card and custom colour matching, so the finished shade is exactly what your collection needs.",
+    ],
+    image: "/christopherbu-silk/products/satin.webp",
+    imageAlt:
+      "Satin silk fabric rolls in ivory and soft pastel shades for bridal and eveningwear wholesale",
+    specs: [
+      { label: "Type", value: "Mulberry silk satin (charmeuse)" },
+      { label: "Momme", value: "16 / 19 / 22 / 30 mm" },
+      { label: "Width", value: "114 cm / 140 cm" },
+      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
+      { label: "Character", value: "High-gloss face, soft sheen, fluid drape" },
+      { label: "MOQ", value: "50–200 m by item — contact for quotation" },
+    ],
+    useCases: [
+      "Bridal & evening gowns",
+      "Luxury linings",
+      "Lingerie & sleepwear",
+      "Soft furnishings",
+    ],
+    faq: [
+      {
+        q: "What is satin silk fabric used for?",
+        a: "Satin silk's high-gloss face and fluid drape make it the standard choice for bridal and evening gowns, luxury linings, lingerie and soft furnishings — anywhere a smooth, lustrous silk surface is part of the design.",
+      },
+      {
+        q: "What momme weights does your satin silk come in?",
+        a: "We supply satin silk in 16, 19, 22 and 30 momme. The 19 momme satin is the most-requested for bridal and eveningwear; lighter weights suit linings and lingerie, heavier weights suit structured pieces.",
+      },
+      {
+        q: "Is your satin silk available in colour?",
+        a: "Yes. Satin is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom colour matching, so you get the exact shade your collection needs.",
+      },
+    ],
+  },
+  {
+    slug: "jacquard-luo",
+    name: "Jacquard Luo Silk",
+    title:
+      "Christopher Bu Jacquard Luo Silk Fabric Custom Woven Motifs 19mm for Couture & Occasionwear — Yizhou Silk Supplier",
+    h1: "Jacquard Luo Silk for Couture & Occasionwear",
+    metaDescription:
+      "Source jacquard luo silk fabric from Yizhou, China — a mulberry silk with motifs woven into the cloth on a jacquard loom. Custom pattern development. Ideal for couture and occasionwear. B2B bulk supply.",
+    introAnswer:
+      "Jacquard luo is a mulberry silk with motifs woven directly into the cloth on a jacquard loom, supplied greige or dyed to order, with custom pattern development for couture and occasionwear.",
+    category: "jacquard-luo",
+    featured: true,
+    keywords: [
+      "jacquard silk fabric",
+      "silk jacquard fabric",
+      "jacquard luo silk",
+      "custom jacquard silk",
+      "woven motif silk fabric",
+      "mulberry silk jacquard",
+      "jacquard fabric for couture",
+      "jacquard loom silk supplier",
+      "Yizhou jacquard silk",
+    ],
+    body: [
+      "Jacquard luo is silk where the motif is woven into the cloth, not printed or embroidered on top of it. A jacquard loom raises and lowers individual warp threads to form the pattern as the fabric is woven, so the design is part of the cloth itself — which is exactly how the gold-and-green motif of the Forbidden City gown Fan Bingbing wore to the 2015 Met Gala was made.",
+      "Because the pattern is in the weave, jacquard luo holds a crisp, dimensional motif that survives wear and does not fade or peel the way a print can. It is the fabric of choice for couture and occasionwear where the motif is the point of the garment.",
+      "Custom pattern development is available: we can weave your own motif, from a house motif to a commissioned artwork. Custom jacquard carries a higher minimum because cutting a new card and setting the loom has to be spread over enough cloth — contact our team to discuss your pattern.",
+    ],
+    image: "/christopherbu-silk/products/jacquard-luo.webp",
+    imageAlt:
+      "Jacquard luo silk fabric swatches with woven motifs in multiple colourways for couture",
+    specs: [
+      { label: "Type", value: "Mulberry silk jacquard luo" },
+      { label: "Weave", value: "Jacquard (motif woven into the cloth)" },
+      { label: "Momme", value: "19 / 22 / 30 mm (by motif)" },
+      { label: "Width", value: "114 cm / 140 cm" },
+      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
+      { label: "Pattern", value: "Stock motifs or custom pattern development" },
+      { label: "MOQ", value: "200 m for custom jacquard — contact for quotation" },
+    ],
+    useCases: [
+      "Couture & occasionwear",
+      "Bridal",
+      "Structured garments",
+      "Branded woven-motif pieces",
+    ],
+    faq: [
+      {
+        q: "What is jacquard luo silk?",
+        a: "Jacquard luo is a mulberry silk with the motif woven into the cloth on a jacquard loom, rather than printed or embroidered on top. The pattern is raised and lowered into the warp as the fabric is woven, so it is part of the cloth itself.",
+      },
+      {
+        q: "Can I weave my own custom motif?",
+        a: "Yes. We offer custom pattern development — from a house motif to a commissioned artwork. Custom jacquard carries a higher minimum (around 200 m) because cutting a new card and setting the loom has to be spread over enough cloth.",
+      },
+      {
+        q: "How is jacquard different from embroidery?",
+        a: "Jacquard puts the motif inside the weave — it is formed by the loom as the cloth is woven. Embroidery adds thread to a finished cloth. A buyer specifying one should not be quoted the other.",
+      },
+      {
+        q: "Is your jacquard silk available in colour?",
+        a: "Yes. Jacquard luo is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom colour matching, including multi-colour jacquard where the motif and ground are woven in different colours.",
       },
     ],
   },

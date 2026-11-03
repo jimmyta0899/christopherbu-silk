@@ -32,7 +32,10 @@ const terms = [
   },
   {
     section: "Payment",
-    items: [{ label: "Terms", value: "T/T 30% deposit, 70% against B/L" }],
+    items: [
+      { label: "Small orders", value: "PayPal, Stripe, Venmo, Zelle for eligible trial orders" },
+      { label: "Bulk orders", value: "T/T wire transfer — 30% deposit, 70% against B/L" },
+    ],
   },
   {
     section: "Certification",

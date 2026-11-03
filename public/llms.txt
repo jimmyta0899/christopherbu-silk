@@ -1,6 +1,6 @@
 # Christopher Bu × Yizhou Silk
 
-> B2B supplier of mulberry raw silk, greige fabric and dupioni, sourced from Yizhou, China — the world's largest raw silk origin. Curated under the design eye of the Christopher Bu couture house.
+> B2B supplier of mulberry raw silk, greige fabric, dupioni, satin and jacquard luo, sourced from Yizhou, China — the world's largest raw silk origin. Curated under the design eye of the Christopher Bu couture house.
 
 A couture house's red-carpet heritage, applied to raw silk sourcing. We supply textile mills, brands and designers worldwide. The Christopher Bu house is known for the "Forbidden City"-inspired couture series worn on the Oscars red carpet (as reported by Global Times, Daily Mail, Vogue).
 
@@ -11,6 +11,9 @@ A couture house's red-carpet heritage, applied to raw silk sourcing. We supply t
 - [Raw Silk](https://jimmyta0899.github.io/christopherbu-silk/products/raw-silk): 20/22D mulberry raw silk, 4A–6A grade, core product.
 - [Greige Fabric](https://jimmyta0899.github.io/christopherbu-silk/products/greige-fabric): Mulberry silk fabric supplied greige (undyed) or dyed to order (standard shade card / custom colour).
 - [Dupioni](https://jimmyta0899.github.io/christopherbu-silk/products/dupioni): Textured mulberry silk for gowns and eveningwear (also spelled douppioni / doupioni).
+- [Satin](https://jimmyta0899.github.io/christopherbu-silk/products/satin): Lustrous satin silk for bridal, eveningwear and luxury linings.
+- [Jacquard Luo](https://jimmyta0899.github.io/christopherbu-silk/products/jacquard-luo): Silk with motifs woven into the cloth, including custom pattern development.
+- [Services](https://jimmyta0899.github.io/christopherbu-silk/services): Private-label OEM, custom development, QC and 9-step sourcing process.
 - [Sample](https://jimmyta0899.github.io/christopherbu-silk/samples): $25 sample, credited on first bulk order.
 - [Trade Terms](https://jimmyta0899.github.io/christopherbu-silk/trade-terms): FOB Qinzhou / FCA Yizhou / FOB Shanghai, T/T payment, certification.
 - [About](https://jimmyta0899.github.io/christopherbu-silk/about): Brand heritage and sourcing approach.
@@ -21,7 +24,7 @@ A couture house's red-carpet heritage, applied to raw silk sourcing. We supply t
 ## Core facts
 
 - Origin: Yizhou, Guangxi, China — world's largest raw silk producing region.
-- Products: Mulberry raw silk (20/22D, 4A–6A), greige fabric (114/140cm, 12/16/19/30 momme), dupioni (19/23/30/40 momme).
+- Products: Mulberry raw silk (20/22D, 4A–6A), greige fabric (114/140cm, 12/16/19/30 momme), dupioni (19/23/30/40 momme), satin (16/19/22/30 momme), jacquard luo (custom motifs).
 - Certification: OEKO-TEX Standard 100 and GOTS available on request from local mills.
-- Trade: FOB Qinzhou / FCA Yizhou (bulk), FOB Shanghai (samples). T/T 30% deposit, 70% against B/L.
+- Trade: FOB Qinzhou / FCA Yizhou (bulk), FOB Shanghai (samples). Small orders: PayPal, Stripe, Venmo, Zelle. Bulk: T/T 30% deposit, 70% against B/L.
 - Samples: $25 sample, credited on first bulk order (worldwide DHL shipping).

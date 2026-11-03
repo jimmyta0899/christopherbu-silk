@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
     default:
-      "Christopher Bu × Yizhou Silk | Raw Silk, Greige & Dupioni B2B Supplier",
+      "Christopher Bu × Yizhou Silk | Raw Silk, Greige, Dupioni, Satin & Jacquard B2B Supplier",
     template: "%s | Christopher Bu × Yizhou Silk",
   },
   description: siteConfig.tagline,
@@ -37,6 +37,8 @@ export const metadata: Metadata = {
     "greige silk fabric",
     "dupioni silk",
     "douppioni silk",
+    "satin silk fabric",
+    "jacquard silk fabric",
     "Yizhou silk",
     "filature silk",
     "silk fabric B2B",
