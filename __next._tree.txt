@@ -4,4 +4,4 @@
 :HL["/christopherbu-silk/brand-wordmark.png","image"]
 :HL["/christopherbu-silk/blog/fan-bingbing-met-gala-illustration-640.webp","image",{"imageSrcSet":"/christopherbu-silk/blog/fan-bingbing-met-gala-illustration-640.webp 640w, /christopherbu-silk/blog/fan-bingbing-met-gala-illustration.webp 1080w","imageSizes":"(max-width: 768px) 640px, 1080px","fetchPriority":"high"}]
 1:[["children",{"s":"__PAGE__","h":128}]]
-0:{"b":"1wSsYuVVRz8jUkZC2Esho","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
+0:{"b":"pp23c27nrAcgKvO4E2i7m","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
