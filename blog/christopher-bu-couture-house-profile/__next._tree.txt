@@ -3,7 +3,7 @@
 :HL["/christopherbu-silk/_next/static/media/82450a180bcad83c-s.p.0p-wng2nn8o-p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/christopherbu-silk/brand-wordmark.png","image"]
 :HL["/christopherbu-silk/products/raw-silk2.webp","image"]
-:HL["/christopherbu-silk/products/douppioni2.webp","image"]
+:HL["/christopherbu-silk/products/dupioni2.webp","image"]
 :HL["/christopherbu-silk/blog/fan-bingbing-paris-stamp-skirt.webp","image"]
 :HL["/christopherbu-silk/blog/fan-bingbing-cannes-plaid-ensemble.webp","image"]
 :HL["/christopherbu-silk/blog/fan-bingbing-stamp-print-dress.webp","image"]
@@ -11,4 +11,4 @@
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"christopher-bu-couture-house-profile","s":[]},"h":96,"c":"$Q3"}]]
 1:[["children",{"s":"blog","h":64,"c":"$Q2"}]]
-0:{"b":"Why04JRM4FedlcAHlhRTO","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
+0:{"b":"jSz6zgKqSKhJK6YbnoL_I","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
