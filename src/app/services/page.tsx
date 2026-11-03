@@ -84,7 +84,7 @@ const productMatrix = [
     desc: "Satin-weave silk-spandex blend (90–95% silk) in 16–19 momme for comfort and fit.",
   },
   {
-    name: "Blended Silk",
+    name: "Silk Blend",
     href: "/products/blended-silk",
     desc: "Silk-cotton and silk-linen weaves pairing silk sheen with natural-fiber breathability.",
   },

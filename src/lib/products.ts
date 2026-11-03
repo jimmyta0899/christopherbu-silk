@@ -602,10 +602,10 @@ export const products: Product[] = [
   },
   {
     slug: "blended-silk",
-    name: "Blended Silk (Silk-Cotton / Silk-Linen)",
+    name: "Silk Blend (Silk-Cotton / Silk-Linen)",
     title:
-      "Christopher Bu Blended Silk Fabric Silk-Cotton & Silk-Linen 114/140cm — Yizhou Silk Supplier",
-    h1: "Blended Silk (Silk-Cotton / Silk-Linen)",
+      "Christopher Bu Silk Blend Fabric Silk-Cotton & Silk-Linen 114/140cm — Yizhou Silk Supplier",
+    h1: "Silk Blend (Silk-Cotton / Silk-Linen)",
     metaDescription:
       "Source blended silk fabric from Yizhou, China — silk-cotton and silk-linen weaves in 114/140 cm. The comfort of cotton or linen with silk's sheen. Ideal for shirts and summer wear. B2B bulk supply.",
     introAnswer:
@@ -628,9 +628,9 @@ export const products: Product[] = [
       "These blends let you specify the ratio and character you need — more silk for lustre and drape, or more cotton or linen for structure and breathability — so the fabric lands where your collection needs it.",
       "Blended silk is supplied greige for your own colour development, or dyed to order from a standard shade card or your custom colour.",
     ],
-    image: "/christopherbu-silk/products/blended-silk.webp",
+    image: "/christopherbu-silk/products/silk-blend.webp",
     imageAlt:
-      "Blended silk fabric silk-cotton and silk-linen weave for shirts and summer wear",
+      "Silk blend fabric silk-cotton and silk-linen weave for shirts and summer wear",
     specs: [
       { label: "Type", value: "Mulberry silk blended with cotton or linen" },
       { label: "Blends", value: "Silk-cotton, silk-linen (ratio by specification)" },

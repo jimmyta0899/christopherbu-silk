@@ -11,7 +11,7 @@ const products = [
   { href: "/products/georgette", label: "Georgette", external: false },
   { href: "/products/pongee", label: "Pongee", external: false },
   { href: "/products/stretch-silk", label: "Silk Stretch Satin", external: false },
-  { href: "/products/blended-silk", label: "Blended Silk", external: false },
+  { href: "/products/blended-silk", label: "Silk Blend", external: false },
 ];
 
 // RTW 下拉：站内 /rtw 路由，指向本地迁移的季节系列
