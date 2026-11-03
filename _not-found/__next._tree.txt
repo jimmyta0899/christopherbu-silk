@@ -1,4 +1,5 @@
-:HL["/christopherbu-silk/_next/static/chunks/1d5sxa4p0qa2k.css","style"]
+:HL["/christopherbu-silk/_next/static/chunks/1x9ltqgi2o04y.css","style"]
+:HL["/christopherbu-silk/brand-wordmark.png","image"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"/_not-found","h":64,"c":"$Q2"}]]
-0:{"b":"S6hyq5bV7EiuOOGJIdbHd","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
+0:{"b":"KDMf_zqm-2QJNLciPWUF3","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
