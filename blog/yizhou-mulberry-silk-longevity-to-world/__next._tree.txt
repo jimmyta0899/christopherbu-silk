@@ -1,4 +1,4 @@
-:HL["/christopherbu-silk/_next/static/chunks/1owty9vo8-gkt.css","style"]
+:HL["/christopherbu-silk/_next/static/chunks/2txudr1rzz371.css","style"]
 :HL["/christopherbu-silk/_next/static/media/6f3ab718e3727c1a-s.p.3huc2loe0ie8a.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/christopherbu-silk/_next/static/media/82450a180bcad83c-s.p.0p-wng2nn8o-p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/christopherbu-silk/products/raw-silk2.webp","image"]
@@ -7,4 +7,4 @@
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"yizhou-mulberry-silk-longevity-to-world","s":[]},"h":96,"c":"$Q3"}]]
 1:[["children",{"s":"blog","h":64,"c":"$Q2"}]]
-0:{"b":"0ysOiLAvR_XS5HchdFJIZ","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
+0:{"b":"4JBCaHjwjUN-IiMSskbCa","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
