@@ -28,8 +28,8 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
     default:
-      "Christopher Bu × Yizhou Silk | Raw Silk, Greige, Dupioni, Satin, Jacquard, Georgette & Organic Silk B2B Supplier",
-    template: "%s | Christopher Bu × Yizhou Silk",
+      "Christopher Bu | Raw Silk & Fabrics from Yizhou — Couture House Behind Red-Carpet Silk Gowns",
+    template: "%s | Christopher Bu",
   },
   description: siteConfig.tagline,
   keywords: [
@@ -74,7 +74,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: siteConfig.url,
     siteName: siteConfig.name,
-    title: "Christopher Bu × Yizhou Silk — Raw Silk & Greige B2B Supplier",
+    title: "Christopher Bu | Raw Silk & Fabrics from Yizhou — Couture House Behind Red-Carpet Silk Gowns",
     description: siteConfig.tagline,
     images: [
       {
@@ -87,7 +87,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Christopher Bu × Yizhou Silk — Raw Silk & Greige B2B Supplier",
+    title: "Christopher Bu | Raw Silk & Fabrics from Yizhou — Couture House Behind Red-Carpet Silk Gowns",
     description: siteConfig.tagline,
     images: [`${siteConfig.url}/brand-logo.png`],
   },
