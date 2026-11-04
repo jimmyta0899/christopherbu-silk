@@ -429,7 +429,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Step 3: the weights, widths and shrinkage to specify",
-        body: "We supply dupioni greige straight off the loom, or dyed to order from a standard shade card or your custom colour, so you get the exact shade you need. **Momme** is a silk weight unit; one momme equals about 3.75 grams per square meter. **Slub** is the irregular thick-and-thin texture woven into the cloth. Standard dupioni weights are 19, 23, 30 and 40 momme in 90, 114 and 140 cm widths. The 19 momme dupioni is the entry weight for gowns: light enough to move, heavy enough to hold a silhouette. Because the slub is part of the weave, allow about 5% shrinkage in the cutting block, the hand-wash shrinkage standard for dupioni[2].",
+        body: "We supply dupioni greige straight off the loom, or dyed to order from a standard shade card or your custom color, so you get the exact shade you need. **Momme** is a silk weight unit; one momme equals about 3.75 grams per square meter. **Slub** is the irregular thick-and-thin texture woven into the cloth. Standard dupioni weights are 19, 23, 30 and 40 momme in 90, 114 and 140 cm widths. The 19 momme dupioni is the entry weight for gowns: light enough to move, heavy enough to hold a silhouette. Because the slub is part of the weave, allow about 5% shrinkage in the cutting block, the hand-wash shrinkage standard for dupioni[2].",
         table: {
           caption: "Dupioni weights and their typical uses",
           headers: ["Weight", "Approx. gsm", "Typical use"],

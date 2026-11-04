@@ -45,8 +45,8 @@ export default function HomePage() {
             <div className="grid items-center gap-10 md:grid-cols-2">
               <div>
                 <h1 className="font-display max-w-3xl text-4xl font-medium leading-[1.15] md:text-6xl">
-                  Raw silk and Fabrics, sourced from the world&apos;s Silk
-                  capital.
+                  Raw Silk and Fabrics, sourced from the world&apos;s Silk
+                  Capital.
                 </h1>
                 <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ivory/80">
                   Christopher Bu is the couture house behind some of the
@@ -105,7 +105,7 @@ export default function HomePage() {
           <div className="mb-10 grid gap-8 md:grid-cols-[1fr_auto] md:items-center">
             <div>
               <h2 className="font-display text-3xl font-medium text-jade-deep md:text-4xl">
-                Three primary silk products
+                Our Primary Silk Products
               </h2>
               <p className="mt-3 max-w-2xl text-base text-ink-soft">
                 Our core supply spans the three forms buyers request
@@ -116,8 +116,8 @@ export default function HomePage() {
                 All of it comes from Yizhou, in Guangxi, China — the world&apos;s
                 largest raw silk origin, holding the country&apos;s top ranking
                 for mulberry field area, cocoon output and raw silk production
-                for over two decades. Its raw silk is renowned for its
-                consistent, premium quality and even hand.
+                for over two decades. Its raw silk regularly reaches 5A and 6A
+                grades, the highest quality tiers.
               </p>
               <p className="mt-4 text-sm text-ink-muted">
                 &ldquo;世界桑蚕看中国，中国桑蚕看宜州&rdquo; — World
@@ -125,28 +125,39 @@ export default function HomePage() {
                 Yizhou.
               </p>
             </div>
-            <div className="grid grid-cols-2 gap-4">
-              {[
-                { n: "20+ yrs", l: "No.1 silk county ranking" },
-                { n: "20/22D", sub: "and more", l: "Standard raw silk denier" },
-                { n: "OEKO-TEX / GOTS", l: "Certification available on request" },
-                { n: "GOTS Organic", l: "Certified organic silk (GOTS-30270)" },
-              ].map((s) => (
-                <div
-                  key={s.l}
-                  className="border border-gold/70 bg-jade p-6 text-ivory"
+            <div className="flex items-stretch gap-4">
+              {/* Raw Silk 主题标签 */}
+              <div className="flex items-center justify-center border border-gold/70 bg-jade-deep px-3 text-ivory">
+                <span
+                  className="font-display text-lg font-medium tracking-wide text-gold-bright"
+                  style={{ writingMode: "vertical-rl" }}
                 >
-                  <p className="font-display text-3xl font-semibold text-gold-bright">
-                    {s.n}
-                    {"sub" in s && s.sub && (
-                      <span className="ml-1 align-middle font-sans text-sm font-normal text-ivory/75">
-                        {s.sub}
-                      </span>
-                    )}
-                  </p>
-                  <p className="mt-2 text-sm text-ivory/85">{s.l}</p>
-                </div>
-              ))}
+                  Raw Silk
+                </span>
+              </div>
+              <div className="grid grid-cols-2 gap-4">
+                {[
+                  { n: "5A / 6A", l: "Raw silk grades achieved" },
+                  { n: "20+ yrs", l: "No.1 silk county ranking" },
+                  { n: "20/22D", sub: "and more", l: "Standard raw silk denier" },
+                  { n: "OEKO-TEX / GOTS", l: "Certification available on request" },
+                ].map((s) => (
+                  <div
+                    key={s.l}
+                    className="border border-gold/70 bg-jade p-6 text-ivory"
+                  >
+                    <p className="font-display text-3xl font-semibold text-gold-bright">
+                      {s.n}
+                      {"sub" in s && s.sub && (
+                        <span className="ml-1 align-middle font-sans text-sm font-normal text-ivory/75">
+                          {s.sub}
+                        </span>
+                      )}
+                    </p>
+                    <p className="mt-2 text-sm text-ivory/85">{s.l}</p>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
 
@@ -168,60 +179,6 @@ export default function HomePage() {
                 </span>
               </Link>
             ))}
-          </div>
-        </section>
-
-        {/* Why Us：B2B 批发采购核心风险解决方案 */}
-        <section className="bg-ivory-deep">
-          <div className="mx-auto max-w-6xl px-6 py-16 md:py-24">
-            <div className="mb-12">
-              <h2 className="font-display max-w-3xl text-3xl font-medium text-jade-deep md:text-4xl">
-                Why us: built to solve core B2B wholesale sourcing risks.
-              </h2>
-              <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink-soft">
-                Five areas address the key wholesale procurement demands:
-                coordinated vertical supply, broad product-category coverage,
-                applicable certification documentation, ethnic product
-                differentiation and responsive custom-order review.
-              </p>
-            </div>
-
-            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {[
-                {
-                  t: "Unique Supply Chain",
-                  d: "Coordinated vertical industrial chain covering mulberry resources, silkworm cocoon sourcing, raw silk reeling, fabric weaving and finishing — all in one local area.",
-                },
-                {
-                  t: "Complete Product Portfolio",
-                  d: "Full product portfolio including 6A Grade raw silk, silk fabrics, supporting bulk raw material supply, and finished private label and wholesale orders.",
-                },
-                {
-                  t: "Extensive Industry Immersion",
-                  d: "From looms to red carpet, our expertise in textiles, production, fashion design and retail makes us unparalleled in this role.",
-                },
-                {
-                  t: "Documented Compliance Review",
-                  d: "Available GOTS, OEKO-TEX Standard 100 Class II, China Organic and ISO files support buyer review within their stated scope and validity. Order applicability is confirmed in writing.",
-                },
-                {
-                  t: "Flexible Cooperation",
-                  d: "Diversified flexible cooperation modes: in-stock bulk wholesale, custom private label OEM, full ODM development and high-end limited-edition customized production.",
-                },
-              ].map((item) => (
-                <div
-                  key={item.t}
-                  className="border border-line bg-ivory p-8 transition-colors hover:border-gold"
-                >
-                  <h3 className="font-display text-xl font-medium text-jade-deep">
-                    {item.t}
-                  </h3>
-                  <p className="mt-3 text-sm leading-relaxed text-ink-soft">
-                    {item.d}
-                  </p>
-                </div>
-              ))}
-            </div>
           </div>
         </section>
 
@@ -274,6 +231,59 @@ export default function HomePage() {
                     </span>
                   </div>
                 </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+        {/* Why Us：B2B 批发采购核心风险解决方案 */}
+        <section className="bg-ivory-deep">
+          <div className="mx-auto max-w-6xl px-6 py-16 md:py-24">
+            <div className="mb-12">
+              <h2 className="font-display max-w-4xl text-3xl font-medium text-jade-deep md:text-4xl">
+                Why us: built to solve core B2B wholesale sourcing risks
+              </h2>
+              <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink-soft">
+                Five areas address the key wholesale procurement demands:
+                coordinated vertical supply, broad product-category coverage,
+                applicable certification documentation, ethnic product
+                differentiation and responsive custom-order review.
+              </p>
+            </div>
+
+            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+              {[
+                {
+                  t: "Unique Supply Chain",
+                  d: "Coordinated vertical industrial chain covering mulberry resources, silkworm cocoon sourcing, raw silk reeling, fabric weaving and finishing — all in one local area.",
+                },
+                {
+                  t: "Complete Product Portfolio",
+                  d: "Full product portfolio including 6A Grade raw silk, silk fabrics, supporting bulk raw material supply, and finished private label and wholesale orders.",
+                },
+                {
+                  t: "Extensive Industry Immersion",
+                  d: "From looms to red carpet, our expertise in textiles, production, fashion design and retail makes us unparalleled in this role.",
+                },
+                {
+                  t: "Documented Compliance Review",
+                  d: "Available GOTS, OEKO-TEX Standard 100 Class II, China Organic and ISO files support buyer review within their stated scope and validity. Order applicability is confirmed in writing.",
+                },
+                {
+                  t: "Flexible Cooperation",
+                  d: "Diversified flexible cooperation modes: in-stock bulk wholesale, custom private label OEM, full ODM development and high-end limited-edition customized production.",
+                },
+              ].map((item) => (
+                <div
+                  key={item.t}
+                  className="border border-line bg-ivory p-8 transition-colors hover:border-gold"
+                >
+                  <h3 className="font-display text-xl font-medium text-jade-deep">
+                    {item.t}
+                  </h3>
+                  <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+                    {item.d}
+                  </p>
+                </div>
               ))}
             </div>
           </div>

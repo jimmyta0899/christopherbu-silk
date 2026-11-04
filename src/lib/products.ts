@@ -78,7 +78,7 @@ export const products: Product[] = [
       { label: "Origin", value: "Bombyx mori silkworm, mulberry-fed" },
       { label: "Denier", value: "20/22D (13/15D, 27/29D on request)" },
       { label: "Standard", value: "GB/T 1797-2008" },
-      { label: "Color", value: "Natural white or natural dupion; dyed to order from a standard shade card or your custom colour" },
+      { label: "Color", value: "Natural white or natural dupion; dyed to order from a standard shade card or your custom color" },
       { label: "Moisture", value: "Max 11%" },
       { label: "Character", value: "Highly breathable, moisture-wicking, strong, low elasticity" },
       { label: "Organic", value: "GOTS-certified organic raw silk available (GOTS-30270)" },
@@ -100,7 +100,7 @@ export const products: Product[] = [
       },
       {
         q: "What is 20/22D white raw silk yarn?",
-        a: "20/22D white raw silk is a filature silk measured at the 20–22 denier range for ultimate consistency and fineness. It is the standard for silk crepes and satins — weavers value it for creating intricate patterns without adding bulk, and dyers prize its pure white base for accurate colour matching.",
+        a: "20/22D white raw silk is a filature silk measured at the 20–22 denier range for ultimate consistency and fineness. It is the standard for silk crepes and satins — weavers value it for creating intricate patterns without adding bulk, and dyers prize its pure white base for accurate color matching.",
       },
       {
         q: "What is natural dupion silk yarn?",
@@ -120,7 +120,7 @@ export const products: Product[] = [
       },
       {
         q: "What are the key properties of mulberry raw silk?",
-        a: "Mulberry raw silk is highly breathable and naturally moisture-wicking, with surprising tensile strength, low elasticity and little tendency to pill. These properties make it ideal for warp and weft that must hold tension and take colour evenly.",
+        a: "Mulberry raw silk is highly breathable and naturally moisture-wicking, with surprising tensile strength, low elasticity and little tendency to pill. These properties make it ideal for warp and weft that must hold tension and take color evenly.",
       },
       {
         q: "What is the minimum order quantity (MOQ) for raw silk yarn export?",
@@ -139,22 +139,22 @@ export const products: Product[] = [
           "A filature silk measured at the delicate 20–22 denier range for ultimate consistency and fineness. It is the technical benchmark of modern reeling, with every metre checked for uniformity, and the bright, clean white reflects the fine mulberry cocoons it is drawn from. Weavers value this specific denier for its ability to create intricate patterns without adding bulk, and it is the secret ingredient in the world's finest silk crepes — a high-performance yarn for the most demanding weaving, knitting, embroidery and saree projects.",
         specs: [
           { label: "Denier", value: "20/22D" },
-          { label: "Colour", value: "White (bright, clean)" },
+          { label: "Grade", value: "4A / 5A / 6A" },
+          { label: "Color", value: "White (bright, clean)" },
           { label: "Usage", value: "Dress material, embroidery, weaving, knitting, sarees, home textile" },
         ],
         image: "/christopherbu-silk/products/raw-silk-20-22d.webp",
         imageAlt:
-          "20/22 denier white mulberry raw silk yarn with bright clean colour for weaving and embroidery",
+          "20/22 denier white mulberry raw silk yarn with bright clean color for weaving and embroidery",
       },
       {
         key: "natural-dupion",
         name: "Natural Dupion Silk Yarn",
         description:
-          "The natural, unbleached and un-dyed state of dupion silk, with a warm, earthy tone that reflects the actual colour of the silk cocoon before processing. It is thick and full of character, with prominent slubs that weave into a beautiful, seemingly random pattern. It is the quintessential choice for interior design — especially curtains and lampshades that need to diffuse light — and its natural hue brings a grounding, organic feel to any room, celebrating the imperfections of the natural world.",
+          "The natural, unbleached and un-dyed state of dupion silk, with a warm, earthy tone that reflects the actual color of the silk cocoon before processing. It is thick and full of character, with prominent slubs that weave into a beautiful, seemingly random pattern. It is the quintessential choice for interior design — especially curtains and lampshades that need to diffuse light — and its natural hue brings a grounding, organic feel to any room, celebrating the imperfections of the natural world.",
         specs: [
           { label: "Material", value: "Dupion silk yarn (mulberry)" },
-          { label: "Count", value: "20" },
-          { label: "Colour", value: "Natural (unbleached, un-dyed)" },
+          { label: "Color", value: "Natural (unbleached, un-dyed)" },
           { label: "Usage", value: "Knitting, weaving, interior textiles (curtains, lampshades)" },
           { label: "Reference MOQ", value: "≈10 kg (confirmed in quotation)" },
         ],
@@ -169,9 +169,8 @@ export const products: Product[] = [
           "Curated from the finest batches of the silk harvest for a superior experience, with every strand selected for exceptional length and brilliant white sheen to ensure a high-gloss result. It is treated with extra care during spinning to preserve the integrity of the delicate silk proteins. This yarn is made for statement pieces — garments meant to be noticed for their sheer quality and radiance — draping with a heavy, liquid-like grace that is the hallmark of true high-end luxury silk.",
         specs: [
           { label: "Ply", value: "1 ply" },
-          { label: "Count", value: "20" },
           { label: "Denier", value: "20" },
-          { label: "Colour", value: "White" },
+          { label: "Color", value: "White" },
           { label: "Usage", value: "Weaving, luxury garments, statement pieces" },
           { label: "Packaging", value: "5 kg bundles" },
           { label: "Reference MOQ", value: "≈5 kg (confirmed in quotation)" },
@@ -189,9 +188,9 @@ export const products: Product[] = [
       "Christopher Bu Greige Silk Double Crepe 19mm 140cm for Couture & Bridal — Swatch MOQ FOB Shanghai Yizhou Silk B2B",
     h1: "Greige Silk Double Crepe 19mm for Couture & Bridal",
     metaDescription:
-      "Source mulberry silk fabric from Yizhou, China — supplied greige (undyed) or dyed to your colour. Bulk supply with OEKO-TEX & GOTS available on request.",
+      "Source mulberry silk fabric from Yizhou, China — supplied greige (undyed) or dyed to your color. Bulk supply with OEKO-TEX & GOTS available on request.",
     introAnswer:
-      "We supply mulberry silk fabric from local mills, either greige for your own colour development or dyed to order from a standard shade card or your custom colour.",
+      "We supply mulberry silk fabric from local mills, either greige for your own color development or dyed to order from a standard shade card or your custom color.",
     category: "greige-fabric",
     featured: true,
     keywords: [
@@ -206,8 +205,8 @@ export const products: Product[] = [
       "dyed silk fabric to order",
     ],
     body: [
-      "Greige silk fabric is undyed mulberry silk straight off the loom — the blank canvas brands, ateliers and finishing houses use for their own colour, print and finish development. We supply 19 momme mulberry silk fabric, including double crepe (crepe de chine), in a 140 cm width that suits garment cutting and bridal atelier work alike.",
-      "You can take it greige and develop your own signature colours in-house, or have it dyed to order — we offer both a standard shade card and custom colour matching, so the finished shade is exactly what your collection needs. Our greige silk double crepe 19mm is a favorite for couture and bridal because it drapes cleanly and holds its hand.",
+      "Greige silk fabric is undyed mulberry silk straight off the loom — the blank canvas brands, ateliers and finishing houses use for their own color, print and finish development. We supply 19 momme mulberry silk fabric, including double crepe (crepe de chine), in a 140 cm width that suits garment cutting and bridal atelier work alike.",
+      "You can take it greige and develop your own signature colors in-house, or have it dyed to order — we offer both a standard shade card and custom color matching, so the finished shade is exactly what your collection needs. Our greige silk double crepe 19mm is a favorite for couture and bridal because it drapes cleanly and holds its hand.",
     ],
     image: "/christopherbu-silk/products/greige-fabric.webp",
     imageAlt:
@@ -218,25 +217,25 @@ export const products: Product[] = [
       { label: "Momme", value: "12 / 16 / 19 / 30 mm" },
       { label: "Weight", value: "≈50–129 g/m² by momme (19mm ≈ 82 g/m²)" },
       { label: "Width", value: "114 cm / 140 cm" },
-      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
+      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom color)" },
       { label: "Shrinkage", value: "Double crepe up to 10% (pre-shrink recommended)" },
-      { label: "Colourfastness", value: "Wash 4; rub dry 4 / wet 3 (ISO 105)" },
+      { label: "Colorfastness", value: "Wash 4; rub dry 4 / wet 3 (ISO 105)" },
       { label: "Organic", value: "GOTS-certified organic greige fabric available (GOTS-30270)" },
       { label: "MOQ", value: "Reference MOQ — no fixed minimum; confirmed in the written quotation" },
     ],
     useCases: [
       "Garment manufacturing",
       "Luxury home textiles",
-      "Brands developing signature colours",
+      "Brands developing signature colors",
     ],
     faq: [
       {
         q: "What is greige silk fabric, and why buy it undyed?",
-        a: "Greige (or grey) fabric is undyed, unfinished silk cloth straight off the loom. Buying 19 momme mulberry silk fabric greige gives you full control over colour, print and finishing for your own production.",
+        a: "Greige (or grey) fabric is undyed, unfinished silk cloth straight off the loom. Buying 19 momme mulberry silk fabric greige gives you full control over color, print and finishing for your own production.",
       },
       {
         q: "Can you dye the fabric for me?",
-        a: "Yes. You can take the fabric greige and finish it yourself, or have it dyed to order — we offer both a standard shade card and custom colour matching. Contact our team with your target colour or Pantone reference for a quotation.",
+        a: "Yes. You can take the fabric greige and finish it yourself, or have it dyed to order — we offer both a standard shade card and custom color matching. Contact our team with your target color or Pantone reference for a quotation.",
       },
       {
         q: "What width and weight is your double crepe available in?",
@@ -253,7 +252,7 @@ export const products: Product[] = [
     metaDescription:
       "Source lustrous satin silk fabric from Yizhou, China, in 16/19/22/30 momme and 114/140 cm widths. Supplied greige or dyed to order. Ideal for bridal, eveningwear and luxury linings. B2B bulk supply.",
     introAnswer:
-      "Satin silk is a lustrous, smooth-faced mulberry silk with a soft sheen and fluid drape, supplied greige or dyed to order from a standard shade card or your custom colour.",
+      "Satin silk is a lustrous, smooth-faced mulberry silk with a soft sheen and fluid drape, supplied greige or dyed to order from a standard shade card or your custom color.",
     category: "satin",
     featured: true,
     keywords: [
@@ -270,7 +269,7 @@ export const products: Product[] = [
     body: [
       "Satin silk is the silk people picture when they think of liquid lustre: a smooth, glossy face with a soft sheen that slides under the hand and catches light as it moves. It is woven so the warp floats over the weft, which is what gives satin its signature high-gloss front and matt reverse — the same drape and shine that make it the default choice for bridal gowns, eveningwear and luxury linings.",
       "We supply satin silk fabric in 16, 19, 22 and 30 momme, with the 19 momme satin the most-requested weight for bridal and eveningwear because it balances sheen, body and drape. Standard widths are 114 cm and 140 cm, which suit both garment cutting and soft furnishings.",
-      "Like all our silk, satin is supplied greige for your own colour development, or dyed to order — we offer both a standard shade card and custom colour matching, so the finished shade is exactly what your collection needs.",
+      "Like all our silk, satin is supplied greige for your own color development, or dyed to order — we offer both a standard shade card and custom color matching, so the finished shade is exactly what your collection needs.",
     ],
     image: "/christopherbu-silk/products/satin.webp",
     imageAlt:
@@ -280,9 +279,9 @@ export const products: Product[] = [
       { label: "Momme", value: "12 / 16 / 19 / 22 / 25–30 mm" },
       { label: "Weight", value: "≈52–129 g/m² by momme (19mm ≈ 82 g/m²)" },
       { label: "Width", value: "114 cm / 140 cm" },
-      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
+      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom color)" },
       { label: "Shrinkage", value: "Satin up to 5%" },
-      { label: "Colourfastness", value: "Wash 4; rub dry 4 / wet 3 (ISO 105)" },
+      { label: "Colorfastness", value: "Wash 4; rub dry 4 / wet 3 (ISO 105)" },
       { label: "Character", value: "High-gloss face, matt reverse, fluid drape" },
       { label: "MOQ", value: "Reference MOQ — no fixed minimum; confirmed in the written quotation" },
     ],
@@ -302,8 +301,8 @@ export const products: Product[] = [
         a: "We supply satin silk in 16, 19, 22 and 30 momme. The 19 momme satin is the most-requested for bridal and eveningwear; lighter weights suit linings and lingerie, heavier weights suit structured pieces.",
       },
       {
-        q: "Is your satin silk available in colour?",
-        a: "Yes. Satin is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom colour matching, so you get the exact shade your collection needs.",
+        q: "Is your satin silk available in color?",
+        a: "Yes. Satin is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom color matching, so you get the exact shade your collection needs.",
       },
     ],
   },
@@ -343,7 +342,7 @@ export const products: Product[] = [
       { label: "Weave", value: "Jacquard (motif woven into the cloth)" },
       { label: "Momme", value: "19 / 22 / 30 mm (by motif)" },
       { label: "Width", value: "114 cm / 140 cm" },
-      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
+      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom color)" },
       { label: "Pattern", value: "Stock motifs or custom pattern development" },
       { label: "MOQ", value: "Reference MOQ — no fixed minimum for custom jacquard; confirmed in the written quotation" },
     ],
@@ -367,8 +366,8 @@ export const products: Product[] = [
         a: "Jacquard puts the motif inside the weave — it is formed by the loom as the cloth is woven. Embroidery adds thread to a finished cloth. A buyer specifying one should not be quoted the other.",
       },
       {
-        q: "Is your jacquard silk available in colour?",
-        a: "Yes. Jacquard luo is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom colour matching, including multi-colour jacquard where the motif and ground are woven in different colours.",
+        q: "Is your jacquard silk available in color?",
+        a: "Yes. Jacquard luo is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom color matching, including multi-color jacquard where the motif and ground are woven in different colors.",
       },
     ],
   },
@@ -398,7 +397,7 @@ export const products: Product[] = [
     body: [
       "Organic silk is mulberry silk grown and processed to the Global Organic Textile Standard (GOTS), which covers every stage from the organic mulberry cultivation through boiling, spinning and weaving to the finished fabric. It is the silk buyers choose when their brand or market requires verifiable organic status — not just a soft sustainability claim, but a certified one.",
       "Our organic silk is certified by ECOCERT Greenlife SAS under GOTS license no. GOTS-30270, valid to October 2027. The scope covers the full silk process — boiling, pre-treatment, spinning and weaving — and the certified products are 100% organic silk: raw silk, greige yarns and greige fabrics.",
-      "We supply organic silk both as raw silk (filature silk for your own weaving) and as greige fabric, supplied undyed or dyed to order from a standard shade card or your custom colour. Certification status is confirmed against the current certificate scope before quotation, so you can verify it independently.",
+      "We supply organic silk both as raw silk (filature silk for your own weaving) and as greige fabric, supplied undyed or dyed to order from a standard shade card or your custom color. Certification status is confirmed against the current certificate scope before quotation, so you can verify it independently.",
     ],
     image: "/christopherbu-silk/products/organic-silk.webp",
     imageAlt:
@@ -410,7 +409,7 @@ export const products: Product[] = [
       { label: "Scope", value: "Boiling, pre-treatment, spinning, weaving" },
       { label: "Organic content", value: "100% organic silk" },
       { label: "Forms", value: "Raw silk (filature silk), greige yarns, greige fabrics" },
-      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
+      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom color)" },
       { label: "MOQ", value: "Reference MOQ — no fixed minimum; confirmed in the written quotation" },
     ],
     useCases: [
@@ -430,7 +429,7 @@ export const products: Product[] = [
       },
       {
         q: "What forms does your organic silk come in?",
-        a: "Organic silk is supplied as raw silk (filature silk), greige yarns and greige fabrics. It is available greige (undyed) or dyed to order from a standard shade card or your custom colour.",
+        a: "Organic silk is supplied as raw silk (filature silk), greige yarns and greige fabrics. It is available greige (undyed) or dyed to order from a standard shade card or your custom color.",
       },
       {
         q: "Can I verify the GOTS certification independently?",
@@ -464,7 +463,7 @@ export const products: Product[] = [
     body: [
       "Georgette is a sheer, lightweight mulberry silk woven from highly twisted yarns, which gives it a subtle crinkle and a soft, flowing drape that floats rather than clings. It is the classic choice for scarves, summer dresses and any garment where airy movement is the point.",
       "We supply georgette silk in 8 and 12 momme, with the 12 momme weight offering more body while keeping the characteristic sheerness. Standard widths are 114 cm and 140 cm.",
-      "Like all our silk, georgette is supplied greige for your own colour development, or dyed to order from a standard shade card or your custom colour.",
+      "Like all our silk, georgette is supplied greige for your own color development, or dyed to order from a standard shade card or your custom color.",
     ],
     image: "/christopherbu-silk/products/georgette.webp",
     imageAlt:
@@ -474,7 +473,7 @@ export const products: Product[] = [
       { label: "Momme", value: "8 / 12 mm" },
       { label: "Weight", value: "≈34–52 g/m²" },
       { label: "Width", value: "114 cm / 140 cm" },
-      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
+      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom color)" },
       { label: "Character", value: "Sheer, crinkled texture, flowing drape" },
       { label: "MOQ", value: "Reference MOQ — no fixed minimum; confirmed in the written quotation" },
     ],
@@ -493,8 +492,8 @@ export const products: Product[] = [
         a: "Georgette is supplied in 8 and 12 momme. The 8 momme is the classic sheer weight; 12 momme offers more body while keeping the characteristic sheerness.",
       },
       {
-        q: "Is your georgette silk available in colour?",
-        a: "Yes. Georgette is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom colour matching.",
+        q: "Is your georgette silk available in color?",
+        a: "Yes. Georgette is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom color matching.",
       },
     ],
   },
@@ -524,7 +523,7 @@ export const products: Product[] = [
     body: [
       "Pongee is a plain-weave mulberry silk with a crisp, slightly firm hand and a fine, even surface. Unlike the liquid drape of satin, pongee holds its shape, which makes it the workhorse silk for linings, scarves and light shirts where structure and durability matter more than lustre.",
       "We supply pongee silk in 8 and 15 momme, in a 114 cm width. The 8 momme is the classic lining weight; 15 momme gives a firmer, more durable fabric for light outerwear and shirts.",
-      "Pongee is supplied greige for your own colour development, or dyed to order from a standard shade card or your custom colour.",
+      "Pongee is supplied greige for your own color development, or dyed to order from a standard shade card or your custom color.",
     ],
     image: "/christopherbu-silk/products/pongee.webp",
     imageAlt:
@@ -533,7 +532,7 @@ export const products: Product[] = [
       { label: "Type", value: "Mulberry silk pongee (plain weave)" },
       { label: "Momme", value: "8 / 15 mm" },
       { label: "Width", value: "114 cm" },
-      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
+      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom color)" },
       { label: "Character", value: "Crisp, firm hand, even surface" },
       { label: "MOQ", value: "Reference MOQ — no fixed minimum; confirmed in the written quotation" },
     ],
@@ -552,8 +551,8 @@ export const products: Product[] = [
         a: "Pongee is supplied in 8 and 15 momme, in a 114 cm width. The 8 momme is the classic lining weight; 15 momme is firmer for shirts and light outerwear.",
       },
       {
-        q: "Is your pongee silk available in colour?",
-        a: "Yes. Pongee is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom colour matching.",
+        q: "Is your pongee silk available in color?",
+        a: "Yes. Pongee is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom color matching.",
       },
     ],
   },
@@ -583,7 +582,7 @@ export const products: Product[] = [
     body: [
       "Silk stretch satin keeps the luminous, glossy face of satin while adding 5–10% spandex for recovery and ease of movement. The satin weave gives it the liquid sheen and fluid drape of classic silk satin; the spandex forgives the cut, so fitted dresses, slips and occasionwear move with the body instead of against it.",
       "We supply silk stretch satin in 16 to 19 momme, in 114 cm and 140 cm widths. The silk content stays dominant at 90–95% so the fabric reads and wears as satin, with the spandex there only to add stretch and recovery.",
-      "Silk stretch satin is supplied greige for your own colour development, or dyed to order from a standard shade card or your custom colour.",
+      "Silk stretch satin is supplied greige for your own color development, or dyed to order from a standard shade card or your custom color.",
     ],
     image: "/christopherbu-silk/products/stretch-silk.webp",
     imageAlt:
@@ -594,7 +593,7 @@ export const products: Product[] = [
       { label: "Composition", value: "90–95% silk, 5–10% spandex" },
       { label: "Momme", value: "16 / 19 mm" },
       { label: "Width", value: "114 cm / 140 cm" },
-      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
+      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom color)" },
       { label: "Character", value: "Satin face, comfort stretch, good recovery" },
       { label: "MOQ", value: "Reference MOQ — no fixed minimum; confirmed in the written quotation" },
     ],
@@ -614,8 +613,8 @@ export const products: Product[] = [
         a: "Silk stretch satin is 90–95% mulberry silk and 5–10% spandex. The silk content stays dominant so the fabric reads and wears as satin, with spandex added only for stretch and recovery.",
       },
       {
-        q: "Is your silk stretch satin available in colour?",
-        a: "Yes. Silk stretch satin is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom colour matching.",
+        q: "Is your silk stretch satin available in color?",
+        a: "Yes. Silk stretch satin is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom color matching.",
       },
     ],
   },
@@ -646,7 +645,7 @@ export const products: Product[] = [
       "Silk blend pairs mulberry silk with cotton or linen, combining silk's sheen and softness with the breathability and matte comfort of natural fibers. Silk-cotton leans soft and easy-care, while silk-linen adds texture and a cool, crisp hand for warm-weather wear.",
       "The blend ratio sets the character. A 70% cotton / 30% silk blend keeps cotton's breathability at the fore with a subtle silk sheen — ideal for summer blouses and dresses. A 50/50 silk-cotton blend balances softness, lustre and durability for premium shirts and scarves, while higher-silk blends (up to 80% silk) give a lighter, more fluid drape for evening wear and sheer layers.",
       "Both silk and cotton are natural, biodegradable fibers, so silk blends offer a more responsible alternative to synthetic mixes — breathable, temperature-regulating and gentle on the skin, with silk's natural sheen removing the need for chemical shine finishes.",
-      "Silk blend is supplied greige for your own colour development, or dyed to order from a standard shade card or your custom colour.",
+      "Silk blend is supplied greige for your own color development, or dyed to order from a standard shade card or your custom color.",
     ],
     image: "/christopherbu-silk/products/silk-blend.webp",
     imageAlt:
@@ -656,7 +655,7 @@ export const products: Product[] = [
       { label: "Blends", value: "Silk-cotton, silk-linen (ratio by specification)" },
       { label: "Silk-cotton ratios", value: "70/30, 50/50, up to 80% silk" },
       { label: "Width", value: "114 cm / 140 cm" },
-      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
+      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom color)" },
       { label: "Character", value: "Silk sheen with cotton/linen breathability, temperature-regulating" },
       { label: "MOQ", value: "Reference MOQ — no fixed minimum; confirmed in the written quotation" },
     ],
@@ -685,8 +684,8 @@ export const products: Product[] = [
         a: "Yes. Both silk and cotton are natural, biodegradable fibers, so silk blends reduce reliance on synthetic fibers and decompose more readily. Silk's natural sheen also removes the need for chemical finishing to add shine.",
       },
       {
-        q: "Is your silk blend available in colour?",
-        a: "Yes. Silk blend is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom colour matching.",
+        q: "Is your silk blend available in color?",
+        a: "Yes. Silk blend is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom color matching.",
       },
     ],
   },
@@ -715,9 +714,9 @@ export const products: Product[] = [
     ],
     body: [
       "Silk dupioni is a tightly woven, crisp silk fabric made by pairing a fine standard silk yarn in the warp with an uneven yarn reeled from two or more entangled cocoons in the weft. Those double-cocoon threads — called dupion threads — are thicker and more irregular than standard silk, and that is exactly what creates dupioni's signature look: bold, prominent slubs running across the grain, exceptional body, and a stiff, sculptural drape.",
-      "Dupioni is prized for evening wear, bridal gowns and special-occasion garments, as well as light home decorating. Because the weft and warp are often woven in different colours, it carries a natural two-tone iridescence that shifts as the fabric catches light — a subtle luxury that solid-dyed silks cannot match.",
+      "Dupioni is prized for evening wear, bridal gowns and special-occasion garments, as well as light home decorating. Because the weft and warp are often woven in different colors, it carries a natural two-tone iridescence that shifts as the fabric catches light — a subtle luxury that solid-dyed silks cannot match.",
       "Traditional, high-quality dupioni is hand-woven, which adds to its characteristic irregularity and heavier weight; more affordable versions are now machine-woven. The white Thai-style silk is a natural fibre, so a finished piece may carry minor variations and irregularities in the weave. These are a mark of a fine silk yarn, not defects, and should not be treated as such.",
-      "We supply 19 momme dupioni — the most-requested weight for gowns and bridal — alongside 12 and 16 momme options in 114 and 140 cm widths. As a Yizhou dupioni supplier, we ship greige as standard, or dyed to order from a standard shade card or your custom colour, with shrinkage around 5% accounted for in cutting.",
+      "We supply 19 momme dupioni — the most-requested weight for gowns and bridal — alongside 12 and 16 momme options in 114 and 140 cm widths. As a Yizhou dupioni supplier, we ship greige as standard, or dyed to order from a standard shade card or your custom color, with shrinkage around 5% accounted for in cutting.",
     ],
     image: "/christopherbu-silk/products/dupioni2.webp",
     imageAlt:
@@ -727,7 +726,7 @@ export const products: Product[] = [
       { label: "Momme", value: "12 / 16 / 19 mm" },
       { label: "Width", value: "114 cm / 140 cm" },
       { label: "Texture", value: "Slubbed, textured surface" },
-      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom colour)" },
+      { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom color)" },
       { label: "Shrinkage", value: "Approx. 5%" },
       { label: "MOQ", value: "Reference MOQ — no fixed minimum; confirmed in the written quotation" },
     ],
@@ -745,7 +744,7 @@ export const products: Product[] = [
       },
       {
         q: "Why does dupioni silk have a two-tone, iridescent sheen?",
-        a: "Dupioni's iridescence comes from the weave itself: the warp and weft are often spun in different colours, so the fabric shimmers and shifts between two tones as it catches light. It is a natural quality of the fabric, not an applied finish.",
+        a: "Dupioni's iridescence comes from the weave itself: the warp and weft are often spun in different colors, so the fabric shimmers and shifts between two tones as it catches light. It is a natural quality of the fabric, not an applied finish.",
       },
       {
         q: "Are the slubs and irregularities in dupioni a defect?",
@@ -756,8 +755,8 @@ export const products: Product[] = [
         a: "Traditional high-quality dupioni is hand-woven, which adds to its irregular, artisanal character and heavier weight; more affordable versions are machine-woven. Contact our team to confirm the weave for the weight you are sourcing.",
       },
       {
-        q: "Is dupioni silk for evening gowns available in colour?",
-        a: "Yes. Dupioni is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom colour matching, so you get the exact shade your collection needs.",
+        q: "Is dupioni silk for evening gowns available in color?",
+        a: "Yes. Dupioni is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom color matching, so you get the exact shade your collection needs.",
       },
       {
         q: "What weights does dupioni silk come in?",

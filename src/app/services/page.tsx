@@ -6,7 +6,7 @@ import { Footer } from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Services — Private Label & Custom Silk Supply | Christopher Bu",
   description:
-    "Custom mulberry silk supply from Yizhou, China: private-label OEM, custom width, colour and pattern development, full QC and a 9-step sourcing process for global B2B buyers.",
+    "Custom mulberry silk supply from Yizhou, China: private-label OEM, custom width, color and pattern development, full QC and a 9-step sourcing process for global B2B buyers.",
   keywords: [
     "custom silk supply",
     "private label silk OEM",
@@ -46,7 +46,7 @@ const productMatrix = [
   {
     name: "Greige Silk Fabric",
     href: "/products/greige-fabric",
-    desc: "Undyed silk double crepe in 12–30 momme, 114/140 cm — for your own colour and finish development.",
+    desc: "Undyed silk double crepe in 12–30 momme, 114/140 cm — for your own color and finish development.",
   },
   {
     name: "Dupioni Silk",
@@ -92,7 +92,7 @@ const productMatrix = [
 
 const customDimensions = [
   { label: "Width", value: "Custom widths by weave (standard 114 cm / 140 cm)" },
-  { label: "Colour", value: "Greige or dyed to order — standard shade card or custom colour matching" },
+  { label: "Color", value: "Greige or dyed to order — standard shade card or custom color matching" },
   { label: "Pattern", value: "Custom jacquard motif development (from ~200 m)" },
   { label: "Weight", value: "12–40 momme across the silk range" },
   { label: "Grade", value: "4A / 5A / 6A for raw silk" },
@@ -101,7 +101,7 @@ const customDimensions = [
 const qcSteps = [
   { t: "Raw material inspection", d: "Screen silk against the confirmed material specification before production." },
   { t: "Semi-finished in-line inspection", d: "Real-time check of weave integrity, texture and details during processing." },
-  { t: "Finished goods inspection", d: "Appearance, size, colour and workmanship checks against the agreed acceptance criteria." },
+  { t: "Finished goods inspection", d: "Appearance, size, color and workmanship checks against the agreed acceptance criteria." },
   { t: "Pre-shipping final audit", d: "Final recheck before delivery, with inspection records prepared for buyer review." },
 ];
 
@@ -134,7 +134,7 @@ export default function ServicesPage() {
         </h1>
         <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-soft">
           Private-label OEM and custom development for global B2B buyers —
-          custom width, colour and pattern, backed by full QC and a clear
+          custom width, color and pattern, backed by full QC and a clear
           9-step sourcing process.
         </p>
 
@@ -163,7 +163,7 @@ export default function ServicesPage() {
             Silk product matrix
           </h2>
           <p className="mt-3 max-w-2xl text-sm leading-relaxed text-ink-soft">
-            Ten silk categories, each with custom width, colour and pattern
+            Ten silk categories, each with custom width, color and pattern
             development where the weave allows.
           </p>
           <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
