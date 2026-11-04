@@ -5,4 +5,4 @@
 :HL["/christopherbu-silk/blog/fan-bingbing-met-gala-illustration-640.webp","image",{"imageSrcSet":"/christopherbu-silk/blog/fan-bingbing-met-gala-illustration-640.webp 640w, /christopherbu-silk/blog/fan-bingbing-met-gala-illustration.webp 1080w","imageSizes":"(max-width: 768px) 640px, 1080px","fetchPriority":"high"}]
 :HL["/christopherbu-silk/products/raw-silk-cocoon.webp","image"]
 1:[["children",{"s":"__PAGE__","h":128}]]
-0:{"b":"C96LxLnCpFoMRawc5kVu5","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
+0:{"b":"JQdMwMv9dzDd3J4KbOL7q","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
