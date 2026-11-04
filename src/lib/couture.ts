@@ -32,6 +32,13 @@ export const coutureLooks: CoutureLook[] = [
       "A strapless white gown with plum-blossom embroidery and a sweeping grid-lined cape — an oriental-inspired take on couture tailoring and silk drape.",
     image: "white-plum-gown.webp",
   },
+  {
+    slug: "porcelain-embroidery-gown",
+    name: "Porcelain Embroidery Mermaid Gown",
+    detail:
+      "An ivory mermaid gown hand-embroidered with multicoloured florals, butterflies and green scalloped edging — a study in how fine mulberry silk carries dense hand embroidery through a sculptural fishtail silhouette.",
+    image: "porcelain-embroidery-gown.webp",
+  },
 ];
 
 export function getCoutureLook(slug: string): CoutureLook | undefined {
