@@ -109,12 +109,12 @@ export default function HomePage() {
             <h2 className="font-display text-3xl font-medium text-jade-deep md:text-4xl">
               Our Primary Silk Products
             </h2>
-            <p className="mt-3 max-w-2xl text-base text-ink-soft">
+            <p className="mt-3 max-w-3xl text-base text-ink-soft">
               Our core supply spans the three forms buyers request
               most: raw silk for weaving, greige fabric for finishing, and
               dupioni for structured couture.
             </p>
-            <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink-soft">
+            <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
               All of it comes from Yizhou, in Guangxi, China — the world&apos;s
               largest raw silk origin, holding the country&apos;s top ranking
               for mulberry field area, cocoon output and raw silk production
@@ -128,17 +128,17 @@ export default function HomePage() {
             </p>
           </div>
 
-          {/* raw silk 主推大卡 + 4 绿色统计卡同行 */}
+          {/* raw silk 主推大卡（左图右文）+ 4 绿色统计卡同行 */}
           <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-stretch">
             <Link
               href="/products/raw-silk"
-              className="group flex flex-col overflow-hidden border border-line bg-ivory transition-colors hover:border-gold"
+              className="group flex flex-col overflow-hidden border border-line bg-ivory transition-colors hover:border-gold sm:flex-row"
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src={rawSilk.image}
-                alt={rawSilk.imageAlt}
-                className="aspect-[16/9] w-full object-cover"
+                src="/christopherbu-silk/products/raw-silk-cocoon.webp"
+                alt="White silk cocoons and raw silk skeins on a linen cloth — raw silk from Yizhou"
+                className="aspect-[4/3] w-full object-cover sm:w-2/5 sm:aspect-auto"
               />
               <div className="flex flex-1 flex-col p-8">
                 <h3 className="font-display text-3xl font-medium text-jade-deep group-hover:text-jade">
@@ -182,31 +182,33 @@ export default function HomePage() {
             {/* 左：其余 9 个产品，两列 */}
             <div>
               <h3 className="font-display text-2xl font-medium text-jade-deep">
-                More silk from Yizhou
+                More Silk Products
               </h3>
-              <div className="mt-6 grid gap-6 sm:grid-cols-2">
+              <div className="mt-6 grid gap-4 sm:grid-cols-2">
                 {otherProducts.map((p) => (
                   <Link
                     key={p.slug}
                     href={`/products/${p.slug}`}
-                    className="group border border-line bg-ivory p-6 transition-colors hover:border-gold"
+                    className="group flex gap-4 border border-line bg-ivory p-4 transition-colors hover:border-gold"
                   >
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src={p.image}
                       alt={p.imageAlt}
                       loading="lazy"
-                      className="aspect-[4/3] w-full object-cover"
+                      className="aspect-square w-20 shrink-0 self-start object-cover"
                     />
-                    <h4 className="font-display mt-4 text-xl font-medium text-jade-deep group-hover:text-jade">
-                      {p.name}
-                    </h4>
-                    <p className="mt-2 text-sm leading-relaxed text-ink-soft">
-                      {p.introAnswer}
-                    </p>
-                    <span className="mt-3 inline-block text-sm font-medium text-gold transition-transform group-hover:translate-x-1">
-                      Source {p.name.toLowerCase()} →
-                    </span>
+                    <div className="flex min-w-0 flex-col">
+                      <h4 className="font-display text-base font-medium leading-snug text-jade-deep group-hover:text-jade">
+                        {p.name}
+                      </h4>
+                      <p className="mt-1.5 text-sm leading-relaxed text-ink-soft line-clamp-3">
+                        {p.introAnswer}
+                      </p>
+                      <span className="mt-auto pt-2 inline-block text-sm font-medium text-gold transition-transform group-hover:translate-x-1">
+                        Source →
+                      </span>
+                    </div>
                   </Link>
                 ))}
               </div>
