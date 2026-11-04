@@ -7,7 +7,6 @@ const products = [
   { href: "/products/greige-fabric", label: "Greige Fabric", external: false },
   { href: "/products/satin", label: "Satin", external: false },
   { href: "/products/jacquard-luo", label: "Jacquard Luo", external: false },
-  { href: "/products/organic-silk", label: "Organic Silk", external: false },
   { href: "/products/georgette", label: "Georgette", external: false },
   { href: "/products/pongee", label: "Pongee", external: false },
   { href: "/products/stretch-silk", label: "Silk Stretch Satin", external: false },

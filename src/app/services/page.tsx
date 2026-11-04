@@ -41,7 +41,7 @@ const productMatrix = [
   {
     name: "Mulberry Raw Silk",
     href: "/products/raw-silk",
-    desc: "20/22 denier filature silk in 4A–6A grade, supplied by weight for weaving and embroidery.",
+    desc: "Four varieties in 4A–6A grade: 20/22D white, natural dupion, luxury and GOTS-certified organic silk — supplied by weight for weaving and embroidery.",
   },
   {
     name: "Greige Silk Fabric",
@@ -62,11 +62,6 @@ const productMatrix = [
     name: "Jacquard Luo Silk",
     href: "/products/jacquard-luo",
     desc: "Silk with motifs woven into the cloth, including custom pattern development.",
-  },
-  {
-    name: "Organic Silk",
-    href: "/products/organic-silk",
-    desc: "GOTS-certified organic silk (GOTS-30270) — raw silk and greige fabric for brands with organic requirements.",
   },
   {
     name: "Georgette Silk",
