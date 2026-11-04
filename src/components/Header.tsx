@@ -85,7 +85,7 @@ export function Header() {
 
       {/* 前景内容 */}
       <div className="relative mx-auto max-w-6xl px-6 py-8">
-        {/* 第一行：品牌 logo（金色 Christopher Bu 字标）居中 + Chat with us 最右 */}
+        {/* 第一行：品牌 logo（金色 Christopher Bu 字标）居中 + Chat with us 靠右下 */}
         <div className="relative flex items-center justify-center py-4">
           <Link href="/" className="inline-block" aria-label="Christopher Bu — home">
             {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -95,8 +95,8 @@ export function Header() {
               className="h-9 w-auto md:h-11"
             />
           </Link>
-          {/* 社交图标：Chat with us + WhatsApp + Instagram（金色字标行最右） */}
-          <div className="absolute right-0 flex items-center gap-3">
+          {/* 社交图标：Chat with us + WhatsApp + Instagram（第一行最右、底部对齐） */}
+          <div className="absolute bottom-0 right-0 flex items-center gap-3">
             <span className="text-sm font-medium text-gold-bright">Chat with us</span>
             <a
               href={`https://wa.me/${siteConfig.social.whatsapp.replace(/[^0-9]/g, "")}`}

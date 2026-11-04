@@ -161,9 +161,9 @@ export default function HomePage() {
               ].map((s) => (
                 <div
                   key={s.l}
-                  className="flex flex-col justify-center border border-gold/70 bg-jade p-6 text-ivory"
+                  className="flex h-full min-h-[96px] flex-col justify-center border border-gold/70 bg-jade px-5 py-4 text-ivory"
                 >
-                  <p className="font-display text-3xl font-semibold text-gold-bright">
+                  <p className="font-display text-2xl font-semibold text-gold-bright">
                     {s.n}
                     {"sub" in s && s.sub && (
                       <span className="ml-1 align-middle font-sans text-sm font-normal text-ivory/75">
@@ -177,28 +177,21 @@ export default function HomePage() {
             </div>
           </div>
 
-          {/* 下方：左 9 产品两列 + 右 blog 同 level */}
-          <div className="mt-16 grid gap-12 lg:grid-cols-[1.5fr_1fr]">
-            {/* 左：其余 9 个产品，两列 */}
-            <div>
-              <h3 className="font-display text-2xl font-medium text-jade-deep">
-                Silk Fabrics
-              </h3>
-              <div className="mt-6 grid gap-6 sm:grid-cols-2">
-                {otherProducts.map((p) => (
-                  <Link
-                    key={p.slug}
-                    href={`/products/${p.slug}`}
-                    className="group flex flex-col overflow-hidden border border-line bg-ivory transition-colors hover:border-gold"
-                  >
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={p.image}
-                      alt={p.imageAlt}
-                      loading="lazy"
-                      className="aspect-[4/3] w-full object-cover"
-                    />
-                    <div className="flex flex-1 flex-col p-5">
+          {/* 下方：左 9 产品两列 + 右 blog 同 level，统一米色底 */}
+          <div className="mt-16 bg-ivory-deep p-6 md:p-8">
+            <div className="grid gap-10 lg:grid-cols-[1.5fr_1fr] lg:gap-12">
+              {/* 左：其余 9 个产品，两列 */}
+              <div>
+                <h3 className="font-display text-2xl font-medium text-jade-deep">
+                  Silk Fabrics
+                </h3>
+                <div className="mt-6 grid gap-6 sm:grid-cols-2">
+                  {otherProducts.map((p) => (
+                    <Link
+                      key={p.slug}
+                      href={`/products/${p.slug}`}
+                      className="group flex flex-col border border-line bg-ivory p-5 transition-colors hover:border-gold"
+                    >
                       <h4 className="font-display text-lg font-medium leading-snug text-jade-deep group-hover:text-jade">
                         {p.name}
                       </h4>
@@ -208,61 +201,61 @@ export default function HomePage() {
                       <span className="mt-auto pt-3 inline-block text-sm font-medium text-gold transition-transform group-hover:translate-x-1">
                         Source →
                       </span>
-                    </div>
-                  </Link>
-                ))}
+                    </Link>
+                  ))}
+                </div>
               </div>
-            </div>
 
-            {/* 右：blog（press 故事），与产品同 level */}
-            <aside className="border-y border-gold/40 bg-ivory-deep lg:border-y-0 lg:border-l lg:border-gold/40 lg:pl-12">
-              <h3 className="font-display text-2xl font-medium text-jade-deep">
-                From local looms to the world&apos;s red carpets.
-              </h3>
-              <p className="mt-3 text-sm text-ink-soft">
-                Stories of the silk we source — from the longevity town that
-                grows it, to the couture gowns that wore it.
-              </p>
-              <div className="mt-6 flex flex-col gap-5">
-                {pressItems.map((item) => (
-                  <Link
-                    key={item.slug}
-                    href={`/blog/${item.slug}`}
-                    className="group flex gap-5 border border-line bg-ivory p-4 transition-colors hover:border-gold"
-                  >
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={`/christopherbu-silk/${item.image}`}
-                      alt={item.imageAlt}
-                      loading="lazy"
-                      className="aspect-[3/4] w-24 shrink-0 self-start object-cover"
-                    />
-                    <div className="flex min-w-0 flex-col">
-                      <div className="flex flex-wrap items-center gap-2 text-xs">
-                        <span className="rounded-full border border-gold/40 px-2.5 py-0.5 font-medium text-gold">
-                          {item.type}
+              {/* 右：blog（press 故事），与产品同 level */}
+              <aside>
+                <h3 className="font-display text-2xl font-medium text-jade-deep">
+                  From local looms to the world&apos;s red carpets.
+                </h3>
+                <p className="mt-3 text-sm text-ink-soft">
+                  Stories of the silk we source — from the longevity town that
+                  grows it, to the couture gowns that wore it.
+                </p>
+                <div className="mt-6 flex flex-col gap-5">
+                  {pressItems.map((item) => (
+                    <Link
+                      key={item.slug}
+                      href={`/blog/${item.slug}`}
+                      className="group flex gap-5 border border-line bg-ivory p-4 transition-colors hover:border-gold"
+                    >
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={`/christopherbu-silk/${item.image}`}
+                        alt={item.imageAlt}
+                        loading="lazy"
+                        className="aspect-[3/4] w-24 shrink-0 self-start object-cover"
+                      />
+                      <div className="flex min-w-0 flex-col">
+                        <div className="flex flex-wrap items-center gap-2 text-xs">
+                          <span className="rounded-full border border-gold/40 px-2.5 py-0.5 font-medium text-gold">
+                            {item.type}
+                          </span>
+                          <span className="text-ink-muted">{item.publishDate}</span>
+                        </div>
+                        <h4 className="font-display mt-2 text-base font-medium leading-snug text-jade-deep group-hover:text-jade">
+                          {item.title}
+                        </h4>
+                        <p className="mt-2 text-sm leading-relaxed text-ink-soft">
+                          {item.summary}
+                        </p>
+                        <span className="mt-auto pt-2 inline-block text-sm font-medium text-gold transition-transform group-hover:translate-x-1">
+                          Read article →
                         </span>
-                        <span className="text-ink-muted">{item.publishDate}</span>
                       </div>
-                      <h4 className="font-display mt-2 text-base font-medium leading-snug text-jade-deep group-hover:text-jade">
-                        {item.title}
-                      </h4>
-                      <p className="mt-2 text-sm leading-relaxed text-ink-soft">
-                        {item.summary}
-                      </p>
-                      <span className="mt-auto pt-2 inline-block text-sm font-medium text-gold transition-transform group-hover:translate-x-1">
-                        Read article →
-                      </span>
-                    </div>
-                  </Link>
-                ))}
-              </div>
-            </aside>
+                    </Link>
+                  ))}
+                </div>
+              </aside>
+            </div>
           </div>
         </section>
 
         {/* Why Us：B2B 批发采购核心风险解决方案 */}
-        <section className="bg-ivory-deep">
+        <section className="bg-ivory">
           <div className="mx-auto max-w-6xl px-6 py-16 md:py-24">
             <div className="mb-12">
               <h2 className="font-display max-w-4xl text-3xl font-medium text-jade-deep md:text-4xl">
@@ -301,7 +294,7 @@ export default function HomePage() {
               ].map((item) => (
                 <div
                   key={item.t}
-                  className="border border-line bg-ivory p-8 transition-colors hover:border-gold"
+                  className="border border-line bg-ivory-deep p-8 transition-colors hover:border-gold"
                 >
                   <h3 className="font-display text-xl font-medium text-jade-deep">
                     {item.t}
@@ -316,7 +309,8 @@ export default function HomePage() {
         </section>
 
         {/* FAQ 索引 */}
-        <section className="mx-auto max-w-6xl px-6 py-16 md:py-20">
+        <section className="bg-ivory-deep">
+          <div className="mx-auto max-w-6xl px-6 py-16 md:py-20">
           <div className="mb-8">
             <h2 className="font-display text-3xl font-medium text-jade-deep md:text-4xl">
               Sourcing silk from Yizhou, answered.
@@ -331,7 +325,7 @@ export default function HomePage() {
               <Link
                 key={f.q}
                 href="/faq"
-                className="group border border-line bg-ivory-deep p-6 transition-colors hover:border-gold"
+                className="group border border-line bg-ivory p-6 transition-colors hover:border-gold"
               >
                 <h3 className="text-base font-semibold text-jade-deep group-hover:text-jade">
                   {f.q}
@@ -348,6 +342,7 @@ export default function HomePage() {
           >
             View all FAQs →
           </Link>
+          </div>
         </section>
 
         {/* CTA：深绿底 + 内嵌金边画框 */}
