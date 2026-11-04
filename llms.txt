@@ -1,6 +1,6 @@
 # Christopher Bu × Yizhou Silk
 
-> B2B supplier of mulberry raw silk, greige fabric, dupioni, satin, jacquard luo, organic silk, georgette, pongee, stretch and blended silk, sourced from Yizhou, China — the world's largest raw silk origin. Curated under the design eye of the Christopher Bu couture house.
+> B2B supplier of mulberry raw silk, greige fabric, dupioni, satin, jacquard luo, organic silk, georgette, habotai (pongee), stretch and blended silk, sourced from Yizhou, China — the world's largest raw silk origin. Curated under the design eye of the Christopher Bu couture house.
 
 A couture house's red-carpet heritage, applied to raw silk sourcing. We supply textile mills, brands and designers worldwide. The Christopher Bu house is known for the "Forbidden City"-inspired couture series worn on the Oscars red carpet (as reported by Global Times, Daily Mail, Vogue).
 
@@ -11,10 +11,10 @@ A couture house's red-carpet heritage, applied to raw silk sourcing. We supply t
 - [Raw Silk Yarn](https://jimmyta0899.github.io/christopherbu-silk/products/raw-silk): Raw silk yarn in three grades — 20/22D white raw silk, natural dupion silk yarn and luxury silk yarn — 4A/5A grade, core product.
 - [Greige Fabric](https://jimmyta0899.github.io/christopherbu-silk/products/greige-fabric): Mulberry silk fabric supplied greige (undyed) or dyed to order (standard shade card / custom colour).
 - [Dupioni](https://jimmyta0899.github.io/christopherbu-silk/products/dupioni): Textured mulberry silk for gowns and eveningwear (also spelled douppioni / doupioni).
-- [Satin](https://jimmyta0899.github.io/christopherbu-silk/products/satin): Lustrous satin silk for bridal, eveningwear and luxury linings.
+- [Satin](https://jimmyta0899.github.io/christopherbu-silk/products/satin): Lustrous satin silk for bridal, eveningwear and luxury linings (also called charmeuse / crepe-back satin in silk).
 - [Jacquard Luo](https://jimmyta0899.github.io/christopherbu-silk/products/jacquard-luo): Silk with motifs woven into the cloth, including custom pattern development.
 - [Georgette](https://jimmyta0899.github.io/christopherbu-silk/products/georgette): Sheer, crinkled silk in 8–12 momme for scarves and flowing garments.
-- [Pongee](https://jimmyta0899.github.io/christopherbu-silk/products/pongee): Plain-weave silk with a crisp hand for linings and light shirts.
+- [Habotai](https://jimmyta0899.github.io/christopherbu-silk/products/habotai): Plain-weave silk with a crisp hand for linings and light shirts (also called pongee, habutai or China silk).
 - [Silk Stretch Satin](https://jimmyta0899.github.io/christopherbu-silk/products/stretch-silk): Satin-weave silk-spandex blend (90–95% silk) in 16–19 momme.
 - [Blended Silk](https://jimmyta0899.github.io/christopherbu-silk/products/blended-silk): Silk-cotton and silk-linen weaves.
 - [Services](https://jimmyta0899.github.io/christopherbu-silk/services): Private-label OEM, custom development and full QC.
@@ -28,7 +28,7 @@ A couture house's red-carpet heritage, applied to raw silk sourcing. We supply t
 ## Core facts
 
 - Origin: Yizhou, Guangxi, China — world's largest raw silk producing region.
-- Products: Mulberry raw silk yarn (four varieties: 20/22D white, natural dupion, luxury and GOTS-certified organic silk), greige fabric (undyed, unfinished — momme follows base weave, ~8–30mm), dupioni (16/19mm, up to 21–22mm), satin (10/12/14/16/19/22/25/30 momme), jacquard luo (16/19/22/24/30mm custom motifs), georgette (8/10/12/14/16mm, heavy 22mm), pongee/habotai (6/8/10/12/14/15/16 momme), silk stretch satin (14/16/19/22/25/28 momme, ~94% silk), silk blend (silk-cotton / silk-linen, composition and momme by buyer specification).
+- Products: Mulberry raw silk yarn (four varieties: 20/22D white, natural dupion, luxury and GOTS-certified organic silk), greige fabric (undyed, unfinished — momme follows base weave, ~8–30mm), dupioni (16/19mm, up to 21–22mm), satin (10/12/14/16/19/22/25/30 momme; also charmeuse / crepe-back satin), jacquard luo (16/19/22/24/30mm custom motifs), georgette (8/10/12/14/16mm, heavy 22mm), habotai (6/8/10/12/14/15/16 momme; also pongee, habutai, China silk), silk stretch satin (14/16/19/22/25/28 momme, ~94% silk), silk blend (silk-cotton / silk-linen, composition and momme by buyer specification).
 - Certification: GOTS, OEKO-TEX Standard 100 Class II, China Organic and quality-system files available for qualified buyer review within each document's scope. California Prop 65, EU textile-safety and other destination-market requirements reviewed against product-specific test reports and confirmed in writing before order approval. GOTS-certified organic silk license number and validity provided on quotation.
 - Trade: FOB Nansha / FOB Yantian / FOB Qinzhou / FCA Yizhou (bulk, preferred). Samples: DHL worldwide or designated courier. Small orders: PayPal, Stripe, Venmo, Zelle. Bulk: T/T 30% deposit, 70% against B/L. Reference MOQ (no universal fixed minimum) and 15–25 working day lead time are planning estimates confirmed in the written quotation / signed order documents.
 - Samples: $25 sample, credited on first bulk order (worldwide DHL shipping).
