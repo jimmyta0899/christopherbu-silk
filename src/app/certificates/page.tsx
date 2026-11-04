@@ -7,7 +7,7 @@ import { siteConfig } from "@/lib/site-config";
 export const metadata: Metadata = {
   title: "Certifications — GOTS, OEKO-TEX Class II, China Organic & Compliance",
   description:
-    "Our local mill in Yizhou holds GOTS, OEKO-TEX STANDARD 100 Class II, China Organic and quality-system certification, including GOTS-certified organic silk (GOTS-30270, ECOCERT). Prop 65 and EU destination-market compliance reviewed before order approval.",
+    "Our local mill in Yizhou holds GOTS, OEKO-TEX STANDARD 100 Class II, China Organic and quality-system certification, including GOTS-certified organic silk. Prop 65 and EU destination-market compliance reviewed before order approval.",
   keywords: [
     "OEKO-TEX 100 silk fabric",
     "GOTS certified silk fabric B2B",
@@ -53,28 +53,12 @@ export default function CertificatesPage() {
             </h2>
             <p className="mt-3 text-sm leading-relaxed text-ink-soft">
               Covers the organic status and processing of our mulberry silk,
-              from fibre to finished fabric — for buyers with organic sourcing
-              requirements.
-            </p>
-            <p className="mt-3 text-sm font-medium text-gold">
-              Certified by ECOCERT Greenlife SAS — GOTS license no. GOTS-30270,
-              valid to 2027-10-19. Certificate number provided on quotation.
-            </p>
-          </div>
-
-          <div className="border border-line p-8">
-            <h2 className="font-display text-2xl font-medium text-jade-deep">
-              GOTS-Certified Organic Silk
-            </h2>
-            <p className="mt-3 text-sm leading-relaxed text-ink-soft">
-              Our organic mulberry silk is certified 100% organic across the
-              full process — boiling, pre-treatment, spinning and weaving —
+              from fibre to finished fabric — including 100% organic silk
+              processed through boiling, pre-treatment, spinning and weaving,
               supplied as raw silk, greige yarns and greige fabrics.
             </p>
             <p className="mt-3 text-sm font-medium text-gold">
-              GOTS license no. GOTS-30270, valid to 2027-10-19. Verify the
-              certification on the GOTS public database with the certificate
-              number provided on your quotation.
+              Certificate number and license details provided on quotation.
             </p>
           </div>
 

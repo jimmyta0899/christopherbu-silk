@@ -6,7 +6,7 @@ import { Footer } from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Services — Private Label & Custom Silk Supply | Christopher Bu",
   description:
-    "Custom mulberry silk supply from Yizhou, China: private-label OEM, custom width, color and pattern development, full QC and a 9-step sourcing process for global B2B buyers.",
+    "Custom mulberry silk supply from Yizhou, China: private-label OEM, custom width, color and pattern development, and full QC for global B2B buyers.",
   keywords: [
     "custom silk supply",
     "private label silk OEM",
@@ -100,18 +100,6 @@ const qcSteps = [
   { t: "Pre-shipping final audit", d: "Final recheck before delivery, with inspection records prepared for buyer review." },
 ];
 
-const process = [
-  { t: "Inquiry", d: "Share the product, quantity, target market and custom specifications." },
-  { t: "Customized solutions", d: "We recommend the material, construction, branding and packaging route for written confirmation." },
-  { t: "Price quotation", d: "Formal quotation with reference MOQ, lead time and service charges." },
-  { t: "Sample proofing", d: "Physical sample produced for buyer confirmation." },
-  { t: "Sales contract", d: "Approved specifications, tolerances and commercial terms locked in signed documents." },
-  { t: "Production", d: "Bulk production against the confirmed material, approved sample and workmanship standard." },
-  { t: "Inspection", d: "Comprehensive inspection of quality and all details." },
-  { t: "Payment", d: "Deposit and balance settled under the verified pro forma invoice or contract." },
-  { t: "Delivery", d: "Packed and dispatched under the confirmed route, Incoterm and schedule." },
-];
-
 const moq = [
   { label: "Reference MOQ", value: "No universal fixed MOQ — small trial rolls, custom widths and swatches may be available subject to material, mill and schedule review." },
   { label: "Final MOQ & organic status", value: "Confirmed in the written quotation and applicable document scope." },
@@ -124,13 +112,13 @@ export default function ServicesPage() {
     <>
       <Header />
       <main className="mx-auto max-w-6xl px-6 py-16 md:py-20">
-        <h1 className="font-display max-w-3xl text-4xl font-medium text-jade-deep md:text-5xl">
-          Custom silk supply, from raw material to finished cloth.
+        <h1 className="font-display text-4xl font-medium text-jade-deep md:text-5xl">
+          Custom silk supply, from raw material to finished fabrics.
         </h1>
-        <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-soft">
+        <p className="mt-5 text-lg leading-relaxed text-ink-soft">
           Private-label OEM and custom development for global B2B buyers —
           custom width, color and pattern, backed by full QC and a clear
-          9-step sourcing process.
+          sourcing process.
         </p>
 
         {/* 服务对象 */}
@@ -234,32 +222,6 @@ export default function ServicesPage() {
               </div>
             ))}
           </div>
-        </section>
-
-        {/* 9 步合作流程 */}
-        <section className="mt-16 border-t border-line pt-12">
-          <h2 className="font-display text-3xl font-medium text-jade-deep">
-            How we work
-          </h2>
-          <p className="mt-3 max-w-2xl text-sm leading-relaxed text-ink-soft">
-            Nine steps keep specifications, commercial terms, sampling, bulk
-            production and delivery aligned.
-          </p>
-          <ol className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-            {process.map((step, i) => (
-              <li key={step.t} className="border border-line p-6">
-                <p className="text-xs font-medium text-gold">
-                  {String(i + 1).padStart(2, "0")}
-                </p>
-                <h3 className="font-display mt-2 text-lg font-medium text-jade-deep">
-                  {step.t}
-                </h3>
-                <p className="mt-2 text-sm leading-relaxed text-ink-soft">
-                  {step.d}
-                </p>
-              </li>
-            ))}
-          </ol>
         </section>
 
         {/* MOQ 与交期 */}

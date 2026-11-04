@@ -111,7 +111,7 @@ export default function SustainabilityPage() {
               },
               {
                 q: "Do you supply GOTS-certified organic silk?",
-                a: "Yes. Our organic mulberry silk is certified by ECOCERT Greenlife SAS under GOTS license no. GOTS-30270, valid to October 2027, covering 100% organic raw silk, greige yarns and greige fabrics.",
+                a: "Yes. Our organic mulberry silk is certified 100% organic across the full process, covering organic raw silk, greige yarns and greige fabrics. The license number and validity are provided with your quotation.",
               },
               {
                 q: "Is the silk traceable to origin?",

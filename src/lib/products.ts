@@ -83,7 +83,7 @@ export const products: Product[] = [
       { label: "Color", value: "Natural white or natural dupion; dyed to order from a standard shade card or your custom color" },
       { label: "Moisture", value: "Max 11%" },
       { label: "Character", value: "Highly breathable, moisture-wicking, strong, low elasticity" },
-      { label: "Organic", value: "GOTS-certified organic raw silk available (GOTS-30270)" },
+      { label: "Organic", value: "GOTS-certified organic raw silk available" },
       { label: "Packaging", value: "Export cartons / bales (60 kg per bale typical); luxury silk in 5 kg bundles" },
       { label: "MOQ", value: "Reference MOQ — no fixed minimum; confirmed in the written quotation" },
     ],
@@ -185,11 +185,11 @@ export const products: Product[] = [
         key: "organic",
         name: "GOTS-Certified Organic Silk",
         description:
-          "Mulberry silk grown and processed to the Global Organic Textile Standard (GOTS), covering organic mulberry cultivation through boiling, spinning and weaving. Certified by ECOCERT Greenlife SAS under GOTS license no. GOTS-30270, valid to October 2027, with 100% organic silk content. Supplied as raw silk (filature silk), greige yarns or greige fabric — undyed or dyed to order from a standard shade card or your custom color. This is the yarn buyers choose when their brand or market requires verifiable organic status, not just a soft sustainability claim.",
+          "Mulberry silk grown and processed to the Global Organic Textile Standard (GOTS), covering organic mulberry cultivation through boiling, spinning and weaving, with 100% organic silk content. Supplied as raw silk (filature silk), greige yarns or greige fabric — undyed or dyed to order from a standard shade card or your custom color. This is the yarn buyers choose when their brand or market requires verifiable organic status, not just a soft sustainability claim.",
         specs: [
           { label: "Certification", value: "GOTS (Global Organic Textile Standard)" },
-          { label: "License no.", value: "GOTS-30270 (ECOCERT Greenlife SAS)" },
-          { label: "Validity", value: "To 2027-10-19" },
+          { label: "License no.", value: "Provided with quotation" },
+          { label: "Validity", value: "Provided with quotation" },
           { label: "Organic content", value: "100% organic silk" },
           { label: "Forms", value: "Raw silk (filature silk), greige yarns, greige fabrics" },
           { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom color)" },
@@ -239,7 +239,7 @@ export const products: Product[] = [
       { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom color)" },
       { label: "Shrinkage", value: "Double crepe up to 10% (pre-shrink recommended)" },
       { label: "Colorfastness", value: "Wash 4; rub dry 4 / wet 3 (ISO 105)" },
-      { label: "Organic", value: "GOTS-certified organic greige fabric available (GOTS-30270)" },
+      { label: "Organic", value: "GOTS-certified organic greige fabric available" },
       { label: "MOQ", value: "Reference MOQ — no fixed minimum; confirmed in the written quotation" },
     ],
     useCases: [

@@ -73,36 +73,40 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* 价值观 */}
+        {/* How we work — 9 步合作流程 */}
         <section className="mt-16 border-t border-line pt-12">
           <h2 className="font-display text-3xl font-medium text-jade-deep">
             How we work
           </h2>
-          <div className="mt-8 grid gap-8 md:grid-cols-3">
+          <p className="mt-3 max-w-2xl text-sm leading-relaxed text-ink-soft">
+            Nine steps keep specifications, commercial terms, sampling, bulk
+            production and delivery aligned.
+          </p>
+          <ol className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
             {[
-              {
-                t: "Source-first",
-                d: "Silk sourced from local mills with verifiable origin and consistent quality.",
-              },
-              {
-                t: "Designer's eye",
-                d: "Couture-grade judgment on hand, grade and finish, applied to raw material sourcing.",
-              },
-              {
-                t: "Transparent trade",
-                d: "Clear terms, verifiable certification, and honest specifications.",
-              },
-            ].map((v) => (
-              <div key={v.t} className="border border-line p-7">
-                <h3 className="font-display text-xl font-medium text-jade-deep">
-                  {v.t}
-                </h3>
-                <p className="mt-3 text-sm leading-relaxed text-ink-soft">
-                  {v.d}
+              { t: "Inquiry", d: "Share the product, quantity, target market and custom specifications." },
+              { t: "Customized solutions", d: "We recommend the material, construction, branding and packaging route for written confirmation." },
+              { t: "Price quotation", d: "Formal quotation with reference MOQ, lead time and service charges." },
+              { t: "Sample proofing", d: "Physical sample produced for buyer confirmation." },
+              { t: "Sales contract", d: "Approved specifications, tolerances and commercial terms locked in signed documents." },
+              { t: "Production", d: "Bulk production against the confirmed material, approved sample and workmanship standard." },
+              { t: "Inspection", d: "Comprehensive inspection of quality and all details." },
+              { t: "Payment", d: "Deposit and balance settled under the verified pro forma invoice or contract." },
+              { t: "Delivery", d: "Packed and dispatched under the confirmed route, Incoterm and schedule." },
+            ].map((step, i) => (
+              <li key={step.t} className="border border-line p-6">
+                <p className="text-xs font-medium text-gold">
+                  {String(i + 1).padStart(2, "0")}
                 </p>
-              </div>
+                <h3 className="font-display mt-2 text-lg font-medium text-jade-deep">
+                  {step.t}
+                </h3>
+                <p className="mt-2 text-sm leading-relaxed text-ink-soft">
+                  {step.d}
+                </p>
+              </li>
             ))}
-          </div>
+          </ol>
         </section>
       </main>
       <Footer />

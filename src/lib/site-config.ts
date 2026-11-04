@@ -44,7 +44,7 @@ export const siteConfig = {
     },
     gotsOrganic: {
       label: "GOTS-Certified Organic Silk",
-      note: "Certified by ECOCERT Greenlife SAS — GOTS license no. GOTS-30270, valid to 2027-10-19",
+      note: "certified 100% organic; license number and validity provided on quotation",
     },
     chinaOrganic: {
       label: "China Organic",
