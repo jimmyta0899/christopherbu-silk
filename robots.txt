@@ -22,4 +22,4 @@ Allow: /
 User-Agent: CCBot
 Allow: /
 
-Sitemap: https://jimmyta0899.github.io/christopherbu-silk/sitemap.xml
+Sitemap: https://www.christopherbu.com/sitemap.xml
