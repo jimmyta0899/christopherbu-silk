@@ -204,41 +204,38 @@ export const products: Product[] = [
     slug: "greige-fabric",
     name: "Greige Silk Fabric",
     title:
-      "Christopher Bu Greige Silk Double Crepe 12–30 Momme 114/140cm for Couture & Bridal — Swatch MOQ FOB Nansha / FOB Yantian Yizhou Silk B2B",
-    h1: "Greige Silk Double Crepe for Couture & Bridal",
+      "Christopher Bu Greige Silk Fabric Undyed Unfinished Mulberry Silk by Weave — Swatch MOQ FOB Nansha / FOB Yantian Yizhou Silk B2B",
+    h1: "Greige Silk Fabric (Undyed, Unfinished)",
     metaDescription:
-      "Source mulberry silk fabric from Yizhou, China — supplied greige (undyed) or dyed to your color in 12–30 momme. Bulk supply with OEKO-TEX & GOTS available on request.",
+      "Source greige (undyed, unfinished) mulberry silk from Yizhou, China — the raw state of the cloth before dyeing or finishing, by base weave. Bulk supply with OEKO-TEX & GOTS available on request.",
     introAnswer:
-      "We supply mulberry silk fabric from local mills in 12–30 momme, either greige for your own color development or dyed to order from a standard shade card or your custom color.",
+      "Greige silk fabric is undyed, unfinished mulberry silk straight off the loom — a state, not a variety. Its momme follows the base weave you choose, so we quote it to your weave and specification.",
     category: "greige-fabric",
     featured: true,
     keywords: [
       "greige silk fabric",
       "mulberry silk fabric wholesale",
-      "114cm 140cm width silk fabric",
-      "custom dyed silk fabric bulk",
-      "silk fabric for bridal atelier",
-      "silk double crepe",
-      "undyed silk fabric wholesale",
+      "undyed silk fabric",
+      "unfinished silk fabric",
       "silk fabric for custom dyeing",
+      "greige silk by weave",
+      "undyed silk fabric wholesale",
       "dyed silk fabric to order",
     ],
     body: [
-      "Greige silk fabric is undyed mulberry silk straight off the loom — the blank canvas brands, ateliers and finishing houses use for their own color, print and finish development. We supply mulberry silk fabric from 12 to 30 momme, including double crepe (crepe de chine), in 114 cm and 140 cm widths that suit garment cutting and bridal atelier work alike.",
-      "You can take it greige and develop your own signature colors in-house, or have it dyed to order — we offer both a standard shade card and custom color matching, so the finished shade is exactly what your collection needs. Our greige silk double crepe is a favorite for couture and bridal because it drapes cleanly and holds its hand across the full momme range.",
+      "Greige (or grey) silk fabric is the raw state of the cloth — undyed, unfinished mulberry silk straight off the loom, before any dyeing, printing or finishing. Greige is not a variety of silk; it is a state that every silk fabric passes through. Whether the finished cloth becomes double crepe, charmeuse, habotai or another weave, it starts here.",
+      "Because greige is a state rather than a variety, its momme is not a single fixed number — it follows the base weave you specify. Yizhou mills commonly run greige in double crepe, habotai (pongee) and charmeuse (satin) constructions, each with its own natural momme range. Tell us the weave and target weight, and we quote the greige to match, so you can develop your own color, print and finish from a blank, undyed base.",
+      "You can take greige silk as-is and finish it in-house, or have it dyed to order — we offer both a standard shade card and custom color matching. Supplying greige gives brands, ateliers and finishing houses full control over the final color, print and hand.",
     ],
     image: "/christopherbu-silk/products/greige-fabric.webp",
     imageAlt:
-      "Greige silk double crepe 114cm and 140cm width undyed fabric for custom dyeing wholesale",
+      "Greige silk fabric undyed unfinished straight off the loom for custom dyeing and finishing",
     specs: [
-      { label: "Type", value: "Greige (undyed) mulberry silk fabric — double crepe (crepe de chine)" },
-      { label: "Weave", value: "Crepe de chine, charmeuse, habotai (by request)" },
-      { label: "Momme", value: "12 / 16 / 19 / 30 mm" },
-      { label: "Weight", value: "≈50–129 g/m² by momme (19mm ≈ 82 g/m²)" },
-      { label: "Width", value: "114 cm / 140 cm" },
+      { label: "Type", value: "Greige (undyed, unfinished) mulberry silk fabric" },
+      { label: "Weave", value: "By base weave — double crepe, habotai (pongee), charmeuse (satin) and more" },
+      { label: "Momme", value: "Follows the base weave (roughly 8–30 mm across weaves)" },
+      { label: "Width", value: "114 cm / 140 cm (by weave)" },
       { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom color)" },
-      { label: "Shrinkage", value: "Double crepe up to 10% (pre-shrink recommended)" },
-      { label: "Colorfastness", value: "Wash 4; rub dry 4 / wet 3 (ISO 105)" },
       { label: "Organic", value: "GOTS-certified organic greige fabric available" },
       { label: "MOQ", value: "Reference MOQ — no fixed minimum; confirmed in the written quotation" },
     ],
@@ -250,15 +247,15 @@ export const products: Product[] = [
     faq: [
       {
         q: "What is greige silk fabric, and why buy it undyed?",
-        a: "Greige (or grey) fabric is undyed, unfinished silk cloth straight off the loom. Buying mulberry silk fabric greige gives you full control over color, print and finishing for your own production.",
+        a: "Greige (or grey) fabric is undyed, unfinished silk cloth straight off the loom — the raw state before any dyeing, printing or finishing. Buying greige gives you full control over color, print and finishing for your own production.",
+      },
+      {
+        q: "What momme is your greige silk?",
+        a: "Greige is a state, not a variety, so it has no single momme — the weight follows the base weave you choose. Tell us the weave and target weight, and we quote the greige to match.",
       },
       {
         q: "Can you dye the fabric for me?",
         a: "Yes. You can take the fabric greige and finish it yourself, or have it dyed to order — we offer both a standard shade card and custom color matching. Contact our team with your target color or Pantone reference for a quotation.",
-      },
-      {
-        q: "What width and weight is your double crepe available in?",
-        a: "Standard widths are 114 cm and 140 cm, in 12, 16, 19 and 30 momme. The weight you choose depends on drape and structure — lighter mommes for flow, heavier for hold.",
       },
     ],
   },
@@ -266,10 +263,10 @@ export const products: Product[] = [
     slug: "satin",
     name: "Satin Silk Fabric",
     title:
-      "Christopher Bu Satin Silk Fabric 16–30mm 114/140cm for Bridal & Eveningwear — Swatch FOB Nansha / FOB Yantian Yizhou Silk Supplier",
+      "Christopher Bu Satin Silk Fabric 10–30mm 114/140cm for Bridal & Eveningwear — Swatch FOB Nansha / FOB Yantian Yizhou Silk Supplier",
     h1: "Satin Silk Fabric for Bridal & Eveningwear",
     metaDescription:
-      "Source lustrous satin silk fabric from Yizhou, China, in 16/19/22/30 momme and 114/140 cm widths. Supplied greige or dyed to order. Ideal for bridal, eveningwear and luxury linings. B2B bulk supply.",
+      "Source lustrous satin silk fabric from Yizhou, China, in 10/12/14/16/19/22/25/30 momme and 114/140 cm widths. Supplied greige or dyed to order. Ideal for bridal, eveningwear and luxury linings. B2B bulk supply.",
     introAnswer:
       "Satin silk is a lustrous, smooth-faced mulberry silk with a soft sheen and fluid drape, supplied greige or dyed to order from a standard shade card or your custom color.",
     category: "satin",
@@ -287,7 +284,7 @@ export const products: Product[] = [
     ],
     body: [
       "Satin silk is the silk people picture when they think of liquid lustre: a smooth, glossy face with a soft sheen that slides under the hand and catches light as it moves. It is woven so the warp floats over the weft, which is what gives satin its signature high-gloss front and matt reverse — the same drape and shine that make it the default choice for bridal gowns, eveningwear and luxury linings.",
-      "We supply satin silk fabric in 16, 19, 22 and 30 momme, with the 19 momme satin the most-requested weight for bridal and eveningwear because it balances sheen, body and drape. Standard widths are 114 cm and 140 cm, which suit both garment cutting and soft furnishings.",
+      "We supply satin silk fabric from 10 to 30 momme, with the 16–19 momme satin the most-requested weight for sleepwear and shirts, 22–25 momme for high-end bedding, and 30 momme and up for heavyweight structured pieces. Standard widths are 114 cm and 140 cm, which suit both garment cutting and soft furnishings.",
       "Like all our silk, satin is supplied greige for your own color development, or dyed to order — we offer both a standard shade card and custom color matching, so the finished shade is exactly what your collection needs.",
     ],
     image: "/christopherbu-silk/products/satin.webp",
@@ -295,12 +292,10 @@ export const products: Product[] = [
       "Mulberry silk satin fabric with a high-gloss face and fluid drape, shown in deep red",
     specs: [
       { label: "Type", value: "Mulberry silk satin (crepe-back satin, 5-end weave)" },
-      { label: "Momme", value: "12 / 16 / 19 / 22 / 25–30 mm" },
-      { label: "Weight", value: "≈52–129 g/m² by momme (19mm ≈ 82 g/m²)" },
+      { label: "Momme", value: "10 / 12 / 14 / 16 / 19 / 22 / 25 / 30 mm" },
+      { label: "Weight", value: "≈43–129 g/m² (1 mm ≈ 4.3 g/m²)" },
       { label: "Width", value: "114 cm / 140 cm" },
       { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom color)" },
-      { label: "Shrinkage", value: "Satin up to 5%" },
-      { label: "Colorfastness", value: "Wash 4; rub dry 4 / wet 3 (ISO 105)" },
       { label: "Character", value: "High-gloss face, matt reverse, fluid drape" },
       { label: "MOQ", value: "Reference MOQ — no fixed minimum; confirmed in the written quotation" },
     ],
@@ -317,7 +312,7 @@ export const products: Product[] = [
       },
       {
         q: "What momme weights does your satin silk come in?",
-        a: "We supply satin silk in 16, 19, 22 and 30 momme. The 19 momme satin is the most-requested for bridal and eveningwear; lighter weights suit linings and lingerie, heavier weights suit structured pieces.",
+        a: "We supply satin silk in 10, 12, 14, 16, 19, 22, 25 and 30 momme. The 16–19 momme range suits sleepwear and shirts, 22–25 momme suits high-end bedding, and 30 momme and up is the heavyweight choice for structured pieces.",
       },
       {
         q: "Is your satin silk available in color?",
@@ -329,7 +324,7 @@ export const products: Product[] = [
     slug: "jacquard-luo",
     name: "Jacquard Luo Silk",
     title:
-      "Christopher Bu Jacquard Luo Silk Fabric Custom Woven Motifs 19mm for Couture & Occasionwear — Yizhou Silk Supplier",
+      "Christopher Bu Jacquard Luo Silk Fabric Custom Woven Motifs 16–30mm for Couture & Occasionwear — Yizhou Silk Supplier",
     h1: "Jacquard Luo Silk for Couture & Occasionwear",
     metaDescription:
       "Source jacquard luo silk fabric from Yizhou, China — a mulberry silk with motifs woven into the cloth on a jacquard loom. Custom pattern development. Ideal for couture and occasionwear. B2B bulk supply.",
@@ -359,8 +354,8 @@ export const products: Product[] = [
     specs: [
       { label: "Type", value: "Mulberry silk jacquard luo" },
       { label: "Weave", value: "Jacquard (motif woven into the cloth)" },
-      { label: "Momme", value: "19 / 22 / 30 mm (by motif)" },
-      { label: "Width", value: "114 cm / 140 cm" },
+      { label: "Momme", value: "16 / 19 / 22 / 24 / 30 mm (by motif)" },
+      { label: "Width", value: "114 cm / 140 cm (luo often narrower, ~110 cm)" },
       { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom color)" },
       { label: "Pattern", value: "Stock motifs or custom pattern development" },
       { label: "MOQ", value: "Reference MOQ — no fixed minimum for custom jacquard; confirmed in the written quotation" },
@@ -394,10 +389,10 @@ export const products: Product[] = [
     slug: "georgette",
     name: "Georgette Silk",
     title:
-      "Christopher Bu Georgette Silk Fabric 8–12mm 114/140cm for Scarves & Flowing Garments — Yizhou Silk Supplier",
+      "Christopher Bu Georgette Silk Fabric 8–16mm 114/140cm for Scarves & Flowing Garments — Yizhou Silk Supplier",
     h1: "Georgette Silk for Scarves & Flowing Garments",
     metaDescription:
-      "Source georgette silk fabric from Yizhou, China — a sheer, crinkled mulberry silk in 8/12 momme, 114/140 cm. Ideal for scarves, summer wear and flowing dresses. B2B bulk supply.",
+      "Source georgette silk fabric from Yizhou, China — a sheer, crinkled mulberry silk in 8/10/12/14/16 momme, 114/140 cm. Ideal for scarves, summer wear and flowing dresses. B2B bulk supply.",
     introAnswer:
       "Georgette is a sheer, crinkled mulberry silk with a slight crepe texture and flowing drape, supplied greige or dyed to order for scarves, summer wear and airy garments.",
     category: "georgette",
@@ -415,7 +410,7 @@ export const products: Product[] = [
     ],
     body: [
       "Georgette is a sheer, lightweight mulberry silk woven from highly twisted yarns, which gives it a subtle crinkle and a soft, flowing drape that floats rather than clings. It is the classic choice for scarves, summer dresses and any garment where airy movement is the point.",
-      "We supply georgette silk in 8 and 12 momme, with the 12 momme weight offering more body while keeping the characteristic sheerness. Standard widths are 114 cm and 140 cm.",
+      "We supply georgette silk from 8 to 16 momme, with heavier 22 momme georgette available for outerwear. The 8–12 momme range is the classic sheer, floaty weight; 14–16 momme gives enough body for garments, and heavy 22 momme georgette is used for jackets. Standard widths are 114 cm and 140 cm.",
       "Like all our silk, georgette is supplied greige for your own color development, or dyed to order from a standard shade card or your custom color.",
     ],
     image: "/christopherbu-silk/products/georgette.webp",
@@ -423,8 +418,8 @@ export const products: Product[] = [
       "Georgette silk fabric in a sheer, semi-transparent black drape for scarves and flowing garments",
     specs: [
       { label: "Type", value: "Mulberry silk georgette" },
-      { label: "Momme", value: "8 / 12 mm" },
-      { label: "Weight", value: "≈34–52 g/m²" },
+      { label: "Momme", value: "8 / 10 / 12 / 14 / 16 mm (heavy georgette 22 mm)" },
+      { label: "Weight", value: "≈34–95 g/m² (1 mm ≈ 4.3 g/m²)" },
       { label: "Width", value: "114 cm / 140 cm" },
       { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom color)" },
       { label: "Character", value: "Sheer, crinkled texture, flowing drape" },
@@ -442,7 +437,7 @@ export const products: Product[] = [
       },
       {
         q: "What momme weights does your georgette come in?",
-        a: "Georgette is supplied in 8 and 12 momme. The 8 momme is the classic sheer weight; 12 momme offers more body while keeping the characteristic sheerness.",
+        a: "Georgette is supplied in 8, 10, 12, 14 and 16 momme, with a heavy 22 momme georgette for outerwear. The 8–12 momme range is the classic sheer weight; 14–16 momme gives more body for garments.",
       },
       {
         q: "Is your georgette silk available in color?",
@@ -454,10 +449,10 @@ export const products: Product[] = [
     slug: "pongee",
     name: "Pongee Silk",
     title:
-      "Christopher Bu Pongee Silk Fabric 8–15mm 114cm for Linings & Light Shirts — Yizhou Silk Supplier",
+      "Christopher Bu Pongee Silk Fabric 6–16mm 114cm for Linings & Light Shirts — Yizhou Silk Supplier",
     h1: "Pongee Silk for Linings & Light Shirts",
     metaDescription:
-      "Source pongee silk fabric from Yizhou, China — a plain-weave mulberry silk in 8/15 momme, 114 cm, with a crisp, firm hand. Ideal for linings, scarves and light shirts. B2B bulk supply.",
+      "Source pongee (habotai) silk fabric from Yizhou, China — a plain-weave mulberry silk in 6/8/10/12/14/15/16 momme, 114 cm, with a crisp, firm hand. Ideal for linings, scarves and light shirts. B2B bulk supply.",
     introAnswer:
       "Pongee is a plain-weave mulberry silk with a crisp, firm hand and a subtle texture, supplied greige or dyed to order for linings, scarves and light shirts.",
     category: "pongee",
@@ -475,15 +470,16 @@ export const products: Product[] = [
     ],
     body: [
       "Pongee is a plain-weave mulberry silk with a crisp, slightly firm hand and a fine, even surface. Unlike the liquid drape of satin, pongee holds its shape, which makes it the workhorse silk for linings, scarves and light shirts where structure and durability matter more than lustre.",
-      "We supply pongee silk in 8 and 15 momme, in a 114 cm width. The 8 momme is the classic lining weight; 15 momme gives a firmer, more durable fabric for light outerwear and shirts.",
+      "We supply pongee silk from 6 to 16 momme, in a 114 cm width. The 6–8 momme range is the classic scarf and lining weight, 10–12 momme suits shirts, and 14–16 momme gives a firmer, more durable cloth for heavier shirts and light outerwear.",
       "Pongee is supplied greige for your own color development, or dyed to order from a standard shade card or your custom color.",
     ],
     image: "/christopherbu-silk/products/pongee.webp",
     imageAlt:
       "Pongee silk fabric in a light plain weave with soft pearl sheen for linings and light shirts",
     specs: [
-      { label: "Type", value: "Mulberry silk pongee (plain weave)" },
-      { label: "Momme", value: "8 / 15 mm" },
+      { label: "Type", value: "Mulberry silk pongee (habotai, plain weave)" },
+      { label: "Momme", value: "6 / 8 / 10 / 12 / 14 / 15 / 16 mm" },
+      { label: "Weight", value: "≈26–69 g/m² (1 mm ≈ 4.3 g/m²)" },
       { label: "Width", value: "114 cm" },
       { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom color)" },
       { label: "Character", value: "Crisp, firm hand, even surface" },
@@ -501,7 +497,7 @@ export const products: Product[] = [
       },
       {
         q: "What weights does your pongee come in?",
-        a: "Pongee is supplied in 8 and 15 momme, in a 114 cm width. The 8 momme is the classic lining weight; 15 momme is firmer for shirts and light outerwear.",
+        a: "Pongee is supplied in 6, 8, 10, 12, 14, 15 and 16 momme, in a 114 cm width. The 6–8 momme range is the classic scarf and lining weight, 10–12 momme suits shirts, and 14–16 momme is firmer for heavier shirts and light outerwear.",
       },
       {
         q: "Is your pongee silk available in color?",
@@ -513,12 +509,12 @@ export const products: Product[] = [
     slug: "stretch-silk",
     name: "Silk Stretch Satin",
     title:
-      "Christopher Bu Silk Stretch Satin Fabric 16–19mm 114/140cm Silk-Spandex Satin — Yizhou Silk Supplier",
+      "Christopher Bu Silk Stretch Satin Fabric 14–28mm 140cm Silk-Spandex Satin — Yizhou Silk Supplier",
     h1: "Silk Stretch Satin for Comfort & Fit",
     metaDescription:
-      "Source silk stretch satin fabric from Yizhou, China — a satin-weave 90–95% mulberry silk, 5–10% spandex blend in 16–19 momme, 114/140 cm. Luminous satin face with comfort stretch. B2B bulk supply.",
+      "Source silk stretch satin fabric from Yizhou, China — a satin-weave mulberry silk-spandex blend in 14/16/19/22/25/28 momme, 140 cm. Luminous satin face with comfort stretch. B2B bulk supply.",
     introAnswer:
-      "Silk stretch satin is a satin-weave blend of 90–95% mulberry silk with 5–10% spandex, keeping the luminous satin face while adding stretch and recovery, supplied greige or dyed to order in 16–19 momme.",
+      "Silk stretch satin is a satin-weave blend of mulberry silk with spandex, keeping the luminous satin face while adding stretch and recovery, supplied greige or dyed to order from 14 to 28 momme.",
     category: "stretch-silk",
     featured: true,
     keywords: [
@@ -533,8 +529,8 @@ export const products: Product[] = [
       "Yizhou stretch satin supplier",
     ],
     body: [
-      "Silk stretch satin keeps the luminous, glossy face of satin while adding 5–10% spandex for recovery and ease of movement. The satin weave gives it the liquid sheen and fluid drape of classic silk satin; the spandex forgives the cut, so fitted dresses, slips and occasionwear move with the body instead of against it.",
-      "We supply silk stretch satin in 16 to 19 momme, in 114 cm and 140 cm widths. The silk content stays dominant at 90–95% so the fabric reads and wears as satin, with the spandex there only to add stretch and recovery.",
+      "Silk stretch satin keeps the luminous, glossy face of satin while adding spandex for recovery and ease of movement. The satin weave gives it the liquid sheen and fluid drape of classic silk satin; the spandex forgives the cut, so fitted dresses, slips and occasionwear move with the body instead of against it.",
+      "We supply silk stretch satin from 14 to 28 momme, in a 140 cm width. The silk content stays dominant — typically around 94% silk with 6% spandex, or 93% silk with 7% spandex — so the fabric reads and wears as satin, with the spandex there only to add stretch and recovery.",
       "Silk stretch satin is supplied greige for your own color development, or dyed to order from a standard shade card or your custom color.",
     ],
     image: "/christopherbu-silk/products/stretch-silk.webp",
@@ -543,9 +539,10 @@ export const products: Product[] = [
     specs: [
       { label: "Type", value: "Mulberry silk satin + spandex blend" },
       { label: "Weave", value: "Satin (5-end)" },
-      { label: "Composition", value: "90–95% silk, 5–10% spandex" },
-      { label: "Momme", value: "16 / 19 mm" },
-      { label: "Width", value: "114 cm / 140 cm" },
+      { label: "Composition", value: "~94% silk / 6% spandex, or ~93% silk / 7% spandex" },
+      { label: "Momme", value: "14 / 16 / 19 / 22 / 25 / 28 mm" },
+      { label: "Weight", value: "≈60–121 g/m² (1 mm ≈ 4.3 g/m²)" },
+      { label: "Width", value: "140 cm" },
       { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom color)" },
       { label: "Character", value: "Satin face, comfort stretch, good recovery" },
       { label: "MOQ", value: "Reference MOQ — no fixed minimum; confirmed in the written quotation" },
@@ -559,11 +556,11 @@ export const products: Product[] = [
     faq: [
       {
         q: "What is silk stretch satin?",
-        a: "Silk stretch satin is a satin-weave blend of 90–95% mulberry silk and 5–10% spandex, keeping the luminous satin face and fluid drape while adding stretch and recovery for ease of movement.",
+        a: "Silk stretch satin is a satin-weave blend of mulberry silk and spandex, keeping the luminous satin face and fluid drape while adding stretch and recovery for ease of movement.",
       },
       {
         q: "What is the composition of your silk stretch satin?",
-        a: "Silk stretch satin is 90–95% mulberry silk and 5–10% spandex. The silk content stays dominant so the fabric reads and wears as satin, with spandex added only for stretch and recovery.",
+        a: "Silk stretch satin is typically around 94% mulberry silk with 6% spandex, or 93% silk with 7% spandex. The silk content stays dominant so the fabric reads and wears as satin, with spandex added only for stretch and recovery.",
       },
       {
         q: "Is your silk stretch satin available in color?",
@@ -596,7 +593,7 @@ export const products: Product[] = [
     ],
     body: [
       "Silk blend pairs mulberry silk with cotton or linen, combining silk's sheen and softness with the breathability and matte comfort of natural fibers. Silk-cotton leans soft and easy-care, while silk-linen adds texture and a cool, crisp hand for warm-weather wear.",
-      "The blend ratio sets the character. A 70% cotton / 30% silk blend keeps cotton's breathability at the fore with a subtle silk sheen — ideal for summer blouses and dresses. A 50/50 silk-cotton blend balances softness, lustre and durability for premium shirts and scarves, while higher-silk blends (up to 80% silk) give a lighter, more fluid drape for evening wear and sheer layers.",
+      "Because a blend contains a second fiber, its momme and hand depend on the exact composition — and a blended fabric's stated momme reflects the total cloth weight, not pure silk weight. For that reason we do not quote fixed technical parameters up front. Tell us your target composition (for example a silk/cotton or silk/linen ratio) and the momme you want, and we will source or develop the blend to that specification.",
       "Both silk and cotton are natural, biodegradable fibers, so silk blends offer a more responsible alternative to synthetic mixes — breathable, temperature-regulating and gentle on the skin, with silk's natural sheen removing the need for chemical shine finishes.",
       "Silk blend is supplied greige for your own color development, or dyed to order from a standard shade card or your custom color.",
     ],
@@ -605,8 +602,8 @@ export const products: Product[] = [
       "Silk blend fabric with a soft matte sheen and fine weave for shirts and summer wear",
     specs: [
       { label: "Type", value: "Mulberry silk blended with cotton or linen" },
-      { label: "Blends", value: "Silk-cotton, silk-linen (ratio by specification)" },
-      { label: "Silk-cotton ratios", value: "70/30, 50/50, up to 80% silk" },
+      { label: "Blends", value: "Silk-cotton, silk-linen (composition by specification)" },
+      { label: "Composition & momme", value: "Specified by the buyer — tell us your fiber ratio and target momme" },
       { label: "Width", value: "114 cm / 140 cm" },
       { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom color)" },
       { label: "Character", value: "Silk sheen with cotton/linen breathability, temperature-regulating" },
@@ -626,7 +623,7 @@ export const products: Product[] = [
       },
       {
         q: "What blend ratios do you offer?",
-        a: "Common silk-cotton ratios are 70% cotton / 30% silk, 50/50, and higher-silk blends of up to 80% silk. The ratio sets the balance of lustre, drape and breathability, and can be specified to suit your collection.",
+        a: "We do not fix the ratio up front — you specify the silk/cotton or silk/linen composition and target momme, and we source or develop the blend to that specification. The ratio sets the balance of lustre, drape and breathability.",
       },
       {
         q: "What is silk-cotton fabric used for?",
@@ -646,12 +643,12 @@ export const products: Product[] = [
     slug: "dupioni",
     name: "Dupioni Silk",
     title:
-      "Christopher Bu Greige Silk Dupioni 12/16/19mm 114/140cm for Evening Gowns & Sculptural Tailoring — Swatch FCA Yizhou Silk Supplier",
+      "Christopher Bu Greige Silk Dupioni 16/19mm 114/140cm for Evening Gowns & Sculptural Tailoring — Swatch FCA Yizhou Silk Supplier",
     h1: "Dupioni Silk for Gowns & Sculptural Tailoring",
     metaDescription:
-      "Source dupioni silk with its signature slub texture from Yizhou, China. Available in 12/16/19 momme, 114/140cm. Ideal for evening gowns, bridal and structured couture. B2B bulk supply.",
+      "Source dupioni silk with its signature slub texture from Yizhou, China. Available in 16/19 momme (up to 21–22), 114/140cm. Ideal for evening gowns, bridal and structured couture. B2B bulk supply.",
     introAnswer:
-      "Dupioni silk is a textured mulberry silk with a distinctive slubbed surface, widely used for evening gowns, bridal wear and structured couture garments. Available in 12, 16 and 19 momme.",
+      "Dupioni silk is a textured mulberry silk with a distinctive slubbed surface, widely used for evening gowns, bridal wear and structured couture garments. Available in 16 and 19 momme, up to 21–22 momme.",
     category: "dupioni",
     featured: true,
     keywords: [
@@ -669,14 +666,15 @@ export const products: Product[] = [
       "Silk dupioni is a tightly woven, crisp silk fabric made by pairing a fine standard silk yarn in the warp with an uneven yarn reeled from two or more entangled cocoons in the weft. Those double-cocoon threads — called dupion threads — are thicker and more irregular than standard silk, and that is exactly what creates dupioni's signature look: bold, prominent slubs running across the grain, exceptional body, and a stiff, sculptural drape.",
       "Dupioni is prized for evening wear, bridal gowns and special-occasion garments, as well as light home decorating. Because the weft and warp are often woven in different colors, it carries a natural two-tone iridescence that shifts as the fabric catches light — a subtle luxury that solid-dyed silks cannot match.",
       "Traditional, high-quality dupioni is hand-woven, which adds to its characteristic irregularity and heavier weight; more affordable versions are now machine-woven. The white Thai-style silk is a natural fibre, so a finished piece may carry minor variations and irregularities in the weave. These are a mark of a fine silk yarn, not defects, and should not be treated as such.",
-      "We supply 19 momme dupioni — the most-requested weight for gowns and bridal — alongside 12 and 16 momme options in 114 and 140 cm widths. As a Yizhou dupioni supplier, we ship greige as standard, or dyed to order from a standard shade card or your custom color, with shrinkage around 5% accounted for in cutting.",
+      "We supply 19 momme dupioni — the most-requested weight for gowns and bridal — alongside a 16 momme option in 114 and 140 cm widths, with heavier 21–22 momme available on request. As a Yizhou dupioni supplier, we ship greige as standard, or dyed to order from a standard shade card or your custom color, with shrinkage around 5% accounted for in cutting.",
     ],
     image: "/christopherbu-silk/products/dupioni2.webp",
     imageAlt:
       "Dupioni silk fabric 19 momme with slub texture for evening gowns and bridal",
     specs: [
       { label: "Type", value: "Dupioni (double-cocoon) mulberry silk" },
-      { label: "Momme", value: "12 / 16 / 19 mm" },
+      { label: "Momme", value: "16 / 19 mm (up to 21–22 mm)" },
+      { label: "Weight", value: "≈69–95 g/m² (1 mm ≈ 4.3 g/m²)" },
       { label: "Width", value: "114 cm / 140 cm" },
       { label: "Texture", value: "Slubbed, textured surface" },
       { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom color)" },
@@ -713,7 +711,7 @@ export const products: Product[] = [
       },
       {
         q: "What weights does dupioni silk come in?",
-        a: "Dupioni is woven in 12, 16 and 19 momme. The 19 momme dupioni is the standard weight for gowns and bridal; the lighter 12 and 16 momme weights suit blouses, linings and softer structured pieces.",
+        a: "Dupioni is woven in 16 and 19 momme, with heavier 21–22 momme available on request. The 19 momme dupioni is the standard weight for gowns and bridal; the 16 momme weight suits blouses, linings and softer structured pieces.",
       },
     ],
   },

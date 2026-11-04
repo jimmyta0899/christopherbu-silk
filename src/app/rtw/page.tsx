@@ -43,7 +43,7 @@ export default function RtwPage() {
 
         {/* 标题 */}
         <div className="mt-8">
-          <h1 className="font-display max-w-3xl text-4xl font-medium text-jade-deep md:text-5xl">
+          <h1 className="font-display text-4xl font-medium text-jade-deep md:text-5xl">
             Ready-to-Wear Collections
           </h1>
           <p className="mt-5 text-lg leading-relaxed text-ink-soft">

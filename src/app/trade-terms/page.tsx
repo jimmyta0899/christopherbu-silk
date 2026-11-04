@@ -94,7 +94,7 @@ export default function TradeTermsPage() {
     <>
       <Header />
       <main className="mx-auto max-w-6xl px-6 py-16 md:py-20">
-        <h1 className="font-display max-w-3xl text-4xl font-medium text-jade-deep md:text-5xl">
+        <h1 className="font-display text-4xl font-medium text-jade-deep md:text-5xl">
           Export terms
         </h1>
         <p className="mt-5 text-lg leading-relaxed text-ink-soft">

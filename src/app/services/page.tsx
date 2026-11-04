@@ -62,17 +62,17 @@ const productMatrix = [
   {
     name: "Greige Silk Fabric",
     href: "/products/greige-fabric",
-    desc: "Undyed silk double crepe in 12–30 momme, 114/140 cm — for your own color and finish development.",
+    desc: "Undyed, unfinished silk straight off the loom — momme follows the base weave — for your own color and finish development.",
   },
   {
     name: "Dupioni Silk",
     href: "/products/dupioni",
-    desc: "Slubbed, textured silk in 19–40 momme for gowns, bridal and structured couture.",
+    desc: "Slubbed, textured silk in 16/19 momme (up to 21–22) for gowns, bridal and structured couture.",
   },
   {
     name: "Satin Silk",
     href: "/products/satin",
-    desc: "Lustrous satin in 16–30 momme for bridal, eveningwear and luxury linings.",
+    desc: "Lustrous satin in 10–30 momme for bridal, eveningwear and luxury linings.",
   },
   {
     name: "Jacquard Luo Silk",
@@ -82,7 +82,7 @@ const productMatrix = [
   {
     name: "Georgette Silk",
     href: "/products/georgette",
-    desc: "Sheer, crinkled silk in 8–12 momme for scarves and flowing summer garments.",
+    desc: "Sheer, crinkled silk in 8–16 momme for scarves and flowing summer garments.",
   },
   {
     name: "Pongee Silk",
@@ -92,7 +92,7 @@ const productMatrix = [
   {
     name: "Silk Stretch Satin",
     href: "/products/stretch-silk",
-    desc: "Satin-weave silk-spandex blend (90–95% silk) in 16–19 momme for comfort and fit.",
+    desc: "Satin-weave silk-spandex blend (~94% silk) in 14–28 momme for comfort and fit.",
   },
   {
     name: "Silk Blend",
@@ -105,7 +105,7 @@ const customDimensions = [
   { label: "Width", value: "Custom widths by weave (standard 114 cm / 140 cm)" },
   { label: "Color", value: "Greige or dyed to order — standard shade card or custom color matching" },
   { label: "Pattern", value: "Custom jacquard motif development (from ~200 m)" },
-  { label: "Weight", value: "12–40 momme across the silk range" },
+  { label: "Weight", value: "5–40 momme across the silk range" },
   { label: "Grade", value: "4A / 5A / 6A for raw silk" },
 ];
 

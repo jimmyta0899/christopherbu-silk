@@ -47,22 +47,14 @@ export default function HomePage() {
           <div className="mx-auto max-w-6xl px-6 py-12 md:py-16">
             <div className="grid items-center gap-10 md:grid-cols-2">
               <div>
-                <h1 className="font-display max-w-3xl text-4xl font-medium leading-[1.15] md:text-6xl">
-                  Raw Silk and Fabrics, sourced from the world&apos;s Silk
-                  Capital.
+                <h1 className="font-display text-4xl font-medium leading-[1.15] md:text-6xl">
+                  Raw Silk and Fabrics, sourced from the world&apos;s Silk Capital.
                 </h1>
-                <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ivory/80">
-                  Christopher Bu is the couture house behind some of the
-                  world&apos;s most-watched red-carpet silk gowns. Now the
-                  brand brings that same eye for silk to its own line of
-                  Yizhou mulberry raw silk, greige fabric and dupioni — for
-                  textile mills, brands and designers worldwide.
+                <p className="mt-6 text-lg leading-relaxed text-ivory/80">
+                  Christopher Bu is the couture house behind some of the world&apos;s most-watched red-carpet silk gowns. Now the brand brings that same eye for silk to its own line of Yizhou mulberry raw silk, greige fabric and dupioni — for textile mills, brands and designers worldwide.
                 </p>
-                <p className="mt-4 max-w-2xl text-base leading-relaxed text-ivory/70">
-                  From our roots in Yizhou — the world&apos;s largest raw silk
-                  origin — we offer silk fabric for wholesale and export from
-                  China, with OEKO-TEX and GOTS certification available on
-                  request.
+                <p className="mt-4 text-base leading-relaxed text-ivory/70">
+                  From our roots in Yizhou — the world&apos;s largest raw silk origin — we offer silk fabric for wholesale and export from China, with OEKO-TEX and GOTS certification available on request.
                 </p>
                 <div className="mt-8 flex flex-wrap gap-4">
                   <Link
@@ -258,7 +250,7 @@ export default function HomePage() {
         <section className="bg-ivory">
           <div className="mx-auto max-w-6xl px-6 py-16 md:py-24">
             <div className="mb-12">
-              <h2 className="font-display max-w-4xl text-3xl font-medium text-jade-deep md:text-4xl">
+              <h2 className="font-display text-3xl font-medium text-jade-deep md:text-4xl">
                 Why us: built to solve core B2B wholesale sourcing risks
               </h2>
               <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink-soft">
@@ -349,7 +341,7 @@ export default function HomePage() {
         <section className="bg-jade-deep text-ivory">
           <div className="mx-auto max-w-6xl px-6 py-16 md:py-20">
             <div className="border border-gold/50 px-8 py-12 md:px-14">
-              <h2 className="font-display max-w-2xl text-3xl font-medium md:text-4xl">
+              <h2 className="font-display text-3xl font-medium md:text-4xl">
                 Verify hand and color before you commit.
               </h2>
               <p className="mt-4 max-w-xl text-base leading-relaxed text-ivory/75">

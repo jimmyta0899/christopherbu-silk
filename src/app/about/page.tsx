@@ -15,7 +15,7 @@ export default function AboutPage() {
     <>
       <Header />
       <main className="mx-auto max-w-6xl px-6 py-16 md:py-20">
-        <h1 className="font-display max-w-3xl text-4xl font-medium text-jade-deep md:text-5xl">
+        <h1 className="font-display text-4xl font-medium text-jade-deep md:text-5xl">
           About Christopher Bu × Yizhou Silk
         </h1>
 
