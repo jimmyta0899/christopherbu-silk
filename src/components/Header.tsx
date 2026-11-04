@@ -169,7 +169,7 @@ export function Header() {
 
           {/* 社交图标：Chat with us + WhatsApp + Instagram（真实品牌色） */}
           <div className="ml-auto flex items-center gap-3">
-            <span className="text-sm text-ivory/90">Chat with us</span>
+            <span className="text-sm font-medium text-gold-bright">Chat with us</span>
             <a
               href={`https://wa.me/${siteConfig.social.whatsapp.replace(/[^0-9]/g, "")}`}
               target="_blank"
