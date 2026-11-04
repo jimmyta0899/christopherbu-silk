@@ -64,17 +64,17 @@ export function Footer() {
           <ul className="mt-4 space-y-2.5 text-sm text-ivory/80">
             <li>
               <Link href="/about" className="transition-colors hover:text-ivory">
-                About
-              </Link>
-            </li>
-            <li>
-              <Link href="/trade-terms" className="transition-colors hover:text-ivory">
-                Trade Terms
+                Why Us
               </Link>
             </li>
             <li>
               <Link href="/certificates" className="transition-colors hover:text-ivory">
                 Certifications
+              </Link>
+            </li>
+            <li>
+              <Link href="/trade-terms" className="transition-colors hover:text-ivory">
+                Trade Terms
               </Link>
             </li>
             <li>

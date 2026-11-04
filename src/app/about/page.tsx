@@ -5,7 +5,7 @@ import { Footer } from "@/components/Footer";
 import { pressItems } from "@/lib/press";
 
 export const metadata: Metadata = {
-  title: "About — Christopher Bu × Yizhou Silk",
+  title: "About Us — Christopher Bu × Yizhou Silk",
   description:
     "Christopher Bu × Yizhou Silk bridges a couture house's red-carpet heritage with Yizhou, China — the world's largest raw silk origin — to supply raw silk, greige and dupioni to the global textile industry.",
 };
@@ -16,7 +16,7 @@ export default function AboutPage() {
       <Header />
       <main className="mx-auto max-w-6xl px-6 py-16 md:py-20">
         <h1 className="font-display max-w-3xl text-4xl font-medium text-jade-deep md:text-5xl">
-          A couture heritage, rooted in the world&apos;s silk capital.
+          About Christopher Bu × Yizhou Silk
         </h1>
 
         <div className="mt-12 max-w-3xl space-y-6 text-base leading-relaxed text-ink-soft">

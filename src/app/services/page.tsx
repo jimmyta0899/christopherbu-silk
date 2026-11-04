@@ -158,7 +158,7 @@ export default function ServicesPage() {
             Silk product matrix
           </h2>
           <p className="mt-3 max-w-2xl text-sm leading-relaxed text-ink-soft">
-            Ten silk categories, each with custom width, color and pattern
+            Nine silk categories, each with custom width, color and pattern
             development where the weave allows.
           </p>
           <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">

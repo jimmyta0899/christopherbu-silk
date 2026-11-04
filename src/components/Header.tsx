@@ -50,8 +50,14 @@ const nav = [
   { href: "/services", label: "Services" },
   { href: "/couture", label: "Couture" },
   { href: "/rtw", label: "RTW", children: rtwSeasons },
-  { href: "/about", label: "About" },
-  { href: "/certificates", label: "Certifications" },
+  {
+    href: "/about",
+    label: "Why Us",
+    children: [
+      { href: "/about", label: "About Us", external: false },
+      { href: "/certificates", label: "Certifications", external: false },
+    ],
+  },
   { href: "/blog", label: "Blog" },
   {
     href: "/contact",
