@@ -33,7 +33,7 @@ export default function CertificatesPage() {
         </p>
 
         <div className="mt-12 space-y-6">
-          <div className="border border-line p-8">
+          <div className="border border-line bg-ivory-deep p-8">
             <h2 className="font-display text-2xl font-medium text-jade-deep">
               OEKO-TEX® STANDARD 100 (Class II)
             </h2>
@@ -47,7 +47,7 @@ export default function CertificatesPage() {
             </p>
           </div>
 
-          <div className="border border-line p-8">
+          <div className="border border-line bg-ivory-deep p-8">
             <h2 className="font-display text-2xl font-medium text-jade-deep">
               GOTS (Global Organic Textile Standard)
             </h2>
@@ -62,7 +62,7 @@ export default function CertificatesPage() {
             </p>
           </div>
 
-          <div className="border border-line p-8">
+          <div className="border border-line bg-ivory-deep p-8">
             <h2 className="font-display text-2xl font-medium text-jade-deep">
               China Organic &amp; quality-system files
             </h2>
@@ -78,7 +78,7 @@ export default function CertificatesPage() {
             </p>
           </div>
 
-          <div className="border border-line p-8">
+          <div className="border border-line bg-ivory-deep p-8">
             <h2 className="font-display text-2xl font-medium text-jade-deep">
               Destination-market compliance
             </h2>

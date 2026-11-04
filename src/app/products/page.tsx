@@ -18,9 +18,8 @@ export default function ProductsPage() {
         <h1 className="font-display max-w-3xl text-4xl font-medium text-jade-deep md:text-5xl">
           Silk supply from Yizhou, for the global textile industry.
         </h1>
-        <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-soft">
-          Nine core silk categories, sourced from local mills and curated
-          under the design eye of the Christopher Bu couture house.
+        <p className="mt-5 text-lg leading-relaxed text-ink-soft">
+          Nine core silk categories, sourced from local mills and curated under the design eye of the Christopher Bu couture house.
         </p>
 
         <div className="mt-14 grid gap-10 md:grid-cols-2">

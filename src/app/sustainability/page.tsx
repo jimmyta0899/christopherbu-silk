@@ -23,10 +23,8 @@ export default function SustainabilityPage() {
         <h1 className="font-display max-w-3xl text-4xl font-medium text-jade-deep md:text-5xl">
           Traceable silk, from origin to shipment.
         </h1>
-        <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-soft">
-          Mulberry silk is a fully biodegradable natural fiber, and Yizhou&apos;s
-          sericulture supports over a million farming households. We prioritize
-          traceable sourcing and verifiable certification.
+        <p className="mt-5 text-lg leading-relaxed text-ink-soft">
+          Mulberry silk is a fully biodegradable natural fiber, and Yizhou&apos;s sericulture supports over a million farming households. We prioritize traceable sourcing and verifiable certification.
         </p>
 
         <div className="mt-12 grid gap-8 md:grid-cols-2">

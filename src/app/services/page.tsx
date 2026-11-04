@@ -144,7 +144,7 @@ export default function ServicesPage() {
           </h2>
           <div className="mt-8 grid gap-6 md:grid-cols-2">
             {audience.map((a) => (
-              <div key={a.t} className="border border-line p-7">
+              <div key={a.t} className="border border-line bg-ivory-deep p-7">
                 <h3 className="font-display text-xl font-medium text-jade-deep">
                   {a.t}
                 </h3>
@@ -170,7 +170,7 @@ export default function ServicesPage() {
               <Link
                 key={p.href}
                 href={p.href}
-                className="group block border border-line p-7 transition-colors hover:border-gold"
+                className="group block border border-line bg-ivory-deep p-7 transition-colors hover:border-gold"
               >
                 <h3 className="font-display text-xl font-medium text-jade-deep group-hover:text-jade">
                   {p.name}
@@ -225,7 +225,7 @@ export default function ServicesPage() {
           </p>
           <div className="mt-8 grid gap-6 md:grid-cols-2">
             {qcSteps.map((s, i) => (
-              <div key={s.t} className="border border-line p-7">
+              <div key={s.t} className="border border-line bg-ivory-deep p-7">
                 <p className="text-xs font-medium text-gold">
                   Stage {i + 1}
                 </p>
@@ -274,7 +274,7 @@ export default function ServicesPage() {
             Payment
           </h2>
           <div className="mt-8 grid gap-6 md:grid-cols-2">
-            <div className="border border-line p-7">
+            <div className="border border-line bg-ivory-deep p-7">
               <h3 className="font-display text-xl font-medium text-jade-deep">
                 Small orders
               </h3>
@@ -283,7 +283,7 @@ export default function ServicesPage() {
                 trial orders.
               </p>
             </div>
-            <div className="border border-line p-7">
+            <div className="border border-line bg-ivory-deep p-7">
               <h3 className="font-display text-xl font-medium text-jade-deep">
                 Bulk orders
               </h3>

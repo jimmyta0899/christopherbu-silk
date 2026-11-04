@@ -120,7 +120,7 @@ export default async function ProductPage({ params }: Props) {
             {product.featured ? "Core supply" : "On request"}
           </p>
           {/* GEO 答案前置 */}
-          <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-soft">
+          <p className="mt-5 text-lg leading-relaxed text-ink-soft">
             {product.introAnswer}
           </p>
         </div>

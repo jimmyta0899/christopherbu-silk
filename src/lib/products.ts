@@ -204,32 +204,32 @@ export const products: Product[] = [
     slug: "greige-fabric",
     name: "Greige Silk Fabric",
     title:
-      "Christopher Bu Greige Silk Double Crepe 19mm 140cm for Couture & Bridal — Swatch MOQ FOB Nansha / FOB Yantian Yizhou Silk B2B",
-    h1: "Greige Silk Double Crepe 19mm for Couture & Bridal",
+      "Christopher Bu Greige Silk Double Crepe 12–30 Momme 114/140cm for Couture & Bridal — Swatch MOQ FOB Nansha / FOB Yantian Yizhou Silk B2B",
+    h1: "Greige Silk Double Crepe for Couture & Bridal",
     metaDescription:
-      "Source mulberry silk fabric from Yizhou, China — supplied greige (undyed) or dyed to your color. Bulk supply with OEKO-TEX & GOTS available on request.",
+      "Source mulberry silk fabric from Yizhou, China — supplied greige (undyed) or dyed to your color in 12–30 momme. Bulk supply with OEKO-TEX & GOTS available on request.",
     introAnswer:
-      "We supply mulberry silk fabric from local mills, either greige for your own color development or dyed to order from a standard shade card or your custom color.",
+      "We supply mulberry silk fabric from local mills in 12–30 momme, either greige for your own color development or dyed to order from a standard shade card or your custom color.",
     category: "greige-fabric",
     featured: true,
     keywords: [
       "greige silk fabric",
-      "19 momme mulberry silk fabric",
-      "140cm width silk fabric",
+      "mulberry silk fabric wholesale",
+      "114cm 140cm width silk fabric",
       "custom dyed silk fabric bulk",
       "silk fabric for bridal atelier",
-      "silk double crepe 19mm",
+      "silk double crepe",
       "undyed silk fabric wholesale",
       "silk fabric for custom dyeing",
       "dyed silk fabric to order",
     ],
     body: [
-      "Greige silk fabric is undyed mulberry silk straight off the loom — the blank canvas brands, ateliers and finishing houses use for their own color, print and finish development. We supply 19 momme mulberry silk fabric, including double crepe (crepe de chine), in a 140 cm width that suits garment cutting and bridal atelier work alike.",
-      "You can take it greige and develop your own signature colors in-house, or have it dyed to order — we offer both a standard shade card and custom color matching, so the finished shade is exactly what your collection needs. Our greige silk double crepe 19mm is a favorite for couture and bridal because it drapes cleanly and holds its hand.",
+      "Greige silk fabric is undyed mulberry silk straight off the loom — the blank canvas brands, ateliers and finishing houses use for their own color, print and finish development. We supply mulberry silk fabric from 12 to 30 momme, including double crepe (crepe de chine), in 114 cm and 140 cm widths that suit garment cutting and bridal atelier work alike.",
+      "You can take it greige and develop your own signature colors in-house, or have it dyed to order — we offer both a standard shade card and custom color matching, so the finished shade is exactly what your collection needs. Our greige silk double crepe is a favorite for couture and bridal because it drapes cleanly and holds its hand across the full momme range.",
     ],
     image: "/christopherbu-silk/products/greige-fabric.webp",
     imageAlt:
-      "Greige silk double crepe 19mm 140cm width undyed fabric for custom dyeing wholesale",
+      "Greige silk double crepe 114cm and 140cm width undyed fabric for custom dyeing wholesale",
     specs: [
       { label: "Type", value: "Greige (undyed) mulberry silk fabric — double crepe (crepe de chine)" },
       { label: "Weave", value: "Crepe de chine, charmeuse, habotai (by request)" },
@@ -250,7 +250,7 @@ export const products: Product[] = [
     faq: [
       {
         q: "What is greige silk fabric, and why buy it undyed?",
-        a: "Greige (or grey) fabric is undyed, unfinished silk cloth straight off the loom. Buying 19 momme mulberry silk fabric greige gives you full control over color, print and finishing for your own production.",
+        a: "Greige (or grey) fabric is undyed, unfinished silk cloth straight off the loom. Buying mulberry silk fabric greige gives you full control over color, print and finishing for your own production.",
       },
       {
         q: "Can you dye the fabric for me?",
@@ -258,7 +258,7 @@ export const products: Product[] = [
       },
       {
         q: "What width and weight is your double crepe available in?",
-        a: "Standard widths are 114 cm and 140 cm, in 12, 16, 19 and 30 momme. Our greige silk double crepe 19mm is the most-requested for couture and bridal.",
+        a: "Standard widths are 114 cm and 140 cm, in 12, 16, 19 and 30 momme. The weight you choose depends on drape and structure — lighter mommes for flow, heavier for hold.",
       },
     ],
   },

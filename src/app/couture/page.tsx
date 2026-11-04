@@ -46,12 +46,8 @@ export default function CouturePage() {
           <h1 className="font-display max-w-3xl text-4xl font-medium text-jade-deep md:text-5xl">
             Couture Design Inspiration
           </h1>
-          <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-soft">
-            The Christopher Bu house is known for gowns that blend oriental
-            embroidery with couture structure. These studies show how the
-            drape, lustre and hand of premium mulberry silk — sourced from
-            Yizhou, the world&apos;s raw silk capital — carry the art of the
-            atelier.
+          <p className="mt-5 text-lg leading-relaxed text-ink-soft">
+            The Christopher Bu house is known for gowns that blend oriental embroidery with couture structure. These studies show how the drape, lustre and hand of premium mulberry silk — sourced from Yizhou, the world&apos;s raw silk capital — carry the art of the atelier.
           </p>
         </div>
 
@@ -60,10 +56,8 @@ export default function CouturePage() {
 
         {/* 引导语：回到产品/面料 */}
         <section className="mt-14 border-t border-line pt-10">
-          <p className="max-w-2xl text-sm leading-relaxed text-ink-muted">
-            Explore the raw material behind these silhouettes — premium mulberry
-            raw silk, greige fabric and dupioni, sourced from local mills and
-            offered for the global couture and fashion industry.
+          <p className="text-sm leading-relaxed text-ink-muted">
+            Explore the raw material behind these silhouettes — premium mulberry raw silk, greige fabric and dupioni, sourced from local mills and offered for the global couture and fashion industry.
           </p>
           <div className="mt-6 flex flex-wrap gap-4">
             <Link

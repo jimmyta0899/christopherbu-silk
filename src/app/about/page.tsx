@@ -51,7 +51,7 @@ export default function AboutPage() {
               <Link
                 key={item.slug}
                 href={`/blog/${item.slug}`}
-                className="group block border border-line bg-ivory p-8 transition-colors hover:border-gold"
+                className="group block border border-line bg-ivory-deep p-8 transition-colors hover:border-gold"
               >
                 <div className="flex flex-wrap items-center gap-3 text-xs">
                   <span className="rounded-full border border-gold/40 px-3 py-1 font-medium text-gold">
@@ -94,7 +94,7 @@ export default function AboutPage() {
               { t: "Payment", d: "Deposit and balance settled under the verified pro forma invoice or contract." },
               { t: "Delivery", d: "Packed and dispatched under the confirmed route, Incoterm and schedule." },
             ].map((step, i) => (
-              <li key={step.t} className="border border-line p-6">
+              <li key={step.t} className="border border-line bg-ivory-deep p-6">
                 <p className="text-xs font-medium text-gold">
                   {String(i + 1).padStart(2, "0")}
                 </p>

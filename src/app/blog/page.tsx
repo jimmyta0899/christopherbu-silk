@@ -18,9 +18,8 @@ export default function BlogPage() {
         <h1 className="font-display text-4xl font-medium text-jade-deep md:text-5xl">
           The sourcing journal
         </h1>
-        <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-soft">
-          What our buyers need to know about mulberry silk — lead times, specs,
-          export terms and the craft behind it.
+        <p className="mt-5 text-lg leading-relaxed text-ink-soft">
+          What our buyers need to know about mulberry silk — lead times, specs, export terms and the craft behind it.
         </p>
 
         <div className="mt-14 space-y-6">
@@ -28,7 +27,7 @@ export default function BlogPage() {
             <Link
               key={post.slug}
               href={`/blog/${post.slug}`}
-              className="group block border border-line p-8 transition-colors hover:border-jade"
+              className="group block border border-line bg-ivory-deep p-8 transition-colors hover:border-jade"
             >
               <div className="flex flex-wrap items-center gap-3 text-xs">
                 <span className="rounded-full border border-gold/40 px-3 py-1 font-medium text-gold">

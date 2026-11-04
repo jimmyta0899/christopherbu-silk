@@ -17,9 +17,8 @@ export default function ContactPage() {
         <h1 className="font-display max-w-3xl text-4xl font-medium text-jade-deep md:text-5xl">
           Talk to our B2B sourcing team.
         </h1>
-        <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-soft">
-          Need a custom weave or color? Tell us your MOQ, deadline and
-          destination — we&apos;ll respond with a tailored quotation.
+        <p className="mt-5 text-lg leading-relaxed text-ink-soft">
+          Need a custom weave or color? Tell us your MOQ, deadline and destination — we&apos;ll respond with a tailored quotation.
         </p>
 
         <div className="mt-12 grid gap-10 md:grid-cols-2">
@@ -58,7 +57,7 @@ export default function ContactPage() {
           </section>
 
           <section className="space-y-6">
-            <div className="border border-line p-6">
+            <div className="border border-line bg-ivory-deep p-6">
               <h2 className="font-display text-xl font-medium text-jade-deep">
                 Email
               </h2>
@@ -69,7 +68,7 @@ export default function ContactPage() {
                 {siteConfig.email}
               </a>
             </div>
-            <div className="border border-line p-6">
+            <div className="border border-line bg-ivory-deep p-6">
               <h2 className="font-display text-xl font-medium text-jade-deep">
                 Entity
               </h2>
@@ -86,7 +85,7 @@ export default function ContactPage() {
                 </li>
               </ul>
             </div>
-            <div className="border border-line p-6">
+            <div className="border border-line bg-ivory-deep p-6">
               <h2 className="font-display text-xl font-medium text-jade-deep">
                 Prefer samples first?
               </h2>

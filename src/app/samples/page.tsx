@@ -26,13 +26,12 @@ export default function SamplesPage() {
         <h1 className="font-display max-w-3xl text-4xl font-medium text-jade-deep md:text-5xl">
           Sample service policy
         </h1>
-        <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-soft">
-          A silk fabric hand-feel sample is the only way to judge drape, slub
-          and luster before you commit to bulk. Here is how our sampling works.
+        <p className="mt-5 text-lg leading-relaxed text-ink-soft">
+          A silk fabric hand-feel sample is the only way to judge drape, slub and luster before you commit to bulk. Here is how our sampling works.
         </p>
 
         <div className="mt-12 grid gap-8 md:grid-cols-2">
-          <div className="border border-line p-8">
+          <div className="border border-line bg-ivory-deep p-8">
             <h2 className="font-display text-2xl font-medium text-jade-deep">
               Free fabric swatches
             </h2>
@@ -40,7 +39,7 @@ export default function SamplesPage() {
               {siteConfig.samplePolicy.freeSwatches}
             </p>
           </div>
-          <div className="border border-line p-8">
+          <div className="border border-line bg-ivory-deep p-8">
             <h2 className="font-display text-2xl font-medium text-jade-deep">
               Chargeable full-size samples
             </h2>
@@ -110,7 +109,7 @@ export default function SamplesPage() {
 
           {/* 说明 */}
           <section className="space-y-6">
-            <div className="border border-line p-6">
+            <div className="border border-line bg-ivory-deep p-6">
               <h3 className="font-display text-xl font-medium text-jade-deep">
                 What you receive
               </h3>
@@ -121,7 +120,7 @@ export default function SamplesPage() {
                 <li>• Global DHL shipping</li>
               </ul>
             </div>
-            <div className="border border-line p-6">
+            <div className="border border-line bg-ivory-deep p-6">
               <h3 className="font-display text-xl font-medium text-jade-deep">
                 Shipping
               </h3>
@@ -129,7 +128,7 @@ export default function SamplesPage() {
                 {siteConfig.trade.sampleShipping}
               </p>
             </div>
-            <div className="border border-line p-6">
+            <div className="border border-line bg-ivory-deep p-6">
               <h3 className="font-display text-xl font-medium text-jade-deep">
                 Prefer to talk first?
               </h3>

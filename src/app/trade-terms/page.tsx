@@ -97,9 +97,8 @@ export default function TradeTermsPage() {
         <h1 className="font-display max-w-3xl text-4xl font-medium text-jade-deep md:text-5xl">
           Export terms
         </h1>
-        <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-soft">
-          Clear, transparent trade terms for silk sourcing — including our
-          sample service policy.
+        <p className="mt-5 text-lg leading-relaxed text-ink-soft">
+          Clear, transparent trade terms for silk sourcing — including our sample service policy.
         </p>
 
         <div className="mt-14 space-y-8">
