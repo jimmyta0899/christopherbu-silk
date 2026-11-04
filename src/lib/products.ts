@@ -20,7 +20,7 @@ export type Product = {
   h1: string;
   metaDescription: string;
   introAnswer: string; // 40-60 字直接答案（GEO 关键）
-  category: "raw-silk" | "greige-fabric" | "dupioni" | "satin" | "jacquard-luo" | "organic-silk" | "georgette" | "pongee" | "stretch-silk" | "blended-silk";
+  category: "raw-silk" | "greige-fabric" | "dupioni" | "satin" | "jacquard-luo" | "organic-silk" | "georgette" | "habotai" | "stretch-silk" | "blended-silk";
   featured: boolean;
   // 长尾关键词（落地到 meta keywords + 内链锚文本）
   keywords: string[];
@@ -63,6 +63,8 @@ export const products: Product[] = [
       "1 ply silk yarn",
       "organic silk yarn",
       "GOTS certified silk",
+      "raw silk yarn wholesale",
+      "silk yarn supplier",
       "raw silk yarn export China",
       "Yizhou raw silk supplier",
     ],
@@ -275,8 +277,11 @@ export const products: Product[] = [
       "satin silk fabric",
       "silk satin wholesale",
       "satin silk fabric supplier",
-      "bridal satin silk",
+      "charmeuse silk",
       "charmeuse satin",
+      "silk charmeuse fabric",
+      "crepe-back satin",
+      "bridal satin silk",
       "19 momme satin silk",
       "silk satin for eveningwear",
       "dyed satin silk fabric",
@@ -284,6 +289,7 @@ export const products: Product[] = [
     ],
     body: [
       "Satin silk is the silk people picture when they think of liquid lustre: a smooth, glossy face with a soft sheen that slides under the hand and catches light as it moves. It is woven so the warp floats over the weft, which is what gives satin its signature high-gloss front and matt reverse — the same drape and shine that make it the default choice for bridal gowns, eveningwear and luxury linings.",
+      "When the satin weave is worked in real mulberry silk, the cloth is properly called charmeuse (also known as crepe-back satin). The name charmeuse is reserved for silk — a polyester or rayon fabric in the same weave may be sold as satin, but only genuine silk charmeuse has the weight, breathability and depth of lustre that the term implies.",
       "We supply satin silk fabric from 10 to 30 momme, with the 16–19 momme satin the most-requested weight for sleepwear and shirts, 22–25 momme for high-end bedding, and 30 momme and up for heavyweight structured pieces. Standard widths are 114 cm and 140 cm, which suit both garment cutting and soft furnishings.",
       "Like all our silk, satin is supplied greige for your own color development, or dyed to order — we offer both a standard shade card and custom color matching, so the finished shade is exactly what your collection needs.",
     ],
@@ -311,6 +317,10 @@ export const products: Product[] = [
         a: "Satin silk's high-gloss face and fluid drape make it the standard choice for bridal and evening gowns, luxury linings, lingerie and soft furnishings — anywhere a smooth, lustrous silk surface is part of the design.",
       },
       {
+        q: "What is the difference between satin, charmeuse and crepe-back satin?",
+        a: "They describe the same family of fabric. Satin is the weave (a glossy face over a matt reverse); crepe-back satin is satin woven with a crepe reverse. When that satin weave is worked in genuine mulberry silk, it is properly called charmeuse — a term reserved for silk. A polyester or rayon fabric in the same weave may be sold as satin, but only real silk charmeuse has the weight, breathability and depth of lustre the name implies.",
+      },
+      {
         q: "What momme weights does your satin silk come in?",
         a: "We supply satin silk in 10, 12, 14, 16, 19, 22, 25 and 30 momme. The 16–19 momme range suits sleepwear and shirts, 22–25 momme suits high-end bedding, and 30 momme and up is the heavyweight choice for structured pieces.",
       },
@@ -336,6 +346,8 @@ export const products: Product[] = [
       "jacquard silk fabric",
       "silk jacquard fabric",
       "jacquard luo silk",
+      "luo silk fabric",
+      "silk luo weave",
       "custom jacquard silk",
       "woven motif silk fabric",
       "mulberry silk jacquard",
@@ -401,11 +413,14 @@ export const products: Product[] = [
       "georgette silk",
       "georgette silk fabric",
       "silk georgette wholesale",
+      "double georgette silk",
+      "heavy georgette fabric",
       "8 momme georgette",
       "12 momme georgette",
       "sheer silk fabric",
       "georgette for scarves",
       "crinkled silk fabric",
+      "silk crepe georgette",
       "Yizhou georgette supplier",
     ],
     body: [
@@ -446,38 +461,47 @@ export const products: Product[] = [
     ],
   },
   {
-    slug: "pongee",
-    name: "Pongee Silk",
+    slug: "habotai",
+    name: "Habotai Silk",
     title:
-      "Christopher Bu Pongee Silk Fabric 6–16mm 114cm for Linings & Light Shirts — Yizhou Silk Supplier",
-    h1: "Pongee Silk for Linings & Light Shirts",
+      "Christopher Bu Habotai Silk Fabric (Pongee) 6–16mm 114cm for Linings & Light Shirts — Yizhou Silk Supplier",
+    h1: "Habotai Silk for Linings & Light Shirts",
     metaDescription:
-      "Source pongee (habotai) silk fabric from Yizhou, China — a plain-weave mulberry silk in 6/8/10/12/14/15/16 momme, 114 cm, with a crisp, firm hand. Ideal for linings, scarves and light shirts. B2B bulk supply.",
+      "Source habotai silk fabric from Yizhou, China — a plain-weave mulberry silk (also called pongee or China silk) in 6/8/10/12/14/15/16 momme, 114 cm, with a crisp, firm hand. Ideal for linings, scarves and light shirts. B2B bulk supply.",
     introAnswer:
-      "Pongee is a plain-weave mulberry silk with a crisp, firm hand and a subtle texture, supplied greige or dyed to order for linings, scarves and light shirts.",
-    category: "pongee",
+      "Habotai (also known as pongee or China silk) is a plain-weave mulberry silk with a crisp, firm hand and a subtle texture, supplied greige or dyed to order for linings, scarves and light shirts.",
+    category: "habotai",
     featured: true,
     keywords: [
+      "habotai silk",
+      "habotai silk fabric",
+      "habotai fabric",
+      "silk habotai wholesale",
+      "habutai silk",
+      "china silk fabric",
+      "silk lining fabric",
       "pongee silk",
       "pongee silk fabric",
       "silk pongee wholesale",
       "plain weave silk fabric",
       "silk for linings",
-      "8 momme pongee",
-      "15 momme pongee",
+      "8 momme habotai",
+      "12 momme habotai",
+      "15 momme habotai",
       "crisp silk fabric",
-      "Yizhou pongee supplier",
+      "Yizhou habotai supplier",
     ],
     body: [
-      "Pongee is a plain-weave mulberry silk with a crisp, slightly firm hand and a fine, even surface. Unlike the liquid drape of satin, pongee holds its shape, which makes it the workhorse silk for linings, scarves and light shirts where structure and durability matter more than lustre.",
-      "We supply pongee silk from 6 to 16 momme, in a 114 cm width. The 6–8 momme range is the classic scarf and lining weight, 10–12 momme suits shirts, and 14–16 momme gives a firmer, more durable cloth for heavier shirts and light outerwear.",
-      "Pongee is supplied greige for your own color development, or dyed to order from a standard shade card or your custom color.",
+      "Habotai — also spelled habutai and often called pongee or China silk — is a plain-weave mulberry silk with a crisp, slightly firm hand and a fine, even surface. Unlike the liquid drape of satin, habotai holds its shape, which makes it the workhorse silk for linings, scarves and light shirts where structure and durability matter more than lustre.",
+      "The name pongee is used interchangeably with habotai in much of the trade. Strictly, pongee once referred to the slightly heavier, ribbed silks from China's Shandong and Honan provinces, while habotai is the classic lightweight Japanese plain-weave. In today's B2B market the two names cover the same family of crisp, plain-weave silk linings, so we list the fabric under its most searched name — habotai — and keep pongee as a synonym.",
+      "We supply habotai (pongee) silk from 6 to 16 momme, in a 114 cm width. The 6–8 momme range is the classic scarf and lining weight, 10–12 momme suits shirts, and 14–16 momme gives a firmer, more durable cloth for heavier shirts and light outerwear.",
+      "Habotai is supplied greige for your own color development, or dyed to order from a standard shade card or your custom color.",
     ],
     image: "/christopherbu-silk/products/pongee.webp",
     imageAlt:
-      "Pongee silk fabric in a light plain weave with soft pearl sheen for linings and light shirts",
+      "Habotai silk fabric (pongee) in a light plain weave with soft pearl sheen for linings and light shirts",
     specs: [
-      { label: "Type", value: "Mulberry silk pongee (habotai, plain weave)" },
+      { label: "Type", value: "Mulberry silk habotai (pongee, plain weave)" },
       { label: "Momme", value: "6 / 8 / 10 / 12 / 14 / 15 / 16 mm" },
       { label: "Weight", value: "≈26–69 g/m² (1 mm ≈ 4.3 g/m²)" },
       { label: "Width", value: "114 cm" },
@@ -492,16 +516,20 @@ export const products: Product[] = [
     ],
     faq: [
       {
-        q: "What is pongee silk used for?",
-        a: "Pongee's crisp, firm hand makes it ideal for linings, scarves and light shirts — anywhere a silk that holds its shape is preferred over a liquid drape.",
+        q: "What is habotai silk used for?",
+        a: "Habotai's crisp, firm hand makes it ideal for linings, scarves and light shirts — anywhere a silk that holds its shape is preferred over a liquid drape.",
       },
       {
-        q: "What weights does your pongee come in?",
-        a: "Pongee is supplied in 6, 8, 10, 12, 14, 15 and 16 momme, in a 114 cm width. The 6–8 momme range is the classic scarf and lining weight, 10–12 momme suits shirts, and 14–16 momme is firmer for heavier shirts and light outerwear.",
+        q: "Are habotai and pongee the same thing?",
+        a: "In today's trade the two names are used interchangeably for the same family of crisp, plain-weave mulberry silk linings. Habotai is the classic lightweight Japanese plain weave (also spelled habutai); pongee once referred to the heavier, ribbed Chinese silks. We list the fabric under habotai and keep pongee as a synonym.",
       },
       {
-        q: "Is your pongee silk available in color?",
-        a: "Yes. Pongee is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom color matching.",
+        q: "What weights does your habotai come in?",
+        a: "Habotai is supplied in 6, 8, 10, 12, 14, 15 and 16 momme, in a 114 cm width. The 6–8 momme range is the classic scarf and lining weight, 10–12 momme suits shirts, and 14–16 momme is firmer for heavier shirts and light outerwear.",
+      },
+      {
+        q: "Is your habotai silk available in color?",
+        a: "Yes. Habotai is supplied greige (undyed) or dyed to order — we offer both a standard shade card and custom color matching.",
       },
     ],
   },
@@ -522,6 +550,7 @@ export const products: Product[] = [
       "stretch satin fabric",
       "silk spandex satin",
       "silk elastane satin",
+      "stretch charmeuse",
       "stretch satin for dresses",
       "satin silk with stretch",
       "silk lycra satin",
@@ -654,6 +683,9 @@ export const products: Product[] = [
     keywords: [
       "dupioni silk",
       "douppioni silk",
+      "doupion silk",
+      "dupion silk",
+      "doppione silk",
       "dupioni silk for evening gowns",
       "19 momme dupioni",
       "silk dupioni wholesale",
@@ -663,7 +695,7 @@ export const products: Product[] = [
       "Yizhou dupioni supplier",
     ],
     body: [
-      "Silk dupioni is a tightly woven, crisp silk fabric made by pairing a fine standard silk yarn in the warp with an uneven yarn reeled from two or more entangled cocoons in the weft. Those double-cocoon threads — called dupion threads — are thicker and more irregular than standard silk, and that is exactly what creates dupioni's signature look: bold, prominent slubs running across the grain, exceptional body, and a stiff, sculptural drape.",
+      "Silk dupioni is a tightly woven, crisp silk fabric made by pairing a fine standard silk yarn in the warp with an uneven yarn reeled from two or more entangled cocoons in the weft. Those double-cocoon threads — called dupion threads — are thicker and more irregular than standard silk, and that is exactly what creates dupioni's signature look: bold, prominent slubs running across the grain, exceptional body, and a stiff, sculptural drape. The name appears in several spellings across the trade — dupioni, douppioni, doupion, dupion and doppione — and all refer to the same fabric.",
       "Dupioni is prized for evening wear, bridal gowns and special-occasion garments, as well as light home decorating. Because the weft and warp are often woven in different colors, it carries a natural two-tone iridescence that shifts as the fabric catches light — a subtle luxury that solid-dyed silks cannot match.",
       "Traditional, high-quality dupioni is hand-woven, which adds to its characteristic irregularity and heavier weight; more affordable versions are now machine-woven. The white Thai-style silk is a natural fibre, so a finished piece may carry minor variations and irregularities in the weave. These are a mark of a fine silk yarn, not defects, and should not be treated as such.",
       "We supply 19 momme dupioni — the most-requested weight for gowns and bridal — alongside a 16 momme option in 114 and 140 cm widths, with heavier 21–22 momme available on request. As a Yizhou dupioni supplier, we ship greige as standard, or dyed to order from a standard shade card or your custom color, with shrinkage around 5% accounted for in cutting.",

@@ -85,9 +85,9 @@ const productMatrix = [
     desc: "Sheer, crinkled silk in 8–16 momme for scarves and flowing summer garments.",
   },
   {
-    name: "Pongee Silk",
-    href: "/products/pongee",
-    desc: "Plain-weave silk with a crisp hand for linings, scarves and light shirts.",
+    name: "Habotai Silk",
+    href: "/products/habotai",
+    desc: "Plain-weave silk (also called pongee or China silk) with a crisp hand for linings, scarves and light shirts.",
   },
   {
     name: "Silk Stretch Satin",

@@ -8,7 +8,7 @@ const products = [
   { href: "/products/satin", label: "Satin", external: false },
   { href: "/products/jacquard-luo", label: "Jacquard Luo", external: false },
   { href: "/products/georgette", label: "Georgette", external: false },
-  { href: "/products/pongee", label: "Pongee", external: false },
+  { href: "/products/habotai", label: "Habotai", external: false },
   { href: "/products/stretch-silk", label: "Silk Stretch Satin", external: false },
   { href: "/products/blended-silk", label: "Silk Blend", external: false },
   { href: "/products/dupioni", label: "Dupioni", external: false },

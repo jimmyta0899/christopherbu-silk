@@ -7,7 +7,7 @@ import { products } from "@/lib/products";
 export const metadata: Metadata = {
   title: "Silk Products — Raw Silk, Greige, Dupioni, Satin, Jacquard, Georgette & More",
   description:
-    "Browse Christopher Bu × Yizhou Silk B2B product range: mulberry raw silk (20/22D, dupion, luxury & GOTS-certified organic), greige fabric, dupioni, satin, jacquard luo, georgette, pongee, stretch and blended silk, sourced from Yizhou, China.",
+    "Browse Christopher Bu × Yizhou Silk B2B product range: mulberry raw silk (20/22D, dupion, luxury & GOTS-certified organic), greige fabric, dupioni, satin, jacquard luo, georgette, habotai (pongee), stretch and blended silk, sourced from Yizhou, China.",
 };
 
 export default function ProductsPage() {
