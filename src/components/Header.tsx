@@ -77,7 +77,7 @@ export function Header() {
       {/* 满屏印花背景 */}
       <div className="absolute inset-0 overflow-hidden">
         <Image
-          src="/christopherbu-silk/print-bg-clean.webp"
+          src="/print-bg-clean.webp"
           alt=""
           aria-hidden="true"
           fill
@@ -96,7 +96,7 @@ export function Header() {
           <Link href="/" className="inline-block" aria-label="Christopher Bu — home">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/christopherbu-silk/brand-wordmark.png"
+              src="/brand-wordmark.png"
               alt="Christopher Bu"
               width={2191}
               height={217}
@@ -146,7 +146,7 @@ export function Header() {
         <div className="mt-3 flex flex-wrap items-center gap-x-8 gap-y-2">
           <Link href="/" className="inline-block">
             <Image
-              src="/christopherbu-silk/brand-logo.png"
+              src="/brand-logo.png"
               alt="Christopher Bu × Yizhou Silk — Raw Silk · Greige Fabric · Dupioni"
               width={454}
               height={82}

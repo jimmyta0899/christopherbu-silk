@@ -70,7 +70,7 @@ export const blogPosts: BlogPost[] = [
     anchorTexts: ["Yizhou mulberry silk", "mulberry silk origin", "Guangxi sericulture"],
     linkTo: "/products/raw-silk",
     coverImage: {
-      src: "/christopherbu-silk/blog/yizhou-xiajian-river-karst.webp",
+      src: "/blog/yizhou-xiajian-river-karst.webp",
       alt: "Karst peaks and the Xiajian River in Yizhou, Guangxi, China's largest mulberry silk county",
       caption: "The Xiajian River valley in Yizhou, China's largest mulberry silk county.",
     },
@@ -87,7 +87,7 @@ export const blogPosts: BlogPost[] = [
         heading: "A longevity town that also grows silk",
         body: "Yizhou is in Hechi, in the northwest of Guangxi. In 2015 the China Gerontology Society named it a China longevity town. The Yizhou district government counts more than 70 residents aged over a hundred, and a population average life expectancy of 79.52 years[1]. The oldest person on record from the region, a man named Lan Xiang, is said to have lived to 146 and received a poem from the Jiaqing Emperor. The same county is the country's largest mulberry silk producer. Since 2005 its mulberry field area and fresh cocoon output have ranked first among China's counties every year. By the end of 2023 the fields covered 396,000 mu and the fresh cocoon output reached 115,000 tonnes[2]. In 2018 the China Sericulture Society named it a China sericulture town. The two facts are not unrelated: the same mild, humid climate that people credit for the long lives also suits the mulberry trees the silkworms eat. For example, the heat and rain that make the valley green also push several silkworm rearing cycles into a single year.",
         image: {
-          src: "/christopherbu-silk/products/raw-silk2.webp",
+          src: "/products/raw-silk2.webp",
           alt: "Mulberry raw silk hanks reeled in Yizhou, the base yarn for couture silk",
           caption:
             "Reeled mulberry raw silk hanks from Yizhou, the base yarn for couture silk.",
@@ -118,7 +118,7 @@ export const blogPosts: BlogPost[] = [
         heading: "The Painted Veil: how a film put Yizhou on the map",
         body: "In 2006 a Hollywood adaptation of Somerset Maugham's novel The Painted Veil, directed by John Curran and starring Edward Norton and Naomi Watts, chose Guangxi for its location. The production spent ten days and eight thousand kilometres searching for a landscape that looked like nothing else. It settled on the town of Huangyao and on Yizhou, filming along the Xiajian River, the big waterwheels, and the Xiangbei scenery[3]. The director's own words, quoted in Chinese press at the time, were that he wanted \"a landscape no other country has, only China has,\" and that Yizhou was, like Huangyao, \"unique.\" The film was the first Western picture about China to be shot entirely in China. It put the region's karst hills and rivers in front of an international audience a decade before the silk gowns did.",
         image: {
-          src: "/christopherbu-silk/blog/yizhou-xiajian-river-karst.webp",
+          src: "/blog/yizhou-xiajian-river-karst.webp",
           alt: "Karst peaks, riverside villages and the Xiajian River in Yizhou, Guangxi, the landscape that drew the Painted Veil film crew",
           caption:
             "The Xiajian River valley in Yizhou, whose karst landscape drew the Painted Veil film crew. Photo: Guangxi News Network / Wei Binghua.",
@@ -128,7 +128,7 @@ export const blogPosts: BlogPost[] = [
         heading: "A landscape made for silk",
         body: "The same rivers and karst peaks that read as scenery in a film are the working landscape of sericulture. Mulberry grows along the valleys, and the mild, wet climate that keeps the hills green also keeps the silkworms fed through several rearing cycles a year. At dawn the mist over the water is the same humidity that suits the mulberry leaf, the one input the whole county depends on.",
         image: {
-          src: "/christopherbu-silk/blog/yizhou-riverside-dawn.webp",
+          src: "/blog/yizhou-riverside-dawn.webp",
           alt: "Morning mist over the river in Yizhou at dawn, the humid landscape where mulberry silk is grown",
           caption:
             "Dawn over the rivers of Yizhou, the humid landscape where the county's mulberry grows. Photo: Guangxi News Network / Wu Jichun.",
@@ -207,7 +207,7 @@ export const blogPosts: BlogPost[] = [
     anchorTexts: ["silk sourcing for ateliers", "mulberry silk MOQ", "FOB silk fabric"],
     linkTo: "/trade-terms",
     coverImage: {
-      src: "/christopherbu-silk/products/greige-fabric.webp",
+      src: "/products/greige-fabric.webp",
       alt: "Greige mulberry silk fabric, the undyed cloth a couture atelier specifies before ordering",
       caption: "Greige mulberry silk, the undyed cloth specified before a bulk order.",
     },
@@ -224,7 +224,7 @@ export const blogPosts: BlogPost[] = [
         heading: "Lead time reality: 25 days, not 7",
         body: "Bulk silk orders ship in 20 to 25 days. That span covers weaving, inspection, and the ocean freight leg to the destination port. It does not matter whether the atelier is in Paris, Los Angeles, or Dubai: the cloth leaves the same way, and the sea crossing is what it is. Planning around the real timeline is the difference between a gown delivered for the client's deadline and a rushed order that lands late. For a first order, add the swatch stage to the front of that clock. A swatch is the one step that lets you fix the weight and hand before the 25-day count even starts, which is why it should come before the bulk order, not after.",
         image: {
-          src: "/christopherbu-silk/products/greige-fabric.webp",
+          src: "/products/greige-fabric.webp",
           alt: "Greige mulberry silk fabric, the undyed cloth a couture atelier specifies before ordering",
           caption:
             "Greige mulberry silk, the undyed cloth an atelier checks on a swatch before ordering.",
@@ -308,7 +308,7 @@ export const blogPosts: BlogPost[] = [
     anchorTexts: ["momme fabric weight", "20/22 denier raw silk", "momme vs denier"],
     linkTo: "/products/greige-fabric",
     coverImage: {
-      src: "/christopherbu-silk/products/dupioni2.webp",
+      src: "/products/dupioni2.webp",
       alt: "Dupioni silk fabric with slub texture, showing the weight and hand that momme measures",
       caption: "Dupioni silk with slub texture — the weight and hand that momme describes.",
     },
@@ -325,7 +325,7 @@ export const blogPosts: BlogPost[] = [
         heading: "What momme measures",
         body: "**Momme** is a unit of silk fabric weight, equal to about 3.75 grams per square meter. A higher momme means a heavier, more structured cloth, and a lower momme means a lighter, softer one. The number comes from the weight of a standard bolt, and it is the figure a mill quotes when you ask how heavy the silk is[1]. For gowns the useful range is narrow, and it helps to think of it as a band rather than a single number. A 19 momme double crepe is the entry weight, light enough to move and heavy enough to hold a silhouette, while a 22 momme fabric has more presence and is what a structured evening gown wants. Below 19 the cloth starts to feel like a lining; above 30 it reads as a jacket or coat weight. For example, the same dress cut in 19 momme drapes softly, where the 30 momme version stands away from the body.",
         image: {
-          src: "/christopherbu-silk/products/dupioni2.webp",
+          src: "/products/dupioni2.webp",
           alt: "A close view of silk fabric showing the weave that momme weight and denier determine",
           caption:
             "The weave of the silk determines how momme weight and denier yarn read in the hand.",
@@ -412,7 +412,7 @@ export const blogPosts: BlogPost[] = [
     anchorTexts: ["dupioni silk for gowns", "19 momme dupioni", "Yizhou dupioni supplier"],
     linkTo: "/products/dupioni",
     coverImage: {
-      src: "/christopherbu-silk/blog/fan-bingbing-paris-stamp-skirt.webp",
+      src: "/blog/fan-bingbing-paris-stamp-skirt.webp",
       alt: "Fan Bingbing in a silk dupioni ensemble, illustrating dupioni silk made up into a finished garment",
       caption: "Dupioni silk made up into a finished garment — the 2013 Fan Bingbing piece.",
     },
@@ -429,7 +429,7 @@ export const blogPosts: BlogPost[] = [
         heading: "Step 1: raw silk, reeled and wound",
         body: "Every dupioni starts as raw silk. In Yizhou, Guangxi, mulberry cocoons are reeled into 20/22 denier filature silk, graded 4A to 6A under GB/T 1797-2008[1], and wound into hanks. This is the same raw silk we supply to weaving mills, and it is the base yarn a dupioni loom feeds on. The quality at this stage sets the ceiling for everything after it. The weights and grades cited here follow the same spec sheet we give buyers, so the numbers match what a mill will quote.",
         image: {
-          src: "/christopherbu-silk/products/raw-silk2.webp",
+          src: "/products/raw-silk2.webp",
           alt: "20/22 denier mulberry raw silk yarn hanks in natural white, the base yarn for dupioni silk",
           caption:
             "20/22 denier raw silk hanks in natural white. This reeled filature silk is the base yarn dupioni begins from.",
@@ -442,7 +442,7 @@ export const blogPosts: BlogPost[] = [
         heading: "Step 2: the double-cocoon weave that makes the slub",
         body: "[ORIGINAL DATA] **Dupioni** is a plain-weave mulberry silk woven from paired-cocoon filaments. Because the two filaments refuse to separate cleanly, the yarn carries thick-and-thin slubs along its length. Woven plain, those slubs become the fabric's signature: a fine irregular rib that reflects light unevenly. The texture is part of the weave, which is why it reads as deliberate and why no two lengths look exactly the same.",
         image: {
-          src: "/christopherbu-silk/products/dupioni2.webp",
+          src: "/products/dupioni2.webp",
           alt: "19 momme dupioni silk greige fabric showing the slub texture from the double-cocoon weave",
           caption:
             "19 momme dupioni greige. The slub texture in the weave is the fabric's signature, straight off the loom.",
@@ -469,25 +469,25 @@ export const blogPosts: BlogPost[] = [
         heading: "Step 4: the cloth on a body, in 2013",
         body: "In 2013 the Christopher Bu atelier cut two dupioni pieces for the actress Fan Bingbing. The first was a stamp-printed umbrella skirt, photographed in Paris with the Eiffel Tower behind her[3]. The second was a spring/summer 2013 plaid ensemble, worn to the Skiptrace press conference in Cannes[3]. [UNIQUE INSIGHT] Look at how the print sits on the slub, and how the skirts hold their shape. For example, a 19 momme dupioni skirt holds its A-line instead of collapsing, because the slubbed weave resists the drape that flattens a crepe. Both garments appear again on the label's own lookbook models, which confirms them as Christopher Bu product cut from the same dupioni we supply as greige today.",
         image: {
-          src: "/christopherbu-silk/blog/fan-bingbing-paris-stamp-skirt.webp",
+          src: "/blog/fan-bingbing-paris-stamp-skirt.webp",
           alt: "Fan Bingbing wearing a Christopher Bu stamp-printed dupioni silk umbrella skirt in Paris, with the Eiffel Tower behind her",
           caption:
             "Fan Bingbing in the stamp-printed dupioni silk umbrella skirt, photographed in Paris with the Eiffel Tower behind her. Photo: Sina Fashion (2013)[3].",
         },
         secondImage: {
-          src: "/christopherbu-silk/blog/fan-bingbing-cannes-plaid-ensemble.webp",
+          src: "/blog/fan-bingbing-cannes-plaid-ensemble.webp",
           alt: "Fan Bingbing wearing a Christopher Bu spring/summer 2013 printed dupioni silk plaid ensemble in Cannes, with Jackie Chan",
           caption:
             "Fan Bingbing in the spring/summer 2013 plaid ensemble, at the Skiptrace press conference in Cannes. Photo: Sina Fashion (2013)[3].",
         },
         thirdImage: {
-          src: "/christopherbu-silk/blog/fan-bingbing-stamp-print-dress.webp",
+          src: "/blog/fan-bingbing-stamp-print-dress.webp",
           alt: "Christopher Bu stamp-printed dupioni silk umbrella skirt on the lookbook model",
           caption:
             "The same stamp-printed dupioni skirt on the Christopher Bu lookbook model.",
         },
         fourthImage: {
-          src: "/christopherbu-silk/blog/fan-bingbing-plaid-silk-ensemble.webp",
+          src: "/blog/fan-bingbing-plaid-silk-ensemble.webp",
           alt: "Christopher Bu spring/summer 2013 printed dupioni silk plaid ensemble on the lookbook model",
           caption:
             "The same spring/summer 2013 plaid ensemble on the Christopher Bu lookbook model.",
@@ -583,7 +583,7 @@ export const blogPosts: BlogPost[] = [
     anchorTexts: ["hand embroidered silk", "mulberry silk embroidery", "silk couture gown"],
     linkTo: "/products/dupioni",
     coverImage: {
-      src: "/christopherbu-silk/blog/paz-vega-oscars-smh.webp",
+      src: "/blog/paz-vega-oscars-smh.webp",
       alt: "Paz Vega in a white hand-embroidered mulberry silk gown at the 2018 Oscars",
       caption: "Paz Vega's hand-embroidered mulberry silk gown at the 2018 Oscars.",
     },
@@ -600,13 +600,13 @@ export const blogPosts: BlogPost[] = [
         heading: "What the gown is made of",
         body: "The dress is a strapless white silk gown with a sweeping train. Red plum blossoms and branches run across the bodice and down the skirt. A black-and-white check lining showed at the hem where the train lifted. Reporters at the event described the same details: the Daily Mail noted the \"large red cherry blossoms\" and the \"black-and-white slim check print\" peeking from under the train[2], and USA TODAY and the Sydney Morning Herald both carried the gown on their red-carpet coverage[4][5]. Two facts matter for anyone who works with silk. The flowers are embroidery, not print, which means the pattern is thread laid on the surface of the cloth after it is woven. And the base is mulberry silk, the long filament reeled from silkworm cocoons. The combination is why the gown reads as both structured and fluid on camera.",
         image: {
-          src: "/christopherbu-silk/blog/paz-vega-oscars-smh.webp",
+          src: "/blog/paz-vega-oscars-smh.webp",
           alt: "Paz Vega on the 2018 Oscars red carpet wearing the Christopher Bu Snow Plum Blossom gown, white silk with hand-embroidered red plum blossoms",
           caption:
             "Paz Vega in the Christopher Bu Snow Plum Blossom gown at the 90th Academy Awards. Photo: Jordan Strauss/AP via The Sydney Morning Herald (2018)[5].",
         },
         secondImage: {
-          src: "/christopherbu-silk/blog/paz-vega-oscars-usatoday.webp",
+          src: "/blog/paz-vega-oscars-usatoday.webp",
           alt: "Paz Vega on the 2018 Oscars red carpet in the Christopher Bu white gown with red plum blossoms",
           caption:
             "The same gown on the 2018 Oscars red carpet. Photo: Dan MacMedan/USA TODAY (2018)[4].",
@@ -620,7 +620,7 @@ export const blogPosts: BlogPost[] = [
         heading: "The 2018 Oscars moment",
         body: "The 90th Academy Awards were held at the Dolby Theatre in Hollywood on March 4, 2018. Paz Vega, known for Spanish and international film work, was photographed arriving in the Christopher Bu gown. The dress earned her a place in multiple red-carpet roundups, including one from Wonderwall that called it \"a true piece of fashion art\" and praised its \"delicate red blossom print\"[3]. The Global Times reported that it was the first time a Chinese designer's dress appeared on the Oscars red carpet, and that Paz Vega's team contacted the designer directly to ask whether any dresses were available for the occasion[1]. That last word, print, matters. Several outlets called the pattern a print because that is the shorthand for a garment's surface design. It is not accurate here. The blossoms were embroidered, and the distinction is exactly what a silk buyer needs to see before they specify a similar cloth.",
         image: {
-          src: "/christopherbu-silk/blog/paz-vega-oscars-rcfa.webp",
+          src: "/blog/paz-vega-oscars-rcfa.webp",
           alt: "Paz Vega in the Christopher Bu Snow Plum Blossom gown, red-carpet coverage from Red Carpet Fashion Awards",
           caption:
             "The gown in Red Carpet Fashion Awards coverage of the 2018 Oscars (RCFA, 2018).",
@@ -722,7 +722,7 @@ export const blogPosts: BlogPost[] = [
     anchorTexts: ["silk jacquard", "mulberry silk jacquard", "jacquard vs embroidery"],
     linkTo: "/products/dupioni",
     coverImage: {
-      src: "/christopherbu-silk/blog/fan-bingbing-forbidden-city-jacquard.webp",
+      src: "/blog/fan-bingbing-forbidden-city-jacquard.webp",
       alt: "Fan Bingbing in the Forbidden City-inspired mulberry silk jacquard gown at the 2015 Met Gala",
       caption: "The Forbidden City jacquard gown Fan Bingbing wore to the 2015 Met Gala.",
     },
@@ -739,7 +739,7 @@ export const blogPosts: BlogPost[] = [
         heading: "What the gown is made of",
         body: "The gown is built around a cape that opens along the back, its green ground filled with gold lines and motifs drawn from the brackets and ceiling coffers of the Forbidden City in Beijing. The colors come from the palace itself: the green of its painted timber and the gold of its trim. Haiwainet described the dress as pure silk with colors drawn from the palace's bracket paintings, and noted that the look earned Fan Bingbing a place on American Vogue's best-dressed list for the night[1]. BeautiMode carried the same account of the gold-and-green gown and cape[2]. The material fact is the weave. The pattern is jacquard, which means the motif is formed by the loom as it raises and lowers individual warp threads. It is part of the cloth, not something added to it.",
         image: {
-          src: "/christopherbu-silk/blog/fan-bingbing-forbidden-city-jacquard.webp",
+          src: "/blog/fan-bingbing-forbidden-city-jacquard.webp",
           alt: "Fan Bingbing wearing the Christopher Bu Forbidden City gown, a green and gold mulberry silk jacquard with a cape",
           caption:
             "Fan Bingbing in the Christopher Bu Forbidden City gown. Photo: Christopher Bu.",
@@ -769,13 +769,13 @@ export const blogPosts: BlogPost[] = [
         heading: "The 2015 Met Gala moment",
         body: "The 2015 Met Gala took its theme from the exhibition China: Through the Looking Glass. Fan Bingbing walked the red carpet in the Christopher Bu Forbidden City gown. The look was built on the palace's central-axis symmetry, so the cape opened from the back and spread to either side, the way the palace spreads around its central hall. The dress earned her a place on American Vogue's best-dressed list and drew coverage from the New York Times and Vogue, according to the Haiwainet account at the time[1]. The gown belongs to the same couture series as the Snow Plum Blossom dress Paz Vega wore to the 2018 Oscars. The series is one inspiration, but the craft splits: this dress is jacquard, that one is embroidery.",
         image: {
-          src: "/christopherbu-silk/blog/fan-bingbing-forbidden-city-cape.webp",
+          src: "/blog/fan-bingbing-forbidden-city-cape.webp",
           alt: "The green and gold cape of the Christopher Bu Forbidden City gown spread open",
           caption:
             "The Forbidden City gown with its cape spread. Photo: Christopher Bu.",
         },
         secondImage: {
-          src: "/christopherbu-silk/blog/fan-bingbing-forbidden-city-red-carpet.webp",
+          src: "/blog/fan-bingbing-forbidden-city-red-carpet.webp",
           alt: "Fan Bingbing wearing the Christopher Bu Forbidden City gown at the 2015 Met Gala",
           caption:
             "The gown at the 2015 Met Gala. Photo: Christopher Bu.",

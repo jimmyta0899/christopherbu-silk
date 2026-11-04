@@ -73,7 +73,7 @@ export const products: Product[] = [
       "Raw silk begins with the Bombyx mori silkworm, which feeds only on mulberry leaves and spins a single continuous filament. Each cocoon is boiled to soften the sericin gum, then carefully unwound into a thread of 600 to 900 metres. Multiple filaments are then twisted together into the strong, even yarn we ship — which is why raw silk is measured in denier (20/22D), not momme like woven cloth.",
       "If you are a fashion designer or brand sourcing raw silk for weaving, hand and evenness are what separate a smooth production run from a costly one. Silk is prized for its high breathability, natural moisture-wicking and surprising strength, with low elasticity and little tendency to pill. Our raw silk yarn export from China is produced to GB/T 1797-2008, with moisture controlled below 11% and packaging sized for containerised, export-ready bales.",
     ],
-    image: "/christopherbu-silk/products/raw-silk-20-22d.webp",
+    image: "/products/raw-silk-20-22d.webp",
     imageAlt:
       "20/22 denier mulberry raw silk yarn in natural white from Yizhou raw silk supplier",
     specs: [
@@ -147,7 +147,7 @@ export const products: Product[] = [
           { label: "Color", value: "White (bright, clean)" },
           { label: "Usage", value: "Dress material, embroidery, weaving, knitting, sarees, home textile" },
         ],
-        image: "/christopherbu-silk/products/raw-silk-20-22d.webp",
+        image: "/products/raw-silk-20-22d.webp",
         imageAlt:
           "20/22 denier white mulberry raw silk yarn with bright clean color for weaving and embroidery",
       },
@@ -162,7 +162,7 @@ export const products: Product[] = [
           { label: "Usage", value: "Knitting, weaving, interior textiles (curtains, lampshades)" },
           { label: "Reference MOQ", value: "≈10 kg (confirmed in quotation)" },
         ],
-        image: "/christopherbu-silk/products/dupion-silk-yarn.webp",
+        image: "/products/dupion-silk-yarn.webp",
         imageAlt:
           "Natural dupion silk yarn skeins in warm earthy unbleached tone for knitting and interior textiles",
       },
@@ -179,7 +179,7 @@ export const products: Product[] = [
           { label: "Packaging", value: "5 kg bundles" },
           { label: "Reference MOQ", value: "≈5 kg (confirmed in quotation)" },
         ],
-        image: "/christopherbu-silk/products/luxury-silk-yarn.webp",
+        image: "/products/luxury-silk-yarn.webp",
         imageAlt:
           "Luxury silk yarn in brilliant white sheen for high-end weaving and statement garments",
       },
@@ -196,7 +196,7 @@ export const products: Product[] = [
           { label: "Forms", value: "Raw silk (filature silk), greige yarns, greige fabrics" },
           { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom color)" },
         ],
-        image: "/christopherbu-silk/products/organic-silk.webp",
+        image: "/products/organic-silk.webp",
         imageAlt:
           "GOTS-certified organic mulberry silk cocoons and raw silk hanks from Yizhou",
       },
@@ -229,7 +229,7 @@ export const products: Product[] = [
       "Because greige is a state rather than a variety, its momme is not a single fixed number — it follows the base weave you specify. Yizhou mills commonly run greige in double crepe, habotai (pongee) and charmeuse (satin) constructions, each with its own natural momme range. Tell us the weave and target weight, and we quote the greige to match, so you can develop your own color, print and finish from a blank, undyed base.",
       "You can take greige silk as-is and finish it in-house, or have it dyed to order — we offer both a standard shade card and custom color matching. Supplying greige gives brands, ateliers and finishing houses full control over the final color, print and hand.",
     ],
-    image: "/christopherbu-silk/products/greige-fabric.webp",
+    image: "/products/greige-fabric.webp",
     imageAlt:
       "Greige silk fabric undyed unfinished straight off the loom for custom dyeing and finishing",
     specs: [
@@ -293,7 +293,7 @@ export const products: Product[] = [
       "We supply satin silk fabric from 10 to 30 momme, with the 16–19 momme satin the most-requested weight for sleepwear and shirts, 22–25 momme for high-end bedding, and 30 momme and up for heavyweight structured pieces. Standard widths are 114 cm and 140 cm, which suit both garment cutting and soft furnishings.",
       "Like all our silk, satin is supplied greige for your own color development, or dyed to order — we offer both a standard shade card and custom color matching, so the finished shade is exactly what your collection needs.",
     ],
-    image: "/christopherbu-silk/products/satin.webp",
+    image: "/products/satin.webp",
     imageAlt:
       "Mulberry silk satin fabric with a high-gloss face and fluid drape, shown in deep red",
     specs: [
@@ -360,7 +360,7 @@ export const products: Product[] = [
       "Because the pattern is in the weave, jacquard luo holds a crisp, dimensional motif that survives wear and does not fade or peel the way a print can. It is the fabric of choice for couture and occasionwear where the motif is the point of the garment.",
       "Custom pattern development is available: we can weave your own motif, from a house motif to a commissioned artwork. Custom jacquard carries a higher minimum because cutting a new card and setting the loom has to be spread over enough cloth — contact our team to discuss your pattern.",
     ],
-    image: "/christopherbu-silk/products/jacquard-luo.webp",
+    image: "/products/jacquard-luo.webp",
     imageAlt:
       "Jacquard luo silk fabric with tone-on-tone woven scroll motifs in ivory for couture",
     specs: [
@@ -428,7 +428,7 @@ export const products: Product[] = [
       "We supply georgette silk from 8 to 16 momme, with heavier 22 momme georgette available for outerwear. The 8–12 momme range is the classic sheer, floaty weight; 14–16 momme gives enough body for garments, and heavy 22 momme georgette is used for jackets. Standard widths are 114 cm and 140 cm.",
       "Like all our silk, georgette is supplied greige for your own color development, or dyed to order from a standard shade card or your custom color.",
     ],
-    image: "/christopherbu-silk/products/georgette.webp",
+    image: "/products/georgette.webp",
     imageAlt:
       "Georgette silk fabric in a sheer, semi-transparent black drape for scarves and flowing garments",
     specs: [
@@ -497,7 +497,7 @@ export const products: Product[] = [
       "We supply habotai (pongee) silk from 6 to 16 momme, in a 114 cm width. The 6–8 momme range is the classic scarf and lining weight, 10–12 momme suits shirts, and 14–16 momme gives a firmer, more durable cloth for heavier shirts and light outerwear.",
       "Habotai is supplied greige for your own color development, or dyed to order from a standard shade card or your custom color.",
     ],
-    image: "/christopherbu-silk/products/pongee.webp",
+    image: "/products/pongee.webp",
     imageAlt:
       "Habotai silk fabric (pongee) in a light plain weave with soft pearl sheen for linings and light shirts",
     specs: [
@@ -562,7 +562,7 @@ export const products: Product[] = [
       "We supply silk stretch satin from 14 to 28 momme, in a 140 cm width. The silk content stays dominant — typically around 94% silk with 6% spandex, or 93% silk with 7% spandex — so the fabric reads and wears as satin, with the spandex there only to add stretch and recovery.",
       "Silk stretch satin is supplied greige for your own color development, or dyed to order from a standard shade card or your custom color.",
     ],
-    image: "/christopherbu-silk/products/stretch-silk.webp",
+    image: "/products/stretch-silk.webp",
     imageAlt:
       "Silk stretch satin fabric in a soft knit drape with satin sheen and comfort stretch for fitted dresses",
     specs: [
@@ -626,7 +626,7 @@ export const products: Product[] = [
       "Both silk and cotton are natural, biodegradable fibers, so silk blends offer a more responsible alternative to synthetic mixes — breathable, temperature-regulating and gentle on the skin, with silk's natural sheen removing the need for chemical shine finishes.",
       "Silk blend is supplied greige for your own color development, or dyed to order from a standard shade card or your custom color.",
     ],
-    image: "/christopherbu-silk/products/silk-blend.webp",
+    image: "/products/silk-blend.webp",
     imageAlt:
       "Silk blend fabric with a soft matte sheen and fine weave for shirts and summer wear",
     specs: [
@@ -700,7 +700,7 @@ export const products: Product[] = [
       "Traditional, high-quality dupioni is hand-woven, which adds to its characteristic irregularity and heavier weight; more affordable versions are now machine-woven. The white Thai-style silk is a natural fibre, so a finished piece may carry minor variations and irregularities in the weave. These are a mark of a fine silk yarn, not defects, and should not be treated as such.",
       "We supply 19 momme dupioni — the most-requested weight for gowns and bridal — alongside a 16 momme option in 114 and 140 cm widths, with heavier 21–22 momme available on request. As a Yizhou dupioni supplier, we ship greige as standard, or dyed to order from a standard shade card or your custom color, with shrinkage around 5% accounted for in cutting.",
     ],
-    image: "/christopherbu-silk/products/dupioni2.webp",
+    image: "/products/dupioni2.webp",
     imageAlt:
       "Dupioni silk fabric 19 momme with slub texture for evening gowns and bridal",
     specs: [

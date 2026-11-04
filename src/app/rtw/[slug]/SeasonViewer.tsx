@@ -111,7 +111,7 @@ export function SeasonViewer({ season }: { season: RtwSeason }) {
                 aria-label={`View look ${i + 1} of ${total}`}
               >
                 <img
-                  src={`/christopherbu-silk/rtw/${season.folder}/${img}`}
+                  src={`/rtw/${season.folder}/${img}`}
                   alt={`${season.name} look ${i + 1} — Christopher Bu ready-to-wear`}
                   loading={i < 2 ? "eager" : "lazy"}
                   className="h-full w-auto max-w-full cursor-zoom-in object-contain"
@@ -155,7 +155,7 @@ export function SeasonViewer({ season }: { season: RtwSeason }) {
                 aria-label={`Go to look ${i + 1}`}
               >
                 <img
-                  src={`/christopherbu-silk/rtw/${season.folder}/${img}`}
+                  src={`/rtw/${season.folder}/${img}`}
                   alt=""
                   loading="lazy"
                   className="h-20 w-auto"
@@ -240,7 +240,7 @@ export function SeasonViewer({ season }: { season: RtwSeason }) {
             onClick={(e) => e.stopPropagation()}
           >
             <img
-              src={`/christopherbu-silk/rtw/${season.folder}/${bigImageFor(
+              src={`/rtw/${season.folder}/${bigImageFor(
                 images[lightbox],
                 season.folder
               )}`}
@@ -249,7 +249,7 @@ export function SeasonViewer({ season }: { season: RtwSeason }) {
               onError={(e) => {
                 // 大图缺失时降级到缩略图（如个别老官网死链）
                 const el = e.currentTarget;
-                const thumb = `/christopherbu-silk/rtw/${season.folder}/${images[lightbox]}`;
+                const thumb = `/rtw/${season.folder}/${images[lightbox]}`;
                 if (el.src !== thumb) el.src = thumb;
               }}
             />

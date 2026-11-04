@@ -63,7 +63,7 @@ export default function RtwPage() {
                 <div className="aspect-[2/3] overflow-hidden bg-ivory-deep">
                   {season.images[0] && (
                     <img
-                      src={`/christopherbu-silk/rtw/${season.folder}/${season.images[0]}`}
+                      src={`/rtw/${season.folder}/${season.images[0]}`}
                       alt={`${season.name} — Christopher Bu ready-to-wear collection`}
                       loading="lazy"
                       className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"

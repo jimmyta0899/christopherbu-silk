@@ -112,7 +112,7 @@ export default function HomePage() {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/christopherbu-silk/products/raw-silk-cocoon.webp"
+                src="/products/raw-silk-cocoon.webp"
                 alt="White silk cocoons and raw silk skeins on a linen cloth — raw silk from Yizhou"
                 className="aspect-[4/3] w-full object-cover sm:w-2/5 sm:aspect-auto"
               />
@@ -200,7 +200,7 @@ export default function HomePage() {
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img
-                        src={`/christopherbu-silk/${item.image}`}
+                        src={`/${item.image}`}
                         alt={item.imageAlt}
                         loading="lazy"
                         className="aspect-[3/4] w-24 shrink-0 self-start object-cover"

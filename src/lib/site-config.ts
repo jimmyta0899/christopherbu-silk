@@ -5,8 +5,7 @@ export const siteConfig = {
   name: "Christopher Bu",
   shortName: "Christopher Bu",
   domain: "christopherbu.com",
-  // 当前部署到 GitHub Pages 项目页；绑定 christopherbu.com 自定义域名后改回 https://christopherbu.com
-  url: "https://jimmyta0899.github.io/christopherbu-silk",
+  url: "https://www.christopherbu.com",
   // 品牌定位（canonical 描述，用于 GEO 实体消歧，全渠道一致）
   tagline:
     "Premium mulberry raw silk, greige fabric and dupioni sourced from Yizhou, China, the world's largest raw silk origin, and curated under the design eye of the Christopher Bu couture house.",

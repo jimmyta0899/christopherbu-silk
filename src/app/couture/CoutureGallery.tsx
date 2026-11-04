@@ -49,7 +49,7 @@ export function CoutureGallery() {
               aria-label={`View look ${i + 1} of ${total}`}
             >
               <img
-                src={`/christopherbu-silk/couture/${look.image}`}
+                src={`/couture/${look.image}`}
                 alt={`${look.name} — Christopher Bu couture inspiration`}
                 loading={i < 2 ? "eager" : "lazy"}
                 className="h-full w-auto max-w-full cursor-zoom-in object-contain"
@@ -93,7 +93,7 @@ export function CoutureGallery() {
               aria-label={`Go to look ${i + 1}`}
             >
               <img
-                src={`/christopherbu-silk/couture/${look.image}`}
+                src={`/couture/${look.image}`}
                 alt=""
                 loading="lazy"
                 className="h-20 w-auto"
@@ -174,7 +174,7 @@ export function CoutureGallery() {
             onClick={(e) => e.stopPropagation()}
           >
             <img
-              src={`/christopherbu-silk/couture/${coutureLooks[lightbox].image}`}
+              src={`/couture/${coutureLooks[lightbox].image}`}
               alt={`${coutureLooks[lightbox].name} — Christopher Bu couture inspiration`}
               className="max-h-[84vh] max-w-[92vw] object-contain"
             />

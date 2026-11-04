@@ -9,15 +9,15 @@ type Slide = {
 
 const slides: Slide[] = [
   {
-    src: "/christopherbu-silk/hero/met-gala-illustration.webp",
+    src: "/hero/met-gala-illustration.webp",
     alt: "Illustration of a gold sequin gown with a green silk jacquard cape, inspired by Christopher Bu at the 2015 Met Gala",
   },
   {
-    src: "/christopherbu-silk/hero/cannes-illustration.webp",
+    src: "/hero/cannes-illustration.webp",
     alt: "Illustration of an ivory embroidered mermaid gown with floral motifs, inspired by Christopher Bu at the Cannes Film Festival",
   },
   {
-    src: "/christopherbu-silk/hero/oscars-illustration.webp",
+    src: "/hero/oscars-illustration.webp",
     alt: "Illustration of a white gown with plum-blossom embroidery and a sweeping cape, inspired by Christopher Bu at the Oscars",
   },
 ];
