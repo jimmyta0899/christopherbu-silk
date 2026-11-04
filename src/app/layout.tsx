@@ -75,11 +75,20 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: "Christopher Bu × Yizhou Silk — Raw Silk & Greige B2B Supplier",
     description: siteConfig.tagline,
+    images: [
+      {
+        url: `${siteConfig.url}/brand-logo.png`,
+        width: 454,
+        height: 82,
+        alt: "Christopher Bu × Yizhou Silk",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Christopher Bu × Yizhou Silk — Raw Silk & Greige B2B Supplier",
     description: siteConfig.tagline,
+    images: [`${siteConfig.url}/brand-logo.png`],
   },
   robots: {
     index: true,

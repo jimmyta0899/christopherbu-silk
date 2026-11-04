@@ -38,10 +38,15 @@ export default function ContactPage() {
                 <Field label="Country" required />
               </div>
               <div>
-                <label className="text-sm font-medium text-ink-soft">
+                <label
+                  htmlFor="message"
+                  className="text-sm font-medium text-ink-soft"
+                >
                   Message
                 </label>
                 <textarea
+                  id="message"
+                  name="message"
                   rows={5}
                   placeholder="Tell us about your requirement: product, denier/momme, grade, MOQ, deadline, destination..."
                   className="mt-1.5 w-full rounded-none border border-line bg-ivory px-4 py-3 text-sm text-ink outline-none transition-colors focus:border-jade"
@@ -117,13 +122,16 @@ function Field({
   type?: string;
   required?: boolean;
 }) {
+  const id = label.toLowerCase().replace(/[^a-z0-9]+/g, "-");
   return (
     <div>
-      <label className="text-sm font-medium text-ink-soft">
+      <label htmlFor={id} className="text-sm font-medium text-ink-soft">
         {label}
         {required && <span className="text-gold"> *</span>}
       </label>
       <input
+        id={id}
+        name={id}
         type={type}
         required={required}
         className="mt-1.5 w-full rounded-none border border-line bg-ivory px-4 py-3 text-sm text-ink outline-none transition-colors focus:border-jade"
