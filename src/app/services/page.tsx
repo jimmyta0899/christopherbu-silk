@@ -20,20 +20,36 @@ export const metadata: Metadata = {
 
 const audience = [
   {
-    t: "Raw-material distributors",
-    d: "Buyers sourcing raw silk and silk fabric in volume for redistribution.",
+    t: "Fabric mills & weavers",
+    d: "Mills sourcing raw silk yarn and greige fabric as input for their own weaving and finishing.",
+  },
+  {
+    t: "Garment manufacturers",
+    d: "Factories cutting and producing silk apparel, bridal and home-textile collections.",
+  },
+  {
+    t: "Fabric wholesalers & distributors",
+    d: "Traders stocking silk fabric in volume for resale to retailers and ateliers.",
+  },
+  {
+    t: "Export houses & trading companies",
+    d: "Sourcing and shipping silk for overseas buyers, buying offices and distribution channels.",
   },
   {
     t: "Private-label brands",
     d: "Brands building their own silk product lines under their own label.",
   },
   {
+    t: "Designers & ateliers",
+    d: "Fashion houses and couture ateliers sourcing couture-grade silk.",
+  },
+  {
     t: "Corporate-gift suppliers",
     d: "Suppliers developing premium silk gifts and branded pieces.",
   },
   {
-    t: "Designers & ateliers",
-    d: "Fashion houses and couture ateliers sourcing couture-grade silk.",
+    t: "Retailers & boutiques",
+    d: "Stores curating ready silk pieces and small-batch collections for end customers.",
   },
 ];
 

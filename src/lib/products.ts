@@ -204,7 +204,7 @@ export const products: Product[] = [
     slug: "greige-fabric",
     name: "Greige Silk Fabric",
     title:
-      "Christopher Bu Greige Silk Double Crepe 19mm 140cm for Couture & Bridal — Swatch MOQ FOB Shanghai Yizhou Silk B2B",
+      "Christopher Bu Greige Silk Double Crepe 19mm 140cm for Couture & Bridal — Swatch MOQ FOB Nansha / FOB Yantian Yizhou Silk B2B",
     h1: "Greige Silk Double Crepe 19mm for Couture & Bridal",
     metaDescription:
       "Source mulberry silk fabric from Yizhou, China — supplied greige (undyed) or dyed to your color. Bulk supply with OEKO-TEX & GOTS available on request.",
@@ -266,7 +266,7 @@ export const products: Product[] = [
     slug: "satin",
     name: "Satin Silk Fabric",
     title:
-      "Christopher Bu Satin Silk Fabric 16–30mm 114/140cm for Bridal & Eveningwear — Swatch FOB Shanghai Yizhou Silk Supplier",
+      "Christopher Bu Satin Silk Fabric 16–30mm 114/140cm for Bridal & Eveningwear — Swatch FOB Nansha / FOB Yantian Yizhou Silk Supplier",
     h1: "Satin Silk Fabric for Bridal & Eveningwear",
     metaDescription:
       "Source lustrous satin silk fabric from Yizhou, China, in 16/19/22/30 momme and 114/140 cm widths. Supplied greige or dyed to order. Ideal for bridal, eveningwear and luxury linings. B2B bulk supply.",

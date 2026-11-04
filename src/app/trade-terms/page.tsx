@@ -6,11 +6,12 @@ import { siteConfig } from "@/lib/site-config";
 export const metadata: Metadata = {
   title: "Shipping & Terms | Reference MOQ & Lead Time, GOTS / OEKO-TEX",
   description:
-    "Export terms for Christopher Bu × Yizhou Silk B2B supply: FOB Shanghai / FOB Qinzhou / FCA Yizhou for bulk, T/T payment, reference MOQ and 15–25 day lead time confirmed in writing. GOTS, OEKO-TEX Class II, China Organic and destination-market compliance available.",
+    "Export terms for Christopher Bu × Yizhou Silk B2B supply: FOB Nansha / FOB Yantian / FOB Qinzhou / FCA Yizhou for bulk, T/T payment, reference MOQ and 15–25 day lead time confirmed in writing. GOTS, OEKO-TEX Class II, China Organic and destination-market compliance available.",
   keywords: [
     "FCA Yizhou silk fabric",
     "FOB Qinzhou silk fabric",
-    "FOB Shanghai silk swatch",
+    "FOB Nansha silk swatch",
+    "FOB Yantian silk fabric",
     "silk fabric lead time 25 days",
     "silk reference MOQ",
     "silk fabric Prop 65 compliance",
@@ -22,7 +23,7 @@ const terms = [
     section: "Shipping",
     items: [
       { label: "Samples", value: "DHL worldwide or designated couriers" },
-      { label: "Bulk", value: "FOB Shanghai / FOB Qinzhou / FCA Yizhou (preferred)" },
+      { label: "Bulk", value: "FOB Nansha / FOB Yantian / FOB Qinzhou / FCA Yizhou (preferred)" },
     ],
   },
   {

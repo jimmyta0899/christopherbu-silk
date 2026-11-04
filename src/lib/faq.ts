@@ -14,7 +14,7 @@ export const faqs: FaqItem[] = [
   },
   {
     q: "What are the export terms?",
-    a: "Swatches ship DHL worldwide or via designated courier. Bulk orders ship FOB Shanghai / FOB Qinzhou / FCA Yizhou (preferred). Payment is T/T 30% deposit, 70% against Bill of Lading.",
+    a: "Swatches ship DHL worldwide or via designated courier. Bulk orders ship FOB Nansha / FOB Yantian / FOB Qinzhou / FCA Yizhou (preferred). Payment is T/T 30% deposit, 70% against Bill of Lading.",
   },
   {
     q: "Are OEKO-TEX or GOTS certifications available?",
