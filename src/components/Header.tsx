@@ -51,6 +51,7 @@ const nav = [
   { href: "/couture", label: "Couture" },
   { href: "/rtw", label: "RTW", children: rtwSeasons },
   { href: "/about", label: "About" },
+  { href: "/certificates", label: "Certifications" },
   { href: "/blog", label: "Blog" },
   {
     href: "/contact",
