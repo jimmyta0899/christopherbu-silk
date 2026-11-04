@@ -27,23 +27,36 @@ export default function BlogPage() {
             <Link
               key={post.slug}
               href={`/blog/${post.slug}`}
-              className="group block border border-line bg-ivory-deep p-8 transition-colors hover:border-jade"
+              className="group flex flex-col gap-6 border border-line bg-ivory-deep p-6 transition-colors hover:border-jade sm:flex-row sm:items-stretch"
             >
-              <div className="flex flex-wrap items-center gap-3 text-xs">
-                <span className="rounded-full border border-gold/40 px-3 py-1 font-medium text-gold">
-                  {post.type}
+              {/* 预览图 */}
+              {post.coverImage && (
+                <div className="shrink-0 overflow-hidden sm:w-56">
+                  <img
+                    src={post.coverImage.src}
+                    alt={post.coverImage.alt}
+                    className="h-44 w-full object-cover transition-transform duration-300 group-hover:scale-105 sm:h-full"
+                  />
+                </div>
+              )}
+              {/* 文字内容 */}
+              <div className="flex min-w-0 flex-1 flex-col">
+                <div className="flex flex-wrap items-center gap-3 text-xs">
+                  <span className="rounded-full border border-gold/40 px-3 py-1 font-medium text-gold">
+                    {post.type}
+                  </span>
+                  <span className="text-ink-muted">{post.publishDate}</span>
+                </div>
+                <h2 className="font-display mt-4 text-2xl font-medium text-jade-deep group-hover:text-jade">
+                  {post.title}
+                </h2>
+                <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+                  {post.metaDescription}
+                </p>
+                <span className="mt-5 inline-block text-sm font-medium text-gold transition-transform group-hover:translate-x-1">
+                  Read article →
                 </span>
-                <span className="text-ink-muted">{post.publishDate}</span>
               </div>
-              <h2 className="font-display mt-4 text-2xl font-medium text-jade-deep group-hover:text-jade">
-                {post.title}
-              </h2>
-              <p className="mt-3 text-sm leading-relaxed text-ink-soft">
-                {post.metaDescription}
-              </p>
-              <span className="mt-5 inline-block text-sm font-medium text-gold transition-transform group-hover:translate-x-1">
-                Read article →
-              </span>
             </Link>
           ))}
         </div>

@@ -42,6 +42,7 @@ export type BlogPost = {
   keywords: string[];
   anchorTexts: string[];
   linkTo: string;
+  coverImage?: BlogImage; // 列表页预览图（缩略图）
   intro: string;
   takeaways?: string[]; // 摘要框：3-5 条独立可读要点，含 1 条核心数据
   sections: BlogSection[];
@@ -68,6 +69,11 @@ export const blogPosts: BlogPost[] = [
     ],
     anchorTexts: ["Yizhou mulberry silk", "mulberry silk origin", "Guangxi sericulture"],
     linkTo: "/products/raw-silk",
+    coverImage: {
+      src: "/christopherbu-silk/blog/yizhou-xiajian-river-karst.webp",
+      alt: "Karst peaks and the Xiajian River in Yizhou, Guangxi, China's largest mulberry silk county",
+      caption: "The Xiajian River valley in Yizhou, China's largest mulberry silk county.",
+    },
     intro:
       "Yizhou, a county in Guangxi in southern China, holds two titles that rarely sit together. It is a recognized longevity town, with more than 70 people over a hundred years old, and it is the largest mulberry silk producing county in the country, a position it has held for 21 straight years. The silk that starts here ends up on red carpets in Paris, Hollywood, and New York, and it is the base of the couture gowns this label designs.",
     takeaways: [
@@ -200,6 +206,11 @@ export const blogPosts: BlogPost[] = [
     ],
     anchorTexts: ["silk sourcing for ateliers", "mulberry silk MOQ", "FOB silk fabric"],
     linkTo: "/trade-terms",
+    coverImage: {
+      src: "/christopherbu-silk/products/greige-fabric.webp",
+      alt: "Greige mulberry silk fabric, the undyed cloth a couture atelier specifies before ordering",
+      caption: "Greige mulberry silk, the undyed cloth specified before a bulk order.",
+    },
     intro:
       "An atelier in Milan, a workshop in New York, and a bridal house in Dubai all order the same thing: mulberry silk that arrives on time, in the weight they asked for, at a cost they budgeted. The process is the same wherever the atelier sits, and the surprises are the same too. This guide walks the timeline, the terms, and the one cheap step that prevents most mistakes.",
     takeaways: [
@@ -296,6 +307,11 @@ export const blogPosts: BlogPost[] = [
     ],
     anchorTexts: ["momme fabric weight", "20/22 denier raw silk", "momme vs denier"],
     linkTo: "/products/greige-fabric",
+    coverImage: {
+      src: "/christopherbu-silk/products/dupioni2.webp",
+      alt: "Dupioni silk fabric with slub texture, showing the weight and hand that momme measures",
+      caption: "Dupioni silk with slub texture — the weight and hand that momme describes.",
+    },
     intro:
       "If you are specifying silk for a gown, you need two numbers. Momme tells you the weight of the cloth; denier tells you the thickness of the yarn. They measure different things, and a buyer who reads them together gets the fabric right the first time instead of ordering a weight that feels wrong in the hand.",
     takeaways: [
@@ -395,6 +411,11 @@ export const blogPosts: BlogPost[] = [
     ],
     anchorTexts: ["dupioni silk for gowns", "19 momme dupioni", "Yizhou dupioni supplier"],
     linkTo: "/products/dupioni",
+    coverImage: {
+      src: "/christopherbu-silk/blog/fan-bingbing-paris-stamp-skirt.webp",
+      alt: "Fan Bingbing in a silk dupioni ensemble, illustrating dupioni silk made up into a finished garment",
+      caption: "Dupioni silk made up into a finished garment — the 2013 Fan Bingbing piece.",
+    },
     intro:
       "Dupioni is a mulberry silk with a visible, irregular texture. Two silkworms spin one cocoon, their filaments tangle, and the yarn comes off the reel with thick-and-thin slubs along its length. Woven plain, those slubs give a dress structure and a play of light that a flat crepe cannot match. This guide walks the fabric from raw silk to a finished garment, with the 2013 Fan Bingbing pieces as proof of how it performs on a body.",
     takeaways: [
@@ -561,6 +582,11 @@ export const blogPosts: BlogPost[] = [
     ],
     anchorTexts: ["hand embroidered silk", "mulberry silk embroidery", "silk couture gown"],
     linkTo: "/products/dupioni",
+    coverImage: {
+      src: "/christopherbu-silk/blog/paz-vega-oscars-smh.webp",
+      alt: "Paz Vega in a white hand-embroidered mulberry silk gown at the 2018 Oscars",
+      caption: "Paz Vega's hand-embroidered mulberry silk gown at the 2018 Oscars.",
+    },
     intro:
       "When the Spanish actress Paz Vega walked the 90th Academy Awards red carpet on March 4, 2018, she wore a strapless white gown covered in large red plum blossoms. The blossoms were not printed and not woven in. They were embroidered onto the mulberry silk by hand, one thread at a time. The dress, named Snow Plum Blossom, was the first Chinese-designed gown on an Oscars red carpet, according to the Global Times[1].",
     takeaways: [
@@ -695,6 +721,11 @@ export const blogPosts: BlogPost[] = [
     ],
     anchorTexts: ["silk jacquard", "mulberry silk jacquard", "jacquard vs embroidery"],
     linkTo: "/products/dupioni",
+    coverImage: {
+      src: "/christopherbu-silk/blog/fan-bingbing-forbidden-city-jacquard.webp",
+      alt: "Fan Bingbing in the Forbidden City-inspired mulberry silk jacquard gown at the 2015 Met Gala",
+      caption: "The Forbidden City jacquard gown Fan Bingbing wore to the 2015 Met Gala.",
+    },
     intro:
       "At the 2015 Met Gala, themed China: Through the Looking Glass, the actress Fan Bingbing wore a gown whose green and gold cape opened from the back like a set of palace doors. The motif was not painted on and not stitched on. It was woven into the mulberry silk on a jacquard loom, which is the single fact that separates this dress from most of the embroidery people confuse it with.",
     takeaways: [
