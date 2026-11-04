@@ -35,14 +35,17 @@ export function HeroCarousel() {
   }, [total]);
 
   return (
-    <div className="relative w-full max-w-md">
-      <div className="relative aspect-[3/4] w-full overflow-hidden border border-gold/40">
+    <div className="relative ml-auto w-full max-w-md">
+      <div className="relative aspect-[3/4] min-h-[380px] w-full overflow-hidden border border-gold/40 sm:min-h-[520px]">
         {slides.map((slide, i) => (
           <img
             key={slide.src}
             src={slide.src}
             alt={slide.alt}
+            width={900}
+            height={1206}
             loading={i === 0 ? "eager" : "lazy"}
+            fetchPriority={i === 0 ? "high" : "auto"}
             className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-700 ${
               i === active ? "opacity-100" : "opacity-0"
             }`}

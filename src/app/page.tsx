@@ -72,7 +72,7 @@ export default function HomePage() {
                   </Link>
                 </div>
               </div>
-              <div className="relative md:justify-self-end">
+              <div className="relative w-full">
                 <HeroCarousel />
               </div>
             </div>
