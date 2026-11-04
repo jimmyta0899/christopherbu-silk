@@ -118,7 +118,7 @@ export default function SamplesPage() {
                 <li>• Mini swatches by product, weight and finish</li>
                 <li>• Hand, weight and color verification before production</li>
                 <li>• Full-size samples on request (chargeable)</li>
-                <li>• Global DHL shipping, 5 business days</li>
+                <li>• Global DHL shipping</li>
               </ul>
             </div>
             <div className="border border-line p-6">

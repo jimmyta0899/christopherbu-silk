@@ -6,7 +6,7 @@ import { siteConfig } from "@/lib/site-config";
 export const metadata: Metadata = {
   title: "Shipping & Terms | Reference MOQ & Lead Time, GOTS / OEKO-TEX",
   description:
-    "Export terms for Christopher Bu × Yizhou Silk B2B supply: FOB Qinzhou / FCA Yizhou for bulk, FOB Shanghai for samples, T/T payment, reference MOQ and 15–25 day lead time confirmed in writing. GOTS, OEKO-TEX Class II, China Organic and destination-market compliance available.",
+    "Export terms for Christopher Bu × Yizhou Silk B2B supply: FOB Shanghai / FOB Qinzhou / FCA Yizhou for bulk, T/T payment, reference MOQ and 15–25 day lead time confirmed in writing. GOTS, OEKO-TEX Class II, China Organic and destination-market compliance available.",
   keywords: [
     "FCA Yizhou silk fabric",
     "FOB Qinzhou silk fabric",
@@ -21,8 +21,8 @@ const terms = [
   {
     section: "Shipping",
     items: [
-      { label: "Samples", value: "FOB Shanghai, 5–7 days (DHL worldwide)" },
-      { label: "Bulk", value: "FOB Qinzhou / FCA Yizhou (preferred), 20–25 days" },
+      { label: "Samples", value: "DHL worldwide or designated couriers" },
+      { label: "Bulk", value: "FOB Shanghai / FOB Qinzhou / FCA Yizhou (preferred)" },
     ],
   },
   {
@@ -94,7 +94,7 @@ export default function TradeTermsPage() {
       <Header />
       <main className="mx-auto max-w-6xl px-6 py-16 md:py-20">
         <h1 className="font-display max-w-3xl text-4xl font-medium text-jade-deep md:text-5xl">
-          Export terms: FOB Qinzhou, FCA Yizhou, FOB Shanghai.
+          Export terms
         </h1>
         <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-soft">
           Clear, transparent trade terms for silk sourcing — including our

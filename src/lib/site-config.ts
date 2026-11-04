@@ -57,8 +57,8 @@ export const siteConfig = {
   },
   // 贸易条款
   trade: {
-    sampleShipping: "FOB Shanghai, 5–7 days (DHL worldwide, 5 business days)",
-    bulkShipping: "FOB Qinzhou / FCA Yizhou (preferred), 20–25 days",
+    sampleShipping: "DHL worldwide or designated courier",
+    bulkShipping: "FOB Shanghai / FOB Qinzhou / FCA Yizhou (preferred)",
     payment: "T/T 30% deposit, 70% against B/L",
   },
   // 样品服务政策
