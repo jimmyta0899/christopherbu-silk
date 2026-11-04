@@ -56,15 +56,30 @@ export default async function BlogPostPage({ params }: Props) {
   const post = getPost(slug);
   if (!post) notFound();
 
+  // 正文全文（供 AI/搜索引擎从结构化数据直接读取，而不只是抓正文 HTML）
+  const articleBody = [
+    post.intro,
+    ...(post.takeaways ?? []),
+    ...post.sections.map((s) => `${s.heading}\n${s.body}`),
+  ]
+    .join("\n\n")
+    // 去掉内部注释标记与 [n] 引用角标，保留干净正文
+    .replace(/<!--.*?-->/g, "")
+    .replace(/\[(?:ORIGINAL DATA|UNIQUE INSIGHT|PERSONAL EXPERIENCE)\]/gi, "")
+    .replace(/\[\d+\]/g, "");
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     headline: post.title,
     description: post.metaDescription,
+    articleBody,
     datePublished: post.publishDate,
+    dateModified: post.publishDate,
     author: {
       "@type": "Organization",
       name: siteConfig.name,
+      url: siteConfig.url,
     },
     publisher: {
       "@type": "Organization",
@@ -72,6 +87,7 @@ export default async function BlogPostPage({ params }: Props) {
       url: siteConfig.url,
     },
     mainEntityOfPage: `${siteConfig.url}/blog/${post.slug}`,
+    keywords: post.keywords.join(", "),
   };
 
   return (
