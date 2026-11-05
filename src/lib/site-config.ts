@@ -70,10 +70,10 @@ export const siteConfig = {
   // 社交媒体
   social: {
     instagram: "https://www.instagram.com/christopherbu_official",
-    // 用户提供的 profile.php?id=100028486554642 会 301 到此规范地址；
-    // sameAs / 外链统一用 301 后的最终 URL，避免爬虫把短链当独立实体。
-    facebook:
-      "https://www.facebook.com/people/Christopher-Bu-%E5%8D%9C%E6%9F%AF%E6%96%87/100028486554642/",
+    // 登录态下核实：主页「Christopher Bu 卜柯文」(Public figure) 的规范 vanity URL；
+    // profile.php?id=100028486554642 与 /people/... 形式都会 302 跳到此地址。
+    // sameAs / 外链统一用最终 URL，避免爬虫把跳转地址当成独立实体。
+    facebook: "https://www.facebook.com/christopherbuofficial/",
     whatsapp: "+1-202-579-8256",
   },
 } as const;
