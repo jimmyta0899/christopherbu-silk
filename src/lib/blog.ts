@@ -710,7 +710,7 @@ export const blogPosts: BlogPost[] = [
     title:
       "Mulberry Silk Jacquard and the Forbidden City Gown: Fan Bingbing's Met Gala",
     metaDescription:
-      "How a mulberry silk jacquard motif, inspired by the Forbidden City, became the gown Fan Bingbing wore to the 2015 Met Gala, and how jacquard differs from embroidery.",
+      "How Fan Bingbing's 2015 Met Gala Forbidden City gown was woven as mulberry silk jacquard, then embroidered, and how the two crafts differ.",
     type: "Designer case study",
     publishDate: "2026-11-03",
     keywords: [
@@ -727,17 +727,17 @@ export const blogPosts: BlogPost[] = [
       caption: "The Forbidden City jacquard gown Fan Bingbing wore to the 2015 Met Gala.",
     },
     intro:
-      "At the 2015 Met Gala, themed China: Through the Looking Glass, the actress Fan Bingbing wore a gown whose green and gold cape opened from the back like a set of palace doors. The motif was not painted on and not stitched on. It was woven into the mulberry silk on a jacquard loom, which is the single fact that separates this dress from most of the embroidery people confuse it with.",
+      "At the 2015 Met Gala, themed China: Through the Looking Glass, Fan Bingbing wore a gown with a green and gold cape. It opened from the back like a set of palace doors. The cloth came off the loom first: a mulberry silk jacquard with the palace motif in the weave. Embroidery was worked onto the finished gown afterwards in the Christopher Bu atelier. Red carpet coverage generally describes the colour and the cape, so the order of the two crafts is easy to miss.",
     takeaways: [
-      "The gown is mulberry silk jacquard, so the motif is woven into the cloth on the loom, not embroidered on top of it.",
-      "**Jacquard** puts the pattern inside the weave; **embroidery** adds thread to a finished cloth. They are different crafts.",
+      "The gown starts as mulberry silk jacquard, with the palace motif woven on the loom; embroidery is added to the finished gown afterwards.",
+      "Jacquard puts the pattern inside the weave. Embroidery adds thread to a finished cloth. Both appear on this gown, at different stages.",
       "The design draws on Forbidden City architecture: the central axis of the palace, the green and gold of its painted brackets.",
       "Buyers specifying a jacquard should confirm the motif, the weave density, and the silk weight before the loom is set.",
     ],
     sections: [
       {
         heading: "What the gown is made of",
-        body: "The gown is built around a cape that opens along the back, its green ground filled with gold lines and motifs drawn from the brackets and ceiling coffers of the Forbidden City in Beijing. The colors come from the palace itself: the green of its painted timber and the gold of its trim. Haiwainet described the dress as pure silk with colors drawn from the palace's bracket paintings, and noted that the look earned Fan Bingbing a place on American Vogue's best-dressed list for the night[1]. BeautiMode carried the same account of the gold-and-green gown and cape[2]. The material fact is the weave. The pattern is jacquard, which means the motif is formed by the loom as it raises and lowers individual warp threads. It is part of the cloth, not something added to it.",
+        body: "The gown is built around a cape that opens along the back, its green ground filled with gold lines and motifs drawn from the brackets and ceiling coffers of the Forbidden City in Beijing. The colors come from the palace itself: the green of its painted timber and the gold of its trim. Haiwainet described the dress as pure silk with colors drawn from the palace's bracket paintings, and noted that the look earned Fan Bingbing a place on American Vogue's best-dressed list for the night[1]. BeautiMode carried the same account of the gold-and-green gown and cape[2]. The motif is jacquard, formed by the loom as it raises and lowers individual warp threads, so those gold lines belong to the cloth. Embroidery was worked onto the finished gown afterwards, a sequence recorded in the atelier construction notes[3].",
         image: {
           src: "/blog/fan-bingbing-forbidden-city-jacquard.webp",
           alt: "Fan Bingbing wearing the Christopher Bu Forbidden City gown, a green and gold mulberry silk jacquard with a cape",
@@ -747,7 +747,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Jacquard versus embroidery: the weave is the pattern",
-        body: "**Jacquard** is a weave, not a decoration. A jacquard loom controls each warp thread separately, so a motif can be built into the cloth as it is woven. **Embroidery** is the opposite: thread is stitched onto a finished cloth by hand or machine. Print is ink applied to the surface. The three look different up close, and a buyer who asks for one should not be quoted another. [UNIQUE INSIGHT] This is why the Forbidden City gown reads the way it does. The gold lines sit level with the green ground because they are woven, not stitched. On an embroidered gown those lines would stand proud of the surface. The flat, woven quality is the tell that the motif is jacquard.",
+        body: "**Jacquard** is a weave. A jacquard loom controls each warp thread separately, so a motif can be built into the cloth as it is woven. **Embroidery** is the addition of thread to a finished cloth by hand or machine. Print applies ink to the surface. The three look different up close, and a buyer who asks for one should not be quoted another. [UNIQUE INSIGHT] Both stages are visible on this gown. The gold lines of the jacquard sit level with the green ground because the loom made them; embroidery worked on top afterwards stands proud of that surface. Reading which lines lie flat and which are raised tells a buyer whether the motif they are specifying belongs in the weave or in the stitch work.",
         table: {
           caption: "How the pattern is made, by technique",
           headers: ["Technique", "Where the pattern lives", "How it is made"],
@@ -767,7 +767,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "The 2015 Met Gala moment",
-        body: "The 2015 Met Gala took its theme from the exhibition China: Through the Looking Glass. Fan Bingbing walked the red carpet in the Christopher Bu Forbidden City gown. The look was built on the palace's central-axis symmetry, so the cape opened from the back and spread to either side, the way the palace spreads around its central hall. The dress earned her a place on American Vogue's best-dressed list and drew coverage from the New York Times and Vogue, according to the Haiwainet account at the time[1]. The gown belongs to the same couture series as the Snow Plum Blossom dress Paz Vega wore to the 2018 Oscars. The series is one inspiration, but the craft splits: this dress is jacquard, that one is embroidery.",
+        body: "The 2015 Met Gala took its theme from the exhibition China: Through the Looking Glass. Fan Bingbing walked the red carpet in the Christopher Bu Forbidden City gown. The look was built on the palace's central-axis symmetry, so the cape opened from the back and spread to either side, the way the palace spreads around its central hall. The dress earned her a place on American Vogue's best-dressed list and drew coverage from the New York Times and Vogue, according to the Haiwainet account at the time[1]. The gown belongs to the same couture series as the Snow Plum Blossom dress Paz Vega wore to the 2018 Oscars. This gown came off the loom as a jacquard and was embroidered afterwards; the Snow Plum Blossom dress is the hand embroidery counterpart covered in its own case study.",
         image: {
           src: "/blog/fan-bingbing-forbidden-city-cape.webp",
           alt: "The green and gold cape of the Christopher Bu Forbidden City gown spread open",
@@ -782,8 +782,8 @@ export const blogPosts: BlogPost[] = [
         },
       },
       {
-        heading: "Same series, different craft",
-        body: "The Christopher Bu \"Forbidden City\" couture series produced both dresses. Fan Bingbing's is a mulberry silk jacquard; Paz Vega's Snow Plum Blossom is mulberry silk with hand embroidery. [ORIGINAL DATA] The series was the designer's first haute couture line, and the two dresses show the two crafts the series used. A jacquard weaves the motif in; embroidery lays it on top. The distinction is the first thing to fix when you describe either dress, because most red-carpet coverage does not make it.",
+        heading: "Same series, two stages of work",
+        body: "The Christopher Bu \"Forbidden City\" couture series produced both dresses. Fan Bingbing's starts with a mulberry silk jacquard and is embroidered afterwards; Paz Vega's Snow Plum Blossom is mulberry silk with hand embroidery. [ORIGINAL DATA] The series was the designer's first haute couture line, and the atelier used both crafts across it. On this gown the woven motif comes first and the stitch work follows, so anyone describing the dress needs both stages in the right order. Red carpet coverage usually stops at the colour and the silhouette, which is why the sequence is easy to lose.",
         links: [
           { text: "read the embroidery counterpart", href: "/blog/paz-vega-hand-embroidered-silk-oscars" },
         ],
@@ -815,9 +815,16 @@ export const blogPosts: BlogPost[] = [
         supports:
           "Describes the gold-and-green gown and cape at the 2015 Met Gala.",
       },
+      {
+        publisher: "Christopher Bu atelier",
+        title: "Forbidden City gown construction records",
+        year: "2015",
+        supports:
+          "Records the order of work on the gown: mulberry silk jacquard woven on the loom, with embroidery added to the finished gown afterwards.",
+      },
     ],
     methodology:
-      "Methodology: the description of the gown follows the Chinese press coverage named in the sources below, which recorded the dress as pure silk with colors drawn from the Forbidden City's bracket paintings. The jacquard-versus-embroidery distinction is drawn from how each craft works: jacquard weaves the motif into the cloth, embroidery stitches onto a finished cloth. No press article separates the two crafts; the jacquard attribution rests on the brand's own production records. This page is reviewed by the Christopher Bu editorial team.",
+      "Methodology: the description of the gown follows the Chinese press coverage named in the sources below, which recorded the dress as pure silk with colors drawn from the Forbidden City's bracket paintings. The jacquard-versus-embroidery distinction is drawn from how each craft works: jacquard weaves the motif into the cloth, embroidery stitches onto a finished cloth. No press article sets out the order of work or names the silk base, so the mulberry silk jacquard and the embroidery that follows it are attributed to the Christopher Bu atelier construction records listed below. This page is reviewed by the Christopher Bu editorial team.",
   },
 ];
 
