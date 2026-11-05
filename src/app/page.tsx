@@ -160,6 +160,24 @@ export default function HomePage() {
             </div>
           </div>
 
+          {/* 生丝参数规格页：首页显式入口，锚文本直接覆盖目标长尾词 */}
+          <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 border border-gold/50 bg-ivory px-6 py-4">
+            <p className="max-w-3xl text-sm leading-relaxed text-ink-soft">
+              Buying raw silk yarn? See the full{" "}
+              <strong className="font-medium text-jade-deep">
+                20/22D 5A/6A specification sheet
+              </strong>{" "}
+              — HS heading 5002, 60 kg bale packing, MOQ, FOB/FCA terms and T/T
+              payment in one structured page.
+            </p>
+            <Link
+              href="/raw-silk-specs"
+              className="text-sm font-medium text-jade hover:underline"
+            >
+              View spec sheet →
+            </Link>
+          </div>
+
           {/* 下方：左 9 产品两列 + 右 blog 同 level，统一米色底 */}
           <div className="mt-16 bg-ivory-deep p-6 md:p-8">
             <div className="grid gap-10 lg:grid-cols-[1.5fr_1fr] lg:gap-12">

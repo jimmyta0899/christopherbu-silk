@@ -55,6 +55,11 @@ export function Footer() {
               </Link>
             </li>
             <li>
+              <Link href="/raw-silk-specs" className="transition-colors hover:text-ivory">
+                Raw Silk Spec Sheet (20/22D, HS 5002)
+              </Link>
+            </li>
+            <li>
               <Link href="/products/greige-fabric" className="transition-colors hover:text-ivory">
                 Greige Fabric
               </Link>

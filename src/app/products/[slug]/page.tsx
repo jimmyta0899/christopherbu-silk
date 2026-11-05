@@ -223,6 +223,26 @@ export default async function ProductPage({ params }: Props) {
           </p>
         </section>
 
+        {/* 生丝参数化规格页入口：仅 raw-silk 产品页显示，避免全品类误链 */}
+        {slug === "raw-silk" && (
+          <section className="mt-10 border-l-2 border-jade pl-5">
+            <h2 className="font-display text-xl font-medium text-jade-deep">
+              20/22D spec sheet: HS 5002, 5A/6A, packing &amp; export terms
+            </h2>
+            <p className="mt-2 max-w-2xl text-sm leading-relaxed text-ink-soft">
+              Need the full buyer specification sheet? It brings together denier
+              ranges, 5A/6A grades, HS heading 5002, 60 kg bale packing, MOQ,
+              FOB/FCA terms and T/T payment in one structured page.
+            </p>
+            <Link
+              href="/raw-silk-specs"
+              className="mt-3 inline-block text-sm font-medium text-jade hover:underline"
+            >
+              View the raw silk yarn specification sheet →
+            </Link>
+          </section>
+        )}
+
         {/* 应用场景 */}
         <section className="mt-12">
           <h2 className="font-display text-2xl font-medium text-jade-deep">
