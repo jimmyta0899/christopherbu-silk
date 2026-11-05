@@ -36,7 +36,7 @@ export default function HomePage() {
       name: "Christopher Bu",
       jobTitle: "Founder & Designer",
     },
-    sameAs: [siteConfig.social.instagram],
+    sameAs: [siteConfig.social.instagram, siteConfig.social.facebook],
   };
 
   const rawSilk = products.find((p) => p.slug === "raw-silk")!;

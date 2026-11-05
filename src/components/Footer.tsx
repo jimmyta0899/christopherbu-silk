@@ -12,6 +12,31 @@ export function Footer() {
           <p className="mt-3 max-w-xs text-sm leading-relaxed text-ivory/70">
             {siteConfig.oneLiner}
           </p>
+          {/* 可见的官方社交入口：与 Organization.sameAs 相互印证，便于实体关联 */}
+          <nav
+            aria-label="Official social channels"
+            className="mt-4 flex items-center gap-3 text-sm text-ivory/70"
+          >
+            <a
+              href={siteConfig.social.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-gold-bright"
+            >
+              Instagram
+            </a>
+            <span aria-hidden="true" className="text-ivory/40">
+              ·
+            </span>
+            <a
+              href={siteConfig.social.facebook}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-gold-bright"
+            >
+              Facebook
+            </a>
+          </nav>
         </div>
 
         <div>
