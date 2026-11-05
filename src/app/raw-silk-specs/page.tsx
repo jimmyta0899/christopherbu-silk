@@ -134,6 +134,67 @@ const faqs = [
     q: "Can I get samples before placing a bulk order?",
     a: "Yes. Free mini swatches may be supplied after availability is confirmed, and full-size samples are chargeable. See our sample service and request a quotation with your denier, grade and intended use.",
   },
+  {
+    q: "What does your written quotation include?",
+    a: "Every written quotation and order confirmation covers the items in our acceptance framework: legal entity and business registration, grade and quality tier, evenness, cleanness and neatness, lot mark and traceability, grading certificate, sample and test references, price and payment terms, incoterms, lead time, packing, HS classification, certification, certificate number and destination-market compliance. Each item is either stated in the written quotation or confirmed in writing before order approval.",
+  },
+  {
+    q: "How can I verify the grade or certificate of a silk shipment?",
+    a: "The grading certificate and certificate number are provided with the written quotation and shipping documents, and certification is confirmed in writing before order approval. The issuing authority can be used to check a licence or label, and we can arrange buyer verification when source documents are shared.",
+  },
+  {
+    q: "When are the final specification details confirmed?",
+    a: "Specification values are set per order. They are stated in the written quotation and any remaining details are confirmed in writing before order approval, so both parties work from the same document before production begins.",
+  },
+];
+
+const quotationIncludes = [
+  {
+    group: "Entity & verification",
+    items: [
+      { field: "Legal entity & business registration", status: "Stated in the written quotation" },
+      { field: "Authorized contact for the order", status: "Stated in the written quotation" },
+      { field: "Business licence", status: "Confirmed in writing before order approval" },
+      { field: "Production origin", status: "Stated in the written quotation" },
+    ],
+  },
+  {
+    group: "Per-batch quality evidence",
+    items: [
+      { field: "Grade and quality tier by lot", status: "Stated in the written quotation" },
+      { field: "Evenness", status: "Stated in the written quotation" },
+      { field: "Cleanness", status: "Stated in the written quotation" },
+      { field: "Neatness", status: "Stated in the written quotation" },
+      { field: "Lot mark / traceability", status: "Stated in the written quotation" },
+      { field: "Grading certificate per lot", status: "Confirmed in writing before order approval" },
+    ],
+  },
+  {
+    group: "Samples & testing",
+    items: [
+      { field: "Swatch / sample with the quotation", status: "Stated in the written quotation" },
+      { field: "Test method reference", status: "Stated in the written quotation" },
+      { field: "Inspection / test report", status: "Confirmed in writing before order approval" },
+    ],
+  },
+  {
+    group: "Commercial & shipping",
+    items: [
+      { field: "Price & payment terms", status: "Stated in the written quotation" },
+      { field: "Incoterms", status: "Stated in the written quotation" },
+      { field: "Lead time", status: "Confirmed in writing before order approval" },
+      { field: "Packing & bale specification", status: "Stated in the written quotation" },
+      { field: "HS classification", status: "Stated in the written quotation" },
+    ],
+  },
+  {
+    group: "Compliance",
+    items: [
+      { field: "Certification (GOTS / OEKO-TEX)", status: "Confirmed in writing before order approval" },
+      { field: "Certificate number", status: "Stated in the written quotation" },
+      { field: "Destination-market compliance", status: "Confirmed in writing before order approval" },
+    ],
+  },
 ];
 
 export default function RawSilkSpecsPage() {
@@ -260,6 +321,50 @@ export default function RawSilkSpecsPage() {
             current mill availability before quotation. The final specification,
             MOQ, schedule, applicable HS subheading and organic status are stated
             in the written quotation and shipping documents.
+          </p>
+        </section>
+
+        <section className="mt-14">
+          <h2 className="font-display text-2xl font-medium text-jade-deep">
+            What every written quotation includes
+          </h2>
+          <p className="mt-3 max-w-3xl text-sm leading-relaxed text-ink-soft">
+            This framework shows the items that accompany every written quotation
+            and order confirmation. Each item is either stated in the written
+            quotation or confirmed in writing before order approval. Specific
+            values are set per order and stated in the written quotation.
+          </p>
+          <div className="mt-5 space-y-8">
+            {quotationIncludes.map((group) => (
+              <div key={group.group}>
+                <h3 className="text-base font-semibold text-jade-deep">
+                  {group.group}
+                </h3>
+                <div className="mt-3 overflow-hidden border border-line">
+                  <table className="w-full text-sm">
+                    <tbody>
+                      {group.items.map((item, i) => (
+                        <tr
+                          key={item.field}
+                          className={i % 2 === 0 ? "bg-ivory-deep" : "bg-ivory"}
+                        >
+                          <th className="w-2/3 px-5 py-3.5 text-left font-medium text-ink-soft align-top">
+                            {item.field}
+                          </th>
+                          <td className="px-5 py-3.5 text-ink">{item.status}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            ))}
+          </div>
+          <p className="mt-4 text-xs leading-relaxed text-ink-muted">
+            This is the field-placeholder version: it shows the acceptance
+            framework a buyer sees during initial screening. When source documents
+            are shared, items can be upgraded to a verifiable version with original
+            evidence attached.
           </p>
         </section>
 
