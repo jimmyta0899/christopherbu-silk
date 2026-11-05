@@ -182,6 +182,7 @@ export function Header() {
               target="_blank"
               rel="noopener noreferrer nofollow"
               aria-label="Contact Christopher Bu on WhatsApp"
+              data-lead="whatsapp_header"
               className="flex h-11 w-11 items-center justify-center transition-opacity hover:opacity-80"
             >
               <svg className="h-6 w-6" viewBox="0 0 24 24" fill="#25D366">

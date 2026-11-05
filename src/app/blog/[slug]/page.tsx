@@ -310,12 +310,39 @@ export default async function BlogPostPage({ params }: Props) {
               {post.anchorTexts[0]} →
             </Link>
           </p>
-          <Link
-            href="/samples"
-            className="mt-6 inline-block rounded-full bg-jade px-7 py-3.5 text-sm font-medium text-ivory transition-colors hover:bg-jade-deep"
-          >
-            Request a fabric swatch
-          </Link>
+          <div className="mt-8 border border-gold/30 bg-ivory-deep p-6">
+            <h2 className="font-display text-xl font-medium text-jade-deep">
+              Need a shade card or a quotation?
+            </h2>
+            <p className="mt-2 text-sm leading-relaxed text-ink-soft">
+              Greige or dyed to order from a standard shade card, with custom
+              colour matching available. Tell us your fabric, quantity and
+              destination and our B2B team will reply with a tailored quotation.
+            </p>
+            <div className="mt-5 flex flex-wrap items-center gap-3">
+              <Link
+                href="/samples"
+                className="rounded-full bg-jade px-7 py-3.5 text-sm font-medium text-ivory transition-colors hover:bg-jade-deep"
+              >
+                Request a fabric swatch
+              </Link>
+              <Link
+                href="/contact"
+                className="rounded-full border border-jade px-7 py-3.5 text-sm font-medium text-jade transition-colors hover:bg-jade hover:text-ivory"
+              >
+                Ask for a quotation
+              </Link>
+              <a
+                href={`https://wa.me/${siteConfig.social.whatsapp.replace(/[^0-9]/g, "")}`}
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                data-lead="whatsapp_blog"
+                className="text-sm font-medium text-gold underline decoration-gold/40 underline-offset-4 hover:text-jade"
+              >
+                Chat on WhatsApp
+              </a>
+            </div>
+          </div>
         </div>
       </main>
       <Footer />

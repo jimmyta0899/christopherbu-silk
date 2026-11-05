@@ -30,6 +30,7 @@ export default function ContactPage() {
               action={`mailto:${siteConfig.email}`}
               method="post"
               encType="text/plain"
+              data-lead="contact_inquiry"
               className="space-y-5"
             >
               <div className="grid gap-5 sm:grid-cols-2">
@@ -71,6 +72,7 @@ export default function ContactPage() {
               </h2>
               <a
                 href={`mailto:${siteConfig.email}`}
+                data-lead="email_contact"
                 className="mt-2 inline-block text-sm text-jade hover:text-jade-deep"
               >
                 {siteConfig.email}

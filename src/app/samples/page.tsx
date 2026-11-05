@@ -62,6 +62,7 @@ export default function SamplesPage() {
               action={`mailto:${siteConfig.email}`}
               method="post"
               encType="text/plain"
+              data-lead="sample_request"
               className="mt-6 space-y-5"
             >
               <div className="grid gap-5 sm:grid-cols-2">
@@ -73,10 +74,12 @@ export default function SamplesPage() {
                 <Field label="Email" type="email" required />
               </div>
               <div>
-                <label className="text-sm font-medium text-ink-soft">
+                <label htmlFor="intended_use" className="text-sm font-medium text-ink-soft">
                   Intended use
                 </label>
                 <input
+                  id="intended_use"
+                  name="intended_use"
                   className="mt-1.5 w-full rounded-none border border-line bg-ivory px-4 py-3 text-sm text-ink outline-none transition-colors focus:border-jade"
                   placeholder="e.g. evening gowns, custom dyeing, weaving"
                 />
@@ -91,7 +94,7 @@ export default function SamplesPage() {
                       key={p.slug}
                       className="flex cursor-pointer items-center gap-2 rounded-full border border-line px-4 py-2 text-sm text-ink-soft"
                     >
-                      <input type="checkbox" className="accent-jade" />
+                      <input type="checkbox" name="fabrics" value={p.slug} className="accent-jade" />
                       {p.name}
                     </label>
                   ))}
@@ -165,13 +168,16 @@ function Field({
   required?: boolean;
   placeholder?: string;
 }) {
+  const name = label.toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_|_$/g, "");
   return (
     <div>
-      <label className="text-sm font-medium text-ink-soft">
+      <label htmlFor={name} className="text-sm font-medium text-ink-soft">
         {label}
         {required && <span className="text-gold"> *</span>}
       </label>
       <input
+        id={name}
+        name={name}
         type={type}
         required={required}
         placeholder={placeholder}

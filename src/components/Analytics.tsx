@@ -26,6 +26,31 @@ export default function Analytics() {
           gtag('config', '${gaId}');
         `}
       </Script>
+      <Script id="ga4-lead-events" strategy="afterInteractive">
+        {`
+          (function () {
+            function fire(source) {
+              if (typeof window.gtag !== 'function') return;
+              window.gtag('event', 'generate_lead', {
+                lead_source: source,
+                page_path: window.location.pathname
+              });
+            }
+            document.addEventListener('submit', function (e) {
+              var f = e.target;
+              if (!f || !f.getAttribute) return;
+              var s = f.getAttribute('data-lead');
+              if (s) fire(s);
+            }, true);
+            document.addEventListener('click', function (e) {
+              var t = e.target;
+              if (!t || !t.closest) return;
+              var a = t.closest('a[data-lead]');
+              if (a) fire(a.getAttribute('data-lead'));
+            }, true);
+          })();
+        `}
+      </Script>
     </>
   );
 }
