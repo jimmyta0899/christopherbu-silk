@@ -106,6 +106,45 @@ export default function CertificatesPage() {
           </p>
         </div>
 
+        <div className="mt-10 border-t border-line pt-8">
+          <h2 className="font-display text-2xl font-medium text-jade-deep">
+            Verify with the issuing authority
+          </h2>
+          <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+            Certificate and licence numbers are provided on the written
+            quotation and shipping documents. You can verify the standard body
+            directly:
+          </p>
+          <ul className="mt-4 space-y-3 text-sm text-ink-soft">
+            <li>
+              <a
+                href="https://www.oeko-tex.com/en/business/certification/management/label-check"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-jade hover:underline"
+              >
+                OEKO-TEX® label check
+              </a>{" "}
+              — verify a certified company / label.
+            </li>
+            <li>
+              <a
+                href="https://certified.gots.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-jade hover:underline"
+              >
+                GOTS public licence database
+              </a>{" "}
+              — look up a GOTS licence by company or licence number.
+            </li>
+            <li>
+              Raw silk grading follows <strong>GB/T 1797-2008</strong> (Chinese
+              national standard for raw silk).
+            </li>
+          </ul>
+        </div>
+
         <div className="mt-12">
           <Link
             href="/contact"

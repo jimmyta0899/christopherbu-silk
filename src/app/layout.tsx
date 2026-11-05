@@ -4,6 +4,7 @@ import "./globals.css";
 import { siteConfig } from "@/lib/site-config";
 import { pageOpenGraph, pageTwitter } from "@/lib/seo-metadata";
 import Analytics from "@/components/Analytics";
+import { buildOrganizationSchema } from "@/lib/organization-schema";
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-cormorant",
@@ -98,6 +99,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${cormorant.variable} ${manrope.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(buildOrganizationSchema()),
+          }}
+        />
         {children}
         <Analytics />
       </body>

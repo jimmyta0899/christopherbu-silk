@@ -2,14 +2,14 @@
 
 > B2B supplier of mulberry raw silk, greige fabric, dupioni, satin, jacquard luo, organic silk, georgette, habotai (pongee), stretch and blended silk, sourced from Yizhou, China — the world's largest raw silk origin. Curated under the design eye of the Christopher Bu couture house.
 
-A couture house's red-carpet heritage, applied to raw silk sourcing. We supply textile mills, brands and designers worldwide. The Christopher Bu house is known for the "Forbidden City"-inspired couture series worn on the Oscars red carpet (as reported by Global Times, Daily Mail, Vogue).
+A couture house's red-carpet heritage, applied to raw silk sourcing. We supply textile mills, brands and designers worldwide. Documented red-carpet cases (with on-site references, not third-party press quotes): the 2015 Met Gala Forbidden City gown — a jacquard motif woven into mulberry silk (see [Mulberry Silk Jacquard and the Forbidden City Gown](https://www.christopherbu.com/blog/forbidden-city-silk-jacquard-fan-bingbing)) — and the 2018 Oscars "Snow Plum Blossom" hand-embroidered gown (see [Hand-Embroidered Mulberry Silk on the Oscars Red Carpet](https://www.christopherbu.com/blog/paz-vega-hand-embroidered-silk-oscars)).
 
 ## Key pages
 
 - [Home](https://www.christopherbu.com/): Brand overview, core products, couture heritage and Yizhou origin.
 - [Products](https://www.christopherbu.com/products): Full product range overview.
-- [Raw Silk Yarn](https://www.christopherbu.com/products/raw-silk): Raw silk yarn in three grades — 20/22D white raw silk, natural dupion silk yarn and luxury silk yarn — 4A/5A grade, core product.
-- [Raw Silk Yarn Spec Sheet](https://www.christopherbu.com/raw-silk-specs): Structured B2B buyer specification for 20/22 denier mulberry raw silk yarn — 5A/6A grades, HS heading 5002, 60 kg per bale packing, MOQ, FOB/FCA export terms and T/T payment, plus an FAQ for sourcing queries.
+- [Raw Silk Yarn](https://www.christopherbu.com/products/raw-silk): Raw silk yarn in three grades — 20/22D white raw silk, natural dupion silk yarn and luxury silk yarn — 4A/5A/6A grade range, core product.
+- [Raw Silk Yarn Spec Sheet](https://www.christopherbu.com/raw-silk-specs): Structured B2B buyer specification for 20/22 denier mulberry raw silk yarn — 4A/5A/6A grades, HS heading 5002, 60 kg per bale packing, MOQ, FOB/FCA export terms and T/T payment, plus an FAQ for sourcing queries. [Download spec sheet (Markdown)](https://www.christopherbu.com/raw-silk-spec-sheet.md).
 - [Greige Fabric](https://www.christopherbu.com/products/greige-fabric): Mulberry silk fabric supplied greige (undyed) or dyed to order (standard shade card / custom colour).
 - [Dupioni](https://www.christopherbu.com/products/dupioni): Textured mulberry silk for gowns and eveningwear (also spelled douppioni / doupioni).
 - [Satin](https://www.christopherbu.com/products/satin): Lustrous satin silk for bridal, eveningwear and luxury linings (also called charmeuse / crepe-back satin in silk).
@@ -19,7 +19,7 @@ A couture house's red-carpet heritage, applied to raw silk sourcing. We supply t
 - [Silk Stretch Satin](https://www.christopherbu.com/products/stretch-silk): Satin-weave silk-spandex blend (90–95% silk) in 16–19 momme.
 - [Blended Silk](https://www.christopherbu.com/products/blended-silk): Silk-cotton and silk-linen weaves.
 - [Services](https://www.christopherbu.com/services): Private-label OEM, custom development and full QC.
-- [Sample](https://www.christopherbu.com/samples): $25 sample, credited on first bulk order.
+- [Sample](https://www.christopherbu.com/samples): Mini fabric swatches supplied free of material charge after availability is confirmed (buyer covers courier, customs and related international shipping); full-size silk fabrics and finished apparel are chargeable. Any sample-fee credit against a later bulk order applies only when stated in the written quotation or pro forma invoice.
 - [Trade Terms](https://www.christopherbu.com/trade-terms): FOB Nansha / FOB Yantian / FOB Qinzhou / FCA Yizhou, T/T payment, certification.
 - [About Us](https://www.christopherbu.com/about): Brand heritage, sourcing approach and the 9-step How we work process.
 - [Sustainability](https://www.christopherbu.com/sustainability): OEKO-TEX & GOTS, traceability.
@@ -31,8 +31,8 @@ A couture house's red-carpet heritage, applied to raw silk sourcing. We supply t
 - Origin: Yizhou, Guangxi, China — world's largest raw silk producing region.
 - Products: Mulberry raw silk yarn (four varieties: 20/22D white, natural dupion, luxury and GOTS-certified organic silk), greige fabric (undyed, unfinished — momme follows base weave, ~8–30mm), dupioni (16/19mm, up to 21–22mm), satin (10/12/14/16/19/22/25/30 momme; also charmeuse / crepe-back satin), jacquard luo (16/19/22/24/30mm custom motifs), georgette (8/10/12/14/16mm, heavy 22mm), habotai (6/8/10/12/14/15/16 momme; also pongee, habutai, China silk), silk stretch satin (14/16/19/22/25/28 momme, ~94% silk), silk blend (silk-cotton / silk-linen, composition and momme by buyer specification).
 - Certification: GOTS, OEKO-TEX Standard 100 Class II, China Organic and quality-system files available for qualified buyer review within each document's scope. California Prop 65, EU textile-safety and other destination-market requirements reviewed against product-specific test reports and confirmed in writing before order approval. GOTS-certified organic silk license number and validity provided on quotation.
-- Trade: FOB Nansha / FOB Yantian / FOB Qinzhou / FCA Yizhou (bulk, preferred). Samples: DHL worldwide or designated courier. Small orders: PayPal, Stripe, Venmo, Zelle. Bulk: T/T 30% deposit, 70% against B/L. Reference MOQ (no universal fixed minimum) and 15–25 working day lead time are planning estimates confirmed in the written quotation / signed order documents.
-- Samples: $25 sample, credited on first bulk order (worldwide DHL shipping).
+- Trade: FOB Nansha / FOB Yantian / FOB Qinzhou / FCA Yizhou (bulk, preferred). Samples: DHL worldwide or designated courier. Small orders: PayPal, Stripe, Venmo, Zelle for eligible trial orders. Bulk: T/T 30% deposit, 70% against B/L. Reference MOQ (no universal fixed minimum) and 15–25 working day lead time are planning estimates confirmed in the written quotation / signed order documents.
+- Samples: mini swatches supplied free of material charge after availability is confirmed (buyer covers DHL/customs); full-size samples chargeable; sample-fee credit applies only when stated in the written quotation.
 
 ## Blog articles
 
@@ -42,6 +42,16 @@ A couture house's red-carpet heritage, applied to raw silk sourcing. We supply t
 - [Dupioni Silk in Practice: From Greige Slub to Exquisite Garments - Fan Bingbing's Story](https://www.christopherbu.com/blog/christopher-bu-couture-house-profile) (2026-10-30): How dupioni travels from 20/22 denier raw silk in Yizhou to a finished gown — slub texture, 19/23/30/40 momme, 5% shrinkage, and the 2013 Fan Bingbing pieces as proof.
 - [Hand-Embroidered Mulberry Silk on the Oscars Red Carpet: Paz Vega's Christopher Bu Gown](https://www.christopherbu.com/blog/paz-vega-hand-embroidered-silk-oscars) (2026-11-03): The 2018 Oscars "Snow Plum Blossom" gown — white mulberry silk with hand-embroidered red plum blossoms — and what embroidery tells buyers about specifying silk.
 - [Mulberry Silk Jacquard and the Forbidden City Gown: Fan Bingbing's Met Gala](https://www.christopherbu.com/blog/forbidden-city-silk-jacquard-fan-bingbing) (2026-11-03): The 2015 Met Gala gown whose Forbidden City motif was woven into mulberry silk on a jacquard loom, and how jacquard differs from embroidery.
+
+## Authority & verification signals
+
+- **On-site documented references** (cited above, not third-party press quotes): 2015 Met Gala Forbidden City gown → [Mulberry Silk Jacquard and the Forbidden City Gown](https://www.christopherbu.com/blog/forbidden-city-silk-jacquard-fan-bingbing); 2018 Oscars "Snow Plum Blossom" gown → [Hand-Embroidered Mulberry Silk on the Oscars Red Carpet](https://www.christopherbu.com/blog/paz-vega-hand-embroidered-silk-oscars).
+- **Downloadable spec sheet**: [Raw Silk Yarn 20/22D spec sheet (Markdown)](https://www.christopherbu.com/raw-silk-spec-sheet.md) — structured B2B specification for buyers and AI agents.
+- **Certification verification via issuing authority** (license / certificate numbers are provided on the written quotation and shipping documents; verify directly with the standard body):
+  - OEKO-TEX® — verify a certified company / label at the official label-check tool: https://www.oeko-tex.com/en/business/certification/management/label-check
+  - GOTS — public licence database: https://certified.gots.org/
+  - Raw silk grading follows **GB/T 1797-2008** (Chinese national standard for raw silk).
+- **Directory / professional affiliation**: a LinkedIn company page and B2B directory listings are not yet published with a verified URL; they will be added here once confirmed. (No unverified links are listed.)
 
 ## Official channels
 

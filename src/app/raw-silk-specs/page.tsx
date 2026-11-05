@@ -4,6 +4,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { pageOpenGraph } from "@/lib/seo-metadata";
 import { siteConfig } from "@/lib/site-config";
+import { ORGANIZATION_ID } from "@/lib/organization-schema";
 
 export const metadata: Metadata = {
   title:
@@ -154,8 +155,8 @@ export default function RawSilkSpecsPage() {
       "A buyer's specification sheet for 20/22 denier mulberry raw silk yarn from Yizhou, China, covering denier, grade, HS heading 5002, packing, MOQ and export terms.",
     datePublished: "2026-11-06",
     dateModified: "2026-11-06",
-    author: { "@type": "Organization", name: siteConfig.name },
-    publisher: { "@type": "Organization", name: siteConfig.name },
+    author: { "@id": ORGANIZATION_ID },
+    publisher: { "@id": ORGANIZATION_ID },
     mainEntityOfPage: `${siteConfig.url}/raw-silk-specs`,
     keywords: "20/22 denier raw silk, 5A 6A grade, HS 5002, raw silk yarn spec sheet",
   };
@@ -218,6 +219,16 @@ export default function RawSilkSpecsPage() {
           <h2 className="font-display text-2xl font-medium text-jade-deep">
             Specification sheet
           </h2>
+          <div className="mt-3">
+            <a
+              href="/raw-silk-spec-sheet.md"
+              download
+              data-lead="spec_sheet_download"
+              className="inline-flex items-center gap-2 text-sm font-medium text-gold hover:text-jade"
+            >
+              ↓ Download spec sheet (Markdown, for buyers &amp; AI agents)
+            </a>
+          </div>
           <div className="mt-5 space-y-8">
             {specGroups.map((group) => (
               <div key={group.section}>
