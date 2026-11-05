@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getRtwSeason, rtwSeasons } from "@/lib/rtw";
+import { pageOpenGraph } from "@/lib/seo-metadata";
 import { siteConfig } from "@/lib/site-config";
 import { SeasonViewer } from "./SeasonViewer";
 
@@ -20,6 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `Christopher Bu ${season.name} — Ready-to-Wear Collection | Runway Archive`,
     description: `The complete Christopher Bu ${season.name} ready-to-wear collection, from the couture house behind Fan Bingbing's red-carpet looks. ${season.count} runway looks.`,
     alternates: { canonical: `/rtw/${season.slug}` },
+    openGraph: pageOpenGraph(`/rtw/${season.slug}`),
   };
 }
 

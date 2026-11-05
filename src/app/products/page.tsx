@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageOpenGraph } from "@/lib/seo-metadata";
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -8,6 +9,8 @@ export const metadata: Metadata = {
   title: "Silk Products — Raw Silk, Greige, Dupioni, Satin, Jacquard, Georgette & More",
   description:
     "Browse Christopher Bu × Yizhou Silk B2B product range: mulberry raw silk (20/22D, dupion, luxury & GOTS-certified organic), greige fabric, dupioni, satin, jacquard luo, georgette, habotai (pongee), stretch and blended silk, sourced from Yizhou, China.",
+  alternates: { canonical: "/products" },
+  openGraph: pageOpenGraph("/products"),
 };
 
 export default function ProductsPage() {

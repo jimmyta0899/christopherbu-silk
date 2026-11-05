@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageOpenGraph } from "@/lib/seo-metadata";
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -8,6 +9,8 @@ export const metadata: Metadata = {
   title: "Blog — Sourcing Silk from Yizhou",
   description:
     "Practical guides on sourcing mulberry silk from Yizhou, China: lead times, MOQs, export terms, silk specs and the couture jacquard process.",
+  alternates: { canonical: "/blog" },
+  openGraph: pageOpenGraph("/blog"),
 };
 
 export default function BlogPage() {

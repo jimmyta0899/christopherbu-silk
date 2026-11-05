@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Cormorant_Garamond, Manrope } from "next/font/google";
 import "./globals.css";
 import { siteConfig } from "@/lib/site-config";
+import { pageOpenGraph, pageTwitter } from "@/lib/seo-metadata";
 import Analytics from "@/components/Analytics";
 
 const cormorant = Cormorant_Garamond({
@@ -69,28 +70,12 @@ export const metadata: Metadata = {
     "Yizhou silk supply chain B2B",
     "traceable mulberry silk supplier",
   ],
-  openGraph: {
-    type: "website",
-    locale: "en_US",
-    url: siteConfig.url,
-    siteName: siteConfig.name,
-    title: "Christopher Bu | Raw Silk & Fabrics from Yizhou — Couture House Behind Red-Carpet Silk Gowns",
-    description: siteConfig.tagline,
-    images: [
-      {
-        url: `${siteConfig.url}/brand-logo.png`,
-        width: 454,
-        height: 82,
-        alt: "Christopher Bu × Yizhou Silk",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Christopher Bu | Raw Silk & Fabrics from Yizhou — Couture House Behind Red-Carpet Silk Gowns",
-    description: siteConfig.tagline,
-    images: [`${siteConfig.url}/brand-logo.png`],
-  },
+  // Open Graph / Twitter Card 基础设置。
+  // 这里刻意不写死 title / description：Next.js 会自动取各页自身的 title / description，
+  // 写死会让全站分享卡片都显示首页标题。各页的 url / type 由 pageOpenGraph 输出，
+  // 该函数会一并带上完整的图片与站点字段（openGraph 在子页是整体替换，不能只给 url）。
+  openGraph: pageOpenGraph("/"),
+  twitter: pageTwitter(),
   robots: {
     index: true,
     follow: true,

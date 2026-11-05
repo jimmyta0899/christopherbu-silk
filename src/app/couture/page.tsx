@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageOpenGraph } from "@/lib/seo-metadata";
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -11,6 +12,7 @@ export const metadata: Metadata = {
   description:
     "A look at the couture design language of the Christopher Bu house — gowns that show how premium mulberry silk carries embroidery, drape and structure, from Yizhou's raw silk capital.",
   alternates: { canonical: "/couture" },
+  openGraph: pageOpenGraph("/couture"),
 };
 
 export default function CouturePage() {

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageOpenGraph } from "@/lib/seo-metadata";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { siteConfig } from "@/lib/site-config";
@@ -13,6 +14,8 @@ export const metadata: Metadata = {
     "GOTS certified silk fabric",
     "OEKO-TEX 100 silk fabric",
   ],
+  alternates: { canonical: "/sustainability" },
+  openGraph: pageOpenGraph("/sustainability"),
 };
 
 export default function SustainabilityPage() {

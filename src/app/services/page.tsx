@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageOpenGraph } from "@/lib/seo-metadata";
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -16,6 +17,8 @@ export const metadata: Metadata = {
     "jacquard pattern development",
     "Yizhou silk sourcing",
   ],
+  alternates: { canonical: "/services" },
+  openGraph: pageOpenGraph("/services"),
 };
 
 const audience = [

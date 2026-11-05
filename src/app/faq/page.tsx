@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageOpenGraph } from "@/lib/seo-metadata";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { siteConfig } from "@/lib/site-config";
@@ -15,6 +16,8 @@ export const metadata: Metadata = {
     "silk fabric quality inspection",
     "sustainable silk fabric B2B",
   ],
+  alternates: { canonical: "/faq" },
+  openGraph: pageOpenGraph("/faq"),
 };
 
 const jsonLd = {

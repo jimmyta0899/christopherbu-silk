@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { blogPosts, getPost } from "@/lib/blog";
+import { pageOpenGraph } from "@/lib/seo-metadata";
 import { siteConfig } from "@/lib/site-config";
 
 type Props = {
@@ -48,6 +49,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: post.title,
     description: post.metaDescription,
     alternates: { canonical: `/blog/${post.slug}` },
+    openGraph: pageOpenGraph(`/blog/${post.slug}`, "article"),
   };
 }
 

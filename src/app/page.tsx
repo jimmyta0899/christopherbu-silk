@@ -1,4 +1,6 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+import { pageOpenGraph } from "@/lib/seo-metadata";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { HeroCarousel } from "@/components/HeroCarousel";
@@ -6,6 +8,11 @@ import { products } from "@/lib/products";
 import { pressItems } from "@/lib/press";
 import { faqs } from "@/lib/faq";
 import { siteConfig } from "@/lib/site-config";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+  openGraph: pageOpenGraph("/"),
+};
 
 export default function HomePage() {
   const organizationJsonLd = {

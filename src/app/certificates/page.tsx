@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageOpenGraph } from "@/lib/seo-metadata";
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -17,6 +18,8 @@ export const metadata: Metadata = {
     "silk fabric quality inspection",
     "Yizhou silk certification",
   ],
+  alternates: { canonical: "/certificates" },
+  openGraph: pageOpenGraph("/certificates"),
 };
 
 export default function CertificatesPage() {

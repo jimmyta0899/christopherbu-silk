@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageOpenGraph } from "@/lib/seo-metadata";
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -16,6 +17,8 @@ export const metadata: Metadata = {
     "silk sample Yizhou",
     "silk sample service policy",
   ],
+  alternates: { canonical: "/samples" },
+  openGraph: pageOpenGraph("/samples"),
 };
 
 export default function SamplesPage() {

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageOpenGraph } from "@/lib/seo-metadata";
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -11,6 +12,7 @@ export const metadata: Metadata = {
   description:
     "Browse the complete Christopher Bu ready-to-wear archive — 25 runway collections from Spring/Summer 2013 to Resort 2020, worn on red carpets worldwide.",
   alternates: { canonical: "/rtw" },
+  openGraph: pageOpenGraph("/rtw"),
 };
 
 export default function RtwPage() {

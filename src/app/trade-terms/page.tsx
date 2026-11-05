@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageOpenGraph } from "@/lib/seo-metadata";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { siteConfig } from "@/lib/site-config";
@@ -16,6 +17,8 @@ export const metadata: Metadata = {
     "silk reference MOQ",
     "silk fabric Prop 65 compliance",
   ],
+  alternates: { canonical: "/trade-terms" },
+  openGraph: pageOpenGraph("/trade-terms"),
 };
 
 const terms = [

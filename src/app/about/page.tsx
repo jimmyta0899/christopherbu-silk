@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageOpenGraph } from "@/lib/seo-metadata";
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -8,6 +9,8 @@ export const metadata: Metadata = {
   title: "About Us — Christopher Bu × Yizhou Silk",
   description:
     "Christopher Bu × Yizhou Silk bridges a couture house's red-carpet heritage with Yizhou, China — the world's largest raw silk origin — to supply raw silk, greige and dupioni to the global textile industry.",
+  alternates: { canonical: "/about" },
+  openGraph: pageOpenGraph("/about"),
 };
 
 export default function AboutPage() {
