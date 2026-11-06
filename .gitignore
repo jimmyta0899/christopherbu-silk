@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# internal strategy / supplier intelligence — this repo is PUBLIC, never commit these
+/sprint-kit/ai-seo-plan-*.md
+/sprint-kit/supplier-dossier-*.md
+/sprint-kit/deep-drafts-*/
+/sprint-kit/0*-*.md
+/sprint-kit/*.csv
