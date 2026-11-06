@@ -40,9 +40,12 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# internal strategy / supplier intelligence — this repo is PUBLIC, never commit these
-/sprint-kit/ai-seo-plan-*.md
-/sprint-kit/supplier-dossier-*.md
-/sprint-kit/deep-drafts-*/
-/sprint-kit/0*-*.md
-/sprint-kit/*.csv
+# internal strategy / supplier intelligence / outreach playbooks
+# this repo is PUBLIC — never commit these
+/sprint-kit/
+/引流实操手册.md
+/引流文案模板.md
+
+# local build / backup artifacts
+/out_prev_*/
+/build_*.log
