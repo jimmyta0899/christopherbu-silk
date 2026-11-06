@@ -10,10 +10,11 @@ B2B supplier of mulberry raw silk, greige fabric and dupioni, sourced from Yizho
 | Item | Value |
 |------|-------|
 | Product | Mulberry raw silk yarn (filature silk), *Bombyx mori*, mulberry-fed |
-| Denier | 20/22D standard; 13/15D and 27/29D on request |
+| Denier | 20/22D standard, with 13/19D also in regular supply |
 | Varieties | 20/22D white raw silk · Natural dupion silk yarn · 1-ply luxury silk yarn · GOTS-certified organic silk |
 | Color / finish | Natural white or natural dupion; greige (undyed) or dyed to order from a standard shade card or your custom color |
 | Standard | GB/T 1797-2008; moisture controlled below 11% |
+| Other specifications | Can be offered on request |
 
 ## Grade & origin
 
@@ -61,6 +62,7 @@ B2B supplier of mulberry raw silk, greige fabric and dupioni, sourced from Yizho
 ## FAQ (buyer questions)
 
 - **What is 20/22D raw silk yarn?** Filature silk in the 20–22 denier range, the standard starting point for silk crepes, satins and fine weaving. Denier measures yarn weight; momme measures woven cloth weight.
+- **Do you supply deniers other than 20/22D?** 20/22D is the standard and 13/19D are held in regular supply. Other specifications, including finer and coarser deniers, can be offered on request — state the denier and grade you need and availability is confirmed in the written quotation.
 - **Which HS code applies?** Raw silk (not thrown) is classified under HS heading 5002. The exact subheading depends on goods and destination, confirmed in the written quotation.
 - **What does 5A / 6A mean?** 5A and 6A are the highest tiers in the Chinese raw silk grading system. Yizhou has held China's top ranking for mulberry field area, cocoon output and raw silk production for over two decades.
 - **How is it packed?** Export cartons or bales, 60 kg per bale typical; 5 kg bundles for luxury silk yarn.
