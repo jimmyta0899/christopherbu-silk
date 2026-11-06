@@ -30,12 +30,15 @@ export function buildOrganizationSchema() {
     foundingDate: "TODO", // 例："2014-01-01"
     telephone: "TODO", // 例："+86-XXX-XXXX-XXXX"
     identifier: "TODO", // 注册号 / 统一社会信用代码
+    // 地址：用户 2026-11-06 提供的真实值
+    //   中文原文：北京市密云区东邵渠镇政府办公楼210室-1313
+    //   英文转写（供 schema 解析，非改写含义）
+    //   邮编用户未提供 -> 省略该字段，不用占位符污染 JSON-LD
     address: {
       "@type": "PostalAddress",
-      streetAddress: "TODO",
-      addressLocality: "TODO", // 城市
-      addressRegion: "TODO", // 省 / 自治区
-      postalCode: "TODO",
+      streetAddress: "Room 210-1313, Dongshaoqu Town Government Office Building",
+      addressLocality: "Miyun District, Beijing",
+      addressRegion: "Beijing",
       addressCountry: "CN",
     },
     // WhatsApp 非 schema.org 标准字段，用 contactPoint 表达销售联系
