@@ -80,7 +80,7 @@ export const products: Product[] = [
       { label: "Type", value: "Mulberry raw silk yarn (filature silk)" },
       { label: "Varieties", value: "20/22D white raw silk · Natural dupion silk yarn · Luxury silk yarn · GOTS-certified organic silk" },
       { label: "Origin", value: "Bombyx mori silkworm, mulberry-fed" },
-      { label: "Denier", value: "20/22D (13/15D, 27/29D on request)" },
+      { label: "Denier", value: "20/22D standard, with 13/19D also in regular supply" },
       { label: "Standard", value: "GB/T 1797-2008" },
       { label: "Color", value: "Natural white or natural dupion; dyed to order from a standard shade card or your custom color" },
       { label: "Moisture", value: "Max 11%" },
@@ -105,6 +105,10 @@ export const products: Product[] = [
       {
         q: "What is 20/22D white raw silk yarn?",
         a: "20/22D white raw silk is a filature silk measured at the 20–22 denier range for ultimate consistency and fineness. It is the standard for silk crepes and satins — weavers value it for creating intricate patterns without adding bulk, and dyers prize its pure white base for accurate color matching.",
+      },
+      {
+        q: "Do you supply deniers other than 20/22D?",
+        a: "20/22D is the standard and 13/19D are also held in regular supply. Other specifications, including finer and coarser deniers, can be offered on request — state the denier and grade you need and we confirm availability, packing and price in the written quotation.",
       },
       {
         q: "What is natural dupion silk yarn?",

@@ -214,6 +214,18 @@ export default async function ProductPage({ params }: Props) {
                     <td className="px-5 py-3.5 text-ink">{spec.value}</td>
                   </tr>
                 ))}
+                <tr
+                  className={
+                    product.specs.length % 2 === 0 ? "bg-ivory-deep" : "bg-ivory"
+                  }
+                >
+                  <th className="w-1/3 px-5 py-3.5 text-left font-medium text-ink-soft">
+                    Other specifications
+                  </th>
+                  <td className="px-5 py-3.5 text-ink">
+                    Can be offered on request
+                  </td>
+                </tr>
               </tbody>
             </table>
           </div>

@@ -34,10 +34,11 @@ const specGroups = [
     section: "Yarn identity",
     items: [
       { label: "Product", value: "Mulberry raw silk yarn (filature silk), Bombyx mori, mulberry-fed" },
-      { label: "Denier", value: "20/22D standard; 13/15D and 27/29D on request" },
+      { label: "Denier", value: "20/22D standard, with 13/19D also in regular supply" },
       { label: "Varieties", value: "20/22D white raw silk · Natural dupion silk yarn · 1-ply luxury silk yarn · GOTS-certified organic silk" },
       { label: "Color / finish", value: "Natural white or natural dupion; greige (undyed) or dyed to order from a standard shade card or your custom color" },
       { label: "Standard", value: "GB/T 1797-2008; moisture controlled below 11%" },
+      { label: "Other specifications", value: "Can be offered on request" },
     ],
   },
   {
@@ -105,6 +106,10 @@ const faqs = [
   {
     q: "What is 20/22D raw silk yarn?",
     a: "20/22D is filature silk measured in the 20–22 denier range, the standard starting point for silk crepes, satins and fine weaving. Denier measures yarn weight; momme measures the weight of woven cloth. Buyers use denier when buying yarn and momme when buying fabric.",
+  },
+  {
+    q: "Do you supply deniers other than 20/22D?",
+    a: "20/22D is the standard and 13/19D are also held in regular supply. Other specifications, including finer and coarser deniers, can be offered on request — state the denier and grade you need and we confirm availability, packing and price in the written quotation.",
   },
   {
     q: "Which HS code applies to raw silk yarn?",

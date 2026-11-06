@@ -110,6 +110,7 @@ const customDimensions = [
   { label: "Pattern", value: "Custom jacquard motif development (from ~200 m)" },
   { label: "Weight", value: "5–40 momme across the silk range" },
   { label: "Grade", value: "4A / 5A / 6A for raw silk" },
+  { label: "Other specifications", value: "Can be offered on request" },
 ];
 
 const qcSteps = [
