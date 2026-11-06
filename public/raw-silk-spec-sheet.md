@@ -21,7 +21,7 @@ B2B supplier of mulberry raw silk, greige fabric and dupioni, sourced from Yizho
 | Item | Value |
 |------|-------|
 | Origin | Yizhou, Guangxi, China — the world's largest raw silk origin |
-| Grades | Yizhou raw silk regularly reaches 4A, 5A and 6A, the highest quality tiers; 4A / 5A / 6A availability is confirmed by variety |
+| Grades | Yizhou raw silk is graded from 4A to 6A, with 5A and 6A the highest tiers; 4A / 5A / 6A availability is confirmed by variety |
 | Organic option | GOTS-certified organic raw silk, 100% organic silk content across the full process |
 
 ## Classification & packing
@@ -64,7 +64,7 @@ B2B supplier of mulberry raw silk, greige fabric and dupioni, sourced from Yizho
 - **What is 20/22D raw silk yarn?** Filature silk in the 20–22 denier range, the standard starting point for silk crepes, satins and fine weaving. Denier measures yarn weight; momme measures woven cloth weight.
 - **Do you supply deniers other than 20/22D?** 20/22D is the standard and 13/19D are held in regular supply. Other specifications, including finer and coarser deniers, can be offered on request — state the denier and grade you need and availability is confirmed in the written quotation.
 - **Which HS code applies?** Raw silk (not thrown) is classified under HS heading 5002. The exact subheading depends on goods and destination, confirmed in the written quotation.
-- **What does 5A / 6A mean?** 5A and 6A are the highest tiers in the Chinese raw silk grading system. Yizhou has held China's top ranking for mulberry field area, cocoon output and raw silk production for over two decades.
+- **What do the 4A, 5A and 6A grades mean?** Chinese raw silk is graded from 4A to 6A. 4A is the standard commercial grade for regular weaving; 5A and 6A are the highest tiers. Yizhou has held China's top ranking for mulberry field area, cocoon output and raw silk production for over two decades, and its raw silk regularly reaches the 5A and 6A tiers.
 - **How is it packed?** Export cartons or bales, 60 kg per bale typical; 5 kg bundles for luxury silk yarn.
 - **What is the MOQ?** Sold by weight, no universal fixed MOQ. Natural dupion yarn typically ~10 kg, luxury yarn ~5 kg as reference minimums; final MOQ confirmed in quotation.
 - **Greige or dyed?** Both. Greige (undyed) or dyed to order from a standard shade card or custom color. Printed options are not listed in this specification.

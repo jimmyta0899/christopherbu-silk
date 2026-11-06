@@ -8,13 +8,13 @@ import { ORGANIZATION_ID } from "@/lib/organization-schema";
 
 export const metadata: Metadata = {
   title:
-    "Raw Silk Yarn 20/22D 5A/6A: Spec Sheet, HS 5002 & Export Terms | Yizhou Silk Supplier",
+    "Raw Silk Yarn 20/22D 4A/5A/6A: Spec Sheet, HS 5002 & Export Terms | Yizhou Silk Supplier",
   description:
-    "A buyer's spec sheet for 20/22 denier mulberry raw silk yarn from Yizhou, China: four yarn varieties, 5A/6A grades, HS heading 5002, bale packaging, FOB/FCA terms and T/T payment. All values confirmed in the written quotation.",
+    "A buyer's spec sheet for 20/22 denier mulberry raw silk yarn from Yizhou, China: four yarn varieties, 4A/5A/6A grades, HS heading 5002, bale packaging, FOB/FCA terms and T/T payment. All values confirmed in the written quotation.",
   keywords: [
     "20/22 denier raw silk yarn",
     "20/22D white raw silk",
-    "5A 6A grade raw silk",
+    "4A 5A 6A grade raw silk",
     "HS 5002 raw silk",
     "raw silk yarn specification sheet",
     "raw silk yarn 60 kg bale",
@@ -45,7 +45,7 @@ const specGroups = [
     section: "Grade & origin",
     items: [
       { label: "Origin", value: "Yizhou, Guangxi, China — the world's largest raw silk origin" },
-      { label: "Grades", value: "Yizhou raw silk regularly reaches 5A and 6A, the highest quality tiers; 4A / 5A / 6A availability is confirmed by variety" },
+      { label: "Grades", value: "Yizhou raw silk is graded from 4A to 6A, with 5A and 6A the highest tiers; 4A / 5A / 6A availability is confirmed by variety" },
       { label: "Organic option", value: "GOTS-certified organic raw silk, 100% organic silk content across the full process" },
     ],
   },
@@ -116,8 +116,8 @@ const faqs = [
     a: "Raw silk (not thrown) is classified under HS heading 5002 in the Harmonized System. The exact subheading that applies to a shipment depends on the goods and destination, so we confirm it in the written quotation and shipping documents rather than stating a fixed code for every order.",
   },
   {
-    q: "What does 5A / 6A mean for raw silk from Yizhou?",
-    a: "5A and 6A are the highest quality tiers in the Chinese raw silk grading system. Yizhou, in Guangxi, has held China's top ranking for mulberry field area, cocoon output and raw silk production for over two decades, and its raw silk regularly reaches these grades. Grade availability for a given variety is confirmed in the written quotation.",
+    q: "What do the 4A, 5A and 6A grades mean for raw silk from Yizhou?",
+    a: "Chinese raw silk is graded from 4A to 6A. 4A is the standard commercial grade used for regular weaving, while 5A and 6A are the highest quality tiers. Yizhou, in Guangxi, has held China's top ranking for mulberry field area, cocoon output and raw silk production for over two decades, and its raw silk regularly reaches the 5A and 6A tiers. Grade availability for a given variety is confirmed in the written quotation.",
   },
   {
     q: "How is raw silk yarn packed for export?",
@@ -224,7 +224,7 @@ export default function RawSilkSpecsPage() {
     author: { "@id": ORGANIZATION_ID },
     publisher: { "@id": ORGANIZATION_ID },
     mainEntityOfPage: `${siteConfig.url}/raw-silk-specs`,
-    keywords: "20/22 denier raw silk, 5A 6A grade, HS 5002, raw silk yarn spec sheet",
+    keywords: "20/22 denier raw silk, 4A 5A 6A grade, HS 5002, raw silk yarn spec sheet",
   };
 
   const breadcrumbJsonLd = {
@@ -275,7 +275,7 @@ export default function RawSilkSpecsPage() {
           <p className="mt-5 max-w-3xl text-lg leading-relaxed text-ink-soft">
             Christopher Bu supplies 20/22 denier mulberry raw silk yarn from
             Yizhou, China — the world&apos;s largest raw silk origin — in four
-            varieties, with 5A/6A grade raw silk, HS heading 5002 classification,
+            varieties, with 4A/5A/6A grade raw silk, HS heading 5002 classification,
             FOB/FCA export terms and T/T payment. Every specification is
             confirmed in the written quotation.
           </p>

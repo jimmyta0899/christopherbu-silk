@@ -239,11 +239,11 @@ export default async function ProductPage({ params }: Props) {
         {slug === "raw-silk" && (
           <section className="mt-10 border-l-2 border-jade pl-5">
             <h2 className="font-display text-xl font-medium text-jade-deep">
-              20/22D spec sheet: HS 5002, 5A/6A, packing &amp; export terms
+              20/22D spec sheet: HS 5002, 4A/5A/6A, packing &amp; export terms
             </h2>
             <p className="mt-2 max-w-2xl text-sm leading-relaxed text-ink-soft">
               Need the full buyer specification sheet? It brings together denier
-              ranges, 5A/6A grades, HS heading 5002, 60 kg bale packing, MOQ,
+              ranges, 4A/5A/6A grades, HS heading 5002, 60 kg bale packing, MOQ,
               FOB/FCA terms and T/T payment in one structured page.
             </p>
             <Link

@@ -59,7 +59,7 @@ export default function CouturePage() {
         {/* 引导语：回到产品/面料 */}
         <section className="mt-14 border-t border-line pt-10">
           <p className="text-sm leading-relaxed text-ink-muted">
-            Explore the raw material behind these silhouettes — premium mulberry raw silk, greige fabric and dupioni, sourced from local mills and offered for the global couture and fashion industry.
+            Explore the raw material behind these silhouettes — premium mulberry raw silk, greige fabric and dupioni, sourced from mills across the Yizhou silk district and offered for the global couture and fashion industry. The mills we work with across this district supply raw silk to luxury houses including Louis Vuitton and Hermès.
           </p>
           <div className="mt-6 flex flex-wrap gap-4">
             <Link

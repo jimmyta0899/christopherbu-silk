@@ -101,8 +101,8 @@ export default function HomePage() {
               All of it comes from Yizhou, in Guangxi, China — the world&apos;s
               largest raw silk origin, holding the country&apos;s top ranking
               for mulberry field area, cocoon output and raw silk production
-              for over two decades. Its raw silk regularly reaches 5A and 6A
-              grades, the highest quality tiers.
+              for over two decades. Its raw silk is graded from 4A to 6A, with
+              5A and 6A the highest tiers.
             </p>
             <p className="mt-4 text-sm text-ink-muted">
               &ldquo;世界桑蚕看中国，中国桑蚕看宜州&rdquo; — World
@@ -137,7 +137,7 @@ export default function HomePage() {
             </Link>
             <div className="grid grid-cols-2 gap-4 lg:w-[340px] lg:self-stretch">
               {[
-                { n: "5A / 6A", l: "Raw silk grades achieved" },
+                { n: "4A–6A", l: "Raw silk grades supplied" },
                 { n: "20+ yrs", l: "No.1 silk county ranking" },
                 { n: "20/22D", sub: "and more", l: "Standard raw silk denier" },
                 { n: "OEKO-TEX / GOTS", l: "Certification available on request" },
@@ -165,7 +165,7 @@ export default function HomePage() {
             <p className="max-w-3xl text-sm leading-relaxed text-ink-soft">
               Buying raw silk yarn? See the full{" "}
               <strong className="font-medium text-jade-deep">
-                20/22D 5A/6A specification sheet
+                20/22D 4A/5A/6A specification sheet
               </strong>{" "}
               — HS heading 5002, 60 kg bale packing, MOQ, FOB/FCA terms and T/T
               payment in one structured page.

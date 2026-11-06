@@ -116,7 +116,7 @@ export default function SustainabilityPage() {
               },
               {
                 q: "Is the silk traceable to origin?",
-                a: "We source from local mills and can provide origin documentation and records aligned to your order, subject to destination-market requirements.",
+                a: "We source from mills across the Yizhou silk district and can provide origin documentation and records aligned to your order, subject to destination-market requirements.",
               },
             ].map((f) => (
               <div key={f.q} className="border border-line p-6">

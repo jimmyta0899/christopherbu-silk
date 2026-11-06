@@ -33,14 +33,18 @@ export default function AboutPage() {
           <p>
             The house&apos;s founder was born in Yizhou, Guangxi — the region
             known as the world&apos;s largest raw silk origin, where mulberry
-            sericulture has thrived for centuries and raw silk regularly reaches
-            the highest 5A and 6A grades.
+            sericulture has thrived for centuries and raw silk is graded from 4A
+            to 6A, with 5A and 6A the highest tiers.
           </p>
           <p>
             Christopher Bu × Yizhou Silk brings these two threads together:
             couture-grade design judgment, applied to the sourcing of raw silk,
-            greige fabric and dupioni from local mills — for textile
-            mills, brands and designers worldwide.
+            greige fabric and dupioni from mills across the Yizhou silk district
+            — for textile mills, brands and designers worldwide.
+          </p>
+          <p>
+            The mills we work with across this district supply raw silk to
+            luxury houses including Louis Vuitton and Hermès.
           </p>
         </div>
 

@@ -22,7 +22,7 @@ export default function ProductsPage() {
           Silk supply from Yizhou, for the global textile industry.
         </h1>
         <p className="mt-5 text-lg leading-relaxed text-ink-soft">
-          Nine core silk categories, sourced from local mills and curated under the design eye of the Christopher Bu couture house.
+          Nine core silk categories, sourced from mills across the Yizhou silk district and curated under the design eye of the Christopher Bu couture house.
         </p>
 
         <div className="mt-14 grid gap-10 md:grid-cols-2">
