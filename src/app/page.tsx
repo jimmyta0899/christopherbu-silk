@@ -69,7 +69,7 @@ export default function HomePage() {
                     href="/samples"
                     className="rounded-full bg-gold-bright px-7 py-3.5 text-sm font-semibold text-jade-deep transition-colors hover:bg-ivory"
                   >
-                    Request Sample
+                    Free Swatch
                   </Link>
                   <Link
                     href="/products"
@@ -351,12 +351,12 @@ export default function HomePage() {
           <div className="mx-auto max-w-6xl px-6 py-16 md:py-20">
             <div className="border border-gold/50 px-8 py-12 md:px-14">
               <h2 className="font-display text-3xl font-medium md:text-4xl">
-                Verify hand and color before you commit.
+                Judge the hand before you commit — the swatch is free.
               </h2>
               <p className="mt-4 max-w-xl text-base leading-relaxed text-ivory/75">
-                Mini fabric swatches are supplied free of material charge after
-                availability is confirmed, and full-size samples are
-                chargeable. Need a custom weave or color? Tell us your MOQ,
+                Mini fabric swatches carry no material charge once availability
+                is confirmed — you cover the courier only. Full-size samples are
+                chargeable. Need a custom weave or colour? Tell us your MOQ,
                 deadline and destination.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
@@ -364,7 +364,7 @@ export default function HomePage() {
                   href="/samples"
                   className="rounded-full bg-gold-bright px-7 py-3.5 text-sm font-semibold text-jade-deep transition-colors hover:bg-ivory"
                 >
-                  Request Sample
+                  Get Free Swatches
                 </Link>
                 <Link
                   href="/contact"

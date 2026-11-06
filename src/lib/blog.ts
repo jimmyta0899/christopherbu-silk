@@ -148,7 +148,7 @@ export const blogPosts: BlogPost[] = [
         body: "For a buyer, the origin matters in two ways. First, it explains consistency: a region that rears and reels at this scale, and grades to a national standard, produces a yarn you can specify and reorder. Second, it explains availability: the largest mulberry silk county in the country is the kind of place that can meet a bulk order without improvisation. When you specify silk, name the weight, the weave, and the grade you want, and ask where the silk is from. A supplier who can name the region and the grade is working from a real supply, not a guess.",
         links: [
           { text: "dupioni silk greige", href: "/products/dupioni" },
-          { text: "request a swatch", href: "/samples" },
+          { text: "request a free swatch", href: "/samples" },
           { text: "about us", href: "/about" },
           { text: "contact the B2B team", href: "/contact" },
         ],
@@ -258,7 +258,7 @@ export const blogPosts: BlogPost[] = [
         heading: "The swatch safety net",
         body: "A mini fabric swatch — supplied without a material charge once availability is confirmed, with the buyer covering courier and customs — lets an atelier verify the hand, the weight, and the weave before committing to meters. It is the cheapest insurance against the expensive kind of rework: cutting hundreds of meters of the wrong cloth because the screen lied about the drape. Color on a screen is a suggestion; color in the hand is a decision. The swatch is where the regional differences stop mattering. An atelier in any country receives the same swatch, checks the same hand, and makes the same call before the loom starts. Full-size silk fabrics and finished apparel are chargeable, and any sample-fee credit against a later bulk order applies only when stated in the written quotation or pro forma invoice.",
         links: [
-          { text: "request a swatch", href: "/samples" },
+          { text: "request a free swatch", href: "/samples" },
         ],
       },
       {
@@ -367,7 +367,7 @@ export const blogPosts: BlogPost[] = [
         level: 3,
         body: "Name the end use first, whether that is a gown, an overlay, or an embroidery base, then pick the weight that matches and confirm the hand on a swatch before ordering bulk.",
         links: [
-          { text: "request a swatch", href: "/samples" },
+          { text: "request a free swatch", href: "/samples" },
           { text: "about us", href: "/about" },
           { text: "contact the B2B team", href: "/contact" },
         ],
@@ -522,7 +522,7 @@ export const blogPosts: BlogPost[] = [
         body: "Dupioni is the clearest example of how a silk's texture comes from its yarn, not its finish. Two silkworms, one cocoon, and the slubs that result are what give the cloth its structure and its play of light. For a buyer, the lesson is simple: specify the weight, the width, and the grade up front, and confirm the slub character on a swatch before you commit to meters.",
         links: [
           { text: "dupioni silk greige", href: "/products/dupioni" },
-          { text: "request a swatch", href: "/samples" },
+          { text: "request a free swatch", href: "/samples" },
         ],
       },
       {
@@ -530,7 +530,7 @@ export const blogPosts: BlogPost[] = [
         level: 3,
         body: "Specify the weight, the width, and the quantity you need. Order the swatch first — mini swatches are supplied free of material charge once availability is confirmed — and confirm the slub character and hand before you commit to meters. Full specs and MOQ are on the dupioni silk product page. Read about us for the company behind the supply, or contact the B2B team directly.",
         links: [
-          { text: "request a swatch", href: "/samples" },
+          { text: "request a free swatch", href: "/samples" },
           { text: "check MOQ and trade terms", href: "/trade-terms" },
           { text: "about us", href: "/about" },
           { text: "contact the B2B team", href: "/contact" },
@@ -647,7 +647,7 @@ export const blogPosts: BlogPost[] = [
         body: "If you are ordering a similar cloth, pin down four things before you commit. First, the base: ask for the mulberry silk weight and width, so you know what the embroidery is going onto. Second, the embroidery thread and stitch, and whether the work is hand or machine, because that changes the price by a wide margin. Third, the finished yardage, since embroidery work is usually priced on the embroidered area and motif count. Fourth, request a swatch or strike-off before bulk, so the embroidery reads the way you expect under your own light. The safest first step is the same as for any silk order: confirm the hand and the embroidery on a sample before you buy meters.",
         links: [
           { text: "dupioni silk greige", href: "/products/dupioni" },
-          { text: "request a swatch", href: "/samples" },
+          { text: "request a free swatch", href: "/samples" },
           { text: "about us", href: "/about" },
           { text: "contact the B2B team", href: "/contact" },
         ],
@@ -657,7 +657,7 @@ export const blogPosts: BlogPost[] = [
         level: 3,
         body: "Know whether the pattern is woven, printed, or embroidered, and specify the base before you specify the surface. Request the swatch first — mini swatches are supplied free of material charge once availability is confirmed — and confirm the embroidery and hand before you commit to meters.",
         links: [
-          { text: "request a swatch", href: "/samples" },
+          { text: "request a free swatch", href: "/samples" },
           { text: "check MOQ and trade terms", href: "/trade-terms" },
         ],
       },
@@ -792,7 +792,7 @@ export const blogPosts: BlogPost[] = [
         heading: "What to specify when you order a silk jacquard",
         body: "A jacquard order needs three decisions before the loom is set. First, the motif and its repeat size, because the weave plan is built from it. Second, the weave density, which sets how firm or open the cloth is. Third, the silk weight and width, which fix the hand and the yield. A strike-off confirms the motif and density before bulk weaving starts, and it is the point where changes are cheap and later changes are not.",
         links: [
-          { text: "request a swatch", href: "/samples" },
+          { text: "request a free swatch", href: "/samples" },
           { text: "check MOQ and trade terms", href: "/trade-terms" },
           { text: "about us", href: "/about" },
           { text: "contact the B2B team", href: "/contact" },

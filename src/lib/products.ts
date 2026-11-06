@@ -136,7 +136,7 @@ export const products: Product[] = [
       },
       {
         q: "Can I get a raw silk yarn sample before bulk ordering?",
-        a: "Yes. Free mini fabric swatches may be supplied after availability is confirmed, and full-size samples are chargeable. See our Sample Service Policy for details.",
+        a: "Yes. Free mini fabric swatches may be supplied after availability is confirmed, and full-size samples are chargeable. See our free swatch service for details.",
       },
     ],
     yarnVariants: [

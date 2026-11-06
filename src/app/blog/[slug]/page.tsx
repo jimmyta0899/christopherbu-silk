@@ -324,7 +324,7 @@ export default async function BlogPostPage({ params }: Props) {
                 href="/samples"
                 className="rounded-full bg-jade px-7 py-3.5 text-sm font-medium text-ivory transition-colors hover:bg-jade-deep"
               >
-                Request a fabric swatch
+                Request a free fabric swatch
               </Link>
               <Link
                 href="/contact"

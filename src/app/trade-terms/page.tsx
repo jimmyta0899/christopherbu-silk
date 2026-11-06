@@ -101,7 +101,7 @@ export default function TradeTermsPage() {
           Export terms
         </h1>
         <p className="mt-5 text-lg leading-relaxed text-ink-soft">
-          Clear, transparent trade terms for silk sourcing — including our sample service policy.
+          Clear, transparent trade terms for silk sourcing — including our free swatch service policy.
         </p>
 
         <div className="mt-14 space-y-8">

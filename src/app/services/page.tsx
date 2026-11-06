@@ -321,7 +321,7 @@ export default function ServicesPage() {
               href="/samples"
               className="rounded-full border border-jade px-7 py-3.5 text-sm font-medium text-jade transition-colors hover:bg-jade hover:text-ivory"
             >
-              Request Sample
+              Request Free Swatch
             </Link>
           </div>
         </section>

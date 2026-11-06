@@ -97,17 +97,18 @@ export default function ContactPage() {
             </div>
             <div className="border border-line bg-ivory-deep p-6">
               <h2 className="font-display text-xl font-medium text-jade-deep">
-                Prefer samples first?
+                Want a free swatch first?
               </h2>
               <p className="mt-2 text-sm text-ink-soft">
-                Mini fabric swatches are supplied free of material charge after
-                availability is confirmed; full-size samples are chargeable.
+                Mini fabric swatches carry no material charge once availability
+                is confirmed — you cover the courier only. Full-size samples are
+                chargeable.
               </p>
               <a
                 href="/samples"
                 className="mt-3 inline-block text-sm font-medium text-gold hover:text-jade"
               >
-                Request Sample →
+                Request Free Swatches →
               </a>
             </div>
           </section>

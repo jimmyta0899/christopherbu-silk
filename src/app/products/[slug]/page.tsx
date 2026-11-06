@@ -306,7 +306,7 @@ export default async function ProductPage({ params }: Props) {
               href="/samples"
               className="rounded-full bg-jade px-7 py-3.5 text-sm font-medium text-ivory transition-colors hover:bg-jade-deep"
             >
-              Request Sample
+              Free Swatch
             </Link>
             <Link
               href="/contact"

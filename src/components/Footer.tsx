@@ -71,7 +71,7 @@ export function Footer() {
             </li>
             <li>
               <Link href="/samples" className="transition-colors hover:text-ivory">
-                Sample
+                Free Swatch
               </Link>
             </li>
             <li>
