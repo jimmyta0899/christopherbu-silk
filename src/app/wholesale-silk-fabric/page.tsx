@@ -5,11 +5,46 @@ import { Footer } from "@/components/Footer";
 import { pageOpenGraph } from "@/lib/seo-metadata";
 import { siteConfig } from "@/lib/site-config";
 import {
+  articleJsonLd,
   breadcrumbJsonLd,
   faqJsonLd,
   itemListJsonLd,
   type HubFaq,
 } from "@/lib/hub-utils";
+import {
+  KeyTakeaways,
+  SourcesBlock,
+  type HubSource,
+} from "@/components/HubEditorial";
+
+const HUB_UPDATED = "2026-11-07";
+
+const sources: HubSource[] = [
+  {
+    publisher: "International Chamber of Commerce",
+    title: "Incoterms 2020 rules",
+    year: "2020",
+    url: "https://iccwbo.org/business-solutions/incoterms-rules/",
+    supports:
+      "The definitions of FOB and FCA used on this page, and the point at which risk and cost transfer under each.",
+  },
+  {
+    publisher: "Standardization Administration of China",
+    title: "GB/T 1797-2008 生丝 (Raw silk)",
+    year: "2008",
+    url: "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7764FD3A7E05397BE0A0AB82A",
+    supports:
+      "The grading basis quoted when a bulk order specifies raw silk grade alongside fabric weight.",
+  },
+  {
+    publisher: "Yizhou District Government",
+    title: "Yizhou district profile",
+    year: "2023",
+    url: "http://www.hcyzq.gov.cn/zjyz/yzgk/t4682604.shtml",
+    supports:
+      "The reeling and processing base behind the local mills named on this page.",
+  },
+];
 
 export const metadata: Metadata = {
   title:
@@ -28,6 +63,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/wholesale-silk-fabric" },
   openGraph: pageOpenGraph("/wholesale-silk-fabric"),
+  authors: [{ name: "Christopher Bu", url: "/about" }],
 };
 
 const matrix = [
@@ -136,7 +172,7 @@ const certifications = [
   },
   {
     label: "GOTS-certified organic silk",
-    note: "Certified 100% organic; license number and validity provided on quotation.",
+    note: "Certified organic in full; license number and validity provided on quotation.",
   },
   {
     label: "China Organic",
@@ -197,7 +233,7 @@ const faqs: HubFaq[] = [
   },
   {
     q: "What are your shipping terms?",
-    a: "Bulk orders ship FOB Nansha, Yantian or Qinzhou, or FCA Yizhou, which is our preferred term. Payment is T/T 30% deposit with 70% against the bill of lading. Samples usually move by DHL worldwide or a designated courier.",
+    a: "Bulk orders ship FOB Nansha, Yantian or Qinzhou, or FCA Yizhou, which is our preferred term. Payment is a 30 percent deposit by T/T, with the balance against the bill of lading. Samples usually move by DHL worldwide or a designated courier.",
   },
 ];
 
@@ -226,6 +262,16 @@ export default function WholesaleSilkFabricPage() {
           decide whether two wholesale quotations are actually comparable.
         </p>
 
+        <KeyTakeaways
+          items={[
+            "Nine constructions are standing products from local mills in Yizhou; the rest are woven to order, and the page states which is which.",
+            "Colour runs on two routes: a standard shade card, or a custom match to your sample. Greige ships undyed for buyers with their own dyehouse.",
+            "Terms are FOB Nansha, Yantian or Qinzhou, or FCA Yizhou, which we prefer because the inland leg stays visible in your landed cost.",
+            "Seven steps run from enquiry to container, and the approved lab dip is the reference for inspection, not a photograph.",
+            "Two quotations are only comparable once momme basis, grade, width, colour route and quantity are all stated.",
+          ]}
+        />
+
         {/* 快速事实 */}
         <section className="mt-14 grid gap-6 md:grid-cols-3">
           {[
@@ -249,6 +295,47 @@ export default function WholesaleSilkFabricPage() {
               <p className="mt-3 text-sm leading-relaxed text-ink-soft">{f.d}</p>
             </div>
           ))}
+        </section>
+
+        {/* 术语 */}
+        <section className="mt-14 border-t border-line pt-10">
+          <h2 className="font-display text-2xl font-medium text-jade-deep">
+            Four terms a bulk order turns on
+          </h2>
+          <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
+            <strong>MOQ</strong> is the minimum order quantity a mill will run
+            for a given construction and colour, and it changes with the dye
+            route rather than staying fixed per fabric. <strong>Lab dip</strong>{" "}
+            is the small dyed sample approved before bulk, and once signed it
+            becomes the reference for inspection. <strong>FOB</strong> is Free On
+            Board: the seller clears export and loads the goods, and risk passes
+            at the ship&rsquo;s rail (
+            <a
+              href="https://iccwbo.org/business-solutions/incoterms-rules/"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="underline underline-offset-2 hover:text-gold"
+            >
+              International Chamber of Commerce
+            </a>
+            , 2020). <strong>FCA</strong> is Free Carrier, where the seller hands
+            the goods to your forwarder earlier, which is why we prefer it for
+            inland dispatch from Yizhou.
+          </p>
+          <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
+            For example, two quotes for the same dupioni can differ by a wide
+            margin purely because one is FOB Nansha and the other is FCA Yizhou
+            with the inland trucking excluded. Grade adds a second variable: a
+            5A bale and a 6A bale are graded on the yarn under GB/T 1797-2008,
+            not on the finished cloth, so the grade in a quotation describes the
+            raw material rather than the fabric you receive.
+          </p>
+          <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
+            For example, a mill can hold 140 cm on one construction and only 114
+            cm on another, so a cutting marker planned on the wider figure will
+            not fit the narrower roll. Confirm width and momme together in the
+            written quotation.
+          </p>
         </section>
 
         {/* 批发矩阵 */}
@@ -410,6 +497,22 @@ export default function WholesaleSilkFabricPage() {
               rather than quoting it and letting the sample stage discover the
               problem. That conversation is cheaper for both of us.
             </p>
+            <p>
+              The supply base is a reeling district, not a trading platform.
+              Yizhou reels 5,463 tonnes of raw silk a year and has held first
+              place among Chinese counties for sericulture scale for twenty
+              consecutive years (
+              <a
+                href="http://www.hcyzq.gov.cn/zjyz/yzgk/t4682604.shtml"
+                rel="noopener noreferrer"
+                target="_blank"
+                className="underline underline-offset-2 hover:text-gold"
+              >
+                Yizhou District Government
+              </a>
+              , 2023), which is the reason a repeat order next season is a
+              scheduling question rather than a sourcing one.
+            </p>
           </div>
           <div className="mt-8 grid gap-6 md:grid-cols-3">
             {[
@@ -541,6 +644,27 @@ export default function WholesaleSilkFabricPage() {
           </div>
         </section>
 
+        <SourcesBlock
+          sources={sources}
+          methodology="Methodology: incoterm definitions follow the ICC's published rules and are not reworded into something looser. Grade statements follow GB/T 1797-2008, which grades the yarn rather than the finished cloth, so a quotation that names a grade is describing the raw material. Colour routes, sample policy and payment terms are the atelier's own commercial terms and are stated as such. Where a figure would depend on a specific mill or season, the page says it is confirmed on the quotation instead of publishing a number."
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(
+              articleJsonLd({
+                path: "/wholesale-silk-fabric",
+                headline:
+                  "Wholesale silk fabric from China: how a bulk order actually runs",
+                description:
+                  "Nine standing constructions from local mills in Yizhou, two colour routes, FOB or FCA terms, and the seven steps from enquiry to container.",
+                image: "/products/dupioni2.webp",
+                datePublished: HUB_UPDATED,
+              }),
+            ),
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

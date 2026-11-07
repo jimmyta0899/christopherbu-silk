@@ -58,7 +58,7 @@ export const siteConfig = {
   trade: {
     sampleShipping: "DHL worldwide or designated courier",
     bulkShipping: "FOB Nansha / FOB Yantian / FOB Qinzhou / FCA Yizhou (preferred)",
-    payment: "T/T 30% deposit, 70% against B/L",
+    payment: "T/T, 30 percent deposit, balance against B/L",
   },
   // 样品服务政策
   samplePolicy: {

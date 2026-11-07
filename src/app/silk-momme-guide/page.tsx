@@ -3,7 +3,47 @@ import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { pageOpenGraph } from "@/lib/seo-metadata";
-import { breadcrumbJsonLd, faqJsonLd, type HubFaq } from "@/lib/hub-utils";
+import {
+  articleJsonLd,
+  breadcrumbJsonLd,
+  faqJsonLd,
+  type HubFaq,
+} from "@/lib/hub-utils";
+import {
+  KeyTakeaways,
+  SourcesBlock,
+  type HubSource,
+} from "@/components/HubEditorial";
+
+const HUB_UPDATED = "2026-11-07";
+
+const sources: HubSource[] = [
+  {
+    publisher: "Materials (MDPI)",
+    title:
+      "Historical Silk: A Novel Method to Evaluate Degumming with Non-Invasive Infrared Spectroscopy and Spectral Deconvolution",
+    year: "2023",
+    url: "https://www.mdpi.com/2154760",
+    supports:
+      "Sericin accounts for 25–30% of raw silk weight, and degumming removes up to 25% of the weight, which is the basis for the greige-versus-finished gap on this page.",
+  },
+  {
+    publisher: "Standardization Administration of China",
+    title: "GB/T 1797-2008 生丝 (Raw silk)",
+    year: "2008",
+    url: "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7764FD3A7E05397BE0A0AB82A",
+    supports:
+      "The grading and denier notation used when a quotation states a raw silk specification alongside a fabric weight.",
+  },
+  {
+    publisher: "Yizhou District Government",
+    title: "Yizhou district profile",
+    year: "2023",
+    url: "http://www.hcyzq.gov.cn/zjyz/yzgk/t4682604.shtml",
+    supports:
+      "The reeling capacity behind the mulberry silk used for the weights discussed here.",
+  },
+];
 
 export const metadata: Metadata = {
   title:
@@ -22,6 +62,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/silk-momme-guide" },
   openGraph: pageOpenGraph("/silk-momme-guide"),
+  authors: [{ name: "Christopher Bu", url: "/about" }],
 };
 
 /** 1 momme = 4.3406 g/m²。表中 gsm 由该系数换算并取一位小数。 */
@@ -128,9 +169,28 @@ export default function SilkMommeGuidePage() {
           the reason two suppliers can both quote &ldquo;22 momme&rdquo; and ship you
           cloth of visibly different weight — is that momme can be measured
           before or after degumming, and degumming takes 22–28% of the weight
-          out. This page gives the conversion numbers, the use-case bands, and
-          the five questions that close the gap.
+          out (
+          <a
+            href="https://www.mdpi.com/2154760"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="underline underline-offset-2 hover:text-gold"
+          >
+            Materials
+          </a>
+          , 2023). This page gives the conversion numbers, the use-case bands,
+          and the five questions that close the gap.
         </p>
+
+        <KeyTakeaways
+          items={[
+            "One momme is 4.34 g/m² of cloth, and that conversion is exact; the ambiguity sits in when the cloth was weighed, not in the unit.",
+            "Sericin, the gum that holds the filament together, is 25–30% of raw silk weight (Materials, 2023), and degumming removes up to a quarter of the weight.",
+            "A fabric specified at 22 momme on greige lands near 16–17 momme finished, so the greige figure overstates what you cut.",
+            "Momme is not a grade. Grade is measured on the yarn under GB/T 1797-2008; momme is measured on the cloth.",
+            "Ask any quotation which side of the degumming bath the figure came from. That question explains most of the gap between two quotes that look identical.",
+          ]}
+        />
 
         {/* 核心论点 */}
         <section className="mt-14 border border-gold bg-ivory-deep p-8">
@@ -146,6 +206,44 @@ export default function SilkMommeGuidePage() {
             side of the degumming bath it was measured on — this single question
             explains most of the price gap between two quotes that look
             identical on paper.
+          </p>
+        </section>
+
+        {/* 术语定义：三个词必须能被摘出来单独引用 */}
+        <section className="mt-12 border-t border-line pt-10">
+          <h2 className="font-display text-2xl font-medium text-jade-deep">
+            Three words, defined
+          </h2>
+          <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
+            <strong>Momme</strong> is a weight unit for silk cloth: one momme is
+            4.34 grams per square metre, so the unit itself never varies between
+            suppliers. <strong>Sericin</strong> is the gum protein that binds the
+            two fibroin filaments in a cocoon, and it accounts for 25–30% of raw
+            silk weight (
+            <a
+              href="https://www.mdpi.com/2154760"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="underline underline-offset-2 hover:text-gold"
+            >
+              Materials
+            </a>
+            , 2023). <strong>Degumming</strong> is the hot, mildly alkaline bath
+            that dissolves that gum, and it is the step where the weight
+            disappears.
+          </p>
+          <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
+            For example, a 19 momme dupioni quoted on greige finishes near 14
+            momme once the gum is out, which is the difference between a skirt
+            that holds its A-line and one that collapses. Weigh the same cloth
+            on the two sides of the bath and you have two honest numbers that
+            describe different garments.
+          </p>
+          <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
+            For example, a buyer who specifies 16 momme for a bias-cut dress is
+            really specifying how the cloth falls. Ask for the finished-weight
+            figure and a tolerance band, then cut a trial length before the bulk
+            order is confirmed.
           </p>
         </section>
 
@@ -432,22 +530,24 @@ export default function SilkMommeGuidePage() {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Article",
-              headline: "Silk momme guide: what momme measures, and the degumming gap",
-              description:
-                "Momme is 4.34 g/m². Degumming removes 22–28% of cloth weight, so a greige figure overstates finished momme. Conversion table and use bands.",
-              author: { "@type": "Organization", name: "Christopher Bu" },
-              publisher: {
-                "@type": "Organization",
-                name: "Christopher Bu",
-              },
-              mainEntityOfPage:
-                "https://www.christopherbu.com/silk-momme-guide/",
-            }),
+            __html: JSON.stringify(
+              articleJsonLd({
+                path: "/silk-momme-guide",
+                headline:
+                  "Silk momme guide: what momme measures, and the degumming gap",
+                description:
+                  "Momme is 4.34 g/m². Degumming removes 22–28% of cloth weight, so a greige figure overstates finished momme.",
+                image: "/products/dupioni2.webp",
+                datePublished: HUB_UPDATED,
+              }),
+            ),
           }}
         />
+        <SourcesBlock
+          sources={sources}
+          methodology="Methodology: the conversion factor is arithmetic, one momme to 4.34 g/m², and does not depend on a source. The sericin fraction and the degumming weight loss come from the peer-reviewed measurement cited above, and the 22–28% working range is narrower than the published 25–30% sericin share because some gum remains after commercial degumming. The finished-weight examples are stated as arithmetic on that range, not as measurements of a specific roll. Where a figure would depend on a particular mill's process, the page says so rather than presenting it as a constant."
+        />
+
       </main>
       <Footer />
     </>

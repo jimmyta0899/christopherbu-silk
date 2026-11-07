@@ -4,7 +4,46 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { pageOpenGraph } from "@/lib/seo-metadata";
 import { siteConfig } from "@/lib/site-config";
-import { breadcrumbJsonLd, faqJsonLd, type HubFaq } from "@/lib/hub-utils";
+import {
+  articleJsonLd,
+  breadcrumbJsonLd,
+  faqJsonLd,
+  type HubFaq,
+} from "@/lib/hub-utils";
+import {
+  KeyTakeaways,
+  SourcesBlock,
+  type HubSource,
+} from "@/components/HubEditorial";
+
+const HUB_UPDATED = "2026-11-07";
+
+const sources: HubSource[] = [
+  {
+    publisher: "Standardization Administration of China",
+    title: "GB/T 1797-2008 生丝 (Raw silk)",
+    year: "2008",
+    url: "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7764FD3A7E05397BE0A0AB82A",
+    supports:
+      "The grade scale quoted in a raw silk price, which is measured on the yarn and not on the finished cloth.",
+  },
+  {
+    publisher: "International Chamber of Commerce",
+    title: "Incoterms 2020 rules",
+    year: "2020",
+    url: "https://iccwbo.org/business-solutions/incoterms-rules/",
+    supports:
+      "The delivery terms that decide which costs sit inside a quoted price and which arrive later as landed cost.",
+  },
+  {
+    publisher: "Yizhou District Government",
+    title: "Yizhou district profile",
+    year: "2023",
+    url: "http://www.hcyzq.gov.cn/zjyz/yzgk/t4682604.shtml",
+    supports:
+      "The reeling base behind the raw material that sets the floor of a fabric price.",
+  },
+];
 
 export const metadata: Metadata = {
   title:
@@ -22,6 +61,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/silk-fabric-price-guide" },
   openGraph: pageOpenGraph("/silk-fabric-price-guide"),
+  authors: [{ name: "Christopher Bu", url: "/about" }],
 };
 
 const drivers = [
@@ -176,6 +216,16 @@ export default function SilkFabricPriceGuidePage() {
           quotes actually comparable.
         </p>
 
+        <KeyTakeaways
+          items={[
+            "Six variables drive the number: grade, momme basis, construction, colour route, quantity and width. Fix them and two quotes become comparable.",
+            "A momme figure measured on greige describes a heavier cloth than the same figure measured on finished fabric, so the basis belongs in the quotation.",
+            "Grade is measured on the yarn under GB/T 1797-2008, which means a price quoted on grade is describing raw material rather than the cloth you cut.",
+            "Delivery terms move costs rather than remove them: FOB leaves inland freight and insurance outside the number, and they arrive later as landed cost.",
+            "This page publishes no unit prices, because a single number would be accurate for one specification and misleading for every other.",
+          ]}
+        />
+
         {/* 为什么不给数字 */}
         <section className="mt-14 border border-gold bg-ivory-deep p-8">
           <p className="text-xs font-medium uppercase tracking-[0.18em] text-gold">
@@ -190,6 +240,58 @@ export default function SilkFabricPriceGuidePage() {
             variables, and any two quotations become directly comparable. We
             quote per order, and every quotation states its momme basis, grade,
             width and colour route so it can be checked.
+          </p>
+        </section>
+
+        {/* 术语 */}
+        <section className="mt-14 border-t border-line pt-10">
+          <h2 className="font-display text-2xl font-medium text-jade-deep">
+            Three terms that decide what a quote means
+          </h2>
+          <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
+            <strong>Grade</strong> is the quality classification of the raw silk
+            yarn, set under GB/T 1797-2008 (
+            <a
+              href="https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7764FD3A7E05397BE0A0AB82A"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="underline underline-offset-2 hover:text-gold"
+            >
+              Standardization Administration of China
+            </a>
+            , 2008), and it is measured on the yarn rather than on the cloth.{" "}
+            <strong>Momme basis</strong> is the point in processing at which the
+            weight was taken, greige or finished, and it is the single field most
+            often missing from a quotation. <strong>Landed cost</strong> is what
+            the cloth costs once freight, insurance, duty and inland handling are
+            added, which is why two identical FOB numbers can land at different
+            totals under different delivery terms (
+            <a
+              href="https://iccwbo.org/business-solutions/incoterms-rules/"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="underline underline-offset-2 hover:text-gold"
+            >
+              International Chamber of Commerce
+            </a>
+            , 2020).
+          </p>
+          <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
+            For example, a quote at 19 momme finished and a quote at 19 momme
+            greige are not the same cloth: the second finishes lighter, so the
+            cheaper number is buying less silk. For example, two quotes at the same momme can still describe different cloth if one is measured on greige. The same logic applies upward.
+            The raw material floor comes from a reeling district that produces
+            for export at scale (
+            <a
+              href="http://www.hcyzq.gov.cn/zjyz/yzgk/t4682604.shtml"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="underline underline-offset-2 hover:text-gold"
+            >
+              Yizhou District Government
+            </a>
+            , 2023), and a price well below that floor is worth questioning
+            rather than celebrating.
           </p>
         </section>
 
@@ -260,6 +362,39 @@ export default function SilkFabricPriceGuidePage() {
             dramatically cheaper, at least one line differs — and once you know
             which, the decision is no longer about price.
           </p>
+          <div className="mt-8 overflow-x-auto">
+            <table className="w-full border-collapse text-left text-sm">
+              <thead>
+                <tr className="border-b border-line">
+                  <th scope="col" className="py-3 pr-4 font-medium text-jade-deep">Field</th>
+                  <th scope="col" className="py-3 pr-4 font-medium text-jade-deep">What changes the number</th>
+                  <th scope="col" className="py-3 font-medium text-jade-deep">What to ask for</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="border-b border-line">
+                  <td className="py-3 pr-4 align-top">Grade</td>
+                  <td className="py-3 pr-4 align-top">Yarn quality, not cloth quality</td>
+                  <td className="py-3 align-top">The grade named in the quotation</td>
+                </tr>
+                <tr className="border-b border-line">
+                  <td className="py-3 pr-4 align-top">Momme</td>
+                  <td className="py-3 pr-4 align-top">Greige or finished measurement</td>
+                  <td className="py-3 align-top">Basis plus a tolerance band</td>
+                </tr>
+                <tr className="border-b border-line">
+                  <td className="py-3 pr-4 align-top">Width</td>
+                  <td className="py-3 pr-4 align-top">Cuttable width, not loom width</td>
+                  <td className="py-3 align-top">Centimetres after finishing</td>
+                </tr>
+                <tr>
+                  <td className="py-3 pr-4 align-top">Colour route</td>
+                  <td className="py-3 pr-4 align-top">Dye lot setup and lab dips</td>
+                  <td className="py-3 align-top">Shade card reference or approved dip</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
           <ol className="mt-8 grid gap-3 md:grid-cols-2">
             {comparison.map((c, i) => (
               <li
@@ -288,7 +423,18 @@ export default function SilkFabricPriceGuidePage() {
               identical fabric, the difference has to exist somewhere in the
               physical product. In practice it is one of four places: a lower
               grade, a lighter momme (often measured on greige), a narrower
-              width, or reduced testing.
+              width, or reduced testing. Grade is the one worth checking first,
+              because it is measured on the yarn against a published scale (
+              <a
+                href="https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7764FD3A7E05397BE0A0AB82A"
+                rel="noopener noreferrer"
+                target="_blank"
+                className="underline underline-offset-2 hover:text-gold"
+              >
+                Standardization Administration of China
+              </a>
+              , 2008), and a downgrade is invisible in a swatch of the same
+              weight and colour.
             </p>
             <p>
               None of those is automatically wrong — a lighter cloth at a
@@ -434,21 +580,25 @@ export default function SilkFabricPriceGuidePage() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd(faqs)) }}
         />
+        <SourcesBlock
+          sources={sources}
+          methodology="Methodology: this page publishes no unit prices. Silk is quoted against a specification. A number without grade, momme basis, width, colour route and quantity would be accurate for one combination and misleading for every other. The grade scale follows GB/T 1797-2008, which classifies the yarn rather than the cloth. Delivery terms follow the ICC's published Incoterms rules, because those decide which costs sit inside a quoted figure. The six drivers and the twelve comparison points come from quotations the atelier has reviewed, stated as structure rather than as a price list. Every figure that would depend on a specific mill or season is confirmed on the quotation instead."
+        />
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Article",
-              headline:
-                "Silk fabric price per meter: what moves it, and how to compare quotes",
-              description:
-                "Six variables drive silk pricing: grade, momme basis, construction, colour route, quantity and width. Twelve-point comparison and an RFQ template.",
-              author: { "@type": "Organization", name: "Christopher Bu" },
-              publisher: { "@type": "Organization", name: "Christopher Bu" },
-              mainEntityOfPage:
-                "https://www.christopherbu.com/silk-fabric-price-guide/",
-            }),
+            __html: JSON.stringify(
+              articleJsonLd({
+                path: "/silk-fabric-price-guide",
+                headline:
+                  "Silk fabric price per meter: what moves it, and how to compare quotes",
+                description:
+                  "Six variables drive silk pricing: grade, momme basis, construction, colour route, quantity and width. Twelve-point comparison and an RFQ template.",
+                image: "/products/satin.webp",
+                datePublished: HUB_UPDATED,
+              }),
+            ),
           }}
         />
       </main>

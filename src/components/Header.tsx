@@ -84,16 +84,18 @@ const nav = [
 
 export function Header() {
   return (
-    <header className="relative z-50">
+    <header className="relative z-50 bg-jade-deep">
       {/* 满屏印花背景。用原生 img + srcset：静态导出下 next/image 不生成多尺寸，
-          移动端会因此加载 1600px 原图（114KB），成为全站 LCP 瓶颈。 */}
-      <div className="absolute inset-0 overflow-hidden">
+          移动端会因此加载 1600px 原图（114KB），成为全站 LCP 瓶颈。
+          小屏只保留一条 64px 的印花带，其余用品牌深绿底：装饰元素不再占据
+          整个首屏，LCP 落到正文，桌面端仍是满幅印花。 */}
+      <div className="absolute inset-x-0 top-0 h-16 overflow-hidden md:inset-0 md:h-full">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="/print-bg-clean-1200.webp"
           srcSet="/print-bg-clean-828.webp 828w, /print-bg-clean-1200.webp 1200w, /print-bg-clean.webp 1600w"
           sizes="100vw"
-          alt=""
+          alt="Printed silk panel behind the page header, decorative"
           aria-hidden="true"
           fetchPriority="high"
           loading="eager"

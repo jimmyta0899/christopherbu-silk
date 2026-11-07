@@ -6,10 +6,16 @@ import { pageOpenGraph } from "@/lib/seo-metadata";
 import { siteConfig } from "@/lib/site-config";
 import {
   absUrl,
+  articleJsonLd,
   breadcrumbJsonLd,
   faqJsonLd,
   type HubFaq,
 } from "@/lib/hub-utils";
+import {
+  KeyTakeaways,
+  SourcesBlock,
+  type HubSource,
+} from "@/components/HubEditorial";
 
 export const metadata: Metadata = {
   title:
@@ -28,7 +34,54 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/yizhou-raw-silk" },
   openGraph: pageOpenGraph("/yizhou-raw-silk"),
+  authors: [{ name: "Christopher Bu", url: "/about" }],
 };
+
+const HUB_UPDATED = "2026-11-07";
+
+const sources: HubSource[] = [
+  {
+    publisher: "Yizhou District Government",
+    title: "Yizhou district profile",
+    year: "2023",
+    url: "http://www.hcyzq.gov.cn/zjyz/yzgk/t4682604.shtml",
+    supports:
+      "Mulberry plantation area, cocoon output, raw silk output and the 13.4% national share.",
+  },
+  {
+    publisher: "Hechi Civil Affairs Bureau",
+    title: "Hechi place names: Yizhou",
+    year: "2025",
+    url: "http://mzj.hechi.gov.cn/zwdt/t27808607.shtml",
+    supports:
+      "The county-level sericulture ranking and the updated mulberry and cocoon figures for the wider prefecture.",
+  },
+  {
+    publisher: "People's Daily",
+    title: "Following the light: film locations in China and abroad",
+    year: "2015",
+    url: "https://politics.people.com.cn/n/2015/1002/c70731-27656639.html",
+    supports:
+      "The Painted Veil location history and the director's account of choosing the Guangxi landscape.",
+  },
+  {
+    publisher: "Guangxi News Network",
+    title:
+      "Yizhou's Xiajian River named one of China's most beautiful hometown rivers",
+    year: "2017",
+    url: "https://v.gxnews.com.cn/a/16773679",
+    supports:
+      "The Xiajian River landscape and the riverside photography credited on this page.",
+  },
+  {
+    publisher: "Standardization Administration of China",
+    title: "GB/T 1797-2008 生丝 (Raw silk)",
+    year: "2008",
+    url: "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7764FD3A7E05397BE0A0AB82A",
+    supports:
+      "The grading, moisture content and lot-marking requirements referenced in the reeling section.",
+  },
+];
 
 /**
  * 官方数据表。每条都必须带「主体」和「口径」两道定语 ——
@@ -74,7 +127,7 @@ const officialFigures = [
   {
     figure: "¥3.262 bn",
     label: "Silk processing output, 2024",
-    note: "Above-designated-size silk processing only, up 11.3% year on year. Not the same measure as the district's total cocoon value of roughly ¥6 bn.",
+    note: "Above-designated-size silk processing only, up 11.3% year on year (Yizhou District Government, 2025). Not the same measure as the district's total cocoon value of roughly ¥6 bn.",
   },
 ];
 
@@ -108,7 +161,7 @@ const reelingSteps = [
   {
     n: "06",
     t: "Packing",
-    d: "Yarn is packed into export bales with moisture content controlled below 11%, marked by lot so a batch can be traced back to its reeling run.",
+    d: "Yarn is packed into export bales with moisture content controlled below 11% (GB/T 1797-2008), marked by lot so a batch can be traced back to its reeling run.",
   },
 ];
 
@@ -188,7 +241,7 @@ export default function YizhouRawSilkPage() {
       addressCountry: "CN",
     },
     description:
-      "The largest raw silk producing county in China: 5,463 tonnes of annual raw silk output, 13.4% of national output, and twenty consecutive years ranked first among Chinese counties for sericulture scale.",
+      "The largest raw silk producing county in China: 5,463 tonnes of annual raw silk output, 13.4% of national output. Twenty consecutive years ranked first among Chinese counties for sericulture scale.",
   };
 
   return (
@@ -211,11 +264,61 @@ export default function YizhouRawSilkPage() {
           Yizhou is the largest raw silk producing county in China. It reels
           5,463 tonnes of raw silk a year — 13.4% of national output — and has
           held first place among Chinese counties for sericulture scale for
-          twenty consecutive years. The local mills we work with draw from this
-          district. What follows is what the official figures actually say,
-          where the widely repeated versions of them are wrong, and why the
-          origin matters to a buyer specifying cloth rather than a story.
+          twenty consecutive years (
+          <a
+            href="http://www.hcyzq.gov.cn/zjyz/yzgk/t4682604.shtml"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="underline underline-offset-2 hover:text-gold"
+          >
+            Yizhou District Government
+          </a>
+          , 2023). The local mills we work with draw from this district. What
+          follows is what the official figures actually say, where the widely
+          repeated versions of them are wrong, and why the origin matters to a
+          buyer specifying cloth rather than a story.
         </p>
+
+        <KeyTakeaways
+          items={[
+            "Yizhou reels 5,463 tonnes of raw silk a year, 13.4% of Chinese output. Has ranked first among Chinese counties for sericulture scale for twenty consecutive years.",
+            "Every figure on this page carries two qualifiers: the administrative body (Yizhou district, not Hechi prefecture) and the measure (raw silk output is not cocoon value).",
+            "Official sources differ between fifteen and sixteen years at number one on raw silk output, so this page states fifteen or more rather than picking one.",
+            "Reeling is six steps, and the grade is set at cocoon selection, before anything reaches a loom.",
+            "Origin does not change the specification you should write. It changes whether the supplier can repeat that specification next season.",
+          ]}
+        />
+
+        {/* 术语 */}
+        <section className="mt-14 border-t border-line pt-10">
+          <h2 className="font-display text-2xl font-medium text-jade-deep">
+            Four terms this page uses
+          </h2>
+          <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
+            <strong>Raw silk</strong> is the filament reeled directly from
+            cocoons and twisted into yarn, before any weaving. <strong>Reeling</strong>{" "}
+            is that first process: cocoons are softened, the filament is found
+            and joined, and the yarn is wound onto a bobbin. <strong>Greige</strong>{" "}
+            is the cloth that leaves the loom undyed and unfinished.{" "}
+            <strong>Lot mark</strong> is the identifier a reeling run carries
+            into export packing, and it is how a certificate is matched to the
+            bale in front of you.
+          </p>
+          <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
+            Grading, moisture content and lot marking are set by the national
+            raw silk standard, GB/T 1797-2008 (
+            <a
+              href="https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7764FD3A7E05397BE0A0AB82A"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="underline underline-offset-2 hover:text-gold"
+            >
+              Standardization Administration of China
+            </a>
+            , 2008), and a certificate that cannot be tied to a lot mark is not
+            evidence of anything.
+          </p>
+        </section>
 
         {/* 一句话定位 */}
         <section className="mt-14 border-l-2 border-gold pl-6">
@@ -242,7 +345,28 @@ export default function YizhouRawSilkPage() {
             most buyers expect. Yizhou district and Hechi prefecture publish
             different numbers for the same thing, and &ldquo;silk processing
             output&rdquo; is not the same measure as &ldquo;total cocoon value&rdquo;.
-            Each figure below carries the scope it belongs to.
+            Each figure below carries the scope it belongs to. The district
+            figures come from the Yizhou district government profile (
+            <a
+              href="http://www.hcyzq.gov.cn/zjyz/yzgk/t4682604.shtml"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="underline underline-offset-2 hover:text-gold"
+            >
+              Yizhou District Government
+            </a>
+            , 2023); the prefecture-level figures and the county ranking come
+            from the Hechi civil affairs bureau (
+            <a
+              href="http://mzj.hechi.gov.cn/zwdt/t27808607.shtml"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="underline underline-offset-2 hover:text-gold"
+            >
+              Hechi Civil Affairs Bureau
+            </a>
+            , 2025). For example, the 39.6 万亩 plantation figure is Yizhou
+            alone, while the prefecture reports 96.6 万亩 for the same crop.
           </p>
           <div className="mt-8 overflow-x-auto border border-line">
             <table className="w-full min-w-[680px] text-sm">
@@ -320,15 +444,15 @@ export default function YizhouRawSilkPage() {
             {[
               {
                 t: "Evenness",
-                d: "Variation in denier along the thread. A yarn that swings between 19 and 24 denier will weave, but the cloth will show it as barré — horizontal bands that only appear after dyeing, when it is far too late to reject the yarn.",
+                d: "Variation in denier along the thread. A yarn that swings between 19 and 24 denier will weave, but the cloth will show it as barré. Horizontal bands that only appear after dyeing, when it is far too late to reject the yarn.",
               },
               {
                 t: "Cleanness",
-                d: "Count of larger defects per unit length — slugs, bad casts, waste. These become slubs in the finished cloth. In dupioni a slub is the point of the fabric; in a habotai lining it is a reject.",
+                d: "Count of larger defects per unit length. Slugs, bad casts, waste. These become slubs in the finished cloth. In dupioni a slub is the point of the fabric. In a habotai lining it is a reject.",
               },
               {
                 t: "Neatness",
-                d: "Count of smaller imperfections. This is the measure that most often separates 5A from 6A, and it is invisible on a swatch until the cloth is dyed dark.",
+                d: "Count of smaller imperfections. This is the measure that most often separates 5A from 6A. It is invisible on a swatch until the cloth is dyed dark.",
               },
             ].map((x) => (
               <div key={x.t} className="border-l-2 border-line-strong pl-6">
@@ -434,10 +558,17 @@ export default function YizhouRawSilkPage() {
             <p>
               We work with local mills in Yizhou rather than describing
               ourselves as a trader who found a good price. That distinction
-              matters operationally: it is why we can tell you which reeling run
+              matters operationally. It is why we can tell you which reeling run
               a lot came from, why we push back when a specification will not
               survive degumming, and why we refuse to quote a construction the
               mills cannot actually weave at your quantity.
+            </p>
+            <p>
+              For example, when a buyer asks for a 16 momme charmeuse at 140 cm,
+              the question we can answer is whether the local mills can hold that
+              width and weight in the same run, and what the graded yarn behind
+              it will be. That answer comes from the reeling floor rather than a
+              catalogue page.
             </p>
             <p>
               The other half of our position is that we are a couture house
@@ -617,6 +748,27 @@ export default function YizhouRawSilkPage() {
           </div>
         </section>
 
+        <SourcesBlock
+          sources={sources}
+          methodology="Methodology: every figure on this page is taken from a published government profile. The two qualifiers that travel with it (administrative scope and statistical measure) are stated in the same row. Where official sources disagree, as they do on the number of years at first place for raw silk output, the page states the conservative figure and says so. The six reeling steps describe the standard process, not one mill's line. Grading and moisture requirements follow GB/T 1797-2008. Reeled silk is a commodity with published standards, so this page cites the standard rather than a supplier's brochure."
+        />
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(
+              articleJsonLd({
+                path: "/yizhou-raw-silk",
+                headline:
+                  "Yizhou, Guangxi: the raw silk origin behind the cloth",
+                description:
+                  "The official Yizhou raw silk figures with their qualifying conditions, the six reeling stages, and what the origin means when you specify cloth.",
+                image: "/blog/yizhou-riverside-dawn.webp",
+                datePublished: HUB_UPDATED,
+              }),
+            ),
+          }}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

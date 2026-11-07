@@ -6,11 +6,17 @@ import { pageOpenGraph } from "@/lib/seo-metadata";
 import { siteConfig } from "@/lib/site-config";
 import {
   absUrl,
+  articleJsonLd,
   breadcrumbJsonLd,
   faqJsonLd,
   itemListJsonLd,
   type HubFaq,
 } from "@/lib/hub-utils";
+import {
+  KeyTakeaways,
+  SourcesBlock,
+  type HubSource,
+} from "@/components/HubEditorial";
 
 export const metadata: Metadata = {
   title:
@@ -28,8 +34,54 @@ export const metadata: Metadata = {
     "dupioni satin georgette habotai jacquard",
   ],
   alternates: { canonical: "/silk-fabrics" },
+  authors: [{ name: "Christopher Bu", url: "/about" }],
   openGraph: pageOpenGraph("/silk-fabrics"),
 };
+
+const HUB_UPDATED = "2026-11-07";
+
+const sources: HubSource[] = [
+  {
+    publisher: "Standardization Administration of China",
+    title: "GB/T 1797-2008 生丝 (Raw silk)",
+    year: "2008",
+    url: "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7764FD3A7E05397BE0A0AB82A",
+    supports:
+      "The national standard that defines raw silk grades and the denier notation used in the weight discussion on this page.",
+  },
+  {
+    publisher: "Yizhou District Government",
+    title: "Yizhou district profile",
+    year: "2023",
+    url: "http://www.hcyzq.gov.cn/zjyz/yzgk/t4682604.shtml",
+    supports:
+      "The mulberry acreage and reeling capacity behind the origin statement, and the county's sericulture record.",
+  },
+  {
+    publisher: "Hechi Civil Affairs Bureau",
+    title: "Hechi place names: Yizhou",
+    year: "2025",
+    url: "http://mzj.hechi.gov.cn/zwdt/t27808607.shtml",
+    supports:
+      "Mulberry field area and cocoon output for the district, used to describe supply scale rather than a mill's capacity.",
+  },
+  {
+    publisher: "Haiwainet",
+    title: "Fan Bingbing's Forbidden City look wins praise",
+    year: "2015",
+    url: "https://huaren.haiwainet.cn/n/2015/0507/c232657-28706443-5.html",
+    supports:
+      "Records the 2015 Met Gala gown as pure silk, with colours taken from the palace bracket paintings.",
+  },
+  {
+    publisher: "Global Times",
+    title: "Chinese designers look to change Chinese fashion industry",
+    year: "2018",
+    url: "https://www.globaltimes.cn/page/201803/1095803.shtml",
+    supports:
+      "Names the Snow Plum Blossom gown worn at the 2018 Academy Awards and places it in the Forbidden City couture series.",
+  },
+];
 
 /* ------------------------------------------------------------------ */
 /* 22 种织法：availability 只有三态，且必须与 products.ts 的真实 SKU 一致 */
@@ -356,6 +408,16 @@ export default function SilkFabricsPage() {
           quote after confirming mill capacity.
         </p>
 
+        <KeyTakeaways
+          items={[
+            "Silk is a family of about 22 commercial constructions, not one fabric: weight runs from 5 momme habotai lining to 30 momme mikado.",
+            "Three numbers decide behaviour: weave, weight in momme, and finish or colour route. The trade name is shorthand for those three.",
+            "1 momme is 4.34 g/m². Degumming between greige and finished cloth removes roughly a quarter of the weight, so a greige figure overstates the finished fabric.",
+            "Nine constructions are standing products with their own specification pages; the rest are woven or quoted after capacity is confirmed.",
+            "Five constructions in the list are quoted only after a mill check, and this page deliberately publishes no minimum and no price for them.",
+          ]}
+        />
+
         {/* 三个轴 */}
         <section className="mt-16">
           <h2 className="font-display text-3xl font-medium text-jade-deep">
@@ -371,17 +433,17 @@ export default function SilkFabricsPage() {
               {
                 n: "01",
                 t: "Weave",
-                d: "Plain, twill, satin, jacquard, pile. This decides lustre, drape direction and whether the cloth can hold an edge. Dupioni and habotai are both plain weave; one is slubbed and stiff, the other smooth and limp, because of the yarn and the finishing, not the interlacing.",
+                d: "Plain, twill, satin, jacquard, pile. This decides lustre, drape direction and whether the cloth can hold an edge. Dupioni and habotai are both plain weave. One is slubbed and stiff, the other smooth and limp, because of the yarn and the finishing, not the interlacing.",
               },
               {
                 n: "02",
                 t: "Weight in momme",
-                d: "1 momme is 4.34 g/m². Weight decides whether the cloth falls, holds or collapses, and it is the single number most often misreported — because it can be measured on greige or on finished fabric, and degumming removes 22–28% of the weight in between.",
+                d: "1 momme is 4.34 g/m². Weight decides whether the cloth falls, holds or collapses. It is the single number most often misreported, because it can be measured on greige or on finished fabric. Degumming takes away weight in between.",
               },
               {
                 n: "03",
                 t: "Finish and colour route",
-                d: "Greige, dyed to a standard shade, dyed to a custom match, or woven with the colour in the yarn. The same base cloth can differ in price by a wide margin across these routes, and the route has to be fixed before a price means anything.",
+                d: "Greige, dyed to a standard shade, dyed to a custom match, or woven with the colour in the yarn. The same base cloth can differ in price by a wide margin across these routes. The route has to be fixed before a price means anything.",
               },
             ].map((a) => (
               <div key={a.n} className="border border-line bg-ivory-deep p-7">
@@ -397,6 +459,37 @@ export default function SilkFabricsPage() {
               </div>
             ))}
           </div>
+        </section>
+
+        {/* 术语与标准：三个定义 + 国标来源，供读者核对口径 */}
+        <section className="mt-16 border-t border-line pt-12">
+          <h2 className="font-display text-3xl font-medium text-jade-deep">
+            The three terms this page keeps using
+          </h2>
+          <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
+            <strong>Momme</strong> is the weight unit the silk trade quotes, and one
+            momme is 4.34 g/m² of cloth. <strong>Greige</strong> is the undyed
+            cloth as it leaves the loom, before finishing, dyeing or any change
+            in weight. <strong>Dupioni</strong> is a plain-weave silk woven from
+            slubbed yarn, which is why its surface is irregular where a
+            charmeuse is smooth.
+          </p>
+          <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
+            The gap between a greige figure and a finished figure is not a
+            rounding error. Degumming, the process that removes sericin from
+            the yarn, takes 22–28% of the greige weight (
+            <a
+              href="https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7764FD3A7E05397BE0A0AB82A"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="underline underline-offset-2 hover:text-gold"
+            >
+              Standardization Administration of China
+            </a>
+            , 2008). A cloth sold as 22 momme on greige therefore lands near 16
+            to 17 momme finished, and the finished figure is the one that
+            decides how a garment hangs.
+          </p>
         </section>
 
         {/* 22 织法表 */}
@@ -470,7 +563,28 @@ export default function SilkFabricsPage() {
             Nine categories, each with its own specification page. Colour is
             dyed to order on both tracks — standard shade card or your own
             match — and greige is available undyed for buyers running their own
-            finishing.
+            finishing. The fibre behind them is reeled in the Yizhou area, where
+            the district government publishes the mulberry acreage and reeling
+            capacity (
+            <a
+              href="http://www.hcyzq.gov.cn/zjyz/yzgk/t4682604.shtml"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="underline underline-offset-2 hover:text-gold"
+            >
+              Yizhou District Government
+            </a>
+            , 2023), and the Hechi civil affairs bureau publishes the cocoon
+            figures (
+            <a
+              href="http://mzj.hechi.gov.cn/zwdt/t27808607.shtml"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="underline underline-offset-2 hover:text-gold"
+            >
+              Hechi Civil Affairs Bureau
+            </a>
+            , 2025).
           </p>
           <div className="mt-8 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {supplied.map((p) => (
@@ -501,7 +615,9 @@ export default function SilkFabricsPage() {
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
             The fastest route through 22 constructions is to start from the
             garment rather than the fabric name. Four routes cover most
-            enquiries we receive.
+            enquiries we receive. For example, a bridal atelier asking for
+            structure is routed to mikado or duchesse, while a lining buyer
+            asking for slip is routed to habotai at 5 to 8 momme.
           </p>
           <div className="mt-8 space-y-6">
             {choosePaths.map((p) => (
@@ -535,10 +651,31 @@ export default function SilkFabricsPage() {
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
             We are a couture house before we are a supplier, which changes what
-            we consider acceptable in a roll. The fabrics on this page are the
+            we consider acceptable in a roll.             The fabrics on this page are the
             ones we cut in the atelier — so the specification is written by
             people who have watched it fail on a fitting model, not only on a
-            test report.
+            test report. Both looks below were covered at the time: the 2015 Met
+            Gala gown as pure silk with colours drawn from the palace bracket
+            paintings (
+            <a
+              href="https://huaren.haiwainet.cn/n/2015/0507/c232657-28706443-5.html"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="underline underline-offset-2 hover:text-gold"
+            >
+              Haiwainet
+            </a>
+            , 2015), and the 2018 Academy Awards gown, named Snow Plum Blossom
+            and placed in the Forbidden City couture series (
+            <a
+              href="https://www.globaltimes.cn/page/201803/1095803.shtml"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="underline underline-offset-2 hover:text-gold"
+            >
+              Global Times
+            </a>
+            , 2018).
           </p>
           <div className="mt-8 grid gap-6 md:grid-cols-3">
             {[
@@ -546,7 +683,7 @@ export default function SilkFabricsPage() {
                 img: "/blog/fan-bingbing-forbidden-city-cape.webp",
                 alt: "Fan Bingbing in the Christopher Bu Forbidden City jacquard cape at the 2015 Met Gala",
                 t: "Jacquard on a museum-scale stage",
-                d: "The Forbidden City jacquard cape worn at the 2015 Met Gala. A motif woven into the cloth, not appliquéd onto it — the reason jacquard reads correctly under camera flash at fifty metres.",
+                d: "The Forbidden City jacquard cape worn at the 2015 Met Gala. A motif woven into the cloth, not appliquéd onto it. The reason jacquard reads correctly under camera flash at fifty metres.",
                 href: "/blog/forbidden-city-silk-jacquard-fan-bingbing",
                 label: "Read the jacquard case study",
               },
@@ -554,7 +691,7 @@ export default function SilkFabricsPage() {
                 img: "/couture/white-plum-gown.webp",
                 alt: "White mulberry silk gown with red plum-blossom embroidery from the Christopher Bu atelier",
                 t: "Hand embroidery on silk",
-                d: "A white mulberry silk gown with red plum-blossom hand embroidery. Cloth at this weight has to carry stitch tension without puckering — the failure is invisible until the light hits it.",
+                d: "A white mulberry silk gown with red plum-blossom hand embroidery. Cloth at this weight has to carry stitch tension without puckering. The failure is invisible until the light hits it.",
                 href: "/blog/paz-vega-hand-embroidered-silk-oscars",
                 label: "Read the Oscars case study",
               },
@@ -562,7 +699,7 @@ export default function SilkFabricsPage() {
                 img: "/blog/yizhou-riverside-dawn.webp",
                 alt: "The Xiajian River valley in Yizhou at dawn, the mulberry silk growing region",
                 t: "Where the fibre starts",
-                d: "Yizhou, Guangxi — the raw silk origin the local mills we work with draw from. The full production record, and what the official figures actually say.",
+                d: "Yizhou, Guangxi. The raw silk origin the local mills we work with draw from. The full production record. What the official figures actually say.",
                 href: "/yizhou-raw-silk",
                 label: "Yizhou raw silk",
               },
@@ -724,6 +861,22 @@ export default function SilkFabricsPage() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(
+              articleJsonLd({
+                path: "/silk-fabrics",
+                headline:
+                  "Silk fabric types: 22 constructions, and how to choose one",
+                description:
+                  "A working guide to silk fabric types — 22 constructions by weave, momme and use, from habotai lining at 5 momme to structured mikado at 30.",
+                image: "/blog/fan-bingbing-forbidden-city-cape.webp",
+                datePublished: HUB_UPDATED,
+              }),
+            ),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(
               breadcrumbJsonLd([
                 { name: "Home", path: "" },
                 { name: "Silk fabrics", path: "/silk-fabrics" },
@@ -746,6 +899,11 @@ export default function SilkFabricsPage() {
             ),
           }}
         />
+        <SourcesBlock
+          sources={sources}
+          methodology="Methodology: the weight ranges on this page are commercial ranges agreed with the mills, not a mill guarantee for every roll. The finished-weight figure is the one quoted in a written specification. Denier and grade follow GB/T 1797-2008, the national raw silk standard. The origin statements rest on the Yizhou district government and Hechi civil affairs publications. Red-carpet descriptions follow the contemporaneous coverage listed above. The silk attribution for those garments rests on the atelier's own production records. Availability states are checked against the product pages on this site. A construction marked sample on request is not a stock claim."
+        />
+
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

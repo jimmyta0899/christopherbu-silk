@@ -14,9 +14,11 @@ export default function Analytics() {
 
   return (
     <>
+      {/* 外部 GTM 放到 window.load 之后。内联桩先就位，事件会入 dataLayer，
+          等 GTM 到达后统一处理，因此留资事件不会因为延迟加载而丢失。 */}
       <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
-        strategy="afterInteractive"
+        strategy="lazyOnload"
       />
       <Script id="ga4-init" strategy="afterInteractive">
         {`

@@ -67,3 +67,51 @@ export function itemListJsonLd(
     })),
   };
 }
+
+/**
+ * Article：hub 页的署名与责任归属。
+ * 用 Article 而不是 BlogPosting，因为这些页是参考指南、不是时效性博文；
+ * author 指到品牌主理人，publisher 指到公司，二者都是可追责的实体。
+ */
+export function articleJsonLd({
+  path,
+  headline,
+  description,
+  image,
+  datePublished,
+  dateModified,
+}: {
+  path: string;
+  headline: string;
+  description: string;
+  image?: string;
+  datePublished: string;
+  dateModified?: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline,
+    description,
+    mainEntityOfPage: { "@type": "WebPage", "@id": absUrl(path) },
+    ...(image ? { image: `${siteConfig.url}${image}` } : {}),
+    datePublished,
+    dateModified: dateModified ?? datePublished,
+    inLanguage: "en",
+    author: {
+      "@type": "Person",
+      name: "Christopher Bu",
+      url: absUrl("/about"),
+      jobTitle: "Founder and creative director",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: siteConfig.name,
+      url: absUrl(""),
+      logo: {
+        "@type": "ImageObject",
+        url: `${siteConfig.url}/brand-wordmark.png`,
+      },
+    },
+  };
+}
