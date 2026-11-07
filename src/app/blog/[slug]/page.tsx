@@ -92,6 +92,28 @@ export default async function BlogPostPage({ params }: Props) {
     keywords: post.keywords.join(", "),
   };
 
+  // 面包屑结构化数据：页面本身已有可视面包屑，但缺 JSON-LD，
+  // 搜索结果里就没法用 Home › Journal › 文章标题 替换裸 URL。
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${siteConfig.url}/` },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Sourcing journal",
+        item: `${siteConfig.url}/blog/`,
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: post.title,
+        item: `${siteConfig.url}/blog/${post.slug}/`,
+      },
+    ],
+  };
+
   return (
     <>
       <Header />
@@ -99,6 +121,10 @@ export default async function BlogPostPage({ params }: Props) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
         />
 
         {/* 面包屑 */}

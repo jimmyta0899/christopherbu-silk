@@ -6,6 +6,7 @@ import { Footer } from "@/components/Footer";
 import { HeroCarousel } from "@/components/HeroCarousel";
 import { products } from "@/lib/products";
 import { pressItems } from "@/lib/press";
+import { blogPosts } from "@/lib/blog";
 import { faqs } from "@/lib/faq";
 import { siteConfig } from "@/lib/site-config";
 
@@ -15,6 +16,12 @@ export const metadata: Metadata = {
 };
 
 export default function HomePage() {
+  // 首页只精选 4 篇故事版，其余文章在这里兜底列出——
+  // 否则新技术稿只剩 /blog 列表页一条内链，爬虫很难爬到。
+  const offHomepagePosts = blogPosts.filter(
+    (p) => !pressItems.some((item) => item.slug === p.slug),
+  );
+
   const organizationJsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -250,6 +257,33 @@ export default function HomePage() {
                     </Link>
                   ))}
                 </div>
+
+                {/* 抓取入口：故事版之外的技术稿在这里兜底，保证每篇至少有首页一条内链 */}
+                {offHomepagePosts.length > 0 && (
+                  <div className="mt-6 border-t border-line pt-5">
+                    <p className="text-xs font-medium uppercase tracking-[0.18em] text-gold">
+                      Sourcing guides
+                    </p>
+                    <ul className="mt-3 space-y-2.5">
+                      {offHomepagePosts.map((post) => (
+                        <li key={post.slug}>
+                          <Link
+                            href={`/blog/${post.slug}`}
+                            className="text-sm font-medium leading-snug text-jade-deep transition-colors hover:text-gold"
+                          >
+                            {post.title} →
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                    <Link
+                      href="/blog"
+                      className="mt-4 inline-block text-sm font-medium text-gold hover:text-jade"
+                    >
+                      All {blogPosts.length} articles →
+                    </Link>
+                  </div>
+                )}
               </aside>
             </div>
           </div>
