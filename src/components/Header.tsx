@@ -74,16 +74,22 @@ const nav = [
 export function Header() {
   return (
     <header className="relative z-50">
-      {/* 满屏印花背景 */}
+      {/* 满屏印花背景。用原生 img + srcset：静态导出下 next/image 不生成多尺寸，
+          移动端会因此加载 1600px 原图（114KB），成为全站 LCP 瓶颈。 */}
       <div className="absolute inset-0 overflow-hidden">
-        <Image
-          src="/print-bg-clean.webp"
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/print-bg-clean-1200.webp"
+          srcSet="/print-bg-clean-828.webp 828w, /print-bg-clean-1200.webp 1200w, /print-bg-clean.webp 1600w"
+          sizes="100vw"
           alt=""
           aria-hidden="true"
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover"
+          fetchPriority="high"
+          loading="eager"
+          decoding="async"
+          width={1600}
+          height={400}
+          className="absolute inset-0 h-full w-full object-cover"
         />
         {/* 深色遮罩，保证前景文字可读 */}
         <div className="absolute inset-0 bg-jade-deep/70" />
