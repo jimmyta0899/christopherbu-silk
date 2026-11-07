@@ -1,4 +1,4 @@
-:HL["/_next/static/chunks/2hp5pxylsaxz_.css","style"]
+:HL["/_next/static/chunks/2byb12izw6msq.css","style"]
 :HL["/_next/static/media/6f3ab718e3727c1a-s.p.3huc2loe0ie8a.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/82450a180bcad83c-s.p.0p-wng2nn8o-p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/brand-wordmark.png","image"]
@@ -6,4 +6,4 @@
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"georgette","s":[]},"h":96,"c":"$Q3"}]]
 1:[["children",{"s":"products","h":64,"c":"$Q2"}]]
-0:{"b":"YA5ljJWu2zf0eopEMyLqE","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
+0:{"b":"7l_2T2j6xTHcvcvCJt01J","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
