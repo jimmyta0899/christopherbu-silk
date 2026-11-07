@@ -15,13 +15,14 @@ export function generateStaticParams() {
   return blogPosts.map((p) => ({ slug: p.slug }));
 }
 
-// 渲染 body 里的 **加粗** 标记（实体定义）与 [n] 引用序号上标，过滤内部注释标记
+// 行内标记：**加粗**、[n] 引用上标、[text](/path) 与 [text](https://…) 链接
 function renderInline(text: string) {
   const cleaned = text
     .replace(/<!--.*?-->/g, "")
     .replace(/\[(?:ORIGINAL DATA|UNIQUE INSIGHT|PERSONAL EXPERIENCE)\]/gi, "");
-  // 先把 [n] 引用序号占位，避免与 ** 分割冲突
-  const parts = cleaned.split(/(\*\*[^*]+\*\*|\[\d+\])/g);
+  const parts = cleaned.split(
+    /(\*\*[^*]+\*\*|\[\d+\]|\[[^\]]+\]\((?:https?:\/\/|\/)[^)\s]+\))/g
+  );
   return parts.map((part, i) => {
     if (part.startsWith("**") && part.endsWith("**")) {
       return (
@@ -37,7 +38,62 @@ function renderInline(text: string) {
         </sup>
       );
     }
+    const link = part.match(/^\[([^\]]+)\]\(((?:https?:\/\/|\/)[^)\s]+)\)$/);
+    if (link) {
+      const [, label, href] = link;
+      if (href.startsWith("/")) {
+        return (
+          <Link
+            key={i}
+            href={href}
+            className="font-medium text-gold underline decoration-gold/40 underline-offset-2 transition-colors hover:text-jade"
+          >
+            {label}
+          </Link>
+        );
+      }
+      return (
+        <a
+          key={i}
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-medium text-gold underline decoration-gold/40 underline-offset-2 transition-colors hover:text-jade"
+        >
+          {label}
+        </a>
+      );
+    }
     return <span key={i}>{part}</span>;
+  });
+}
+
+// 正文块：空行分段；连续 "- " 行渲染为真列表
+function renderBody(text: string) {
+  const blocks = text.split(/\n{2,}/).map((b) => b.trim()).filter(Boolean);
+  return blocks.map((block, i) => {
+    if (block.startsWith("- ")) {
+      const items = block
+        .split("\n")
+        .map((l) => l.trim())
+        .filter((l) => l.startsWith("- "))
+        .map((l) => l.replace(/^-\s+/, ""));
+      return (
+        <ul
+          key={i}
+          className="mt-3 list-disc space-y-2 pl-5 text-base leading-relaxed text-ink-soft"
+        >
+          {items.map((item, j) => (
+            <li key={j}>{renderInline(item)}</li>
+          ))}
+        </ul>
+      );
+    }
+    return (
+      <p key={i} className="mt-3 text-base leading-relaxed text-ink-soft">
+        {renderInline(block)}
+      </p>
+    );
   });
 }
 
@@ -68,7 +124,11 @@ export default async function BlogPostPage({ params }: Props) {
     // 去掉内部注释标记与 [n] 引用角标，保留干净正文
     .replace(/<!--.*?-->/g, "")
     .replace(/\[(?:ORIGINAL DATA|UNIQUE INSIGHT|PERSONAL EXPERIENCE)\]/gi, "")
-    .replace(/\[\d+\]/g, "");
+    .replace(/\[\d+\]/g, "")
+    // 链接降为纯文本、去掉加粗与列表符，避免结构化数据里混入 Markdown
+    .replace(/\[([^\]]+)\]\((?:https?:\/\/|\/)[^)\s]+\)/g, "$1")
+    .replace(/\*\*([^*]+)\*\*/g, "$1")
+    .replace(/^-\s+/gm, "");
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -150,9 +210,15 @@ export default async function BlogPostPage({ params }: Props) {
           <h1 className="font-display mt-4 text-4xl font-medium text-jade-deep md:text-5xl">
             {post.title}
           </h1>
-          <p className="mt-5 text-lg leading-relaxed text-ink-soft">
-            {post.intro}
-          </p>
+          <div className="mt-5 space-y-4 text-lg leading-relaxed text-ink-soft">
+            {post.intro
+              .split(/\n{2,}/)
+              .map((para) => para.trim())
+              .filter(Boolean)
+              .map((para, i) => (
+                <p key={i}>{renderInline(para)}</p>
+              ))}
+          </div>
         </div>
 
         {/* 摘要框（Key Takeaways） */}
@@ -165,7 +231,7 @@ export default async function BlogPostPage({ params }: Props) {
               {post.takeaways.map((t) => (
                 <li key={t} className="flex gap-2.5 text-sm leading-relaxed text-ink-soft">
                   <span className="mt-0.5 text-gold">›</span>
-                  <span>{t}</span>
+                  <span>{renderInline(t)}</span>
                 </li>
               ))}
             </ul>
@@ -184,9 +250,7 @@ export default async function BlogPostPage({ params }: Props) {
                   {s.heading}
                 </h2>
               )}
-              <p className="mt-3 text-base leading-relaxed text-ink-soft">
-                {renderInline(s.body)}
-              </p>
+              {renderBody(s.body)}
 
               {/* 对比表格（含 thead，利于 AI 提取） */}
               {s.table && (
@@ -255,9 +319,11 @@ export default async function BlogPostPage({ params }: Props) {
                           alt={img.alt}
                           className="h-auto w-full object-cover"
                         />
-                        <figcaption className="border-t border-line bg-ivory-deep px-4 py-3 text-xs text-ink-muted">
-                          {img.caption}
-                        </figcaption>
+                        {img.caption && (
+                          <figcaption className="border-t border-line bg-ivory-deep px-4 py-3 text-xs text-ink-muted">
+                            {img.caption}
+                          </figcaption>
+                        )}
                       </figure>
                     ))}
                 </div>
@@ -299,7 +365,9 @@ export default async function BlogPostPage({ params }: Props) {
                         </>
                       )}
                     </p>
-                    <p className="mt-1 text-ink-muted">{r.supports}</p>
+                    {r.supports && (
+                      <p className="mt-1 text-ink-muted">{r.supports}</p>
+                    )}
                   </div>
                 </li>
               ))}
@@ -370,6 +438,48 @@ export default async function BlogPostPage({ params }: Props) {
             </div>
           </div>
         </div>
+
+        {/* 相关阅读：把 14 篇互相串起来，避免只靠列表页一条入链 */}
+        {(() => {
+          const idx = blogPosts.findIndex((p) => p.slug === post.slug);
+          const rotated = [
+            ...blogPosts.slice(idx + 1),
+            ...blogPosts.slice(0, Math.max(idx, 0)),
+          ];
+          const pool = [
+            ...blogPosts.filter((p) => p.slug !== post.slug && p.type === post.type),
+            ...rotated,
+          ];
+          const seen = new Set<string>();
+          const related = pool
+            .filter((p) => p.slug !== post.slug && !seen.has(p.slug) && seen.add(p.slug))
+            .slice(0, 3);
+          if (!related.length) return null;
+          return (
+            <nav aria-label="Related reading" className="mt-12 border-t border-line pt-8">
+              <h2 className="font-display text-sm font-medium uppercase tracking-wide text-jade-deep">
+                Related reading
+              </h2>
+              <ul className="mt-4 grid gap-4 sm:grid-cols-3">
+                {related.map((r) => (
+                  <li key={r.slug}>
+                    <Link
+                      href={`/blog/${r.slug}`}
+                      className="block h-full border border-line p-4 transition-colors hover:border-gold"
+                    >
+                      <span className="text-xs uppercase tracking-wide text-ink-muted">
+                        {r.type}
+                      </span>
+                      <span className="font-display mt-2 block text-base font-medium text-jade-deep">
+                        {r.title}
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          );
+        })()}
       </main>
       <Footer />
     </>

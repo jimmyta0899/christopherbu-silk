@@ -1,5 +1,7 @@
-// 博客数据：5 篇 GEO 规范内容（结论前置 + 数据精确 + 问答小标题 + 无空话）
+// 博客数据：6 篇品牌/产地叙事 + 8 篇 2026-11-06 采购深度稿（见 blog-deep-2026-11.ts）
 // 合规红线：只写 atelier archive / reference，不写 same fabric as 明星同款
+
+import { deepDraftPosts } from "./blog-deep-2026-11";
 
 export type BlogImage = {
   src: string;
@@ -30,7 +32,7 @@ export type BlogReference = {
   title: string; // 文章或标准标题
   year: string;
   url?: string; // 仅放已实测可打开的链接；打不开就只写名称
-  supports: string; // 这条来源具体支撑正文哪一句
+  supports?: string; // 这条来源具体支撑正文哪一句（深度稿批次未逐条标注）
 };
 
 export type BlogPost = {
@@ -53,6 +55,8 @@ export type BlogPost = {
 };
 
 export const blogPosts: BlogPost[] = [
+  // 2026-11-06 深度稿批次（8 篇），由 sprint-kit/convert-drafts.mjs 从 Markdown 生成
+  ...deepDraftPosts,
   {
     slug: "yizhou-mulberry-silk-longevity-to-world",
     title:
