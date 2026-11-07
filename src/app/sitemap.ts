@@ -16,6 +16,14 @@ const CONTENT_UPDATED = new Date("2026-11-07");
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteConfig.url;
 
+  /**
+   * 站点开着 trailingSlash（next.config），线上真实 URL 一律以 / 结尾：
+   *   /samples  -> 301 -> /samples/
+   * sitemap 里如果写不带斜杠的地址，Google 抓到的是 301，全部归为
+   * "Page with redirect"，等于白交一份地图。所以这里统一补斜杠。
+   */
+  const abs = (path: string) => (path === "" ? `${base}/` : `${base}${path}/`);
+
   const staticRoutes: {
     path: string;
     priority: number;
@@ -38,14 +46,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   const staticEntries = staticRoutes.map((r) => ({
-    url: `${base}${r.path}`,
+    url: abs(r.path),
     lastModified: CONTENT_UPDATED,
     changeFrequency: r.freq,
     priority: r.priority,
   }));
 
   const productRoutes = products.map((p) => ({
-    url: `${base}/products/${p.slug}`,
+    url: abs(`/products/${p.slug}`),
     lastModified: CONTENT_UPDATED,
     changeFrequency: "monthly" as const,
     priority: p.featured ? 0.9 : 0.6,
@@ -53,14 +61,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // 每个系列页都是「高定屋」的证据链，不要漏在 sitemap 之外
   const rtwRoutes = rtwSeasons.map((s) => ({
-    url: `${base}/rtw/${s.slug}`,
+    url: abs(`/rtw/${s.slug}`),
     lastModified: CONTENT_UPDATED,
     changeFrequency: "yearly" as const,
     priority: 0.4,
   }));
 
   const blogRoutes = blogPosts.map((post) => ({
-    url: `${base}/blog/${post.slug}`,
+    url: abs(`/blog/${post.slug}`),
     lastModified: new Date(post.publishDate),
     changeFrequency: "monthly" as const,
     priority: 0.6,
