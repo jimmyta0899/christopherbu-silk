@@ -7,16 +7,18 @@ import { products } from "@/lib/products";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Free Silk Swatches | DHL Worldwide from Yizhou, China",
+  title: "Free Silk Samples | DHL Worldwide from Yizhou, China",
   description:
-    "Free silk swatches — no charge for the fabric itself, you cover the courier only. Request mini swatches of dupioni, satin, habotai, georgette, jacquard and raw silk yarn from Yizhou, China. Full-size samples are chargeable.",
+    "Free silk samples — no charge for the fabric itself, you cover the courier only. Request mini samples of dupioni, satin, habotai, georgette, jacquard and raw silk yarn from Yizhou, China. Full-size samples are chargeable.",
   keywords: [
-    "free silk swatch",
+    "free silk sample",
     "free silk samples",
-    "free fabric swatch",
-    "silk swatch Yizhou",
+    "free sample silk fabric",
+    "free fabric sample",
+    "silk sample Yizhou",
     "silk fabric sample free shipping",
-    "request silk swatch",
+    "request silk sample",
+    "silk sample request",
   ],
   alternates: { canonical: "/samples" },
   openGraph: pageOpenGraph("/samples"),
@@ -24,15 +26,15 @@ export const metadata: Metadata = {
 
 const faqs = [
   {
-    q: "Are the swatches really free?",
-    a: "The swatch itself is free — we make no material charge for mini swatches once we have confirmed availability of the quality you ask for. The buyer covers courier, customs and related international shipping, normally by DHL or a designated courier.",
+    q: "Are the samples really free?",
+    a: "The sample itself is free — we make no material charge for mini samples once we have confirmed availability of the quality you ask for. The buyer covers courier, customs and related international shipping, normally by DHL or a designated courier.",
   },
   {
     q: "Do I have to pay for the fabric to see it first?",
-    a: "No. Silk is judged by hand, weight and luster, which no photograph reproduces. We send mini swatches free of material charge so you can verify hand and colour before committing to bulk. Full-size sample yardage and finished apparel are chargeable.",
+    a: "No. Silk is judged by hand, weight and luster, which no photograph reproduces. We send mini samples free of material charge so you can verify hand and colour before committing to bulk. Full-size sample yardage and finished apparel are chargeable.",
   },
   {
-    q: "How are swatches shipped?",
+    q: "How are samples shipped?",
     a: "By DHL worldwide or a designated courier, dispatched once availability is confirmed. Shipping, customs and any related charges are borne by the buyer.",
   },
   {
@@ -40,8 +42,8 @@ const faqs = [
     a: "Yes. Select every quality you are considering — raw silk yarn, greige fabric, dupioni, satin, stretch satin, jacquard luo, georgette, habotai or silk blends — and we will confirm availability across the set in one reply.",
   },
   {
-    q: "Can I get a swatch in my own colour?",
-    a: "Standard shade card colours are the fastest route. Custom colours are dyed to order, so a dyed swatch is quoted separately once we have your reference — Pantone code, lab dip target or a physical sample.",
+    q: "Can I get a sample in my own colour?",
+    a: "Standard shade card colours are the fastest route. Custom colours are dyed to order, so a dyed sample is quoted separately once we have your reference — Pantone code, lab dip target or a physical sample.",
   },
 ];
 
@@ -65,13 +67,13 @@ export default function SamplesPage() {
       />
       <main className="mx-auto max-w-6xl px-6 py-16 md:py-20">
         <p className="text-xs font-medium uppercase tracking-[0.18em] text-gold">
-          Free swatch service
+          Free sample service
         </p>
         <h1 className="mt-3 font-display text-4xl font-medium text-jade-deep md:text-5xl">
-          Free silk swatches, sent worldwide
+          Free silk samples, sent worldwide
         </h1>
         <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink-soft">
-          We charge nothing for the swatch itself. Tell us which qualities you are
+          We charge nothing for the sample itself. Tell us which qualities you are
           considering, we confirm what is available, and it ships by DHL from
           Yizhou — you cover the courier only. A silk hand-feel sample is the only
           way to judge drape, slub and luster before you commit to bulk.
@@ -88,7 +90,7 @@ export default function SamplesPage() {
             {
               n: "02",
               t: "We confirm availability",
-              d: "Swatches are free of material charge once the quality you asked for is confirmed in stock.",
+              d: "Samples are free of material charge once the quality you asked for is confirmed in stock.",
             },
             {
               n: "03",
@@ -110,10 +112,10 @@ export default function SamplesPage() {
         <div className="mt-10 grid gap-8 md:grid-cols-2">
           <div className="border border-jade/40 bg-ivory-deep p-8">
             <h2 className="font-display text-2xl font-medium text-jade-deep">
-              Free — mini swatches
+              Free — mini samples
             </h2>
             <p className="mt-3 text-sm leading-relaxed text-ink-soft">
-              {siteConfig.samplePolicy.freeSwatches}
+              {siteConfig.samplePolicy.freeSamples}
             </p>
           </div>
           <div className="border border-line bg-ivory-deep p-8">
@@ -130,7 +132,7 @@ export default function SamplesPage() {
           {/* 表单 */}
           <section>
             <h2 className="font-display text-2xl font-medium text-jade-deep">
-              Request your free swatches
+              Request your free samples
             </h2>
             <form
               action={`mailto:${siteConfig.email}`}
@@ -182,7 +184,7 @@ export default function SamplesPage() {
                 type="submit"
                 className="rounded-full bg-jade px-7 py-3.5 text-sm font-medium text-ivory transition-colors hover:bg-jade-deep"
               >
-                Request Free Swatches
+                Request Free Samples
               </button>
             </form>
           </section>
@@ -194,7 +196,7 @@ export default function SamplesPage() {
                 What you receive
               </h3>
               <ul className="mt-4 space-y-2.5 text-sm text-ink-soft">
-                <li>• Mini swatches by product, weight and finish</li>
+                <li>• Mini samples by product, weight and finish</li>
                 <li>• Hand, weight and colour verification before production</li>
                 <li>• Full-size samples on request (chargeable)</li>
                 <li>• Global DHL shipping</li>
@@ -207,7 +209,7 @@ export default function SamplesPage() {
               <p className="mt-3 text-sm text-ink-soft">
                 {siteConfig.trade.sampleShipping}. Courier, customs and related
                 international charges are borne by the buyer — that is the only
-                cost of a swatch.
+                cost of a sample.
               </p>
             </div>
             <div className="border border-line bg-ivory-deep p-6">
@@ -231,7 +233,7 @@ export default function SamplesPage() {
         {/* FAQ */}
         <section className="mt-16 border-t border-line pt-12">
           <h2 className="font-display text-3xl font-medium text-jade-deep">
-            Free swatch questions
+            Free sample questions
           </h2>
           <dl className="mt-8 grid gap-8 md:grid-cols-2">
             {faqs.map((f) => (

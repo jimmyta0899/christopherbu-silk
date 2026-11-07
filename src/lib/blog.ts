@@ -148,7 +148,7 @@ export const blogPosts: BlogPost[] = [
         body: "For a buyer, the origin matters in two ways. First, it explains consistency: a region that rears and reels at this scale, and grades to a national standard, produces a yarn you can specify and reorder. Second, it explains availability: the largest mulberry silk county in the country is the kind of place that can meet a bulk order without improvisation. When you specify silk, name the weight, the weave, and the grade you want, and ask where the silk is from. A supplier who can name the region and the grade is working from a real supply, not a guess.",
         links: [
           { text: "dupioni silk greige", href: "/products/dupioni" },
-          { text: "request a free swatch", href: "/samples" },
+          { text: "request a free sample", href: "/samples" },
           { text: "about us", href: "/about" },
           { text: "contact the B2B team", href: "/contact" },
         ],
@@ -195,14 +195,14 @@ export const blogPosts: BlogPost[] = [
     slug: "sourcing-silk-for-ateliers-worldwide",
     title: "Sourcing Silk for Couture Ateliers Worldwide: Lead Times, MOQs and Trade Terms",
     metaDescription:
-      "A practical guide for couture ateliers in Europe, North America and the Middle East sourcing mulberry silk: lead times, MOQ, FOB terms, landed cost and why a swatch comes first.",
+      "A practical guide for couture ateliers in Europe, North America and the Middle East sourcing mulberry silk: lead times, MOQ, FOB terms, landed cost and why a sample comes first.",
     type: "Buyer guide",
     publishDate: "2026-11-03",
     keywords: [
       "silk fabric for couture atelier",
       "mulberry silk MOQ",
       "FOB silk fabric",
-      "silk swatch",
+      "silk sample",
     ],
     anchorTexts: ["silk sourcing for ateliers", "mulberry silk MOQ", "FOB silk fabric"],
     linkTo: "/trade-terms",
@@ -217,17 +217,17 @@ export const blogPosts: BlogPost[] = [
       "Bulk silk orders ship in 20 to 25 days, not a week, wherever the atelier is.",
       "There is no universal fixed MOQ — small batches (e.g. 50m plain weave) and custom jacquard runs are reference figures, confirmed in the written quotation.",
       "FOB means the supplier covers freight to the named port; you cover insurance and onward shipping.",
-      "A free fabric swatch, with the buyer covering shipping, is the cheapest way to catch a wrong weight or hand before bulk.",
+      "A free fabric sample, with the buyer covering shipping, is the cheapest way to catch a wrong weight or hand before bulk.",
     ],
     sections: [
       {
         heading: "Lead time reality: 25 days, not 7",
-        body: "Bulk silk orders ship in 20 to 25 days. That span covers weaving, inspection, and the ocean freight leg to the destination port. It does not matter whether the atelier is in Paris, Los Angeles, or Dubai: the cloth leaves the same way, and the sea crossing is what it is. Planning around the real timeline is the difference between a gown delivered for the client's deadline and a rushed order that lands late. For a first order, add the swatch stage to the front of that clock. A swatch is the one step that lets you fix the weight and hand before the 25-day count even starts, which is why it should come before the bulk order, not after.",
+        body: "Bulk silk orders ship in 20 to 25 days. That span covers weaving, inspection, and the ocean freight leg to the destination port. It does not matter whether the atelier is in Paris, Los Angeles, or Dubai: the cloth leaves the same way, and the sea crossing is what it is. Planning around the real timeline is the difference between a gown delivered for the client's deadline and a rushed order that lands late. For a first order, add the sample stage to the front of that clock. A sample is the one step that lets you fix the weight and hand before the 25-day count even starts, which is why it should come before the bulk order, not after.",
         image: {
           src: "/products/greige-fabric.webp",
           alt: "Greige mulberry silk fabric, the undyed cloth a couture atelier specifies before ordering",
           caption:
-            "Greige mulberry silk, the undyed cloth an atelier checks on a swatch before ordering.",
+            "Greige mulberry silk, the undyed cloth an atelier checks on a sample before ordering.",
         },
       },
       {
@@ -239,14 +239,14 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "MOQ: reference minimums, confirmed in writing",
-        body: "**MOQ** is the minimum order quantity, the smallest run a supplier will accept. There is no universal fixed MOQ — small trial rolls, custom widths and swatches may be available subject to material, mill and schedule review, and the final figure is confirmed in the written quotation. [REFERENCE EXAMPLE] A plain weave is often quoted from around a 50m small batch, which suits an atelier testing a fabric, while custom jacquard is typically quoted from around 200m because the cost of cutting a new card and setting the loom has to be spread over enough cloth to make sense. For example, a motif woven for one gown would carry the whole setup cost on a few meters, so the supplier sets a reference floor that keeps the price workable. Know your volume before you enquire. A 50m test order and a 200m jacquard run are two different conversations, and naming which one you want saves a round of questions.",
+        body: "**MOQ** is the minimum order quantity, the smallest run a supplier will accept. There is no universal fixed MOQ — small trial rolls, custom widths and samples may be available subject to material, mill and schedule review, and the final figure is confirmed in the written quotation. [REFERENCE EXAMPLE] A plain weave is often quoted from around a 50m small batch, which suits an atelier testing a fabric, while custom jacquard is typically quoted from around 200m because the cost of cutting a new card and setting the loom has to be spread over enough cloth to make sense. For example, a motif woven for one gown would carry the whole setup cost on a few meters, so the supplier sets a reference floor that keeps the price workable. Know your volume before you enquire. A 50m test order and a 200m jacquard run are two different conversations, and naming which one you want saves a round of questions.",
         table: {
           caption: "Reference order minimums at a glance",
           headers: ["Order type", "Reference minimum", "Why"],
           rows: [
             ["Plain weave", "≈50m", "Small test batch for hand and weight"],
             ["Custom jacquard", "≈200m", "Loom and card setup spread over the run"],
-            ["Mini swatch", "Free (buyer covers shipping)", "Availability confirmed first"],
+            ["Mini sample", "Free (buyer covers shipping)", "Availability confirmed first"],
           ],
         },
         links: [
@@ -255,16 +255,16 @@ export const blogPosts: BlogPost[] = [
         ],
       },
       {
-        heading: "The swatch safety net",
-        body: "A mini fabric swatch — supplied without a material charge once availability is confirmed, with the buyer covering courier and customs — lets an atelier verify the hand, the weight, and the weave before committing to meters. It is the cheapest insurance against the expensive kind of rework: cutting hundreds of meters of the wrong cloth because the screen lied about the drape. Color on a screen is a suggestion; color in the hand is a decision. The swatch is where the regional differences stop mattering. An atelier in any country receives the same swatch, checks the same hand, and makes the same call before the loom starts. Full-size silk fabrics and finished apparel are chargeable, and any sample-fee credit against a later bulk order applies only when stated in the written quotation or pro forma invoice.",
+        heading: "The sample safety net",
+        body: "A mini fabric sample — supplied without a material charge once availability is confirmed, with the buyer covering courier and customs — lets an atelier verify the hand, the weight, and the weave before committing to meters. It is the cheapest insurance against the expensive kind of rework: cutting hundreds of meters of the wrong cloth because the screen lied about the drape. Color on a screen is a suggestion; color in the hand is a decision. The sample is where the regional differences stop mattering. An atelier in any country receives the same sample, checks the same hand, and makes the same call before the loom starts. Full-size silk fabrics and finished apparel are chargeable, and any sample-fee credit against a later bulk order applies only when stated in the written quotation or pro forma invoice.",
         links: [
-          { text: "request a free swatch", href: "/samples" },
+          { text: "request a free sample", href: "/samples" },
         ],
       },
       {
         heading: "Specifying your order",
         level: 3,
-        body: "Confirm the hand on a swatch, name the volume, and read the landed cost rather than the FOB quote. Treat the swatch as the first step, not an afterthought.",
+        body: "Confirm the hand on a sample, name the volume, and read the landed cost rather than the FOB quote. Treat the sample as the first step, not an afterthought.",
         links: [
           { text: "about us", href: "/about" },
           { text: "contact the B2B team", href: "/contact" },
@@ -286,11 +286,11 @@ export const blogPosts: BlogPost[] = [
         year: "2008",
         url: "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7764FD3A7E05397BE0A0AB82A",
         supports:
-          "The 4A to 6A raw silk grading scale referenced in the swatch section.",
+          "The 4A to 6A raw silk grading scale referenced in the sample section.",
       },
     ],
     methodology:
-      "Methodology: the lead time, MOQ, FOB, and swatch terms in this page come from the supplier's standard trade terms, the same figures quoted to buyers in every market. The FOB definition follows the ICC Incoterms 2020 rules, and the raw silk grade follows GB/T 1797-2008. This page is reviewed by the Christopher Bu editorial team.",
+      "Methodology: the lead time, MOQ, FOB, and sample terms in this page come from the supplier's standard trade terms, the same figures quoted to buyers in every market. The FOB definition follows the ICC Incoterms 2020 rules, and the raw silk grade follows GB/T 1797-2008. This page is reviewed by the Christopher Bu editorial team.",
   },
   {
     slug: "momme-vs-denier-silk-specs",
@@ -365,9 +365,9 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Specifying your order",
         level: 3,
-        body: "Name the end use first, whether that is a gown, an overlay, or an embroidery base, then pick the weight that matches and confirm the hand on a swatch before ordering bulk.",
+        body: "Name the end use first, whether that is a gown, an overlay, or an embroidery base, then pick the weight that matches and confirm the hand on a sample before ordering bulk.",
         links: [
-          { text: "request a free swatch", href: "/samples" },
+          { text: "request a free sample", href: "/samples" },
           { text: "about us", href: "/about" },
           { text: "contact the B2B team", href: "/contact" },
         ],
@@ -519,18 +519,18 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Conclusion",
-        body: "Dupioni is the clearest example of how a silk's texture comes from its yarn, not its finish. Two silkworms, one cocoon, and the slubs that result are what give the cloth its structure and its play of light. For a buyer, the lesson is simple: specify the weight, the width, and the grade up front, and confirm the slub character on a swatch before you commit to meters.",
+        body: "Dupioni is the clearest example of how a silk's texture comes from its yarn, not its finish. Two silkworms, one cocoon, and the slubs that result are what give the cloth its structure and its play of light. For a buyer, the lesson is simple: specify the weight, the width, and the grade up front, and confirm the slub character on a sample before you commit to meters.",
         links: [
           { text: "dupioni silk greige", href: "/products/dupioni" },
-          { text: "request a free swatch", href: "/samples" },
+          { text: "request a free sample", href: "/samples" },
         ],
       },
       {
         heading: "Specifying your order",
         level: 3,
-        body: "Specify the weight, the width, and the quantity you need. Order the swatch first — mini swatches are supplied free of material charge once availability is confirmed — and confirm the slub character and hand before you commit to meters. Full specs and MOQ are on the dupioni silk product page. Read about us for the company behind the supply, or contact the B2B team directly.",
+        body: "Specify the weight, the width, and the quantity you need. Order the sample first — mini samples are supplied free of material charge once availability is confirmed — and confirm the slub character and hand before you commit to meters. Full specs and MOQ are on the dupioni silk product page. Read about us for the company behind the supply, or contact the B2B team directly.",
         links: [
-          { text: "request a free swatch", href: "/samples" },
+          { text: "request a free sample", href: "/samples" },
           { text: "check MOQ and trade terms", href: "/trade-terms" },
           { text: "about us", href: "/about" },
           { text: "contact the B2B team", href: "/contact" },
@@ -644,10 +644,10 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "What to specify when you order embroidered silk",
-        body: "If you are ordering a similar cloth, pin down four things before you commit. First, the base: ask for the mulberry silk weight and width, so you know what the embroidery is going onto. Second, the embroidery thread and stitch, and whether the work is hand or machine, because that changes the price by a wide margin. Third, the finished yardage, since embroidery work is usually priced on the embroidered area and motif count. Fourth, request a swatch or strike-off before bulk, so the embroidery reads the way you expect under your own light. The safest first step is the same as for any silk order: confirm the hand and the embroidery on a sample before you buy meters.",
+        body: "If you are ordering a similar cloth, pin down four things before you commit. First, the base: ask for the mulberry silk weight and width, so you know what the embroidery is going onto. Second, the embroidery thread and stitch, and whether the work is hand or machine, because that changes the price by a wide margin. Third, the finished yardage, since embroidery work is usually priced on the embroidered area and motif count. Fourth, request a sample or strike-off before bulk, so the embroidery reads the way you expect under your own light. The safest first step is the same as for any silk order: confirm the hand and the embroidery on a sample before you buy meters.",
         links: [
           { text: "dupioni silk greige", href: "/products/dupioni" },
-          { text: "request a free swatch", href: "/samples" },
+          { text: "request a free sample", href: "/samples" },
           { text: "about us", href: "/about" },
           { text: "contact the B2B team", href: "/contact" },
         ],
@@ -655,9 +655,9 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Specifying your order",
         level: 3,
-        body: "Know whether the pattern is woven, printed, or embroidered, and specify the base before you specify the surface. Request the swatch first — mini swatches are supplied free of material charge once availability is confirmed — and confirm the embroidery and hand before you commit to meters.",
+        body: "Know whether the pattern is woven, printed, or embroidered, and specify the base before you specify the surface. Request the sample first — mini samples are supplied free of material charge once availability is confirmed — and confirm the embroidery and hand before you commit to meters.",
         links: [
-          { text: "request a free swatch", href: "/samples" },
+          { text: "request a free sample", href: "/samples" },
           { text: "check MOQ and trade terms", href: "/trade-terms" },
         ],
       },
@@ -792,7 +792,7 @@ export const blogPosts: BlogPost[] = [
         heading: "What to specify when you order a silk jacquard",
         body: "A jacquard order needs three decisions before the loom is set. First, the motif and its repeat size, because the weave plan is built from it. Second, the weave density, which sets how firm or open the cloth is. Third, the silk weight and width, which fix the hand and the yield. A strike-off confirms the motif and density before bulk weaving starts, and it is the point where changes are cheap and later changes are not.",
         links: [
-          { text: "request a free swatch", href: "/samples" },
+          { text: "request a free sample", href: "/samples" },
           { text: "check MOQ and trade terms", href: "/trade-terms" },
           { text: "about us", href: "/about" },
           { text: "contact the B2B team", href: "/contact" },

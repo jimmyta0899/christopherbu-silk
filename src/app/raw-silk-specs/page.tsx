@@ -137,7 +137,7 @@ const faqs = [
   },
   {
     q: "Can I get samples before placing a bulk order?",
-    a: "Yes. Free mini swatches may be supplied after availability is confirmed, and full-size samples are chargeable. See our free swatch service and request a quotation with your denier, grade and intended use.",
+    a: "Yes. Free mini samples may be supplied after availability is confirmed, and full-size samples are chargeable. See our free sample service and request a quotation with your denier, grade and intended use.",
   },
   {
     q: "What does your written quotation include?",
@@ -177,7 +177,7 @@ const quotationIncludes = [
   {
     group: "Samples & testing",
     items: [
-      { field: "Swatch / sample with the quotation", status: "Stated in the written quotation" },
+      { field: "Sample with the quotation", status: "Stated in the written quotation" },
       { field: "Test method reference", status: "Stated in the written quotation" },
       { field: "Inspection / test report", status: "Confirmed in writing before order approval" },
     ],
@@ -453,7 +453,7 @@ export default function RawSilkSpecsPage() {
               data-lead="sample_request_raw_silk_specs"
               className="rounded-full bg-jade px-7 py-3.5 text-sm font-medium text-ivory transition-colors hover:bg-jade-deep"
             >
-              Free Swatch
+              Free Sample
             </Link>
             <Link
               href="/contact"

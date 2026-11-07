@@ -62,8 +62,8 @@ export const siteConfig = {
   },
   // 样品服务政策
   samplePolicy: {
-    freeSwatches:
-      "Mini fabric swatches may be supplied without a material charge after availability is confirmed; buyers bear all courier, customs and related international shipping costs (usually DHL) or designated couriers.",
+    freeSamples:
+      "Mini fabric samples may be supplied without a material charge after availability is confirmed; buyers bear all courier, customs and related international shipping costs (usually DHL) or designated couriers.",
     chargeableSamples:
       "Full-size silk fabrics and finished apparel are chargeable. Any sample-fee credit against a later bulk order applies only when stated in the written quotation or pro forma invoice.",
   },

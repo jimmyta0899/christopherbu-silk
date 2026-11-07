@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   keywords: [
     "FCA Yizhou silk fabric",
     "FOB Qinzhou silk fabric",
-    "FOB Nansha silk swatch",
+    "FOB Nansha silk sample",
     "FOB Yantian silk fabric",
     "silk fabric lead time 25 days",
     "silk reference MOQ",
@@ -35,7 +35,7 @@ const terms = [
       {
         label: "Minimum order",
         value:
-          "No universal fixed MOQ. Small trial rolls, custom widths and fabric swatches may be available subject to material, mill and schedule review.",
+          "No universal fixed MOQ. Small trial rolls, custom widths and fabric samples may be available subject to material, mill and schedule review.",
       },
       {
         label: "Confirmation",
@@ -101,7 +101,7 @@ export default function TradeTermsPage() {
           Export terms
         </h1>
         <p className="mt-5 text-lg leading-relaxed text-ink-soft">
-          Clear, transparent trade terms for silk sourcing — including our free swatch service policy.
+          Clear, transparent trade terms for silk sourcing — including our free sample service policy.
         </p>
 
         <div className="mt-14 space-y-8">

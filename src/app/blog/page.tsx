@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { blogPosts } from "@/lib/blog";
+import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
   title: "Blog — Sourcing Silk from Yizhou",
@@ -14,9 +15,27 @@ export const metadata: Metadata = {
 };
 
 export default function BlogPage() {
+  const blogJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    name: "The sourcing journal",
+    url: `${siteConfig.url}/blog`,
+    publisher: { "@type": "Organization", name: siteConfig.name },
+    blogPost: blogPosts.map((post) => ({
+      "@type": "BlogPosting",
+      headline: post.title,
+      url: `${siteConfig.url}/blog/${post.slug}`,
+      datePublished: post.publishDate,
+    })),
+  };
+
   return (
     <>
       <Header />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(blogJsonLd) }}
+      />
       <main className="mx-auto max-w-4xl px-6 py-16 md:py-20">
         <h1 className="font-display text-4xl font-medium text-jade-deep md:text-5xl">
           The sourcing journal

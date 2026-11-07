@@ -136,7 +136,7 @@ export const products: Product[] = [
       },
       {
         q: "Can I get a raw silk yarn sample before bulk ordering?",
-        a: "Yes. Free mini fabric swatches may be supplied after availability is confirmed, and full-size samples are chargeable. See our free swatch service for details.",
+        a: "Yes. Free mini fabric samples may be supplied after availability is confirmed, and full-size samples are chargeable. See our free sample service for details.",
       },
     ],
     yarnVariants: [
@@ -210,7 +210,7 @@ export const products: Product[] = [
     slug: "greige-fabric",
     name: "Greige Silk Fabric",
     title:
-      "Christopher Bu Greige Silk Fabric Undyed Unfinished Mulberry Silk by Weave — Swatch MOQ FOB Nansha / FOB Yantian Yizhou Silk B2B",
+      "Christopher Bu Greige Silk Fabric Undyed Unfinished Mulberry Silk by Weave — Sample MOQ FOB Nansha / FOB Yantian Yizhou Silk B2B",
     h1: "Greige Silk Fabric (Undyed, Unfinished)",
     metaDescription:
       "Source greige (undyed, unfinished) mulberry silk from Yizhou, China — the raw state of the cloth before dyeing or finishing, by base weave. Bulk supply with OEKO-TEX & GOTS available on request.",
@@ -269,7 +269,7 @@ export const products: Product[] = [
     slug: "satin",
     name: "Satin Silk Fabric",
     title:
-      "Christopher Bu Satin Silk Fabric 10–30mm 114/140cm for Bridal & Eveningwear — Swatch FOB Nansha / FOB Yantian Yizhou Silk Supplier",
+      "Christopher Bu Satin Silk Fabric 10–30mm 114/140cm for Bridal & Eveningwear — Sample FOB Nansha / FOB Yantian Yizhou Silk Supplier",
     h1: "Satin Silk Fabric for Bridal & Eveningwear",
     metaDescription:
       "Source lustrous satin silk fabric from Yizhou, China, in 10/12/14/16/19/22/25/30 momme and 114/140 cm widths. Supplied greige or dyed to order. Ideal for bridal, eveningwear and luxury linings. B2B bulk supply.",
@@ -676,7 +676,7 @@ export const products: Product[] = [
     slug: "dupioni",
     name: "Dupioni Silk",
     title:
-      "Christopher Bu Greige Silk Dupioni 16/19mm 114/140cm for Evening Gowns & Sculptural Tailoring — Swatch FCA Yizhou Silk Supplier",
+      "Christopher Bu Greige Silk Dupioni 16/19mm 114/140cm for Evening Gowns & Sculptural Tailoring — Sample FCA Yizhou Silk Supplier",
     h1: "Dupioni Silk for Gowns & Sculptural Tailoring",
     metaDescription:
       "Source dupioni silk with its signature slub texture from Yizhou, China. Available in 16/19 momme (up to 21–22), 114/140cm. Ideal for evening gowns, bridal and structured couture. B2B bulk supply.",

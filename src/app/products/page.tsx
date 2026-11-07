@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { products } from "@/lib/products";
+import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
   title: "Silk Products — Raw Silk, Greige, Dupioni, Satin, Jacquard, Georgette & More",
@@ -14,9 +15,26 @@ export const metadata: Metadata = {
 };
 
 export default function ProductsPage() {
+  const itemListJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Silk products from Yizhou, China",
+    numberOfItems: products.length,
+    itemListElement: products.map((p, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: p.name,
+      url: `${siteConfig.url}/products/${p.slug}`,
+    })),
+  };
+
   return (
     <>
       <Header />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
+      />
       <main className="mx-auto max-w-6xl px-6 py-16 md:py-20">
         <h1 className="font-display text-4xl font-medium text-jade-deep md:text-5xl">
           Silk supply from Yizhou, for the global textile industry.

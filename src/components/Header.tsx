@@ -63,7 +63,7 @@ const nav = [
     href: "/contact",
     label: "Contact",
     children: [
-      { href: "/samples", label: "Free Swatch", external: false },
+      { href: "/samples", label: "Free Sample", external: false },
       { href: "/trade-terms", label: "Trade Terms", external: false },
       { href: "/faq", label: "FAQ", external: false },
       { href: "/contact", label: "Contact B2B Team", external: false },

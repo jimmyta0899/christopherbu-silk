@@ -43,12 +43,16 @@ export default async function ProductPage({ params }: Props) {
       name: siteConfig.name,
     },
     category: product.category,
-    offers: {
-      "@type": "Offer",
-      availability: "https://schema.org/PreOrder",
-      priceCurrency: "USD",
-      url: `${siteConfig.url}/products/${product.slug}`,
+    image: `${siteConfig.url}${product.image}`,
+    url: `${siteConfig.url}/products/${product.slug}`,
+    material: "Mulberry silk",
+    audience: {
+      "@type": "BusinessAudience",
+      audienceType: "B2B — mills, brands, ateliers and importers",
     },
+    // 注：不放 offers。我们的价格只出现在书面报价里，没有可公开的 price。
+    // 带 offers 却不带 price 会在 GSC「商品摘要」里报 Missing field price 错误，
+    // 比不写 offers 更糟——宁可留 warning，不要留 error。
   };
 
   // FAQ 引用（GEO 关键：让 LLM 抓取结构化问答）
@@ -306,7 +310,7 @@ export default async function ProductPage({ params }: Props) {
               href="/samples"
               className="rounded-full bg-jade px-7 py-3.5 text-sm font-medium text-ivory transition-colors hover:bg-jade-deep"
             >
-              Free Swatch
+              Free Sample
             </Link>
             <Link
               href="/contact"

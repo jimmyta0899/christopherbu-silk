@@ -2,37 +2,61 @@ import type { MetadataRoute } from "next";
 import { siteConfig } from "@/lib/site-config";
 import { products } from "@/lib/products";
 import { blogPosts } from "@/lib/blog";
+import { rtwSeasons } from "@/lib/rtw";
 
 export const dynamic = "force-static";
+
+/**
+ * 内容基线日期：只在页面实质内容更新时手动上调。
+ * 用 new Date() 当 lastmod 会让每一页都拿到构建时间，Google 会判定该字段
+ * 不可信并整体忽略——等于白给。
+ */
+const CONTENT_UPDATED = new Date("2026-11-07");
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteConfig.url;
 
-  const staticRoutes = [
-    "",
-    "/products",
-    "/raw-silk-specs",
-    "/services",
-    "/samples",
-    "/trade-terms",
-    "/about",
-    "/sustainability",
-    "/contact",
-    "/faq",
-    "/certificates",
-    "/blog",
-  ].map((route) => ({
-    url: `${base}${route}`,
-    lastModified: new Date(),
-    changeFrequency: "monthly" as const,
-    priority: route === "" ? 1 : 0.8,
+  const staticRoutes: {
+    path: string;
+    priority: number;
+    freq: "weekly" | "monthly" | "yearly";
+  }[] = [
+    { path: "", priority: 1, freq: "weekly" },
+    { path: "/products", priority: 0.9, freq: "monthly" },
+    { path: "/raw-silk-specs", priority: 0.9, freq: "monthly" },
+    { path: "/samples", priority: 0.8, freq: "monthly" },
+    { path: "/services", priority: 0.8, freq: "monthly" },
+    { path: "/couture", priority: 0.8, freq: "monthly" },
+    { path: "/trade-terms", priority: 0.7, freq: "monthly" },
+    { path: "/about", priority: 0.7, freq: "monthly" },
+    { path: "/sustainability", priority: 0.7, freq: "monthly" },
+    { path: "/certificates", priority: 0.7, freq: "monthly" },
+    { path: "/faq", priority: 0.7, freq: "monthly" },
+    { path: "/blog", priority: 0.7, freq: "weekly" },
+    { path: "/contact", priority: 0.6, freq: "monthly" },
+    { path: "/rtw", priority: 0.5, freq: "yearly" },
+  ];
+
+  const staticEntries = staticRoutes.map((r) => ({
+    url: `${base}${r.path}`,
+    lastModified: CONTENT_UPDATED,
+    changeFrequency: r.freq,
+    priority: r.priority,
   }));
 
   const productRoutes = products.map((p) => ({
     url: `${base}/products/${p.slug}`,
-    lastModified: new Date(),
+    lastModified: CONTENT_UPDATED,
     changeFrequency: "monthly" as const,
-    priority: p.featured ? 0.9 : 0.5,
+    priority: p.featured ? 0.9 : 0.6,
+  }));
+
+  // 每个系列页都是「高定屋」的证据链，不要漏在 sitemap 之外
+  const rtwRoutes = rtwSeasons.map((s) => ({
+    url: `${base}/rtw/${s.slug}`,
+    lastModified: CONTENT_UPDATED,
+    changeFrequency: "yearly" as const,
+    priority: 0.4,
   }));
 
   const blogRoutes = blogPosts.map((post) => ({
@@ -42,5 +66,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticRoutes, ...productRoutes, ...blogRoutes];
+  return [...staticEntries, ...productRoutes, ...blogRoutes, ...rtwRoutes];
 }

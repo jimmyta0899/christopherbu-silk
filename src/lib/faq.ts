@@ -10,11 +10,11 @@ export const faqs: FaqItem[] = [
   },
   {
     q: "What is the minimum order quantity (MOQ)?",
-    a: "There is no universal fixed MOQ — trial rolls, custom widths and swatches may be available subject to material, mill and schedule review. The final MOQ and any organic status are confirmed in the written quotation.",
+    a: "There is no universal fixed MOQ — trial rolls, custom widths and samples may be available subject to material, mill and schedule review. The final MOQ and any organic status are confirmed in the written quotation.",
   },
   {
     q: "What are the export terms?",
-    a: "Swatches ship DHL worldwide or via designated courier. Bulk orders ship FOB Nansha / FOB Yantian / FOB Qinzhou / FCA Yizhou (preferred). Payment is T/T 30% deposit, 70% against Bill of Lading.",
+    a: "Samples ship DHL worldwide or via designated courier. Bulk orders ship FOB Nansha / FOB Yantian / FOB Qinzhou / FCA Yizhou (preferred). Payment is T/T 30% deposit, 70% against Bill of Lading.",
   },
   {
     q: "Are OEKO-TEX or GOTS certifications available?",
@@ -30,6 +30,6 @@ export const faqs: FaqItem[] = [
   },
   {
     q: "Who do you supply?",
-    a: "We work with mills, brands and ateliers on bulk orders from 50m (swatches are available for smaller needs).",
+    a: "We work with mills, brands and ateliers on bulk orders from 50m (samples are available for smaller needs).",
   },
 ];
