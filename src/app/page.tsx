@@ -343,6 +343,77 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* 采购指南 hub 入口：5 个长尾矩阵骨架页。
+            全站级入口是必须的——没有入链的 hub 会被 Google 当成孤立页，
+            下辖的长尾页也就拿不到抓取优先级。 */}
+        <section className="bg-ivory">
+          <div className="mx-auto max-w-6xl px-6 py-16 md:py-20">
+            <div className="mb-10">
+              <p className="text-xs font-medium uppercase tracking-[0.18em] text-gold">
+                Buying guides
+              </p>
+              <h2 className="font-display mt-3 text-3xl font-medium text-jade-deep md:text-4xl">
+                Work out the specification before the price
+              </h2>
+              <p className="mt-3 max-w-2xl text-base leading-relaxed text-ink-soft">
+                Five guides on construction, origin, weight, the wholesale
+                process and what actually moves cost — written by the people who
+                cut the cloth.
+              </p>
+            </div>
+            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+              {[
+                {
+                  href: "/silk-fabrics",
+                  t: "Silk fabric types",
+                  d: "22 constructions by weave, momme and use — and which nine we hold as standing products.",
+                },
+                {
+                  href: "/yizhou-raw-silk",
+                  t: "Yizhou raw silk",
+                  d: "The origin behind the supply, with the official production figures and their qualifying conditions.",
+                },
+                {
+                  href: "/silk-momme-guide",
+                  t: "The momme guide",
+                  d: "What weight actually measures, and why a greige figure overstates finished momme by a fifth.",
+                },
+                {
+                  href: "/wholesale-silk-fabric",
+                  t: "Wholesale silk fabric",
+                  d: "Seven steps from enquiry to container, with the trade terms we quote.",
+                },
+                {
+                  href: "/silk-fabric-price-guide",
+                  t: "Silk fabric price guide",
+                  d: "Six drivers, six ways a quotation misleads, and twelve points to compare.",
+                },
+                {
+                  href: "/samples",
+                  t: "Free samples",
+                  d: "Mini fabric samples with no material charge worldwide — you cover the courier.",
+                },
+              ].map((g) => (
+                <Link
+                  key={g.href}
+                  href={g.href}
+                  className="group block border border-line bg-ivory-deep p-7 transition-colors hover:border-gold"
+                >
+                  <h3 className="font-display text-xl font-medium text-jade-deep group-hover:text-jade">
+                    {g.t}
+                  </h3>
+                  <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+                    {g.d}
+                  </p>
+                  <span className="mt-4 inline-block text-sm font-medium text-gold">
+                    Open guide →
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* FAQ 索引 */}
         <section className="bg-ivory-deep">
           <div className="mx-auto max-w-6xl px-6 py-16 md:py-20">

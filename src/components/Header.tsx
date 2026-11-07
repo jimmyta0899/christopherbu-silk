@@ -43,10 +43,21 @@ const rtwSeasons = [
   { href: "/rtw/SS13", label: "SS13", external: false },
 ];
 
+// 采购指南（hub 页）：词图落地的 5 个入口。
+// 这 5 页是全站长尾矩阵的骨架，必须有全站级入口，否则会变成 Google 判定的孤立页。
+const guides = [
+  { href: "/silk-fabrics", label: "Silk Fabric Types", external: false },
+  { href: "/yizhou-raw-silk", label: "Yizhou Raw Silk", external: false },
+  { href: "/silk-momme-guide", label: "Momme Guide", external: false },
+  { href: "/wholesale-silk-fabric", label: "Wholesale Silk", external: false },
+  { href: "/silk-fabric-price-guide", label: "Price Guide", external: false },
+];
+
 // 导航结构
 const nav = [
   { href: "/", label: "Home" },
   { href: "/products", label: "Products", children: products },
+  { href: "/silk-fabrics", label: "Guides", children: guides },
   { href: "/services", label: "Services" },
   { href: "/couture", label: "Couture" },
   { href: "/rtw", label: "RTW", children: rtwSeasons },

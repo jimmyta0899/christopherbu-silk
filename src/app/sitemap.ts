@@ -31,6 +31,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }[] = [
     { path: "", priority: 1, freq: "weekly" },
     { path: "/products", priority: 0.9, freq: "monthly" },
+    // 长尾矩阵骨架：5 个 hub 页。priority 高于普通静态页，
+    // 因为它们是 59 个长尾页的内链父亲，抓取优先级应体现这一点。
+    { path: "/silk-fabrics", priority: 0.9, freq: "monthly" },
+    { path: "/wholesale-silk-fabric", priority: 0.9, freq: "monthly" },
+    { path: "/yizhou-raw-silk", priority: 0.8, freq: "monthly" },
+    { path: "/silk-momme-guide", priority: 0.8, freq: "monthly" },
+    { path: "/silk-fabric-price-guide", priority: 0.7, freq: "monthly" },
     { path: "/raw-silk-specs", priority: 0.9, freq: "monthly" },
     { path: "/samples", priority: 0.8, freq: "monthly" },
     { path: "/services", priority: 0.8, freq: "monthly" },

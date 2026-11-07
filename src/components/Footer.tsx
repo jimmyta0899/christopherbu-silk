@@ -4,7 +4,7 @@ import { siteConfig } from "@/lib/site-config";
 export function Footer() {
   return (
     <footer className="mt-auto border-t border-gold/40 bg-jade-deep text-ivory">
-      <div className="mx-auto grid max-w-6xl gap-10 px-6 py-14 md:grid-cols-3">
+      <div className="mx-auto grid max-w-6xl gap-10 px-6 py-14 md:grid-cols-4">
         <div>
           <p className="font-display text-lg font-semibold text-ivory">
             Christopher Bu <span className="text-gold-bright">×</span> Yizhou Silk
@@ -115,6 +115,39 @@ export function Footer() {
             <li>
               <Link href="/contact" className="transition-colors hover:text-ivory">
                 Contact B2B Team
+              </Link>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <p className="text-sm font-semibold text-gold-bright">
+            Sourcing Guides
+          </p>
+          <ul className="mt-4 space-y-2.5 text-sm text-ivory/80">
+            <li>
+              <Link href="/silk-fabrics" className="transition-colors hover:text-ivory">
+                Silk Fabric Types
+              </Link>
+            </li>
+            <li>
+              <Link href="/yizhou-raw-silk" className="transition-colors hover:text-ivory">
+                Yizhou Raw Silk
+              </Link>
+            </li>
+            <li>
+              <Link href="/silk-momme-guide" className="transition-colors hover:text-ivory">
+                Momme Guide
+              </Link>
+            </li>
+            <li>
+              <Link href="/wholesale-silk-fabric" className="transition-colors hover:text-ivory">
+                Wholesale Silk Fabric
+              </Link>
+            </li>
+            <li>
+              <Link href="/silk-fabric-price-guide" className="transition-colors hover:text-ivory">
+                Silk Fabric Price Guide
               </Link>
             </li>
           </ul>

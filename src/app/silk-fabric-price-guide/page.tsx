@@ -1,0 +1,458 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { pageOpenGraph } from "@/lib/seo-metadata";
+import { siteConfig } from "@/lib/site-config";
+import { breadcrumbJsonLd, faqJsonLd, type HubFaq } from "@/lib/hub-utils";
+
+export const metadata: Metadata = {
+  title:
+    "Silk Fabric Price per Meter: What Moves It, and How to Compare Quotes | Christopher Bu",
+  description:
+    "Why two silk quotations for the same fabric name can differ by a multiple: grade, momme basis, width, colour route, quantity and testing. The six drivers, the twelve-point comparison, and an RFQ template.",
+  keywords: [
+    "silk fabric price per yard",
+    "silk fabric price per meter",
+    "how much is silk fabric",
+    "silk fabric cost",
+    "wholesale silk fabric price",
+    "why is silk expensive",
+    "silk fabric quotation",
+  ],
+  alternates: { canonical: "/silk-fabric-price-guide" },
+  openGraph: pageOpenGraph("/silk-fabric-price-guide"),
+};
+
+const drivers = [
+  {
+    n: "01",
+    t: "Fibre grade",
+    d: "4A, 5A and 6A are not marketing tiers — they are measured properties of the filament. Higher grade means fewer defects per unit length, which means more cocoons rejected at reeling and a higher cost per kilo of yarn. The price difference is real and it lands in the cloth: a 6A yarn dyes evenly on the first attempt, a lower grade often needs a second lot to fix banding.",
+    direction: "Up with grade",
+  },
+  {
+    n: "02",
+    t: "Weight in momme",
+    d: "More silk per square metre is more fibre per metre of cloth. Moving from 16 to 22 momme is roughly a third more material in the same yard. This is the most predictable driver on the page, provided both quotations measure momme on the same side of degumming.",
+    direction: "Up with momme",
+  },
+  {
+    n: "03",
+    t: "Construction complexity",
+    d: "A plain-weave habotai runs off a loom at speed. A jacquard runs slower because every pick is selected, and pattern development adds a separate cost before a metre is woven. Structured cloths that need tight sett and heavy reed pressure also raise the loom time per metre.",
+    direction: "Up with complexity",
+  },
+  {
+    n: "04",
+    t: "Colour route",
+    d: "Four routes with different economics: greige (cheapest, no dyeing), standard shade card (dye lot setup amortised over many orders), custom match (lab dip plus a dedicated dye lot), and yarn-dyed or jacquard colour (colour introduced before weaving). A custom match on a small quantity is where quotations diverge most.",
+    direction: "Greige < card < custom",
+  },
+  {
+    n: "05",
+    t: "Quantity and width",
+    d: "Setup costs — loom dressing, dye lot, lab dip, inspection — are spread across the run. A narrow width at the same momme costs more per running metre because there is less cloth in the metre. Both effects are non-linear: the step from 300 m to 1,000 m usually matters more than 1,000 m to 3,000 m.",
+    direction: "Down with volume",
+  },
+  {
+    n: "06",
+    t: "Testing and documentation",
+    d: "OEKO-TEX, GOTS, destination-market testing, inspection records and export documentation each carry a cost. They are also the first thing a quotation quietly drops when a price looks unusually low. If you need them, say so before quoting — not after.",
+    direction: "Up with scope",
+  },
+];
+
+const traps = [
+  {
+    t: "Momme measured on greige, quoted as finished",
+    d: "The cloth is 22 momme before degumming and about 16–17 after. Both are true statements. Only one describes what you receive. This alone can explain a wide gap between two quotes for the same fabric name.",
+  },
+  {
+    t: "A lower grade sold under the same construction name",
+    d: "&ldquo;Dupioni&rdquo; describes a weave and a yarn source, not a grade. A 4A dupioni and a 6A dupioni are the same fabric name at different prices, and the difference shows up after dyeing, not on the swatch.",
+  },
+  {
+    t: "A narrower width",
+    d: "Quoting per metre without stating the width is the most common way to make a quote look competitive. 114 cm and 140 cm are not interchangeable when you are costing a marker — the narrower roll may need more metres for the same garment.",
+  },
+  {
+    t: "Standard shade presented as custom",
+    d: "Or the reverse: a custom match quoted at card price and then delivered as the nearest card shade. Ask which shade, and ask for the dip reference.",
+  },
+  {
+    t: "Testing excluded",
+    d: "A price that excludes OEKO-TEX or destination-market testing is not cheaper — it is a price for a different scope. Add the test cost back before comparing.",
+  },
+  {
+    t: "Different trade term",
+    d: "EXW, FCA and FOB prices are not comparable. The gap is the inland leg plus export clearance, and on silk it is not trivial. Always compare at the same Incoterm.",
+  },
+];
+
+const comparison = [
+  "Grade (4A / 5A / 6A) stated explicitly",
+  "Momme, and whether measured on greige or finished cloth",
+  "Momme tolerance band, not a single figure",
+  "Width in centimetres",
+  "Colour route: greige, shade card reference, or custom match",
+  "Quantity the price applies to, and the break points above it",
+  "Trade term (EXW / FCA / FOB and the named port)",
+  "What testing is included, and who pays for it",
+  "Lead time, and the date the clock starts",
+  "Inspection scope and who attends",
+  "Payment terms",
+  "Validity period of the quotation",
+];
+
+const faqs: HubFaq[] = [
+  {
+    q: "How much does silk fabric cost per meter?",
+    a: "There is no single answer, and any page that gives you one number is describing one specification. Silk ranges from greige utility cloth at the low end to custom-dyed, high-grade, heavy structured fabric at the top — a multiple apart, not a percentage. The honest way to price a project is to fix six variables first: grade, momme measured on finished cloth, construction, colour route, quantity and width. With those fixed, quotations from different suppliers become comparable. We quote per order for exactly this reason.",
+  },
+  {
+    q: "Why is silk fabric so expensive?",
+    a: "Because the raw material is labour-intensive to produce and the yield is low. A single cocoon yields one continuous filament of roughly 600 to 900 metres, and it takes several cocoons reeled together to make one 20/22 denier thread. On top of the fibre there is loom time, dyeing, finishing, inspection and the rejection rate at every stage. Weight compounds it: a 30 momme cloth uses nearly twice the silk of a 16 momme cloth of the same area.",
+  },
+  {
+    q: "Why do two suppliers quote very different prices for the same silk?",
+    a: "Almost always because one of the six variables is different and unstated — most often the momme basis (greige versus finished), the grade, the width, or whether testing is included. The fabric name is not a specification. Before assuming one supplier is cheaper, put both quotations side by side on the twelve points listed on this page; the gap usually explains itself.",
+  },
+  {
+    q: "Is Chinese silk cheaper than Italian silk?",
+    a: "They are different products in the same chain rather than two prices for one thing. China is the dominant origin for raw silk and greige; Italian mills are known for dyeing, finishing and quality grading, and much of the fibre they process is imported. A comparison only means something at the same specification and the same Incoterm — otherwise you are comparing a raw material price to a finished luxury fabric price.",
+  },
+  {
+    q: "Does a bigger order always get a lower price?",
+    a: "Usually, but with diminishing returns. Setup costs — loom dressing, dye lot, lab dip, inspection — are spread over the run, so the first increase in quantity produces the largest drop per metre. Beyond a point the saving flattens, and on custom colours a larger run can even add risk, because you are committing to more metres of a shade that has only been approved as a lab dip.",
+  },
+  {
+    q: "How can I reduce cost without losing quality?",
+    a: "Change the specification deliberately rather than hoping the price falls. Move to a standard shade card colour instead of a custom match; take a slightly lighter momme where the garment allows it; use a wider width so your marker wastes less; consolidate several colours into one order to share the setup. What does not work is asking for the same specification at a lower price — the difference has to come from somewhere, and it usually comes from grade, weight or testing.",
+  },
+  {
+    q: "Why do you not publish a price list?",
+    a: "Because a published number would be true for one combination of grade, weight, width, colour and quantity and misleading for every other. Silk is quoted against a specification, and a price list would push buyers into comparing the wrong things. What we can do is quote quickly and state the basis clearly enough that our quotation can be checked against anyone else's.",
+  },
+];
+
+const rfqTemplate = `End use / garment:        e.g. structured bridal bodice, AW collection
+Construction:             e.g. dupioni (or "open to recommendation")
+Grade:                    e.g. 5A minimum
+Momme:                    e.g. 19 mm on finished cloth, tolerance +/-1
+Width:                    e.g. 140 cm minimum
+Colour:                   e.g. custom match to Pantone 19-1532 TCX, or shade card
+Quantity:                 e.g. 600 m, with break points at 300 / 1,200 m
+Testing required:         e.g. OEKO-TEX Class II, plus EU market requirements
+Destination market:       e.g. EU
+Trade term:               e.g. FCA Yizhou
+Sample needed by:         date
+Any deadline constraints: e.g. production must ship before a fixed date`;
+
+export default function SilkFabricPriceGuidePage() {
+  return (
+    <>
+      <Header />
+      <main className="mx-auto max-w-6xl px-6 py-16 md:py-20">
+        <nav aria-label="Breadcrumb" className="text-xs text-ink-muted">
+          <Link href="/" className="hover:text-gold">
+            Home
+          </Link>
+          <span className="mx-2">/</span>
+          <span>Price guide</span>
+        </nav>
+
+        <h1 className="font-display mt-6 text-4xl font-medium text-jade-deep md:text-5xl">
+          What silk fabric costs per meter — and what actually moves the price
+        </h1>
+
+        <p className="mt-6 max-w-3xl text-lg leading-relaxed text-ink-soft">
+          Silk pricing is not a list; it is a function of six variables. Two
+          suppliers can both quote &ldquo;dupioni&rdquo; at different prices and both be
+          correct, because one is quoting 19 momme on finished cloth at 140 cm
+          and the other is quoting 22 momme on greige at 114 cm with testing
+          excluded. This page sets out the six drivers, the six ways a
+          quotation misleads, and a twelve-point comparison that makes two
+          quotes actually comparable.
+        </p>
+
+        {/* 为什么不给数字 */}
+        <section className="mt-14 border border-gold bg-ivory-deep p-8">
+          <p className="text-xs font-medium uppercase tracking-[0.18em] text-gold">
+            Why this page contains no prices
+          </p>
+          <p className="mt-4 text-base leading-relaxed text-ink">
+            A single headline number would be accurate for one specification and
+            wrong for every other — and it would teach you to compare the wrong
+            thing. Silk moves from greige utility cloth to custom-dyed, high-grade
+            structured fabric by a <strong>multiple</strong>, not a percentage. So
+            instead of a number, this page gives you the structure: fix the six
+            variables, and any two quotations become directly comparable. We
+            quote per order, and every quotation states its momme basis, grade,
+            width and colour route so it can be checked.
+          </p>
+        </section>
+
+        {/* 六个驱动因子 */}
+        <section className="mt-16">
+          <h2 className="font-display text-3xl font-medium text-jade-deep">
+            The six drivers
+          </h2>
+          <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
+            Each of these raises or lowers the price independently. Change two of
+            them at once and the quotes stop being comparable — which is how
+            most price confusion starts.
+          </p>
+          <div className="mt-8 space-y-5">
+            {drivers.map((d) => (
+              <div key={d.n} className="border border-line bg-ivory-deep p-7">
+                <div className="flex flex-wrap items-baseline justify-between gap-3">
+                  <div className="flex items-baseline gap-4">
+                    <span className="text-xs font-medium tracking-[0.18em] text-gold">
+                      {d.n}
+                    </span>
+                    <h3 className="font-display text-xl font-medium text-jade-deep">
+                      {d.t}
+                    </h3>
+                  </div>
+                  <span className="text-xs font-medium uppercase tracking-[0.14em] text-jade">
+                    {d.direction}
+                  </span>
+                </div>
+                <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+                  {d.d}
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* 六个陷阱 */}
+        <section className="mt-16 border-t border-line pt-12">
+          <h2 className="font-display text-3xl font-medium text-jade-deep">
+            Six ways a quotation misleads without lying
+          </h2>
+          <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
+            None of these are dishonest claims. Each is a true statement about a
+            different thing, which is harder to catch.
+          </p>
+          <div className="mt-8 grid gap-6 md:grid-cols-2">
+            {traps.map((t) => (
+              <div key={t.t} className="border border-line bg-ivory-deep p-7">
+                <h3 className="font-display text-lg font-medium text-jade-deep">
+                  {t.t}
+                </h3>
+                <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+                  {t.d}
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* 12 点比价 */}
+        <section className="mt-16 border-t border-line pt-12">
+          <h2 className="font-display text-3xl font-medium text-jade-deep">
+            Twelve points to compare before you compare price
+          </h2>
+          <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
+            Put both quotations against this list. In most cases where one looks
+            dramatically cheaper, at least one line differs — and once you know
+            which, the decision is no longer about price.
+          </p>
+          <ol className="mt-8 grid gap-3 md:grid-cols-2">
+            {comparison.map((c, i) => (
+              <li
+                key={c}
+                className="flex items-start gap-3 border border-line bg-ivory px-4 py-3"
+              >
+                <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center bg-jade-deep text-[11px] font-medium text-white">
+                  {i + 1}
+                </span>
+                <span className="text-sm leading-relaxed text-ink-soft">
+                  {c}
+                </span>
+              </li>
+            ))}
+          </ol>
+        </section>
+
+        {/* 便宜的代价 */}
+        <section className="mt-16 border-t border-line pt-12">
+          <h2 className="font-display text-3xl font-medium text-jade-deep">
+            Where the saving comes from
+          </h2>
+          <div className="mt-6 max-w-3xl space-y-4 text-base leading-relaxed text-ink-soft">
+            <p>
+              When a quotation comes in well below others for a nominally
+              identical fabric, the difference has to exist somewhere in the
+              physical product. In practice it is one of four places: a lower
+              grade, a lighter momme (often measured on greige), a narrower
+              width, or reduced testing.
+            </p>
+            <p>
+              None of those is automatically wrong — a lighter cloth at a
+              narrower width may be exactly right for a lining programme. The
+              problem is only when the saving is invisible, because then it is
+              discovered in the cutting room or after dyeing, when the cost of
+              discovery is much higher than the saving.
+            </p>
+          </div>
+        </section>
+
+        {/* RFQ 模板 */}
+        <section className="mt-16 border-t border-line pt-12">
+          <h2 className="font-display text-3xl font-medium text-jade-deep">
+            An RFQ template that gets comparable quotes
+          </h2>
+          <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
+            Copy this into an email and fill in what you know. Rows you cannot
+            answer are useful too — they tell the supplier where to advise rather
+            than guess.
+          </p>
+          <pre className="mt-8 overflow-x-auto border border-line bg-ivory-deep p-6 text-xs leading-relaxed text-ink-soft md:text-sm">
+            <code>{rfqTemplate}</code>
+          </pre>
+          <p className="mt-4 max-w-3xl text-sm leading-relaxed text-ink-soft">
+            Send it to{" "}
+            <a
+              href={`mailto:${siteConfig.email}`}
+              className="text-gold hover:text-jade"
+            >
+              {siteConfig.email}
+            </a>{" "}
+            and you will get a specification response before a price — because
+            the specification is what the price depends on.
+          </p>
+        </section>
+
+        {/* FAQ */}
+        <section className="mt-16 border-t border-line pt-12">
+          <h2 className="font-display text-3xl font-medium text-jade-deep">
+            Price questions buyers actually ask
+          </h2>
+          <div className="mt-8 max-w-3xl space-y-6">
+            {faqs.map((f) => (
+              <div key={f.q} className="border-b border-line pb-6">
+                <h3 className="font-display text-lg font-medium text-jade-deep">
+                  {f.q}
+                </h3>
+                <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+                  {f.a}
+                </p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* 内链 */}
+        <section className="mt-16 border-t border-line pt-12">
+          <h2 className="font-display text-3xl font-medium text-jade-deep">
+            Continue through the sourcing guides
+          </h2>
+          <div className="mt-8 grid gap-6 md:grid-cols-2">
+            {[
+              {
+                href: "/silk-momme-guide",
+                t: "The momme guide",
+                d: "The weight variable, and why the greige figure overstates it.",
+              },
+              {
+                href: "/silk-fabrics",
+                t: "Silk fabric types",
+                d: "The construction variable — 22 weaves and what each one costs you in loom time.",
+              },
+              {
+                href: "/wholesale-silk-fabric",
+                t: "Wholesale silk fabric",
+                d: "How the order runs once the specification is fixed.",
+              },
+              {
+                href: "/blog/what-a-raw-silk-quotation-must-include",
+                t: "What a quotation must include",
+                d: "The same discipline applied to raw silk yarn.",
+              },
+            ].map((l) => (
+              <Link
+                key={l.href}
+                href={l.href}
+                className="group block border border-line bg-ivory-deep p-7 transition-colors hover:border-gold"
+              >
+                <h3 className="font-display text-xl font-medium text-jade-deep group-hover:text-jade">
+                  {l.t}
+                </h3>
+                <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+                  {l.d}
+                </p>
+                <span className="mt-4 inline-block text-sm font-medium text-gold">
+                  Open guide →
+                </span>
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        {/* CTA */}
+        <section className="mt-16 border border-line bg-jade-deep p-10 text-white">
+          <h2 className="font-display text-3xl font-medium">
+            Send the specification, get the number
+          </h2>
+          <p className="mt-4 max-w-2xl text-base leading-relaxed text-white/80">
+            Fix the six variables and we will quote them — with the momme basis,
+            width, grade and colour route written into the quotation. If you
+            only know the garment, send that instead and we will propose the
+            rest.
+          </p>
+          <div className="mt-8 flex flex-wrap gap-4">
+            <Link
+              href="/contact"
+              className="bg-gold-soft px-7 py-3 text-sm font-medium text-jade-deep transition-opacity hover:opacity-90"
+            >
+              Request a quotation
+            </Link>
+            <Link
+              href="/samples"
+              className="border border-white/40 px-7 py-3 text-sm font-medium text-white transition-colors hover:bg-white/10"
+            >
+              Request free samples
+            </Link>
+          </div>
+        </section>
+
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(
+              breadcrumbJsonLd([
+                { name: "Home", path: "" },
+                { name: "Price guide", path: "/silk-fabric-price-guide" },
+              ]),
+            ),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd(faqs)) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Article",
+              headline:
+                "Silk fabric price per meter: what moves it, and how to compare quotes",
+              description:
+                "Six variables drive silk pricing: grade, momme basis, construction, colour route, quantity and width. Twelve-point comparison and an RFQ template.",
+              author: { "@type": "Organization", name: "Christopher Bu" },
+              publisher: { "@type": "Organization", name: "Christopher Bu" },
+              mainEntityOfPage:
+                "https://www.christopherbu.com/silk-fabric-price-guide/",
+            }),
+          }}
+        />
+      </main>
+      <Footer />
+    </>
+  );
+}
