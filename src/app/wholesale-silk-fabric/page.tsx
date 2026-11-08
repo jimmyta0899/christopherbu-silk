@@ -400,7 +400,7 @@ export default function WholesaleSilkFabricPage() {
                 key={s.n}
                 className="border border-line bg-ivory-deep p-7 md:flex md:gap-8"
               >
-                <p className="font-display shrink-0 text-3xl font-medium text-gold-soft md:w-16">
+                <p className="font-display shrink-0 text-3xl font-medium text-gold md:w-16">
                   {s.n}
                 </p>
                 <div className="mt-2 md:mt-0">
@@ -639,7 +639,7 @@ export default function WholesaleSilkFabricPage() {
           <div className="mt-8 flex flex-wrap gap-4">
             <Link
               href="/contact"
-              className="bg-gold-soft px-7 py-3 text-sm font-medium text-jade-deep transition-opacity hover:opacity-90"
+              className="bg-gold-soft px-7 py-3 text-sm font-medium text-jade-ink transition-opacity hover:opacity-90"
             >
               Request a quotation
             </Link>

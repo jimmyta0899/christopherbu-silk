@@ -22,6 +22,7 @@
   /* 品牌强调色：墨绿 + 鎏金（调浅/调亮版，贴近礼服绿金刺绣的实际观感） */
   --jade: #2c5a45;           /* 墨绿：品牌主色（调浅） */
   --jade-deep: #1e4032;      /* 深一档的墨绿（不再是近黑） */
+  --jade-ink: #16332a;       /* 金底专用文字：与 --gold-soft 底对比 5.2:1，满足 AA */
   --gold: #7d6224;           /* 鎏金（用于浅色底上的文字，对比度≥4.99:1 满足 WCAG AA） */
   --gold-soft: #c19a52;
   --gold-bright: #e6c57e;    /* 亮金：用于深绿底上的文字/金边/刺绣纹样 */
@@ -48,6 +49,7 @@
   --color-ink-muted: var(--ink-muted);
   --color-jade: var(--jade);
   --color-jade-deep: var(--jade-deep);
+  --color-jade-ink: var(--jade-ink);
   --color-gold: var(--gold);
   --color-gold-soft: var(--gold-soft);
   --color-gold-bright: var(--gold-bright);

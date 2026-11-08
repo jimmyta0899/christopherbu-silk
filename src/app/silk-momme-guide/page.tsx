@@ -520,7 +520,7 @@ export default function SilkMommeGuidePage() {
           <div className="mt-8 flex flex-wrap gap-4">
             <Link
               href="/samples"
-              className="bg-gold-soft px-7 py-3 text-sm font-medium text-jade-deep transition-opacity hover:opacity-90"
+              className="bg-gold-soft px-7 py-3 text-sm font-medium text-jade-ink transition-opacity hover:opacity-90"
             >
               Request free samples
             </Link>
