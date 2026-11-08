@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   title:
     "Wholesale Silk Fabric from China: How a Bulk Order Runs",
   description:
-    "Wholesale silk fabric from Yizhou, China — nine standing constructions, dyed to order on a standard shade card or a custom match, with sampling, QC and FOB or FCA terms set out step by step.",
+    "Wholesale silk from Yizhou: nine standing constructions, dyed to order on a standard shade card or custom match. Sampling, QC and FOB/FCA terms.",
   keywords: [
     "silk fabric wholesale",
     "wholesale silk fabric china",

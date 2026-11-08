@@ -47,7 +47,7 @@ export const products: Product[] = [
       "Raw Silk Yarn 20/22D, Dupion, Luxury & Organic for Weaving",
     h1: "Raw Silk Yarn: 20/22D, Dupion, Luxury & Organic Silk",
     metaDescription:
-      "Source raw silk yarn from Yizhou, China in four varieties — 20/22D white raw silk, natural dupion silk yarn, 1-ply luxury silk yarn and GOTS-certified organic silk. For weaving, knitting and embroidery. B2B bulk supply.",
+      "Raw silk yarn from Yizhou in four varieties: 20/22D white, natural dupion, 1-ply luxury and GOTS organic. For weaving, knitting, embroidery. B2B bulk.",
     introAnswer:
       "We supply four varieties of raw silk yarn — 20/22 denier white raw silk, natural dupion silk yarn, luxury silk yarn and GOTS-certified organic silk — sourced from Yizhou, China, the world's largest raw silk region.",
     category: "raw-silk",
@@ -144,7 +144,7 @@ export const products: Product[] = [
         key: "20-22d-white",
         name: "20/22D White Raw Silk Yarn",
         description:
-          "A filature silk measured at the delicate 20–22 denier range for ultimate consistency and fineness. It is the technical benchmark of modern reeling, with every metre checked for uniformity, and the bright, clean white reflects the fine mulberry cocoons it is drawn from. Weavers value this specific denier for its ability to create intricate patterns without adding bulk, and it is the secret ingredient in the world's finest silk crepes — a high-performance yarn for the most demanding weaving, knitting, embroidery and saree projects.",
+          "20/22 denier filature silk — the modern reeling benchmark. Fine, uniform mulberry yarn for weaving, knitting, embroidery and sarees. B2B from Yizhou.",
         specs: [
           { label: "Denier", value: "20/22D" },
           { label: "Grade", value: "4A / 5A / 6A" },
@@ -159,7 +159,7 @@ export const products: Product[] = [
         key: "natural-dupion",
         name: "Natural Dupion Silk Yarn",
         description:
-          "The natural, unbleached and un-dyed state of dupion silk, with a warm, earthy tone that reflects the actual color of the silk cocoon before processing. It is thick and full of character, with prominent slubs that weave into a beautiful, seemingly random pattern. It is the quintessential choice for interior design — especially curtains and lampshades that need to diffuse light — and its natural hue brings a grounding, organic feel to any room, celebrating the imperfections of the natural world.",
+          "Natural, unbleached dupion silk with warm, earthy tone and prominent slubs. The organic choice for curtains, lampshades and interiors. B2B from Yizhou.",
         specs: [
           { label: "Material", value: "Dupion silk yarn (mulberry)" },
           { label: "Color", value: "Natural (unbleached, un-dyed)" },
@@ -174,7 +174,7 @@ export const products: Product[] = [
         key: "luxury",
         name: "Luxury Silk Yarn",
         description:
-          "Curated from the finest batches of the silk harvest for a superior experience, with every strand selected for exceptional length and brilliant white sheen to ensure a high-gloss result. It is treated with extra care during spinning to preserve the integrity of the delicate silk proteins. This yarn is made for statement pieces — garments meant to be noticed for their sheer quality and radiance — draping with a heavy, liquid-like grace that is the hallmark of true high-end luxury silk.",
+          "Premium mulberry silk yarn, exceptional length and high-gloss sheen. Spun to preserve silk proteins — for statement garments with liquid drape. B2B Yizhou.",
         specs: [
           { label: "Ply", value: "1 ply" },
           { label: "Denier", value: "20" },
@@ -191,7 +191,7 @@ export const products: Product[] = [
         key: "organic",
         name: "GOTS-Certified Organic Silk",
         description:
-          "Mulberry silk grown and processed to the Global Organic Textile Standard (GOTS), covering organic mulberry cultivation through boiling, spinning and weaving, with 100% organic silk content. Supplied as raw silk (filature silk), greige yarns or greige fabric — undyed or dyed to order from a standard shade card or your custom color. This is the yarn buyers choose when their brand or market requires verifiable organic status, not just a soft sustainability claim.",
+          "GOTS-certified organic mulberry silk: raw, greige yarn or fabric, undyed or dyed to order. Verifiable organic status for compliance buyers. B2B Yizhou.",
         specs: [
           { label: "Certification", value: "GOTS (Global Organic Textile Standard)" },
           { label: "License no.", value: "Provided with quotation" },
@@ -213,7 +213,7 @@ export const products: Product[] = [
       "Greige Silk Fabric: Undyed Mulberry Silk by Weave, Sample MOQ",
     h1: "Greige Silk Fabric (Undyed, Unfinished)",
     metaDescription:
-      "Source greige (undyed, unfinished) mulberry silk from Yizhou, China — the raw state of the cloth before dyeing or finishing, by base weave. Bulk supply with OEKO-TEX & GOTS available on request.",
+      "Greige (undyed, unfinished) mulberry silk from Yizhou — cloth before dyeing or finishing, by base weave. Bulk supply; OEKO-TEX & GOTS on request.",
     introAnswer:
       "Greige silk fabric is undyed, unfinished mulberry silk straight off the loom — a state, not a variety. Its momme follows the base weave you choose, so we quote it to your weave and specification.",
     category: "greige-fabric",
@@ -272,7 +272,7 @@ export const products: Product[] = [
       "Satin Silk Fabric 10–30mm, 114/140cm for Bridal & Eveningwear",
     h1: "Satin Silk Fabric for Bridal & Eveningwear",
     metaDescription:
-      "Source lustrous satin silk fabric from Yizhou, China, in 10/12/14/16/19/22/25/30 momme and 114/140 cm widths. Supplied greige or dyed to order. Ideal for bridal, eveningwear and luxury linings. B2B bulk supply.",
+      "Satin silk from Yizhou: 10–30 momme, 114/140 cm, greige or dyed to order. For bridal, eveningwear and luxury linings. B2B bulk supply.",
     introAnswer:
       "Satin silk is a lustrous, smooth-faced mulberry silk with a soft sheen and fluid drape, supplied greige or dyed to order from a standard shade card or your custom color.",
     category: "satin",
@@ -341,7 +341,7 @@ export const products: Product[] = [
       "Jacquard Luo Silk, Custom Woven Motifs 16–30mm for Couture",
     h1: "Jacquard Luo Silk for Couture & Occasionwear",
     metaDescription:
-      "Source jacquard luo silk fabric from Yizhou, China — a mulberry silk with motifs woven into the cloth on a jacquard loom. Custom pattern development. Ideal for couture and occasionwear. B2B bulk supply.",
+      "Jacquard luo silk from Yizhou — motifs woven into mulberry cloth on jacquard looms. Custom pattern development for couture and occasionwear. B2B.",
     introAnswer:
       "Jacquard luo is a mulberry silk with motifs woven directly into the cloth on a jacquard loom, supplied greige or dyed to order, with custom pattern development for couture and occasionwear.",
     category: "jacquard-luo",
@@ -408,7 +408,7 @@ export const products: Product[] = [
       "Georgette Silk Fabric 8–16mm for Scarves & Flowing Garments",
     h1: "Georgette Silk for Scarves & Flowing Garments",
     metaDescription:
-      "Source georgette silk fabric from Yizhou, China — a sheer, crinkled mulberry silk in 8/10/12/14/16 momme, 114/140 cm. Ideal for scarves, summer wear and flowing dresses. B2B bulk supply.",
+      "Georgette silk from Yizhou: sheer crinkled mulberry, 8–16 momme, 114/140 cm. For scarves, summer wear and flowing dresses. B2B bulk supply.",
     introAnswer:
       "Georgette is a sheer, crinkled mulberry silk with a slight crepe texture and flowing drape, supplied greige or dyed to order for scarves, summer wear and airy garments.",
     category: "georgette",
@@ -471,7 +471,7 @@ export const products: Product[] = [
       "Habotai (Pongee) Silk 6–16mm, 114cm for Linings & Shirts",
     h1: "Habotai Silk for Linings & Light Shirts",
     metaDescription:
-      "Source habotai silk fabric from Yizhou, China — a plain-weave mulberry silk (also called pongee or China silk) in 6/8/10/12/14/15/16 momme, 114 cm, with a crisp, firm hand. Ideal for linings, scarves and light shirts. B2B bulk supply.",
+      "Habotai (pongee/China silk) from Yizhou: 6–16 momme plain-weave mulberry, 114 cm, crisp hand. For linings, scarves, light shirts. B2B bulk supply.",
     introAnswer:
       "Habotai (also known as pongee or China silk) is a plain-weave mulberry silk with a crisp, firm hand and a subtle texture, supplied greige or dyed to order for linings, scarves and light shirts.",
     category: "habotai",
@@ -544,7 +544,7 @@ export const products: Product[] = [
       "Silk Stretch Satin 14–28mm, 140cm Silk-Spandex Satin",
     h1: "Silk Stretch Satin for Comfort & Fit",
     metaDescription:
-      "Source silk stretch satin fabric from Yizhou, China — a satin-weave mulberry silk-spandex blend in 14/16/19/22/25/28 momme, 140 cm. Luminous satin face with comfort stretch. B2B bulk supply.",
+      "Stretch satin from Yizhou: mulberry-spandex satin weave, 14–28 momme, 140 cm, comfort stretch. Luminous face for bridal and eveningwear. B2B.",
     introAnswer:
       "Silk stretch satin is a satin-weave blend of mulberry silk with spandex, keeping the luminous satin face while adding stretch and recovery, supplied greige or dyed to order from 14 to 28 momme.",
     category: "stretch-silk",
@@ -608,7 +608,7 @@ export const products: Product[] = [
       "Silk Blend Fabric: Silk-Cotton & Silk-Linen, 114/140cm",
     h1: "Silk Blend (Silk-Cotton / Silk-Linen)",
     metaDescription:
-      "Source blended silk fabric from Yizhou, China — silk-cotton and silk-linen weaves in 114/140 cm. The comfort of cotton or linen with silk's sheen. Ideal for shirts and summer wear. B2B bulk supply.",
+      "Blended silk from Yizhou: silk-cotton and silk-linen weaves, 114/140 cm. Cotton or linen comfort with silk's sheen. For shirts and summer wear. B2B.",
     introAnswer:
       "Blended silk combines mulberry silk with cotton or linen, pairing silk's sheen and softness with the comfort and breathability of natural fibers.",
     category: "blended-silk",
@@ -679,7 +679,7 @@ export const products: Product[] = [
       "Greige Silk Dupioni 16/19mm for Gowns & Tailoring, FCA Yizhou",
     h1: "Dupioni Silk for Gowns & Sculptural Tailoring",
     metaDescription:
-      "Source dupioni silk with its signature slub texture from Yizhou, China. Available in 16/19 momme (up to 21–22), 114/140cm. Ideal for evening gowns, bridal and structured couture. B2B bulk supply.",
+      "Dupioni silk with signature slub texture from Yizhou: 16/19 momme (up to 22), 114/140 cm. For evening gowns, bridal and structured couture. B2B.",
     introAnswer:
       "Dupioni silk is a textured mulberry silk with a distinctive slubbed surface, widely used for evening gowns, bridal wear and structured couture garments. Available in 16 and 19 momme, up to 21–22 momme.",
     category: "dupioni",

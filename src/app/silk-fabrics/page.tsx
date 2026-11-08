@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   title:
     "Silk Fabric Types: 22 Constructions and How to Choose One",
   description:
-    "A working guide to silk fabric types — 22 constructions by weave, momme and use, from habotai lining at 5 momme to structured mikado at 30. Which of them we supply from Yizhou, and which are woven to order.",
+    "22 silk constructions by weave, momme and use — from 5-momme habotai lining to 30-momme mikado. Which we stock from Yizhou, which are woven to order.",
   keywords: [
     "silk fabric types",
     "types of silk fabric",

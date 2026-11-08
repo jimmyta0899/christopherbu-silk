@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   title:
     "Yizhou Raw Silk: The World's Largest Raw Silk Origin",
   description:
-    "Yizhou, Guangxi is the largest raw silk producing county in China — 5,463 tonnes of raw silk a year, 13.4% of national output, twenty years at number one. The official figures, the reeling process, and what it means when you buy.",
+    "Yizhou, Guangxi: China's largest raw silk county — 5,463 t/year, 13.4% of output, 20 years No.1. The figures, the reeling, and what it means to buy.",
   keywords: [
     "yizhou raw silk",
     "yizhou mulberry silk",
@@ -241,7 +241,7 @@ export default function YizhouRawSilkPage() {
       addressCountry: "CN",
     },
     description:
-      "The largest raw silk producing county in China: 5,463 tonnes of annual raw silk output, 13.4% of national output. Twenty consecutive years ranked first among Chinese counties for sericulture scale.",
+      "China's largest raw silk county: 5,463 t/year, 13.4% of national output, 20 straight years No.1 in sericulture scale among Chinese counties.",
   };
 
   return (

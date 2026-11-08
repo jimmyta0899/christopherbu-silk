@@ -8,7 +8,7 @@ import { pressItems } from "@/lib/press";
 export const metadata: Metadata = {
   title: "About Us — Yizhou Silk, Made in a Couture House",
   description:
-    "Christopher Bu × Yizhou Silk bridges a couture house's red-carpet heritage with Yizhou, China — the world's largest raw silk origin — to supply raw silk, greige and dupioni to the global textile industry.",
+    "Christopher Bu × Yizhou Silk links couture red-carpet heritage with Yizhou — China's largest raw silk origin — supplying raw silk, greige, dupioni. B2B.",
   alternates: { canonical: "/about" },
   openGraph: pageOpenGraph("/about"),
 };

@@ -4,7 +4,10 @@ import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { rtwSeasonsSorted } from "@/lib/rtw";
+import { rtwDimensions } from "@/lib/rtw-dimensions";
 import { siteConfig } from "@/lib/site-config";
+
+const toWebp = (p: string) => p.replace(/\.(jpe?g)$/i, ".webp");
 
 export const metadata: Metadata = {
   title:
@@ -65,9 +68,12 @@ export default function RtwPage() {
                 <div className="aspect-[2/3] overflow-hidden bg-ivory-deep">
                   {season.images[0] && (
                     <img
-                      src={`/rtw/${season.folder}/${season.images[0]}`}
+                      src={`/rtw/${season.folder}/${toWebp(season.images[0])}`}
                       alt={`${season.name} — Christopher Bu ready-to-wear collection`}
+                      width={rtwDimensions[`/rtw/${season.folder}/${toWebp(season.images[0])}`]?.[0]}
+                      height={rtwDimensions[`/rtw/${season.folder}/${toWebp(season.images[0])}`]?.[1]}
                       loading="lazy"
+                      decoding="async"
                       className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                   )}

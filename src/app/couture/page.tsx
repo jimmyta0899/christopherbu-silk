@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title:
     "Couture Design Inspiration — The Art of Silk",
   description:
-    "A look at the couture design language of the Christopher Bu house — gowns that show how premium mulberry silk carries embroidery, drape and structure, from Yizhou's raw silk capital.",
+    "The Christopher Bu couture language — gowns showing how premium mulberry silk carries embroidery, drape and structure, from Yizhou's raw silk capital.",
   alternates: { canonical: "/couture" },
   openGraph: pageOpenGraph("/couture"),
 };

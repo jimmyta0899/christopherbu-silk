@@ -1,16 +1,26 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useParams } from "next/navigation";
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { rtwSeasons, getRtwSeason, bigImageFor, type RtwSeason } from "@/lib/rtw";
+import type { RtwSeason } from "@/lib/rtw";
 import { siteConfig } from "@/lib/site-config";
 
-export function SeasonViewer({ season }: { season: RtwSeason }) {
-  const params = useParams<{ slug: string }>();
-  const slug = params?.slug ?? "";
+const toWebp = (p: string) => p.replace(/\.(jpe?g)$/i, ".webp");
+
+type SeasonViewerProps = {
+  season: RtwSeason;
+  // 仅当前赛季的尺寸清单（缩略图 + 大图），由服务端裁剪，避免整包 2423 条 manifest 进客户端
+  dims: Record<string, [number, number]>;
+  // 缩略图 webp 路径 → 大图 webp 路径
+  bigMap: Record<string, string>;
+  prev: { slug: string; name: string } | null;
+  next: { slug: string; name: string } | null;
+};
+
+export function SeasonViewer({ season, dims, bigMap, prev, next }: SeasonViewerProps) {
+  const slug = season.slug;
 
   const [active, setActive] = useState(0);
   const [lightbox, setLightbox] = useState<number | null>(null);
@@ -20,10 +30,6 @@ export function SeasonViewer({ season }: { season: RtwSeason }) {
     setActive(0);
     setLightbox(null);
   }, [slug]);
-
-  const idx = rtwSeasons.findIndex((s) => s.slug === slug);
-  const prev = idx > 0 ? rtwSeasons[idx - 1] : null;
-  const next = idx >= 0 && idx < rtwSeasons.length - 1 ? rtwSeasons[idx + 1] : null;
 
   const images = season.images;
   const total = images.length;
@@ -97,30 +103,37 @@ export function SeasonViewer({ season }: { season: RtwSeason }) {
         {/* 看秀区：横向浏览 + 左右箭头（还原老官网看秀体验） */}
         <section className="mt-8 overflow-hidden bg-jade-deep">
           <div className="relative flex h-[62vh] min-h-[360px] items-center justify-center">
-            {images.map((img, i) => (
-              <button
-                key={img}
-                type="button"
-                onClick={() => setLightbox(i)}
-                className="group relative flex h-full items-center justify-center overflow-hidden transition-opacity duration-500"
-                style={{
-                  width: i === active ? "auto" : "0px",
-                  opacity: i === active ? 1 : 0,
-                  pointerEvents: i === active ? "auto" : "none",
-                }}
-                aria-label={`View look ${i + 1} of ${total}`}
-              >
-                <img
-                  src={`/rtw/${season.folder}/${img}`}
-                  alt={`${season.name} look ${i + 1} — Christopher Bu ready-to-wear`}
-                  loading={i < 2 ? "eager" : "lazy"}
-                  className="h-full w-auto max-w-full cursor-zoom-in object-contain"
-                />
-                <span className="pointer-events-none absolute bottom-3 right-3 rounded bg-black/60 px-2 py-1 text-xs text-white opacity-0 transition-opacity group-hover:opacity-100">
-                  Click to enlarge
-                </span>
-              </button>
-            ))}
+            {images.map((img, i) => {
+              const key = `/rtw/${season.folder}/${toWebp(img)}`;
+              return (
+                <button
+                  key={img}
+                  type="button"
+                  onClick={() => setLightbox(i)}
+                  className="group relative flex h-full items-center justify-center overflow-hidden transition-opacity duration-500"
+                  style={{
+                    width: i === active ? "auto" : "0px",
+                    opacity: i === active ? 1 : 0,
+                    pointerEvents: i === active ? "auto" : "none",
+                  }}
+                  aria-label={`View look ${i + 1} of ${total}`}
+                >
+                  <img
+                    src={key}
+                    alt={`${season.name} look ${i + 1} — Christopher Bu ready-to-wear`}
+                    width={dims[key]?.[0]}
+                    height={dims[key]?.[1]}
+                    loading={i < 2 ? "eager" : "lazy"}
+                    fetchPriority={i === 0 ? "high" : undefined}
+                    decoding="async"
+                    className="h-full w-auto max-w-full cursor-zoom-in object-contain"
+                  />
+                  <span className="pointer-events-none absolute bottom-3 right-3 rounded bg-black/60 px-2 py-1 text-xs text-white opacity-0 transition-opacity group-hover:opacity-100">
+                    Click to enlarge
+                  </span>
+                </button>
+              );
+            })}
 
             <button
               type="button"
@@ -144,24 +157,30 @@ export function SeasonViewer({ season }: { season: RtwSeason }) {
         {/* 缩略图导航条 */}
         <section className="mt-4 overflow-x-auto">
           <div className="flex gap-2 pb-1">
-            {images.map((img, i) => (
-              <button
-                key={img}
-                type="button"
-                onClick={() => setActive(i)}
-                className={`shrink-0 border-2 transition-all ${
-                  i === active ? "border-jade" : "border-transparent opacity-50 hover:opacity-90"
-                }`}
-                aria-label={`Go to look ${i + 1}`}
-              >
-                <img
-                  src={`/rtw/${season.folder}/${img}`}
-                  alt=""
-                  loading="lazy"
-                  className="h-20 w-auto"
-                />
-              </button>
-            ))}
+            {images.map((img, i) => {
+              const key = `/rtw/${season.folder}/${toWebp(img)}`;
+              return (
+                <button
+                  key={img}
+                  type="button"
+                  onClick={() => setActive(i)}
+                  className={`shrink-0 border-2 transition-all ${
+                    i === active ? "border-jade" : "border-transparent opacity-50 hover:opacity-90"
+                  }`}
+                  aria-label={`Go to look ${i + 1}`}
+                >
+                  <img
+                    src={key}
+                    alt=""
+                    width={dims[key]?.[0]}
+                    height={dims[key]?.[1]}
+                    loading="lazy"
+                    decoding="async"
+                    className="h-20 w-auto"
+                  />
+                </button>
+              );
+            })}
           </div>
         </section>
 
@@ -239,20 +258,25 @@ export function SeasonViewer({ season }: { season: RtwSeason }) {
             className="relative max-h-[90vh] max-w-[92vw]"
             onClick={(e) => e.stopPropagation()}
           >
-            <img
-              src={`/rtw/${season.folder}/${bigImageFor(
-                images[lightbox],
-                season.folder
-              )}`}
-              alt={`${season.name} look ${lightbox + 1} — Christopher Bu ready-to-wear`}
-              className="max-h-[84vh] max-w-[92vw] object-contain"
-              onError={(e) => {
-                // 大图缺失时降级到缩略图（如个别老官网死链）
-                const el = e.currentTarget;
-                const thumb = `/rtw/${season.folder}/${images[lightbox]}`;
-                if (el.src !== thumb) el.src = thumb;
-              }}
-            />
+            {(() => {
+              const thumb = `/rtw/${season.folder}/${toWebp(images[lightbox])}`;
+              const big = bigMap[thumb] ?? thumb;
+              return (
+                <img
+                  src={big}
+                  alt={`${season.name} look ${lightbox + 1} — Christopher Bu ready-to-wear`}
+                  width={dims[big]?.[0]}
+                  height={dims[big]?.[1]}
+                  decoding="async"
+                  className="max-h-[84vh] max-w-[92vw] object-contain"
+                  onError={(e) => {
+                    // 大图缺失时降级到缩略图（如个别老官网死链）
+                    const el = e.currentTarget;
+                    if (el.src !== thumb) el.src = thumb;
+                  }}
+                />
+              );
+            })()}
             <figcaption className="mt-3 text-center text-sm text-white/80">
               {season.name} — Look {lightbox + 1} of {total}
             </figcaption>

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title:
     "Raw Silk Yarn 20/22D 4A/5A/6A: Spec Sheet, HS 5002 & Export Terms",
   description:
-    "A buyer's spec sheet for 20/22 denier mulberry raw silk yarn from Yizhou, China: four yarn varieties, 4A/5A/6A grades, HS heading 5002, bale packaging, FOB/FCA terms and T/T payment. All values confirmed in the written quotation.",
+    "Spec sheet for 20/22D mulberry raw silk from Yizhou: four yarn varieties, 4A/5A/6A grades, HS 5002, bale packing, FOB/FCA, T/T. Values per written quote.",
   keywords: [
     "20/22 denier raw silk yarn",
     "20/22D white raw silk",
@@ -218,7 +218,7 @@ export default function RawSilkSpecsPage() {
     "@type": "TechArticle",
     headline: "Raw Silk Yarn 20/22D: Specifications, Grades & Export Terms",
     description:
-      "A buyer's specification sheet for 20/22 denier mulberry raw silk yarn from Yizhou, China, covering denier, grade, HS heading 5002, packing, MOQ and export terms.",
+      "Spec sheet for 20/22D mulberry raw silk from Yizhou: denier, grade, HS 5002, packing, MOQ and export terms, all per written quotation.",
     datePublished: "2026-11-06",
     dateModified: "2026-11-06",
     author: { "@id": ORGANIZATION_ID },

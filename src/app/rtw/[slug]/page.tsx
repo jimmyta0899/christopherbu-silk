@@ -1,9 +1,33 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getRtwSeason, rtwSeasons } from "@/lib/rtw";
+import { getRtwSeason, rtwSeasons, bigImageFor } from "@/lib/rtw";
+import { rtwDimensions } from "@/lib/rtw-dimensions";
 import { pageOpenGraph } from "@/lib/seo-metadata";
 import { siteConfig } from "@/lib/site-config";
 import { SeasonViewer } from "./SeasonViewer";
+
+const toWebp = (p: string) => p.replace(/\.(jpe?g)$/i, ".webp");
+
+// 服务端按当前赛季裁剪尺寸清单与大图映射，避免 2423 条整包 manifest 进入客户端 JS。
+function buildSeasonPayload(season: NonNullable<ReturnType<typeof getRtwSeason>>) {
+  const dims: Record<string, [number, number]> = {};
+  const bigMap: Record<string, string> = {};
+  for (const img of season.images) {
+    const thumb = `/rtw/${season.folder}/${toWebp(img)}`;
+    if (rtwDimensions[thumb]) dims[thumb] = rtwDimensions[thumb];
+    const big = `/rtw/${season.folder}/${toWebp(bigImageFor(img, season.folder))}`;
+    if (rtwDimensions[big]) dims[big] = rtwDimensions[big];
+    bigMap[thumb] = big;
+  }
+  const idx = rtwSeasons.findIndex((s) => s.slug === season.slug);
+  const prev =
+    idx > 0 ? { slug: rtwSeasons[idx - 1].slug, name: rtwSeasons[idx - 1].name } : null;
+  const next =
+    idx >= 0 && idx < rtwSeasons.length - 1
+      ? { slug: rtwSeasons[idx + 1].slug, name: rtwSeasons[idx + 1].name }
+      : null;
+  return { dims, bigMap, prev, next };
+}
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -36,6 +60,8 @@ export default async function RtwSeasonPage({ params }: Props) {
   const { slug } = await params;
   const season = getRtwSeason(slug);
   if (!season) notFound();
+
+  const { dims, bigMap, prev, next } = buildSeasonPayload(season);
 
   // 这 25 个系列页此前没有任何结构化数据——它们是最强的「高定屋 + 红毯」
   // 证据链，值得让 Google 明确读到层级与合辑身份。
@@ -83,7 +109,7 @@ export default async function RtwSeasonPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }}
       />
-      <SeasonViewer season={season} />
+      <SeasonViewer season={season} dims={dims} bigMap={bigMap} prev={prev} next={next} />
     </>
   );
 }

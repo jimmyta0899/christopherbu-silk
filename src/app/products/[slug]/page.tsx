@@ -5,6 +5,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { getProduct, products } from "@/lib/products";
 import { pageOpenGraph } from "@/lib/seo-metadata";
+import { productDimensions } from "@/lib/product-dimensions";
 import { siteConfig } from "@/lib/site-config";
 
 type Props = {
@@ -137,6 +138,10 @@ export default async function ProductPage({ params }: Props) {
             <img
               src={product.image}
               alt={product.imageAlt}
+              width={productDimensions[product.image]?.[0]}
+              height={productDimensions[product.image]?.[1]}
+              fetchPriority="high"
+              decoding="async"
               className="h-auto w-full object-cover"
             />
           </div>
@@ -171,6 +176,10 @@ export default async function ProductPage({ params }: Props) {
                     <img
                       src={v.image}
                       alt={v.imageAlt}
+                      width={productDimensions[v.image]?.[0]}
+                      height={productDimensions[v.image]?.[1]}
+                      loading="lazy"
+                      decoding="async"
                       className="h-44 w-full object-cover"
                     />
                   </div>

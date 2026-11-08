@@ -62,7 +62,7 @@ export const blogPosts: BlogPost[] = [
     title:
       "From the Land of Longevity to the World's Red Carpets: Yizhou's Mulberry Silk",
     metaDescription:
-      "How Yizhou, a longevity town in Guangxi that grows more mulberry silk than any county in China, became the source of silk for couture gowns seen on the world's red carpets.",
+      "How Yizhou — a Guangxi longevity town that grows more mulberry silk than any Chinese county — became the source of silk for couture red-carpet gowns.",
     type: "Provenance / brand",
     publishDate: "2026-11-03",
     keywords: [
@@ -199,7 +199,7 @@ export const blogPosts: BlogPost[] = [
     slug: "sourcing-silk-for-ateliers-worldwide",
     title: "Sourcing Silk for Couture Ateliers Worldwide: Lead Times, MOQs and Trade Terms",
     metaDescription:
-      "A practical guide for couture ateliers in Europe, North America and the Middle East sourcing mulberry silk: lead times, MOQ, FOB terms, landed cost and why a sample comes first.",
+      "For couture ateliers in Europe, North America and the Middle East sourcing mulberry silk: lead times, MOQ, FOB terms, landed cost, and why sample first.",
     type: "Buyer guide",
     publishDate: "2026-11-03",
     keywords: [
@@ -403,7 +403,7 @@ export const blogPosts: BlogPost[] = [
     title:
       "Dupioni Silk in Practice: From Greige Slub to Exquisite Garments - Fan Bingbing's Story",
     metaDescription:
-      "How dupioni silk travels from 20/22 denier raw silk in Yizhou to a finished gown. Slub texture, 19/23/30/40 momme weights, 5% shrinkage, and the 2013 Fan Bingbing pieces as proof.",
+      "Dupioni silk from 20/22D Yizhou raw silk to finished gown: slub texture, 19/23/30/40 momme, 5% shrinkage, with 2013 Fan Bingbing pieces as proof.",
     type: "Material deep-dive",
     publishDate: "2026-10-30",
     keywords: [
@@ -575,7 +575,7 @@ export const blogPosts: BlogPost[] = [
     title:
       "Hand-Embroidered Silk at the Oscars: Paz Vega's Plum Blossom Gown",
     metaDescription:
-      "How a white mulberry silk gown with hand-embroidered red plum blossoms reached the 2018 Oscars red carpet, and what the embroidery tells buyers about specifying silk.",
+      "How a white mulberry silk gown with hand-embroidered red plum blossoms reached the 2018 Oscars red carpet — and what it tells buyers about specifying silk.",
     type: "Designer case study",
     publishDate: "2026-11-03",
     keywords: [

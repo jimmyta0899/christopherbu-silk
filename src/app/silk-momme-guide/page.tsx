@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   title:
     "Silk Momme Guide: What Momme Measures and the Degumming Gap",
   description:
-    "Momme is a weight unit — 1 momme is 4.34 g/m² — but a momme figure quoted on greige cloth overstates finished weight by 22–28%. Conversion table, use-case bands, and the five questions to ask a supplier.",
+    "Momme is weight (1 mm = 4.34 g/m²); a greige-cloth momme overstates finished weight by 22–28%. Conversion table, use-case bands, five supplier questions.",
   keywords: [
     "momme silk",
     "silk momme guide",

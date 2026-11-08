@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   title:
     "Silk Fabric Price per Meter: What Moves It and How to Compare",
   description:
-    "Why two silk quotations for the same fabric name can differ by a multiple: grade, momme basis, width, colour route, quantity and testing. The six drivers, the twelve-point comparison, and an RFQ template.",
+    "Why identical silk names get quotes that differ by a multiple: grade, momme basis, width, colour route, quantity, testing. Six drivers, RFQ check.",
   keywords: [
     "silk fabric price per yard",
     "silk fabric price per meter",
