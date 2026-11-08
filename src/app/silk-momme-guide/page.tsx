@@ -183,13 +183,6 @@ export default function SilkMommeGuidePage() {
           </p>
 
         
-        <figure className="mt-8 max-w-3xl overflow-hidden border border-line">
-          <img src="/products/georgette.webp" alt="Georgette cloth at the lighter end of the momme scale" width="1200" height="800" loading="eager" fetchPriority="high" decoding="async" className="h-auto w-full object-cover" />
-          <figcaption className="border-t border-line bg-ivory-deep px-4 py-3 text-xs text-ink-muted">
-            Georgette, 8–16 momme: the blouse and scarf zone where finished-weight figures matter most.
-          </figcaption>
-        </figure>
-
         <KeyTakeaways
           items={[
             "One momme is 4.34 g/m² of cloth, and that conversion is exact; the ambiguity sits in when the cloth was weighed, not in the unit.",
@@ -217,7 +210,14 @@ export default function SilkMommeGuidePage() {
           </p>
         </section>
 
-        {/* 术语定义：三个词必须能被摘出来单独引用 */}
+                <figure className="mt-8 max-w-3xl overflow-hidden border border-line">
+          <img src="/products/georgette.webp" alt="Georgette cloth at the lighter end of the momme scale" width="1200" height="800" loading="lazy" decoding="async" className="h-auto w-full object-cover" />
+          <figcaption className="border-t border-line bg-ivory-deep px-4 py-3 text-xs text-ink-muted">
+            Georgette, 8–16 momme: the blouse and scarf zone where finished-weight figures matter most.
+          </figcaption>
+        </figure>
+
+{/* 术语定义：三个词必须能被摘出来单独引用 */}
         <section className="mt-12 border-t border-line pt-10">
           <h2 className="font-display text-2xl font-medium text-jade-deep">
             Three words, defined

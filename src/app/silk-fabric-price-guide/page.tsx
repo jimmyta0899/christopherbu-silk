@@ -217,13 +217,6 @@ export default function SilkFabricPriceGuidePage() {
         </p>
 
         
-        <figure className="mt-8 max-w-3xl overflow-hidden border border-line">
-          <img src="/products/greige-fabric.webp" alt="Greige silk fabric undyed straight from the loom" width="412" height="384" loading="eager" fetchPriority="high" decoding="async" className="mx-auto h-auto w-full max-w-sm object-cover" />
-          <figcaption className="border-t border-line bg-ivory-deep px-4 py-3 text-xs text-ink-muted">
-            Greige silk, the cheapest point on the colour-route scale: undyed, straight off the loom.
-          </figcaption>
-        </figure>
-
         <KeyTakeaways
           items={[
             "Six variables drive the number: grade, momme basis, construction, colour route, quantity and width. Fix them and two quotes become comparable.",
@@ -303,7 +296,14 @@ export default function SilkFabricPriceGuidePage() {
           </p>
         </section>
 
-        {/* 六个驱动因子 */}
+                <figure className="mt-8 max-w-3xl overflow-hidden border border-line">
+          <img src="/products/greige-fabric.webp" alt="Greige silk fabric undyed straight from the loom" width="412" height="384" loading="lazy" decoding="async" className="mx-auto h-auto w-full max-w-sm object-cover" />
+          <figcaption className="border-t border-line bg-ivory-deep px-4 py-3 text-xs text-ink-muted">
+            Greige silk, the cheapest point on the colour-route scale: undyed, straight off the loom.
+          </figcaption>
+        </figure>
+
+{/* 六个驱动因子 */}
         <section className="mt-16">
           <h2 className="font-display text-3xl font-medium text-jade-deep">
             The six drivers

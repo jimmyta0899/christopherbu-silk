@@ -409,13 +409,6 @@ export default function SilkFabricsPage() {
         </p>
 
         
-        <figure className="mt-8 max-w-3xl overflow-hidden border border-line">
-          <img src="/products/dupioni2.webp" alt="Dupioni silk with its characteristic irregular slubs, woven from Yizhou raw silk" width="425" height="567" loading="eager" fetchPriority="high" decoding="async" className="mx-auto h-auto w-full max-w-sm object-cover" />
-          <figcaption className="border-t border-line bg-ivory-deep px-4 py-3 text-xs text-ink-muted">
-            Dupioni, the workhorse of structured bridal: 16–19 momme standard, up to 21–22 on request.
-          </figcaption>
-        </figure>
-
         <KeyTakeaways
           items={[
             "Silk is a family of about 22 commercial constructions, not one fabric: weight runs from 5 momme habotai lining to 30 momme mikado.",
@@ -500,7 +493,14 @@ export default function SilkFabricsPage() {
           </p>
         </section>
 
-        {/* 22 织法表 */}
+                <figure className="mt-8 max-w-3xl overflow-hidden border border-line">
+          <img src="/products/dupioni2.webp" alt="Dupioni silk with its characteristic irregular slubs, woven from Yizhou raw silk" width="425" height="567" loading="lazy" decoding="async" className="mx-auto h-auto w-full max-w-sm object-cover" />
+          <figcaption className="border-t border-line bg-ivory-deep px-4 py-3 text-xs text-ink-muted">
+            Dupioni, the workhorse of structured bridal: 16–19 momme standard, up to 21–22 on request.
+          </figcaption>
+        </figure>
+
+{/* 22 织法表 */}
         <section className="mt-16 border-t border-line pt-12">
           <h2 className="font-display text-3xl font-medium text-jade-deep">
             The 22 constructions

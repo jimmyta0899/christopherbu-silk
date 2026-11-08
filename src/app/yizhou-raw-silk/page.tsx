@@ -281,7 +281,7 @@ export default function YizhouRawSilkPage() {
 
         
         <figure className="mt-8 max-w-3xl overflow-hidden border border-line">
-          <img src="/products/raw-silk-20-22d.webp" alt="A hank of 20/22 denier mulberry raw silk, the grade reeled in Yizhou" width="1200" height="900" loading="eager" fetchPriority="high" decoding="async" className="h-auto w-full object-cover" />
+          <img src="/products/raw-silk-20-22d.webp" alt="A hank of 20/22 denier mulberry raw silk, the grade reeled in Yizhou" width="1200" height="900" loading="lazy" decoding="async" className="h-auto w-full object-cover" />
           <figcaption className="border-t border-line bg-ivory-deep px-4 py-3 text-xs text-ink-muted">
             20/22 denier mulberry raw silk — the spec sheet behind every construction on the product pages.
           </figcaption>

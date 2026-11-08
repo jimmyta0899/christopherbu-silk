@@ -263,13 +263,6 @@ export default function WholesaleSilkFabricPage() {
         </p>
 
         
-        <figure className="mt-8 max-w-3xl overflow-hidden border border-line">
-          <img src="/products/satin.webp" alt="Silk satin roll, dyed to order from 10 to 30 momme" width="1200" height="800" loading="eager" fetchPriority="high" decoding="async" className="h-auto w-full object-cover" />
-          <figcaption className="border-t border-line bg-ivory-deep px-4 py-3 text-xs text-ink-muted">
-            Silk satin, 10–30 momme, dyed to order — one of the nine standing wholesale constructions.
-          </figcaption>
-        </figure>
-
         <KeyTakeaways
           items={[
             "Nine constructions are standing products from local mills in Yizhou; the rest are woven to order, and the page states which is which.",
@@ -346,7 +339,14 @@ export default function WholesaleSilkFabricPage() {
           </p>
         </section>
 
-        {/* 批发矩阵 */}
+                <figure className="mt-8 max-w-3xl overflow-hidden border border-line">
+          <img src="/products/satin.webp" alt="Silk satin roll, dyed to order from 10 to 30 momme" width="1200" height="800" loading="lazy" decoding="async" className="h-auto w-full object-cover" />
+          <figcaption className="border-t border-line bg-ivory-deep px-4 py-3 text-xs text-ink-muted">
+            Silk satin, 10–30 momme, dyed to order — one of the nine standing wholesale constructions.
+          </figcaption>
+        </figure>
+
+{/* 批发矩阵 */}
         <section className="mt-16 border-t border-line pt-12">
           <h2 className="font-display text-3xl font-medium text-jade-deep">
             What we supply wholesale
