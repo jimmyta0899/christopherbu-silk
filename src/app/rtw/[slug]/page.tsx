@@ -17,9 +17,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const season = getRtwSeason(slug);
   if (!season) return {};
+  // 布局的 titleTemplate 已追加 "| Christopher Bu"，这里不能再带品牌名，
+  // 否则出现 "… | Christopher Bu | Christopher Bu"。联名赛季名里的
+  // "× Christopher Bu" 一并去掉，只留联名方与年份。
+  const seasonLabel = season.name
+    .replace(/×\s*Christopher Bu\s*/g, "")
+    .replace(/\s{2,}/g, " ")
+    .trim();
   return {
-    title: `Christopher Bu ${season.name} — Ready-to-Wear Collection | Runway Archive`,
-    description: `The complete Christopher Bu ${season.name} ready-to-wear collection, from the couture house behind Fan Bingbing's red-carpet looks. ${season.count} runway looks.`,
+    title: `${seasonLabel} Ready-to-Wear — Runway Archive`,
+    description: `The complete ${seasonLabel} ready-to-wear collection, from the couture house behind Fan Bingbing's red-carpet looks. ${season.count} runway looks.`,
     alternates: { canonical: `/rtw/${season.slug}` },
     openGraph: pageOpenGraph(`/rtw/${season.slug}`),
   };

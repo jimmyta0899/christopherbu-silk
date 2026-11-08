@@ -47,7 +47,7 @@ const sources: HubSource[] = [
 
 export const metadata: Metadata = {
   title:
-    "Silk Momme Guide: What Momme Measures, and the Degumming Gap | Christopher Bu",
+    "Silk Momme Guide: What Momme Measures and the Degumming Gap",
   description:
     "Momme is a weight unit — 1 momme is 4.34 g/m² — but a momme figure quoted on greige cloth overstates finished weight by 22–28%. Conversion table, use-case bands, and the five questions to ask a supplier.",
   keywords: [
@@ -143,7 +143,7 @@ const faqs: HubFaq[] = [
   },
   {
     q: "What should I ask a supplier about momme?",
-    a: "Five things: whether the figure is measured on greige or finished cloth; the tolerance band rather than a single number; the test method used; whether the figure holds after dyeing; and what the width is, since momme and width are usually quoted together and a narrow roll at the same momme costs more per running metre.",
+    a: "Five things. Whether the figure is measured on greige or finished cloth. The tolerance band rather than a single number. The test method used. Whether the figure holds after dyeing. And what the width is, since momme and width are usually quoted together and a narrow roll at the same momme costs more per running metre.",
   },
 ];
 
@@ -151,7 +151,7 @@ export default function SilkMommeGuidePage() {
   return (
     <>
       <Header />
-      <main className="mx-auto max-w-6xl px-6 py-16 md:py-20">
+      <main id="main-content" className="mx-auto max-w-6xl px-6 py-16 md:py-20">
         <nav aria-label="Breadcrumb" className="text-xs text-ink-muted">
           <Link href="/" className="hover:text-gold">
             Home
@@ -164,23 +164,31 @@ export default function SilkMommeGuidePage() {
           Momme, measured on finished fabric — not on greige
         </h1>
 
-        <p className="mt-6 max-w-3xl text-lg leading-relaxed text-ink-soft">
-          One momme is 4.34 g/m². That is the whole unit. The complication — and
-          the reason two suppliers can both quote &ldquo;22 momme&rdquo; and ship you
-          cloth of visibly different weight — is that momme can be measured
-          before or after degumming, and degumming takes 22–28% of the weight
-          out (
-          <a
-            href="https://www.mdpi.com/2154760"
-            rel="noopener noreferrer"
-            target="_blank"
-            className="underline underline-offset-2 hover:text-gold"
-          >
-            Materials
-          </a>
-          , 2023). This page gives the conversion numbers, the use-case bands,
-          and the five questions that close the gap.
-        </p>
+        <p className="mt-6 max-w-3xl text-base leading-relaxed text-ink-soft">
+            One momme is 4.34 g/m². That is the whole unit. The complication is
+            that momme can be measured before or after degumming, and degumming
+            takes 22–28% of the weight out (
+            <a
+              href="https://www.mdpi.com/2154760"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="underline underline-offset-2 hover:text-gold"
+            >
+              Materials
+            </a>
+            , 2023). That is why two suppliers can both quote &ldquo;22
+            momme&rdquo; and ship you cloth of visibly different weight. This page
+            gives the conversion numbers, the use-case bands, and the five
+            questions that close the gap.
+          </p>
+
+        
+        <figure className="mt-8 max-w-3xl overflow-hidden border border-line">
+          <img src="/products/georgette.webp" alt="Georgette cloth at the lighter end of the momme scale" width="1200" height="800" loading="eager" fetchPriority="high" decoding="async" className="h-auto w-full object-cover" />
+          <figcaption className="border-t border-line bg-ivory-deep px-4 py-3 text-xs text-ink-muted">
+            Georgette, 8–16 momme: the blouse and scarf zone where finished-weight figures matter most.
+          </figcaption>
+        </figure>
 
         <KeyTakeaways
           items={[
@@ -254,7 +262,9 @@ export default function SilkMommeGuidePage() {
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
             GSM is the unit most testing labs report. Momme is the unit the silk
-            trade uses. They are the same measurement in different clothes.
+            trade uses. They are the same measurement in different clothes. The
+            conversion factor is fixed: 1 momme = 4.3406 g/m², so 19 momme is
+            82.5 g/m² and 22 momme is 95.5 g/m².
           </p>
           <div className="mt-8 overflow-x-auto border border-line">
             <table className="w-full min-w-[680px] text-sm">
@@ -319,6 +329,17 @@ export default function SilkMommeGuidePage() {
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
             These two numbers get used as if one implies the other. They are
             independent, and the combination is what you are actually buying.
+            Grade is set on the yarn under GB/T 1797-2008 (
+            <a
+              href="https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7764FD3A7E05397BE0A0AB82A"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="underline underline-offset-2 hover:text-gold"
+            >
+              Standardization Administration of China
+            </a>
+            , 2008), which is a different measurement from the cloth weight a
+            mill quotes in momme.
           </p>
           <div className="mt-8 grid gap-6 md:grid-cols-2">
             <div className="border border-line bg-ivory-deep p-7">
@@ -419,8 +440,8 @@ export default function SilkMommeGuidePage() {
           <p className="mt-6 max-w-3xl text-sm leading-relaxed text-ink-soft">
             A supplier who answers all five without irritation is quoting from
             records. A supplier who answers only the first one is quoting from
-            memory. The distinction matters most on repeat orders, where the
-            second lot is where weight drift usually appears.
+            memory. The distinction matters most on repeat orders, where weight
+            drift usually appears in the second lot.
           </p>
         </section>
 

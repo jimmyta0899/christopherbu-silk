@@ -5,7 +5,7 @@ import { Footer } from "@/components/Footer";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Contact B2B Team — Christopher Bu × Yizhou Silk",
+  title: "Contact the B2B Silk Team — Yizhou, China",
   description:
     "Contact the Christopher Bu × Yizhou Silk B2B team for raw silk, greige fabric and dupioni sourcing. Tell us your MOQ, deadline and destination.",
   alternates: { canonical: "/contact" },
@@ -16,7 +16,7 @@ export default function ContactPage() {
   return (
     <>
       <Header />
-      <main className="mx-auto max-w-6xl px-6 py-16 md:py-20">
+      <main id="main-content" className="mx-auto max-w-6xl px-6 py-16 md:py-20">
         <h1 className="font-display text-4xl font-medium text-jade-deep md:text-5xl">
           Talk to our B2B sourcing team.
         </h1>

@@ -8,7 +8,7 @@ import { ORGANIZATION_ID } from "@/lib/organization-schema";
 
 export const metadata: Metadata = {
   title:
-    "Raw Silk Yarn 20/22D 4A/5A/6A: Spec Sheet, HS 5002 & Export Terms | Yizhou Silk Supplier",
+    "Raw Silk Yarn 20/22D 4A/5A/6A: Spec Sheet, HS 5002 & Export Terms",
   description:
     "A buyer's spec sheet for 20/22 denier mulberry raw silk yarn from Yizhou, China: four yarn varieties, 4A/5A/6A grades, HS heading 5002, bale packaging, FOB/FCA terms and T/T payment. All values confirmed in the written quotation.",
   keywords: [
@@ -241,7 +241,7 @@ export default function RawSilkSpecsPage() {
   return (
     <>
       <Header />
-      <main className="mx-auto max-w-6xl px-6 py-16 md:py-20">
+      <main id="main-content" className="mx-auto max-w-6xl px-6 py-16 md:py-20">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}

@@ -36,7 +36,7 @@ export default function BlogPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(blogJsonLd) }}
       />
-      <main className="mx-auto max-w-4xl px-6 py-16 md:py-20">
+      <main id="main-content" className="mx-auto max-w-4xl px-6 py-16 md:py-20">
         <h1 className="font-display text-4xl font-medium text-jade-deep md:text-5xl">
           The sourcing journal
         </h1>

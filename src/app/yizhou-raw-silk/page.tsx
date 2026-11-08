@@ -19,7 +19,7 @@ import {
 
 export const metadata: Metadata = {
   title:
-    "Yizhou Raw Silk: The World's Largest Raw Silk Origin | Christopher Bu",
+    "Yizhou Raw Silk: The World's Largest Raw Silk Origin",
   description:
     "Yizhou, Guangxi is the largest raw silk producing county in China — 5,463 tonnes of raw silk a year, 13.4% of national output, twenty years at number one. The official figures, the reeling process, and what it means when you buy.",
   keywords: [
@@ -79,7 +79,7 @@ const sources: HubSource[] = [
     year: "2008",
     url: "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7764FD3A7E05397BE0A0AB82A",
     supports:
-      "The grading, moisture content and lot-marking requirements referenced in the reeling section.",
+      "The grading, moisture content and lot-marking rules referenced in the reeling section.",
   },
 ];
 
@@ -136,7 +136,7 @@ const reelingSteps = [
   {
     n: "01",
     t: "Cocoon selection",
-    d: "Cocoons are graded before anything else. Double cocoons, thin-shelled cocoons and stained cocoons go to different streams — the double cocoons are what later become dupion yarn, which is why dupion is not a defect but a sorted grade.",
+    d: "Cocoons are graded before anything else. Double cocoons, thin-shelled cocoons and stained cocoons go to different streams. The double cocoons are what later become dupion yarn, which is why dupion is a sorted grade rather than a defect.",
   },
   {
     n: "02",
@@ -151,7 +151,7 @@ const reelingSteps = [
   {
     n: "04",
     t: "Reeling (filature)",
-    d: "Six to nine filaments are drawn off together and twisted into a single thread. That grouping is what produces 20/22 denier — a range rather than an exact figure, because cocoon shells vary and the reeler is continuously adjusting.",
+    d: "Six to nine filaments are drawn off together and twisted into a single thread. That grouping is what produces 20/22 denier. It is a range rather than an exact figure, because cocoon shells vary and the reeler is continuously adjusting.",
   },
   {
     n: "05",
@@ -195,7 +195,7 @@ const comparisons = [
 const faqs: HubFaq[] = [
   {
     q: "Is Yizhou really the world's largest raw silk origin?",
-    a: "Yizhou is the largest raw silk producing county in China, and China produces the large majority of the world's mulberry silk. So the phrase is accurate as a description of the county's position, but it is worth being precise about what it rests on: 5,463 tonnes of annual raw silk output, 13.4% of national output, and twenty consecutive years ranked first among Chinese counties for sericulture scale. Those are the verifiable figures. Anyone quoting a global percentage should show the denominator.",
+    a: "Yizhou is the largest raw silk producing county in China, and China produces the large majority of the world's mulberry silk. So the phrase is accurate as a description of the county's position. It is worth being precise about what it rests on: 5,463 tonnes of raw silk a year, 13.4% of national output, and twenty years in a row at number one among Chinese counties for sericulture scale. Those are the verifiable figures. Anyone quoting a global percentage should show the denominator.",
   },
   {
     q: "What is the difference between Yizhou silk and Suzhou silk?",
@@ -203,19 +203,19 @@ const faqs: HubFaq[] = [
   },
   {
     q: "Which luxury brands use Yizhou raw silk?",
-    a: "The district government's own published account states that the region's high-grade raw silk supplies the raw material chains of Louis Vuitton and Hermès. We report that as the official statement it is, and we do not extend it to brands the source does not name. Being a raw material origin for a luxury house is also not the same as being its named supplier — the fibre usually passes through several hands before it reaches a European atelier.",
+    a: "The district government's own published account states that the region's high-grade raw silk supplies the raw material chains of Louis Vuitton and Hermès. We report that as the official statement it is. We do not extend it to brands the source does not name. Being an origin for a luxury house is not the same as being its named supplier. The fibre usually passes through several hands before it reaches a European atelier.",
   },
   {
     q: "What does 20/22 denier mean?",
-    a: "Denier measures the weight of 9,000 metres of filament. 20/22D means the yarn falls in a band between 20 and 22 denier — a range, not a fixed number, because it is reeled from natural cocoons whose shells vary. It is the standard specification for mulberry raw silk in international trade, and it is a different measure from momme, which describes woven cloth.",
+    a: "Denier measures the weight of 9,000 metres of filament. 20/22D means the yarn falls in a band between 20 and 22 denier. It is a range rather than a fixed number, because it is reeled from natural cocoons whose shells vary. It is the standard spec for mulberry raw silk in international trade, and it differs from momme, which describes woven cloth.",
   },
   {
     q: "Why does raw silk from one region behave differently from another?",
-    a: "Three variables: the mulberry leaf, the climate, and the reeling discipline. Leaf quality drives filament strength and length; heat and humidity through the growing season affect cocoon shell thickness; and reeling practice decides how much of that potential survives into the yarn. Two regions can run the same silkworm breed and produce yarn that breaks at different rates.",
+    a: "Three variables: the mulberry leaf, the climate, and the reeling discipline. Leaf quality drives filament strength and length. Heat and humidity through the growing season affect cocoon shell thickness. Reeling practice decides how much of that potential survives into the yarn. Two regions can run the same silkworm breed and still produce yarn that breaks at different rates.",
   },
   {
     q: "Can I visit or audit the supply chain?",
-    a: "Buyer factory audits are possible and we publish the checklist we work to. If you are arranging a visit, tell us in advance what you need to see — reeling floor, grading records, lot marking, moisture testing — because not every stage happens at the same site and some require the mill to schedule around production.",
+    a: "Buyer factory audits are possible and we publish the checklist we work to. If you are arranging a visit, tell us in advance what you need to see: reeling floor, grading records, lot marking, moisture testing. Not every stage happens at the same site, and some require the mill to schedule around production.",
   },
 ];
 
@@ -247,7 +247,7 @@ export default function YizhouRawSilkPage() {
   return (
     <>
       <Header />
-      <main className="mx-auto max-w-6xl px-6 py-16 md:py-20">
+      <main id="main-content" className="mx-auto max-w-6xl px-6 py-16 md:py-20">
         <nav aria-label="Breadcrumb" className="text-xs text-ink-muted">
           <Link href="/" className="hover:text-gold">
             Home
@@ -262,7 +262,7 @@ export default function YizhouRawSilkPage() {
 
         <p className="mt-6 max-w-3xl text-lg leading-relaxed text-ink-soft">
           Yizhou is the largest raw silk producing county in China. It reels
-          5,463 tonnes of raw silk a year — 13.4% of national output — and has
+          5,463 tonnes of raw silk a year — 13.4% of national output. It has
           held first place among Chinese counties for sericulture scale for
           twenty consecutive years (
           <a
@@ -274,10 +274,18 @@ export default function YizhouRawSilkPage() {
             Yizhou District Government
           </a>
           , 2023). The local mills we work with draw from this district. What
-          follows is what the official figures actually say, where the widely
-          repeated versions of them are wrong, and why the origin matters to a
-          buyer specifying cloth rather than a story.
+          follows is what the official figures actually say. It also covers
+          where the widely repeated versions are wrong. Then it explains why the
+          origin matters to a buyer specifying cloth rather than a story.
         </p>
+
+        
+        <figure className="mt-8 max-w-3xl overflow-hidden border border-line">
+          <img src="/products/raw-silk-20-22d.webp" alt="A hank of 20/22 denier mulberry raw silk, the grade reeled in Yizhou" width="1200" height="900" loading="eager" fetchPriority="high" decoding="async" className="h-auto w-full object-cover" />
+          <figcaption className="border-t border-line bg-ivory-deep px-4 py-3 text-xs text-ink-muted">
+            20/22 denier mulberry raw silk — the spec sheet behind every construction on the product pages.
+          </figcaption>
+        </figure>
 
         <KeyTakeaways
           items={[
@@ -285,7 +293,7 @@ export default function YizhouRawSilkPage() {
             "Every figure on this page carries two qualifiers: the administrative body (Yizhou district, not Hechi prefecture) and the measure (raw silk output is not cocoon value).",
             "Official sources differ between fifteen and sixteen years at number one on raw silk output, so this page states fifteen or more rather than picking one.",
             "Reeling is six steps, and the grade is set at cocoon selection, before anything reaches a loom.",
-            "Origin does not change the specification you should write. It changes whether the supplier can repeat that specification next season.",
+            "Origin does not change the specification you should write. It changes whether the supplier can repeat that spec next season.",
           ]}
         />
 
@@ -297,11 +305,11 @@ export default function YizhouRawSilkPage() {
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
             <strong>Raw silk</strong> is the filament reeled directly from
             cocoons and twisted into yarn, before any weaving. <strong>Reeling</strong>{" "}
-            is that first process: cocoons are softened, the filament is found
+            is that first process. Cocoons are softened, the filament is found
             and joined, and the yarn is wound onto a bobbin. <strong>Greige</strong>{" "}
             is the cloth that leaves the loom undyed and unfinished.{" "}
             <strong>Lot mark</strong> is the identifier a reeling run carries
-            into export packing, and it is how a certificate is matched to the
+            into export packing. It is how a certificate is matched to the
             bale in front of you.
           </p>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
@@ -315,23 +323,23 @@ export default function YizhouRawSilkPage() {
             >
               Standardization Administration of China
             </a>
-            , 2008), and a certificate that cannot be tied to a lot mark is not
+            , 2008). A certificate that cannot be tied to a lot mark is not
             evidence of anything.
           </p>
         </section>
 
         {/* 一句话定位 */}
         <section className="mt-14 border-l-2 border-gold pl-6">
-          <p className="text-base leading-relaxed text-ink-soft">
-            <span className="font-medium text-jade-deep">
-              One clarification before the numbers.
-            </span>{" "}
-            &ldquo;World&rsquo;s largest raw silk origin&rdquo; is a fair phrase, but it
-            rests on a chain of facts rather than a single published ranking:
-            China produces the large majority of the world&rsquo;s mulberry silk,
-            and Yizhou is the top county within China. We state the domestic
-            ranking because it is published and checkable. A supplier who gives
-            you a global percentage without a denominator is guessing.
+          <p className="text-base font-medium text-jade-deep">
+            One clarification before the numbers.
+          </p>
+          <p className="mt-3 text-base leading-relaxed text-ink-soft">
+            &ldquo;World&rsquo;s largest raw silk origin&rdquo; is a fair phrase. It rests on a
+            chain of facts rather than on a single published ranking. China
+            produces the large majority of the world&rsquo;s mulberry silk, and
+            Yizhou is the top county within China. We state the domestic ranking
+            because it is published and checkable. A supplier who gives you a
+            global percentage without a denominator is guessing.
           </p>
         </section>
 
@@ -341,12 +349,15 @@ export default function YizhouRawSilkPage() {
             The official figures, with their qualifying conditions
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
-            Administrative boundaries and statistical scope matter more than
-            most buyers expect. Yizhou district and Hechi prefecture publish
-            different numbers for the same thing, and &ldquo;silk processing
-            output&rdquo; is not the same measure as &ldquo;total cocoon value&rdquo;.
-            Each figure below carries the scope it belongs to. The district
-            figures come from the Yizhou district government profile (
+            Statistical scope matters more than most buyers expect. Yizhou
+            district and Hechi prefecture publish different numbers for the
+            same thing. And &ldquo;silk processing output&rdquo; is not the same
+            measure as &ldquo;total cocoon value&rdquo;. Each figure below carries
+            the scope it belongs to.
+          </p>
+          <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
+            The district figures come from the Yizhou district government
+            profile (
             <a
               href="http://www.hcyzq.gov.cn/zjyz/yzgk/t4682604.shtml"
               rel="noopener noreferrer"
@@ -355,7 +366,7 @@ export default function YizhouRawSilkPage() {
             >
               Yizhou District Government
             </a>
-            , 2023); the prefecture-level figures and the county ranking come
+            , 2023). The prefecture-level figures and the county ranking come
             from the Hechi civil affairs bureau (
             <a
               href="http://mzj.hechi.gov.cn/zwdt/t27808607.shtml"
@@ -410,8 +421,7 @@ export default function YizhouRawSilkPage() {
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
             Most sourcing pages describe raw silk as a commodity with a price
-            per kilo. It is a manufactured product with six decision points, and
-            every one of them shows up later as a defect or a clean run on your
+            per kilo. It is a manufactured product with six decision points. Every one of them shows up later as a defect or a clean run on your
             loom.
           </p>
           <div className="mt-8 grid gap-6 md:grid-cols-2">
@@ -496,16 +506,15 @@ export default function YizhouRawSilkPage() {
               The district government&rsquo;s published account states that
               Yizhou&rsquo;s high-grade raw silk supplies the raw material chains
               of Louis Vuitton and Hermès. That is the claim, and it is a
-              meaningful one — it means the top of the local grade range is
+              meaningful one. It means the top of the local grade range is
               good enough for houses whose rejection standards are brutal.
             </p>
             <p>
               It is also narrower than it is often repeated as. Being an origin
               for a luxury raw material chain is not the same as being a named
               supplier to that house. Fibre moves through reeling, trading,
-              weaving and finishing before it reaches an atelier, and the brand
-              at the end rarely knows the county. We report the official
-              statement as written and stop there — we do not extend it to
+              weaving and finishing before it reaches an atelier. The brand at the end rarely knows the county. We report the official
+              statement as written and stop there. We do not extend it to
               brands the source does not name, and we do not claim a direct
               relationship we cannot evidence.
             </p>
@@ -518,8 +527,8 @@ export default function YizhouRawSilkPage() {
             How Yizhou differs from the regions buyers usually name
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
-            Buyers often ask for &ldquo;Suzhou silk&rdquo; or &ldquo;Como silk&rdquo; when what
-            they mean is a quality level or a finishing standard. These are
+            Buyers often ask for &ldquo;Suzhou silk&rdquo; or &ldquo;Como silk&rdquo;.
+            What they mean is a quality level or a finishing standard. These are
             different links in one chain, and confusing them is how a
             specification drifts.
           </p>
@@ -559,21 +568,21 @@ export default function YizhouRawSilkPage() {
               We work with local mills in Yizhou rather than describing
               ourselves as a trader who found a good price. That distinction
               matters operationally. It is why we can tell you which reeling run
-              a lot came from, why we push back when a specification will not
-              survive degumming, and why we refuse to quote a construction the
-              mills cannot actually weave at your quantity.
+              a lot came from. It is why we push back when a specification will
+              not survive degumming. And it is why we refuse to quote a
+              construction the mills cannot actually weave at your quantity.
             </p>
             <p>
-              For example, when a buyer asks for a 16 momme charmeuse at 140 cm,
-              the question we can answer is whether the local mills can hold that
-              width and weight in the same run, and what the graded yarn behind
-              it will be. That answer comes from the reeling floor rather than a
-              catalogue page.
+              For example, a buyer may ask for a 16 momme charmeuse at 140 cm.
+              The question we can answer is whether the local mills can hold
+              that width and weight in the same run. The second question is
+              what the graded yarn behind it will be. That answer comes from
+              the reeling floor rather than a catalogue page.
             </p>
             <p>
               The other half of our position is that we are a couture house
               first. Cloth is judged here by what it does on a body under
-              movement and light — the standard that produced the{" "}
+              movement and light. That is the standard which produced the{" "}
               <Link
                 href="/blog/forbidden-city-silk-jacquard-fan-bingbing"
                 className="font-medium text-gold hover:text-jade"
@@ -588,8 +597,8 @@ export default function YizhouRawSilkPage() {
                 hand-embroidered Oscars gown
               </Link>
               . A mill specification sheet will not tell you that a cloth
-              photographs grey under flash, or that it creases at the hip after
-              twenty minutes of sitting. We will.
+              photographs grey under flash. It will not tell you that it creases
+              at the hip after twenty minutes of sitting. We will.
             </p>
           </div>
           <div className="mt-8 grid gap-6 md:grid-cols-2">
@@ -673,8 +682,7 @@ export default function YizhouRawSilkPage() {
             </li>
           </ul>
           <p className="mt-4 max-w-3xl text-xs text-ink-muted">
-            Where official sources disagree on a year count, this page states
-            the conservative version and says so rather than picking the more
+            Where official sources disagree on a year count. This page states the conservative version and says so rather than picking the more
             flattering number.
           </p>
         </section>
@@ -727,10 +735,10 @@ export default function YizhouRawSilkPage() {
             Ask for the lot records
           </h2>
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-white/80">
-            If the origin matters to your customer, ask us for what backs it —
-            lot marking, grading certificates, moisture figures and the export
-            documents that travel with the bale. Samples carry no material
-            charge; you cover the courier.
+            If the origin matters to your customer, ask us for what backs it.
+            That means lot marking, grading certificates, moisture figures and
+            the export documents that travel with the bale. Samples carry no
+            material charge; you cover the courier.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <Link
@@ -750,7 +758,7 @@ export default function YizhouRawSilkPage() {
 
         <SourcesBlock
           sources={sources}
-          methodology="Methodology: every figure on this page is taken from a published government profile. The two qualifiers that travel with it (administrative scope and statistical measure) are stated in the same row. Where official sources disagree, as they do on the number of years at first place for raw silk output, the page states the conservative figure and says so. The six reeling steps describe the standard process, not one mill's line. Grading and moisture requirements follow GB/T 1797-2008. Reeled silk is a commodity with published standards, so this page cites the standard rather than a supplier's brochure."
+          methodology="Methodology: every figure on this page is taken from a published government profile. The two qualifiers that travel with it (administrative scope and statistical measure) are stated in the same row. Where official sources disagree, as they do on the number of years at first place for raw silk output, the page states the conservative figure and says so. The six reeling steps describe the standard process, not one mill's line. Grading and moisture rules follow GB/T 1797-2008. Reeled silk is a commodity with published standards, so this page cites the standard rather than a supplier's brochure."
         />
 
         <script

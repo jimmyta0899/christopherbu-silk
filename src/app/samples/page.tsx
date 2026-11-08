@@ -65,7 +65,7 @@ export default function SamplesPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
-      <main className="mx-auto max-w-6xl px-6 py-16 md:py-20">
+      <main id="main-content" className="mx-auto max-w-6xl px-6 py-16 md:py-20">
         <p className="text-xs font-medium uppercase tracking-[0.18em] text-gold">
           Free sample service
         </p>

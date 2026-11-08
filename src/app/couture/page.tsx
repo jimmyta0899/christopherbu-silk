@@ -8,7 +8,7 @@ import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
   title:
-    "Couture Design Inspiration — Christopher Bu × Yizhou Silk | The Art of Silk",
+    "Couture Design Inspiration — The Art of Silk",
   description:
     "A look at the couture design language of the Christopher Bu house — gowns that show how premium mulberry silk carries embroidery, drape and structure, from Yizhou's raw silk capital.",
   alternates: { canonical: "/couture" },
@@ -28,7 +28,7 @@ export default function CouturePage() {
   return (
     <>
       <Header />
-      <main className="mx-auto max-w-6xl px-6 py-16 md:py-20">
+      <main id="main-content" className="mx-auto max-w-6xl px-6 py-16 md:py-20">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -54,6 +54,9 @@ export default function CouturePage() {
         </div>
 
         {/* 看秀画廊 */}
+        <h2 className="mt-14 font-display text-2xl font-medium text-jade-deep md:text-3xl">
+          Selected gowns from the house archive
+        </h2>
         <CoutureGallery />
 
         {/* 引导语：回到产品/面料 */}

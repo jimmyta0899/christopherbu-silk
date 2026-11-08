@@ -47,7 +47,7 @@ const sources: HubSource[] = [
 
 export const metadata: Metadata = {
   title:
-    "Silk Fabric Price per Meter: What Moves It, and How to Compare Quotes | Christopher Bu",
+    "Silk Fabric Price per Meter: What Moves It and How to Compare",
   description:
     "Why two silk quotations for the same fabric name can differ by a multiple: grade, momme basis, width, colour route, quantity and testing. The six drivers, the twelve-point comparison, and an RFQ template.",
   keywords: [
@@ -86,7 +86,7 @@ const drivers = [
   {
     n: "04",
     t: "Colour route",
-    d: "Four routes with different economics: greige (cheapest, no dyeing), standard shade card (dye lot setup amortised over many orders), custom match (lab dip plus a dedicated dye lot), and yarn-dyed or jacquard colour (colour introduced before weaving). A custom match on a small quantity is where quotations diverge most.",
+    d: "Four routes with different economics. Greige is the cheapest because nothing is dyed. A standard shade card amortises the dye lot setup over many orders. A custom match adds a lab dip plus a dedicated dye lot. Yarn-dyed or jacquard colour introduces the colour before weaving. A custom match on a small quantity is where quotations diverge most.",
     direction: "Greige < card < custom",
   },
   {
@@ -168,7 +168,7 @@ const faqs: HubFaq[] = [
   },
   {
     q: "How can I reduce cost without losing quality?",
-    a: "Change the specification deliberately rather than hoping the price falls. Move to a standard shade card colour instead of a custom match; take a slightly lighter momme where the garment allows it; use a wider width so your marker wastes less; consolidate several colours into one order to share the setup. What does not work is asking for the same specification at a lower price — the difference has to come from somewhere, and it usually comes from grade, weight or testing.",
+    a: "Change the specification deliberately rather than hoping the price falls. Move to a standard shade card colour instead of a custom match. Take a slightly lighter momme where the garment allows it. Use a wider width so your marker wastes less. Consolidate several colours into one order to share the setup. For example, moving one lining style from a custom match to the nearest shade card colour removes the lab dip and the dedicated dye lot from the quotation entirely. What does not work is asking for the same specification at a lower price — the difference has to come from somewhere, and it usually comes from grade, weight or testing.",
   },
   {
     q: "Why do you not publish a price list?",
@@ -193,7 +193,7 @@ export default function SilkFabricPriceGuidePage() {
   return (
     <>
       <Header />
-      <main className="mx-auto max-w-6xl px-6 py-16 md:py-20">
+      <main id="main-content" className="mx-auto max-w-6xl px-6 py-16 md:py-20">
         <nav aria-label="Breadcrumb" className="text-xs text-ink-muted">
           <Link href="/" className="hover:text-gold">
             Home
@@ -215,6 +215,14 @@ export default function SilkFabricPriceGuidePage() {
           quotation misleads, and a twelve-point comparison that makes two
           quotes actually comparable.
         </p>
+
+        
+        <figure className="mt-8 max-w-3xl overflow-hidden border border-line">
+          <img src="/products/greige-fabric.webp" alt="Greige silk fabric undyed straight from the loom" width="412" height="384" loading="eager" fetchPriority="high" decoding="async" className="mx-auto h-auto w-full max-w-sm object-cover" />
+          <figcaption className="border-t border-line bg-ivory-deep px-4 py-3 text-xs text-ink-muted">
+            Greige silk, the cheapest point on the colour-route scale: undyed, straight off the loom.
+          </figcaption>
+        </figure>
 
         <KeyTakeaways
           items={[
@@ -250,7 +258,7 @@ export default function SilkFabricPriceGuidePage() {
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
             <strong>Grade</strong> is the quality classification of the raw silk
-            yarn, set under GB/T 1797-2008 (
+            yarn. It is set under GB/T 1797-2008 (
             <a
               href="https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7764FD3A7E05397BE0A0AB82A"
               rel="noopener noreferrer"
@@ -261,7 +269,7 @@ export default function SilkFabricPriceGuidePage() {
             </a>
             , 2008), and it is measured on the yarn rather than on the cloth.{" "}
             <strong>Momme basis</strong> is the point in processing at which the
-            weight was taken, greige or finished, and it is the single field most
+            weight was taken, greige or finished. It is the single field most
             often missing from a quotation. <strong>Landed cost</strong> is what
             the cloth costs once freight, insurance, duty and inland handling are
             added, which is why two identical FOB numbers can land at different
@@ -278,8 +286,8 @@ export default function SilkFabricPriceGuidePage() {
           </p>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
             For example, a quote at 19 momme finished and a quote at 19 momme
-            greige are not the same cloth: the second finishes lighter, so the
-            cheaper number is buying less silk. For example, two quotes at the same momme can still describe different cloth if one is measured on greige. The same logic applies upward.
+            greige are not the same cloth. The second finishes lighter, so the
+            cheaper number is buying less silk. The same logic applies upward.
             The raw material floor comes from a reeling district that produces
             for export at scale (
             <a

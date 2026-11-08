@@ -22,7 +22,7 @@ export default function SustainabilityPage() {
   return (
     <>
       <Header />
-      <main className="mx-auto max-w-6xl px-6 py-16 md:py-20">
+      <main id="main-content" className="mx-auto max-w-6xl px-6 py-16 md:py-20">
         <h1 className="font-display text-4xl font-medium text-jade-deep md:text-5xl">
           Traceable silk, from origin to shipment.
         </h1>

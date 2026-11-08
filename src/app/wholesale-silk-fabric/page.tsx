@@ -48,7 +48,7 @@ const sources: HubSource[] = [
 
 export const metadata: Metadata = {
   title:
-    "Wholesale Silk Fabric from China: How a Bulk Order Runs | Christopher Bu",
+    "Wholesale Silk Fabric from China: How a Bulk Order Runs",
   description:
     "Wholesale silk fabric from Yizhou, China — nine standing constructions, dyed to order on a standard shade card or a custom match, with sampling, QC and FOB or FCA terms set out step by step.",
   keywords: [
@@ -137,7 +137,7 @@ const steps = [
   {
     n: "03",
     t: "Sampling",
-    d: "Mini fabric samples are supplied without a material charge once availability is confirmed; the buyer bears courier, customs and related international shipping costs. Full-size fabric and finished garments are chargeable, and any sample-fee credit against a later bulk order applies only when stated in the written quotation.",
+    d: "Mini fabric samples are supplied without a material charge once availability is confirmed; the buyer bears courier, customs and related international shipping costs. Full-size fabric and finished garments are chargeable. Any sample-fee credit against a later bulk order applies only when stated in the written quotation.",
   },
   {
     n: "04",
@@ -147,7 +147,7 @@ const steps = [
   {
     n: "05",
     t: "Colour approval",
-    d: "Two routes: a standard shade from the colour card, or a custom match to a submitted sample or reference. Custom matching needs an approved lab dip before bulk, and the approved dip is what QC checks against — not the original reference.",
+    d: "Two routes: a standard shade from the colour card, or a custom match to a submitted sample or reference. Custom matching needs an approved lab dip before bulk. The approved dip is what QC checks against, not the original reference.",
   },
   {
     n: "06",
@@ -205,11 +205,11 @@ const tradeTerms = [
 const faqs: HubFaq[] = [
   {
     q: "What is the minimum order for wholesale silk fabric?",
-    a: "There is no universal fixed minimum. Small trial rolls, custom widths and samples may be available subject to material, mill and schedule review. The final minimum depends on the construction, the width and whether the colour is a standard shade or a custom match, and it is confirmed in the written quotation rather than published as a single number.",
+    a: "There is no universal fixed minimum. Small trial rolls, custom widths and samples may be available subject to material, mill and schedule review. The final minimum depends on the construction, the width and whether the colour is a standard shade or a custom match. It is confirmed in the written quotation rather than published as a single number.",
   },
   {
     q: "Do you supply free samples?",
-    a: "Mini fabric samples can be supplied without a material charge once availability is confirmed. The buyer bears all courier, customs and related international shipping costs, usually by DHL or a designated courier. Full-size silk fabrics and finished apparel are chargeable, and any sample fee credit against a later bulk order applies only when it is stated in the quotation or pro forma invoice.",
+    a: "Mini fabric samples can be supplied without a material charge once availability is confirmed. The buyer bears all courier, customs and related international shipping costs, usually by DHL or a designated courier. Full-size silk fabrics and finished apparel are chargeable. Any sample fee credit against a later bulk order applies only when it is stated in the quotation or pro forma invoice.",
   },
   {
     q: "Can you dye silk fabric to a custom colour?",
@@ -217,11 +217,11 @@ const faqs: HubFaq[] = [
   },
   {
     q: "Are you a manufacturer or a trading company?",
-    a: "We work with local mills in Yizhou, and we are a couture house with its own design and production standard. In practice that means the cloth we quote is the cloth we cut — the specification is written by people who see it on a fitting model, not only on a test report. Our export and sourcing operations run through Beijing Qingshanyimu Trading Co., Ltd.",
+    a: "We work with local mills in Yizhou, and we are a couture house with its own design and production standard. In practice that means the cloth we quote is the cloth we cut. The specification is written by people who see it on a fitting model, not only on a test report. Our export and sourcing operations run through Beijing Qingshanyimu Trading Co., Ltd.",
   },
   {
     q: "How long does bulk production take?",
-    a: "15–25 working days is a planning estimate for eligible regular bulk orders. The clock starts once the sample, specification, deposit and material availability are all confirmed — not at the date of enquiry. Custom weaving, custom colour matching and jacquard pattern development each add their own lead time, and the binding schedule is the one in the signed order documents.",
+    a: "15–25 working days is a planning estimate for eligible regular bulk orders. The clock starts once the sample, specification, deposit and material availability are all confirmed — not at the date of enquiry. Custom weaving, custom colour matching and jacquard pattern development each add their own lead time. The binding schedule is the one in the signed order documents.",
   },
   {
     q: "Do you supply OEKO-TEX or GOTS certified silk?",
@@ -229,7 +229,7 @@ const faqs: HubFaq[] = [
   },
   {
     q: "Can you develop a custom weave, width or pattern?",
-    a: "Custom width and custom pattern development are available where the weave allows, and jacquard pattern development is part of the jacquard programme. What we will not do is accept a specification the mill cannot hold at your quantity — better to say so at the sampling stage than to ship a roll that fails your cutting room.",
+    a: "Custom width and custom pattern development are available where the weave allows. Jacquard pattern development is part of the jacquard programme. What we will not do is accept a spec the mill cannot hold at your quantity. Better to say so at the sampling stage than to ship a roll that fails your cutting room.",
   },
   {
     q: "What are your shipping terms?",
@@ -241,7 +241,7 @@ export default function WholesaleSilkFabricPage() {
   return (
     <>
       <Header />
-      <main className="mx-auto max-w-6xl px-6 py-16 md:py-20">
+      <main id="main-content" className="mx-auto max-w-6xl px-6 py-16 md:py-20">
         <nav aria-label="Breadcrumb" className="text-xs text-ink-muted">
           <Link href="/" className="hover:text-gold">
             Home
@@ -258,9 +258,17 @@ export default function WholesaleSilkFabricPage() {
           Nine standing constructions from local mills in Yizhou, dyed to order
           on either a standard shade card or a custom match, shipped FOB or FCA
           with inspection records. This page sets out the seven steps from
-          enquiry to container, the terms we quote, and the questions that
-          decide whether two wholesale quotations are actually comparable.
+          enquiry to container, and the terms we quote. It also covers the
+          questions that decide whether two quotations are comparable.
         </p>
+
+        
+        <figure className="mt-8 max-w-3xl overflow-hidden border border-line">
+          <img src="/products/satin.webp" alt="Silk satin roll, dyed to order from 10 to 30 momme" width="1200" height="800" loading="eager" fetchPriority="high" decoding="async" className="h-auto w-full object-cover" />
+          <figcaption className="border-t border-line bg-ivory-deep px-4 py-3 text-xs text-ink-muted">
+            Silk satin, 10–30 momme, dyed to order — one of the nine standing wholesale constructions.
+          </figcaption>
+        </figure>
 
         <KeyTakeaways
           items={[
@@ -304,7 +312,7 @@ export default function WholesaleSilkFabricPage() {
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
             <strong>MOQ</strong> is the minimum order quantity a mill will run
-            for a given construction and colour, and it changes with the dye
+            for a given construction and colour. It changes with the dye
             route rather than staying fixed per fabric. <strong>Lab dip</strong>{" "}
             is the small dyed sample approved before bulk, and once signed it
             becomes the reference for inspection. <strong>FOB</strong> is Free On
@@ -319,20 +327,20 @@ export default function WholesaleSilkFabricPage() {
               International Chamber of Commerce
             </a>
             , 2020). <strong>FCA</strong> is Free Carrier, where the seller hands
-            the goods to your forwarder earlier, which is why we prefer it for
+            the goods to your forwarder earlier. That is why we prefer it for
             inland dispatch from Yizhou.
           </p>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
             For example, two quotes for the same dupioni can differ by a wide
-            margin purely because one is FOB Nansha and the other is FCA Yizhou
-            with the inland trucking excluded. Grade adds a second variable: a
+            margin. One is FOB Nansha and the other is FCA Yizhou, with the
+            inland trucking excluded. Grade adds a second variable. A
             5A bale and a 6A bale are graded on the yarn under GB/T 1797-2008,
-            not on the finished cloth, so the grade in a quotation describes the
-            raw material rather than the fabric you receive.
+            not on the finished cloth. The grade in a quotation therefore
+            describes the raw material rather than the fabric you receive.
           </p>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
             For example, a mill can hold 140 cm on one construction and only 114
-            cm on another, so a cutting marker planned on the wider figure will
+            cm on another. So a cutting marker planned on the wider figure will
             not fit the narrower roll. Confirm width and momme together in the
             written quotation.
           </p>
@@ -345,7 +353,7 @@ export default function WholesaleSilkFabricPage() {
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
             Nine categories, each with its own specification page. Colour is
-            quoted per order; the table states the route rather than a price,
+            quoted per order. The table states the route rather than a price,
             because the same cloth has different economics depending on whether
             your colour is on the card.
           </p>
@@ -486,20 +494,20 @@ export default function WholesaleSilkFabricPage() {
               Most wholesale silk is quoted by a trading desk that never cuts
               the cloth. We quote fabric we also cut in the atelier, which
               changes what gets flagged. A cloth that passes a test report can
-              still photograph grey under flash, crease at the hip after twenty
-              minutes of sitting, or lose its edge on a bias seam — and those
-              are the failures that cost a production run, not the ones on the
-              inspection sheet.
+              still photograph grey under flash. It can crease at the hip after
+              twenty minutes of sitting, or lose its edge on a bias seam. Those
+              are the failures that cost a production run. A clean inspection
+              sheet does not capture any of them.
             </p>
             <p>
               It also changes what we refuse. We will tell you when a
-              construction your brief calls for cannot hold at your quantity,
-              rather than quoting it and letting the sample stage discover the
+              construction your brief calls for cannot hold at your quantity. We
+              would rather say so than let the sample stage discover the
               problem. That conversation is cheaper for both of us.
             </p>
             <p>
               The supply base is a reeling district, not a trading platform.
-              Yizhou reels 5,463 tonnes of raw silk a year and has held first
+              Yizhou reels 5,463 tonnes of raw silk a year. It has held first
               place among Chinese counties for sericulture scale for twenty
               consecutive years (
               <a
@@ -510,8 +518,8 @@ export default function WholesaleSilkFabricPage() {
               >
                 Yizhou District Government
               </a>
-              , 2023), which is the reason a repeat order next season is a
-              scheduling question rather than a sourcing one.
+              , 2023). That is why a repeat order next season is a scheduling
+              question rather than a sourcing one.
             </p>
           </div>
           <div className="mt-8 grid gap-6 md:grid-cols-3">
@@ -625,7 +633,7 @@ export default function WholesaleSilkFabricPage() {
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-white/80">
             Send the end use, quantity, destination market and any test
             requirements. You will get a specification, a sample list and a
-            quotation that states its momme basis and width — so it can be
+            quotation that states its momme basis and width. That way it can be
             compared honestly against anyone else&rsquo;s.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
@@ -646,7 +654,7 @@ export default function WholesaleSilkFabricPage() {
 
         <SourcesBlock
           sources={sources}
-          methodology="Methodology: incoterm definitions follow the ICC's published rules and are not reworded into something looser. Grade statements follow GB/T 1797-2008, which grades the yarn rather than the finished cloth, so a quotation that names a grade is describing the raw material. Colour routes, sample policy and payment terms are the atelier's own commercial terms and are stated as such. Where a figure would depend on a specific mill or season, the page says it is confirmed on the quotation instead of publishing a number."
+          methodology="Methodology: incoterm definitions follow the ICC's published rules and are not reworded into something looser. Grade statements follow GB/T 1797-2008, which grades the yarn rather than the finished cloth. So a quotation that names a grade is describing the raw material. Colour routes, sample policy and payment terms are the atelier's own commercial terms and are stated as such. Where a figure would depend on a specific mill or season. The page says it is confirmed on the quotation instead of publishing a number."
         />
 
         <script

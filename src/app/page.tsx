@@ -56,7 +56,7 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
       />
       <Header />
-      <main>
+      <main id="main-content">
         {/* Hero：深墨绿 + 金，紫禁城绿金刺绣的意象；左文右图 */}
         <section className="bg-jade-deep text-ivory">
           <div className="mx-auto max-w-6xl px-6 py-12 md:py-16">

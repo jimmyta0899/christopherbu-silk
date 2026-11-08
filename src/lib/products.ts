@@ -44,7 +44,7 @@ export const products: Product[] = [
     slug: "raw-silk",
     name: "Raw Silk Yarn",
     title:
-      "Christopher Bu Raw Silk Yarn 20/22D, Dupion, Luxury & Organic Silk for Weaving & Embroidery | Yizhou Silk Supplier",
+      "Raw Silk Yarn 20/22D, Dupion, Luxury & Organic for Weaving",
     h1: "Raw Silk Yarn: 20/22D, Dupion, Luxury & Organic Silk",
     metaDescription:
       "Source raw silk yarn from Yizhou, China in four varieties — 20/22D white raw silk, natural dupion silk yarn, 1-ply luxury silk yarn and GOTS-certified organic silk. For weaving, knitting and embroidery. B2B bulk supply.",
@@ -210,7 +210,7 @@ export const products: Product[] = [
     slug: "greige-fabric",
     name: "Greige Silk Fabric",
     title:
-      "Christopher Bu Greige Silk Fabric Undyed Unfinished Mulberry Silk by Weave — Sample MOQ FOB Nansha / FOB Yantian Yizhou Silk B2B",
+      "Greige Silk Fabric: Undyed Mulberry Silk by Weave, Sample MOQ",
     h1: "Greige Silk Fabric (Undyed, Unfinished)",
     metaDescription:
       "Source greige (undyed, unfinished) mulberry silk from Yizhou, China — the raw state of the cloth before dyeing or finishing, by base weave. Bulk supply with OEKO-TEX & GOTS available on request.",
@@ -269,7 +269,7 @@ export const products: Product[] = [
     slug: "satin",
     name: "Satin Silk Fabric",
     title:
-      "Christopher Bu Satin Silk Fabric 10–30mm 114/140cm for Bridal & Eveningwear — Sample FOB Nansha / FOB Yantian Yizhou Silk Supplier",
+      "Satin Silk Fabric 10–30mm, 114/140cm for Bridal & Eveningwear",
     h1: "Satin Silk Fabric for Bridal & Eveningwear",
     metaDescription:
       "Source lustrous satin silk fabric from Yizhou, China, in 10/12/14/16/19/22/25/30 momme and 114/140 cm widths. Supplied greige or dyed to order. Ideal for bridal, eveningwear and luxury linings. B2B bulk supply.",
@@ -338,7 +338,7 @@ export const products: Product[] = [
     slug: "jacquard-luo",
     name: "Jacquard Luo Silk",
     title:
-      "Christopher Bu Jacquard Luo Silk Fabric Custom Woven Motifs 16–30mm for Couture & Occasionwear — Yizhou Silk Supplier",
+      "Jacquard Luo Silk, Custom Woven Motifs 16–30mm for Couture",
     h1: "Jacquard Luo Silk for Couture & Occasionwear",
     metaDescription:
       "Source jacquard luo silk fabric from Yizhou, China — a mulberry silk with motifs woven into the cloth on a jacquard loom. Custom pattern development. Ideal for couture and occasionwear. B2B bulk supply.",
@@ -405,7 +405,7 @@ export const products: Product[] = [
     slug: "georgette",
     name: "Georgette Silk",
     title:
-      "Christopher Bu Georgette Silk Fabric 8–16mm 114/140cm for Scarves & Flowing Garments — Yizhou Silk Supplier",
+      "Georgette Silk Fabric 8–16mm for Scarves & Flowing Garments",
     h1: "Georgette Silk for Scarves & Flowing Garments",
     metaDescription:
       "Source georgette silk fabric from Yizhou, China — a sheer, crinkled mulberry silk in 8/10/12/14/16 momme, 114/140 cm. Ideal for scarves, summer wear and flowing dresses. B2B bulk supply.",
@@ -468,7 +468,7 @@ export const products: Product[] = [
     slug: "habotai",
     name: "Habotai Silk",
     title:
-      "Christopher Bu Habotai Silk Fabric (Pongee) 6–16mm 114cm for Linings & Light Shirts — Yizhou Silk Supplier",
+      "Habotai (Pongee) Silk 6–16mm, 114cm for Linings & Shirts",
     h1: "Habotai Silk for Linings & Light Shirts",
     metaDescription:
       "Source habotai silk fabric from Yizhou, China — a plain-weave mulberry silk (also called pongee or China silk) in 6/8/10/12/14/15/16 momme, 114 cm, with a crisp, firm hand. Ideal for linings, scarves and light shirts. B2B bulk supply.",
@@ -541,7 +541,7 @@ export const products: Product[] = [
     slug: "stretch-silk",
     name: "Silk Stretch Satin",
     title:
-      "Christopher Bu Silk Stretch Satin Fabric 14–28mm 140cm Silk-Spandex Satin — Yizhou Silk Supplier",
+      "Silk Stretch Satin 14–28mm, 140cm Silk-Spandex Satin",
     h1: "Silk Stretch Satin for Comfort & Fit",
     metaDescription:
       "Source silk stretch satin fabric from Yizhou, China — a satin-weave mulberry silk-spandex blend in 14/16/19/22/25/28 momme, 140 cm. Luminous satin face with comfort stretch. B2B bulk supply.",
@@ -605,7 +605,7 @@ export const products: Product[] = [
     slug: "blended-silk",
     name: "Silk Blend (Silk-Cotton / Silk-Linen)",
     title:
-      "Christopher Bu Silk Blend Fabric Silk-Cotton & Silk-Linen 114/140cm — Yizhou Silk Supplier",
+      "Silk Blend Fabric: Silk-Cotton & Silk-Linen, 114/140cm",
     h1: "Silk Blend (Silk-Cotton / Silk-Linen)",
     metaDescription:
       "Source blended silk fabric from Yizhou, China — silk-cotton and silk-linen weaves in 114/140 cm. The comfort of cotton or linen with silk's sheen. Ideal for shirts and summer wear. B2B bulk supply.",
@@ -676,7 +676,7 @@ export const products: Product[] = [
     slug: "dupioni",
     name: "Dupioni Silk",
     title:
-      "Christopher Bu Greige Silk Dupioni 16/19mm 114/140cm for Evening Gowns & Sculptural Tailoring — Sample FCA Yizhou Silk Supplier",
+      "Greige Silk Dupioni 16/19mm for Gowns & Tailoring, FCA Yizhou",
     h1: "Dupioni Silk for Gowns & Sculptural Tailoring",
     metaDescription:
       "Source dupioni silk with its signature slub texture from Yizhou, China. Available in 16/19 momme (up to 21–22), 114/140cm. Ideal for evening gowns, bridal and structured couture. B2B bulk supply.",

@@ -8,7 +8,7 @@ import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
   title:
-    "Christopher Bu Ready-to-Wear Collections — Fashion Archive 2013–2020 | RTW Runway",
+    "Ready-to-Wear Collections — Fashion Archive 2013–2020",
   description:
     "Browse the complete Christopher Bu ready-to-wear archive — 25 runway collections from Spring/Summer 2013 to Resort 2020, worn on red carpets worldwide.",
   alternates: { canonical: "/rtw" },
@@ -28,7 +28,7 @@ export default function RtwPage() {
   return (
     <>
       <Header />
-      <main className="mx-auto max-w-6xl px-6 py-16 md:py-20">
+      <main id="main-content" className="mx-auto max-w-6xl px-6 py-16 md:py-20">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

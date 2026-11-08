@@ -7,7 +7,7 @@ import { products } from "@/lib/products";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Silk Products — Raw Silk, Greige, Dupioni, Satin, Jacquard, Georgette & More",
+  title: "Silk Products — Raw Silk, Greige, Dupioni, Satin & Jacquard",
   description:
     "Browse Christopher Bu × Yizhou Silk B2B product range: mulberry raw silk (20/22D, dupion, luxury & GOTS-certified organic), greige fabric, dupioni, satin, jacquard luo, georgette, habotai (pongee), stretch and blended silk, sourced from Yizhou, China.",
   alternates: { canonical: "/products" },
@@ -35,7 +35,7 @@ export default function ProductsPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
       />
-      <main className="mx-auto max-w-6xl px-6 py-16 md:py-20">
+      <main id="main-content" className="mx-auto max-w-6xl px-6 py-16 md:py-20">
         <h1 className="font-display text-4xl font-medium text-jade-deep md:text-5xl">
           Silk supply from Yizhou, for the global textile industry.
         </h1>

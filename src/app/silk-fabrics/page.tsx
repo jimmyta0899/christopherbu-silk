@@ -20,7 +20,7 @@ import {
 
 export const metadata: Metadata = {
   title:
-    "Silk Fabric Types: 22 Constructions, and How to Choose One | Christopher Bu",
+    "Silk Fabric Types: 22 Constructions and How to Choose One",
   description:
     "A working guide to silk fabric types — 22 constructions by weave, momme and use, from habotai lining at 5 momme to structured mikado at 30. Which of them we supply from Yizhou, and which are woven to order.",
   keywords: [
@@ -385,7 +385,7 @@ export default function SilkFabricsPage() {
   return (
     <>
       <Header />
-      <main className="mx-auto max-w-6xl px-6 py-16 md:py-20">
+      <main id="main-content" className="mx-auto max-w-6xl px-6 py-16 md:py-20">
         <nav aria-label="Breadcrumb" className="text-xs text-ink-muted">
           <Link href="/" className="hover:text-gold">
             Home
@@ -407,6 +407,14 @@ export default function SilkFabricsPage() {
           standing products from Yizhou, and is explicit about the ones we only
           quote after confirming mill capacity.
         </p>
+
+        
+        <figure className="mt-8 max-w-3xl overflow-hidden border border-line">
+          <img src="/products/dupioni2.webp" alt="Dupioni silk with its characteristic irregular slubs, woven from Yizhou raw silk" width="425" height="567" loading="eager" fetchPriority="high" decoding="async" className="mx-auto h-auto w-full max-w-sm object-cover" />
+          <figcaption className="border-t border-line bg-ivory-deep px-4 py-3 text-xs text-ink-muted">
+            Dupioni, the workhorse of structured bridal: 16–19 momme standard, up to 21–22 on request.
+          </figcaption>
+        </figure>
 
         <KeyTakeaways
           items={[
@@ -498,9 +506,9 @@ export default function SilkFabricsPage() {
             The 22 constructions
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
-            Weight ranges are commercial ranges, not mill guarantees — a
+            Weight ranges are commercial ranges, not mill guarantees. A
             supplier quoting &ldquo;16–22 momme dupioni&rdquo; is describing the band
-            they can weave, and the figure on your quotation should be the band
+            they can weave. The figure on your quotation should be the band
             for the specific lot you are buying.
           </p>
 
@@ -651,11 +659,11 @@ export default function SilkFabricsPage() {
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
             We are a couture house before we are a supplier, which changes what
-            we consider acceptable in a roll.             The fabrics on this page are the
-            ones we cut in the atelier — so the specification is written by
-            people who have watched it fail on a fitting model, not only on a
-            test report. Both looks below were covered at the time: the 2015 Met
-            Gala gown as pure silk with colours drawn from the palace bracket
+            we consider acceptable in a roll. The fabrics on this page are the
+            ones we cut in the atelier. The specification is written by people
+            who have watched it fail on a fitting model, not only on a test
+            report. Both looks below were covered at the time. The 2015 Met
+            Gala gown was pure silk, with colours drawn from the palace bracket
             paintings (
             <a
               href="https://huaren.haiwainet.cn/n/2015/0507/c232657-28706443-5.html"
@@ -665,8 +673,8 @@ export default function SilkFabricsPage() {
             >
               Haiwainet
             </a>
-            , 2015), and the 2018 Academy Awards gown, named Snow Plum Blossom
-            and placed in the Forbidden City couture series (
+            , 2015). The 2018 Academy Awards gown, named Snow Plum Blossom, was
+            placed in the Forbidden City couture series (
             <a
               href="https://www.globaltimes.cn/page/201803/1095803.shtml"
               rel="noopener noreferrer"

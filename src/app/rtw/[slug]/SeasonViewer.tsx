@@ -60,7 +60,7 @@ export function SeasonViewer({ season }: { season: RtwSeason }) {
   return (
     <>
       <Header />
-      <main className="mx-auto max-w-6xl px-6 py-10 md:py-14">
+      <main id="main-content" className="mx-auto max-w-6xl px-6 py-10 md:py-14">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

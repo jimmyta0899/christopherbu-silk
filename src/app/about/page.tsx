@@ -6,7 +6,7 @@ import { Footer } from "@/components/Footer";
 import { pressItems } from "@/lib/press";
 
 export const metadata: Metadata = {
-  title: "About Us — Christopher Bu × Yizhou Silk",
+  title: "About Us — Yizhou Silk, Made in a Couture House",
   description:
     "Christopher Bu × Yizhou Silk bridges a couture house's red-carpet heritage with Yizhou, China — the world's largest raw silk origin — to supply raw silk, greige and dupioni to the global textile industry.",
   alternates: { canonical: "/about" },
@@ -17,7 +17,7 @@ export default function AboutPage() {
   return (
     <>
       <Header />
-      <main className="mx-auto max-w-6xl px-6 py-16 md:py-20">
+      <main id="main-content" className="mx-auto max-w-6xl px-6 py-16 md:py-20">
         <h1 className="font-display text-4xl font-medium text-jade-deep md:text-5xl">
           About Christopher Bu × Yizhou Silk
         </h1>

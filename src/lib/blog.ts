@@ -573,7 +573,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "paz-vega-hand-embroidered-silk-oscars",
     title:
-      "Hand-Embroidered Mulberry Silk on the Oscars Red Carpet: Paz Vega's Christopher Bu Gown",
+      "Hand-Embroidered Silk at the Oscars: Paz Vega's Plum Blossom Gown",
     metaDescription:
       "How a white mulberry silk gown with hand-embroidered red plum blossoms reached the 2018 Oscars red carpet, and what the embroidery tells buyers about specifying silk.",
     type: "Designer case study",

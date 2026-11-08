@@ -5,7 +5,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Services — Private Label & Custom Silk Supply | Christopher Bu",
+  title: "Services — Private Label & Custom Silk Supply",
   description:
     "Custom mulberry silk supply from Yizhou, China: private-label OEM, custom width, color and pattern development, and full QC for global B2B buyers.",
   keywords: [
@@ -131,7 +131,7 @@ export default function ServicesPage() {
   return (
     <>
       <Header />
-      <main className="mx-auto max-w-6xl px-6 py-16 md:py-20">
+      <main id="main-content" className="mx-auto max-w-6xl px-6 py-16 md:py-20">
         <h1 className="font-display text-4xl font-medium text-jade-deep md:text-5xl">
           Custom silk supply, from raw material to finished fabrics.
         </h1>
