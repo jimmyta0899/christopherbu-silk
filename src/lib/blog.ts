@@ -2,6 +2,7 @@
 // 合规红线：只写 atelier archive / reference，不写 same fabric as 明星同款
 
 import { deepDraftPosts } from "./blog-deep-2026-11";
+import { d1Posts } from "./blog-d1-2026-11-09";
 
 export type BlogImage = {
   src: string;
@@ -57,6 +58,8 @@ export type BlogPost = {
 export const blogPosts: BlogPost[] = [
   // 2026-11-06 深度稿批次（8 篇），由 sprint-kit/convert-drafts.mjs 从 Markdown 生成
   ...deepDraftPosts,
+  // 2026-11-09 D1 批次（2 篇 dupioni 采购稿），由 sprint-kit/convert-d1.mjs 从 Markdown 生成
+  ...d1Posts,
   {
     slug: "yizhou-mulberry-silk-longevity-to-world",
     title:
