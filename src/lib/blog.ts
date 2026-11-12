@@ -3,6 +3,7 @@
 
 import { deepDraftPosts } from "./blog-deep-2026-11";
 import { d1Posts } from "./blog-d1-2026-11-09";
+import { d1Nov10Posts } from "./blog-d1-2026-11-10";
 
 export type BlogImage = {
   src: string;
@@ -60,6 +61,8 @@ export const blogPosts: BlogPost[] = [
   ...deepDraftPosts,
   // 2026-11-09 D1 批次（2 篇 dupioni 采购稿），由 sprint-kit/convert-d1.mjs 从 Markdown 生成
   ...d1Posts,
+  // 2026-11-10 D1 批次（2 篇规格辨析稿），由 sprint-kit/convert-d1-2026-11-10.mjs 从 Markdown 生成
+  ...d1Nov10Posts,
   {
     slug: "yizhou-mulberry-silk-longevity-to-world",
     title:
