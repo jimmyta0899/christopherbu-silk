@@ -25,7 +25,48 @@ export default function Analytics() {
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', '${gaId}');
+
+          (function () {
+            // Internal-traffic MARKER, not authentication.
+            // This script ships to every visitor (and lives in a PUBLIC repo):
+            // TOKEN is only a low-entropy guard against accidental self-tagging,
+            // never a secret. GA4 filtering is done at report level, so a
+            // mis-tagged browser loses no data and can be switched back instantly.
+            var KEY = 'cb_internal';
+            var TOKEN = 'K7m2p9Qx';
+            var url = new URL(window.location.href);
+            var q = url.searchParams.get('cbteam');
+
+            if (q !== null) {
+              if (q === TOKEN) {
+                document.cookie = KEY + '=1; path=/; max-age=31536000; SameSite=Lax; Secure';
+                try { window.localStorage.setItem(KEY, '1'); } catch (e) {}
+              } else if (q === 'clear') {
+                document.cookie = KEY + '=; path=/; max-age=0; SameSite=Lax; Secure';
+                try { window.localStorage.removeItem(KEY); } catch (e) {}
+              }
+              // Strip the query BEFORE config so the token never lands in
+              // page_location, browser history, or a copy-pasted team URL.
+              url.searchParams.delete('cbteam');
+              window.history.replaceState(null, '', url.pathname + url.search + url.hash);
+            }
+
+            function isInternal() {
+              // No regex here: escaping inside a template literal is error-prone.
+              if (('; ' + document.cookie).indexOf('; ' + KEY + '=1') !== -1) return true;
+              // Safari ITP shortens JS-written cookies; localStorage is the fallback.
+              try { return window.localStorage.getItem(KEY) === '1'; } catch (e) { return false; }
+            }
+
+            if (isInternal()) {
+              // 'set' before 'config' => every later event inherits traffic_type,
+              // including generate_lead from the ga4-lead-events block.
+              gtag('set', { traffic_type: 'internal' });
+              gtag('config', '${gaId}', { traffic_type: 'internal' }); // first page_view too
+            } else {
+              gtag('config', '${gaId}', {});
+            }
+          })();
         `}
       </Script>
       <Script id="ga4-lead-events" strategy="afterInteractive">
