@@ -5,4 +5,4 @@
 :HL["/brand-wordmark.png","image"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"silk-fabric-price-guide","h":64,"c":"$Q2"}]]
-0:{"b":"ndof-s1P10ZXvm0SYW8c2","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
+0:{"b":"eaJ5BK6IFd6WcF3PpAzRP","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
