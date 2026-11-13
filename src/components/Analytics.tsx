@@ -14,26 +14,16 @@ export default function Analytics() {
 
   return (
     <>
-      {/* 外部 GTM 放到 window.load 之后。内联桩先就位，事件会入 dataLayer，
-          等 GTM 到达后统一处理，因此留资事件不会因为延迟加载而丢失。 */}
-      <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
-        strategy="lazyOnload"
-      />
       <Script id="ga4-init" strategy="afterInteractive">
         {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
           (function () {
             // Internal-traffic MARKER, not authentication.
             // This script ships to every visitor (and lives in a PUBLIC repo):
             // TOKEN is only a low-entropy guard against accidental self-tagging,
-            // never a secret. GA4 filtering is done at report level, so a
-            // mis-tagged browser loses no data and can be switched back instantly.
+            // never a secret.
             var KEY = 'cb_internal';
             var TOKEN = 'K7m2p9Qx';
+            var GA_ID = '${gaId}';
             var url = new URL(window.location.href);
             var q = url.searchParams.get('cbteam');
 
@@ -45,8 +35,8 @@ export default function Analytics() {
                 document.cookie = KEY + '=; path=/; max-age=0; SameSite=Lax; Secure';
                 try { window.localStorage.removeItem(KEY); } catch (e) {}
               }
-              // Strip the query BEFORE config so the token never lands in
-              // page_location, browser history, or a copy-pasted team URL.
+              // Strip the query so the token never lands in page_location,
+              // browser history, or a copy-pasted team URL.
               url.searchParams.delete('cbteam');
               window.history.replaceState(null, '', url.pathname + url.search + url.hash);
             }
@@ -58,14 +48,37 @@ export default function Analytics() {
               try { return window.localStorage.getItem(KEY) === '1'; } catch (e) { return false; }
             }
 
-            if (isInternal()) {
-              // 'set' before 'config' => every later event inherits traffic_type,
-              // including generate_lead from the ga4-lead-events block.
-              gtag('set', { traffic_type: 'internal' });
-              gtag('config', '${gaId}', { traffic_type: 'internal' }); // first page_view too
-            } else {
-              gtag('config', '${gaId}', {});
+            // Internal browsers do not load Google Analytics AT ALL.
+            //
+            // Why not tag-and-filter instead: GA4 encodes traffic_type as the
+            // 'tt' collect parameter, and it is ONLY attached when the value is
+            // passed as an explicit per-event argument. gtag('set', ...) and
+            // gtag('config', id, {traffic_type}) both fail to attach it to the
+            // automatic page_view, so a tag-and-filter setup silently sends
+            // nothing and every internal visit stays in the reports.
+            //
+            // Loading nothing is strictly stronger: internal visits produce no
+            // data at all, so there is nothing to filter out of any report,
+            // now or in future. No data filter is needed and none should ever
+            // be set to Active. Restore reporting with ?cbteam=clear.
+            if (isInternal()) return;
+
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){ window.dataLayer.push(arguments); }
+            window.gtag = gtag;
+            gtag('js', new Date());
+            gtag('config', GA_ID, {});
+
+            // Load the external tag after window.load, preserving the previous
+            // lazyOnload timing so this change does not affect LCP.
+            function loadGtag() {
+              var s = document.createElement('script');
+              s.async = true;
+              s.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(GA_ID);
+              document.head.appendChild(s);
             }
+            if (document.readyState === 'complete') loadGtag();
+            else window.addEventListener('load', loadGtag);
           })();
         `}
       </Script>
