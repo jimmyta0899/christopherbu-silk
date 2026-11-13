@@ -186,13 +186,6 @@ const constructions: {
     availability: "to-order",
   },
   {
-    name: "Noil / shantung",
-    weave: "Short-fibre, nubby and matte",
-    momme: "Mid",
-    use: "Casual tailoring, texture",
-    availability: "to-order",
-  },
-  {
     name: "Mikado",
     weave: "Heavy, compact, architectural",
     momme: "25–30+",
