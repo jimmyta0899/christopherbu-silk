@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/yizhou-raw-silk" },
   openGraph: pageOpenGraph("/yizhou-raw-silk"),
-  authors: [{ name: "Christopher Bu", url: "/about" }],
+  authors: [{ name: "Christopher Bu", url: "/about/" }],
 };
 
 const HUB_UPDATED = "2026-11-07";

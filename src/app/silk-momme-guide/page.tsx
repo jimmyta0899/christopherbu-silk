@@ -62,7 +62,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/silk-momme-guide" },
   openGraph: pageOpenGraph("/silk-momme-guide"),
-  authors: [{ name: "Christopher Bu", url: "/about" }],
+  authors: [{ name: "Christopher Bu", url: "/about/" }],
 };
 
 /** 1 momme = 4.3406 g/m²。表中 gsm 由该系数换算并取一位小数。 */

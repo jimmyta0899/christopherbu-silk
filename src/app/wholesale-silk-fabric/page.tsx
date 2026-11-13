@@ -63,7 +63,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/wholesale-silk-fabric" },
   openGraph: pageOpenGraph("/wholesale-silk-fabric"),
-  authors: [{ name: "Christopher Bu", url: "/about" }],
+  authors: [{ name: "Christopher Bu", url: "/about/" }],
 };
 
 const matrix = [

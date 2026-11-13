@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     "dupioni satin georgette habotai jacquard",
   ],
   alternates: { canonical: "/silk-fabrics" },
-  authors: [{ name: "Christopher Bu", url: "/about" }],
+  authors: [{ name: "Christopher Bu", url: "/about/" }],
   openGraph: pageOpenGraph("/silk-fabrics"),
 };
 

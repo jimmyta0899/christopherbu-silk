@@ -61,7 +61,7 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/silk-fabric-price-guide" },
   openGraph: pageOpenGraph("/silk-fabric-price-guide"),
-  authors: [{ name: "Christopher Bu", url: "/about" }],
+  authors: [{ name: "Christopher Bu", url: "/about/" }],
 };
 
 const drivers = [
