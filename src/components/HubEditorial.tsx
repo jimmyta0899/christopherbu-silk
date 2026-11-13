@@ -75,7 +75,7 @@ export function SourcesBlock({
           B2B team
         </Link>
         , and the editorial standard is the same one used on the{" "}
-        <Link href="/about" className="underline underline-offset-2 hover:text-gold">
+        <Link href="/about/" className="underline underline-offset-2 hover:text-gold">
           about page
         </Link>
         .

@@ -141,7 +141,7 @@ export default function TradeTermsPage() {
           </p>
           <div className="mt-6">
             <a
-              href="/contact"
+              href="/contact/"
               className="inline-block rounded-full bg-jade px-7 py-3.5 text-sm font-medium text-ivory transition-colors hover:bg-jade-deep"
             >
               Contact B2B Team

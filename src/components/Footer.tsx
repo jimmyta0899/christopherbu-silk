@@ -93,7 +93,7 @@ export function Footer() {
           </p>
           <ul className="mt-4 space-y-2.5 text-sm text-ivory/80">
             <li>
-              <Link href="/about" className="transition-colors hover:text-ivory">
+              <Link href="/about/" className="transition-colors hover:text-ivory">
                 Why Us
               </Link>
             </li>

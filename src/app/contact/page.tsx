@@ -105,7 +105,7 @@ export default function ContactPage() {
                 chargeable.
               </p>
               <a
-                href="/samples"
+                href="/samples/"
                 className="mt-3 inline-block text-sm font-medium text-gold hover:text-jade"
               >
                 Request Free Samples →
