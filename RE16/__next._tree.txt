@@ -5,4 +5,4 @@
 :HL["/brand-wordmark.png","image"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":{"n":"season","t":"d","k":"RE16","s":["about","blog","certificates","contact","couture","faq","products","raw-silk-specs","rtw","samples","services","silk-fabric-price-guide","silk-fabrics","silk-momme-guide","sustainability","tools","trade-terms","wholesale-silk-fabric","yizhou-raw-silk"]},"h":65600,"c":"$Q2"}]]
-0:{"b":"GpdzXgHB7ImvBybOoSB-S","t":{"t":{"s":"","h":131088,"c":"$Q1"}}}
+0:{"b":"q1Dta3A4GFmbBR-r0wkDE","t":{"t":{"s":"","h":131088,"c":"$Q1"}}}
