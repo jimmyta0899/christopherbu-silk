@@ -46,6 +46,10 @@ next-env.d.ts
 /引流实操手册.md
 /引流文案模板.md
 
+# agent workspace state: memory logs, automation prompts, session scratch.
+# Holds internal strategy notes — same rule as sprint-kit, never commit.
+/.workbuddy/
+
 # local build / backup artifacts
 /out_prev_*/
 /build_*.log

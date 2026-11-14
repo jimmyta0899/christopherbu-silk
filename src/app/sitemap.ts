@@ -39,6 +39,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/silk-momme-guide", priority: 0.8, freq: "monthly" },
     { path: "/silk-fabric-price-guide", priority: 0.7, freq: "monthly" },
     { path: "/raw-silk-specs", priority: 0.9, freq: "monthly" },
+    // 工具页：唯一「用工具换停留时长」的资产，之前站上是 0 个。
+    // priority 给到 0.8，与 hub 同级——它们是答案层的一部分，不是附属页面。
+    { path: "/tools", priority: 0.8, freq: "monthly" },
+    { path: "/tools/momme-gsm-oz-converter", priority: 0.8, freq: "monthly" },
+    { path: "/tools/silk-yarn-count-converter", priority: 0.8, freq: "monthly" },
+    { path: "/tools/silk-order-weight-calculator", priority: 0.8, freq: "monthly" },
+    { path: "/tools/silk-spec-comparison", priority: 0.8, freq: "monthly" },
     { path: "/samples", priority: 0.8, freq: "monthly" },
     { path: "/services", priority: 0.8, freq: "monthly" },
     { path: "/couture", priority: 0.8, freq: "monthly" },
