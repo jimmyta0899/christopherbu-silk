@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { pageOpenGraph } from "@/lib/seo-metadata";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { AnswerBlock } from "@/components/AnswerBlock";
 import { siteConfig } from "@/lib/site-config";
 import { faqs } from "@/lib/faq";
 
@@ -46,6 +47,11 @@ export default function FaqPage() {
           The questions our B2B buyers ask most, with direct answers. For
           anything else, contact our team.
         </p>
+
+        <AnswerBlock
+          label="The short version"
+          answer="MOQ is not fixed: small trial rolls, custom widths and samples may be possible subject to material, mill and schedule review. Export runs FOB or FCA against T/T, and OEKO-TEX or GOTS certification is available within the document scope stated in the quotation."
+        />
 
         <div className="mt-12 space-y-4">
           {faqs.map((f) => (

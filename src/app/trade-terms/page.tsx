@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { pageOpenGraph } from "@/lib/seo-metadata";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { AnswerBlock } from "@/components/AnswerBlock";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
@@ -103,6 +104,11 @@ export default function TradeTermsPage() {
         <p className="mt-5 text-lg leading-relaxed text-ink-soft">
           Clear, transparent trade terms for silk sourcing — including our free sample service policy.
         </p>
+
+        <AnswerBlock
+          label="The short version"
+          answer="Christopher Bu ships silk FOB or FCA and takes payment by T/T, with the deposit split stated per order. MOQ and lead time are reference figures confirmed in the written quotation, and certification or document sets are limited to the scope named there."
+        />
 
         <div className="mt-14 space-y-8">
           {terms.map((group) => (

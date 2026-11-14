@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { pageOpenGraph } from "@/lib/seo-metadata";
+import { AnswerBlock } from "@/components/AnswerBlock";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { HeroCarousel } from "@/components/HeroCarousel";
@@ -65,6 +66,11 @@ export default function HomePage() {
                 <h1 className="font-display text-4xl font-medium leading-[1.15] md:text-6xl">
                   Raw Silk and Fabrics, sourced from the world&apos;s Silk Capital.
                 </h1>
+                <AnswerBlock
+                  tone="dark"
+                  label="In short"
+                  answer="Christopher Bu supplies Yizhou mulberry raw silk yarn, greige fabric and nine finished silk fabrics to mills, brands and designers worldwide, with OEKO-TEX and GOTS certification available on request. The couture house behind red-carpet gowns sells the same silk it sews."
+                />
                 <p className="mt-6 text-lg leading-relaxed text-ivory/80">
                   Christopher Bu is the couture house behind some of the world&apos;s most-watched red-carpet silk gowns. Now the brand brings that same eye for silk to its own line of Yizhou mulberry raw silk, greige fabric and dupioni — for textile mills, brands and designers worldwide.
                 </p>

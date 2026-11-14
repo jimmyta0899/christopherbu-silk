@@ -17,23 +17,37 @@ export function AnswerBlock({
   answer,
   label = "Quick answer",
   updated,
+  tone = "light",
 }: {
   answer: string;
   /** Visible label. Keep it a noun phrase, not a sentence. */
   label?: string;
   /** ISO date the answer was last checked against the sources. */
   updated?: string;
+  /** "dark" for use on the jade-deep hero, "light" everywhere else. */
+  tone?: "light" | "dark";
 }) {
+  const dark = tone === "dark";
   return (
-    <div className="mt-6 border-l-2 border-gold bg-ivory-deep px-5 py-4 md:px-6 md:py-5">
+    <div
+      className={`mt-6 border-l-2 border-gold px-5 py-4 md:px-6 md:py-5 ${
+        dark ? "bg-ivory/10" : "bg-ivory-deep"
+      }`}
+    >
       <p className="text-[0.7rem] font-semibold uppercase tracking-[0.14em] text-gold">
         {label}
       </p>
-      <p className="mt-2 text-lg leading-relaxed text-ink md:text-xl">
+      <p
+        className={`mt-2 text-lg leading-relaxed md:text-xl ${
+          dark ? "text-ivory" : "text-ink"
+        }`}
+      >
         {answer}
       </p>
       {updated ? (
-        <p className="mt-2 text-xs text-ink-muted">
+        <p
+          className={`mt-2 text-xs ${dark ? "text-ivory/60" : "text-ink-muted"}`}
+        >
           Last reviewed {updated}
         </p>
       ) : null}

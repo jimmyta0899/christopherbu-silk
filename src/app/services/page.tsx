@@ -3,6 +3,7 @@ import { pageOpenGraph } from "@/lib/seo-metadata";
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { AnswerBlock } from "@/components/AnswerBlock";
 
 export const metadata: Metadata = {
   title: "Services — Private Label & Custom Silk Supply",
@@ -140,6 +141,11 @@ export default function ServicesPage() {
           custom width, color and pattern, backed by full QC and a clear
           sourcing process.
         </p>
+
+        <AnswerBlock
+          label="The short version"
+          answer="Christopher Bu runs private-label OEM across nine silk categories: custom width, greige or dyed to order, jacquard motifs from about 200 metres, and 5 to 40 momme. There is no universal MOQ — trial rolls are reviewed per material and mill schedule, and 15–25 working days is a planning estimate, not a promise."
+        />
 
         {/* 服务对象 */}
         <section className="mt-16">

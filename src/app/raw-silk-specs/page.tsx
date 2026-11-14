@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { pageOpenGraph } from "@/lib/seo-metadata";
+import { AnswerBlock } from "@/components/AnswerBlock";
 import { siteConfig } from "@/lib/site-config";
 import { ORGANIZATION_ID } from "@/lib/organization-schema";
 
@@ -279,6 +280,10 @@ export default function RawSilkSpecsPage() {
             FOB/FCA export terms and T/T payment. Every specification is
             confirmed in the written quotation.
           </p>
+          <AnswerBlock
+            label="What 20/22D means"
+            answer="20/22D is filature silk whose filaments measure 20 to 22 denier — the standard starting point for crepes, satins and fine weaving. Denier measures yarn weight; momme measures the weight of woven cloth, so a yarn is bought in denier and a fabric in momme."
+          />
         </div>
 
         <section className="mt-14">
