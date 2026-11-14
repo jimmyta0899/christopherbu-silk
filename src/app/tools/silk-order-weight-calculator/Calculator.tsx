@@ -24,10 +24,11 @@ function num(value: string, fallback: number): number {
 /**
  * Order weight calculator.
  *
- * The gap this closes: silk is quoted per kilogram but a garment factory cuts
- * per metre, so a purchase order has to be translated before it can be priced.
- * metres × width(m) × g/m² ÷ 1000 is the whole of the maths — the tool exists
- * to stop that being done in a spreadsheet with a mistyped width.
+ * The gap this closes: fabric is quoted per metre, but freight, duty and any
+ * raw-silk component run on weight, so a purchase order has to be translated
+ * before two quotations can be compared on one basis. metres × width(m) ×
+ * g/m² ÷ 1000 is the whole of the maths — the tool exists to stop that being
+ * done in a spreadsheet with a mistyped width.
  */
 export function OrderWeightCalculator() {
   const [values, setValues] = useState<Record<Field, string>>(DEFAULTS);

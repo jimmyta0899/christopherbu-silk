@@ -160,8 +160,9 @@ export const MOMME_REFERENCE: {
 ];
 
 /**
- * Order weight maths: silk is quoted per kilogram but cut per metre, so the
- * bridge between the two is fabric weight. metres × width × gsm / 1000 = kg.
+ * Order weight maths: fabric is quoted per metre while freight, duty and any
+ * raw-silk component run on weight, so the bridge between the two is fabric
+ * weight. metres × width × gsm / 1000 = kg.
  */
 export type OrderWeightInput = {
   /** Metres of fabric per garment (from the pattern room). */

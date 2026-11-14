@@ -33,8 +33,8 @@ const faq = [
     a: "It depends on width and weight: one metre of 19 momme silk at 140 cm weighs 82.5 × 1.4 ÷ 1000 = 0.116 kg. The same weight at 114 cm is 0.094 kg. At 22 momme and 140 cm it is 0.134 kg. Width matters as much as momme.",
   },
   {
-    q: "Why is silk quoted per kilogram but sold by the metre?",
-    a: "Mills price silk against the raw material, which is bought by weight, so the quotation unit is the kilogram. Garment factories cut by length, so their consumption figures are in metres. The bridge between the two is the fabric weight — which is exactly what this calculator computes.",
+    q: "Why does one supplier quote per kilogram and another per metre?",
+    a: "Two different things are being sold. Silk fabric is normally quoted per metre or per yard, because that is how a garment factory cuts it. Raw silk yarn and greige are quoted per kilogram, because yarn is a material rather than a cloth, and freight and duty run on weight. To compare the two, convert the per-metre figure to a weight using this calculator, then check the widths match — a per-kilogram price at 114 cm and one at 140 cm buy different amounts of cloth.",
   },
   {
     q: "What wastage allowance should I use for silk?",
@@ -46,7 +46,7 @@ const faq = [
   },
   {
     q: "Can I use this to price an order?",
-    a: "You can use the weight to compare quotations on the same basis, but this is not a price. Silk is quoted per kilogram against a specification — grade, momme, width, colour route and quantity all move the number — which is why we publish no unit price.",
+    a: "You can use the weight to compare quotations on the same basis, but this is not a price. Fabric is quoted against a specification — grade, momme, width, colour route and quantity all move the number — which is why we publish no unit price.",
   },
 ];
 
@@ -110,7 +110,7 @@ export default function OrderWeightPage() {
 
       <ToolShell
         h1="Silk Order Weight Calculator"
-        answer="Order weight in kilograms is metres × width in metres × grams per square metre ÷ 1000. One metre of 19 momme silk at 140 cm weighs 0.116 kg. Add 10–15% for cutting wastage. Silk is quoted per kilogram, so this is the number a quotation is written against."
+        answer="Order weight in kilograms is metres × width in metres × grams per square metre ÷ 1000. One metre of 19 momme silk at 140 cm weighs 0.116 kg. Add 10–15% for cutting wastage. Fabric is quoted per metre, but freight, duty and any raw-silk component run on weight — this is the number that converts between them."
         updated={UPDATED}
         methodSources={[
           {
