@@ -1,9 +1,10 @@
-// 博客数据：6 篇品牌/产地叙事 + 8 篇 2026-11-06 采购深度稿（见 blog-deep-2026-11.ts）
+// 博客数据：6 篇品牌/产地叙事 + 8 篇 2026-11-06 采购深度稿 + 11-09 / 11-10 / 11-15 三批 D1 稿（各 2 篇）
 // 合规红线：只写 atelier archive / reference，不写 same fabric as 明星同款
 
 import { deepDraftPosts } from "./blog-deep-2026-11";
 import { d1Posts } from "./blog-d1-2026-11-09";
 import { d1Nov10Posts } from "./blog-d1-2026-11-10";
+import { d1Nov15Posts } from "./blog-d1-2026-11-15";
 
 export type BlogImage = {
   src: string;
@@ -63,6 +64,8 @@ export const blogPosts: BlogPost[] = [
   ...d1Posts,
   // 2026-11-10 D1 批次（2 篇规格辨析稿），由 sprint-kit/convert-d1-2026-11-10.mjs 从 Markdown 生成
   ...d1Nov10Posts,
+  // 2026-11-15 D1 批次（2 篇验收口径 / 布料状态稿），由 sprint-kit/convert-d1-2026-11-15.mjs 从 Markdown 生成
+  ...d1Nov15Posts,
   {
     slug: "yizhou-mulberry-silk-longevity-to-world",
     title:
