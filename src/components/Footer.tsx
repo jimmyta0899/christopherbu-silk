@@ -3,7 +3,10 @@ import { siteConfig } from "@/lib/site-config";
 
 export function Footer() {
   return (
-    <footer className="mt-auto border-t border-gold/40 bg-jade-deep text-ivory">
+    <footer
+      data-cta-location="footer"
+      className="mt-auto border-t border-gold/40 bg-jade-deep text-ivory"
+    >
       <div className="mx-auto grid max-w-6xl gap-10 px-6 py-14 md:grid-cols-4">
         <div>
           <p className="font-display text-lg font-semibold text-ivory">

@@ -731,7 +731,10 @@ export default function YizhouRawSilkPage() {
         </section>
 
         {/* CTA */}
-        <section className="mt-16 border border-line bg-jade-deep p-10 text-white">
+        <section
+          data-cta-location="page-end"
+          className="mt-16 border border-line bg-jade-deep p-10 text-white"
+        >
           <h2 className="font-display text-3xl font-medium">
             Ask for the lot records
           </h2>
