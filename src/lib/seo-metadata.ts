@@ -9,7 +9,7 @@ export const OG_IMAGE = {
   url: "/og-cover.png",
   width: 1200,
   height: 630,
-  alt: "Christopher Bu — mulberry silk, greige, dupioni and jacquard fabrics",
+  alt: "Christopher Bu: mulberry silk, greige, dupioni and jacquard fabrics",
 } as const;
 
 /**

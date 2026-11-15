@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   title:
     "Silk Fabric Types: 22 Constructions and How to Choose One",
   description:
-    "22 silk constructions by weave, momme and use — from 5-momme habotai lining to 30-momme mikado. Which we stock from Yizhou, which are woven to order.",
+    "22 silk constructions by weave, momme and use: from 5-momme habotai lining to 30-momme mikado. Which we stock from Yizhou, which are woven to order.",
   keywords: [
     "silk fabric types",
     "types of silk fabric",
@@ -92,8 +92,8 @@ const sources: HubSource[] = [
 type Availability = "in-stock" | "to-order" | "on-request";
 
 const AVAILABILITY_LABEL: Record<Availability, string> = {
-  "in-stock": "In stock — see product page",
-  "to-order": "Woven to order — sample on request",
+  "in-stock": "In stock: see product page",
+  "to-order": "Woven to order: sample on request",
   "on-request": "Sample on request",
 };
 
@@ -270,12 +270,12 @@ const supplied = [
   {
     name: "Greige silk fabric",
     href: "/products/greige-fabric",
-    desc: "Undyed cloth straight off the loom, momme following the base weave — for buyers running their own dyeing and finishing.",
+    desc: "Undyed cloth straight off the loom, momme following the base weave, for buyers running their own dyeing and finishing.",
   },
   {
     name: "Dupioni",
     href: "/products/dupioni",
-    desc: "16 and 19 momme as standard, up to 21–22 on request. Slub, lustre and body — the workhorse of structured bridal.",
+    desc: "16 and 19 momme as standard, up to 21–22 on request. Slub, lustre and body, the workhorse of structured bridal.",
   },
   {
     name: "Satin",
@@ -312,7 +312,7 @@ const supplied = [
 const choosePaths = [
   {
     t: "You are cutting a gown that has to hold its shape",
-    d: "Start at 19 momme and go up. Dupioni at 19–22, satin at 22–30, or jacquard over a structured base. Below 16 momme the cloth follows the body instead of shaping it — which is correct for a bias slip and wrong for a corseted bodice.",
+    d: "Start at 19 momme and go up. Dupioni at 19–22, satin at 22–30, or jacquard over a structured base. Below 16 momme the cloth follows the body instead of shaping it, which is correct for a bias slip and wrong for a corseted bodice.",
     links: [
       { label: "Dupioni", href: "/products/dupioni" },
       { label: "Satin", href: "/products/satin" },
@@ -320,7 +320,7 @@ const choosePaths = [
   },
   {
     t: "You are cutting bridal",
-    d: "Two different problems. The outer layer needs body and a clean edge — dupioni, satin, jacquard. The underlayers need to disappear — habotai at 5–8 momme, or georgette where you want a softer fall. Most bridal programmes buy both from the same supplier so the dye lots match.",
+    d: "Two different problems. The outer layer needs body and a clean edge: dupioni, satin, jacquard. The underlayers need to disappear: habotai at 5–8 momme, or georgette where you want a softer fall. Most bridal programmes buy both from the same supplier so the dye lots match.",
     links: [
       { label: "Habotai", href: "/products/habotai" },
       { label: "Dupioni", href: "/products/dupioni" },
@@ -328,7 +328,7 @@ const choosePaths = [
   },
   {
     t: "You are cutting modestwear or abaya",
-    d: "Weight is not the priority; drape and opacity are. Georgette at 10–16 momme and stretch satin at 14–28 cover most of the category — georgette for layered volume, stretch satin where the garment has to move with the body and still fall closed.",
+    d: "Weight is not the priority; drape and opacity are. Georgette at 10–16 momme and stretch satin at 14–28 cover most of the category: georgette for layered volume, stretch satin where the garment has to move with the body and still fall closed.",
     links: [
       { label: "Georgette", href: "/products/georgette" },
       { label: "Stretch satin", href: "/products/stretch-silk" },
@@ -351,11 +351,11 @@ const faqs: HubFaq[] = [
   },
   {
     q: "What is the difference between silk fabric types and silk grades?",
-    a: "Grade describes the fibre — 4A, 5A and 6A refer to evenness, cleanness and neatness of the raw silk filament. Type describes the cloth — how those filaments were woven. A 6A yarn woven into a loose chiffon is still a 6A yarn, and a low-grade yarn woven into a heavy satin is still low grade. Buyers who only ask about momme, or only ask about grade, are each holding half the specification.",
+    a: "Grade describes the fibre: 4A, 5A and 6A refer to evenness, cleanness and neatness of the raw silk filament. Type describes the cloth: how those filaments were woven. A 6A yarn woven into a loose chiffon is still a 6A yarn, and a low-grade yarn woven into a heavy satin is still low grade. Buyers who only ask about momme, or only ask about grade, are each holding half the specification.",
   },
   {
     q: "Which silk fabric is best for evening gowns?",
-    a: "For a gown that has to hold a sculpted line, 19 momme and above: dupioni, heavy satin, or a jacquard over a structured base. For a bias-cut gown that should move, 16–19 momme satin or charmeuse. The failure mode in both directions is the same — cloth chosen for how it looks flat on a table rather than how it behaves on a body under light.",
+    a: "For a gown that has to hold a sculpted line, 19 momme and above: dupioni, heavy satin, or a jacquard over a structured base. For a bias-cut gown that should move, 16–19 momme satin or charmeuse. The failure mode in both directions is the same: cloth chosen for how it looks flat on a table rather than how it behaves on a body under light.",
   },
   {
     q: "Can you supply silk fabric in small quantities?",
@@ -363,7 +363,7 @@ const faqs: HubFaq[] = [
   },
   {
     q: "Do you sell silk fabric by the yard or by the meter?",
-    a: "We quote by the meter for export orders, and the product pages state the width the price refers to. Buyers working in yards should confirm the conversion at quotation stage rather than assuming a 1:1 relationship — a 114 cm width and a 140 cm width are not interchangeable when you are costing a marker.",
+    a: "We quote by the meter for export orders, and the product pages state the width the price refers to. Buyers working in yards should confirm the conversion at quotation stage rather than assuming a 1:1 relationship. A 114 cm width and a 140 cm width are not interchangeable when you are costing a marker.",
   },
   {
     q: "Are gazar, mikado, radzimir, faille and peau de soie available?",
@@ -394,7 +394,7 @@ export default function SilkFabricsPage() {
 
         <p className="mt-6 max-w-3xl text-lg leading-relaxed text-ink-soft">
           Silk is not one fabric. It is a family of roughly 22 commercial
-          constructions that share a fibre and almost nothing else — a 5 momme
+          constructions that share a fibre and almost nothing else: a 5 momme
           habotai lining and a 30 momme mikado ball gown are the same protein
           and behave like different materials. This page sets out each
           construction by weave, weight and use, states which nine we supply as
@@ -419,8 +419,8 @@ export default function SilkFabricsPage() {
             Three axes define any silk fabric
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
-            Buyers new to silk tend to shop by name — &ldquo;I need
-            dupioni&rdquo; — and experienced buyers shop by three numbers, because
+            Buyers new to silk tend to shop by name (&ldquo;I need
+            dupioni&rdquo;) and experienced buyers shop by three numbers, because
             the name is only shorthand for them.
           </p>
           <div className="mt-8 grid gap-6 md:grid-cols-3">
@@ -563,8 +563,8 @@ export default function SilkFabricsPage() {
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
             Nine categories, each with its own specification page. Colour is
-            dyed to order on both tracks — standard shade card or your own
-            match — and greige is available undyed for buyers running their own
+            dyed to order on both tracks (standard shade card or your own
+            match), and greige is available undyed for buyers running their own
             finishing. The fibre behind them is reeled in the Yizhou area, where
             the district government publishes the mulberry acreage and reeling
             capacity (
@@ -745,8 +745,8 @@ export default function SilkFabricsPage() {
             <p>
               We do not stock all 22 constructions, and a table that implied
               otherwise would waste your time at the sampling stage. Five
-              constructions in the list — mikado, gazar, radzimir, faille and
-              peau de soie — are quoted only after we confirm capacity, and we
+              constructions in the list (mikado, gazar, radzimir, faille and
+              peau de soie) are quoted only after we confirm capacity, and we
               deliberately publish no minimum and no price for them here.
             </p>
             <p>
@@ -841,8 +841,8 @@ export default function SilkFabricsPage() {
             Send the garment, not the fabric name
           </h2>
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-white/80">
-            Tell us what you are cutting — silhouette, season, quantity and the
-            hand you want — and we will come back with the construction, the
+            Tell us what you are cutting: silhouette, season, quantity and the
+            hand you want, and we will come back with the construction, the
             weight and a sample list. Mini samples carry no material charge; you
             cover the courier.
           </p>
@@ -871,7 +871,7 @@ export default function SilkFabricsPage() {
                 headline:
                   "Silk fabric types: 22 constructions, and how to choose one",
                 description:
-                  "A working guide to silk fabric types — 22 constructions by weave, momme and use, from habotai lining at 5 momme to structured mikado at 30.",
+                  "A working guide to silk fabric types: 22 constructions by weave, momme and use, from habotai lining at 5 momme to structured mikado at 30.",
                 image: "/blog/fan-bingbing-forbidden-city-cape.webp",
                 datePublished: HUB_UPDATED,
               }),

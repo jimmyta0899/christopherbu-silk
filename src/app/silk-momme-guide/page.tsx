@@ -84,7 +84,7 @@ const weightTable = [
 const useBands = [
   {
     band: "5–8 momme",
-    d: "Light and semi-sheer. Fine as a lining that has to disappear, or a veil layer. Below 14 momme the cloth is fragile under repeated abrasion — a lining at 5 momme will wear through at the armhole before the outer cloth shows any sign of use.",
+    d: "Light and semi-sheer. Fine as a lining that has to disappear, or a veil layer. Below 14 momme the cloth is fragile under repeated abrasion: a lining at 5 momme will wear through at the armhole before the outer cloth shows any sign of use.",
   },
   {
     band: "10–16 momme",
@@ -92,7 +92,7 @@ const useBands = [
   },
   {
     band: "16–19 momme",
-    d: "Where cloth starts to hold a line. This is the working range for dresses that need structure without weight — and the range where a supplier's honesty about greige versus finished measurement changes what you actually receive.",
+    d: "Where cloth starts to hold a line. This is the working range for dresses that need structure without weight, and the range where a supplier's honesty about greige versus finished measurement changes what you actually receive.",
   },
   {
     band: "19–22 momme",
@@ -100,7 +100,7 @@ const useBands = [
   },
   {
     band: "25–40 momme",
-    d: "Architectural. Heavy satins, mikado, duchesse, upholstery. These cloths do not drape so much as stand, and they require different construction — heavier needles, longer stitch, and seams that are pressed rather than eased.",
+    d: "Architectural. Heavy satins, mikado, duchesse, upholstery. These cloths do not drape so much as stand, and they require different construction: heavier needles, longer stitch, and seams that are pressed rather than eased.",
   },
 ];
 
@@ -114,13 +114,13 @@ const skuWeights = [
   { name: "Jacquard Luo", href: "/products/jacquard-luo", range: "Follows the base cloth" },
   { name: "Silk blend", href: "/products/blended-silk", range: "Follows the blend" },
   { name: "Greige fabric", href: "/products/greige-fabric", range: "Follows the base weave, undyed" },
-  { name: "Raw silk yarn", href: "/products/raw-silk", range: "Measured in denier — 20/22D — not momme" },
+  { name: "Raw silk yarn", href: "/products/raw-silk", range: "Measured in denier (20/22D), not momme" },
 ];
 
 const faqs: HubFaq[] = [
   {
     q: "What does momme mean in silk?",
-    a: "Momme (mm) is a Japanese weight unit used for silk cloth. One momme equals 4.34 grams per square metre, so a 19 momme satin weighs roughly 82 g/m². It is a measure of the woven cloth, not of the fibre quality — grade (4A, 5A, 6A) describes the filament, momme describes the fabric.",
+    a: "Momme (mm) is a Japanese weight unit used for silk cloth. One momme equals 4.34 grams per square metre, so a 19 momme satin weighs roughly 82 g/m². It is a measure of the woven cloth, not of the fibre quality: grade (4A, 5A, 6A) describes the filament, momme describes the fabric.",
   },
   {
     q: "What is 22 momme silk used for?",
@@ -132,15 +132,15 @@ const faqs: HubFaq[] = [
   },
   {
     q: "Is higher momme always better?",
-    a: "No. Momme is a fit question before it is a quality question. A 30 momme satin makes a poor scarf because it will not knot; a 6 momme habotai makes a poor ball gown because it will not hold a seam. Higher momme costs more because it uses more silk per square metre — which is a price fact, not a quality verdict.",
+    a: "No. Momme is a fit question before it is a quality question. A 30 momme satin makes a poor scarf because it will not knot; a 6 momme habotai makes a poor ball gown because it will not hold a seam. Higher momme costs more because it uses more silk per square metre, which is a price fact, not a quality verdict.",
   },
   {
     q: "How do I convert momme to GSM?",
-    a: "Multiply momme by 4.34. So 19 momme is about 82 g/m², 22 momme about 95 g/m², and 30 momme about 130 g/m². The reverse — GSM divided by 4.34 — gives momme. Note that GSM measured on greige and GSM measured on finished cloth are different numbers for the same fabric.",
+    a: "Multiply momme by 4.34. So 19 momme is about 82 g/m², 22 momme about 95 g/m², and 30 momme about 130 g/m². The reverse (GSM divided by 4.34) gives momme. Note that GSM measured on greige and GSM measured on finished cloth are different numbers for the same fabric.",
   },
   {
     q: "What is the difference between momme and denier?",
-    a: "Denier measures yarn; momme measures cloth. 20/22 denier describes the thickness of the raw silk filament before it is woven. Momme describes how much the finished woven fabric weighs per unit area. Raw silk yarn is sold in denier, and woven silk is sold in momme — a supplier who quotes woven fabric in denier is using the wrong unit.",
+    a: "Denier measures yarn; momme measures cloth. 20/22 denier describes the thickness of the raw silk filament before it is woven. Momme describes how much the finished woven fabric weighs per unit area. Raw silk yarn is sold in denier, and woven silk is sold in momme: a supplier who quotes woven fabric in denier is using the wrong unit.",
   },
   {
     q: "What should I ask a supplier about momme?",
@@ -162,7 +162,7 @@ export default function SilkMommeGuidePage() {
         </nav>
 
         <h1 className="font-display mt-6 text-4xl font-medium text-jade-deep md:text-5xl">
-          Momme, measured on finished fabric — not on greige
+          Momme, measured on finished fabric, not on greige
         </h1>
 
         <p className="mt-6 max-w-3xl text-base leading-relaxed text-ink-soft">
@@ -205,7 +205,7 @@ export default function SilkMommeGuidePage() {
             in degumming. A fabric weighed at 22 momme in greige therefore
             finishes near 16–17 momme. Both figures are true; only one describes
             what you will cut. When a quotation states a momme figure, ask which
-            side of the degumming bath it was measured on — this single question
+            side of the degumming bath it was measured on: this single question
             explains most of the price gap between two quotes that look
             identical on paper.
           </p>
@@ -345,7 +345,7 @@ export default function SilkMommeGuidePage() {
           <div className="mt-8 grid gap-6 md:grid-cols-2">
             <div className="border border-line bg-ivory-deep p-7">
               <h3 className="font-display text-xl font-medium text-jade-deep">
-                Grade — 4A / 5A / 6A
+                Grade: 4A / 5A / 6A
               </h3>
               <p className="mt-3 text-sm leading-relaxed text-ink-soft">
                 A property of the filament: evenness, cleanness and neatness.
@@ -356,7 +356,7 @@ export default function SilkMommeGuidePage() {
             </div>
             <div className="border border-line bg-ivory-deep p-7">
               <h3 className="font-display text-xl font-medium text-jade-deep">
-                Momme — 5 to 40
+                Momme: 5 to 40
               </h3>
               <p className="mt-3 text-sm leading-relaxed text-ink-soft">
                 A property of the cloth: mass per unit area. Decided at weaving
@@ -370,7 +370,7 @@ export default function SilkMommeGuidePage() {
             woven at 8 momme still has excellent filament but almost no body. A
             low-grade yarn at 30 momme is heavy and will still band in the dye
             bath. Buyers who specify only one of the two numbers are each
-            holding half a specification — the fibre side is covered in{" "}
+            holding half a specification: the fibre side is covered in{" "}
             <Link
               href="/blog/raw-silk-grade-4a-5a-6a-explained"
               className="font-medium text-gold hover:text-jade"
@@ -485,7 +485,7 @@ export default function SilkMommeGuidePage() {
               {
                 href: "/silk-fabric-price-guide",
                 t: "Price guide",
-                d: "What moves the price per metre — momme is one of six factors.",
+                d: "What moves the price per metre: momme is one of six factors.",
               },
             ].map((l) => (
               <Link
@@ -517,7 +517,7 @@ export default function SilkMommeGuidePage() {
           </h2>
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-white/80">
             Tell us the garment and the hand you want, and we will quote the
-            weight band measured on finished cloth — with the tolerance and the
+            weight band measured on finished cloth, with the tolerance and the
             width stated. Samples carry no material charge; you cover the
             courier.
           </p>

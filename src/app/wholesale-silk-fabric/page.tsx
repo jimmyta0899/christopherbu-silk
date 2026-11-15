@@ -78,7 +78,7 @@ const matrix = [
     name: "Greige silk fabric",
     href: "/products/greige-fabric",
     spec: "Undyed, momme follows the base weave",
-    colour: "Greige — buyer finishes",
+    colour: "Greige: buyer finishes",
   },
   {
     name: "Dupioni",
@@ -128,12 +128,12 @@ const steps = [
   {
     n: "01",
     t: "Enquiry and specification",
-    d: "Send the garment or end use, the construction you have in mind, quantity, target market and any test requirements. If you only know the garment, say so — matching a construction to a silhouette is the part we are better at than a price list is.",
+    d: "Send the garment or end use, the construction you have in mind, quantity, target market and any test requirements. If you only know the garment, say so: matching a construction to a silhouette is the part we are better at than a price list is.",
   },
   {
     n: "02",
     t: "Construction matching",
-    d: "We come back with the weave, the momme band measured on finished cloth, the width, and an honest note on what will not work at your quantity. This is where most orders are actually saved — a construction that cannot hold your seam is cheaper to reject now than after bulk.",
+    d: "We come back with the weave, the momme band measured on finished cloth, the width, and an honest note on what will not work at your quantity. This is where most orders are actually saved: a construction that cannot hold your seam is cheaper to reject now than after bulk.",
   },
   {
     n: "03",
@@ -143,7 +143,7 @@ const steps = [
   {
     n: "04",
     t: "Quotation",
-    d: "The quotation states grade, momme measured on the finished side, width, colour route, quantity, unit price, lead-time estimate and the trade term. If any of those is missing, ask — a quotation without a width or a momme basis is not comparable to another supplier's.",
+    d: "The quotation states grade, momme measured on the finished side, width, colour route, quantity, unit price, lead-time estimate and the trade term. If any of those is missing, ask: a quotation without a width or a momme basis is not comparable to another supplier's.",
   },
   {
     n: "05",
@@ -214,7 +214,7 @@ const faqs: HubFaq[] = [
   },
   {
     q: "Can you dye silk fabric to a custom colour?",
-    a: "Yes, on both tracks — standard shade card colours and custom matching to a submitted sample or specified reference. Custom work requires an approved lab dip before bulk, and the approved dip becomes the reference for inspection. Greige fabric is also supplied undyed for buyers running their own dyehouse. Colour is what we quote for; surface effects beyond dyeing are a separate conversation and we will say plainly whether they are available.",
+    a: "Yes, on both tracks: standard shade card colours and custom matching to a submitted sample or specified reference. Custom work requires an approved lab dip before bulk, and the approved dip becomes the reference for inspection. Greige fabric is also supplied undyed for buyers running their own dyehouse. Colour is what we quote for; surface effects beyond dyeing are a separate conversation and we will say plainly whether they are available.",
   },
   {
     q: "Are you a manufacturer or a trading company?",
@@ -222,7 +222,7 @@ const faqs: HubFaq[] = [
   },
   {
     q: "How long does bulk production take?",
-    a: "15–25 working days is a planning estimate for eligible regular bulk orders. The clock starts once the sample, specification, deposit and material availability are all confirmed — not at the date of enquiry. Custom weaving, custom colour matching and jacquard pattern development each add their own lead time. The binding schedule is the one in the signed order documents.",
+    a: "15–25 working days is a planning estimate for eligible regular bulk orders. The clock starts once the sample, specification, deposit and material availability are all confirmed, not at the date of enquiry. Custom weaving, custom colour matching and jacquard pattern development each add their own lead time. The binding schedule is the one in the signed order documents.",
   },
   {
     q: "Do you supply OEKO-TEX or GOTS certified silk?",
@@ -279,7 +279,7 @@ export default function WholesaleSilkFabricPage() {
           {[
             {
               t: "Nine constructions",
-              d: "Raw silk yarn, greige, dupioni, satin, jacquard, georgette, habotai, stretch satin and silk blends — each with its own specification page.",
+              d: "Raw silk yarn, greige, dupioni, satin, jacquard, georgette, habotai, stretch satin and silk blends, each with its own specification page.",
             },
             {
               t: "Two colour routes",
@@ -343,7 +343,7 @@ export default function WholesaleSilkFabricPage() {
                 <figure className="mt-8 max-w-3xl overflow-hidden border border-line">
           <img src="/products/satin.webp" alt="Silk satin roll, dyed to order from 10 to 30 momme" width="1200" height="800" loading="lazy" decoding="async" className="h-auto w-full object-cover" />
           <figcaption className="border-t border-line bg-ivory-deep px-4 py-3 text-xs text-ink-muted">
-            Silk satin, 10–30 momme, dyed to order — one of the nine standing wholesale constructions.
+            Silk satin, 10–30 momme, dyed to order, one of the nine standing wholesale constructions.
           </figcaption>
         </figure>
 
@@ -424,7 +424,7 @@ export default function WholesaleSilkFabricPage() {
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
             The certificates behind these claims are held by the local mills,
-            not by us, so the verifiable artefact is the number — not a badge on
+            not by us, so the verifiable artefact is the number, not a badge on
             a website. We provide numbers on quotation and you can check them
             with the issuing body.
           </p>

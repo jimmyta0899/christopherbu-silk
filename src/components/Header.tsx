@@ -112,7 +112,7 @@ export function Header() {
       <div className="relative mx-auto max-w-6xl px-6 py-8">
         {/* 第一行：品牌 logo（金色 Christopher Bu 字标）居中 */}
         <div className="relative flex items-center justify-center py-4">
-          <Link href="/" className="inline-block" aria-label="Christopher Bu — home">
+          <Link href="/" className="inline-block" aria-label="Christopher Bu home">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/brand-wordmark.png"
@@ -129,7 +129,7 @@ export function Header() {
           <Link href="/" className="inline-block">
             <Image
               src="/brand-logo.png"
-              alt="Christopher Bu × Yizhou Silk — Raw Silk · Greige Fabric · Dupioni"
+              alt="Christopher Bu × Yizhou Silk: Raw Silk, Greige Fabric, Dupioni"
               width={454}
               height={82}
               className="h-auto w-56 sm:w-72"

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   title:
     "Yizhou Raw Silk: The World's Largest Raw Silk Origin",
   description:
-    "Yizhou, Guangxi: China's largest raw silk county — 5,463 t/year, 13.4% of output, 20 years No.1. The figures, the reeling, and what it means to buy.",
+    "Yizhou, Guangxi: China's largest raw silk county: 5,463 t/year, 13.4% of output, 20 years No.1. The figures, the reeling, and what it means to buy.",
   keywords: [
     "yizhou raw silk",
     "yizhou mulberry silk",
@@ -93,7 +93,7 @@ const officialFigures = [
   {
     figure: "39.6 万亩 / 396,000 mu",
     label: "Mulberry plantations in Yizhou",
-    note: "Yizhou district only — not the wider Hechi prefecture, which reports 96.6 万亩.",
+    note: "Yizhou district only, not the wider Hechi prefecture, which reports 96.6 万亩.",
   },
   {
     figure: "10.9 万吨 / 109,000 t",
@@ -157,7 +157,7 @@ const reelingSteps = [
   {
     n: "05",
     t: "Rewinding",
-    d: "The reeled silk is transferred to bobbins or books, inspected for slubs and breaks, and graded. Evenness, cleanness and neatness are assessed here — the three measures behind a 4A, 5A or 6A grade.",
+    d: "The reeled silk is transferred to bobbins or books, inspected for slubs and breaks, and graded. Evenness, cleanness and neatness are assessed here: the three measures behind a 4A, 5A or 6A grade.",
   },
   {
     n: "06",
@@ -170,7 +170,7 @@ const comparisons = [
   {
     region: "Yizhou, Guangxi",
     role: "Fibre origin",
-    d: "Cocoon growing and reeling. The output here is raw silk yarn and greige cloth — the input to weaving, not the finished fashion fabric.",
+    d: "Cocoon growing and reeling. The output here is raw silk yarn and greige cloth, the input to weaving, not the finished fashion fabric.",
     ours: true,
   },
   {
@@ -188,7 +188,7 @@ const comparisons = [
   {
     region: "Como, Italy",
     role: "European finishing",
-    d: "Dyeing, finishing and quality grading for European luxury houses. Most of the raw fibre it processes is imported — including from China.",
+    d: "Dyeing, finishing and quality grading for European luxury houses. Most of the raw fibre it processes is imported, including from China.",
     ours: false,
   },
 ];
@@ -200,7 +200,7 @@ const faqs: HubFaq[] = [
   },
   {
     q: "What is the difference between Yizhou silk and Suzhou silk?",
-    a: "They sit at different points in the chain. Yizhou grows cocoons and reels raw silk — it is an origin. Suzhou is a weaving, embroidery and finishing centre with a long couture tradition. Suzhou buys fibre; Yizhou produces it. A garment described as Suzhou silk is usually describing where it was made or embroidered, not where the filament came from.",
+    a: "They sit at different points in the chain. Yizhou grows cocoons and reels raw silk. It is an origin. Suzhou is a weaving, embroidery and finishing centre with a long couture tradition. Suzhou buys fibre; Yizhou produces it. A garment described as Suzhou silk is usually describing where it was made or embroidered, not where the filament came from.",
   },
   {
     q: "Which luxury brands use Yizhou raw silk?",
@@ -263,7 +263,7 @@ export default function YizhouRawSilkPage() {
 
         <p className="mt-6 max-w-3xl text-lg leading-relaxed text-ink-soft">
           Yizhou is the largest raw silk producing county in China. It reels
-          5,463 tonnes of raw silk a year — 13.4% of national output. It has
+          5,463 tonnes of raw silk a year, 13.4% of national output. It has
           held first place among Chinese counties for sericulture scale for
           twenty consecutive years (
           <a
@@ -284,7 +284,7 @@ export default function YizhouRawSilkPage() {
         <figure className="mt-8 max-w-3xl overflow-hidden border border-line">
           <img src="/products/raw-silk-20-22d.webp" alt="A hank of 20/22 denier mulberry raw silk, the grade reeled in Yizhou" width="1200" height="900" loading="lazy" decoding="async" className="h-auto w-full object-cover" />
           <figcaption className="border-t border-line bg-ivory-deep px-4 py-3 text-xs text-ink-muted">
-            20/22 denier mulberry raw silk — the spec sheet behind every construction on the product pages.
+            20/22 denier mulberry raw silk, the spec sheet behind every construction on the product pages.
           </figcaption>
         </figure>
 
@@ -627,7 +627,7 @@ export default function YizhouRawSilkPage() {
               </h3>
               <p className="mt-3 text-sm leading-relaxed text-ink-soft">
                 Undyed cloth off the loom, for buyers running their own dyeing
-                and finishing — and the honest starting point for a momme
+                and finishing, and the honest starting point for a momme
                 conversation.
               </p>
               <span className="mt-4 inline-block text-sm font-medium text-gold">
@@ -664,21 +664,21 @@ export default function YizhouRawSilkPage() {
           <ul className="mt-5 max-w-3xl space-y-3 text-sm leading-relaxed text-ink-soft">
             <li>
               Yizhou district government, statement published via China Textile
-              Economic Information Network, March 2026 — plantation area, cocoon
+              Economic Information Network, March 2026: plantation area, cocoon
               and raw silk output, enterprise counts, processing output, luxury
               raw-material statement.
             </li>
             <li>
               National Bureau of Statistics, <em>China Information Daily</em>,
-              2026 — Hechi prefecture sericulture scale, white steam filature and
+              2026: Hechi prefecture sericulture scale, white steam filature and
               greige cloth output, local processing rate.
             </li>
             <li>
-              People&rsquo;s Daily Guangxi, March 2025 — consecutive-year rankings
+              People&rsquo;s Daily Guangxi, March 2025: consecutive-year rankings
               and organic mulberry certification.
             </li>
             <li>
-              Yizhou district government portal — reopening of the Guangxi
+              Yizhou district government portal: reopening of the Guangxi
               all-silk Zhuang brocade production line at Guangxi Jialian Silk.
             </li>
           </ul>
