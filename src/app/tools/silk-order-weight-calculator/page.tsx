@@ -4,6 +4,7 @@ import { pageOpenGraph } from "@/lib/seo-metadata";
 import { articleJsonLd, breadcrumbJsonLd, faqJsonLd } from "@/lib/hub-utils";
 import { SpecTable } from "@/components/AnswerBlock";
 import { ToolShell } from "@/components/ToolShell";
+import { RelatedReading } from "@/components/RelatedReading";
 import { MOMME_REFERENCE } from "@/lib/silk-units";
 import { OrderWeightCalculator } from "./Calculator";
 
@@ -208,6 +209,28 @@ export default function OrderWeightPage() {
             Read the twelve-point quotation checklist →
           </Link>
         </section>
+        <RelatedReading
+          location="tools-order-weight"
+          heading="Weight becomes money here"
+          intro="An order weight is only meaningful next to the state the cloth was weighed in and the price basis the quotation uses."
+          items={[
+            {
+              href: "/blog/dupioni-silk-price-per-yard",
+              title: "Dupioni silk price per yard",
+              note: "Why the per-yard figure and the per-kilo figure are not interchangeable.",
+            },
+            {
+              href: "/blog/greige-degummed-dyed-to-order",
+              title: "Greige, degummed and dyed to order",
+              note: "The weight you quote depends on which of the three states you weighed.",
+            },
+            {
+              href: "/blog/momme-vs-denier-silk-specs",
+              title: "Momme vs denier",
+              note: "Which number converts to grams per square metre, and which one does not.",
+            },
+          ]}
+        />
       </ToolShell>
     </>
   );

@@ -14,6 +14,7 @@ import {
   SourcesBlock,
   type HubSource,
 } from "@/components/HubEditorial";
+import { RelatedReading } from "@/components/RelatedReading";
 
 const HUB_UPDATED = "2026-11-07";
 
@@ -564,6 +565,28 @@ export default function SilkMommeGuidePage() {
             ),
           }}
         />
+        <RelatedReading
+          location="silk-momme-guide"
+          intro="Momme is one number among several. These three pages cover the ones that change a written specification: denier, cloth state and price."
+          items={[
+            {
+              href: "/blog/momme-vs-denier-silk-specs",
+              title: "Momme vs denier",
+              note: "One measures cloth, the other measures yarn. Reading a spec without mixing them up.",
+            },
+            {
+              href: "/blog/dupioni-silk-price-per-yard",
+              title: "Dupioni silk price per yard",
+              note: "Why two rolls at the same momme can still land at different prices.",
+            },
+            {
+              href: "/blog/greige-degummed-dyed-to-order",
+              title: "Greige, degummed and dyed to order",
+              note: "The weight you quote depends on the state the cloth is in when it is weighed.",
+            },
+          ]}
+        />
+
         <SourcesBlock
           sources={sources}
           methodology="Methodology: the conversion factor is arithmetic, one momme to 4.34 g/m², and does not depend on a source. The sericin fraction and the degumming weight loss come from the peer-reviewed measurement cited above, and the 22–28% working range is narrower than the published 25–30% sericin share because some gum remains after commercial degumming. The finished-weight examples are stated as arithmetic on that range, not as measurements of a specific roll. Where a figure would depend on a particular mill's process, the page says so rather than presenting it as a constant."

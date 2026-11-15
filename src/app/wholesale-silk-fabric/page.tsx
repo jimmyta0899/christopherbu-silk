@@ -16,6 +16,7 @@ import {
   SourcesBlock,
   type HubSource,
 } from "@/components/HubEditorial";
+import { RelatedReading } from "@/components/RelatedReading";
 
 const HUB_UPDATED = "2026-11-07";
 
@@ -651,6 +652,28 @@ export default function WholesaleSilkFabricPage() {
             </Link>
           </div>
         </section>
+
+        <RelatedReading
+          location="wholesale-silk-fabric"
+          intro="The pages a buyer usually opens next: what the cloth costs, what greige and dyed to order actually mean, and how slubs are written into an acceptance clause."
+          items={[
+            {
+              href: "/blog/dupioni-silk-price-per-yard",
+              title: "Dupioni silk price per yard",
+              note: "The four variables that separate two quotations for the same construction.",
+            },
+            {
+              href: "/blog/greige-degummed-dyed-to-order",
+              title: "Greige, degummed and dyed to order",
+              note: "Three states of one cloth, and which state a quotation is priced in.",
+            },
+            {
+              href: "/blog/dupioni-slub-acceptance",
+              title: "Slubs are not defects",
+              note: "How to agree an acceptable-irregularity standard before the first roll ships.",
+            },
+          ]}
+        />
 
         <SourcesBlock
           sources={sources}

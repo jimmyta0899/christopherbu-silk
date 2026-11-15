@@ -15,6 +15,7 @@ import {
   SourcesBlock,
   type HubSource,
 } from "@/components/HubEditorial";
+import { RelatedReading } from "@/components/RelatedReading";
 
 const HUB_UPDATED = "2026-11-07";
 
@@ -588,6 +589,28 @@ export default function SilkFabricPriceGuidePage() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd(faqs)) }}
         />
+        <RelatedReading
+          location="silk-fabric-price-guide"
+          intro="Three pages that go a level deeper than a range: one fabric priced line by line, momme set against denier, and how volume terms are written into a contract."
+          items={[
+            {
+              href: "/blog/dupioni-silk-price-per-yard",
+              title: "Dupioni silk price per yard",
+              note: "A single construction priced field by field, so the range stops being a black box.",
+            },
+            {
+              href: "/blog/momme-vs-denier-silk-specs",
+              title: "Momme vs denier",
+              note: "Which of the two numbers a price actually tracks, and which one gets quoted by mistake.",
+            },
+            {
+              href: "/blog/raw-silk-price-volume-contract-flexibility",
+              title: "Raw silk contracts: what to lock",
+              note: "Price and volume terms, and which parts of a contract are worth keeping flexible.",
+            },
+          ]}
+        />
+
         <SourcesBlock
           sources={sources}
           methodology="Methodology: this page publishes no unit prices. Silk is quoted against a specification. A number without grade, momme basis, width, colour route and quantity would be accurate for one combination and misleading for every other. The grade scale follows GB/T 1797-2008, which classifies the yarn rather than the cloth. Delivery terms follow the ICC's published Incoterms rules, because those decide which costs sit inside a quoted figure. The six drivers and the twelve comparison points come from quotations the atelier has reviewed, stated as structure rather than as a price list. Every figure that would depend on a specific mill or season is confirmed on the quotation instead."

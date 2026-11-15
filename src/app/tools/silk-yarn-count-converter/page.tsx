@@ -3,6 +3,7 @@ import { pageOpenGraph } from "@/lib/seo-metadata";
 import { articleJsonLd, breadcrumbJsonLd, faqJsonLd } from "@/lib/hub-utils";
 import { SpecTable } from "@/components/AnswerBlock";
 import { ToolShell } from "@/components/ToolShell";
+import { RelatedReading } from "@/components/RelatedReading";
 import { yarnCountFrom } from "@/lib/silk-units";
 import { YarnCountConverter } from "./Converter";
 
@@ -210,6 +211,28 @@ export default function YarnCountPage() {
             is why no honest converter offers a direct button.
           </p>
         </section>
+        <RelatedReading
+          location="tools-yarn-count"
+          heading="Yarn numbers in a real order"
+          intro="Denier, tex, Nm and Ne describe the same filament from different directions. These pages show where the number enters a contract."
+          items={[
+            {
+              href: "/blog/20-22d-vs-27-29d-raw-silk-weaving",
+              title: "20/22D vs 27/29D",
+              note: "What the denier choice changes in the woven cloth, not just on the label.",
+            },
+            {
+              href: "/blog/evenness-cleanness-neatness-raw-silk",
+              title: "Evenness, cleanness, neatness",
+              note: "Three measured properties that constrain how a yarn runs on the loom.",
+            },
+            {
+              href: "/blog/what-a-raw-silk-quotation-must-include",
+              title: "What a written quotation must include",
+              note: "The denier line that buyers most often find missing from a quote.",
+            },
+          ]}
+        />
       </ToolShell>
     </>
   );

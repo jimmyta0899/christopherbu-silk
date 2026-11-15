@@ -4,6 +4,7 @@ import { pageOpenGraph } from "@/lib/seo-metadata";
 import { articleJsonLd, breadcrumbJsonLd, faqJsonLd } from "@/lib/hub-utils";
 import { SpecTable } from "@/components/AnswerBlock";
 import { ToolShell } from "@/components/ToolShell";
+import { RelatedReading } from "@/components/RelatedReading";
 import {
   GSM_PER_MOMME,
   GSM_PER_OZ_YD2,
@@ -210,6 +211,28 @@ export default function MommeConverterPage() {
             Open the yarn count converter →
           </Link>
         </section>
+        <RelatedReading
+          location="tools-momme-converter"
+          heading="Where these numbers get argued about"
+          intro="A conversion is arithmetic. What follows is the part that decides a price: which number a specification is actually written in."
+          items={[
+            {
+              href: "/blog/momme-vs-denier-silk-specs",
+              title: "Momme vs denier",
+              note: "Cloth weight against yarn fineness, and why a specification needs both numbers.",
+            },
+            {
+              href: "/blog/dupioni-silk-price-per-yard",
+              title: "Dupioni silk price per yard",
+              note: "Where weight sits among the four variables that move a quotation.",
+            },
+            {
+              href: "/blog/how-to-read-a-silk-swatch-card",
+              title: "How to read a swatch card",
+              note: "The fields on a sample card that state weight, and the one that usually does not.",
+            },
+          ]}
+        />
       </ToolShell>
     </>
   );

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { pageOpenGraph } from "@/lib/seo-metadata";
 import { articleJsonLd, breadcrumbJsonLd, faqJsonLd } from "@/lib/hub-utils";
 import { ToolShell } from "@/components/ToolShell";
+import { RelatedReading } from "@/components/RelatedReading";
 import { SpecComparison, type SpecRow } from "./Comparison";
 
 const UPDATED = "2026-11-14";
@@ -267,6 +268,28 @@ export default function SpecComparisonPage() {
             See the weaves described by construction →
           </Link>
         </section>
+        <RelatedReading
+          location="tools-spec-comparison"
+          heading="Comparing two specifications properly"
+          intro="A side-by-side only helps if both columns are stated in the same units and the same cloth state."
+          items={[
+            {
+              href: "/blog/momme-vs-denier-silk-specs",
+              title: "Momme vs denier",
+              note: "The two numbers that get compared when only one of them should be.",
+            },
+            {
+              href: "/blog/dupioni-vs-habotai-silk",
+              title: "Dupioni vs habotai",
+              note: "How two plain weaves differ in surface and slub at the same nominal weight.",
+            },
+            {
+              href: "/blog/how-to-read-a-silk-swatch-card",
+              title: "How to read a swatch card",
+              note: "Which specification fields survive the trip from card to contract.",
+            },
+          ]}
+        />
       </ToolShell>
     </>
   );

@@ -16,6 +16,7 @@ import {
   SourcesBlock,
   type HubSource,
 } from "@/components/HubEditorial";
+import { RelatedReading } from "@/components/RelatedReading";
 
 export const metadata: Metadata = {
   title:
@@ -755,6 +756,28 @@ export default function YizhouRawSilkPage() {
             </Link>
           </div>
         </section>
+
+        <RelatedReading
+          location="yizhou-raw-silk"
+          intro="Raw silk is bought on grade, on paper and on price. These three pages take each of those in turn."
+          items={[
+            {
+              href: "/blog/raw-silk-grade-4a-5a-6a-explained",
+              title: "What 4A, 5A and 6A grades measure",
+              note: "What the grade bands test, and what they leave out of the certificate.",
+            },
+            {
+              href: "/blog/what-a-raw-silk-quotation-must-include",
+              title: "What a written quotation must include",
+              note: "The clauses that decide whether two prices are comparable at all.",
+            },
+            {
+              href: "/blog/dupioni-silk-price-per-yard",
+              title: "Dupioni silk price per yard",
+              note: "How the yarn cost upstream shows up in a fabric price downstream.",
+            },
+          ]}
+        />
 
         <SourcesBlock
           sources={sources}

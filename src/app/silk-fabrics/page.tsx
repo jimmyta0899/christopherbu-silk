@@ -17,6 +17,7 @@ import {
   SourcesBlock,
   type HubSource,
 } from "@/components/HubEditorial";
+import { RelatedReading } from "@/components/RelatedReading";
 
 export const metadata: Metadata = {
   title:
@@ -900,6 +901,28 @@ export default function SilkFabricsPage() {
             ),
           }}
         />
+        <RelatedReading
+          location="silk-fabrics"
+          intro="Three pages that answer questions this overview raises but does not settle: what the cloth costs, how to read a swatch card, and how dupioni differs from the plain weaves it is often confused with."
+          items={[
+            {
+              href: "/blog/dupioni-silk-price-per-yard",
+              title: "Dupioni silk price per yard",
+              note: "What actually moves the number: denier, slub density, width and order quantity.",
+            },
+            {
+              href: "/blog/how-to-read-a-silk-swatch-card",
+              title: "How to read a swatch card",
+              note: "The fields to check before a sample is approved, and which ones are usually left blank.",
+            },
+            {
+              href: "/blog/dupioni-vs-habotai-silk",
+              title: "Dupioni vs habotai",
+              note: "Two plain weaves told apart by slub and surface, not by weight alone.",
+            },
+          ]}
+        />
+
         <SourcesBlock
           sources={sources}
           methodology="Methodology: the weight ranges on this page are commercial ranges agreed with the mills, not a mill guarantee for every roll. The finished-weight figure is the one quoted in a written specification. Denier and grade follow GB/T 1797-2008, the national raw silk standard. The origin statements rest on the Yizhou district government and Hechi civil affairs publications. Red-carpet descriptions follow the contemporaneous coverage listed above. The silk attribution for those garments rests on the atelier's own production records. Availability states are checked against the product pages on this site. A construction marked sample on request is not a stock claim."
