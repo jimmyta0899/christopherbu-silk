@@ -662,8 +662,8 @@ export default function WholesaleSilkFabricPage() {
           items={[
             {
               href: "/blog/dupioni-silk-price-per-yard",
-              title: "Dupioni silk price per yard",
-              note: "The four variables that separate two quotations for the same construction.",
+              title: "Fields that make two prices comparable",
+              note: "Weight, width, finish and order size come first, and the compliance fields decide whether two quotations can be compared at all.",
             },
             {
               href: "/blog/greige-degummed-dyed-to-order",

@@ -215,14 +215,14 @@ export default function OrderWeightPage() {
           intro="An order weight is only meaningful next to the state the cloth was weighed in and the price basis the quotation uses."
           items={[
             {
-              href: "/blog/dupioni-silk-price-per-yard",
-              title: "Dupioni silk price per yard",
-              note: "Why the per-yard figure and the per-kilo figure are not interchangeable.",
+              href: "/blog/hs-5002-export-documents-raw-silk",
+              title: "The HS 5002 document set",
+              note: "Where gross and net weight are stated, and which document the customs figure is read from.",
             },
             {
               href: "/blog/greige-degummed-dyed-to-order",
-              title: "Greige, degummed and dyed to order",
-              note: "The weight you quote depends on which of the three states you weighed.",
+              title: "How much weight degumming takes off",
+              note: "Sericin is 20 to 30 percent of raw silk by weight, so a roll weighed before and after degumming is not the same number.",
             },
             {
               href: "/blog/momme-vs-denier-silk-specs",

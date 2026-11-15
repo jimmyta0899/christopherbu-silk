@@ -775,9 +775,9 @@ export default function YizhouRawSilkPage() {
               note: "The clauses that decide whether two prices are comparable at all.",
             },
             {
-              href: "/blog/dupioni-silk-price-per-yard",
-              title: "Dupioni silk price per yard",
-              note: "How the yarn cost upstream shows up in a fabric price downstream.",
+              href: "/blog/lot-mark-grading-certificate-per-batch",
+              title: "Lot marks and per-lot certificates",
+              note: "The three anchors any grade claim needs: a lot mark, a certificate for that batch, and a written confirmation date.",
             },
           ]}
         />

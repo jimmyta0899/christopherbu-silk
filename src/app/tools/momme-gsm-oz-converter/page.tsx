@@ -214,7 +214,7 @@ export default function MommeConverterPage() {
         <RelatedReading
           location="tools-momme-converter"
           heading="Where these numbers get argued about"
-          intro="A conversion is arithmetic. What follows is the part that decides a price: which number a specification is actually written in."
+          intro="A conversion is arithmetic. What follows is the part that decides whether the number means anything: which state the cloth was in when it was weighed."
           items={[
             {
               href: "/blog/momme-vs-denier-silk-specs",
@@ -222,9 +222,9 @@ export default function MommeConverterPage() {
               note: "Cloth weight against yarn fineness, and why a specification needs both numbers.",
             },
             {
-              href: "/blog/dupioni-silk-price-per-yard",
-              title: "Dupioni silk price per yard",
-              note: "Where weight sits among the four variables that move a quotation.",
+              href: "/blog/greige-degummed-dyed-to-order",
+              title: "Which state the weight was taken in",
+              note: "Degumming strips sericin from the cloth, so the same fabric weighs less afterwards, and a conversion needs the state named first.",
             },
             {
               href: "/blog/how-to-read-a-silk-swatch-card",

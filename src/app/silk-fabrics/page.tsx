@@ -906,12 +906,12 @@ export default function SilkFabricsPage() {
         />
         <RelatedReading
           location="silk-fabrics"
-          intro="Three pages that answer questions this overview raises but does not settle: what the cloth costs, how to read a swatch card, and how dupioni differs from the plain weaves it is often confused with."
+          intro="Three pages that answer questions this overview raises but does not settle: how a dupioni order is specified, how to read a swatch card, and how dupioni differs from the plain weaves it is often confused with."
           items={[
             {
-              href: "/blog/dupioni-silk-price-per-yard",
-              title: "Dupioni silk price per yard",
-              note: "What actually moves the number: denier, slub density, width and order quantity.",
+              href: "/blog/dupioni-silk-fabric-wholesale",
+              title: "Dupioni silk fabric wholesale",
+              note: "How a double cocoon becomes a slubbed yarn and then a plain weave, and why raw silk, greige and Habotai are not other names for it.",
             },
             {
               href: "/blog/how-to-read-a-silk-swatch-card",

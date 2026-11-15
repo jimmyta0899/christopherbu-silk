@@ -598,8 +598,8 @@ export default function SilkFabricPriceGuidePage() {
           items={[
             {
               href: "/blog/dupioni-silk-price-per-yard",
-              title: "Dupioni silk price per yard",
-              note: "A single construction priced field by field, so the range stops being a black box.",
+              title: "What a written silk quotation settles",
+              note: "One specification is priced through cost fields and compliance fields, before any per-yard number appears.",
             },
             {
               href: "/blog/momme-vs-denier-silk-specs",

@@ -570,7 +570,7 @@ export default function SilkMommeGuidePage() {
         />
         <RelatedReading
           location="silk-momme-guide"
-          intro="Momme is one number among several. These three pages cover the ones that change a written specification: denier, cloth state and price."
+          intro="Momme is one number among several. These three pages cover the ones that change a written specification: denier, cloth state and weave structure."
           items={[
             {
               href: "/blog/momme-vs-denier-silk-specs",
@@ -578,13 +578,13 @@ export default function SilkMommeGuidePage() {
               note: "One measures cloth, the other measures yarn. Reading a spec without mixing them up.",
             },
             {
-              href: "/blog/dupioni-silk-price-per-yard",
-              title: "Dupioni silk price per yard",
-              note: "Why two rolls at the same momme can still land at different prices.",
+              href: "/blog/dupioni-vs-habotai-silk",
+              title: "Dupioni and habotai compared",
+              note: "Why a weight reading will not separate these two plain weaves, and what on the surface will.",
             },
             {
               href: "/blog/greige-degummed-dyed-to-order",
-              title: "Greige, degummed and dyed to order",
+              title: "Three states of one cloth",
               note: "The weight you quote depends on the state the cloth is in when it is weighed.",
             },
           ]}
