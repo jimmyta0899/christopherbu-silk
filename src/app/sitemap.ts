@@ -57,6 +57,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/blog", priority: 0.7, freq: "weekly" },
     { path: "/contact", priority: 0.6, freq: "monthly" },
     { path: "/rtw", priority: 0.5, freq: "yearly" },
+    // Momme 阶梯页：每页持有独有数据（哪些织法达到该档、每米重量、
+    // 该档定的是什么采购决策），不是换数字的模板页。先上 5 页，T+30 看收录再扩。
+    { path: "/silk-weight", priority: 0.8, freq: "monthly" },
+    { path: "/silk-weight/6-momme", priority: 0.7, freq: "monthly" },
+    { path: "/silk-weight/16-momme", priority: 0.7, freq: "monthly" },
+    { path: "/silk-weight/19-momme", priority: 0.7, freq: "monthly" },
+    { path: "/silk-weight/22-momme", priority: 0.7, freq: "monthly" },
+    { path: "/silk-weight/30-momme", priority: 0.7, freq: "monthly" },
   ];
 
   const staticEntries = staticRoutes.map((r) => ({
