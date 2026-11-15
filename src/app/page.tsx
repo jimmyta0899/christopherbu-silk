@@ -59,7 +59,7 @@ export default function HomePage() {
       <Header />
       <main id="main-content">
         {/* Hero：深墨绿 + 金，紫禁城绿金刺绣的意象；左文右图 */}
-        <section className="bg-jade-deep text-ivory">
+        <section className="bg-jade-deep text-ivory" data-cta-location="hero">
           <div className="mx-auto max-w-6xl px-6 py-12 md:py-16">
             <div className="grid items-center gap-10 md:grid-cols-2">
               <div>
@@ -458,7 +458,7 @@ export default function HomePage() {
         </section>
 
         {/* CTA：深绿底 + 内嵌金边画框 */}
-        <section className="bg-jade-deep text-ivory">
+        <section className="bg-jade-deep text-ivory" data-cta-location="home-end">
           <div className="mx-auto max-w-6xl px-6 py-16 md:py-20">
             <div className="border border-gold/50 px-8 py-12 md:px-14">
               <h2 className="font-display text-3xl font-medium md:text-4xl">

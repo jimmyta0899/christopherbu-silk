@@ -404,7 +404,10 @@ export default async function BlogPostPage({ params }: Props) {
               {post.anchorTexts[0]} →
             </Link>
           </p>
-          <div className="mt-8 border border-gold/30 bg-ivory-deep p-6">
+          <div
+            data-cta-location="blog-end"
+            className="mt-8 border border-gold/30 bg-ivory-deep p-6"
+          >
             <h2 className="font-display text-xl font-medium text-jade-deep">
               Need a shade card or a quotation?
             </h2>

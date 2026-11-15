@@ -107,6 +107,97 @@ export default function Analytics() {
           })();
         `}
       </Script>
+      <Script id="ga4-site-events" strategy="afterInteractive">
+        {`
+          (function () {
+            function send(name, params) {
+              if (typeof window.gtag !== 'function') return;
+              window.gtag('event', name, params);
+            }
+            function path() { return window.location.pathname; }
+
+            // cta_click + quote_request: every route into a sample or a quotation.
+            // Delegated on document, so no per-button wiring is needed anywhere.
+            var ROUTES = [
+              { re: /^\\/(samples|contact)([\\/#?]|$)/, kind: 'sample_or_quote' },
+              { re: /^https?:\\/\\/(wa\\.me|api\\.whatsapp\\.com)/, kind: 'whatsapp' },
+              { re: /^mailto:/, kind: 'email' }
+            ];
+            document.addEventListener('click', function (e) {
+              var t = e.target;
+              if (!t || !t.closest) return;
+              var a = t.closest('a[href]');
+              if (!a) return;
+              var href = a.getAttribute('href') || '';
+              var kind = '';
+              for (var i = 0; i < ROUTES.length; i++) {
+                if (ROUTES[i].re.test(href)) { kind = ROUTES[i].kind; break; }
+              }
+              if (!kind) return;
+              var holder = a.closest('[data-cta-location]');
+              send('cta_click', {
+                cta_location: holder ? holder.getAttribute('data-cta-location') : 'unspecified',
+                cta_kind: kind,
+                cta_target: href,
+                page_path: path()
+              });
+              send('quote_request', { lead_channel: kind, page_path: path() });
+            }, true);
+
+            // quote_request from an actual form submission.
+            document.addEventListener('submit', function (e) {
+              var f = e.target;
+              if (!f || !f.getAttribute) return;
+              send('quote_request', {
+                lead_channel: 'form',
+                form_id: f.getAttribute('id') || f.getAttribute('name') || 'unnamed',
+                page_path: path()
+              });
+            }, true);
+
+            // spec_table_view: first time a table is half on screen, once per table.
+            // Threshold 0.5 keeps a table that flashes past out of the count.
+            if ('IntersectionObserver' in window) {
+              var tables = Array.prototype.slice.call(document.querySelectorAll('main table, table'));
+              var seen = [];
+              var io = new IntersectionObserver(function (entries) {
+                for (var i = 0; i < entries.length; i++) {
+                  var en = entries[i];
+                  if (!en.isIntersecting) continue;
+                  if (seen.indexOf(en.target) !== -1) continue;
+                  seen.push(en.target);
+                  send('spec_table_view', {
+                    table_index: tables.indexOf(en.target),
+                    page_path: path()
+                  });
+                  io.unobserve(en.target);
+                }
+              }, { threshold: 0.5 });
+              for (var j = 0; j < tables.length; j++) io.observe(tables[j]);
+            }
+
+            // calculator_use: once per page view, and only after the reader
+            // has actually typed or picked something. A page load is not a use.
+            var seg = path().replace(/\\/$/, '').split('/tools/');
+            var tool = seg.length > 1 ? (seg[1] || 'tools-index') : '';
+            if (tool) {
+              var fired = false;
+              var timer = null;
+              var mark = function () {
+                if (fired) return;
+                clearTimeout(timer);
+                timer = setTimeout(function () {
+                  if (fired) return;
+                  fired = true;
+                  send('calculator_use', { tool_name: tool, page_path: path() });
+                }, 1500);
+              };
+              document.addEventListener('input', mark, true);
+              document.addEventListener('change', mark, true);
+            }
+          })();
+        `}
+      </Script>
     </>
   );
 }
