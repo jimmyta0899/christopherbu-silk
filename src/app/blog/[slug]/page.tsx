@@ -130,7 +130,7 @@ export default async function BlogPostPage({ params }: Props) {
     .replace(/\*\*([^*]+)\*\*/g, "$1")
     .replace(/^-\s+/gm, "");
 
-  const jsonLd = {
+  const jsonLd: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     headline: post.title,
@@ -151,6 +151,12 @@ export default async function BlogPostPage({ params }: Props) {
     mainEntityOfPage: `${siteConfig.url}/blog/${post.slug}`,
     keywords: post.keywords.join(", "),
   };
+
+  // 文章封面图入 schema，便于文章 Rich Result 带缩略图。
+  // coverImage 缺失时不输出，避免占位值。
+  if (post.coverImage?.src) {
+    jsonLd["image"] = post.coverImage.src;
+  }
 
   // 面包屑结构化数据：页面本身已有可视面包屑，但缺 JSON-LD，
   // 搜索结果里就没法用 Home › Journal › 文章标题 替换裸 URL。

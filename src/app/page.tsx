@@ -10,6 +10,7 @@ import { pressItems } from "@/lib/press";
 import { blogPosts } from "@/lib/blog";
 import { faqs } from "@/lib/faq";
 import { siteConfig } from "@/lib/site-config";
+import { ORGANIZATION_ID } from "@/lib/organization-schema";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
@@ -26,6 +27,7 @@ export default function HomePage() {
   const organizationJsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": ORGANIZATION_ID,
     name: siteConfig.name,
     url: siteConfig.url,
     description: siteConfig.tagline,
