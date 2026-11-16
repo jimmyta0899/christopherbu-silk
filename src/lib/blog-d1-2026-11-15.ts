@@ -111,7 +111,7 @@ export const d1Nov15Posts: BlogPost[] = [
       },
       {
         "heading": "Where an accepted slub becomes a claim",
-        "body": "A slub accepted on the flat can still fail in the seam. Threads Magazine reports that double-cocoon silk is weaker than regular silk because of the irregularity of the yarn[11], and seam slippage is one place a workroom meets that weakness. Approve a sewn seam sample with the flat sample, and decide who carries the cost of a resewn panel.",
+        "body": "A slub accepted on the flat can still fail in the seam. Threads Magazine reports that double-cocoon silk is weaker than regular silk because of the irregularity of the yarn[11], and seam slippage is one place a workroom meets that weakness. Approve a sewn seam sample with the flat sample, and decide who carries the cost of a resewn panel. The range the cloth is judged against is written down in [where the slub sets the tolerance](/blog/dupioni-silk-fabric-wholesale/).",
         "image": {
           "src": "/fabric-library/dupioni/dupioni-045.jpg",
           "alt": "Folded length of silver grey dupioni silk showing slubs along the folds",
