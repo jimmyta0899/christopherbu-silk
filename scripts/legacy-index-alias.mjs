@@ -48,6 +48,19 @@ const sourceTxt = source.replace(/index\.html$/, "index.txt");
 const targetTxt = TARGET.replace(/index\.html$/, "index.txt");
 if (fs.existsSync(sourceTxt)) fs.copyFileSync(sourceTxt, targetTxt);
 
+// 复制完之后清掉 Next 导出的那一层嵌套：
+//   out/index/index/index.html  会让 GitHub Pages 把 /index/index/ 也服务成 200，
+//   与 /index/ 内容完全相同，构成同内容双地址。
+// 2026-11-17 实测：线上 /index/ 与 /index/index/ 均为 145,431 字节、md5 一致，
+// GA4「页面和屏幕」把 /index/ 与 /index 拆成两行也有这个因素。
+// 保留 out/index/index.html —— 那才是 GitHub Pages 收到 GET /index/ 时真正读的文件。
+// 注意：这一步会让 /index/index/ 回到 404，那是期望结果，不是回归。
+const nestedDir = path.join(ROOT, "index", "index");
+if (fs.existsSync(nestedDir)) {
+  fs.rmSync(nestedDir, { recursive: true, force: true });
+  console.log("[legacy-index] 已清除嵌套副本 out/index/index/（/index/index/ 不再返回重复 200）");
+}
+
 const html = fs.readFileSync(TARGET, "utf8");
 const noindex = /<meta name="robots" content="[^"]*noindex/.test(html);
 const canonical = (html.match(/<link rel="canonical" href="([^"]*)"/) || [])[1] || "(none)";
