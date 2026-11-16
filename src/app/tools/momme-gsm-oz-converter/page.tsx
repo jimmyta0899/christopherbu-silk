@@ -185,7 +185,7 @@ export default function MommeConverterPage() {
                       {row.gsm.toFixed(1)} g/m² · {row.oz.toFixed(2)} oz/yd²
                     </span>
                     <span className="text-xs text-ink-muted">
-                      {row.weave} — {row.use}
+                      {row.weave}: {row.use}
                     </span>
                   </span>
                 ),

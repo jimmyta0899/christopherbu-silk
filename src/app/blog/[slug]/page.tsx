@@ -348,7 +348,7 @@ export default async function BlogPostPage({ params }: Props) {
                   <div>
                     <p className="text-ink-soft">
                       <span className="font-medium text-jade-deep">{r.publisher}</span>
-                      {" — "}
+                      {": "}
                       <span className="italic">{r.title}</span>
                       {` (${r.year})`}
                       {r.url && (

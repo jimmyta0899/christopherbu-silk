@@ -94,11 +94,11 @@ export function ToolShell({
                       rel="noopener noreferrer"
                       className="underline underline-offset-2 hover:text-jade"
                     >
-                      {s.publisher} — {s.title}
+                      {s.publisher}: {s.title}
                     </a>
                   ) : (
                     <span>
-                      {s.publisher} — {s.title}
+                      {s.publisher}: {s.title}
                     </span>
                   )}
                   {s.year ? <span className="text-ink-muted"> ({s.year})</span> : null}
