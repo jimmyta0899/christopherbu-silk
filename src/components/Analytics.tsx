@@ -67,7 +67,15 @@ export default function Analytics() {
             function gtag(){ window.dataLayer.push(arguments); }
             window.gtag = gtag;
             gtag('js', new Date());
-            gtag('config', GA_ID, {});
+
+            // Normalize page_location so that the static-hosting fallback
+            // '/index' (which serves the homepage without a 301) is reported
+            // as '/', preventing a duplicate row in GA4 'Pages and screens'.
+            // See: src/app/index/page.tsx and legacy-index-alias.mjs.
+            var normalizedPath = url.pathname;
+            if (normalizedPath === '/index') normalizedPath = '/';
+            var pageLocation = url.origin + normalizedPath + url.search + url.hash;
+            gtag('config', GA_ID, { page_location: pageLocation });
 
             // Load the external tag after window.load, preserving the previous
             // lazyOnload timing so this change does not affect LCP.
