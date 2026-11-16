@@ -71,18 +71,25 @@ export function HeroCarousel() {
         ›
       </button>
 
-      {/* 指示点 */}
-      <div className="absolute bottom-3 left-1/2 z-10 flex -translate-x-1/2 gap-2">
+      {/* 指示点：外层按钮 24×24 保证触控目标，内层 span 只负责视觉 */}
+      <div className="absolute bottom-3 left-1/2 z-10 flex -translate-x-1/2 gap-1">
         {slides.map((_, i) => (
           <button
             key={i}
             type="button"
             onClick={() => setActive(i)}
             aria-label={`Go to illustration ${i + 1}`}
-            className={`h-2 w-2 rounded-full transition-all ${
-              i === active ? "w-5 bg-gold-bright" : "bg-white/50 hover:bg-white/80"
-            }`}
-          />
+            aria-current={i === active ? "true" : undefined}
+            className="group flex h-6 w-6 items-center justify-center"
+          >
+            <span
+              className={`block h-2 rounded-full transition-all ${
+                i === active
+                  ? "w-5 bg-gold-bright"
+                  : "w-2 bg-white/50 group-hover:bg-white/80"
+              }`}
+            />
+          </button>
         ))}
       </div>
     </div>

@@ -30,11 +30,15 @@ export function AnswerBlock({
   const dark = tone === "dark";
   return (
     <div
-      className={`mt-6 border-l-2 border-gold px-5 py-4 md:px-6 md:py-5 ${
-        dark ? "bg-ivory/10" : "bg-ivory-deep"
+      className={`mt-6 border-l-2 px-5 py-4 md:px-6 md:py-5 ${
+        dark ? "border-gold-bright bg-ivory/10" : "border-gold bg-ivory-deep"
       }`}
     >
-      <p className="text-[0.7rem] font-semibold uppercase tracking-[0.14em] text-gold">
+      <p
+        className={`text-[0.7rem] font-semibold uppercase tracking-[0.14em] ${
+          dark ? "text-gold-bright" : "text-gold"
+        }`}
+      >
         {label}
       </p>
       <p
