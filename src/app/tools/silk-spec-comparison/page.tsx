@@ -9,7 +9,7 @@ import { SpecComparison, type SpecRow } from "./Comparison";
 const UPDATED = "2026-11-14";
 
 export const metadata: Metadata = {
-  title: "Silk Fabric Comparison Chart: 9 Weaves by Momme & Use",
+  title: "Silk Fabric Comparison Chart — 9 Weaves | Christopher Bu",
   description:
     "Compare nine mulberry silk weaves side by side: satin, dupioni, habotai, georgette, jacquard luo, stretch satin, blends and more — momme, g/m², width and signature.",
   keywords: [

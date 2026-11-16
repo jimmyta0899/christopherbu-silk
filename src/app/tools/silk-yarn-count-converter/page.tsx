@@ -10,7 +10,7 @@ import { YarnCountConverter } from "./Converter";
 const UPDATED = "2026-11-14";
 
 export const metadata: Metadata = {
-  title: "Silk Yarn Count Converter: Denier, Tex, dtex, Nm, Ne",
+  title: "Silk Yarn Count Converter — Denier, Tex, dtex | Christopher Bu",
   description:
     "Convert silk yarn counts between denier, tex, dtex, Nm and Ne. 20/22D is 2.3 tex and about 435 Nm. Formulas, a reference table and the ISO/ASTM basis.",
   keywords: [

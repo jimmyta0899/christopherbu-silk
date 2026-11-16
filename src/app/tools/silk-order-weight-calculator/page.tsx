@@ -11,7 +11,7 @@ import { OrderWeightCalculator } from "./Calculator";
 const UPDATED = "2026-11-14";
 
 export const metadata: Metadata = {
-  title: "Silk Order Weight Calculator: Metres to Kilograms",
+  title: "Silk Order Weight Calculator | Christopher Bu",
   description:
     "Convert metres of silk fabric into kilograms: metres × width × gsm ÷ 1000. Enter garment count, fabric per garment, width and momme for order weight and wastage.",
   keywords: [

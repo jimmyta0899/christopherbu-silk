@@ -15,7 +15,7 @@ import { MommeConverter } from "./Converter";
 const UPDATED = "2026-11-14";
 
 export const metadata: Metadata = {
-  title: "Momme to GSM Converter (Silk): mm, g/m² and oz/yd²",
+  title: "Momme to GSM Converter — Silk | Christopher Bu",
   description:
     "Convert momme to g/m² and oz/yd² instantly: 1 momme = 4.34 g/m², so 19 momme is 82.5 g/m². Three-way converter plus the full silk weight ladder by weave.",
   keywords: [
