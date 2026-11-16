@@ -6,6 +6,7 @@ import { d1Posts } from "./blog-d1-2026-11-09";
 import { d1Nov10Posts } from "./blog-d1-2026-11-10";
 import { d1Nov15Posts } from "./blog-d1-2026-11-15";
 import { d1Nov15bPosts } from "./blog-d1-2026-11-15-b";
+import { d1Nov16Posts } from "./blog-d1-2026-11-16";
 
 export type BlogImage = {
   src: string;
@@ -69,6 +70,8 @@ export const blogPosts: BlogPost[] = [
   ...d1Nov15Posts,
   // 2026-11-15 B 批（1 篇四点制验布报告稿），由 sprint-kit/convert-d1-2026-11-15-b.mjs 从 Markdown 生成
   ...d1Nov15bPosts,
+  // 2026-11-16 D1 批（1 篇克重测法稿），由 sprint-kit/convert-d1-2026-11-16.mjs 从 Markdown 生成
+  ...d1Nov16Posts,
   {
     slug: "yizhou-mulberry-silk-longevity-to-world",
     title:
