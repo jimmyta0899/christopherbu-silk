@@ -9,7 +9,7 @@ import { ORGANIZATION_ID } from "@/lib/organization-schema";
 
 export const metadata: Metadata = {
   title:
-    "Raw Silk Yarn 20/22D 4A/5A/6A: Spec Sheet, HS 5002 & Export Terms",
+    "Raw Silk Yarn 20/22D 4A/5A/6A Spec Sheet | Christopher Bu",
   description:
     "Spec sheet for 20/22D mulberry raw silk from Yizhou: four yarn varieties, 4A/5A/6A grades, HS 5002, bale packing, FOB/FCA, T/T. Values per written quote.",
   keywords: [

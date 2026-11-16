@@ -44,7 +44,7 @@ export const products: Product[] = [
     slug: "raw-silk",
     name: "Raw Silk Yarn",
     title:
-      "Raw Silk Yarn 20/22D, Dupion, Luxury & Organic for Weaving",
+      "Raw Silk Yarn — 20/22D, Dupion & Organic",
     h1: "Raw Silk Yarn: 20/22D, Dupion, Luxury & Organic Silk",
     metaDescription:
       "Raw silk yarn from Yizhou in four varieties: 20/22D white, natural dupion, 1-ply luxury and GOTS organic. For weaving, knitting, embroidery. B2B bulk.",
@@ -210,7 +210,7 @@ export const products: Product[] = [
     slug: "greige-fabric",
     name: "Greige Silk Fabric",
     title:
-      "Greige Silk Fabric: Undyed Mulberry Silk by Weave, Sample MOQ",
+      "Greige Silk Fabric — Undyed Mulberry",
     h1: "Greige Silk Fabric (Undyed, Unfinished)",
     metaDescription:
       "Greige (undyed, unfinished) mulberry silk from Yizhou — cloth before dyeing or finishing, by base weave. Bulk supply; OEKO-TEX & GOTS on request.",
@@ -269,7 +269,7 @@ export const products: Product[] = [
     slug: "satin",
     name: "Satin Silk Fabric",
     title:
-      "Satin Silk Fabric 10–30mm, 114/140cm for Bridal & Eveningwear",
+      "Satin Silk Fabric — Bridal & Eveningwear",
     h1: "Satin Silk Fabric for Bridal & Eveningwear",
     metaDescription:
       "Satin silk from Yizhou: 10–30 momme, 114/140 cm, greige or dyed to order. For bridal, eveningwear and luxury linings. B2B bulk supply.",
@@ -338,7 +338,7 @@ export const products: Product[] = [
     slug: "jacquard-luo",
     name: "Jacquard Luo Silk",
     title:
-      "Jacquard Luo Silk, Custom Woven Motifs 16–30mm for Couture",
+      "Jacquard Luo Silk — Custom Woven Motifs",
     h1: "Jacquard Luo Silk for Couture & Occasionwear",
     metaDescription:
       "Jacquard luo silk from Yizhou — motifs woven into mulberry cloth on jacquard looms. Custom pattern development for couture and occasionwear. B2B.",
@@ -405,7 +405,7 @@ export const products: Product[] = [
     slug: "georgette",
     name: "Georgette Silk",
     title:
-      "Georgette Silk Fabric 8–16mm for Scarves & Flowing Garments",
+      "Georgette Silk — Scarves & Flowing Garments",
     h1: "Georgette Silk for Scarves & Flowing Garments",
     metaDescription:
       "Georgette silk from Yizhou: sheer crinkled mulberry, 8–16 momme, 114/140 cm. For scarves, summer wear and flowing dresses. B2B bulk supply.",
@@ -468,7 +468,7 @@ export const products: Product[] = [
     slug: "habotai",
     name: "Habotai Silk",
     title:
-      "Habotai (Pongee) Silk 6–16mm, 114cm for Linings & Shirts",
+      "Habotai (Pongee) Silk — Linings & Shirts",
     h1: "Habotai Silk for Linings & Light Shirts",
     metaDescription:
       "Habotai (pongee/China silk) from Yizhou: 6–16 momme plain-weave mulberry, 114 cm, crisp hand. For linings, scarves, light shirts. B2B bulk supply.",
@@ -541,7 +541,7 @@ export const products: Product[] = [
     slug: "stretch-silk",
     name: "Silk Stretch Satin",
     title:
-      "Silk Stretch Satin 14–28mm, 140cm Silk-Spandex Satin",
+      "Silk Stretch Satin — 14–28mm, 140cm",
     h1: "Silk Stretch Satin for Comfort & Fit",
     metaDescription:
       "Stretch satin from Yizhou: mulberry-spandex satin weave, 14–28 momme, 140 cm, comfort stretch. Luminous face for bridal and eveningwear. B2B.",
@@ -605,7 +605,7 @@ export const products: Product[] = [
     slug: "blended-silk",
     name: "Silk Blend (Silk-Cotton / Silk-Linen)",
     title:
-      "Silk Blend Fabric: Silk-Cotton & Silk-Linen, 114/140cm",
+      "Silk Blend — Silk-Cotton & Silk-Linen",
     h1: "Silk Blend (Silk-Cotton / Silk-Linen)",
     metaDescription:
       "Blended silk from Yizhou: silk-cotton and silk-linen weaves, 114/140 cm. Cotton or linen comfort with silk's sheen. For shirts and summer wear. B2B.",
@@ -676,7 +676,7 @@ export const products: Product[] = [
     slug: "dupioni",
     name: "Dupioni Silk",
     title:
-      "Greige Silk Dupioni 16/19mm for Gowns & Tailoring, FCA Yizhou",
+      "Greige Silk Dupioni — Gowns & Tailoring",
     h1: "Dupioni Silk for Gowns & Sculptural Tailoring",
     metaDescription:
       "Dupioni silk with signature slub texture from Yizhou: 16/19 momme (up to 22), 114/140 cm. For evening gowns, bridal and structured couture. B2B.",

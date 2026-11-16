@@ -30,12 +30,11 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
     default:
-      "Christopher Bu | Raw Silk & Fabrics from Yizhou — Couture House Behind Red-Carpet Silk Gowns",
+      "Christopher Bu | Yizhou Silk & Fabrics Supplier",
     template: "%s | Christopher Bu",
   },
-  description: siteConfig.tagline,
+  description: "Premium mulberry raw silk and greige fabric from Yizhou, China — B2B silk supplier with GOTS and OEKO-TEX certification.",
   keywords: [
-    "raw silk supplier",
     "mulberry silk yarn",
     "greige silk fabric",
     "dupioni silk",
@@ -99,6 +98,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${cormorant.variable} ${manrope.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+        <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
+        <meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
+        <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()" />
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:absolute focus:left-3 focus:top-3 focus:z-[100] focus:bg-jade-deep focus:px-4 focus:py-2 focus:text-sm focus:text-ivory focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-gold"

@@ -61,9 +61,9 @@ export const silkWeightGrades: SilkWeightGrade[] = [
     momme: 6,
     gsm: 26.04,
     weaves: ["Habotai Silk"],
-    title: "6 Momme Silk: The Lightest Weight We Weave (26 g/m²)",
+    title: "6 Momme Silk — Lightest Weight (26 g/m²)",
     description:
-      "6 momme silk is 26.04 g/m² and is only woven as Habotai Silk in our range. What it weighs per metre at 114 cm, what it is used for, and where the weight stops being workable.",
+      "6 momme silk is 26.04 g/m², woven only as Habotai. Weight per metre at 114 cm, uses, and where the weight stops being workable.",
     h1: "6 Momme Silk Fabric: 26 g/m², the Lightest Weight in Regular Supply",
     answer:
       "6 momme silk weighs 26.04 g/m². In our range it is woven only as Habotai Silk, at 114 cm. One running metre weighs 0.0297 kg. It is the weight for lining, scarf and sheer-overlay work, where handling matters more than body.",
@@ -120,9 +120,9 @@ export const silkWeightGrades: SilkWeightGrade[] = [
     momme: 16,
     gsm: 69.44,
     weaves: ["Habotai Silk", "Dupioni Silk", "Jacquard Luo Silk", "Silk Stretch Satin"],
-    title: "16 Momme Silk: 69 g/m², the Shirt and Lining Threshold",
+    title: "16 Momme Silk — Shirt & Lining Threshold",
     description:
-      "16 momme silk is 69.44 g/m². Four weaves in our range reach it. What changes between 12 and 16 momme, and why 16 is the point where a plain weave stops reading as sheer.",
+      "16 momme silk is 69.44 g/m². Four weaves reach it. What changes from 12 to 16 momme, and why 16 ends sheer plain weave.",
     h1: "16 Momme Silk Fabric: 69 g/m², Where a Plain Weave Stops Being Sheer",
     answer:
       "16 momme silk weighs 69.44 g/m². It is the top of the Habotai range and the entry weight for Dupioni Silk, Jacquard Luo Silk and Silk Stretch Satin. One metre at 140 cm weighs 0.0972 kg, at 114 cm 0.0792 kg. It is the usual floor for shirting and for a lining that has to hold a seam.",
@@ -182,9 +182,9 @@ export const silkWeightGrades: SilkWeightGrade[] = [
     momme: 19,
     gsm: 82.46,
     weaves: ["Satin Silk", "Dupioni Silk", "Jacquard Luo Silk", "Silk Stretch Satin"],
-    title: "19 Momme Silk: 82 g/m², the Gown and Sleepwear Weight",
+    title: "19 Momme Silk — Gown & Sleepwear Weight",
     description:
-      "19 momme silk is 82.46 g/m². It is the standard Dupioni gown weight and the top of the sleepwear band in satin. 15.8% heavier than 22 momme on the same width, with the per-metre figures.",
+      "19 momme silk is 82.46 g/m². Standard Dupioni gown weight and top of sleepwear band in satin. 15.8% heavier than 22 momme.",
     h1: "19 Momme Silk Fabric: 82 g/m², the Weight Most Gowns and Sleepwear Are Cut From",
     answer:
       "19 momme silk weighs 82.46 g/m². It is the standard weight for Dupioni gowns and bridal, and the top of the 16 to 19 satin band used for sleepwear and shirts. One metre at 140 cm weighs 0.1154 kg, at 114 cm 0.0940 kg.",
@@ -244,9 +244,9 @@ export const silkWeightGrades: SilkWeightGrade[] = [
     momme: 22,
     gsm: 95.48,
     weaves: ["Satin Silk", "Jacquard Luo Silk", "Silk Stretch Satin", "Georgette Silk"],
-    title: "22 Momme Silk: 95 g/m², the Bedding Standard",
+    title: "22 Momme Silk — Bedding Standard Weight",
     description:
-      "22 momme silk is 95.48 g/m², the standard weight for high-end bedding in satin. What the extra 15.8% over 19 momme buys, what greige 22 becomes after finishing, and the per-metre weight.",
+      "22 momme silk is 95.48 g/m². Standard high-end bedding weight. What 15.8% over 19 buys, greige vs finished, per-metre weight.",
     h1: "22 Momme Silk Fabric: 95 g/m², the Weight Bedding Is Specified At",
     answer:
       "22 momme silk weighs 95.48 g/m². It sits in the 22 to 25 satin band used for high-end bedding, and it is 15.8 per cent heavier than 19 momme. One metre at 140 cm weighs 0.1337 kg, at 114 cm 0.1088 kg. Ask whether the figure is greige or finished before you compare.",
@@ -306,9 +306,9 @@ export const silkWeightGrades: SilkWeightGrade[] = [
     momme: 30,
     gsm: 130.20,
     weaves: ["Satin Silk", "Jacquard Luo Silk"],
-    title: "30 Momme Silk: 130 g/m², Where Cloth Starts to Stand Up",
+    title: "30 Momme Silk — Heaviest Weight (130 g/m²)",
     description:
-      "30 momme silk is 130.20 g/m², the heaviest weight in regular supply. It is the start of structured pieces in satin and jacquard luo, and past the top of the stretch satin range. Per-metre weights at both widths.",
+      "30 momme silk is 130.20 g/m², the heaviest in regular supply. Start of structured satin and jacquard luo. Per-metre weights at both widths.",
     h1: "30 Momme Silk Fabric: 130 g/m², the Heaviest Weight in Regular Supply",
     answer:
       "30 momme silk weighs 130.20 g/m². It is the top of the Satin Silk and Jacquard Luo Silk ranges, and past the 28 momme ceiling of Silk Stretch Satin. One metre at 140 cm weighs 0.1823 kg, at 114 cm 0.1484 kg. It is specified where the cloth has to hold a shape by itself.",

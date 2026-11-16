@@ -5,8 +5,8 @@ import type { BlogPost } from "./blog";
 export const d1Nov10Posts: BlogPost[] = [
   {
     "slug": "dupioni-vs-habotai-silk",
-    "title": "Dupioni Silk vs Habotai Silk: Telling Two Plain Weaves Apart by Slub and Surface",
-    "metaDescription": "Dupioni Silk and Habotai Silk are both plain weaves, but only Dupioni Silk carries cross-grain slubs from double-cocoon weft yarn. Habotai Silk has a fine, even surface, a crisp firm hand and no slubs. This guide shows a buyer how to tell the two cloths apart on a swatch, then fix the weave, the delivery state and the specification fields in writing before ordering.",
+    "title": "Dupioni Silk vs Habotai Silk: Telling Two",
+    "metaDescription": "Dupioni Silk and Habotai Silk are both plain weaves, but only Dupioni Silk carries cross-grain slubs from double-cocoon weft yarn.",
     "type": "Fabric / dupioni",
     "publishDate": "2026-11-10",
     "keywords": [
@@ -148,7 +148,7 @@ export const d1Nov10Posts: BlogPost[] = [
     "references": [
       {
         "publisher": "Food and Agriculture Organization of the United Nations",
-        "title": "Silk reeling and testing manual, Chapter 3: double cocoons and doupion",
+        "title": "Silk reeling and testing manual, Chapter",
         "year": "n.d.",
         "url": "https://www.fao.org/4/x2099e/x2099e04.htm"
       },
@@ -190,7 +190,7 @@ export const d1Nov10Posts: BlogPost[] = [
       },
       {
         "publisher": "Threads Magazine",
-        "title": "The Difference Between Dupioni and Shantung",
+        "title": "The Difference Between Dupioni and",
         "year": "2021",
         "url": "https://www.threadsmagazine.com/2021/08/29/the-difference-between-dupioni-and-shantung"
       },
@@ -223,7 +223,7 @@ export const d1Nov10Posts: BlogPost[] = [
   {
     "slug": "how-to-read-a-silk-swatch-card",
     "title": "How to Read a Silk Fabric Swatch Card",
-    "metaDescription": "A silk swatch card records one physical specimen, not a whole lot. This guide reads each field, composition, momme, grams per square metre, width, care, shrinkage, MOQ and disclaimer, and explains what ASTM D3776 says a small-swatch weight can actually certify.",
+    "metaDescription": "A silk swatch card records one physical specimen, not a whole lot. This guide reads each field, composition, momme, grams per square metre, width,",
     "type": "Fabric / specification",
     "publishDate": "2026-11-10",
     "keywords": [
@@ -395,7 +395,7 @@ export const d1Nov10Posts: BlogPost[] = [
     "references": [
       {
         "publisher": "ASTM International",
-        "title": "D3776/D3776M-20 Standard Test Methods for Mass Per Unit Area (Weight) of Fabric",
+        "title": "D3776/D3776M-20 Standard Test Methods for",
         "year": "2020",
         "url": "https://www.astm.org/d3776_d3776m-20.html"
       },
@@ -419,7 +419,7 @@ export const d1Nov10Posts: BlogPost[] = [
       },
       {
         "publisher": "Electronic Code of Federal Regulations",
-        "title": "16 CFR 303.6, Generic names of fibers to be used",
+        "title": "16 CFR 303.6, Generic names of fibers to",
         "year": "n.d.",
         "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-303/section-303.6"
       },
@@ -449,7 +449,7 @@ export const d1Nov10Posts: BlogPost[] = [
       },
       {
         "publisher": "Puresilks.us",
-        "title": "100% pure silk dupioni fabric gold 40 momme with slubs",
+        "title": "100% pure silk dupioni fabric gold 40",
         "year": "n.d.",
         "url": "https://www.puresilks.us/products/100-pure-silk-dupioni-fabric-gold-40-momme-54-wide-with-slubs"
       },
@@ -491,7 +491,7 @@ export const d1Nov10Posts: BlogPost[] = [
       },
       {
         "publisher": "Threads Magazine",
-        "title": "The Difference Between Dupioni and Shantung",
+        "title": "The Difference Between Dupioni and",
         "year": "2021",
         "url": "https://www.threadsmagazine.com/2021/08/29/the-difference-between-dupioni-and-shantung"
       },

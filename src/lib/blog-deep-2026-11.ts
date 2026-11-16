@@ -5,8 +5,8 @@ import type { BlogPost } from "./blog";
 export const deepDraftPosts: BlogPost[] = [
   {
     "slug": "20-22d-vs-27-29d-raw-silk-weaving",
-    "title": "20/22D vs 27/29D Raw Silk for Weaving: What Denier Actually Changes in the Cloth",
-    "metaDescription": "Denier is not a quality grade. It sets yarn fineness, and that choice runs through fabric weight, cover, drape and hand. A judgement method for choosing between 20/22D, 27/29D and 13/19D for a weaving program.",
+    "title": "20/22D vs 27/29D Raw Silk for Weaving:",
+    "metaDescription": "Denier is not a quality grade. It sets yarn fineness, and that choice runs through fabric weight, cover, drape and hand.",
     "type": "Specification / denier",
     "publishDate": "2026-11-06",
     "keywords": [
@@ -207,7 +207,7 @@ export const deepDraftPosts: BlogPost[] = [
       },
       {
         "publisher": "Beijing Qingshanyimu Trading Co., Ltd",
-        "title": "Raw silk specs: what every written quotation includes",
+        "title": "Raw silk specs: what every written",
         "year": "2026",
         "url": "https://www.christopherbu.com/raw-silk-specs"
       },
@@ -219,19 +219,19 @@ export const deepDraftPosts: BlogPost[] = [
       },
       {
         "publisher": "OEKO-TEX Association",
-        "title": "Label Check: certificate and label number verification",
+        "title": "Label Check: certificate and label number",
         "year": "2026",
         "url": "https://www.oeko-tex.com/en/business/certification/management/label-check"
       },
       {
         "publisher": "Global Organic Textile Standard",
-        "title": "Public certified-supplier and licence database",
+        "title": "Public certified-supplier and licence",
         "year": "2026",
         "url": "https://certified.gots.org/"
       },
       {
         "publisher": "Beijing Qingshanyimu Trading Co., Ltd",
-        "title": "Site blog library: Yizhou-to-couture production records, the 2013 dupioni case study, and the couture, about and home page provenance statements",
+        "title": "Site blog library: Yizhou-to-couture",
         "year": "2013",
         "url": "https://www.christopherbu.com/blog/"
       }
@@ -239,8 +239,8 @@ export const deepDraftPosts: BlogPost[] = [
   },
   {
     "slug": "buyer-factory-audit-checklist-silk",
-    "title": "Before a Mill Audit: A Silk Buyer's Compliance Checklist",
-    "metaDescription": "A mill audit cannot settle documentary compliance. This tickable checklist shows silk buyers which certificate scopes, grading standards and written confirmations to verify before they travel, and where each one is recorded.",
+    "title": "Before a Mill Audit: A Silk Buyer's",
+    "metaDescription": "A mill audit cannot settle documentary compliance. This tickable checklist shows silk buyers which certificate scopes, grading standards and written",
     "type": "Sourcing / due diligence",
     "publishDate": "2026-11-06",
     "keywords": [
@@ -496,19 +496,19 @@ export const deepDraftPosts: BlogPost[] = [
     "references": [
       {
         "publisher": "Beijing Qingshanyimu Trading Co., Ltd",
-        "title": "Raw silk specs: what every written quotation includes",
+        "title": "Raw silk specs: what every written",
         "year": "2026",
         "url": "https://www.christopherbu.com/raw-silk-specs"
       },
       {
         "publisher": "Beijing Qingshanyimu Trading Co., Ltd",
-        "title": "Certificates: public lookups and certification scope",
+        "title": "Certificates: public lookups and",
         "year": "2026",
         "url": "https://www.christopherbu.com/certificates/"
       },
       {
         "publisher": "Beijing Qingshanyimu Trading Co., Ltd",
-        "title": "Raw silk yarn B2B buyer spec sheet (downloadable)",
+        "title": "Raw silk yarn B2B buyer spec sheet",
         "year": "2026",
         "url": "https://www.christopherbu.com/raw-silk-specs"
       },
@@ -520,13 +520,13 @@ export const deepDraftPosts: BlogPost[] = [
       },
       {
         "publisher": "OEKO-TEX Association",
-        "title": "Label Check: certificate and label number verification",
+        "title": "Label Check: certificate and label number",
         "year": "2026",
         "url": "https://www.oeko-tex.com/en/business/certification/management/label-check"
       },
       {
         "publisher": "Global Organic Textile Standard",
-        "title": "Public certified-supplier and licence database",
+        "title": "Public certified-supplier and licence",
         "year": "2026",
         "url": "https://certified.gots.org/"
       },
@@ -538,7 +538,7 @@ export const deepDraftPosts: BlogPost[] = [
       },
       {
         "publisher": "Christopher Bu / Beijing Qingshanyimu Trading Co., Ltd",
-        "title": "Yizhou-to-couture production records: the 2013 dupioni pieces, the Forbidden City jacquard gown at the 2015 Met Gala and the Snow Plum Blossom dress at the 2018 Oscars",
+        "title": "Yizhou-to-couture production records: the",
         "year": "2013",
         "url": "https://www.christopherbu.com/blog/"
       }
@@ -546,8 +546,8 @@ export const deepDraftPosts: BlogPost[] = [
   },
   {
     "slug": "evenness-cleanness-neatness-raw-silk",
-    "title": "Evenness, Cleanness, Neatness: What Each Raw Silk Metric Constrains in Weaving",
-    "metaDescription": "Evenness, cleanness and neatness are three separate per-batch quality fields on a written raw silk quotation. This guide maps each one to the part of weaving it governs, explains why the site names them without numeric thresholds, and gives a method for reading them as acceptance tests.",
+    "title": "Evenness, Cleanness, Neatness: What Each",
+    "metaDescription": "Evenness, cleanness and neatness are three separate per-batch quality fields on a written raw silk quotation.",
     "type": "Quality / testing",
     "publishDate": "2026-11-06",
     "keywords": [
@@ -743,7 +743,7 @@ export const deepDraftPosts: BlogPost[] = [
       },
       {
         "publisher": "Beijing Qingshanyimu Trading Co., Ltd",
-        "title": "Raw silk specs: per-batch quality evidence group",
+        "title": "Raw silk specs: per-batch quality",
         "year": "2026",
         "url": "https://www.christopherbu.com/raw-silk-specs/"
       },
@@ -761,37 +761,37 @@ export const deepDraftPosts: BlogPost[] = [
       },
       {
         "publisher": "OEKO-TEX Association",
-        "title": "Label Check: certificate and label number verification",
+        "title": "Label Check: certificate and label number",
         "year": "2026",
         "url": "https://www.oeko-tex.com/en/business/certification/management/label-check"
       },
       {
         "publisher": "Global Organic Textile Standard",
-        "title": "Public certified-supplier and licence database",
+        "title": "Public certified-supplier and licence",
         "year": "2026",
         "url": "https://certified.gots.org/"
       },
       {
         "publisher": "Christopher Bu, Beijing Qingshanyimu Trading Co., Ltd",
-        "title": "From the Land of Longevity to the World's Red Carpets: Yizhou's Mulberry Silk",
+        "title": "From the Land of Longevity to the World's",
         "year": "2026",
         "url": "https://www.christopherbu.com/blog/yizhou-mulberry-silk-longevity-to-world/"
       },
       {
         "publisher": "Christopher Bu",
-        "title": "Forbidden City silk jacquard: Fan Bingbing at the 2015 Met Gala",
+        "title": "Forbidden City silk jacquard: Fan",
         "year": "2015",
         "url": "https://www.christopherbu.com/blog/forbidden-city-silk-jacquard-fan-bingbing/"
       },
       {
         "publisher": "Christopher Bu",
-        "title": "Paz Vega hand-embroidered silk at the Oscars: Snow Plum Blossom",
+        "title": "Paz Vega hand-embroidered silk at the",
         "year": "2026",
         "url": "https://www.christopherbu.com/blog/paz-vega-hand-embroidered-silk-oscars/"
       },
       {
         "publisher": "Christopher Bu",
-        "title": "Dupioni Silk in Practice: From Greige Slub to Exquisite Garments",
+        "title": "Dupioni Silk in Practice: From Greige",
         "year": "2013",
         "url": "https://www.christopherbu.com/blog/christopher-bu-couture-house-profile/"
       }
@@ -799,8 +799,8 @@ export const deepDraftPosts: BlogPost[] = [
   },
   {
     "slug": "hs-5002-export-documents-raw-silk",
-    "title": "HS 5002 and the Export Document Mismatches That Delay a Raw Silk Shipment",
-    "metaDescription": "A raw silk shipment usually waits on its documents, not the yarn. This guide explains HS heading 5002, why the exact subheading is confirmed per order, and a reconciliation method for the five export documents buyers must align before dispatch.",
+    "title": "HS 5002 and the Export Document",
+    "metaDescription": "A raw silk shipment usually waits on its documents, not the yarn. This guide explains HS heading 5002, why the exact subheading is confirmed per",
     "type": "Export / documents",
     "publishDate": "2026-11-06",
     "keywords": [
@@ -972,7 +972,7 @@ export const deepDraftPosts: BlogPost[] = [
       },
       {
         "publisher": "Beijing Qingshanyimu Trading Co., Ltd",
-        "title": "Raw silk specs: written quotation field groups, HS classification and per-batch evidence",
+        "title": "Raw silk specs: written quotation field",
         "year": "2026",
         "url": "https://www.christopherbu.com/raw-silk-specs"
       },
@@ -984,7 +984,7 @@ export const deepDraftPosts: BlogPost[] = [
       },
       {
         "publisher": "Beijing Qingshanyimu Trading Co., Ltd",
-        "title": "Certificate verification entry points and destination-market compliance",
+        "title": "Certificate verification entry points and",
         "year": "2026",
         "url": "https://www.christopherbu.com/certificates/"
       },
@@ -1014,13 +1014,13 @@ export const deepDraftPosts: BlogPost[] = [
       },
       {
         "publisher": "OEKO-TEX Association",
-        "title": "Label Check: certificate and label number verification",
+        "title": "Label Check: certificate and label number",
         "year": "2026",
         "url": "https://www.oeko-tex.com/en/business/certification/management/label-check"
       },
       {
         "publisher": "Global Organic Textile Standard",
-        "title": "Public certified-supplier and licence database",
+        "title": "Public certified-supplier and licence",
         "year": "2026",
         "url": "https://certified.gots.org/"
       }
@@ -1028,8 +1028,8 @@ export const deepDraftPosts: BlogPost[] = [
   },
   {
     "slug": "lot-mark-grading-certificate-per-batch",
-    "title": "Why Lot Marks and Per-Lot Grading Certificates Must Be on Paper Before a Raw Silk Order Is Approved",
-    "metaDescription": "A grade claim on a raw silk quotation means little until a lot mark and a per-lot grading certificate tie it to one batch. This guide maps the per-batch evidence fields, a lot-to-document check, and how certificate numbers are verified before a raw silk order is approved.",
+    "title": "Why Lot Marks and Per-Lot Grading",
+    "metaDescription": "A grade claim on a raw silk quotation means little until a lot mark and a per-lot grading certificate tie it to one batch.",
     "type": "Traceability / certificates",
     "publishDate": "2026-11-06",
     "keywords": [
@@ -1171,7 +1171,7 @@ export const deepDraftPosts: BlogPost[] = [
       },
       {
         "publisher": "Beijing Qingshanyimu Trading Co., Ltd",
-        "title": "Raw silk specs: what every written quotation includes",
+        "title": "Raw silk specs: what every written",
         "year": "2026",
         "url": "https://www.christopherbu.com/raw-silk-specs/"
       },
@@ -1189,19 +1189,19 @@ export const deepDraftPosts: BlogPost[] = [
       },
       {
         "publisher": "OEKO-TEX Association",
-        "title": "Label Check: certificate and label number verification",
+        "title": "Label Check: certificate and label number",
         "year": "2026",
         "url": "https://www.oeko-tex.com/en/business/certification/management/label-check"
       },
       {
         "publisher": "Global Organic Textile Standard",
-        "title": "Public certified-supplier and licence database",
+        "title": "Public certified-supplier and licence",
         "year": "2026",
         "url": "https://certified.gots.org/"
       },
       {
         "publisher": "Beijing Qingshanyimu Trading Co., Ltd",
-        "title": "Yizhou mulberry silk in the Christopher Bu couture and red-carpet archive",
+        "title": "Yizhou mulberry silk in the Christopher",
         "year": "2026",
         "url": "https://www.christopherbu.com/about/"
       }
@@ -1209,8 +1209,8 @@ export const deepDraftPosts: BlogPost[] = [
   },
   {
     "slug": "raw-silk-grade-4a-5a-6a-explained",
-    "title": "What 4A / 5A / 6A Raw Silk Grades Measure, and What They Do Not Tell You",
-    "metaDescription": "4A, 5A and 6A are quality tiers for mulberry raw silk, assigned per lot under GB/T 1797-2008. This guide sets out what the grade covers, the per-batch evidence that sits beside it, and the fields a written quotation still has to state before a buyer can accept a shipment.",
+    "title": "What 4A / 5A / 6A Raw Silk Grades",
+    "metaDescription": "4A, 5A and 6A are quality tiers for mulberry raw silk, assigned per lot under GB/T 1797-2008.",
     "type": "Quality / grading",
     "publishDate": "2026-11-06",
     "keywords": [
@@ -1427,7 +1427,7 @@ export const deepDraftPosts: BlogPost[] = [
       },
       {
         "publisher": "Beijing Qingshanyimu Trading Co., Ltd",
-        "title": "Raw silk specs: written quotation acceptance framework",
+        "title": "Raw silk specs: written quotation",
         "year": "2026",
         "url": "https://www.christopherbu.com/raw-silk-specs/"
       },
@@ -1445,19 +1445,19 @@ export const deepDraftPosts: BlogPost[] = [
       },
       {
         "publisher": "OEKO-TEX Association",
-        "title": "Label Check: certificate and label number verification",
+        "title": "Label Check: certificate and label number",
         "year": "2026",
         "url": "https://www.oeko-tex.com/en/business/certification/management/label-check"
       },
       {
         "publisher": "Global Organic Textile Standard",
-        "title": "Public certified-supplier and licence database",
+        "title": "Public certified-supplier and licence",
         "year": "2026",
         "url": "https://certified.gots.org/"
       },
       {
         "publisher": "Beijing Qingshanyimu Trading Co., Ltd",
-        "title": "Site editorial: Yizhou mulberry silk and the couture gowns",
+        "title": "Site editorial: Yizhou mulberry silk and",
         "year": "2026",
         "url": "https://www.christopherbu.com/about/"
       }
@@ -1465,8 +1465,8 @@ export const deepDraftPosts: BlogPost[] = [
   },
   {
     "slug": "raw-silk-price-volume-contract-flexibility",
-    "title": "Raw Silk Contracts: What to Lock and What to Keep Flexible",
-    "metaDescription": "When raw silk order volume grows and unit price falls, a buyer's first instinct is to renegotiate the price. This guide separates the contract terms to fix in writing from the terms to leave open, and gives one test for telling them apart.",
+    "title": "Raw Silk Contracts: What to Lock and What",
+    "metaDescription": "When raw silk order volume grows and unit price falls, a buyer's first instinct is to renegotiate the price.",
     "type": "Commercial / contracts",
     "publishDate": "2026-11-06",
     "keywords": [
@@ -1661,7 +1661,7 @@ export const deepDraftPosts: BlogPost[] = [
       },
       {
         "publisher": "Beijing Qingshanyimu Trading Co., Ltd",
-        "title": "Raw silk specs: what every written quotation includes",
+        "title": "Raw silk specs: what every written",
         "year": "2026",
         "url": "https://www.christopherbu.com/raw-silk-specs"
       },
@@ -1679,19 +1679,19 @@ export const deepDraftPosts: BlogPost[] = [
       },
       {
         "publisher": "OEKO-TEX Association",
-        "title": "Label Check: certificate and label number verification",
+        "title": "Label Check: certificate and label number",
         "year": "2026",
         "url": "https://www.oeko-tex.com/en/business/certification/management/label-check"
       },
       {
         "publisher": "Global Organic Textile Standard",
-        "title": "Public certified-supplier and licence database",
+        "title": "Public certified-supplier and licence",
         "year": "2026",
         "url": "https://certified.gots.org/"
       },
       {
         "publisher": "Christopher Bu, Beijing Qingshanyimu Trading Co., Ltd",
-        "title": "Published site text on the Yizhou silk base and the three named couture gowns",
+        "title": "Published site text on the Yizhou silk",
         "year": "n.d.",
         "url": "https://www.christopherbu.com/blog/yizhou-mulberry-silk-longevity-to-world"
       }
@@ -1699,8 +1699,8 @@ export const deepDraftPosts: BlogPost[] = [
   },
   {
     "slug": "what-a-raw-silk-quotation-must-include",
-    "title": "What a Written Raw Silk Quotation Must Include",
-    "metaDescription": "A written raw silk quotation is an acceptance framework, not a price sheet. This guide maps the five field groups and 21 fields buyers miss at first pass, and shows how to read each one as a test.",
+    "title": "What a Written Raw Silk Quotation Must",
+    "metaDescription": "A written raw silk quotation is an acceptance framework, not a price sheet. This guide maps the five field groups and 21 fields buyers miss at first",
     "type": "Procurement / quotation",
     "publishDate": "2026-11-06",
     "keywords": [
@@ -1966,7 +1966,7 @@ export const deepDraftPosts: BlogPost[] = [
       },
       {
         "publisher": "Beijing Qingshanyimu Trading Co., Ltd",
-        "title": "Raw silk specs: what every written quotation includes",
+        "title": "Raw silk specs: what every written",
         "year": "2026",
         "url": "https://www.christopherbu.com/raw-silk-specs"
       },
@@ -1984,25 +1984,25 @@ export const deepDraftPosts: BlogPost[] = [
       },
       {
         "publisher": "OEKO-TEX Association",
-        "title": "Label Check: certificate and label number verification",
+        "title": "Label Check: certificate and label number",
         "year": "2026",
         "url": "https://www.oeko-tex.com/en/business/certification/management/label-check"
       },
       {
         "publisher": "Global Organic Textile Standard",
-        "title": "Public certified-supplier and licence database",
+        "title": "Public certified-supplier and licence",
         "year": "2026",
         "url": "https://certified.gots.org/"
       },
       {
         "publisher": "Beijing Qingshanyimu Trading Co., Ltd",
-        "title": "From the Land of Longevity to the World's Red Carpets: Yizhou's Mulberry Silk",
+        "title": "From the Land of Longevity to the World's",
         "year": "2026",
         "url": "https://www.christopherbu.com/blog/yizhou-mulberry-silk-longevity-to-world/"
       },
       {
         "publisher": "Beijing Qingshanyimu Trading Co., Ltd",
-        "title": "Mulberry Silk Jacquard and the Forbidden City Gown: Fan Bingbing's Met Gala",
+        "title": "Mulberry Silk Jacquard and the Forbidden",
         "year": "2026",
         "url": "https://www.christopherbu.com/blog/forbidden-city-silk-jacquard-fan-bingbing/"
       }

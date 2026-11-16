@@ -5,8 +5,8 @@ import type { BlogPost } from "./blog";
 export const d1Nov16Posts: BlogPost[] = [
   {
     "slug": "how-silk-fabric-weight-is-measured",
-    "title": "How Silk Fabric Weight Is Measured, and Why a Swatch Is Not a Lot",
-    "metaDescription": "A fabric weight in g/m² is a mass divided by an area, taken from a named population in a named atmosphere. Which of the four sampling options produced it decides whether the number describes your lot.",
+    "title": "How Silk Fabric Weight Is Measured, and",
+    "metaDescription": "A fabric weight in g/m\xc2\xb2 is a mass divided by an area, taken from a named population in a named atmosphere.",
     "type": "Measurement / testing",
     "publishDate": "2026-11-16",
     "keywords": [
@@ -161,55 +161,55 @@ export const d1Nov16Posts: BlogPost[] = [
     "references": [
       {
         "publisher": "ISO",
-        "title": "ISO 3801:1977 Textiles, Woven fabrics, Determination of mass per unit length and mass per unit area",
+        "title": "ISO 3801:1977 Textiles, Woven fabrics,",
         "year": "1977",
         "url": "https://www.iso.org/standard/9335.html"
       },
       {
         "publisher": "ASTM International",
-        "title": "D3776/D3776M Standard Test Methods for Mass Per Unit Area (Weight) of Fabric",
+        "title": "D3776/D3776M Standard Test Methods for",
         "year": "2013",
         "url": "https://dlvn.khoweb24h.com/uploads/files/ASTM%20D3776-09.pdf"
       },
       {
         "publisher": "ISO",
-        "title": "ISO 139:2005 Textiles, Standard atmospheres for conditioning and testing",
+        "title": "ISO 139:2005 Textiles, Standard",
         "year": "2005",
         "url": "https://www.iso.org/standard/35179.html"
       },
       {
         "publisher": "ASTM International",
-        "title": "D1776/D1776M-20 Standard Practice for Conditioning and Testing Textiles",
+        "title": "D1776/D1776M-20 Standard Practice for",
         "year": "2020",
         "url": "https://www.astm.org/d1776_d1776m-20.html"
       },
       {
         "publisher": "CEN",
-        "title": "EN 12127:1997 Textiles, Fabrics, Determination of mass per unit area using small samples",
+        "title": "EN 12127:1997 Textiles, Fabrics,",
         "year": "1997",
         "url": "https://standards.iteh.ai/catalog/standards/cen/6b6e76dd-ddd8-4271-84a1-d3f834f01b1d/en-12127-1997"
       },
       {
         "publisher": "ISO",
-        "title": "ISO 22198:2006 Textiles, Fabrics, Determination of width and length",
+        "title": "ISO 22198:2006 Textiles, Fabrics,",
         "year": "2006",
         "url": "https://www.iso.org/standard/40768.html"
       },
       {
         "publisher": "SAC",
-        "title": "GB/T 4669-2008 Textiles, Woven fabrics, Determination of mass per unit length and mass per unit area",
+        "title": "GB/T 4669-2008 Textiles, Woven fabrics,",
         "year": "2008",
         "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=531DE82A840614255846157F4369461C"
       },
       {
         "publisher": "SAC",
-        "title": "GB/T 9994-2018 Textile materials, Official moisture regain",
+        "title": "GB/T 9994-2018 Textile materials,",
         "year": "2018",
         "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=BDBFD42F23E5CDEFF7CACC8F73FB3EA4&refer=outter"
       },
       {
         "publisher": "RISE Research Institutes of Sweden",
-        "title": "Determination of mass per unit area using small samples",
+        "title": "Determination of mass per unit area using",
         "year": "n.d.",
         "url": "https://www.ri.se/en/what-we-do/services/determination-of-mass-per-unit-area-using-small-samples"
       },
@@ -221,13 +221,13 @@ export const d1Nov16Posts: BlogPost[] = [
       },
       {
         "publisher": "ISO",
-        "title": "ISO 5084:1996 Textiles, Determination of thickness of textiles and textile products",
+        "title": "ISO 5084:1996 Textiles, Determination of",
         "year": "1996",
         "url": "https://www.iso.org/standard/23348.html"
       },
       {
         "publisher": "CEN",
-        "title": "EN ISO 139:2005 Textiles, Standard atmospheres for conditioning and testing",
+        "title": "EN ISO 139:2005 Textiles, Standard",
         "year": "2005",
         "url": "https://standards.iteh.ai/catalog/standards/sist/bc3ba05c-b1bf-4e50-9196-cca8b5bfe180/sist-en-iso-139-2005"
       }

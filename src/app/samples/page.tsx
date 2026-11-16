@@ -7,7 +7,7 @@ import { products } from "@/lib/products";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Free Silk Samples | DHL Worldwide from Yizhou, China",
+  title: "Free Silk Samples — DHL Worldwide | Christopher Bu",
   description:
     "Free silk mini-samples — fabric free, you pay courier only. Dupioni, satin, habotai, georgette, jacquard, raw yarn from Yizhou. Full-size samples charged.",
   keywords: [

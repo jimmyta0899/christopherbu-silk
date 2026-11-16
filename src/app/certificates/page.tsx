@@ -6,7 +6,7 @@ import { Footer } from "@/components/Footer";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Certifications — GOTS, OEKO-TEX Class II, China Organic & Compliance",
+  title: "Certifications — GOTS, OEKO-TEX, China Organic | Christopher Bu",
   description:
     "Yizhou local mill certified to GOTS, OEKO-TEX 100 Class II, China Organic and quality systems. Prop 65 and EU compliance reviewed before approval.",
   keywords: [

@@ -6,7 +6,7 @@ import { Footer } from "@/components/Footer";
 import { AnswerBlock } from "@/components/AnswerBlock";
 
 export const metadata: Metadata = {
-  title: "Services — Private Label & Custom Silk Supply",
+  title: "Services — Private Label & Custom Silk | Christopher Bu",
   description:
     "Custom mulberry silk supply from Yizhou, China: private-label OEM, custom width, color and pattern development, and full QC for global B2B buyers.",
   keywords: [

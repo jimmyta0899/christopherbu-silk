@@ -23,6 +23,9 @@ export default function ContactPage() {
         <p className="mt-5 text-lg leading-relaxed text-ink-soft">
           Need a custom weave or color? Tell us your MOQ, deadline and destination — we&apos;ll respond with a tailored quotation.
         </p>
+        <p className="mt-4 text-sm leading-relaxed text-ink-soft">
+          We supply Yizhou mulberry raw silk, greige fabric, dupioni, satin, jacquard luo, georgette, habotai and stretch silk to mills, brands and ateliers worldwide. Quotations are per order and confirmed in writing, with FOB/FCA terms from Nansha, Yantian or Qinzhou, and T/T payment (30% deposit, balance against B/L). OEKO-TEX and GOTS certification are available from local mills on request.
+        </p>
 
         <div className="mt-12 grid gap-10 md:grid-cols-2">
           <section>

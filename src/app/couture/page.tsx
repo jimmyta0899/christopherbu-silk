@@ -8,7 +8,7 @@ import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
   title:
-    "Couture Design Inspiration — The Art of Silk",
+    "Couture Design — The Art of Silk | Christopher Bu",
   description:
     "The Christopher Bu couture language — gowns showing how premium mulberry silk carries embroidery, drape and structure, from Yizhou's raw silk capital.",
   alternates: { canonical: "/couture" },

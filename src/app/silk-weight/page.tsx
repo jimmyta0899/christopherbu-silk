@@ -10,9 +10,8 @@ import { silkWeightGrades } from "@/lib/silk-weight";
 const UPDATED = "2026-11-15";
 
 export const metadata: Metadata = {
-  title: "Silk Weight Ladder: 6, 16, 19, 22 and 30 Momme Compared",
-  description:
-    "Five momme grades with the facts that belong to each one: which weaves reach that weight, what it weighs per running metre at 114 and 140 cm, and which buying decision it settles.",
+  title: "Silk Weight Ladder: 6–30 Momme Compared | Christopher Bu",
+  description: "Five momme grades: which weaves reach each weight, weight per metre at 114/140 cm, and buying decisions.",
   keywords: [
     "silk weight chart",
     "19 momme silk",

@@ -5,8 +5,8 @@ import type { BlogPost } from "./blog";
 export const d1Nov15bPosts: BlogPost[] = [
   {
     "slug": "four-point-fabric-inspection-report",
-    "title": "How to Read a Four-Point Fabric Inspection Report",
-    "metaDescription": "A four-point report is a division. What was counted, what area it was divided by, and which rolls the result describes decide whether a roll is accepted, and one roll can be scored three ways.",
+    "title": "How to Read a Four-Point Fabric",
+    "metaDescription": "A four-point report is a division. What was counted, what area it was divided by, and which rolls the result describes decide whether a roll is",
     "type": "Quality / inspection",
     "publishDate": "2026-11-15",
     "keywords": [
@@ -81,49 +81,49 @@ export const d1Nov15bPosts: BlogPost[] = [
     "references": [
       {
         "publisher": "ASTM",
-        "title": "D5430-26 Standard Test Methods for Visually Inspecting and Grading Fabrics",
+        "title": "D5430-26 Standard Test Methods for",
         "year": "2026",
         "url": "https://www.astm.org/d5430-26.html"
       },
       {
         "publisher": "ISO",
-        "title": "ISO 2859-1:2026 Sampling procedures for inspection by attributes, Part 1",
+        "title": "ISO 2859-1:2026 Sampling procedures for",
         "year": "2026",
         "url": "https://www.iso.org/standard/85464.html"
       },
       {
         "publisher": "ISO",
-        "title": "ISO 8498:1990 Woven fabrics, Description of defects, Vocabulary",
+        "title": "ISO 8498:1990 Woven fabrics, Description",
         "year": "1990",
         "url": "https://www.iso.org/standard/15708.html"
       },
       {
         "publisher": "ISO",
-        "title": "ISO 22198:2006 Textiles, Fabrics, Determination of width and length",
+        "title": "ISO 22198:2006 Textiles, Fabrics,",
         "year": "2006",
         "url": "https://www.iso.org/standard/40768.html"
       },
       {
         "publisher": "ISO",
-        "title": "ISO 3801:1977 Textiles, Woven fabrics, Determination of mass per unit length and mass per unit area",
+        "title": "ISO 3801:1977 Textiles, Woven fabrics,",
         "year": "1977",
         "url": "https://www.iso.org/standard/9335.html"
       },
       {
         "publisher": "Hossain, A. K. M. M. and Islam, M. I",
-        "title": "Exploring weft knit fabric defects based on their presence and quality impact: A case study",
+        "title": "Exploring weft knit fabric defects based",
         "year": "2023",
         "url": "https://cdatp.publia.org/cdatp/article/view/11"
       },
       {
         "publisher": "Tastimur, C., Akin, E. and Agrikli, M",
-        "title": "Fabric Faults Robust Classification Based on Logarithmic Residual Shrinkage Network in a Four-Point System",
+        "title": "Fabric Faults Robust Classification Based",
         "year": "2025",
         "url": "https://www.mdpi.com/2076-3417/15/12/6783/html"
       },
       {
         "publisher": "Islam, M. I. et al",
-        "title": "An approach to automatic fault detection in four-point system for knitted fabric with our benchmark dataset Isl-Knit",
+        "title": "An approach to automatic fault detection",
         "year": "2024",
         "url": "https://pubmed.ncbi.nlm.nih.gov/39676831/"
       },
@@ -141,7 +141,7 @@ export const d1Nov15bPosts: BlogPost[] = [
       },
       {
         "publisher": "Puresilks",
-        "title": "100% pure silk dupioni fabric, 40 momme, 54 wide, with slubs",
+        "title": "100% pure silk dupioni fabric, 40 momme,",
         "year": "n.d.",
         "url": "https://www.puresilks.us/products/100-pure-silk-dupioni-fabric-gold-40-momme-54-wide-with-slubs"
       },

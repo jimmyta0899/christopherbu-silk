@@ -49,7 +49,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     .replace(/\s{2,}/g, " ")
     .trim();
   return {
-    title: `${seasonLabel} Ready-to-Wear — Runway Archive`,
+    title: `${seasonLabel} Ready-to-Wear — ${season.type}`,
     description: `The complete ${seasonLabel} ready-to-wear collection, from the couture house behind Fan Bingbing's red-carpet looks. ${season.count} runway looks.`,
     alternates: { canonical: `/rtw/${season.slug}` },
     openGraph: pageOpenGraph(`/rtw/${season.slug}`),

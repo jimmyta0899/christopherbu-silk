@@ -6,7 +6,7 @@ import { Footer } from "@/components/Footer";
 import { pressItems } from "@/lib/press";
 
 export const metadata: Metadata = {
-  title: "About Us — Yizhou Silk, Made in a Couture House",
+  title: "About Us — Yizhou Silk & Couture | Christopher Bu",
   description:
     "Christopher Bu × Yizhou Silk links couture red-carpet heritage with Yizhou — China's largest raw silk origin — supplying raw silk, greige, dupioni. B2B.",
   alternates: { canonical: "/about" },

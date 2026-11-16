@@ -5,8 +5,8 @@ import type { BlogPost } from "./blog";
 export const d1Nov15Posts: BlogPost[] = [
   {
     "slug": "dupioni-slub-acceptance",
-    "title": "Slubs Are Not Defects: Agreeing an Acceptable-Irregularity Standard for Dupioni",
-    "metaDescription": "A slub in Dupioni Silk comes from the doupion yarn, not from a fault, so a claim only starts where the cloth leaves an agreed range. This guide sets out how to write that range: the surface clause, why a passing swatch does not certify the lot, how seam behaviour and certificate scope reach the order, and the clause set a buyer and a mill can both sign.",
+    "title": "Slubs Are Not Defects: Agreeing an",
+    "metaDescription": "A slub in Dupioni Silk comes from the doupion yarn, not from a fault, so a claim only starts where the cloth leaves an agreed range.",
     "type": "Fabric / dupioni",
     "publishDate": "2026-11-15",
     "keywords": [
@@ -203,7 +203,7 @@ export const d1Nov15Posts: BlogPost[] = [
       },
       {
         "publisher": "ISO",
-        "title": "ISO 3801:1977, Woven fabrics, mass per unit length and mass per unit area",
+        "title": "ISO 3801:1977, Woven fabrics, mass per",
         "year": "1977",
         "url": "https://www.iso.org/standard/9335.html"
       },
@@ -221,25 +221,25 @@ export const d1Nov15Posts: BlogPost[] = [
       },
       {
         "publisher": "ASTM International",
-        "title": "D3776/D3776M-20, Standard Test Methods for Mass Per Unit Area (Weight) of Fabric",
+        "title": "D3776/D3776M-20, Standard Test Methods",
         "year": "2020",
         "url": "https://www.astm.org/d3776_d3776m-20.html"
       },
       {
         "publisher": "Threads Magazine",
-        "title": "The Difference Between Dupioni and Shantung",
+        "title": "The Difference Between Dupioni and",
         "year": "2021",
         "url": "https://www.threadsmagazine.com/2021/08/29/the-difference-between-dupioni-and-shantung"
       },
       {
         "publisher": "ISO",
-        "title": "ISO 5077:2007, Determination of dimensional change in washing and drying",
+        "title": "ISO 5077:2007, Determination of",
         "year": "2007",
         "url": "https://www.iso.org/standard/41877.html"
       },
       {
         "publisher": "ISO",
-        "title": "ISO 105-C06:2010, Colour fastness to domestic and commercial laundering",
+        "title": "ISO 105-C06:2010, Colour fastness to",
         "year": "2010",
         "url": "https://www.iso.org/standard/51276.html"
       },
@@ -277,8 +277,8 @@ export const d1Nov15Posts: BlogPost[] = [
   },
   {
     "slug": "greige-degummed-dyed-to-order",
-    "title": "Greige, Degummed and Dyed to Order: Three States of One Silk Cloth",
-    "metaDescription": "Raw silk is a yarn sold in denier, greige is cloth off the loom, degumming is the bath that removes the gum, and dyed to order is a delivery route. How to specify each one.",
+    "title": "Greige, Degummed and Dyed to Order: Three",
+    "metaDescription": "Raw silk is a yarn sold in denier, greige is cloth off the loom, degumming is the bath that removes the gum, and dyed to order is a delivery route.",
     "type": "Fabric / greige",
     "publishDate": "2026-11-15",
     "keywords": [
@@ -471,7 +471,7 @@ export const d1Nov15Posts: BlogPost[] = [
       },
       {
         "publisher": "eCFR",
-        "title": "16 CFR 303.6 Generic names of fibers to be used",
+        "title": "16 CFR 303.6 Generic names of fibers to",
         "year": "n.d.",
         "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-303/section-303.6"
       },
@@ -495,25 +495,25 @@ export const d1Nov15Posts: BlogPost[] = [
       },
       {
         "publisher": "ISO",
-        "title": "ISO 3801:1977 Textiles, Woven fabrics, Determination of mass per unit length and mass per unit area",
+        "title": "ISO 3801:1977 Textiles, Woven fabrics,",
         "year": "1977",
         "url": "https://www.iso.org/standard/9335.html"
       },
       {
         "publisher": "ASTM",
-        "title": "D3776/D3776M-20 Standard Test Methods for Mass Per Unit Area (Weight) of Fabric",
+        "title": "D3776/D3776M-20 Standard Test Methods for",
         "year": "2020",
         "url": "https://www.astm.org/d3776_d3776m-20.html"
       },
       {
         "publisher": "ISO",
-        "title": "ISO 105-C06:2010 Textiles, Tests for colour fastness, Colour fastness to domestic and commercial laundering",
+        "title": "ISO 105-C06:2010 Textiles, Tests for",
         "year": "2010",
         "url": "https://www.iso.org/standard/51276.html"
       },
       {
         "publisher": "ISO",
-        "title": "ISO 5077:2007 Textiles, Determination of dimensional change in washing and drying",
+        "title": "ISO 5077:2007 Textiles, Determination of",
         "year": "2007",
         "url": "https://www.iso.org/standard/41877.html"
       },
@@ -537,7 +537,7 @@ export const d1Nov15Posts: BlogPost[] = [
       },
       {
         "publisher": "Standardization Administration of China",
-        "title": "GB/T 15551-2016 蚕桑丝织物 (Mulberry silk fabrics)",
+        "title": "GB/T 15551-2016 \xe8\x9a\x95\xe6\xa1\x91\xe4\xb8\x9d\xe7\xbb\x87\xe7\x89\xa9 (Mulberry",
         "year": "2016",
         "url": "https://openstd.samr.gov.cn/bzgk/gb/newGbInfo?hcno=42DA2B8B3DF2AFC19DFD96CA57A755D4"
       }

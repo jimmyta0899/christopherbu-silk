@@ -11,7 +11,7 @@ export const dynamic = "force-static";
  * 用 new Date() 当 lastmod 会让每一页都拿到构建时间，Google 会判定该字段
  * 不可信并整体忽略——等于白给。
  */
-const CONTENT_UPDATED = new Date("2026-11-07");
+const CONTENT_UPDATED = new Date("2026-11-17");
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteConfig.url;

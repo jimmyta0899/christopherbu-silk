@@ -20,9 +20,9 @@ import { RelatedReading } from "@/components/RelatedReading";
 
 export const metadata: Metadata = {
   title:
-    "Yizhou Raw Silk: The World's Largest Raw Silk Origin",
+    "Yizhou Raw Silk — World's Largest Origin | Christopher Bu",
   description:
-    "Yizhou, Guangxi: China's largest raw silk county: 5,463 t/year, 13.4% of output, 20 years No.1. The figures, the reeling, and what it means to buy.",
+    "Yizhou, Guangxi: China's largest raw silk county — 5,463 t/year, 13.4% of output, 20 years No.1. The figures, reeling, and buying implications.",
   keywords: [
     "yizhou raw silk",
     "yizhou mulberry silk",

@@ -5,8 +5,8 @@ import type { BlogPost } from "./blog";
 export const d1Posts: BlogPost[] = [
   {
     "slug": "dupioni-silk-fabric-wholesale",
-    "title": "Dupioni Silk Fabric Wholesale: A Buyer's Spec Guide",
-    "metaDescription": "A technical spec guide to dupioni silk fabric: how a double cocoon produces a slubbed doupion yarn, how the plain weave is built, and how to separate the cloth from Habotai Silk, raw silk and greige.",
+    "title": "Dupioni Silk Fabric Wholesale: A Buyer's",
+    "metaDescription": "A technical spec guide to dupioni silk fabric: how a double cocoon produces a slubbed doupion yarn, how the plain weave is built, and how to separate",
     "type": "Fabric / dupioni",
     "publishDate": "2026-11-09",
     "keywords": [
@@ -197,7 +197,7 @@ export const d1Posts: BlogPost[] = [
       },
       {
         "publisher": "Threads Magazine",
-        "title": "The Difference Between Dupioni and Shantung",
+        "title": "The Difference Between Dupioni and",
         "year": "2021",
         "url": "https://www.threadsmagazine.com/2021/08/29/the-difference-between-dupioni-and-shantung"
       },
@@ -209,13 +209,13 @@ export const d1Posts: BlogPost[] = [
       },
       {
         "publisher": "ASTM International",
-        "title": "D3776/D3776M-20 Standard Test Methods for Mass Per Unit Area (Weight) of Fabric",
+        "title": "D3776/D3776M-20 Standard Test Methods for",
         "year": "2020",
         "url": "https://www.astm.org/d3776_d3776m-20.html"
       },
       {
         "publisher": "Puresilks.us",
-        "title": "100% pure silk dupioni fabric gold 40 momme with slubs",
+        "title": "100% pure silk dupioni fabric gold 40",
         "year": "n.d.",
         "url": "https://www.puresilks.us/products/100-pure-silk-dupioni-fabric-gold-40-momme-54-wide-with-slubs"
       },
@@ -227,7 +227,7 @@ export const d1Posts: BlogPost[] = [
       },
       {
         "publisher": "Electronic Code of Federal Regulations",
-        "title": "16 CFR 303.6, Generic names of fibers to be used",
+        "title": "16 CFR 303.6, Generic names of fibers to",
         "year": "n.d.",
         "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-303/section-303.6"
       },
@@ -241,8 +241,8 @@ export const d1Posts: BlogPost[] = [
   },
   {
     "slug": "dupioni-silk-price-per-yard",
-    "title": "Dupioni Silk Price Per Yard: What Drives the Cost",
-    "metaDescription": "Why dupioni silk has no public per-yard price: the cost and compliance fields a written quotation fixes, from tariff classification and fibre labelling to test methods, swatch acceptance and certificate scope, plus how a buyer checks them.",
+    "title": "Dupioni Silk Price Per Yard: What Drives",
+    "metaDescription": "Why dupioni silk has no public per-yard price: the cost and compliance fields a written quotation fixes, from tariff classification and fibre",
     "type": "Fabric / dupioni",
     "publishDate": "2026-11-09",
     "keywords": [
@@ -392,7 +392,7 @@ export const d1Posts: BlogPost[] = [
     "references": [
       {
         "publisher": "USITC",
-        "title": "Harmonized Tariff Schedule of the United States, heading 5007: woven fabrics of silk",
+        "title": "Harmonized Tariff Schedule of the United",
         "year": "2026",
         "url": "https://hts.usitc.gov/search?query=5003.00.9000"
       },
@@ -404,7 +404,7 @@ export const d1Posts: BlogPost[] = [
       },
       {
         "publisher": "eCFR",
-        "title": "16 CFR §303.6, Generic names of fibers to be used",
+        "title": "16 CFR \xc2\xa7303.6, Generic names of fibers",
         "year": "2026",
         "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-303/section-303.6"
       },
@@ -440,7 +440,7 @@ export const d1Posts: BlogPost[] = [
       },
       {
         "publisher": "ASTM International",
-        "title": "D3776/D3776M-20, Standard Test Methods for Mass Per Unit Area (Weight) of Fabric",
+        "title": "D3776/D3776M-20, Standard Test Methods",
         "year": "2020",
         "url": "https://www.astm.org/d3776_d3776m-20.html"
       },
@@ -464,7 +464,7 @@ export const d1Posts: BlogPost[] = [
       },
       {
         "publisher": "Christopher Bu",
-        "title": "Dupioni Silk: the site's own published product specification",
+        "title": "Dupioni Silk: the site's own published",
         "year": "2026",
         "url": "https://www.christopherbu.com/products/dupioni/"
       }

@@ -94,6 +94,9 @@ export function SeasonViewer({ season, dims, bigMap, prev, next }: SeasonViewerP
             <p className="mt-2 text-sm text-ink-muted">
               {total} runway looks · Christopher Bu ready-to-wear collection
             </p>
+            <p className="mt-3 text-sm leading-relaxed text-ink-soft">
+              Christopher Bu {season.name} ready-to-wear collection — {season.count} looks from the {season.year} {season.type} season. Part of the Christopher Bu couture archive, shown alongside red-carpet commissions in mulberry silk, dupioni, satin and jacquard from Yizhou, China.
+            </p>
           </div>
           <div className="text-sm tabular-nums text-ink-muted">
             {active + 1} / {total}
@@ -171,7 +174,7 @@ export function SeasonViewer({ season, dims, bigMap, prev, next }: SeasonViewerP
                 >
                   <img
                     src={key}
-                    alt=""
+                    alt={`${season.name} look ${i + 1} thumbnail — Christopher Bu ready-to-wear`}
                     width={dims[key]?.[0]}
                     height={dims[key]?.[1]}
                     loading="lazy"
