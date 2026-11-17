@@ -5,9 +5,9 @@
 :HL["/brand-wordmark.png","image"]
 :HL["/products/raw-silk-cocoon.webp","image"]
 :HL["/products/greige-fabric.webp","image"]
-:HL["/blog/fan-bingbing-forbidden-city-jacquard.webp","image"]
 :HL["/blog/yizhou-xiajian-river-karst.webp","image"]
+:HL["/blog/fan-bingbing-forbidden-city-jacquard.webp","image"]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"raw-silk-grade-4a-5a-6a-explained","s":[]},"h":96,"c":"$Q3"}]]
 1:[["children",{"s":"blog","h":64,"c":"$Q2"}]]
-0:{"b":"NXL47UggasF2xr1yAZ9BU","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
+0:{"b":"N0l2L0iV-eRuEc1vGAkAC","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
