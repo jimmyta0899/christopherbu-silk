@@ -97,15 +97,15 @@ export default async function SilkWeightPage({ params }: Props) {
 
         <AnswerBlock answer={entry.answer} label="Quick answer" updated="2026-11-15" />
 
-        {/* Weight per metre: the number the cost sheet needs. */}
+        {/* Weight per meter: the number the cost sheet needs. */}
         <section className="mt-12">
           <h2 className="font-display text-2xl font-medium text-jade-deep">
-            What one running metre weighs
+            What one running meter weighs
           </h2>
           <div className="mt-5 overflow-x-auto">
             <table className="w-full min-w-[420px] border-collapse text-left text-sm">
               <caption className="pb-3 text-xs text-ink-muted">
-                Weight of one running metre of {entry.momme} momme silk at each
+                Weight of one running meter of {entry.momme} momme silk at each
                 standard width, derived from {entry.gsm.toFixed(2)} g/m². Freight
                 and duty run on these figures, not on the momme number.
               </caption>
@@ -121,7 +121,7 @@ export default async function SilkWeightPage({ params }: Props) {
                     Width
                   </th>
                   <th scope="col" className="py-2 font-semibold text-jade-deep">
-                    kg per metre
+                    kg per meter
                   </th>
                 </tr>
               </thead>
@@ -131,7 +131,7 @@ export default async function SilkWeightPage({ params }: Props) {
                     <td className="py-2 pr-4">{entry.momme} momme</td>
                     <td className="py-2 pr-4">{entry.gsm.toFixed(2)}</td>
                     <td className="py-2 pr-4">{r.widthCm} cm</td>
-                    <td className="py-2">{r.kgPerMetre.toFixed(4)} kg</td>
+                    <td className="py-2">{r.kgPerMeter.toFixed(4)} kg</td>
                   </tr>
                 ))}
               </tbody>
@@ -147,7 +147,7 @@ export default async function SilkWeightPage({ params }: Props) {
             <Link href="/tools/silk-order-weight-calculator" className="underline underline-offset-2 hover:text-gold">
               order weight calculator
             </Link>{" "}
-            turns metres, width and momme into the kilograms a shipment will be
+            turns meters, width and momme into the kilograms a shipment will be
             charged on.
           </p>
         </section>
@@ -167,7 +167,7 @@ export default async function SilkWeightPage({ params }: Props) {
                 <table className="w-full min-w-[520px] border-collapse text-left text-sm">
                   <caption className="pb-3 text-xs text-ink-muted">
                     Neighbouring weights, shown as g/m² and as the weight of one
-                    running metre at each standard width. Silk is quoted per metre
+                    running meter at each standard width. Silk is quoted per meter
                     or yard; only raw silk yarn is sold by weight.
                   </caption>
                   <thead>
@@ -229,8 +229,8 @@ export default async function SilkWeightPage({ params }: Props) {
             ))}
           </ul>
           <p className="mt-4 text-sm text-ink-muted">
-            Colour and finish are confirmed per order: greige, dyed to order from
-            a standard shade card, or a custom colour. Values on this page are
+            Color and finish are confirmed per order: greige, dyed to order from
+            a standard shade card, or a custom color. Values on this page are
             published specifications; the written quotation settles the rest.
           </p>
         </section>

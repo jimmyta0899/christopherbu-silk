@@ -123,7 +123,7 @@ export function SeasonViewer({ season, dims, bigMap, prev, next }: SeasonViewerP
                 >
                   <img
                     src={key}
-                    alt={`${season.name} look ${i + 1} — Christopher Bu ready-to-wear`}
+                    alt={`${season.name} look ${i + 1}: Christopher Bu ready-to-wear`}
                     width={dims[key]?.[0]}
                     height={dims[key]?.[1]}
                     loading={i < 2 ? "eager" : "lazy"}
@@ -170,11 +170,11 @@ export function SeasonViewer({ season, dims, bigMap, prev, next }: SeasonViewerP
                   className={`shrink-0 border-2 transition-all ${
                     i === active ? "border-jade" : "border-transparent opacity-50 hover:opacity-90"
                   }`}
-                  aria-label={`Go to look ${i + 1}`}
+                  aria-label={`View look ${i + 1} of ${total}: ${season.name}`}
                 >
                   <img
                     src={key}
-                    alt={`${season.name} look ${i + 1} thumbnail — Christopher Bu ready-to-wear`}
+                    alt=""
                     width={dims[key]?.[0]}
                     height={dims[key]?.[1]}
                     loading="lazy"
@@ -267,7 +267,7 @@ export function SeasonViewer({ season, dims, bigMap, prev, next }: SeasonViewerP
               return (
                 <img
                   src={big}
-                  alt={`${season.name} look ${lightbox + 1} — Christopher Bu ready-to-wear`}
+                  alt={`${season.name} look ${lightbox + 1}: Christopher Bu ready-to-wear`}
                   width={dims[big]?.[0]}
                   height={dims[big]?.[1]}
                   decoding="async"

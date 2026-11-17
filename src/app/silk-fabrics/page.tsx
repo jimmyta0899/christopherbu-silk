@@ -21,7 +21,7 @@ import { RelatedReading } from "@/components/RelatedReading";
 
 export const metadata: Metadata = {
   title:
-    "Silk Fabric Types: 22 Constructions and How to Choose One",
+    "Silk Fabric Types: 22 Constructions",
   description:
     "22 silk constructions by weave, momme and use: from 5-momme habotai lining to 30-momme mikado. Which we stock from Yizhou, which are woven to order.",
   keywords: [
@@ -72,7 +72,7 @@ const sources: HubSource[] = [
     year: "2015",
     url: "https://huaren.haiwainet.cn/n/2015/0507/c232657-28706443-5.html",
     supports:
-      "Records the 2015 Met Gala gown as pure silk, with colours taken from the palace bracket paintings.",
+      "Records the 2015 Met Gala gown as pure silk, with colors taken from the palace bracket paintings.",
   },
   {
     publisher: "Global Times",
@@ -238,7 +238,7 @@ const constructions: {
   },
   {
     name: "Shot taffeta",
-    weave: "Warp and weft in contrasting colours",
+    weave: "Warp and weft in contrasting colors",
     momme: "Mid",
     use: "Gowns, costume",
     availability: "to-order",
@@ -280,7 +280,7 @@ const supplied = [
   {
     name: "Satin",
     href: "/products/satin",
-    desc: "10 to 30 momme, the range that separates a lining from a ball gown. Dyed to order against a standard shade card or your own colour.",
+    desc: "10 to 30 momme, the range that separates a lining from a ball gown. Dyed to order against a standard shade card or your own color.",
   },
   {
     name: "Jacquard Luo",
@@ -290,7 +290,7 @@ const supplied = [
   {
     name: "Georgette",
     href: "/products/georgette",
-    desc: "8–16 momme, dry to the hand and opaque enough in layers for abaya and modestwear programmes.",
+    desc: "8–16 momme, dry to the hand and opaque enough in layers for abaya and modestwear programs.",
   },
   {
     name: "Habotai",
@@ -320,7 +320,7 @@ const choosePaths = [
   },
   {
     t: "You are cutting bridal",
-    d: "Two different problems. The outer layer needs body and a clean edge: dupioni, satin, jacquard. The underlayers need to disappear: habotai at 5–8 momme, or georgette where you want a softer fall. Most bridal programmes buy both from the same supplier so the dye lots match.",
+    d: "Two different problems. The outer layer needs body and a clean edge: dupioni, satin, jacquard. The underlayers need to disappear: habotai at 5–8 momme, or georgette where you want a softer fall. Most bridal programs buy both from the same supplier so the dye lots match.",
     links: [
       { label: "Habotai", href: "/products/habotai" },
       { label: "Dupioni", href: "/products/dupioni" },
@@ -351,7 +351,7 @@ const faqs: HubFaq[] = [
   },
   {
     q: "What is the difference between silk fabric types and silk grades?",
-    a: "Grade describes the fibre: 4A, 5A and 6A refer to evenness, cleanness and neatness of the raw silk filament. Type describes the cloth: how those filaments were woven. A 6A yarn woven into a loose chiffon is still a 6A yarn, and a low-grade yarn woven into a heavy satin is still low grade. Buyers who only ask about momme, or only ask about grade, are each holding half the specification.",
+    a: "Grade describes the fiber: 4A, 5A and 6A refer to evenness, cleanness and neatness of the raw silk filament. Type describes the cloth: how those filaments were woven. A 6A yarn woven into a loose chiffon is still a 6A yarn, and a low-grade yarn woven into a heavy satin is still low grade. Buyers who only ask about momme, or only ask about grade, are each holding half the specification.",
   },
   {
     q: "Which silk fabric is best for evening gowns?",
@@ -359,7 +359,7 @@ const faqs: HubFaq[] = [
   },
   {
     q: "Can you supply silk fabric in small quantities?",
-    a: "Mini fabric samples can be supplied without a material charge once availability is confirmed; the buyer bears courier, customs and related international shipping costs. Full-size fabric and finished garments are chargeable. Bulk minimums depend on the construction, the width and whether the colour is a standard shade or a custom match, and are confirmed in the written quotation rather than quoted as a single number here.",
+    a: "Mini fabric samples can be supplied without a material charge once availability is confirmed; the buyer bears courier, customs and related international shipping costs. Full-size fabric and finished garments are chargeable. Bulk minimums depend on the construction, the width and whether the color is a standard shade or a custom match, and are confirmed in the written quotation rather than quoted as a single number here.",
   },
   {
     q: "Do you sell silk fabric by the yard or by the meter?",
@@ -367,11 +367,11 @@ const faqs: HubFaq[] = [
   },
   {
     q: "Are gazar, mikado, radzimir, faille and peau de soie available?",
-    a: "These are woven to order through the local mills we work with, and we quote them only after confirming the construction, width and colour against current mill capacity. We do not hold them as stock items, and this page does not state a minimum or a price for them. Ask for a sample and we will tell you honestly whether the construction is available for your quantity.",
+    a: "These are woven to order through the local mills we work with, and we quote them only after confirming the construction, width and color against current mill capacity. We do not hold them as stock items, and this page does not state a minimum or a price for them. Ask for a sample and we will tell you honestly whether the construction is available for your quantity.",
   },
   {
     q: "Is your silk fabric dyed to order?",
-    a: "Yes, on both tracks: standard shade card colours, and custom colour matching to a submitted sample or a specified reference. Greige fabric is also supplied undyed for buyers running their own dyehouse. Colour is what we quote for; surface effects beyond dyeing are a separate conversation and we will say plainly whether they are available.",
+    a: "Yes, on both tracks: standard shade card colors, and custom color matching to a submitted sample or a specified reference. Greige fabric is also supplied undyed for buyers running their own dyehouse. Color is what we quote for; surface effects beyond dyeing are a separate conversation and we will say plainly whether they are available.",
   },
 ];
 
@@ -394,7 +394,7 @@ export default function SilkFabricsPage() {
 
         <p className="mt-6 max-w-3xl text-lg leading-relaxed text-ink-soft">
           Silk is not one fabric. It is a family of roughly 22 commercial
-          constructions that share a fibre and almost nothing else: a 5 momme
+          constructions that share a fiber and almost nothing else: a 5 momme
           habotai lining and a 30 momme mikado ball gown are the same protein
           and behave like different materials. This page sets out each
           construction by weave, weight and use, states which nine we supply as
@@ -406,7 +406,7 @@ export default function SilkFabricsPage() {
         <KeyTakeaways
           items={[
             "Silk is a family of about 22 commercial constructions, not one fabric: weight runs from 5 momme habotai lining to 30 momme mikado.",
-            "Three numbers decide behaviour: weave, weight in momme, and finish or colour route. The trade name is shorthand for those three.",
+            "Three numbers decide behavior: weave, weight in momme, and finish or color route. The trade name is shorthand for those three.",
             "1 momme is 4.34 g/m². Degumming between greige and finished cloth removes roughly a quarter of the weight, so a greige figure overstates the finished fabric.",
             "Nine constructions are standing products with their own specification pages; the rest are woven or quoted after capacity is confirmed.",
             "Five constructions in the list are quoted only after a mill check, and this page deliberately publishes no minimum and no price for them.",
@@ -437,8 +437,8 @@ export default function SilkFabricsPage() {
               },
               {
                 n: "03",
-                t: "Finish and colour route",
-                d: "Greige, dyed to a standard shade, dyed to a custom match, or woven with the colour in the yarn. The same base cloth can differ in price by a wide margin across these routes. The route has to be fixed before a price means anything.",
+                t: "Finish and color route",
+                d: "Greige, dyed to a standard shade, dyed to a custom match, or woven with the color in the yarn. The same base cloth can differ in price by a wide margin across these routes. The route has to be fixed before a price means anything.",
               },
             ].map((a) => (
               <div key={a.n} className="border border-line bg-ivory-deep p-7">
@@ -551,7 +551,7 @@ export default function SilkFabricsPage() {
             with a published specification. &ldquo;Woven to order&rdquo; means the
             local mills we work with weave it on request, with no stock
             commitment. &ldquo;Sample on request&rdquo; means we confirm the
-            construction, width and colour against current mill capacity before
+            construction, width and color against current mill capacity before
             quoting, and state no minimum on this page.
           </p>
         </section>
@@ -562,10 +562,10 @@ export default function SilkFabricsPage() {
             The nine we supply as standing products
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
-            Nine categories, each with its own specification page. Colour is
+            Nine categories, each with its own specification page. Color is
             dyed to order on both tracks (standard shade card or your own
             match), and greige is available undyed for buyers running their own
-            finishing. The fibre behind them is reeled in the Yizhou area, where
+            finishing. The fiber behind them is reeled in the Yizhou area, where
             the district government publishes the mulberry acreage and reeling
             capacity (
             <a
@@ -657,7 +657,7 @@ export default function SilkFabricsPage() {
             ones we cut in the atelier. The specification is written by people
             who have watched it fail on a fitting model, not only on a test
             report. Both looks below were covered at the time. The 2015 Met
-            Gala gown was pure silk, with colours drawn from the palace bracket
+            Gala gown was pure silk, with colors drawn from the palace bracket
             paintings (
             <a
               href="https://huaren.haiwainet.cn/n/2015/0507/c232657-28706443-5.html"
@@ -685,7 +685,7 @@ export default function SilkFabricsPage() {
                 img: "/blog/fan-bingbing-forbidden-city-cape.webp",
                 alt: "Fan Bingbing in the Christopher Bu Forbidden City jacquard cape at the 2015 Met Gala",
                 t: "Jacquard on a museum-scale stage",
-                d: "The Forbidden City jacquard cape worn at the 2015 Met Gala. A motif woven into the cloth, not appliquéd onto it. The reason jacquard reads correctly under camera flash at fifty metres.",
+                d: "The Forbidden City jacquard cape worn at the 2015 Met Gala. A motif woven into the cloth, not appliquéd onto it. The reason jacquard reads correctly under camera flash at fifty meters.",
                 href: "/blog/forbidden-city-silk-jacquard-fan-bingbing",
                 label: "Read the jacquard case study",
               },
@@ -700,7 +700,7 @@ export default function SilkFabricsPage() {
               {
                 img: "/blog/yizhou-riverside-dawn.webp",
                 alt: "The Xiajian River valley in Yizhou at dawn, the mulberry silk growing region",
-                t: "Where the fibre starts",
+                t: "Where the fiber starts",
                 d: "Yizhou, Guangxi. The raw silk origin the local mills we work with draw from. The full production record. What the official figures actually say.",
                 href: "/yizhou-raw-silk",
                 label: "Yizhou raw silk",
@@ -752,7 +752,7 @@ export default function SilkFabricsPage() {
             <p>
               We also do not publish a price per meter on this page. Silk is
               quoted against a specification: grade, momme measured on finished
-              cloth, width, colour route and quantity. A single headline number
+              cloth, width, color route and quantity. A single headline number
               would be true for one combination and misleading for the rest.
               The pricing logic is set out separately in{" "}
               <Link
@@ -795,7 +795,7 @@ export default function SilkFabricsPage() {
               {
                 href: "/yizhou-raw-silk",
                 t: "Yizhou raw silk",
-                d: "The origin, the official production figures, and why the fibre behaves the way it does.",
+                d: "The origin, the official production figures, and why the fiber behaves the way it does.",
               },
               {
                 href: "/silk-momme-guide",

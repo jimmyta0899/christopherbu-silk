@@ -469,7 +469,7 @@ export default function HomePage() {
               <p className="mt-4 max-w-xl text-base leading-relaxed text-ivory/75">
                 Mini fabric samples carry no material charge once availability
                 is confirmed — you cover the courier only. Full-size samples are
-                chargeable. Need a custom weave or colour? Tell us your MOQ,
+                chargeable. Need a custom weave or color? Tell us your MOQ,
                 deadline and destination.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">

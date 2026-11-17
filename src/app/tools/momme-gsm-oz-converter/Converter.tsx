@@ -148,7 +148,7 @@ export function MommeConverter() {
               {fmt(values.momme, 1)} momme
             </span>{" "}
             = {fmt(values.gsm, 1)} g/m² = {fmt(values.oz, 2)} oz/yd². At a{" "}
-            {fmt(values.gsm, 0)} g/m² weight, one metre of 140 cm silk weighs{" "}
+            {fmt(values.gsm, 0)} g/m² weight, one meter of 140 cm silk weighs{" "}
             {fmt((values.gsm * 1.4) / 1000, 3)} kg.
           </>
         )}

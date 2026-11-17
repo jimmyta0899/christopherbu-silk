@@ -7,9 +7,9 @@ import { products } from "@/lib/products";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Free Silk Samples — DHL Worldwide | Christopher Bu",
+  title: "Free Silk Samples: DHL Worldwide",
   description:
-    "Free silk mini-samples — fabric free, you pay courier only. Dupioni, satin, habotai, georgette, jacquard, raw yarn from Yizhou. Full-size samples charged.",
+    "Free silk mini-samples: fabric free, you pay courier only. Dupioni, satin, habotai, georgette, jacquard, raw yarn from Yizhou. Full-size samples charged.",
   keywords: [
     "free silk sample",
     "free silk samples",
@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     q: "Do I have to pay for the fabric to see it first?",
-    a: "No. Silk is judged by hand, weight and luster, which no photograph reproduces. We send mini samples free of material charge so you can verify hand and colour before committing to bulk. Full-size sample yardage and finished apparel are chargeable.",
+    a: "No. Silk is judged by hand, weight and luster, which no photograph reproduces. We send mini samples free of material charge so you can verify hand and color before committing to bulk. Full-size sample yardage and finished apparel are chargeable.",
   },
   {
     q: "How are samples shipped?",
@@ -42,8 +42,8 @@ const faqs = [
     a: "Yes. Select every quality you are considering — raw silk yarn, greige fabric, dupioni, satin, stretch satin, jacquard luo, georgette, habotai or silk blends — and we will confirm availability across the set in one reply.",
   },
   {
-    q: "Can I get a sample in my own colour?",
-    a: "Standard shade card colours are the fastest route. Custom colours are dyed to order, so a dyed sample is quoted separately once we have your reference — Pantone code, lab dip target or a physical sample.",
+    q: "Can I get a sample in my own color?",
+    a: "Standard shade card colors are the fastest route. Custom colors are dyed to order, so a dyed sample is quoted separately once we have your reference: Pantone code, lab dip target or a physical sample.",
   },
 ];
 
@@ -197,7 +197,7 @@ export default function SamplesPage() {
               </h3>
               <ul className="mt-4 space-y-2.5 text-sm text-ink-soft">
                 <li>• Mini samples by product, weight and finish</li>
-                <li>• Hand, weight and colour verification before production</li>
+                <li>• Hand, weight and color verification before production</li>
                 <li>• Full-size samples on request (chargeable)</li>
                 <li>• Global DHL shipping</li>
               </ul>

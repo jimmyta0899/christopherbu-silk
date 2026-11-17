@@ -22,7 +22,7 @@ const UPDATED = "2026-11-15";
 export const metadata: Metadata = {
   title: "Site Index: Every Page on christopherbu.com",
   description:
-    "A single index of every page published on christopherbu.com: the silk fabrics and yarns we supply, the weight guides, the calculators, the articles and the company pages.",
+    "A single index of every page on christopherbu.com: the silk fabrics and yarns we supply, the weight guides, the calculators, the articles and the company pages.",
   alternates: { canonical: "/index" },
   robots: { index: false, follow: true },
   openGraph: pageOpenGraph("/index"),
@@ -42,7 +42,7 @@ const guideLinks: { href: string; label: string; note: string }[] = [
   {
     href: "/silk-fabric-price-guide",
     label: "Fabric price guide",
-    note: "How a per metre quote is built, and which variables move it.",
+    note: "How a per meter quote is built, and which variables move it.",
   },
   {
     href: "/raw-silk-specs",
@@ -80,7 +80,7 @@ const toolLinks: { href: string; label: string; note: string }[] = [
   {
     href: "/tools/silk-order-weight-calculator",
     label: "Order weight calculator",
-    note: "Turns metres, width and momme into the kilograms a shipment is charged on.",
+    note: "Turns meters, width and momme into the kilograms a shipment is charged on.",
   },
   {
     href: "/tools/silk-spec-comparison",
@@ -198,7 +198,7 @@ export default function SiteIndex() {
           </h2>
           <p className="mt-3 max-w-3xl text-sm leading-relaxed text-ink-soft">
             One page per weight in regular supply, each holding the weaves that
-            reach it, the weight of a running metre at 114 and 140 cm, and the
+            reach it, the weight of a running meter at 114 and 140 cm, and the
             buying decision it settles. The{" "}
             <Link href="/silk-weight" className="underline underline-offset-2 hover:text-gold">
               weight ladder

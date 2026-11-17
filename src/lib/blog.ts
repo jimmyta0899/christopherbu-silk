@@ -75,9 +75,9 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "yizhou-mulberry-silk-longevity-to-world",
     title:
-      "From the Land of Longevity to the World's Red Carpets: Yizhou's Mulberry Silk",
+      "Yizhou Mulberry Silk: County to Red Carpet",
     metaDescription:
-      "How Yizhou — a Guangxi longevity town that grows more mulberry silk than any Chinese county — became the source of silk for couture red-carpet gowns.",
+      "How Yizhou, a Guangxi longevity town that grows more mulberry silk than any Chinese county, became the source of silk for couture red-carpet gowns.",
     type: "Provenance / brand",
     publishDate: "2026-11-03",
     keywords: [
@@ -121,7 +121,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "From cocoon to filature silk",
-        body: "**Filature silk** is the long, continuous filament reeled from a single cocoon, as opposed to the short fibres left over when a cocoon is broken. Yizhou's mills reel the cocoons into 20/22 denier raw silk, the standard weight for weaving, and grade it from 4A to 6A under GB/T 1797-2008, the national raw silk standard. The grade sets the ceiling for everything woven from it, so a higher grade means a cleaner, more even yarn for a couture cloth. The county does not just rear silkworms. It also reels and weaves, which keeps the value close to home. By the most recent figures the county runs more than a dozen silk reeling mills and several weaving mills, and most of its cocoons are processed locally rather than shipped out raw. This is the industrial layer behind the tourist image of the place.",
+        body: "**Filature silk** is the long, continuous filament reeled from a single cocoon, as opposed to the short fibers left over when a cocoon is broken. Yizhou's mills reel the cocoons into 20/22 denier raw silk, the standard weight for weaving, and grade it from 4A to 6A under GB/T 1797-2008, the national raw silk standard. The grade sets the ceiling for everything woven from it, so a higher grade means a cleaner, more even yarn for a couture cloth. The county does not just rear silkworms. It also reels and weaves, which keeps the value close to home. By the most recent figures the county runs more than a dozen silk reeling mills and several weaving mills, and most of its cocoons are processed locally rather than shipped out raw. This is the industrial layer behind the tourist image of the place.",
         table: {
           caption: "From cocoon to cloth in Yizhou",
           headers: ["Stage", "What happens", "Output"],
@@ -135,7 +135,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "The Painted Veil: how a film put Yizhou on the map",
-        body: "In 2006 a Hollywood adaptation of Somerset Maugham's novel The Painted Veil, directed by John Curran and starring Edward Norton and Naomi Watts, chose Guangxi for its location. The production spent ten days and eight thousand kilometres searching for a landscape that looked like nothing else. It settled on the town of Huangyao and on Yizhou, filming along the Xiajian River, the big waterwheels, and the Xiangbei scenery[3]. The director's own words, quoted in Chinese press at the time, were that he wanted \"a landscape no other country has, only China has,\" and that Yizhou was, like Huangyao, \"unique.\" The film was the first Western picture about China to be shot entirely in China. It put the region's karst hills and rivers in front of an international audience a decade before the silk gowns did.",
+        body: "In 2006 a Hollywood adaptation of Somerset Maugham's novel The Painted Veil, directed by John Curran and starring Edward Norton and Naomi Watts, chose Guangxi for its location. The production spent ten days and eight thousand kilometers searching for a landscape that looked like nothing else. It settled on the town of Huangyao and on Yizhou, filming along the Xiajian River, the big waterwheels, and the Xiangbei scenery[3]. The director's own words, quoted in Chinese press at the time, were that he wanted \"a landscape no other country has, only China has,\" and that Yizhou was, like Huangyao, \"unique.\" The film was the first Western picture about China to be shot entirely in China. It put the region's karst hills and rivers in front of an international audience a decade before the silk gowns did.",
         image: {
           src: "/blog/yizhou-xiajian-river-karst.webp",
           alt: "Karst peaks, riverside villages and the Xiajian River in Yizhou, Guangxi, the landscape that drew the Painted Veil film crew",
@@ -212,7 +212,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "sourcing-silk-for-ateliers-worldwide",
-    title: "Sourcing Silk for Couture Ateliers Worldwide: Lead Times, MOQs and Trade Terms",
+    title: "Sourcing Silk for Couture Ateliers",
     metaDescription:
       "For couture ateliers in Europe, North America and the Middle East sourcing mulberry silk: lead times, MOQ, FOB terms, landed cost, and why sample first.",
     type: "Buyer guide",
@@ -313,7 +313,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "momme-vs-denier-silk-specs",
-    title: "Momme vs Denier: How to Read Silk Specs Before You Order",
+    title: "Momme vs Denier: Reading Silk Specs",
     metaDescription:
       "What momme and denier actually mean for silk fabric weight and hand, and how to match the spec to the gown, overlay, or embroidery base you are making.",
     type: "Material explainer",
@@ -335,7 +335,7 @@ export const blogPosts: BlogPost[] = [
       "If you are specifying silk for a gown, you need two numbers. Momme tells you the weight of the cloth; denier tells you the thickness of the yarn. They measure different things, and a buyer who reads them together gets the fabric right the first time instead of ordering a weight that feels wrong in the hand.",
     takeaways: [
       "Momme measures fabric weight: one momme equals about 3.75 grams per square meter.",
-      "Denier measures yarn thickness: grams per 9,000 metres, with 20/22 denier the standard mulberry raw silk.",
+      "Denier measures yarn thickness: grams per 9,000 meters, with 20/22 denier the standard mulberry raw silk.",
       "A heavier momme holds a silhouette; a lighter one drapes. Match the weight to the end use.",
       "For a gown choose a heavier momme, for an overlay a lighter one, for embroidery a stable greige base.",
     ],
@@ -352,7 +352,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "What denier measures",
-        body: "**Denier** is the yarn's linear density, measured as grams per 9,000 metres, and it describes the thread rather than the cloth. The standard mulberry raw silk yarn is 20/22 denier, reeled from cocoons and wound into hanks for weaving[2], with a finer yarn carrying a lower denier and a coarser one a higher denier. The two numbers work together, with denier setting the thread and momme setting how much of that thread goes into a square meter of cloth. Two fabrics can share a denier and still differ in momme, because the weave density and the number of plies change the weight without changing the yarn. [UNIQUE INSIGHT] That is why you read both measurements rather than one. The most common mistake is quoting a momme and ignoring the denier, which produces a cloth that is the right weight but the wrong hand, because the yarn underneath it is not what the design assumed.",
+        body: "**Denier** is the yarn's linear density, measured as grams per 9,000 meters, and it describes the thread rather than the cloth. The standard mulberry raw silk yarn is 20/22 denier, reeled from cocoons and wound into hanks for weaving[2], with a finer yarn carrying a lower denier and a coarser one a higher denier. The two numbers work together, with denier setting the thread and momme setting how much of that thread goes into a square meter of cloth. Two fabrics can share a denier and still differ in momme, because the weave density and the number of plies change the weight without changing the yarn. [UNIQUE INSIGHT] That is why you read both measurements rather than one. The most common mistake is quoting a momme and ignoring the denier, which produces a cloth that is the right weight but the wrong hand, because the yarn underneath it is not what the design assumed.",
         table: {
           caption: "The two silk specs and what they tell you",
           headers: ["Spec", "What it measures", "Unit", "What it tells you"],
@@ -416,7 +416,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "christopher-bu-couture-house-profile",
     title:
-      "Dupioni Silk in Practice: From Greige Slub to Exquisite Garments - Fan Bingbing's Story",
+      "Dupioni Silk in Practice: Slub to Garment",
     metaDescription:
       "Dupioni silk from 20/22D Yizhou raw silk to finished gown: slub texture, 19/23/30/40 momme, 5% shrinkage, with 2013 Fan Bingbing pieces as proof.",
     type: "Material deep-dive",
@@ -579,18 +579,18 @@ export const blogPosts: BlogPost[] = [
         year: "2013",
         url: "https://hunan.sina.com.cn/hengyang/ssbh/2013-06-26/11311830.html",
         supports:
-          "The two 2013 looks in Step 4 and the two photographs used there: the stamp-print umbrella skirt photographed in Paris with the Eiffel Tower, and the spring/summer 2013 plaid ensemble at the Skiptrace press conference in Cannes. The article names both pieces as Christopher Bu; it does not name the fibre.",
+          "The two 2013 looks in Step 4 and the two photographs used there: the stamp-print umbrella skirt photographed in Paris with the Eiffel Tower, and the spring/summer 2013 plaid ensemble at the Skiptrace press conference in Cannes. The article names both pieces as Christopher Bu; it does not name the fiber.",
       },
     ],
     methodology:
-      "Methodology: momme, denier and shrinkage figures come from the spec sheet we quote to buyers. Each bracketed number above points to the matching source below, and each source is listed against the single claim it supports. No press article names the fibre of the 2013 dresses; the dupioni attribution rests on the brand's own production records.",
+      "Methodology: momme, denier and shrinkage figures come from the spec sheet we quote to buyers. Each bracketed number above points to the matching source below, and each source is listed against the single claim it supports. No press article names the fiber of the 2013 dresses; the dupioni attribution rests on the brand's own production records.",
   },
   {
     slug: "paz-vega-hand-embroidered-silk-oscars",
     title:
-      "Hand-Embroidered Silk at the Oscars: Paz Vega's Plum Blossom Gown",
+      "Hand-Embroidered Silk: Paz Vega at Oscars",
     metaDescription:
-      "How a white mulberry silk gown with hand-embroidered red plum blossoms reached the 2018 Oscars red carpet — and what it tells buyers about specifying silk.",
+      "How a white mulberry silk gown with hand-embroidered red plum blossoms reached the 2018 Oscars red carpet, and what it tells buyers about specifying silk.",
     type: "Designer case study",
     publishDate: "2026-11-03",
     keywords: [
@@ -727,7 +727,7 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "forbidden-city-silk-jacquard-fan-bingbing",
     title:
-      "Mulberry Silk Jacquard and the Forbidden City Gown: Fan Bingbing's Met Gala",
+      "Forbidden City Silk Jacquard: Fan Bingbing",
     metaDescription:
       "How Fan Bingbing's 2015 Met Gala Forbidden City gown was woven as mulberry silk jacquard, then embroidered, and how the two crafts differ.",
     type: "Designer case study",
@@ -746,7 +746,7 @@ export const blogPosts: BlogPost[] = [
       caption: "The Forbidden City jacquard gown Fan Bingbing wore to the 2015 Met Gala.",
     },
     intro:
-      "At the 2015 Met Gala, themed China: Through the Looking Glass, Fan Bingbing wore a gown with a green and gold cape. It opened from the back like a set of palace doors. The cloth came off the loom first: a mulberry silk jacquard with the palace motif in the weave. Embroidery was worked onto the finished gown afterwards in the Christopher Bu atelier. Red carpet coverage generally describes the colour and the cape, so the order of the two crafts is easy to miss.",
+      "At the 2015 Met Gala, themed China: Through the Looking Glass, Fan Bingbing wore a gown with a green and gold cape. It opened from the back like a set of palace doors. The cloth came off the loom first: a mulberry silk jacquard with the palace motif in the weave. Embroidery was worked onto the finished gown afterwards in the Christopher Bu atelier. Red carpet coverage generally describes the color and the cape, so the order of the two crafts is easy to miss.",
     takeaways: [
       "The gown starts as mulberry silk jacquard, with the palace motif woven on the loom; embroidery is added to the finished gown afterwards.",
       "Jacquard puts the pattern inside the weave. Embroidery adds thread to a finished cloth. Both appear on this gown, at different stages.",
@@ -802,7 +802,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Same series, two stages of work",
-        body: "The Christopher Bu \"Forbidden City\" couture series produced both dresses. Fan Bingbing's starts with a mulberry silk jacquard and is embroidered afterwards; Paz Vega's Snow Plum Blossom is mulberry silk with hand embroidery. [ORIGINAL DATA] The series was the designer's first haute couture line, and the atelier used both crafts across it. On this gown the woven motif comes first and the stitch work follows, so anyone describing the dress needs both stages in the right order. Red carpet coverage usually stops at the colour and the silhouette, which is why the sequence is easy to lose.",
+        body: "The Christopher Bu \"Forbidden City\" couture series produced both dresses. Fan Bingbing's starts with a mulberry silk jacquard and is embroidered afterwards; Paz Vega's Snow Plum Blossom is mulberry silk with hand embroidery. [ORIGINAL DATA] The series was the designer's first haute couture line, and the atelier used both crafts across it. On this gown the woven motif comes first and the stitch work follows, so anyone describing the dress needs both stages in the right order. Red carpet coverage usually stops at the color and the silhouette, which is why the sequence is easy to lose.",
         links: [
           { text: "read the embroidery counterpart", href: "/blog/paz-vega-hand-embroidered-silk-oscars" },
         ],

@@ -6,12 +6,12 @@
  * "scaled content abuse" pattern Google names in its spam policies. Each entry
  * below therefore carries facts that belong to that weight only — which weaves
  * actually run at that weight, what it is the boundary for, and what it weighs
- * per running metre at each of the two standard widths.
+ * per running meter at each of the two standard widths.
  *
  * Every figure traces to one of two places:
  *   - `src/lib/products.ts` published spec values (momme ladders, widths, uses)
  *   - 1 momme = 4.340 g/m² (ISO-consistent, the same constant as
- *     `src/lib/silk-units.ts`), with per-metre weight = gsm x width in metres
+ *     `src/lib/silk-units.ts`), with per-meter weight = gsm x width in meters
  *
  * No price is stated: silk is quoted per order, so a public number would be
  * wrong for every buyer reading it.
@@ -20,8 +20,8 @@
 export type WeightRow = {
   /** Standard width in cm. Only 114 and 140 are regular supply. */
   widthCm: number;
-  /** Weight of one running metre at this width, in kg. */
-  kgPerMetre: number;
+  /** Weight of one running meter at this width, in kg. */
+  kgPerMeter: number;
 };
 
 export type WeightSection = {
@@ -61,13 +61,13 @@ export const silkWeightGrades: SilkWeightGrade[] = [
     momme: 6,
     gsm: 26.04,
     weaves: ["Habotai Silk"],
-    title: "6 Momme Silk — Lightest Weight (26 g/m²)",
+    title: "6 Momme Silk: Lightest Weight",
     description:
-      "6 momme silk is 26.04 g/m², woven only as Habotai. Weight per metre at 114 cm, uses, and where the weight stops being workable.",
+      "6 momme silk is 26.04 g/m², woven only as Habotai. Weight per meter at 114 cm, uses, and where the weight stops being workable.",
     h1: "6 Momme Silk Fabric: 26 g/m², the Lightest Weight in Regular Supply",
     answer:
-      "6 momme silk weighs 26.04 g/m². In our range it is woven only as Habotai Silk, at 114 cm. One running metre weighs 0.0297 kg. It is the weight for lining, scarf and sheer-overlay work, where handling matters more than body.",
-    rows: [{ widthCm: 114, kgPerMetre: kg(6, 114) }],
+      "6 momme silk weighs 26.04 g/m². In our range it is woven only as Habotai Silk, at 114 cm. One running meter weighs 0.0297 kg. It is the weight for lining, scarf and sheer-overlay work, where handling matters more than body.",
+    rows: [{ widthCm: 114, kgPerMeter: kg(6, 114) }],
     sections: [
       {
         h2: "The floor of the ladder, and why only one weave reaches it",
@@ -84,12 +84,12 @@ export const silkWeightGrades: SilkWeightGrade[] = [
         ],
       },
       {
-        h2: "Weight per metre at the width we actually weave",
+        h2: "Weight per meter at the width we actually weave",
         paragraphs: [
-          "Habotai is a 114 cm cloth in our supply. At that width one metre of 6 momme carries 0.0297 kg. Freight, duty and any raw-silk content in the order run on weight rather than length, so that figure is the one to put into a cost sheet, not the momme number.",
+          "Habotai is a 114 cm cloth in our supply. At that width one meter of 6 momme carries 0.0297 kg. Freight, duty and any raw-silk content in the order run on weight rather than length, so that figure is the one to put into a cost sheet, not the momme number.",
         ],
         table: {
-          head: ["Weight", "g/m²", "Width", "kg per running metre"],
+          head: ["Weight", "g/m²", "Width", "kg per running meter"],
           rows: [
             ["6 momme", "26.04", "114 cm", "0.0297 kg"],
             ["8 momme", "34.72", "114 cm", "0.0396 kg"],
@@ -102,7 +102,7 @@ export const silkWeightGrades: SilkWeightGrade[] = [
     faqs: [
       {
         q: "Is 6 momme real silk or a synthetic?",
-        a: "6 momme is a weight, not a fibre. In our range it is mulberry silk Habotai, a plain weave. Weight alone never tells you the fibre, so ask for the composition on the quotation rather than judging from the number.",
+        a: "6 momme is a weight, not a fiber. In our range it is mulberry silk Habotai, a plain weave. Weight alone never tells you the fiber, so ask for the composition on the quotation rather than judging from the number.",
       },
       {
         q: "Can 6 momme be used for a garment outer layer?",
@@ -120,22 +120,22 @@ export const silkWeightGrades: SilkWeightGrade[] = [
     momme: 16,
     gsm: 69.44,
     weaves: ["Habotai Silk", "Dupioni Silk", "Jacquard Luo Silk", "Silk Stretch Satin"],
-    title: "16 Momme Silk — Shirt & Lining Threshold",
+    title: "16 Momme Silk: Shirt & Lining Threshold",
     description:
       "16 momme silk is 69.44 g/m². Four weaves reach it. What changes from 12 to 16 momme, and why 16 ends sheer plain weave.",
     h1: "16 Momme Silk Fabric: 69 g/m², Where a Plain Weave Stops Being Sheer",
     answer:
-      "16 momme silk weighs 69.44 g/m². It is the top of the Habotai range and the entry weight for Dupioni Silk, Jacquard Luo Silk and Silk Stretch Satin. One metre at 140 cm weighs 0.0972 kg, at 114 cm 0.0792 kg. It is the usual floor for shirting and for a lining that has to hold a seam.",
+      "16 momme silk weighs 69.44 g/m². It is the top of the Habotai range and the entry weight for Dupioni Silk, Jacquard Luo Silk and Silk Stretch Satin. One meter at 140 cm weighs 0.0972 kg, at 114 cm 0.0792 kg. It is the usual floor for shirting and for a lining that has to hold a seam.",
     rows: [
-      { widthCm: 114, kgPerMetre: kg(16, 114) },
-      { widthCm: 140, kgPerMetre: kg(16, 140) },
+      { widthCm: 114, kgPerMeter: kg(16, 114) },
+      { widthCm: 140, kgPerMeter: kg(16, 140) },
     ],
     sections: [
       {
         h2: "The weight where four different weaves meet",
         paragraphs: [
           "No other rung on the ladder is shared by as many constructions. Habotai reaches its ceiling here at 16. Dupioni and Jacquard Luo both start here. Silk Stretch Satin passes through 16 on its way from 14 to 28. Satin Silk includes 16 as the lower half of the band it sells most of.",
-          "That makes 16 momme the most useful comparison weight you can ask for from a mill, because the number is held constant and only the weave changes. Ask for 16 momme in Habotai, in Dupioni and in satin, and the three swatches will differ in surface, drape and stiffness while weighing the same per square metre.",
+          "That makes 16 momme the most useful comparison weight you can ask for from a mill, because the number is held constant and only the weave changes. Ask for 16 momme in Habotai, in Dupioni and in satin, and the three swatches will differ in surface, drape and stiffness while weighing the same per square meter.",
         ],
       },
       {
@@ -146,9 +146,9 @@ export const silkWeightGrades: SilkWeightGrade[] = [
         ],
       },
       {
-        h2: "Weight per metre, both standard widths",
+        h2: "Weight per meter, both standard widths",
         paragraphs: [
-          "At 16 momme the cloth is 69.44 g/m². One metre at 114 cm is 0.0792 kg, and at 140 cm it is 0.0972 kg. The 22.8 per cent difference comes from the width alone, so a quotation that gives one figure without saying which width it was weighed at cannot be compared with another.",
+          "At 16 momme the cloth is 69.44 g/m². One meter at 114 cm is 0.0792 kg, and at 140 cm it is 0.0972 kg. The 22.8 per cent difference comes from the width alone, so a quotation that gives one figure without saying which width it was weighed at cannot be compared with another.",
         ],
         table: {
           head: ["Weight", "g/m²", "114 cm", "140 cm"],
@@ -164,7 +164,7 @@ export const silkWeightGrades: SilkWeightGrade[] = [
     faqs: [
       {
         q: "Is 16 momme heavy enough for a shirt that is not see-through?",
-        a: "In Habotai Silk it is the firmest weight we publish, and it is the top of the 14 to 16 band used for heavier shirts. At 69.44 g/m² a light colour still reads slightly against a strong backlight, so ask for a swatch over a hand.",
+        a: "In Habotai Silk it is the firmest weight we publish, and it is the top of the 14 to 16 band used for heavier shirts. At 69.44 g/m² a light color still reads slightly against a strong backlight, so ask for a swatch over a hand.",
       },
       {
         q: "Which weaves are available at exactly 16 momme?",
@@ -172,7 +172,7 @@ export const silkWeightGrades: SilkWeightGrade[] = [
       },
       {
         q: "Does 16 momme Dupioni behave like 16 momme Habotai?",
-        a: "No. They weigh the same per square metre but differ in construction. Habotai at 16 is the heavy end of a plain weave range. Dupioni at 16 is the light end of a slubbed range, described for blouses and softer structured pieces rather than gowns.",
+        a: "No. They weigh the same per square meter but differ in construction. Habotai at 16 is the heavy end of a plain weave range. Dupioni at 16 is the light end of a slubbed range, described for blouses and softer structured pieces rather than gowns.",
       },
     ],
     related: ["habotai", "dupioni", "jacquard-luo", "stretch-silk"],
@@ -182,15 +182,15 @@ export const silkWeightGrades: SilkWeightGrade[] = [
     momme: 19,
     gsm: 82.46,
     weaves: ["Satin Silk", "Dupioni Silk", "Jacquard Luo Silk", "Silk Stretch Satin"],
-    title: "19 Momme Silk — Gown & Sleepwear Weight",
+    title: "19 Momme Silk: Gown & Sleepwear",
     description:
       "19 momme silk is 82.46 g/m². Standard Dupioni gown weight and top of sleepwear band in satin. 15.8% heavier than 22 momme.",
     h1: "19 Momme Silk Fabric: 82 g/m², the Weight Most Gowns and Sleepwear Are Cut From",
     answer:
-      "19 momme silk weighs 82.46 g/m². It is the standard weight for Dupioni gowns and bridal, and the top of the 16 to 19 satin band used for sleepwear and shirts. One metre at 140 cm weighs 0.1154 kg, at 114 cm 0.0940 kg.",
+      "19 momme silk weighs 82.46 g/m². It is the standard weight for Dupioni gowns and bridal, and the top of the 16 to 19 satin band used for sleepwear and shirts. One meter at 140 cm weighs 0.1154 kg, at 114 cm 0.0940 kg.",
     rows: [
-      { widthCm: 114, kgPerMetre: kg(19, 114) },
-      { widthCm: 140, kgPerMetre: kg(19, 140) },
+      { widthCm: 114, kgPerMeter: kg(19, 114) },
+      { widthCm: 140, kgPerMeter: kg(19, 140) },
     ],
     sections: [
       {
@@ -208,9 +208,9 @@ export const silkWeightGrades: SilkWeightGrade[] = [
         ],
       },
       {
-        h2: "What a running metre weighs at each width",
+        h2: "What a running meter weighs at each width",
         paragraphs: [
-          "At 140 cm, one metre of 19 momme is 0.1154 kg. At 114 cm it is 0.0940 kg. If a quotation is per metre, the width decides whether you are paying for 1.14 m² or 1.40 m² of cloth, and that difference is 22.8 per cent per square metre at the same headline price.",
+          "At 140 cm, one meter of 19 momme is 0.1154 kg. At 114 cm it is 0.0940 kg. If a quotation is per meter, the width decides whether you are paying for 1.14 m² or 1.40 m² of cloth, and that difference is 22.8 per cent per square meter at the same headline price.",
         ],
         table: {
           head: ["Weight", "g/m²", "114 cm", "140 cm"],
@@ -230,7 +230,7 @@ export const silkWeightGrades: SilkWeightGrade[] = [
       },
       {
         q: "How much heavier is 22 momme than 19 momme?",
-        a: "22 momme is 95.48 g/m² against 82.46 g/m² at 19, so it is 15.8 per cent heavier. On a 140 cm width that is 0.1337 kg per metre against 0.1154 kg.",
+        a: "22 momme is 95.48 g/m² against 82.46 g/m² at 19, so it is 15.8 per cent heavier. On a 140 cm width that is 0.1337 kg per meter against 0.1154 kg.",
       },
       {
         q: "Why do two 19 momme swatches feel so different?",
@@ -244,22 +244,22 @@ export const silkWeightGrades: SilkWeightGrade[] = [
     momme: 22,
     gsm: 95.48,
     weaves: ["Satin Silk", "Jacquard Luo Silk", "Silk Stretch Satin", "Georgette Silk"],
-    title: "22 Momme Silk — Bedding Standard Weight",
+    title: "22 Momme Silk: Bedding Standard",
     description:
-      "22 momme silk is 95.48 g/m². Standard high-end bedding weight. What 15.8% over 19 buys, greige vs finished, per-metre weight.",
+      "22 momme silk is 95.48 g/m². Standard high-end bedding weight. What 15.8% over 19 buys, greige vs finished, per-meter weight.",
     h1: "22 Momme Silk Fabric: 95 g/m², the Weight Bedding Is Specified At",
     answer:
-      "22 momme silk weighs 95.48 g/m². It sits in the 22 to 25 satin band used for high-end bedding, and it is 15.8 per cent heavier than 19 momme. One metre at 140 cm weighs 0.1337 kg, at 114 cm 0.1088 kg. Ask whether the figure is greige or finished before you compare.",
+      "22 momme silk weighs 95.48 g/m². It sits in the 22 to 25 satin band used for high-end bedding, and it is 15.8 per cent heavier than 19 momme. One meter at 140 cm weighs 0.1337 kg, at 114 cm 0.1088 kg. Ask whether the figure is greige or finished before you compare.",
     rows: [
-      { widthCm: 114, kgPerMetre: kg(22, 114) },
-      { widthCm: 140, kgPerMetre: kg(22, 140) },
+      { widthCm: 114, kgPerMeter: kg(22, 114) },
+      { widthCm: 140, kgPerMeter: kg(22, 140) },
     ],
     sections: [
       {
         h2: "The weight the bedding spec settles on",
         paragraphs: [
           "Satin Silk is published from 10 to 30 momme. The 16 to 19 band is what buyers order for sleepwear and shirts, and 22 to 25 is what they order for high-end bedding. 22 is therefore the entry to the bedding band rather than a middle option.",
-          "The reason is washing, not appearance. A pillowcase is washed far more often than a gown is worn, and each cycle removes a little fibre from a silk surface. At 95.48 g/m² there is more cloth to lose before the hand changes. At 82.46 g/m² the same number of cycles reaches that point sooner.",
+          "The reason is washing, not appearance. A pillowcase is washed far more often than a gown is worn, and each cycle removes a little fiber from a silk surface. At 95.48 g/m² there is more cloth to lose before the hand changes. At 82.46 g/m² the same number of cycles reaches that point sooner.",
         ],
       },
       {
@@ -270,9 +270,9 @@ export const silkWeightGrades: SilkWeightGrade[] = [
         ],
       },
       {
-        h2: "What a metre weighs, and why that is the number you ship on",
+        h2: "What a meter weighs, and why that is the number you ship on",
         paragraphs: [
-          "At 22 momme the cloth is 95.48 g/m²: 0.1088 kg per metre at 114 cm, 0.1337 kg at 140 cm. Bedding orders are often large enough that the difference between those two widths becomes a real freight and duty line, and both are calculated on weight rather than on length.",
+          "At 22 momme the cloth is 95.48 g/m²: 0.1088 kg per meter at 114 cm, 0.1337 kg at 140 cm. Bedding orders are often large enough that the difference between those two widths becomes a real freight and duty line, and both are calculated on weight rather than on length.",
         ],
         table: {
           head: ["Weight", "g/m²", "114 cm", "140 cm"],
@@ -288,7 +288,7 @@ export const silkWeightGrades: SilkWeightGrade[] = [
     faqs: [
       {
         q: "Why is 22 momme considered the bedding weight?",
-        a: "Because 22 to 25 momme is the satin band our buyers order for high-end bedding, while 16 to 19 is ordered for sleepwear and shirts. Bedding is washed far more often, and more cloth per square metre lasts longer before the hand changes.",
+        a: "Because 22 to 25 momme is the satin band our buyers order for high-end bedding, while 16 to 19 is ordered for sleepwear and shirts. Bedding is washed far more often, and more cloth per square meter lasts longer before the hand changes.",
       },
       {
         q: "Is the quoted 22 momme greige or finished?",
@@ -306,15 +306,15 @@ export const silkWeightGrades: SilkWeightGrade[] = [
     momme: 30,
     gsm: 130.20,
     weaves: ["Satin Silk", "Jacquard Luo Silk"],
-    title: "30 Momme Silk — Heaviest Weight (130 g/m²)",
+    title: "30 Momme Silk: Heaviest Weight",
     description:
-      "30 momme silk is 130.20 g/m², the heaviest in regular supply. Start of structured satin and jacquard luo. Per-metre weights at both widths.",
+      "30 momme silk is 130.20 g/m², the heaviest in regular supply. Start of structured satin and jacquard luo. Per-meter weights at both widths.",
     h1: "30 Momme Silk Fabric: 130 g/m², the Heaviest Weight in Regular Supply",
     answer:
-      "30 momme silk weighs 130.20 g/m². It is the top of the Satin Silk and Jacquard Luo Silk ranges, and past the 28 momme ceiling of Silk Stretch Satin. One metre at 140 cm weighs 0.1823 kg, at 114 cm 0.1484 kg. It is specified where the cloth has to hold a shape by itself.",
+      "30 momme silk weighs 130.20 g/m². It is the top of the Satin Silk and Jacquard Luo Silk ranges, and past the 28 momme ceiling of Silk Stretch Satin. One meter at 140 cm weighs 0.1823 kg, at 114 cm 0.1484 kg. It is specified where the cloth has to hold a shape by itself.",
     rows: [
-      { widthCm: 114, kgPerMetre: kg(30, 114) },
-      { widthCm: 140, kgPerMetre: kg(30, 140) },
+      { widthCm: 114, kgPerMeter: kg(30, 114) },
+      { widthCm: 140, kgPerMeter: kg(30, 140) },
     ],
     sections: [
       {
@@ -332,9 +332,9 @@ export const silkWeightGrades: SilkWeightGrade[] = [
         ],
       },
       {
-        h2: "Freight, duty and the per-metre figure",
+        h2: "Freight, duty and the per-meter figure",
         paragraphs: [
-          "At 130.20 g/m² one metre is 0.1484 kg at 114 cm and 0.1823 kg at 140 cm. On a structured piece the yield per garment is usually low and the offcuts are large, so the metres ordered run well ahead of the finished weight. Build the cost sheet from kilos against the width you actually cut, not from a per-kilogram figure that assumes no waste.",
+          "At 130.20 g/m² one meter is 0.1484 kg at 114 cm and 0.1823 kg at 140 cm. On a structured piece the yield per garment is usually low and the offcuts are large, so the meters ordered run well ahead of the finished weight. Build the cost sheet from kilos against the width you actually cut, not from a per-kilogram figure that assumes no waste.",
         ],
         table: {
           head: ["Weight", "g/m²", "114 cm", "140 cm"],

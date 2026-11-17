@@ -33,7 +33,7 @@ export const metadata: Metadata = {
       "Christopher Bu | Yizhou Silk & Fabrics Supplier",
     template: "%s | Christopher Bu",
   },
-  description: "Premium mulberry raw silk and greige fabric from Yizhou, China — B2B silk supplier with GOTS and OEKO-TEX certification.",
+  description: "Premium mulberry raw silk and greige fabric from Yizhou, China: B2B silk supplier with GOTS and OEKO-TEX certification.",
   keywords: [
     "mulberry silk yarn",
     "greige silk fabric",
@@ -98,10 +98,15 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${cormorant.variable} ${manrope.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <meta http-equiv="X-Content-Type-Options" content="nosniff" />
-        <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
-        <meta http-equiv="X-Frame-Options" content="SAMEORIGIN" />
-        <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()" />
+        {/*
+          Referrer-Policy is the only one of these that HTML can set, and only
+          through <meta name="referrer">. X-Frame-Options, X-Content-Type-Options
+          and Permissions-Policy are header-only: a <meta http-equiv> version is
+          ignored by browsers and Chrome logs a security warning, which costs
+          Best Practices points. GitHub Pages cannot set response headers, so
+          those three are left to a CDN layer if one is ever added.
+        */}
+        <meta name="referrer" content="strict-origin-when-cross-origin" />
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:absolute focus:left-3 focus:top-3 focus:z-[100] focus:bg-jade-deep focus:px-4 focus:py-2 focus:text-sm focus:text-ivory focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-gold"

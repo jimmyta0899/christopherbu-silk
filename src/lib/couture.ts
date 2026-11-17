@@ -36,7 +36,7 @@ export const coutureLooks: CoutureLook[] = [
     slug: "porcelain-embroidery-gown",
     name: "Porcelain Embroidery Mermaid Gown",
     detail:
-      "An ivory mermaid gown hand-embroidered with multicoloured florals, butterflies and green scalloped edging — a study in how fine mulberry silk carries dense hand embroidery through a sculptural fishtail silhouette.",
+      "An ivory mermaid gown hand-embroidered with multicolored florals, butterflies and green scalloped edging, a study in how fine mulberry silk carries dense hand embroidery through a sculptural fishtail silhouette.",
     image: "porcelain-embroidery-gown.webp",
   },
 ];

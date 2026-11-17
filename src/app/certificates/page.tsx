@@ -6,7 +6,7 @@ import { Footer } from "@/components/Footer";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Certifications — GOTS, OEKO-TEX, China Organic | Christopher Bu",
+  title: "Certifications: GOTS, OEKO-TEX, Organic",
   description:
     "Yizhou local mill certified to GOTS, OEKO-TEX 100 Class II, China Organic and quality systems. Prop 65 and EU compliance reviewed before approval.",
   keywords: [
@@ -56,7 +56,7 @@ export default function CertificatesPage() {
             </h2>
             <p className="mt-3 text-sm leading-relaxed text-ink-soft">
               Covers the organic status and processing of our mulberry silk,
-              from fibre to finished fabric — including 100% organic silk
+              from fiber to finished fabric, including 100% organic silk
               processed through boiling, pre-treatment, spinning and weaving,
               supplied as raw silk, greige yarns and greige fabrics.
             </p>
@@ -111,7 +111,7 @@ export default function CertificatesPage() {
             Verify with the issuing authority
           </h2>
           <p className="mt-3 text-sm leading-relaxed text-ink-soft">
-            Certificate and licence numbers are provided on the written
+            Certificate and license numbers are provided on the written
             quotation and shipping documents. You can verify the standard body
             directly:
           </p>
@@ -134,9 +134,9 @@ export default function CertificatesPage() {
                 rel="noopener noreferrer"
                 className="text-jade hover:underline"
               >
-                GOTS public licence database
+                GOTS public license database
               </a>{" "}
-              — look up a GOTS licence by company or licence number.
+              to look up a GOTS license by company or license number.
             </li>
             <li>
               Raw silk grading follows <strong>GB/T 1797-2008</strong> (Chinese

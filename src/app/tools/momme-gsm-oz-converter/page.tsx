@@ -15,7 +15,7 @@ import { MommeConverter } from "./Converter";
 const UPDATED = "2026-11-14";
 
 export const metadata: Metadata = {
-  title: "Momme to GSM Converter — Silk | Christopher Bu",
+  title: "Momme to GSM Converter",
   description:
     "Convert momme to g/m² and oz/yd² instantly: 1 momme = 4.34 g/m², so 19 momme is 82.5 g/m². Three-way converter plus the full silk weight ladder by weave.",
   keywords: [
@@ -39,8 +39,8 @@ const faq = [
     a: "19 momme is 82.5 g/m² (19 × 4.34). It is the standard weight for silk satin and pillowcases: heavy enough to be opaque in a garment, light enough to drape. For comparison, 16 momme is 69.4 g/m² and 22 momme is 95.5 g/m².",
   },
   {
-    q: "Is momme the same as millimetres?",
-    a: "No. Momme is abbreviated mm in the trade, but it measures weight, not thickness — 19 momme silk is not 19 millimetres thick. One momme is 4.340 g/m², defined historically as the weight in pounds of a piece of silk 45 inches wide and 100 yards long.",
+    q: "Is momme the same as millimeters?",
+    a: "No. Momme is abbreviated mm in the trade, but it measures weight, not thickness: 19 momme silk is not 19 millimeters thick. One momme is 4.340 g/m², defined historically as the weight in pounds of a piece of silk 45 inches wide and 100 yards long.",
   },
   {
     q: "Why do two suppliers quote different g/m² for the same momme?",
@@ -48,7 +48,7 @@ const faq = [
   },
   {
     q: "How do I measure momme without a lab?",
-    a: "Weigh one metre of fabric in grams on a kitchen scale, divide by the width in metres to get g/m², then divide by 4.34. A metre of 137 cm silk weighing 112 g is 112 ÷ 1.37 = 82 g/m², which is 82 ÷ 4.34 ≈ 19 momme.",
+    a: "Weigh one meter of fabric in grams on a kitchen scale, divide by the width in meters to get g/m², then divide by 4.34. A meter of 137 cm silk weighing 112 g is 112 ÷ 1.37 = 82 g/m², which is 82 ÷ 4.34 ≈ 19 momme.",
   },
   {
     q: "Is a higher momme always better?",
@@ -72,7 +72,7 @@ const related = [
   {
     href: "/tools/silk-order-weight-calculator",
     label: "Order weight calculator",
-    note: "Turn metres and momme into kilograms",
+    note: "Turn meters and momme into kilograms",
   },
 ];
 
@@ -113,7 +113,7 @@ export default function MommeConverterPage() {
 
       <ToolShell
         h1="Momme to GSM Converter"
-        answer="Multiply momme by 4.34 to get grams per square metre: 19 momme is 82.5 g/m², 22 momme is 95.5 g/m² and 30 momme is 130 g/m². Divide g/m² by 33.906 for ounces per square yard. Momme is a weight, not a thickness."
+        answer="Multiply momme by 4.34 to get grams per square meter: 19 momme is 82.5 g/m², 22 momme is 95.5 g/m² and 30 momme is 130 g/m². Divide g/m² by 33.906 for ounces per square yard. Momme is a weight, not a thickness."
         updated={UPDATED}
         methodSources={[
           {
@@ -141,7 +141,7 @@ export default function MommeConverterPage() {
               45 in × 100 yd is 104.5 m², and one pound is 453.6 g, so
               453.6 ÷ 104.5 gives 4.340 g/m² per momme. The name comes from the
               Japanese <em>monme</em>, a unit of mass fixed at 3.75 g — which is
-              why momme and millimetres share the abbreviation but measure
+              why momme and millimeters share the abbreviation but measure
               different things entirely.
             </p>
             <p>

@@ -44,7 +44,7 @@ export const products: Product[] = [
     slug: "raw-silk",
     name: "Raw Silk Yarn",
     title:
-      "Raw Silk Yarn — 20/22D, Dupion & Organic",
+      "Raw Silk Yarn: 20/22D, Dupion & Organic",
     h1: "Raw Silk Yarn: 20/22D, Dupion, Luxury & Organic Silk",
     metaDescription:
       "Raw silk yarn from Yizhou in four varieties: 20/22D white, natural dupion, 1-ply luxury and GOTS organic. For weaving, knitting, embroidery. B2B bulk.",
@@ -70,7 +70,7 @@ export const products: Product[] = [
     ],
     body: [
       "As a Yizhou raw silk supplier, we ship mulberry raw silk yarn — also called filature silk or white raw silk — directly to weaving and knitting mills and textile manufacturers worldwide. We stock four varieties of raw silk yarn, so you can source the exact yarn your production needs from a single supplier: 20/22 denier white raw silk, natural dupion silk yarn, luxury silk yarn and GOTS-certified organic silk.",
-      "Raw silk begins with the Bombyx mori silkworm, which feeds only on mulberry leaves and spins a single continuous filament. Each cocoon is boiled to soften the sericin gum, then carefully unwound into a thread of 600 to 900 metres. Multiple filaments are then twisted together into the strong, even yarn we ship — which is why raw silk is measured in denier (20/22D), not momme like woven cloth.",
+      "Raw silk begins with the Bombyx mori silkworm, which feeds only on mulberry leaves and spins a single continuous filament. Each cocoon is boiled to soften the sericin gum, then carefully unwound into a thread of 600 to 900 meters. Multiple filaments are then twisted together into the strong, even yarn we ship, which is why raw silk is measured in denier (20/22D), not momme like woven cloth.",
       "If you are a fashion designer or brand sourcing raw silk for weaving, hand and evenness are what separate a smooth production run from a costly one. Silk is prized for its high breathability, natural moisture-wicking and surprising strength, with low elasticity and little tendency to pill. Our raw silk yarn export from China is produced to GB/T 1797-2008, with moisture controlled below 11% and packaging sized for containerised, export-ready bales.",
     ],
     image: "/products/raw-silk-20-22d.webp",
@@ -120,7 +120,7 @@ export const products: Product[] = [
       },
       {
         q: "How is raw silk made?",
-        a: "Raw silk comes from the Bombyx mori silkworm, which feeds on mulberry leaves and spins a single continuous filament. Each cocoon is boiled to soften the sericin gum, then unwound into a thread of 600–900 metres. Several filaments are twisted together into the strong, even yarn that is wound and shipped.",
+        a: "Raw silk comes from the Bombyx mori silkworm, which feeds on mulberry leaves and spins a single continuous filament. Each cocoon is boiled to soften the sericin gum, then unwound into a thread of 600–900 meters. Several filaments are twisted together into the strong, even yarn that is wound and shipped.",
       },
       {
         q: "What is the difference between denier and momme?",
@@ -210,10 +210,10 @@ export const products: Product[] = [
     slug: "greige-fabric",
     name: "Greige Silk Fabric",
     title:
-      "Greige Silk Fabric — Undyed Mulberry",
+      "Greige Silk Fabric: Undyed Mulberry",
     h1: "Greige Silk Fabric (Undyed, Unfinished)",
     metaDescription:
-      "Greige (undyed, unfinished) mulberry silk from Yizhou — cloth before dyeing or finishing, by base weave. Bulk supply; OEKO-TEX & GOTS on request.",
+      "Greige (undyed, unfinished) mulberry silk from Yizhou: cloth before dyeing or finishing, by base weave. Bulk supply; OEKO-TEX & GOTS on request.",
     introAnswer:
       "Greige silk fabric is undyed, unfinished mulberry silk straight off the loom — a state, not a variety. Its momme follows the base weave you choose, so we quote it to your weave and specification.",
     category: "greige-fabric",
@@ -269,7 +269,7 @@ export const products: Product[] = [
     slug: "satin",
     name: "Satin Silk Fabric",
     title:
-      "Satin Silk Fabric — Bridal & Eveningwear",
+      "Satin Silk Fabric: Bridal & Eveningwear",
     h1: "Satin Silk Fabric for Bridal & Eveningwear",
     metaDescription:
       "Satin silk from Yizhou: 10–30 momme, 114/140 cm, greige or dyed to order. For bridal, eveningwear and luxury linings. B2B bulk supply.",
@@ -338,10 +338,10 @@ export const products: Product[] = [
     slug: "jacquard-luo",
     name: "Jacquard Luo Silk",
     title:
-      "Jacquard Luo Silk — Custom Woven Motifs",
+      "Jacquard Luo Silk: Custom Motifs",
     h1: "Jacquard Luo Silk for Couture & Occasionwear",
     metaDescription:
-      "Jacquard luo silk from Yizhou — motifs woven into mulberry cloth on jacquard looms. Custom pattern development for couture and occasionwear. B2B.",
+      "Jacquard luo silk from Yizhou: motifs woven into mulberry cloth on jacquard looms. Custom pattern development for couture and occasionwear. B2B.",
     introAnswer:
       "Jacquard luo is a mulberry silk with motifs woven directly into the cloth on a jacquard loom, supplied greige or dyed to order, with custom pattern development for couture and occasionwear.",
     category: "jacquard-luo",
@@ -405,7 +405,7 @@ export const products: Product[] = [
     slug: "georgette",
     name: "Georgette Silk",
     title:
-      "Georgette Silk — Scarves & Flowing Garments",
+      "Georgette Silk: Scarves & Garments",
     h1: "Georgette Silk for Scarves & Flowing Garments",
     metaDescription:
       "Georgette silk from Yizhou: sheer crinkled mulberry, 8–16 momme, 114/140 cm. For scarves, summer wear and flowing dresses. B2B bulk supply.",
@@ -468,7 +468,7 @@ export const products: Product[] = [
     slug: "habotai",
     name: "Habotai Silk",
     title:
-      "Habotai (Pongee) Silk — Linings & Shirts",
+      "Habotai Silk: Linings & Shirts",
     h1: "Habotai Silk for Linings & Light Shirts",
     metaDescription:
       "Habotai (pongee/China silk) from Yizhou: 6–16 momme plain-weave mulberry, 114 cm, crisp hand. For linings, scarves, light shirts. B2B bulk supply.",
@@ -541,7 +541,7 @@ export const products: Product[] = [
     slug: "stretch-silk",
     name: "Silk Stretch Satin",
     title:
-      "Silk Stretch Satin — 14–28mm, 140cm",
+      "Silk Stretch Satin: 14 to 28mm, 140cm",
     h1: "Silk Stretch Satin for Comfort & Fit",
     metaDescription:
       "Stretch satin from Yizhou: mulberry-spandex satin weave, 14–28 momme, 140 cm, comfort stretch. Luminous face for bridal and eveningwear. B2B.",
@@ -605,7 +605,7 @@ export const products: Product[] = [
     slug: "blended-silk",
     name: "Silk Blend (Silk-Cotton / Silk-Linen)",
     title:
-      "Silk Blend — Silk-Cotton & Silk-Linen",
+      "Silk Blend: Silk-Cotton & Silk-Linen",
     h1: "Silk Blend (Silk-Cotton / Silk-Linen)",
     metaDescription:
       "Blended silk from Yizhou: silk-cotton and silk-linen weaves, 114/140 cm. Cotton or linen comfort with silk's sheen. For shirts and summer wear. B2B.",
@@ -676,7 +676,7 @@ export const products: Product[] = [
     slug: "dupioni",
     name: "Dupioni Silk",
     title:
-      "Greige Silk Dupioni — Gowns & Tailoring",
+      "Greige Silk Dupioni: Gowns & Tailoring",
     h1: "Dupioni Silk for Gowns & Sculptural Tailoring",
     metaDescription:
       "Dupioni silk with signature slub texture from Yizhou: 16/19 momme (up to 22), 114/140 cm. For evening gowns, bridal and structured couture. B2B.",
@@ -701,7 +701,7 @@ export const products: Product[] = [
     body: [
       "Silk dupioni is a tightly woven, crisp silk fabric made by pairing a fine standard silk yarn in the warp with an uneven yarn reeled from two or more entangled cocoons in the weft. Those double-cocoon threads — called dupion threads — are thicker and more irregular than standard silk, and that is exactly what creates dupioni's signature look: bold, prominent slubs running across the grain, exceptional body, and a stiff, sculptural drape. The name appears in several spellings across the trade — dupioni, douppioni, doupion, dupion and doppione — and all refer to the same fabric.",
       "Dupioni is prized for evening wear, bridal gowns and special-occasion garments, as well as light home decorating. Because the weft and warp are often woven in different colors, it carries a natural two-tone iridescence that shifts as the fabric catches light — a subtle luxury that solid-dyed silks cannot match.",
-      "Traditional, high-quality dupioni is hand-woven, which adds to its characteristic irregularity and heavier weight; more affordable versions are now machine-woven. The white Thai-style silk is a natural fibre, so a finished piece may carry minor variations and irregularities in the weave. These are a mark of a fine silk yarn, not defects, and should not be treated as such.",
+      "Traditional, high-quality dupioni is hand-woven, which adds to its characteristic irregularity and heavier weight; more affordable versions are now machine-woven. The white Thai-style silk is a natural fiber, so a finished piece may carry minor variations and irregularities in the weave. These are a mark of a fine silk yarn, not defects, and should not be treated as such.",
       "We supply 19 momme dupioni — the most-requested weight for gowns and bridal — alongside a 16 momme option in 114 and 140 cm widths, with heavier 21–22 momme available on request. As a Yizhou dupioni supplier, we ship greige as standard, or dyed to order from a standard shade card or your custom color, with shrinkage around 5% accounted for in cutting.",
     ],
     image: "/products/dupioni2.webp",

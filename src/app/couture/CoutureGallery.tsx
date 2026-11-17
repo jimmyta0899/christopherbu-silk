@@ -90,7 +90,7 @@ export function CoutureGallery() {
               className={`shrink-0 border-2 transition-all ${
                 i === active ? "border-jade" : "border-transparent opacity-50 hover:opacity-90"
               }`}
-              aria-label={`Go to look ${i + 1}`}
+              aria-label={`View look ${i + 1} of ${total}: ${look.name}`}
             >
               <img
                 src={`/couture/${look.image}`}
@@ -175,11 +175,11 @@ export function CoutureGallery() {
           >
             <img
               src={`/couture/${coutureLooks[lightbox].image}`}
-              alt={`${coutureLooks[lightbox].name} — Christopher Bu couture inspiration`}
+              alt={`${coutureLooks[lightbox].name}: Christopher Bu couture inspiration`}
               className="max-h-[84vh] max-w-[92vw] object-contain"
             />
             <figcaption className="mt-3 text-center text-sm text-white/80">
-              {coutureLooks[lightbox].name} — Look {lightbox + 1} of {total}
+              {coutureLooks[lightbox].name}: Look {lightbox + 1} of {total}
             </figcaption>
           </figure>
         </div>

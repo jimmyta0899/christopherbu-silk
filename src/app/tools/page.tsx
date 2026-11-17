@@ -11,7 +11,7 @@ const UPDATED = "2026-11-14";
 export const metadata: Metadata = {
   title: "Silk Calculators & Conversion Tools (B2B)",
   description:
-    "Four working silk calculators: momme to g/m², yarn count between denier and tex, order weight from metres to kilograms, and a nine-weave comparison chart.",
+    "Four working silk calculators: momme to g/m², yarn count between denier and tex, order weight from meters to kilograms, and a nine-weave comparison chart.",
   keywords: [
     "silk calculator",
     "silk conversion tools",
@@ -42,7 +42,7 @@ const TOOLS = [
     href: "/tools/silk-order-weight-calculator",
     name: "Order weight calculator",
     answer:
-      "Turn garments, metres per garment, width and momme into order kilograms — with a wastage allowance.",
+      "Turn garments, meters per garment, width and momme into order kilograms, with a wastage allowance.",
     detail: "Silk is quoted per kg",
   },
   {
@@ -95,14 +95,14 @@ export default function ToolsIndexPage() {
         </h1>
 
         <AnswerBlock
-          answer="Four calculators for the conversions that come up in silk sourcing: momme to g/m² and ounces, denier to tex and Nm, metres of fabric to order kilograms, and a nine-weave specification chart. Every formula is published on the page with its source."
+          answer="Four calculators for the conversions that come up in silk sourcing: momme to g/m² and ounces, denier to tex and Nm, meters of fabric to order kilograms, and a nine-weave specification chart. Every formula is published on the page with its source."
           updated={UPDATED}
         />
 
         <p className="mt-8 max-w-2xl text-base leading-relaxed text-ink">
           These exist because the same conversation keeps recurring: a buyer
           receives a weight in g/m² but their pattern room speaks momme, or a
-          purchase order is written in metres while the quotation is priced per
+          purchase order is written in meters while the quotation is priced per
           kilogram. Each tool does one conversion, shows the arithmetic, and
           says where the number stops being reliable.
         </p>
@@ -133,7 +133,7 @@ export default function ToolsIndexPage() {
           </h2>
           <p className="mt-2 max-w-2xl text-sm leading-relaxed text-ink-soft">
             There is no price estimator here. Silk is quoted against a
-            specification — grade, weight, width, colour route and quantity —
+            specification (grade, weight, width, color route and quantity),
             so any published price would be accurate for one combination and
             misleading for every other. What we publish is the basis: the
             weight maths above, and a quotation that states its own terms.

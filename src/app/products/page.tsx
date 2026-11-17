@@ -7,7 +7,7 @@ import { products } from "@/lib/products";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Silk Products — Raw Silk, Greige, Dupioni, Satin & Jacquard",
+  title: "Silk Products: Raw Silk, Satin, Dupioni",
   description:
     "B2B range from Yizhou: mulberry raw silk (20/22D, dupion, luxury, GOTS), greige, dupioni, satin, jacquard luo, georgette, habotai, stretch & blended.",
   alternates: { canonical: "/products" },

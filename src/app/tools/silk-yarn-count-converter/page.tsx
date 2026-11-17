@@ -10,7 +10,7 @@ import { YarnCountConverter } from "./Converter";
 const UPDATED = "2026-11-14";
 
 export const metadata: Metadata = {
-  title: "Silk Yarn Count Converter — Denier, Tex, dtex | Christopher Bu",
+  title: "Silk Yarn Count Converter",
   description:
     "Convert silk yarn counts between denier, tex, dtex, Nm and Ne. 20/22D is 2.3 tex and about 435 Nm. Formulas, a reference table and the ISO/ASTM basis.",
   keywords: [
@@ -37,7 +37,7 @@ const faq = [
   },
   {
     q: "Why is silk measured in denier and cloth measured in momme?",
-    a: "They answer different questions. Denier weighs yarn (grams per 9,000 m), so it describes the filament you buy on a cone. Momme weighs woven cloth (grams per square metre), so it describes the fabric you buy on a roll. One does not convert into the other without knowing the weave density.",
+    a: "They answer different questions. Denier weighs yarn (grams per 9,000 m), so it describes the filament you buy on a cone. Momme weighs woven cloth (grams per square meter), so it describes the fabric you buy on a roll. One does not convert into the other without knowing the weave density.",
   },
   {
     q: "Does a higher denier mean better silk?",
@@ -152,7 +152,7 @@ export default function YarnCountPage() {
             <ul className="list-disc space-y-1 pl-5">
               <li>tex = denier ÷ 9 (denier is g/9,000 m; tex is g/1,000 m)</li>
               <li>dtex = tex × 10</li>
-              <li>Nm = 1,000 ÷ tex (metres per gram)</li>
+              <li>Nm = 1,000 ÷ tex (meters per gram)</li>
               <li>Ne = 590.5 ÷ tex (840-yard hanks per pound)</li>
               <li>Nm ≈ Ne × 1.693</li>
             </ul>

@@ -160,16 +160,16 @@ export const MOMME_REFERENCE: {
 ];
 
 /**
- * Order weight maths: fabric is quoted per metre while freight, duty and any
+ * Order weight maths: fabric is quoted per meter while freight, duty and any
  * raw-silk component run on weight, so the bridge between the two is fabric
- * weight. metres × width × gsm / 1000 = kg.
+ * weight. meters × width × gsm / 1000 = kg.
  */
 export type OrderWeightInput = {
-  /** Metres of fabric per garment (from the pattern room). */
-  metresPerGarment: number;
+  /** Meters of fabric per garment (from the pattern room). */
+  metersPerGarment: number;
   /** Number of garments in the order. */
   quantity: number;
-  /** Fabric width in centimetres. */
+  /** Fabric width in centimeters. */
   widthCm: number;
   /** Fabric weight in momme. */
   momme: number;
@@ -178,8 +178,8 @@ export type OrderWeightInput = {
 };
 
 export type OrderWeightResult = {
-  metresPerGarmentWithWastage: number;
-  totalMetres: number;
+  metersPerGarmentWithWastage: number;
+  totalMeters: number;
   gsm: number;
   totalKg: number;
   kgPerGarment: number;
@@ -187,16 +187,16 @@ export type OrderWeightResult = {
 
 export function orderWeight(input: OrderWeightInput): OrderWeightResult {
   const wastageFactor = 1 + input.wastagePct / 100;
-  const metresPerGarmentWithWastage = input.metresPerGarment * wastageFactor;
-  const totalMetres = metresPerGarmentWithWastage * input.quantity;
+  const metersPerGarmentWithWastage = input.metersPerGarment * wastageFactor;
+  const totalMeters = metersPerGarmentWithWastage * input.quantity;
   const gsm = mommeToGsm(input.momme);
   const widthM = input.widthCm / 100;
-  const totalKg = (totalMetres * widthM * gsm) / 1000;
+  const totalKg = (totalMeters * widthM * gsm) / 1000;
   const kgPerGarment =
     input.quantity > 0 ? totalKg / input.quantity : 0;
   return {
-    metresPerGarmentWithWastage,
-    totalMetres,
+    metersPerGarmentWithWastage,
+    totalMeters,
     gsm,
     totalKg,
     kgPerGarment,

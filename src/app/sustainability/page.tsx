@@ -5,7 +5,7 @@ import { Footer } from "@/components/Footer";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Sustainability & Traceability — OEKO-TEX & GOTS | Christopher Bu",
+  title: "Sustainability & Traceability",
   description:
     "Christopher Bu × Yizhou Silk supplies traceable mulberry raw silk and greige fabric; OEKO-TEX 100 and GOTS available from local mills on request.",
   keywords: [

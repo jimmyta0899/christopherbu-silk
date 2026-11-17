@@ -10,8 +10,8 @@ import { silkWeightGrades } from "@/lib/silk-weight";
 const UPDATED = "2026-11-15";
 
 export const metadata: Metadata = {
-  title: "Silk Weight Ladder: 6–30 Momme Compared | Christopher Bu",
-  description: "Five momme grades: which weaves reach each weight, weight per metre at 114/140 cm, and buying decisions.",
+  title: "Silk Weight Ladder: 6 to 30 Momme",
+  description: "Five momme grades: which weaves reach each weight, weight per meter at 114/140 cm, and buying decisions.",
   keywords: [
     "silk weight chart",
     "19 momme silk",
@@ -65,7 +65,7 @@ export default function SilkWeightIndex() {
         <p className="mt-4 text-sm text-ink-muted">Last checked {UPDATED}</p>
 
         <AnswerBlock
-          answer="Momme is the weight of woven silk in g/m², and one momme is 4.340 g/m². These five pages cover the weights our range is actually specified at, each with the weaves that reach it and the weight of one running metre at 114 and 140 cm."
+          answer="Momme is the weight of woven silk in g/m², and one momme is 4.340 g/m². These five pages cover the weights our range is actually specified at, each with the weaves that reach it and the weight of one running meter at 114 and 140 cm."
           label="Quick answer"
           updated={UPDATED}
         />
@@ -75,7 +75,7 @@ export default function SilkWeightIndex() {
           momme and behave nothing alike, because momme measures mass per area and
           says nothing about construction. So each page below leads with the facts
           that belong to that weight only: which weaves are published at it,
-          the weight of a running metre at each standard width, and the buying
+          the weight of a running meter at each standard width, and the buying
           question the weight settles. If you want the unit itself explained,
           including why a greige figure and a finished figure are different
           numbers, start with the{" "}
@@ -89,7 +89,7 @@ export default function SilkWeightIndex() {
           <table className="w-full min-w-[640px] border-collapse text-left text-sm">
             <caption className="pb-3 text-xs text-ink-muted">
               The five weights in regular supply, as g/m² and as the weight of one
-              running metre at each standard width. Derived from 1 momme = 4.340
+              running meter at each standard width. Derived from 1 momme = 4.340
               g/m²; widths per published product specifications.
             </caption>
             <thead>
@@ -127,10 +127,10 @@ export default function SilkWeightIndex() {
                     </td>
                     <td className="py-3 pr-4">{g.gsm.toFixed(2)}</td>
                     <td className="py-3 pr-4">
-                      {at114 ? `${at114.kgPerMetre.toFixed(4)} kg` : "not woven"}
+                      {at114 ? `${at114.kgPerMeter.toFixed(4)} kg` : "not woven"}
                     </td>
                     <td className="py-3 pr-4">
-                      {at140 ? `${at140.kgPerMetre.toFixed(4)} kg` : "not woven"}
+                      {at140 ? `${at140.kgPerMeter.toFixed(4)} kg` : "not woven"}
                     </td>
                     <td className="py-3 text-xs text-ink-soft">
                       {g.weaves.join(", ")}
@@ -165,9 +165,9 @@ export default function SilkWeightIndex() {
             Turning a weight into an order quantity
           </h2>
           <p className="mt-3 max-w-3xl text-sm leading-relaxed text-ink-soft">
-            Fabric is quoted per metre or per yard, and only raw silk yarn is sold
+            Fabric is quoted per meter or per yard, and only raw silk yarn is sold
             by weight. The moment a shipment crosses a border, though, the charge
-            is calculated on kilograms, so the per-metre figures above are what a
+            is calculated on kilograms, so the per-meter figures above are what a
             cost sheet needs. Two tools do the arithmetic:
           </p>
           <ul className="mt-4 flex flex-wrap gap-3 text-sm">

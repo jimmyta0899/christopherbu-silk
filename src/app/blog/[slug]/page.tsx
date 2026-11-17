@@ -419,7 +419,7 @@ export default async function BlogPostPage({ params }: Props) {
             </h2>
             <p className="mt-2 text-sm leading-relaxed text-ink-soft">
               Greige or dyed to order from a standard shade card, with custom
-              colour matching available. Tell us your fabric, quantity and
+              color matching available. Tell us your fabric, quantity and
               destination and our B2B team will reply with a tailored quotation.
             </p>
             <div className="mt-5 flex flex-wrap items-center gap-3">

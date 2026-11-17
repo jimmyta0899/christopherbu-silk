@@ -6,7 +6,7 @@ import { Footer } from "@/components/Footer";
 import { AnswerBlock } from "@/components/AnswerBlock";
 
 export const metadata: Metadata = {
-  title: "Services — Private Label & Custom Silk | Christopher Bu",
+  title: "Services: Private Label & Custom Silk",
   description:
     "Custom mulberry silk supply from Yizhou, China: private-label OEM, custom width, color and pattern development, and full QC for global B2B buyers.",
   keywords: [
@@ -144,7 +144,7 @@ export default function ServicesPage() {
 
         <AnswerBlock
           label="The short version"
-          answer="Christopher Bu runs private-label OEM across nine silk categories: custom width, greige or dyed to order, jacquard motifs from about 200 metres, and 5 to 40 momme. There is no universal MOQ — trial rolls are reviewed per material and mill schedule, and 15–25 working days is a planning estimate, not a promise."
+          answer="Christopher Bu runs private-label OEM across nine silk categories: custom width, greige or dyed to order, jacquard motifs from about 200 meters, and 5 to 40 momme. There is no universal MOQ: trial rolls are reviewed per material and mill schedule, and 15–25 working days is a planning estimate, not a promise."
         />
 
         {/* 服务对象 */}

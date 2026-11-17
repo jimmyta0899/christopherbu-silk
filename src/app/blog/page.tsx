@@ -7,7 +7,7 @@ import { blogPosts } from "@/lib/blog";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Blog — Sourcing Silk from Yizhou",
+  title: "Blog: Sourcing Silk from Yizhou",
   description:
     "Practical guides on sourcing mulberry silk from Yizhou, China: lead times, MOQs, export terms, silk specs and the couture jacquard process.",
   alternates: { canonical: "/blog" },

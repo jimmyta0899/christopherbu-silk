@@ -35,7 +35,7 @@ export async function generateMetadata({
   const slug = season.toUpperCase();
   const target = `${siteConfig.url}/rtw/${slug}/`;
   return {
-    title: `Archive moved — ${slug}`,
+    title: `Archive moved: ${slug}`,
     description: `The ${slug} silhouette archive now lives at ${target}`,
     alternates: { canonical: target },
   };

@@ -3,11 +3,11 @@
 import { useMemo, useState } from "react";
 import { mommeToGsm, orderWeight } from "@/lib/silk-units";
 
-type Field = "quantity" | "metres" | "width" | "momme" | "wastage";
+type Field = "quantity" | "meters" | "width" | "momme" | "wastage";
 
 const DEFAULTS: Record<Field, string> = {
   quantity: "500",
-  metres: "2.4",
+  meters: "2.4",
   width: "140",
   momme: "19",
   wastage: "12",
@@ -24,9 +24,9 @@ function num(value: string, fallback: number): number {
 /**
  * Order weight calculator.
  *
- * The gap this closes: fabric is quoted per metre, but freight, duty and any
+ * The gap this closes: fabric is quoted per meter, but freight, duty and any
  * raw-silk component run on weight, so a purchase order has to be translated
- * before two quotations can be compared on one basis. metres × width(m) ×
+ * before two quotations can be compared on one basis. meters × width(m) ×
  * g/m² ÷ 1000 is the whole of the maths — the tool exists to stop that being
  * done in a spreadsheet with a mistyped width.
  */
@@ -40,16 +40,16 @@ export function OrderWeightCalculator() {
 
   const result = useMemo(() => {
     const quantity = num(values.quantity, 0);
-    const metres = num(values.metres, 0);
+    const meters = num(values.meters, 0);
     const widthCm = num(values.width, 0);
     const momme = num(values.momme, 0);
     const wastage = num(values.wastage, 0);
 
-    if (quantity <= 0 || metres <= 0 || widthCm <= 0 || momme <= 0) return null;
+    if (quantity <= 0 || meters <= 0 || widthCm <= 0 || momme <= 0) return null;
 
     return orderWeight({
       quantity,
-      metresPerGarment: metres,
+      metersPerGarment: meters,
       widthCm,
       momme,
       wastagePct: wastage,
@@ -99,7 +99,7 @@ export function OrderWeightCalculator() {
       <div className="grid gap-5 sm:grid-cols-2">
         {input("quantity", "Garments in the order", "pcs", "1")}
         {input(
-          "metres",
+          "meters",
           "Fabric per garment",
           "m",
           "0.05",
@@ -165,10 +165,10 @@ export function OrderWeightCalculator() {
                 Total fabric
               </p>
               <p className="mt-1 text-2xl font-medium tabular-nums text-jade-deep">
-                {result.totalMetres.toFixed(0)} m
+                {result.totalMeters.toFixed(0)} m
               </p>
               <p className="mt-1 text-xs text-ink-muted">
-                {result.metresPerGarmentWithWastage.toFixed(2)} m per garment
+                {result.metersPerGarmentWithWastage.toFixed(2)} m per garment
                 including wastage
               </p>
             </div>

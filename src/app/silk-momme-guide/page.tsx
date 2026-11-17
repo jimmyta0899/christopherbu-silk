@@ -48,7 +48,7 @@ const sources: HubSource[] = [
 
 export const metadata: Metadata = {
   title:
-    "Silk Momme Guide: What Momme Measures and the Degumming Gap",
+    "Silk Momme Guide: What Momme Measures",
   description:
     "Momme is weight (1 mm = 4.34 g/m²); a greige-cloth momme overstates finished weight by 22–28%. Conversion table, use-case bands, five supplier questions.",
   keywords: [
@@ -120,7 +120,7 @@ const skuWeights = [
 const faqs: HubFaq[] = [
   {
     q: "What does momme mean in silk?",
-    a: "Momme (mm) is a Japanese weight unit used for silk cloth. One momme equals 4.34 grams per square metre, so a 19 momme satin weighs roughly 82 g/m². It is a measure of the woven cloth, not of the fibre quality: grade (4A, 5A, 6A) describes the filament, momme describes the fabric.",
+    a: "Momme (mm) is a Japanese weight unit used for silk cloth. One momme equals 4.34 grams per square meter, so a 19 momme satin weighs roughly 82 g/m². It is a measure of the woven cloth, not of the fiber quality: grade (4A, 5A, 6A) describes the filament, momme describes the fabric.",
   },
   {
     q: "What is 22 momme silk used for?",
@@ -132,7 +132,7 @@ const faqs: HubFaq[] = [
   },
   {
     q: "Is higher momme always better?",
-    a: "No. Momme is a fit question before it is a quality question. A 30 momme satin makes a poor scarf because it will not knot; a 6 momme habotai makes a poor ball gown because it will not hold a seam. Higher momme costs more because it uses more silk per square metre, which is a price fact, not a quality verdict.",
+    a: "No. Momme is a fit question before it is a quality question. A 30 momme satin makes a poor scarf because it will not knot; a 6 momme habotai makes a poor ball gown because it will not hold a seam. Higher momme costs more because it uses more silk per square meter, which is a price fact, not a quality verdict.",
   },
   {
     q: "How do I convert momme to GSM?",
@@ -144,7 +144,7 @@ const faqs: HubFaq[] = [
   },
   {
     q: "What should I ask a supplier about momme?",
-    a: "Five things. Whether the figure is measured on greige or finished cloth. The tolerance band rather than a single number. The test method used. Whether the figure holds after dyeing. And what the width is, since momme and width are usually quoted together and a narrow roll at the same momme costs more per running metre.",
+    a: "Five things. Whether the figure is measured on greige or finished cloth. The tolerance band rather than a single number. The test method used. Whether the figure holds after dyeing. And what the width is, since momme and width are usually quoted together and a narrow roll at the same momme costs more per running meter.",
   },
 ];
 
@@ -225,7 +225,7 @@ export default function SilkMommeGuidePage() {
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
             <strong>Momme</strong> is a weight unit for silk cloth: one momme is
-            4.34 grams per square metre, so the unit itself never varies between
+            4.34 grams per square meter, so the unit itself never varies between
             suppliers. <strong>Sericin</strong> is the gum protein that binds the
             two fibroin filaments in a cocoon, and it accounts for 25–30% of raw
             silk weight (
@@ -361,7 +361,7 @@ export default function SilkMommeGuidePage() {
               <p className="mt-3 text-sm leading-relaxed text-ink-soft">
                 A property of the cloth: mass per unit area. Decided at weaving
                 and finishing. Explains whether the fabric falls, holds or
-                collapses, and how much silk you are paying for per metre.
+                collapses, and how much silk you are paying for per meter.
               </p>
             </div>
           </div>
@@ -370,7 +370,7 @@ export default function SilkMommeGuidePage() {
             woven at 8 momme still has excellent filament but almost no body. A
             low-grade yarn at 30 momme is heavy and will still band in the dye
             bath. Buyers who specify only one of the two numbers are each
-            holding half a specification: the fibre side is covered in{" "}
+            holding half a specification: the fiber side is covered in{" "}
             <Link
               href="/blog/raw-silk-grade-4a-5a-6a-explained"
               className="font-medium text-gold hover:text-jade"
@@ -485,7 +485,7 @@ export default function SilkMommeGuidePage() {
               {
                 href: "/silk-fabric-price-guide",
                 t: "Price guide",
-                d: "What moves the price per metre: momme is one of six factors.",
+                d: "What moves the price per meter: momme is one of six factors.",
               },
             ].map((l) => (
               <Link

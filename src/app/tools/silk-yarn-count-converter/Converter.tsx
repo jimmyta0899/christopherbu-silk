@@ -9,7 +9,7 @@ const UNITS: { key: Unit; label: string; hint: string; step: string }[] = [
   { key: "denier", label: "Denier", hint: "g per 9,000 m", step: "0.5" },
   { key: "dtex", label: "dtex", hint: "g per 10,000 m", step: "0.5" },
   { key: "tex", label: "tex", hint: "g per 1,000 m", step: "0.1" },
-  { key: "nm", label: "Nm", hint: "metres per gram", step: "1" },
+  { key: "nm", label: "Nm", hint: "meters per gram", step: "1" },
   { key: "ne", label: "Ne", hint: "840-yd hanks per lb", step: "0.5" },
 ];
 

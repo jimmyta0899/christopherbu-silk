@@ -9,7 +9,7 @@ import { ORGANIZATION_ID } from "@/lib/organization-schema";
 
 export const metadata: Metadata = {
   title:
-    "Raw Silk Yarn 20/22D 4A/5A/6A Spec Sheet | Christopher Bu",
+    "Raw Silk Yarn 20/22D 4A/5A/6A Spec Sheet",
   description:
     "Spec sheet for 20/22D mulberry raw silk from Yizhou: four yarn varieties, 4A/5A/6A grades, HS 5002, bale packing, FOB/FCA, T/T. Values per written quote.",
   keywords: [
@@ -55,7 +55,7 @@ const specGroups = [
     items: [
       { label: "HS classification", value: "Raw silk (not thrown) falls under HS heading 5002. The exact subheading applying to your shipment is confirmed in the written quotation and shipping documents." },
       { label: "Packing", value: "Export cartons / bales (60 kg per bale typical); luxury silk yarn in 5 kg bundles" },
-      { label: "MOQ", value: "Raw silk is sold by weight, not by the metre. There is no universal fixed minimum; the final MOQ and any organic status are confirmed in the written quotation." },
+      { label: "MOQ", value: "Raw silk is sold by weight, not by the meter. There is no universal fixed minimum; the final MOQ and any organic status are confirmed in the written quotation." },
     ],
   },
   {
@@ -126,7 +126,7 @@ const faqs = [
   },
   {
     q: "What is the minimum order quantity for raw silk yarn?",
-    a: "Raw silk is sold by weight, not by the metre, and there is no universal fixed MOQ. Reference minimums vary by variety — for example, natural dupion silk yarn is typically quoted around 10 kg and luxury silk yarn around 5 kg — and the final MOQ is confirmed in the written quotation.",
+    a: "Raw silk is sold by weight, not by the meter, and there is no universal fixed MOQ. Reference minimums vary by variety (for example, natural dupion silk yarn is typically quoted around 10 kg and luxury silk yarn around 5 kg), and the final MOQ is confirmed in the written quotation.",
   },
   {
     q: "Can raw silk yarn be supplied dyed, or only greige?",
@@ -146,7 +146,7 @@ const faqs = [
   },
   {
     q: "How can I verify the grade or certificate of a silk shipment?",
-    a: "The grading certificate and certificate number are provided with the written quotation and shipping documents, and certification is confirmed in writing before order approval. The issuing authority can be used to check a licence or label, and we can arrange buyer verification when source documents are shared.",
+    a: "The grading certificate and certificate number are provided with the written quotation and shipping documents, and certification is confirmed in writing before order approval. The issuing authority can be used to check a license or label, and we can arrange buyer verification when source documents are shared.",
   },
   {
     q: "When are the final specification details confirmed?",
@@ -160,7 +160,7 @@ const quotationIncludes = [
     items: [
       { field: "Legal entity & business registration", status: "Stated in the written quotation" },
       { field: "Authorized contact for the order", status: "Stated in the written quotation" },
-      { field: "Business licence", status: "Confirmed in writing before order approval" },
+      { field: "Business license", status: "Confirmed in writing before order approval" },
       { field: "Production origin", status: "Stated in the written quotation" },
     ],
   },

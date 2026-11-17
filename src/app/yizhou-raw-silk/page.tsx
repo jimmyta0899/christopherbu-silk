@@ -20,9 +20,9 @@ import { RelatedReading } from "@/components/RelatedReading";
 
 export const metadata: Metadata = {
   title:
-    "Yizhou Raw Silk — World's Largest Origin | Christopher Bu",
+    "Yizhou Raw Silk: Largest Silk Origin",
   description:
-    "Yizhou, Guangxi: China's largest raw silk county — 5,463 t/year, 13.4% of output, 20 years No.1. The figures, reeling, and buying implications.",
+    "Yizhou, Guangxi: China's largest raw silk county: 5,463 t/year, 13.4% of output, 20 years No.1. The figures, reeling, and buying implications.",
   keywords: [
     "yizhou raw silk",
     "yizhou mulberry silk",
@@ -169,7 +169,7 @@ const reelingSteps = [
 const comparisons = [
   {
     region: "Yizhou, Guangxi",
-    role: "Fibre origin",
+    role: "Fiber origin",
     d: "Cocoon growing and reeling. The output here is raw silk yarn and greige cloth, the input to weaving, not the finished fashion fabric.",
     ours: true,
   },
@@ -188,7 +188,7 @@ const comparisons = [
   {
     region: "Como, Italy",
     role: "European finishing",
-    d: "Dyeing, finishing and quality grading for European luxury houses. Most of the raw fibre it processes is imported, including from China.",
+    d: "Dyeing, finishing and quality grading for European luxury houses. Most of the raw fiber it processes is imported, including from China.",
     ours: false,
   },
 ];
@@ -200,15 +200,15 @@ const faqs: HubFaq[] = [
   },
   {
     q: "What is the difference between Yizhou silk and Suzhou silk?",
-    a: "They sit at different points in the chain. Yizhou grows cocoons and reels raw silk. It is an origin. Suzhou is a weaving, embroidery and finishing centre with a long couture tradition. Suzhou buys fibre; Yizhou produces it. A garment described as Suzhou silk is usually describing where it was made or embroidered, not where the filament came from.",
+    a: "They sit at different points in the chain. Yizhou grows cocoons and reels raw silk. It is an origin. Suzhou is a weaving, embroidery and finishing center with a long couture tradition. Suzhou buys fiber; Yizhou produces it. A garment described as Suzhou silk is usually describing where it was made or embroidered, not where the filament came from.",
   },
   {
     q: "Which luxury brands use Yizhou raw silk?",
-    a: "The district government's own published account states that the region's high-grade raw silk supplies the raw material chains of Louis Vuitton and Hermès. We report that as the official statement it is. We do not extend it to brands the source does not name. Being an origin for a luxury house is not the same as being its named supplier. The fibre usually passes through several hands before it reaches a European atelier.",
+    a: "The district government's own published account states that the region's high-grade raw silk supplies the raw material chains of Louis Vuitton and Hermès. We report that as the official statement it is. We do not extend it to brands the source does not name. Being an origin for a luxury house is not the same as being its named supplier. The fiber usually passes through several hands before it reaches a European atelier.",
   },
   {
     q: "What does 20/22 denier mean?",
-    a: "Denier measures the weight of 9,000 metres of filament. 20/22D means the yarn falls in a band between 20 and 22 denier. It is a range rather than a fixed number, because it is reeled from natural cocoons whose shells vary. It is the standard spec for mulberry raw silk in international trade, and it differs from momme, which describes woven cloth.",
+    a: "Denier measures the weight of 9,000 meters of filament. 20/22D means the yarn falls in a band between 20 and 22 denier. It is a range rather than a fixed number, because it is reeled from natural cocoons whose shells vary. It is the standard spec for mulberry raw silk in international trade, and it differs from momme, which describes woven cloth.",
   },
   {
     q: "Why does raw silk from one region behave differently from another?",
@@ -224,6 +224,7 @@ export default function YizhouRawSilkPage() {
   const organizationJsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": "https://www.christopherbu.com/#organization",
     name: siteConfig.name,
     url: siteConfig.url,
     email: siteConfig.email,
@@ -477,7 +478,7 @@ export default function YizhouRawSilkPage() {
             ))}
           </div>
           <p className="mt-6 max-w-3xl text-sm leading-relaxed text-ink-soft">
-            Grade covers the fibre only. It says nothing about momme, which
+            Grade covers the fiber only. It says nothing about momme, which
             describes woven cloth, and nothing about weave. Those are separate
             decisions documented in{" "}
             <Link
@@ -513,7 +514,7 @@ export default function YizhouRawSilkPage() {
             <p>
               It is also narrower than it is often repeated as. Being an origin
               for a luxury raw material chain is not the same as being a named
-              supplier to that house. Fibre moves through reeling, trading,
+              supplier to that house. Fiber moves through reeling, trading,
               weaving and finishing before it reaches an atelier. The brand at the end rarely knows the county. We report the official
               statement as written and stop there. We do not extend it to
               brands the source does not name, and we do not claim a direct

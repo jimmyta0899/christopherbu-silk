@@ -6,7 +6,7 @@ import { AnswerBlock } from "@/components/AnswerBlock";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
-  title: "Shipping & Terms | Reference MOQ & Lead Time, GOTS / OEKO-TEX",
+  title: "Shipping & Terms: MOQ and Lead Time",
   description:
     "B2B export terms: FOB Nansha/Yantian/Qinzhou, FCA Yizhou, T/T payment, MOQ + 15–25 day lead time in writing. GOTS, OEKO-TEX II, market compliance.",
   keywords: [

@@ -11,9 +11,9 @@ const toWebp = (p: string) => p.replace(/\.(jpe?g)$/i, ".webp");
 
 export const metadata: Metadata = {
   title:
-    "Ready-to-Wear Collections — Fashion Archive 2013–2020",
+    "Ready-to-Wear Collections: 2013 to 2020",
   description:
-    "Browse the complete Christopher Bu ready-to-wear archive — 25 runway collections from Spring/Summer 2013 to Resort 2020, worn on red carpets worldwide.",
+    "Browse the complete Christopher Bu ready-to-wear archive: 25 runway collections from Spring/Summer 2013 to Resort 2020, worn on red carpets worldwide.",
   alternates: { canonical: "/rtw" },
   openGraph: pageOpenGraph("/rtw"),
 };

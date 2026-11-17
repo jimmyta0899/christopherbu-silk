@@ -48,9 +48,9 @@ const sources: HubSource[] = [
 
 export const metadata: Metadata = {
   title:
-    "Silk Fabric Price per Meter: What Moves It and How to Compare",
+    "Silk Fabric Price per Meter: Five Drivers",
   description:
-    "Why identical silk names get quotes that differ by a multiple: grade, momme basis, width, colour route, quantity, testing. Six drivers, RFQ check.",
+    "Why identical silk names get quotes that differ by a multiple: grade, momme basis, width, color route, quantity, testing. Six drivers, RFQ check.",
   keywords: [
     "silk fabric price per yard",
     "silk fabric price per meter",
@@ -68,32 +68,32 @@ export const metadata: Metadata = {
 const drivers = [
   {
     n: "01",
-    t: "Fibre grade",
+    t: "Fiber grade",
     d: "4A, 5A and 6A are not marketing tiers. They are measured properties of the filament. Higher grade means fewer defects per unit length, which means more cocoons rejected at reeling and a higher cost per kilo of yarn. The price difference is real and it lands in the cloth: a 6A yarn dyes evenly on the first attempt, a lower grade often needs a second lot to fix banding.",
     direction: "Up with grade",
   },
   {
     n: "02",
     t: "Weight in momme",
-    d: "More silk per square metre is more fibre per metre of cloth. Moving from 16 to 22 momme is roughly a third more material in the same yard. This is the most predictable driver on the page, provided both quotations measure momme on the same side of degumming.",
+    d: "More silk per square meter is more fiber per meter of cloth. Moving from 16 to 22 momme is roughly a third more material in the same yard. This is the most predictable driver on the page, provided both quotations measure momme on the same side of degumming.",
     direction: "Up with momme",
   },
   {
     n: "03",
     t: "Construction complexity",
-    d: "A plain-weave habotai runs off a loom at speed. A jacquard runs slower because every pick is selected, and pattern development adds a separate cost before a metre is woven. Structured cloths that need tight sett and heavy reed pressure also raise the loom time per metre.",
+    d: "A plain-weave habotai runs off a loom at speed. A jacquard runs slower because every pick is selected, and pattern development adds a separate cost before a meter is woven. Structured cloths that need tight sett and heavy reed pressure also raise the loom time per meter.",
     direction: "Up with complexity",
   },
   {
     n: "04",
-    t: "Colour route",
-    d: "Four routes with different economics. Greige is the cheapest because nothing is dyed. A standard shade card amortises the dye lot setup over many orders. A custom match adds a lab dip plus a dedicated dye lot. Yarn-dyed or jacquard colour introduces the colour before weaving. A custom match on a small quantity is where quotations diverge most.",
+    t: "Color route",
+    d: "Four routes with different economics. Greige is the cheapest because nothing is dyed. A standard shade card amortises the dye lot setup over many orders. A custom match adds a lab dip plus a dedicated dye lot. Yarn-dyed or jacquard color introduces the color before weaving. A custom match on a small quantity is where quotations diverge most.",
     direction: "Greige < card < custom",
   },
   {
     n: "05",
     t: "Quantity and width",
-    d: "Setup costs (loom dressing, dye lot, lab dip, inspection) are spread across the run. A narrow width at the same momme costs more per running metre because there is less cloth in the metre. Both effects are non-linear: the step from 300 m to 1,000 m usually matters more than 1,000 m to 3,000 m.",
+    d: "Setup costs (loom dressing, dye lot, lab dip, inspection) are spread across the run. A narrow width at the same momme costs more per running meter because there is less cloth in the meter. Both effects are non-linear: the step from 300 m to 1,000 m usually matters more than 1,000 m to 3,000 m.",
     direction: "Down with volume",
   },
   {
@@ -115,7 +115,7 @@ const traps = [
   },
   {
     t: "A narrower width",
-    d: "Quoting per metre without stating the width is the most common way to make a quote look competitive. 114 cm and 140 cm are not interchangeable when you are costing a marker: the narrower roll may need more metres for the same garment.",
+    d: "Quoting per meter without stating the width is the most common way to make a quote look competitive. 114 cm and 140 cm are not interchangeable when you are costing a marker: the narrower roll may need more meters for the same garment.",
   },
   {
     t: "Standard shade presented as custom",
@@ -135,8 +135,8 @@ const comparison = [
   "Grade (4A / 5A / 6A) stated explicitly",
   "Momme, and whether measured on greige or finished cloth",
   "Momme tolerance band, not a single figure",
-  "Width in centimetres",
-  "Colour route: greige, shade card reference, or custom match",
+  "Width in centimeters",
+  "Color route: greige, shade card reference, or custom match",
   "Quantity the price applies to, and the break points above it",
   "Trade term (EXW / FCA / FOB and the named port)",
   "What testing is included, and who pays for it",
@@ -149,11 +149,11 @@ const comparison = [
 const faqs: HubFaq[] = [
   {
     q: "How much does silk fabric cost per meter?",
-    a: "There is no single answer, and any page that gives you one number is describing one specification. Silk ranges from greige utility cloth at the low end to custom-dyed, high-grade, heavy structured fabric at the top: a multiple apart, not a percentage. The honest way to price a project is to fix six variables first: grade, momme measured on finished cloth, construction, colour route, quantity and width. With those fixed, quotations from different suppliers become comparable. We quote per order for exactly this reason.",
+    a: "There is no single answer, and any page that gives you one number is describing one specification. Silk ranges from greige utility cloth at the low end to custom-dyed, high-grade, heavy structured fabric at the top: a multiple apart, not a percentage. The honest way to price a project is to fix six variables first: grade, momme measured on finished cloth, construction, color route, quantity and width. With those fixed, quotations from different suppliers become comparable. We quote per order for exactly this reason.",
   },
   {
     q: "Why is silk fabric so expensive?",
-    a: "Because the raw material is labour-intensive to produce and the yield is low. A single cocoon yields one continuous filament of roughly 600 to 900 metres, and it takes several cocoons reeled together to make one 20/22 denier thread. On top of the fibre there is loom time, dyeing, finishing, inspection and the rejection rate at every stage. Weight compounds it: a 30 momme cloth uses nearly twice the silk of a 16 momme cloth of the same area.",
+    a: "Because the raw material is labour-intensive to produce and the yield is low. A single cocoon yields one continuous filament of roughly 600 to 900 meters, and it takes several cocoons reeled together to make one 20/22 denier thread. On top of the fiber there is loom time, dyeing, finishing, inspection and the rejection rate at every stage. Weight compounds it: a 30 momme cloth uses nearly twice the silk of a 16 momme cloth of the same area.",
   },
   {
     q: "Why do two suppliers quote very different prices for the same silk?",
@@ -161,19 +161,19 @@ const faqs: HubFaq[] = [
   },
   {
     q: "Is Chinese silk cheaper than Italian silk?",
-    a: "They are different products in the same chain rather than two prices for one thing. China is the dominant origin for raw silk and greige; Italian mills are known for dyeing, finishing and quality grading, and much of the fibre they process is imported. A comparison only means something at the same specification and the same Incoterm. Otherwise you are comparing a raw material price to a finished luxury fabric price.",
+    a: "They are different products in the same chain rather than two prices for one thing. China is the dominant origin for raw silk and greige; Italian mills are known for dyeing, finishing and quality grading, and much of the fiber they process is imported. A comparison only means something at the same specification and the same Incoterm. Otherwise you are comparing a raw material price to a finished luxury fabric price.",
   },
   {
     q: "Does a bigger order always get a lower price?",
-    a: "Usually, but with diminishing returns. Setup costs (loom dressing, dye lot, lab dip, inspection) are spread over the run, so the first increase in quantity produces the largest drop per metre. Beyond a point the saving flattens, and on custom colours a larger run can even add risk, because you are committing to more metres of a shade that has only been approved as a lab dip.",
+    a: "Usually, but with diminishing returns. Setup costs (loom dressing, dye lot, lab dip, inspection) are spread over the run, so the first increase in quantity produces the largest drop per meter. Beyond a point the saving flattens, and on custom colors a larger run can even add risk, because you are committing to more meters of a shade that has only been approved as a lab dip.",
   },
   {
     q: "How can I reduce cost without losing quality?",
-    a: "Change the specification deliberately rather than hoping the price falls. Move to a standard shade card colour instead of a custom match. Take a slightly lighter momme where the garment allows it. Use a wider width so your marker wastes less. Consolidate several colours into one order to share the setup. For example, moving one lining style from a custom match to the nearest shade card colour removes the lab dip and the dedicated dye lot from the quotation entirely. What does not work is asking for the same specification at a lower price: the difference has to come from somewhere, and it usually comes from grade, weight or testing.",
+    a: "Change the specification deliberately rather than hoping the price falls. Move to a standard shade card color instead of a custom match. Take a slightly lighter momme where the garment allows it. Use a wider width so your marker wastes less. Consolidate several colors into one order to share the setup. For example, moving one lining style from a custom match to the nearest shade card color removes the lab dip and the dedicated dye lot from the quotation entirely. What does not work is asking for the same specification at a lower price: the difference has to come from somewhere, and it usually comes from grade, weight or testing.",
   },
   {
     q: "Why do you not publish a price list?",
-    a: "Because a published number would be true for one combination of grade, weight, width, colour and quantity and misleading for every other. Silk is quoted against a specification, and a price list would push buyers into comparing the wrong things. What we can do is quote quickly and state the basis clearly enough that our quotation can be checked against anyone else's.",
+    a: "Because a published number would be true for one combination of grade, weight, width, color and quantity and misleading for every other. Silk is quoted against a specification, and a price list would push buyers into comparing the wrong things. What we can do is quote quickly and state the basis clearly enough that our quotation can be checked against anyone else's.",
   },
 ];
 
@@ -182,7 +182,7 @@ Construction:             e.g. dupioni (or "open to recommendation")
 Grade:                    e.g. 5A minimum
 Momme:                    e.g. 19 mm on finished cloth, tolerance +/-1
 Width:                    e.g. 140 cm minimum
-Colour:                   e.g. custom match to Pantone 19-1532 TCX, or shade card
+Color:                   e.g. custom match to Pantone 19-1532 TCX, or shade card
 Quantity:                 e.g. 600 m, with break points at 300 / 1,200 m
 Testing required:         e.g. OEKO-TEX Class II, plus EU market requirements
 Destination market:       e.g. EU
@@ -220,7 +220,7 @@ export default function SilkFabricPriceGuidePage() {
         
         <KeyTakeaways
           items={[
-            "Six variables drive the number: grade, momme basis, construction, colour route, quantity and width. Fix them and two quotes become comparable.",
+            "Six variables drive the number: grade, momme basis, construction, color route, quantity and width. Fix them and two quotes become comparable.",
             "A momme figure measured on greige describes a heavier cloth than the same figure measured on finished fabric, so the basis belongs in the quotation.",
             "Grade is measured on the yarn under GB/T 1797-2008, which means a price quoted on grade is describing raw material rather than the cloth you cut.",
             "Delivery terms move costs rather than remove them: FOB leaves inland freight and insurance outside the number, and they arrive later as landed cost.",
@@ -241,7 +241,7 @@ export default function SilkFabricPriceGuidePage() {
             instead of a number, this page gives you the structure: fix the six
             variables, and any two quotations become directly comparable. We
             quote per order, and every quotation states its momme basis, grade,
-            width and colour route so it can be checked.
+            width and color route so it can be checked.
           </p>
         </section>
 
@@ -300,7 +300,7 @@ export default function SilkFabricPriceGuidePage() {
                 <figure className="mt-8 max-w-3xl overflow-hidden border border-line">
           <img src="/products/greige-fabric.webp" alt="Greige silk fabric undyed straight from the loom" width="412" height="384" loading="lazy" decoding="async" className="mx-auto h-auto w-full max-w-sm object-cover" />
           <figcaption className="border-t border-line bg-ivory-deep px-4 py-3 text-xs text-ink-muted">
-            Greige silk, the cheapest point on the colour-route scale: undyed, straight off the loom.
+            Greige silk, the cheapest point on the color-route scale: undyed, straight off the loom.
           </figcaption>
         </figure>
 
@@ -394,10 +394,10 @@ export default function SilkFabricPriceGuidePage() {
                 <tr className="border-b border-line">
                   <td className="py-3 pr-4 align-top">Width</td>
                   <td className="py-3 pr-4 align-top">Cuttable width, not loom width</td>
-                  <td className="py-3 align-top">Centimetres after finishing</td>
+                  <td className="py-3 align-top">Centimeters after finishing</td>
                 </tr>
                 <tr>
-                  <td className="py-3 pr-4 align-top">Colour route</td>
+                  <td className="py-3 pr-4 align-top">Color route</td>
                   <td className="py-3 pr-4 align-top">Dye lot setup and lab dips</td>
                   <td className="py-3 align-top">Shade card reference or approved dip</td>
                 </tr>
@@ -443,11 +443,11 @@ export default function SilkFabricPriceGuidePage() {
                 Standardization Administration of China
               </a>
               , 2008), and a downgrade is invisible in a swatch of the same
-              weight and colour.
+              weight and color.
             </p>
             <p>
               None of those is automatically wrong: a lighter cloth at a
-              narrower width may be exactly right for a lining programme. The
+              narrower width may be exactly right for a lining program. The
               problem is only when the saving is invisible, because then it is
               discovered in the cutting room or after dyeing, when the cost of
               discovery is much higher than the saving.
@@ -557,7 +557,7 @@ export default function SilkFabricPriceGuidePage() {
           </h2>
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-white/80">
             Fix the six variables and we will quote them, with the momme basis,
-            width, grade and colour route written into the quotation. If you
+            width, grade and color route written into the quotation. If you
             only know the garment, send that instead and we will propose the
             rest.
           </p>
@@ -616,7 +616,7 @@ export default function SilkFabricPriceGuidePage() {
 
         <SourcesBlock
           sources={sources}
-          methodology="Methodology: this page publishes no unit prices. Silk is quoted against a specification. A number without grade, momme basis, width, colour route and quantity would be accurate for one combination and misleading for every other. The grade scale follows GB/T 1797-2008, which classifies the yarn rather than the cloth. Delivery terms follow the ICC's published Incoterms rules, because those decide which costs sit inside a quoted figure. The six drivers and the twelve comparison points come from quotations the atelier has reviewed, stated as structure rather than as a price list. Every figure that would depend on a specific mill or season is confirmed on the quotation instead."
+          methodology="Methodology: this page publishes no unit prices. Silk is quoted against a specification. A number without grade, momme basis, width, color route and quantity would be accurate for one combination and misleading for every other. The grade scale follows GB/T 1797-2008, which classifies the yarn rather than the cloth. Delivery terms follow the ICC's published Incoterms rules, because those decide which costs sit inside a quoted figure. The six drivers and the twelve comparison points come from quotations the atelier has reviewed, stated as structure rather than as a price list. Every figure that would depend on a specific mill or season is confirmed on the quotation instead."
         />
 
         <script
@@ -628,7 +628,7 @@ export default function SilkFabricPriceGuidePage() {
                 headline:
                   "Silk fabric price per meter: what moves it, and how to compare quotes",
                 description:
-                  "Six variables drive silk pricing: grade, momme basis, construction, colour route, quantity and width. Twelve-point comparison and an RFQ template.",
+                  "Six variables drive silk pricing: grade, momme basis, construction, color route, quantity and width. Twelve-point comparison and an RFQ template.",
                 image: "/products/satin.webp",
                 datePublished: HUB_UPDATED,
               }),

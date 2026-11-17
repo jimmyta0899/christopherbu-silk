@@ -49,7 +49,7 @@ const sources: HubSource[] = [
 
 export const metadata: Metadata = {
   title:
-    "Wholesale Silk Fabric from China: How a Bulk Order Runs",
+    "Wholesale Silk Fabric from China",
   description:
     "Wholesale silk from Yizhou: nine standing constructions, dyed to order on a standard shade card or custom match. Sampling, QC and FOB/FCA terms.",
   keywords: [
@@ -72,55 +72,55 @@ const matrix = [
     name: "Mulberry raw silk yarn",
     href: "/products/raw-silk",
     spec: "20/22D, dupion, luxury, GOTS organic; 4A–6A",
-    colour: "Natural white, or dyed",
+    color: "Natural white, or dyed",
   },
   {
     name: "Greige silk fabric",
     href: "/products/greige-fabric",
     spec: "Undyed, momme follows the base weave",
-    colour: "Greige: buyer finishes",
+    color: "Greige: buyer finishes",
   },
   {
     name: "Dupioni",
     href: "/products/dupioni",
     spec: "16 and 19 momme standard; up to 21–22 on request",
-    colour: "Shade card or custom match",
+    color: "Shade card or custom match",
   },
   {
     name: "Satin",
     href: "/products/satin",
     spec: "10–30 momme",
-    colour: "Shade card or custom match",
+    color: "Shade card or custom match",
   },
   {
     name: "Jacquard Luo",
     href: "/products/jacquard-luo",
     spec: "Motif woven in; custom pattern development",
-    colour: "Yarn-dyed or piece-dyed",
+    color: "Yarn-dyed or piece-dyed",
   },
   {
     name: "Georgette",
     href: "/products/georgette",
     spec: "8–16 momme",
-    colour: "Shade card or custom match",
+    color: "Shade card or custom match",
   },
   {
     name: "Habotai",
     href: "/products/habotai",
     spec: "5–12 momme",
-    colour: "Shade card or custom match",
+    color: "Shade card or custom match",
   },
   {
     name: "Silk stretch satin",
     href: "/products/stretch-silk",
     spec: "14–28 momme with elastane",
-    colour: "Shade card or custom match",
+    color: "Shade card or custom match",
   },
   {
     name: "Silk blend",
     href: "/products/blended-silk",
     spec: "Silk–cotton, silk–linen",
-    colour: "Shade card or custom match",
+    color: "Shade card or custom match",
   },
 ];
 
@@ -143,12 +143,12 @@ const steps = [
   {
     n: "04",
     t: "Quotation",
-    d: "The quotation states grade, momme measured on the finished side, width, colour route, quantity, unit price, lead-time estimate and the trade term. If any of those is missing, ask: a quotation without a width or a momme basis is not comparable to another supplier's.",
+    d: "The quotation states grade, momme measured on the finished side, width, color route, quantity, unit price, lead-time estimate and the trade term. If any of those is missing, ask: a quotation without a width or a momme basis is not comparable to another supplier's.",
   },
   {
     n: "05",
-    t: "Colour approval",
-    d: "Two routes: a standard shade from the colour card, or a custom match to a submitted sample or reference. Custom matching needs an approved lab dip before bulk. The approved dip is what QC checks against, not the original reference.",
+    t: "Color approval",
+    d: "Two routes: a standard shade from the color card, or a custom match to a submitted sample or reference. Custom matching needs an approved lab dip before bulk. The approved dip is what QC checks against, not the original reference.",
   },
   {
     n: "06",
@@ -206,15 +206,15 @@ const tradeTerms = [
 const faqs: HubFaq[] = [
   {
     q: "What is the minimum order for wholesale silk fabric?",
-    a: "There is no universal fixed minimum. Small trial rolls, custom widths and samples may be available subject to material, mill and schedule review. The final minimum depends on the construction, the width and whether the colour is a standard shade or a custom match. It is confirmed in the written quotation rather than published as a single number.",
+    a: "There is no universal fixed minimum. Small trial rolls, custom widths and samples may be available subject to material, mill and schedule review. The final minimum depends on the construction, the width and whether the color is a standard shade or a custom match. It is confirmed in the written quotation rather than published as a single number.",
   },
   {
     q: "Do you supply free samples?",
     a: "Mini fabric samples can be supplied without a material charge once availability is confirmed. The buyer bears all courier, customs and related international shipping costs, usually by DHL or a designated courier. Full-size silk fabrics and finished apparel are chargeable. Any sample fee credit against a later bulk order applies only when it is stated in the quotation or pro forma invoice.",
   },
   {
-    q: "Can you dye silk fabric to a custom colour?",
-    a: "Yes, on both tracks: standard shade card colours and custom matching to a submitted sample or specified reference. Custom work requires an approved lab dip before bulk, and the approved dip becomes the reference for inspection. Greige fabric is also supplied undyed for buyers running their own dyehouse. Colour is what we quote for; surface effects beyond dyeing are a separate conversation and we will say plainly whether they are available.",
+    q: "Can you dye silk fabric to a custom color?",
+    a: "Yes, on both tracks: standard shade card colors and custom matching to a submitted sample or specified reference. Custom work requires an approved lab dip before bulk, and the approved dip becomes the reference for inspection. Greige fabric is also supplied undyed for buyers running their own dyehouse. Color is what we quote for; surface effects beyond dyeing are a separate conversation and we will say plainly whether they are available.",
   },
   {
     q: "Are you a manufacturer or a trading company?",
@@ -222,7 +222,7 @@ const faqs: HubFaq[] = [
   },
   {
     q: "How long does bulk production take?",
-    a: "15–25 working days is a planning estimate for eligible regular bulk orders. The clock starts once the sample, specification, deposit and material availability are all confirmed, not at the date of enquiry. Custom weaving, custom colour matching and jacquard pattern development each add their own lead time. The binding schedule is the one in the signed order documents.",
+    a: "15–25 working days is a planning estimate for eligible regular bulk orders. The clock starts once the sample, specification, deposit and material availability are all confirmed, not at the date of enquiry. Custom weaving, custom color matching and jacquard pattern development each add their own lead time. The binding schedule is the one in the signed order documents.",
   },
   {
     q: "Do you supply OEKO-TEX or GOTS certified silk?",
@@ -230,7 +230,7 @@ const faqs: HubFaq[] = [
   },
   {
     q: "Can you develop a custom weave, width or pattern?",
-    a: "Custom width and custom pattern development are available where the weave allows. Jacquard pattern development is part of the jacquard programme. What we will not do is accept a spec the mill cannot hold at your quantity. Better to say so at the sampling stage than to ship a roll that fails your cutting room.",
+    a: "Custom width and custom pattern development are available where the weave allows. Jacquard pattern development is part of the jacquard program. What we will not do is accept a spec the mill cannot hold at your quantity. Better to say so at the sampling stage than to ship a roll that fails your cutting room.",
   },
   {
     q: "What are your shipping terms?",
@@ -267,10 +267,10 @@ export default function WholesaleSilkFabricPage() {
         <KeyTakeaways
           items={[
             "Nine constructions are standing products from local mills in Yizhou; the rest are woven to order, and the page states which is which.",
-            "Colour runs on two routes: a standard shade card, or a custom match to your sample. Greige ships undyed for buyers with their own dyehouse.",
+            "Color runs on two routes: a standard shade card, or a custom match to your sample. Greige ships undyed for buyers with their own dyehouse.",
             "Terms are FOB Nansha, Yantian or Qinzhou, or FCA Yizhou, which we prefer because the inland leg stays visible in your landed cost.",
             "Seven steps run from enquiry to container, and the approved lab dip is the reference for inspection, not a photograph.",
-            "Two quotations are only comparable once momme basis, grade, width, colour route and quantity are all stated.",
+            "Two quotations are only comparable once momme basis, grade, width, color route and quantity are all stated.",
           ]}
         />
 
@@ -282,7 +282,7 @@ export default function WholesaleSilkFabricPage() {
               d: "Raw silk yarn, greige, dupioni, satin, jacquard, georgette, habotai, stretch satin and silk blends, each with its own specification page.",
             },
             {
-              t: "Two colour routes",
+              t: "Two color routes",
               d: "A standard shade card, or a custom match to your sample or reference. Greige is also supplied undyed for buyers with their own dyehouse.",
             },
             {
@@ -306,7 +306,7 @@ export default function WholesaleSilkFabricPage() {
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
             <strong>MOQ</strong> is the minimum order quantity a mill will run
-            for a given construction and colour. It changes with the dye
+            for a given construction and color. It changes with the dye
             route rather than staying fixed per fabric. <strong>Lab dip</strong>{" "}
             is the small dyed sample approved before bulk, and once signed it
             becomes the reference for inspection. <strong>FOB</strong> is Free On
@@ -353,10 +353,10 @@ export default function WholesaleSilkFabricPage() {
             What we supply wholesale
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
-            Nine categories, each with its own specification page. Colour is
+            Nine categories, each with its own specification page. Color is
             quoted per order. The table states the route rather than a price,
             because the same cloth has different economics depending on whether
-            your colour is on the card.
+            your color is on the card.
           </p>
           <div className="mt-8 overflow-x-auto border border-line">
             <table className="w-full min-w-[680px] text-sm">
@@ -364,7 +364,7 @@ export default function WholesaleSilkFabricPage() {
                 <tr className="bg-jade-deep text-left text-white">
                   <th className="px-4 py-3 font-medium">Product</th>
                   <th className="px-4 py-3 font-medium">Specification</th>
-                  <th className="px-4 py-3 font-medium">Colour route</th>
+                  <th className="px-4 py-3 font-medium">Color route</th>
                 </tr>
               </thead>
               <tbody>
@@ -382,7 +382,7 @@ export default function WholesaleSilkFabricPage() {
                       </Link>
                     </th>
                     <td className="px-4 py-3 text-ink-soft">{m.spec}</td>
-                    <td className="px-4 py-3 text-ink-soft">{m.colour}</td>
+                    <td className="px-4 py-3 text-ink-soft">{m.color}</td>
                   </tr>
                 ))}
               </tbody>
@@ -533,7 +533,7 @@ export default function WholesaleSilkFabricPage() {
               {
                 href: "/services",
                 t: "Custom supply",
-                d: "Private label, custom width, colour and pattern development.",
+                d: "Private label, custom width, color and pattern development.",
               },
               {
                 href: "/blog/buyer-factory-audit-checklist-silk",
@@ -604,7 +604,7 @@ export default function WholesaleSilkFabricPage() {
               {
                 href: "/silk-fabric-price-guide",
                 t: "Price guide",
-                d: "Six factors that move the price per metre, and how to compare quotes.",
+                d: "Six factors that move the price per meter, and how to compare quotes.",
               },
             ].map((l) => (
               <Link
@@ -680,7 +680,7 @@ export default function WholesaleSilkFabricPage() {
 
         <SourcesBlock
           sources={sources}
-          methodology="Methodology: incoterm definitions follow the ICC's published rules and are not reworded into something looser. Grade statements follow GB/T 1797-2008, which grades the yarn rather than the finished cloth. So a quotation that names a grade is describing the raw material. Colour routes, sample policy and payment terms are the atelier's own commercial terms and are stated as such. Where a figure would depend on a specific mill or season. The page says it is confirmed on the quotation instead of publishing a number."
+          methodology="Methodology: incoterm definitions follow the ICC's published rules and are not reworded into something looser. Grade statements follow GB/T 1797-2008, which grades the yarn rather than the finished cloth. So a quotation that names a grade is describing the raw material. Color routes, sample policy and payment terms are the atelier's own commercial terms and are stated as such. Where a figure would depend on a specific mill or season. The page says it is confirmed on the quotation instead of publishing a number."
         />
 
         <script
@@ -692,7 +692,7 @@ export default function WholesaleSilkFabricPage() {
                 headline:
                   "Wholesale silk fabric from China: how a bulk order actually runs",
                 description:
-                  "Nine standing constructions from local mills in Yizhou, two colour routes, FOB or FCA terms, and the seven steps from enquiry to container.",
+                  "Nine standing constructions from local mills in Yizhou, two color routes, FOB or FCA terms, and the seven steps from enquiry to container.",
                 image: "/products/dupioni2.webp",
                 datePublished: HUB_UPDATED,
               }),

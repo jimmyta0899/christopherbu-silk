@@ -11,16 +11,16 @@ import { OrderWeightCalculator } from "./Calculator";
 const UPDATED = "2026-11-14";
 
 export const metadata: Metadata = {
-  title: "Silk Order Weight Calculator | Christopher Bu",
+  title: "Silk Order Weight Calculator",
   description:
-    "Convert metres of silk fabric into kilograms: metres × width × gsm ÷ 1000. Enter garment count, fabric per garment, width and momme for order weight and wastage.",
+    "Convert meters of silk fabric into kilograms: meters × width × gsm ÷ 1000. Enter garment count, fabric per garment, width and momme for order weight.",
   keywords: [
     "silk fabric weight calculator",
-    "metres to kg fabric",
+    "meters to kg fabric",
     "fabric order weight calculator",
-    "silk kg per metre",
+    "silk kg per meter",
     "fabric consumption calculator",
-    "how much does a metre of silk weigh",
+    "how much does a meter of silk weigh",
     "silk fabric quantity calculator",
     "fabric wastage calculator",
   ],
@@ -30,12 +30,12 @@ export const metadata: Metadata = {
 
 const faq = [
   {
-    q: "How much does one metre of silk weigh?",
-    a: "It depends on width and weight: one metre of 19 momme silk at 140 cm weighs 82.5 × 1.4 ÷ 1000 = 0.116 kg. The same weight at 114 cm is 0.094 kg. At 22 momme and 140 cm it is 0.134 kg. Width matters as much as momme.",
+    q: "How much does one meter of silk weigh?",
+    a: "It depends on width and weight: one meter of 19 momme silk at 140 cm weighs 82.5 × 1.4 ÷ 1000 = 0.116 kg. The same weight at 114 cm is 0.094 kg. At 22 momme and 140 cm it is 0.134 kg. Width matters as much as momme.",
   },
   {
-    q: "Why does one supplier quote per kilogram and another per metre?",
-    a: "Two different things are being sold. Silk fabric is normally quoted per metre or per yard, because that is how a garment factory cuts it. Raw silk yarn and greige are quoted per kilogram, because yarn is a material rather than a cloth, and freight and duty run on weight. To compare the two, convert the per-metre figure to a weight using this calculator, then check the widths match — a per-kilogram price at 114 cm and one at 140 cm buy different amounts of cloth.",
+    q: "Why does one supplier quote per kilogram and another per meter?",
+    a: "Two different things are being sold. Silk fabric is normally quoted per meter or per yard, because that is how a garment factory cuts it. Raw silk yarn and greige are quoted per kilogram, because yarn is a material rather than a cloth, and freight and duty run on weight. To compare the two, convert the per-meter figure to a weight using this calculator, then check the widths match: a per-kilogram price at 114 cm and one at 140 cm buy different amounts of cloth.",
   },
   {
     q: "What wastage allowance should I use for silk?",
@@ -47,7 +47,7 @@ const faq = [
   },
   {
     q: "Can I use this to price an order?",
-    a: "You can use the weight to compare quotations on the same basis, but this is not a price. Fabric is quoted against a specification — grade, momme, width, colour route and quantity all move the number — which is why we publish no unit price.",
+    a: "You can use the weight to compare quotations on the same basis, but this is not a price. Fabric is quoted against a specification, and grade, momme, width, color route and quantity all move the number, which is why we publish no unit price.",
   },
 ];
 
@@ -100,7 +100,7 @@ export default function OrderWeightPage() {
             articleJsonLd({
               headline: "Silk Order Weight Calculator",
               description:
-                "Convert metres of silk fabric into kilograms using width and momme, including a wastage allowance.",
+                "Convert meters of silk fabric into kilograms using width and momme, including a wastage allowance.",
               path: "/tools/silk-order-weight-calculator/",
               datePublished: UPDATED,
               dateModified: UPDATED,
@@ -111,7 +111,7 @@ export default function OrderWeightPage() {
 
       <ToolShell
         h1="Silk Order Weight Calculator"
-        answer="Order weight in kilograms is metres × width in metres × grams per square metre ÷ 1000. One metre of 19 momme silk at 140 cm weighs 0.116 kg. Add 10–15% for cutting wastage. Fabric is quoted per metre, but freight, duty and any raw-silk component run on weight — this is the number that converts between them."
+        answer="Order weight in kilograms is meters × width in meters × grams per square meter ÷ 1000. One meter of 19 momme silk at 140 cm weighs 0.116 kg. Add 10–15% for cutting wastage. Fabric is quoted per meter, but freight, duty and any raw-silk component run on weight. This is the number that converts between them."
         updated={UPDATED}
         methodSources={[
           {
@@ -132,14 +132,14 @@ export default function OrderWeightPage() {
         method={
           <>
             <p>
-              The maths is area times weight. A metre of fabric covers the
-              width in metres times one metre of area, so its mass in grams is
+              The maths is area times weight. A meter of fabric covers the
+              width in meters times one meter of area, so its mass in grams is
               width × g/m². Divide by 1,000 for kilograms:
             </p>
             <ul className="list-disc space-y-1 pl-5">
               <li>g/m² = momme × 4.34</li>
-              <li>kg per metre = width(m) × g/m² ÷ 1000</li>
-              <li>order kg = garments × metres per garment × (1 + wastage) × kg per metre</li>
+              <li>kg per meter = width(m) × g/m² ÷ 1000</li>
+              <li>order kg = garments × meters per garment × (1 + wastage) × kg per meter</li>
             </ul>
             <p>
               What the tool will not do: it does not lay out a marker, so it
@@ -164,14 +164,14 @@ export default function OrderWeightPage() {
 
         <section className="mt-12">
           <h2 className="font-display text-2xl font-medium text-jade-deep">
-            How much a metre weighs, by weight and width
+            How much a meter weighs, by weight and width
           </h2>
           <p className="mt-3 max-w-2xl text-sm leading-relaxed text-ink-soft">
-            Kilograms for one metre of fabric at the two widths we stock most.
+            Kilograms for one meter of fabric at the two widths we stock most.
           </p>
           <div className="mt-5">
             <SpecTable
-              caption="Weight of one metre of silk in kilograms at 114 cm and 140 cm widths, by momme"
+              caption="Weight of one meter of silk in kilograms at 114 cm and 140 cm widths, by momme"
               rows={MOMME_REFERENCE.filter((r) => r.momme <= 30).map((r) => ({
                 label: `${r.momme} momme`,
                 value: (
@@ -227,7 +227,7 @@ export default function OrderWeightPage() {
             {
               href: "/blog/momme-vs-denier-silk-specs",
               title: "Momme vs denier",
-              note: "Which number converts to grams per square metre, and which one does not.",
+              note: "Which number converts to grams per square meter, and which one does not.",
             },
           ]}
         />

@@ -9,9 +9,9 @@ import { SpecComparison, type SpecRow } from "./Comparison";
 const UPDATED = "2026-11-14";
 
 export const metadata: Metadata = {
-  title: "Silk Fabric Comparison Chart — 9 Weaves | Christopher Bu",
+  title: "Silk Fabric Comparison: 9 Weaves",
   description:
-    "Compare nine mulberry silk weaves side by side: satin, dupioni, habotai, georgette, jacquard luo, stretch satin, blends and more — momme, g/m², width and signature.",
+    "Compare nine mulberry silk weaves side by side: satin, dupioni, habotai, georgette, jacquard luo, stretch satin and blends by momme, g/m², width and hand.",
   keywords: [
     "silk fabric comparison chart",
     "types of silk fabric comparison",
@@ -106,7 +106,7 @@ const ROWS: SpecRow[] = [
     weightText: "By weave",
     width: "114 / 140 cm",
     character: "Undyed, unfinished",
-    use: "Own colour and print development",
+    use: "Own color and print development",
   },
   {
     slug: "raw-silk",
@@ -147,7 +147,7 @@ const faq = [
   },
   {
     q: "Can I compare momme across different weaves?",
-    a: "Only loosely. Momme is weight per area, so a 19 momme satin and a 19 momme habotai weigh the same per square metre but behave completely differently — the weave, not the weight, sets the hand. Compare momme within a weave; compare hand across weaves.",
+    a: "Only loosely. Momme is weight per area, so a 19 momme satin and a 19 momme habotai weigh the same per square meter but behave completely differently: the weave, not the weight, sets the hand. Compare momme within a weave; compare hand across weaves.",
   },
   {
     q: "Which weave is lightest?",
@@ -242,7 +242,7 @@ export default function SpecComparisonPage() {
               Two rows deliberately carry no momme range. Raw silk is a yarn
               measured in denier — 20/22D — and a yarn has no area weight until
               it is woven. Silk blend has no fixed range because the buyer
-              specifies the fibre ratio, and a blend&apos;s momme states total
+              specifies the fiber ratio, and a blend&apos;s momme states total
               cloth weight rather than pure silk content.
             </p>
           </>
