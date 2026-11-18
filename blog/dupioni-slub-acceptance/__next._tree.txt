@@ -3,9 +3,7 @@
 :HL["/_next/static/media/82450a180bcad83c-s.p.0p-wng2nn8o-p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/print-bg-clean-1200.webp","image",{"imageSrcSet":"/print-bg-clean-828.webp 828w, /print-bg-clean-1200.webp 1200w, /print-bg-clean.webp 1600w","imageSizes":"100vw","fetchPriority":"high"}]
 :HL["/brand-wordmark.png","image"]
-:HL["/fabric-library/dupioni/dupioni-033.jpg","image"]
-:HL["/fabric-library/dupioni/dupioni-045.jpg","image"]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"dupioni-slub-acceptance","s":[]},"h":96,"c":"$Q3"}]]
 1:[["children",{"s":"blog","h":64,"c":"$Q2"}]]
-0:{"b":"N0l2L0iV-eRuEc1vGAkAC","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
+0:{"b":"mJe3Q0ZjQZKhewntetDyW","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
