@@ -454,6 +454,18 @@ export default function SilkFabricsPage() {
               </div>
             ))}
           </div>
+          <p className="mt-8 max-w-3xl text-base leading-relaxed text-ink-soft">
+            Weight is the axis most often misreported, so it has its own
+            reference. The{" "}
+            <Link
+              href="/silk-weight/"
+              className="text-jade underline decoration-gold/40 underline-offset-4 hover:text-gold"
+            >
+              weight-by-weight breakdown
+            </Link>{" "}
+            gives the momme to GSM conversion, the running weight at our
+            widths, and the practical ceiling for each band we weave.
+          </p>
         </section>
 
         {/* 术语与标准：三个定义 + 国标来源，供读者核对口径 */}

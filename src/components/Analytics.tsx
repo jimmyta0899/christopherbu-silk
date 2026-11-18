@@ -4,6 +4,10 @@ import Script from "next/script";
  * Google Analytics 4 轻量接入。
  * 通过环境变量 NEXT_PUBLIC_GA_ID 注入测量 ID（形如 G-XXXXXXXXXX）。
  * 未配置时组件不渲染任何内容，避免影响本地开发与首屏性能。
+ *
+ * 两层防护，避免测试数据污染生产报表：
+ *  1. 运行时 hostname 门禁：只有生产域名加载 GA4，本地 / CI / 预览域名一律不加载；
+ *  2. 内部标记：?cbteam=<token> 种下 cb_internal cookie，内部浏览器完全不加载 GA4。
  */
 export default function Analytics() {
   const gaId = process.env.NEXT_PUBLIC_GA_ID;
@@ -25,6 +29,16 @@ export default function Analytics() {
             var TOKEN = 'K7m2p9Qx';
             var GA_ID = '${gaId}';
             var url = new URL(window.location.href);
+
+            // HOSTNAME GATE: GA4 must only load on the production domain.
+            // Local builds (127.0.0.1 / localhost), CI previews and any other
+            // host must never send data to the production property. This check
+            // runs in the visitor's browser at runtime because a static export
+            // cannot know the request host at build time. The token marking
+            // below is for internal visitors on the production domain only.
+            var host = window.location.hostname;
+            if (host !== 'christopherbu.com' && host !== 'www.christopherbu.com') return;
+
             var q = url.searchParams.get('cbteam');
 
             if (q !== null) {

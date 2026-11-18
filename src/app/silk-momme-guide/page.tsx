@@ -413,6 +413,18 @@ export default function SilkMommeGuidePage() {
               </tbody>
             </table>
           </div>
+          <p className="mt-6 max-w-3xl text-base leading-relaxed text-ink-soft">
+            A band says where a fabric sits, not what changes inside it. The{" "}
+            <Link
+              href="/silk-weight/"
+              className="text-jade underline decoration-gold/40 underline-offset-4 hover:text-gold"
+            >
+              momme ladder
+            </Link>{" "}
+            takes each weight in turn: grams per square meter, kilograms per
+            running meter at our widths, and the point where the cloth stops
+            being workable for a given end use.
+          </p>
         </section>
 
         {/* 五个问题 */}
