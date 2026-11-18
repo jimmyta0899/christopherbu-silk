@@ -5,6 +5,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { blogPosts, getPost } from "@/lib/blog";
 import { pageOpenGraph } from "@/lib/seo-metadata";
+import { imgDims } from "@/lib/image-dims";
 import { siteConfig } from "@/lib/site-config";
 
 type Props = {
@@ -323,6 +324,9 @@ export default async function BlogPostPage({ params }: Props) {
                         <img
                           src={img.src}
                           alt={img.alt}
+                          {...imgDims(img.src)}
+                          loading="lazy"
+                          decoding="async"
                           className="h-auto w-full object-cover"
                         />
                         {img.caption && (

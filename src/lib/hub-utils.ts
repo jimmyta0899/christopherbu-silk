@@ -94,7 +94,9 @@ export function articleJsonLd({
     headline,
     description,
     mainEntityOfPage: { "@type": "WebPage", "@id": absUrl(path) },
-    ...(image ? { image: `${siteConfig.url}${image}` } : {}),
+    // image 是 Article 的推荐字段，缺了 Rich Results 会报 warning。
+    // 调用方没给具体配图时退回站点社交卡片，图是真的，不编造。
+    image: `${siteConfig.url}${image ?? "/og-cover.png"}`,
     datePublished,
     dateModified: dateModified ?? datePublished,
     inLanguage: "en",

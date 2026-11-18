@@ -76,9 +76,9 @@ const sources: HubSource[] = [
   },
   {
     publisher: "Standardization Administration of China",
-    title: "GB/T 1797-2008 生丝 (Raw silk)",
+    title: "GB/T 1797-2008 Raw Silk",
     year: "2008",
-    url: "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7764FD3A7E05397BE0A0AB82A",
+    url: "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=AE531C4DFAD83C19095DD539C1663E7E",
     supports:
       "The grading, moisture content and lot-marking rules referenced in the reeling section.",
   },
@@ -91,12 +91,12 @@ const sources: HubSource[] = [
  */
 const officialFigures = [
   {
-    figure: "39.6 万亩 / 396,000 mu",
+    figure: "396,000 mu",
     label: "Mulberry plantations in Yizhou",
-    note: "Yizhou district only, not the wider Hechi prefecture, which reports 96.6 万亩.",
+    note: "Yizhou district only, not the wider Hechi prefecture, which reports 966,000 mu.",
   },
   {
-    figure: "10.9 万吨 / 109,000 t",
+    figure: "109,000 t",
     label: "Fresh cocoon output, annual",
     note: "Yizhou district.",
   },
@@ -318,7 +318,7 @@ export default function YizhouRawSilkPage() {
             Grading, moisture content and lot marking are set by the national
             raw silk standard, GB/T 1797-2008 (
             <a
-              href="https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7764FD3A7E05397BE0A0AB82A"
+              href="https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=AE531C4DFAD83C19095DD539C1663E7E"
               rel="noopener noreferrer"
               target="_blank"
               className="underline underline-offset-2 hover:text-gold"
@@ -378,8 +378,8 @@ export default function YizhouRawSilkPage() {
             >
               Hechi Civil Affairs Bureau
             </a>
-            , 2025). For example, the 39.6 万亩 plantation figure is Yizhou
-            alone, while the prefecture reports 96.6 万亩 for the same crop.
+            , 2025). For example, the 396,000 mu plantation figure is Yizhou
+            alone, while the prefecture reports 966,000 mu for the same crop.
           </p>
           <div className="mt-8 overflow-x-auto border border-line">
             <table className="w-full min-w-[680px] text-sm">
@@ -579,7 +579,7 @@ export default function YizhouRawSilkPage() {
               The question we can answer is whether the local mills can hold
               that width and weight in the same run. The second question is
               what the graded yarn behind it will be. That answer comes from
-              the reeling floor rather than a catalogue page.
+              the reeling floor rather than a catalog page.
             </p>
             <p>
               The other half of our position is that we are a couture house
@@ -599,7 +599,7 @@ export default function YizhouRawSilkPage() {
                 hand-embroidered Oscars gown
               </Link>
               . A mill specification sheet will not tell you that a cloth
-              photographs grey under flash. It will not tell you that it creases
+              photographs gray under flash. It will not tell you that it creases
               at the hip after twenty minutes of sitting. We will.
             </p>
           </div>

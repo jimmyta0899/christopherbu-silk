@@ -300,10 +300,10 @@ export const blogPosts: BlogPost[] = [
           "The FOB trade term definition used in the landed cost section.",
       },
       {
-        publisher: "国家标准化管理委员会",
-        title: "GB/T 1797-2008 生丝 (Raw silk)",
+        publisher: "Standardization Administration of China",
+        title: "GB/T 1797-2008 Raw Silk",
         year: "2008",
-        url: "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7764FD3A7E05397BE0A0AB82A",
+        url: "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=AE531C4DFAD83C19095DD539C1663E7E",
         supports:
           "The 4A to 6A raw silk grading scale referenced in the sample section.",
       },
@@ -327,9 +327,10 @@ export const blogPosts: BlogPost[] = [
     anchorTexts: ["momme fabric weight", "20/22 denier raw silk", "momme vs denier"],
     linkTo: "/products/greige-fabric",
     coverImage: {
-      src: "/products/dupioni2.webp",
-      alt: "Dupioni silk fabric with slub texture, showing the weight and hand that momme measures",
-      caption: "Dupioni silk with slub texture — the weight and hand that momme describes.",
+      src: "/fabric-library/satin/satin-004.jpg",
+      alt: "Silk satin from the Christopher Bu fabric library, the cloth whose weight momme states",
+      caption:
+        "Satin from the Christopher Bu fabric library, file /fabric-library/satin/satin-004.jpg. Provenance, photographer and license are not recorded in the library record, so the provenance is marked unverified; momme and width are not stated on the file.",
     },
     intro:
       "If you are specifying silk for a gown, you need two numbers. Momme tells you the weight of the cloth; denier tells you the thickness of the yarn. They measure different things, and a buyer who reads them together gets the fabric right the first time instead of ordering a weight that feels wrong in the hand.",
@@ -344,10 +345,10 @@ export const blogPosts: BlogPost[] = [
         heading: "What momme measures",
         body: "**Momme** is a unit of silk fabric weight, equal to about 3.75 grams per square meter. A higher momme means a heavier, more structured cloth, and a lower momme means a lighter, softer one. The number comes from the weight of a standard bolt, and it is the figure a mill quotes when you ask how heavy the silk is[1]. For gowns the useful range is narrow, and it helps to think of it as a band rather than a single number. A 19 momme double crepe is the entry weight, light enough to move and heavy enough to hold a silhouette, while a 22 momme fabric has more presence and is what a structured evening gown wants. Below 19 the cloth starts to feel like a lining; above 30 it reads as a jacket or coat weight. For example, the same dress cut in 19 momme drapes softly, where the 30 momme version stands away from the body.",
         image: {
-          src: "/products/dupioni2.webp",
-          alt: "A close view of silk fabric showing the weave that momme weight and denier determine",
+          src: "/fabric-library/habotai/habotai-005.jpg",
+          alt: "Silk habotai from the Christopher Bu fabric library, a light plain weave where yarn denier shows through the cloth",
           caption:
-            "The weave of the silk determines how momme weight and denier yarn read in the hand.",
+            "Habotai from the Christopher Bu fabric library, file /fabric-library/habotai/habotai-005.jpg. Provenance, photographer and license are not recorded in the library record, so the provenance is marked unverified; momme, width and yarn denier are not stated on the file.",
         },
       },
       {
@@ -365,6 +366,12 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Matching spec to use",
+        image: {
+          src: "/fabric-library/dupioni/dupioni-008.jpg",
+          alt: "Dupioni silk from the Christopher Bu fabric library, a structured cloth chosen for gown weights",
+          caption:
+            "Dupioni from the Christopher Bu fabric library, file /fabric-library/dupioni/dupioni-008.jpg. Provenance, photographer and license are not recorded in the library record, so the provenance is marked unverified; momme, width and yarn denier are not stated on the file.",
+        },
         body: "The right weight depends on the job the silk has to do. For a structured gown, choose a heavier momme double crepe or dupioni, because the cloth has to hold a shape without collapsing under its own weight. For an overlay, choose a lighter fabric that drapes instead of standing. For an embroidery base, choose a stable greige, because the ground has to hold still while thread is stitched into it. The rule is simple: match the spec to the end use. A gown cut from overlay-weight silk will not hold its line, and an overlay cut from gown-weight silk will not fall. Naming the end use before you name the weight avoids the most common ordering mistake.",
         table: {
           caption: "Momme weights and their typical uses",
@@ -402,10 +409,10 @@ export const blogPosts: BlogPost[] = [
           "The momme weight unit and the weight range used in the momme section.",
       },
       {
-        publisher: "国家标准化管理委员会",
-        title: "GB/T 1797-2008 生丝 (Raw silk)",
+        publisher: "Standardization Administration of China",
+        title: "GB/T 1797-2008 Raw Silk",
         year: "2008",
-        url: "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7764FD3A7E05397BE0A0AB82A",
+        url: "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=AE531C4DFAD83C19095DD539C1663E7E",
         supports:
           "The 20/22 denier raw silk designation and grading scale used in the denier section.",
       },
@@ -448,10 +455,10 @@ export const blogPosts: BlogPost[] = [
         heading: "Step 1: raw silk, reeled and wound",
         body: "Every dupioni starts as raw silk. In Yizhou, Guangxi, mulberry cocoons are reeled into 20/22 denier filature silk, graded 4A to 6A under GB/T 1797-2008[1], and wound into hanks. This is the same raw silk we supply to weaving mills, and it is the base yarn a dupioni loom feeds on. The quality at this stage sets the ceiling for everything after it. The weights and grades cited here follow the same spec sheet we give buyers, so the numbers match what a mill will quote.",
         image: {
-          src: "/products/raw-silk2.webp",
+          src: "/products/raw-silk-20-22d.webp",
           alt: "20/22 denier mulberry raw silk yarn hanks in natural white, the base yarn for dupioni silk",
           caption:
-            "20/22 denier raw silk hanks in natural white. This reeled filature silk is the base yarn dupioni begins from.",
+            "20/22 denier raw silk hanks in natural white, the product image for the site's Raw Silk Yarn page. This reeled filature silk is the base yarn a dupioni loom feeds on.",
         },
         links: [
           { text: "raw silk yarn for weaving", href: "/products/raw-silk" },
@@ -461,10 +468,10 @@ export const blogPosts: BlogPost[] = [
         heading: "Step 2: the double-cocoon weave that makes the slub",
         body: "[ORIGINAL DATA] **Dupioni** is a plain-weave mulberry silk woven from paired-cocoon filaments. Because the two filaments refuse to separate cleanly, the yarn carries thick-and-thin slubs along its length. Woven plain, those slubs become the fabric's signature: a fine irregular rib that reflects light unevenly. The texture is part of the weave, which is why it reads as deliberate and why no two lengths look exactly the same.",
         image: {
-          src: "/products/dupioni2.webp",
-          alt: "19 momme dupioni silk greige fabric showing the slub texture from the double-cocoon weave",
+          src: "/fabric-library/dupioni/dupioni-010.jpg",
+          alt: "Dupioni silk from the Christopher Bu fabric library, a plain weave carrying irregular slubs",
           caption:
-            "19 momme dupioni greige. The slub texture in the weave is the fabric's signature, straight off the loom.",
+            "Dupioni from the Christopher Bu fabric library, file /fabric-library/dupioni/dupioni-010.jpg. Provenance, photographer and license are not recorded in the library record, so the provenance is marked unverified; momme and width are not stated on the file.",
         },
       },
       {
@@ -558,10 +565,10 @@ export const blogPosts: BlogPost[] = [
     ],
     references: [
       {
-        publisher: "国家标准化管理委员会",
-        title: "GB/T 1797-2008 生丝 (Raw silk), issued 2008-08-06, effective 2009-06-01",
+        publisher: "Standardization Administration of China",
+        title: "GB/T 1797-2008 Raw Silk, issued 2008-08-06, effective 2009-06-01",
         year: "2008",
-        url: "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7764FD3A7E05397BE0A0AB82A",
+        url: "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=AE531C4DFAD83C19095DD539C1663E7E",
         supports:
           "The 20/22 denier designation and the 4A–6A grading scale used in Step 1.",
       },
@@ -574,8 +581,9 @@ export const blogPosts: BlogPost[] = [
           "The 5% shrinkage allowance quoted in Step 3: their spec table lists shrinkage after hand wash at ≤5%. Trade specification, not a third-party lab report.",
       },
       {
-        publisher: "Sina Fashion (新浪时尚)",
-        title: "不止LV “潮人”范冰冰最爱小众国货",
+        publisher: "Sina Fashion",
+        title:
+          "Beyond LV: Fan Bingbing's favorite niche Chinese labels (headline translated from Chinese)",
         year: "2013",
         url: "https://hunan.sina.com.cn/hengyang/ssbh/2013-06-26/11311830.html",
         supports:

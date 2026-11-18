@@ -11,6 +11,7 @@ import { blogPosts } from "@/lib/blog";
 import { faqs } from "@/lib/faq";
 import { siteConfig } from "@/lib/site-config";
 import { ORGANIZATION_ID } from "@/lib/organization-schema";
+import { imgDims } from "@/lib/image-dims";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
@@ -136,6 +137,7 @@ export default function HomePage() {
               <img
                 src="/products/raw-silk-cocoon.webp"
                 alt="White silk cocoons and raw silk skeins on a linen cloth — raw silk from Yizhou"
+                {...imgDims("/products/raw-silk-cocoon.webp")}
                 className="aspect-[4/3] w-full object-cover sm:w-2/5 sm:aspect-auto"
               />
               <div className="flex flex-1 flex-col p-8">
@@ -175,7 +177,7 @@ export default function HomePage() {
             </div>
           </div>
 
-          {/* 生丝参数规格页：首页显式入口，锚文本直接覆盖目标长尾词 */}
+          {/* Raw Silk参数规格页：首页显式入口，锚文本直接覆盖目标长尾词 */}
           <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-2 border border-gold/50 bg-ivory px-6 py-4">
             <p className="max-w-3xl text-sm leading-relaxed text-ink-soft">
               Buying raw silk yarn? See the full{" "}
@@ -242,6 +244,7 @@ export default function HomePage() {
                       <img
                         src={`/${item.image}`}
                         alt={item.imageAlt}
+                        {...imgDims(`/${item.image}`)}
                         loading="lazy"
                         className="aspect-[3/4] w-24 shrink-0 self-start object-cover"
                       />

@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { coutureLooks } from "@/lib/couture";
+import { imgDims } from "@/lib/image-dims";
 
 export function CoutureGallery() {
   const [active, setActive] = useState(0);
@@ -51,6 +52,7 @@ export function CoutureGallery() {
               <img
                 src={`/couture/${look.image}`}
                 alt={`${look.name} — Christopher Bu couture inspiration`}
+                {...imgDims(`/couture/${look.image}`)}
                 loading={i < 2 ? "eager" : "lazy"}
                 className="h-full w-auto max-w-full cursor-zoom-in object-contain"
               />
@@ -95,6 +97,7 @@ export function CoutureGallery() {
               <img
                 src={`/couture/${look.image}`}
                 alt=""
+                {...imgDims(`/couture/${look.image}`)}
                 loading="lazy"
                 className="h-20 w-auto"
               />
@@ -176,6 +179,7 @@ export function CoutureGallery() {
             <img
               src={`/couture/${coutureLooks[lightbox].image}`}
               alt={`${coutureLooks[lightbox].name}: Christopher Bu couture inspiration`}
+              {...imgDims(`/couture/${coutureLooks[lightbox].image}`)}
               className="max-h-[84vh] max-w-[92vw] object-contain"
             />
             <figcaption className="mt-3 text-center text-sm text-white/80">

@@ -118,7 +118,7 @@ export default function CertificatesPage() {
           <ul className="mt-4 space-y-3 text-sm text-ink-soft">
             <li>
               <a
-                href="https://www.oeko-tex.com/en/business/certification/management/label-check"
+                href="https://www.oeko-tex.com/en/label-check/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-jade hover:underline"
@@ -129,7 +129,7 @@ export default function CertificatesPage() {
             </li>
             <li>
               <a
-                href="https://certified.gots.org/"
+                href="https://global-standards.org/suppliers/certified-suppliers"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-jade hover:underline"

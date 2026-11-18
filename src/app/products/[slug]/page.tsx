@@ -156,7 +156,7 @@ export default async function ProductPage({ params }: Props) {
           </div>
         </div>
 
-        {/* 生丝纱线三分类（仅 raw-silk 等有 yarnVariants 的产品） */}
+        {/* Raw Silk纱线三分类（仅 raw-silk 等有 yarnVariants 的产品） */}
         {product.yarnVariants && product.yarnVariants.length > 0 && (
           <section className="mt-12">
             <h2 className="font-display text-2xl font-medium text-jade-deep">
@@ -248,7 +248,7 @@ export default async function ProductPage({ params }: Props) {
           </p>
         </section>
 
-        {/* 生丝参数化规格页入口：仅 raw-silk 产品页显示，避免全品类误链 */}
+        {/* Raw Silk参数化规格页入口：仅 raw-silk 产品页显示，避免全品类误链 */}
         {slug === "raw-silk" && (
           <section className="mt-10 border-l-2 border-jade pl-5">
             <h2 className="font-display text-xl font-medium text-jade-deep">

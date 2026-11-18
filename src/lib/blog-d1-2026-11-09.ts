@@ -6,7 +6,7 @@ export const d1Posts: BlogPost[] = [
   {
     "slug": "dupioni-silk-fabric-wholesale",
     "title": "Dupioni Silk Wholesale: Buyer's Spec Guide",
-    "metaDescription": "A technical spec guide to dupioni silk fabric: how a double cocoon produces a slubbed doupion yarn, how the plain weave is built, and how to separate",
+    "metaDescription": "How a double cocoon makes slubbed dupioni yarn, how the plain weave is built, and how the cloth differs from habotai, raw silk and greige fabric.",
     "type": "Fabric / dupioni",
     "publishDate": "2026-11-09",
     "keywords": [
@@ -24,7 +24,7 @@ export const d1Posts: BlogPost[] = [
     "coverImage": {
       "src": "/fabric-library/dupioni/dupioni-004.jpg",
       "alt": "Close-up of iridescent dupioni silk fabric showing irregular slubs and a plain weave",
-      "caption": "<b>图：</b>Dupioni 真丝布面（双宫丝平纹，可见不规则竹节 slub）。<b>来源：</b>第三方零售商 Fabric Wholesale Direct 产品照，原始链接 https://www.fabricwholesaledirect.com/products/silk-dupioni-fabric ；非本站自有图，仅作布面示例，授权待核实。<b>关键属性：</b>标签标注幅宽约 54″、双面异色光泽（iridescent）；姆米/克重未注明。<b>时间/系列：</b>未注明（Pinterest 发现层）。"
+      "caption": "What: Dupioni silk fabric surface, a plain weave carrying visible irregular slubs. Source: third-party retailer Fabric Wholesale Direct product photo, original listing https://www.fabricwholesaledirect.com/products/silk-dupioni-fabric; this is not a Christopher Bu photograph, it is used only as a surface example and its license is unverified. Key attributes: the listing states a width of about 54 in and an iridescent face that shifts tone; momme and grams per square meter are not stated. Time/series: not recorded."
     },
     "intro": "A wholesale dupioni order begins with a naming problem. The word covers a family of related cloths, and the trade sometimes applies it to fabrics that are not dupioni at all. The feature that pins the name down is the slub, a thick, irregular place in the weft that crosses the grain and catches light unevenly. Because the slub starts in the yarn and survives weaving, a buyer cannot judge the cloth from a color name or a weight alone. The cocoon, the yarn and the weave each leave a mark on the delivered fabric, and a specification has to account for them before an order is written.\n\nConfusion usually arrives through the neighbouring terms. \"Raw silk\" names a yarn, \"greige\" a cloth fresh off the loom, and Habotai Silk a separate plain-weave product, yet all three turn up in enquiries about dupioni. Each controls a different decision on an order.",
     "takeaways": [
@@ -37,7 +37,7 @@ export const d1Posts: BlogPost[] = [
     "sections": [
       {
         "heading": "Where the slubs start: the double cocoon",
-        "body": "A double cocoon is spun by two worms working together, so the filament does not unwind smoothly and tangles easily during reeling. **Doupion yarn** is a coarse, non-uniform yarn reeled from double cocoons[1]. The [FAO silk reeling manual](https://www.fao.org/4/x2099e/x2099e04.htm) lists crowded mounting conditions, high temperatures, high humidity and mutation among the causes, and it files double cocoons under defective cocoons[1].\n\nA museum object record gives the same origin. The London Museum holds a coiled sample of doppiona silk dated 1900 to 1935, and its catalogue note says the silk is formed when the cocoons of two silkworms become entangled, producing a slightly thicker thread with irregularities[2]. The note records that the woven textile dyes well and is less prone to creasing[2], two properties that matter when a buyer orders cloth dyed to order or a garment that has to hold a pressed shape.\n\nCAMEO, the materials database of the Museum of Fine Arts Boston, defines doupion silk as an irregular thread produced when filaments from two or more cocoons are spun together, with entangled filaments forming a rough yarn of uneven thick and thin areas[3]. Its [doupion silk entry](https://cameo.mfa.org/wiki/Duopion) lists the spelling variants a buyer meets in quotations: douppioni, dupion, dupioni and doupin[3]."
+        "body": "A double cocoon is spun by two worms working together, so the filament does not unwind smoothly and tangles easily during reeling. **Doupion yarn** is a coarse, non-uniform yarn reeled from double cocoons[1]. The [FAO silk reeling manual](https://www.fao.org/4/x2099e/x2099e04.htm) lists crowded mounting conditions, high temperatures, high humidity and mutation among the causes, and it files double cocoons under defective cocoons[1].\n\nA museum object record gives the same origin. The London Museum holds a coiled sample of doppiona silk dated 1900 to 1935, and its catalog note says the silk is formed when the cocoons of two silkworms become entangled, producing a slightly thicker thread with irregularities[2]. The note records that the woven textile dyes well and is less prone to creasing[2], two properties that matter when a buyer orders cloth dyed to order or a garment that has to hold a pressed shape.\n\nCAMEO, the materials database of the Museum of Fine Arts Boston, defines doupion silk as an irregular thread. It forms when filaments from two or more cocoons are spun together, and the entangled filaments make a rough yarn with uneven thick and thin areas[3]. Its [doupion silk entry](https://cameo.mfa.org/wiki/Duopion) lists the spelling variants a buyer meets in quotations: douppioni, dupion, dupioni and doupin[3]."
       },
       {
         "heading": "From doupion yarn to plain-weave cloth",
@@ -54,12 +54,12 @@ export const d1Posts: BlogPost[] = [
         "image": {
           "src": "/fabric-library/dupioni/dupioni-001.jpg",
           "alt": "Close-up of iridescent teal and black dupioni silk fabric showing irregular slubs",
-          "caption": "<b>图：</b>Dupioni 真丝布面（双宫丝平纹，可见不规则竹节）。<b>来源：</b>Pinterest 发现层缩略图（i.pinimg），原始出处待追；非本站自有图，仅作布面示例，授权待核实。<b>关键属性：</b>标签标注幅宽 54″、双面异色 Teal/Black 光泽；姆米/克重未注明。<b>时间/系列：</b>未注明。"
+          "caption": "What: Dupioni silk fabric surface, a plain weave carrying visible irregular slubs. Source: a Pinterest discovery-layer thumbnail hosted on i.pinimg, original owner not yet traced; this is not a Christopher Bu photograph, it is used only as a surface example and its license is unverified. Key attributes: the pin labels a 54 in width and an iridescent Teal and Black face; momme and grams per square meter are not stated. Time/series: not recorded."
         }
       },
       {
         "heading": "What goes on a dupioni spec sheet",
-        "body": "A specification sheet is a list of fields a supplier and a buyer can both check. Two merchant pages show the shape of that list[12][13]. One lists material, weight, width, wash care, feel, usage, a disclaimer about color variation and natural irregularities, and an option to request a sample[12]. The other lists composition, available widths, available weights, texture, drape, strength, care and a minimum order quantity expressed as a roll length[13]. A buyer takes the categories and checks each value against a written quotation.\n\nThe composition row has a legal side in the United States. [16 CFR 303.6](https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-303/section-303.6) requires a textile fiber product to name its fibers by their generic names, and silk is one of the names the rule lists[14]. [The FTC statute](https://www.ftc.gov/legal-library/browse/rules/textile-products-identification-act-text) defines the yarn and fabric the Act covers and sets out the label duty for those products[15].\n\nThe slub is a defined feature of the cloth, so the disclaimer covering minor variations belongs in the same document as the weight. A sample clause belongs there too, because a swatch is what both sides approve before the bulk lot is cut.\n\nThe weight, width and shrinkage figures above are the site's own published product specification; the other rows are fields a buyer fixes in writing before a quotation is signed.",
+        "body": "A specification sheet is a list of fields a supplier and a buyer can both check. Two merchant pages show the shape of that list[12][13]. One lists material, weight, width, wash care, feel, usage, a disclaimer about color variation and natural irregularities, and an option to request a sample[12]. The other lists composition, available widths, available weights, texture, drape, strength, care and a minimum order quantity expressed as a roll length[13]. A buyer takes the categories and checks each value against a written quotation.\n\nThe composition row has a legal side in the United States. [16 CFR 303.6](https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-303/section-303.6) requires a textile fiber product to name its fibers by their generic names, and silk is one of the names the rule lists[14]. [The FTC statute](https://www.law.cornell.edu/uscode/text/15/70) defines the yarn and fabric the Act covers and sets out the label duty for those products[15].\n\nThe slub is a defined feature of the cloth, so the disclaimer covering minor variations belongs in the same document as the weight. A sample clause belongs there too, because a swatch is what both sides approve before the bulk lot is cut.\n\nThe weight, width and shrinkage figures above are the site's own published product specification; the other rows are fields a buyer fixes in writing before a quotation is signed.",
         "table": {
           "headers": [
             "Field",
@@ -107,7 +107,7 @@ export const d1Posts: BlogPost[] = [
       },
       {
         "heading": "Weight, width and what a swatch can prove",
-        "body": "Momme and grams per square meter both describe fabric mass, and a buyer sometimes treats them as interchangeable. ISO 3801:1977 sets out methods for mass per unit length and mass per unit area, and its text notes that for some fabrics the two are related simply by the width while for others the structure introduces an important distinction between them[10]. The standard measures how mass is determined; it does not define a conversion between momme and grams per square meter[10]. A quotation should say which measurement was taken and on what width.\n\nA swatch narrows that further. ASTM D3776/D3776M-20 covers the measurement of fabric mass per unit area, traditionally called fabric weight, and includes an option for a small swatch of fabric[11]. The standard states that results from that option are considered applicable to the sample only and not necessarily to the lot[11].\n\nConsider a swatch whose measured weight does not match the bulk roll: the buyer settles the difference against the written quotation, because the swatch alone certifies only itself[11]."
+        "body": "Momme and grams per square meter both describe fabric mass, and a buyer sometimes treats them as interchangeable. ISO 3801:1977 sets out methods for mass per unit length and mass per unit area. Its text notes that for some fabrics the two are related simply by the width. For others, the structure introduces an important distinction between them[10]. The standard measures how mass is determined; it does not define a conversion between momme and grams per square meter[10]. A quotation should say which measurement was taken and on what width.\n\nA swatch narrows that further. ASTM D3776/D3776M-20 covers the measurement of fabric mass per unit area, traditionally called fabric weight, and includes an option for a small swatch of fabric[11]. The standard states that results from that option are considered applicable to the sample only and not necessarily to the lot[11].\n\nConsider a swatch whose measured weight does not match the bulk roll: the buyer settles the difference against the written quotation, because the swatch alone certifies only itself[11]."
       },
       {
         "heading": "Delivery states and the published specification",
@@ -197,7 +197,7 @@ export const d1Posts: BlogPost[] = [
       },
       {
         "publisher": "Threads Magazine",
-        "title": "The Difference Between Dupioni and",
+        "title": "The Difference Between Dupioni and Shantung",
         "year": "2021",
         "url": "https://www.threadsmagazine.com/2021/08/29/the-difference-between-dupioni-and-shantung"
       },
@@ -209,13 +209,13 @@ export const d1Posts: BlogPost[] = [
       },
       {
         "publisher": "ASTM International",
-        "title": "D3776/D3776M-20 Standard Test Methods for",
+        "title": "D3776/D3776M-20 Standard Test Methods for Mass Per Unit Area (Weight) of Fabric",
         "year": "2020",
         "url": "https://www.astm.org/d3776_d3776m-20.html"
       },
       {
         "publisher": "Puresilks.us",
-        "title": "100% pure silk dupioni fabric gold 40",
+        "title": "100% pure silk dupioni fabric gold 40 momme with slubs",
         "year": "n.d.",
         "url": "https://www.puresilks.us/products/100-pure-silk-dupioni-fabric-gold-40-momme-54-wide-with-slubs"
       },
@@ -227,7 +227,7 @@ export const d1Posts: BlogPost[] = [
       },
       {
         "publisher": "Electronic Code of Federal Regulations",
-        "title": "16 CFR 303.6, Generic names of fibers to",
+        "title": "16 CFR 303.6, Generic names of fibers to be used",
         "year": "n.d.",
         "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-303/section-303.6"
       },
@@ -235,14 +235,14 @@ export const d1Posts: BlogPost[] = [
         "publisher": "Federal Trade Commission",
         "title": "Textile Fiber Products Identification Act",
         "year": "n.d.",
-        "url": "https://www.ftc.gov/legal-library/browse/rules/textile-products-identification-act-text"
+        "url": "https://www.law.cornell.edu/uscode/text/15/70"
       }
     ]
   },
   {
     "slug": "dupioni-silk-price-per-yard",
     "title": "Dupioni Silk Price Per Yard: What Drives",
-    "metaDescription": "Why dupioni silk has no public per-yard price: the cost and compliance fields a written quotation fixes, from tariff classification and fiber",
+    "metaDescription": "No public per-yard price: how tariff classification, fiber labeling, test methods and certificate scope shape the written quotation for dupioni silk.",
     "type": "Fabric / dupioni",
     "publishDate": "2026-11-09",
     "keywords": [
@@ -261,12 +261,12 @@ export const d1Posts: BlogPost[] = [
     "coverImage": {
       "src": "/fabric-library/dupioni/dupioni-022.jpg",
       "alt": "Close-up of blue sapphire dupioni silk fabric showing irregular slubs and plain weave",
-      "caption": "<b>图：</b>Dupioni 真丝布面（双宫丝平纹，可见不规则竹节）。<b>来源：</b>第三方零售商 Bolt & Spool 产品照，原始链接 https://boltandspool.com/products/silk-dupioni-blue-sapphire ；非本站自有图，仅作布面示例，授权待核实。<b>关键属性：</b>标签标注颜色 Blue Sapphire；幅宽/姆米未注明。<b>时间/系列：</b>未注明。"
+      "caption": "What: Dupioni silk fabric surface, a plain weave carrying visible irregular slubs. Source: third-party retailer Bolt & Spool product photo, original listing https://boltandspool.com/products/silk-dupioni-blue-sapphire; this is not a Christopher Bu photograph, it is used only as a surface example and its license is unverified. Key attributes: the listing names the color Blue Sapphire; width and momme are not stated. Time/series: not recorded."
     },
     "intro": "There is no public per-yard price for dupioni silk on this site, and no price list to download. A written quotation states the cost of one order built around one specification: weight, width, finish, color route, order size and shipping term. Buyers searching for a cost per yard are asking which fields move the total. This is the cost and compliance counterpart to the specification guide, which covers the cloth and its spec sheet. No figure here is a price.",
     "takeaways": [
-      "No per-yard price list is published; a written quotation prices one specification for one order.",
-      "A quotation settles cost fields (weight, width, finish, order size) and compliance fields (fiber labelling, test methods, certificate scope).",
+      "No per-yard price list is published; a written quotation prices one spec for one order.",
+      "A quotation settles cost fields (weight, width, finish, order size) and compliance fields (fiber labeling, test methods, certificate scope).",
       "Tariff rules split woven silk fabrics by silk content and width, so those fields come before a cost.",
       "Shrinkage, color fastness and fabric weight each have a published test method, and one weighed swatch does not certify a whole delivery.",
       "Verify a certificate number with the issuer's own tool and read its scope."
@@ -274,16 +274,16 @@ export const d1Posts: BlogPost[] = [
     "sections": [
       {
         "heading": "Why there is no public per-yard price",
-        "body": "A single per-yard price assumes one cloth with one fixed set of fields. The site publishes dupioni in 16 and 19 momme, in 114 and 140 cm widths, either greige or dyed to order. Each combination uses a different amount of silk, so the written quotation ties the cost to the combination a buyer confirms.\n\n**A written quotation** is the document that fixes one order's cost against one specification.\n\nThose fields also set the customs classification. In [the HTS 5007 table](https://hts.usitc.gov/search?query=5003.00.9000) published by the USITC, raw silk falls under heading 5002 while woven silk fabrics fall under 5007, and the woven heading is divided by silk content and by width, with a 127 cm threshold among the splits[1]. A quotation missing the composition or the width cannot be matched to the right classification, which is part of the landed cost.\n\nISO 3801 notes that for some fabrics mass per unit length and mass per unit area are related simply by the width, while for others the structure introduces an important distinction between the two[2]. A weight figure on a quotation therefore has to say what was measured and on what basis.\n\nFor example, two quotations naming the same momme but built on different measurement bases cannot be compared until each says what was measured[2].\n\nThe cloth is a woven silk with an irregular, slubbed surface, supplied greige (undyed) or dyed to order from a standard shade card or a custom color. That distinction is a cost field, because dyeing adds a processing step the greige route does not carry. The specification guide covers how the yarn and weave produce the slubs.\n\nThe image above is a finished garment from the 2013SS archive; the close view of the cloth belongs to the specification guide.",
+        "body": "A single per-yard price assumes one cloth with one fixed set of fields. The site publishes dupioni in 16 and 19 momme, in 114 and 140 cm widths, either greige or dyed to order. Each combination uses a different amount of silk, so the written quotation ties the cost to the combination a buyer confirms.\n\n**A written quotation** is the document that fixes one order's cost against one spec.\n\nThose fields also set the customs classification. In [the HTS 5007 table](https://hts.usitc.gov/search?query=5007) published by the USITC, raw silk falls under heading 5002 while woven silk fabrics fall under 5007. The woven heading is divided by silk content and by width, with a 127 cm threshold among the splits[1]. A quotation missing the composition or the width cannot be matched to the right classification, which is part of the landed cost.\n\nISO 3801 notes that for some fabrics mass per unit length and mass per unit area are related simply by the width. For others the structure introduces an important distinction between the two[2]. A weight figure on a quotation therefore has to say what was measured and on what basis.\n\nFor example, two quotations naming the same momme but built on different measurement bases cannot be compared until each says what was measured[2].\n\nThe cloth is a woven silk with an irregular, slubbed surface, supplied greige (undyed) or dyed to order from a standard shade card or a custom color. That distinction is a cost field, because dyeing adds a processing step the greige route does not carry. The specification guide covers how the yarn and weave produce the slubs.\n\nThe image above is a finished garment from the 2013SS archive; the close view of the cloth belongs to the specification guide.",
         "image": {
           "src": "/fabric-library/dupioni/dupioni-022.jpg",
           "alt": "Close-up of blue sapphire dupioni silk fabric showing irregular slubs and plain weave",
-          "caption": "<b>图：</b>Dupioni 真丝布面（双宫丝平纹，可见不规则竹节）。<b>来源：</b>第三方零售商 Bolt & Spool 产品照，原始链接 https://boltandspool.com/products/silk-dupioni-blue-sapphire ；非本站自有图，仅作布面示例，授权待核实。<b>关键属性：</b>标签标注颜色 Blue Sapphire；幅宽/姆米未注明。<b>时间/系列：</b>未注明。"
+          "caption": "What: Dupioni silk fabric surface, a plain weave carrying visible irregular slubs. Source: third-party retailer Bolt & Spool product photo, original listing https://boltandspool.com/products/silk-dupioni-blue-sapphire; this is not a Christopher Bu photograph, it is used only as a surface example and its license is unverified. Key attributes: the listing names the color Blue Sapphire; width and momme are not stated. Time/series: not recorded."
         }
       },
       {
         "heading": "The fields a written quotation has to fix",
-        "body": "Weight in momme and width in centimeters set how much silk an order uses and how many meters the cutting plan needs. The greige or dyed-to-order finish decides whether a dyeing step is added, and the color route decides how much work sits behind it, since a custom color needs a lab dip the buyer approves before the bulk lot. Order size, packing and the shipping term set where freight and handling are divided. The cloth-side fields are listed in [what goes on a dupioni spec sheet](/blog/dupioni-silk-fabric-wholesale/).\n\nCompliance fields sit on the same document. **Fiber content labelling** means naming every fiber present at 5 percent or more of total fiber weight by its generic name. A shipment into the United States carries a fiber content label, and [16 CFR 303.6](https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-303/section-303.6) sets out that requirement, with silk among the named generic names[3]. The Textile Fiber Products Identification Act supplies the definitions of yarn and fabric behind that label and the labelling duty, although it chiefly covers household textile articles and should not be read as a rule for every garment[4].\n\nA finished mulberry silk fabric also sits inside a national standards framework. GB/T 15551-2016, Mulberry silk fabrics, is a current Chinese national standard, published on 25 April 2016 and effective from 1 November 2016[5]. This page makes no claim that the goods conform to it.\n\nCost and compliance fields on a written quotation with the published rule or test method a buyer can name for each; weights and widths here are the site's own published values, and the last column names external standards only.",
+        "body": "Weight in momme and width in centimeters set how much silk an order uses and how many meters the cutting plan needs. The greige or dyed-to-order finish decides whether a dyeing step is added. The color route decides how much work sits behind it, since a custom color needs a lab dip the buyer approves before the bulk lot. Order size, packing and the shipping term set where freight and handling are divided.\n\nCompliance fields sit on the same document. **Fiber content labeling** means naming every fiber present at 5 percent or more of total fiber weight by its generic name. A shipment into the United States carries a fiber content label. [16 CFR 303.6](https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-303/section-303.6) sets out that requirement, with silk among the named generic names[3]. The Textile Fiber Products Identification Act supplies the definitions of yarn and fabric behind that label and the labeling duty. It chiefly covers household textile articles and should not be read as a rule for every garment[4].\n\nA finished mulberry silk fabric also sits inside a national standards framework. GB/T 15551-2016, Mulberry silk fabrics, is a current Chinese national standard, published on 25 April 2016 and effective from 1 November 2016[5]. This page makes no claim that the goods conform to it.\n\nCost and compliance fields on a written quotation with the published rule or test method a buyer can name for each. Weights and widths here are the site's own published values, and the last column names external standards only.",
         "table": {
           "headers": [
             "Quotation field",
@@ -331,33 +331,33 @@ export const d1Posts: BlogPost[] = [
       },
       {
         "heading": "Finish, color and the test method behind them",
-        "body": "Greige cloth leaves the loom undyed, while a dyed-to-order length adds a dyeing step; the two are different goods even when the base cloth is the same.\n\n**A lab dip** is the sample a buyer approves before a dyed-to-order bulk lot is colored.\n\nColor needs a test method as well as a shade. [ISO 105-C06](https://www.iso.org/standard/51276.html) specifies methods for determining the resistance of the color of textiles to domestic or commercial laundering[6]. A dyed-to-order order should state which method the color fastness will be judged by, and who runs it, before the bulk lot is approved. The standard describes a test, not a grade for a given lot.\n\nA commercial supplier's terms show the shape a written disclaimer takes. Dharma Trading describes greige goods as washed but neither bleached nor optically whitened, its definition of prepared for dyeing, and states that its fabrics are not pre-shrunk and that small slubs and irregularities are natural rather than defects[7]. Those are a supplier's own terms rather than an authority on measurement; the structure is what a buyer can borrow. State the finish, the shrinkage position and what counts as a natural variation on the quotation."
+        "body": "Greige cloth leaves the loom undyed, while a dyed-to-order length adds a dyeing step; the two are different goods even when the base cloth is the same.\n\n**A lab dip** is the sample a buyer approves before a dyed-to-order bulk lot is colored.\n\nColor needs a test method as well as a shade. [ISO 105-C06](https://www.iso.org/standard/51276.html) specifies methods for determining the resistance of the color of textiles to domestic or commercial laundering[6]. A dyed-to-order order should state which method the color fastness will be judged by, and who runs it, before the bulk lot is approved. The standard describes a test, not a grade for a given lot.\n\nA commercial supplier's terms show the shape a written disclaimer takes. Dharma Trading describes greige goods as washed but neither bleached nor optically whitened, its definition of prepared for dyeing. It states that its fabrics are not pre-shrunk and that small slubs and irregularities are natural rather than defects[7]. Those are a supplier's own terms rather than an authority on measurement; the structure is what a buyer can borrow. State the finish, the shrinkage position and what counts as a natural variation on the quotation."
       },
       {
         "heading": "Dimensional change, swatches and how a buyer accepts a lot",
-        "body": "**Dimensional change** refers to the change in fabric or garment size after washing and drying, the subject of ISO 5077[8].\n\nShrinkage is often a guess, and it has a published test method behind it. ISO 5077 specifies a method for determining the dimensional change of fabrics and garments after a defined combination of washing and drying procedures[8]. The site's own planning figure of around 5 percent for dupioni is a cutting allowance, not a laboratory result from that method. Keep the two separate: state the allowance the pattern needs and the method by which a finished lot would be checked if a dispute arises.\n\nSample acceptance needs the same care. [ASTM D3776](https://www.astm.org/d3776_d3776m-20.html) covers the measurement of fabric mass per unit area, and its small-swatch option carries an explicit limit: the results apply to the sample only and not necessarily to the lot[9]. The quotation should say what the swatch is for, what the inspection report will measure on the bulk lot, and who signs off when the two disagree.\n\nFor example, a buyer who weighs one swatch and finds it heavier than expected cannot reject the whole delivery on that number alone, since ASTM D3776 applies small-swatch results to the sample only[9].\n\nAn order carries a spec sheet, a lab dip for dyed-to-order orders, an inspection report, a packing list and a certificate of origin where required. Name each on the quotation as an acceptance test both sides accept before approval.\n\nThe skeins above are the raw material at the yarn stage. Raw silk yarn on this site is traded by weight; the meter is the unit for the woven cloth.",
+        "body": "**Dimensional change** refers to the change in fabric or garment size after washing and drying, the subject of ISO 5077[8].\n\nShrinkage is often a guess, and it has a published test method behind it. ISO 5077 specifies a method for determining the dimensional change of fabrics and garments after a defined combination of washing and drying procedures[8]. The site's own planning figure of around 5 percent for dupioni is a cutting allowance, not a laboratory result from that method. Keep the two separate: state the allowance the pattern needs and the method by which a finished lot would be checked if a dispute arises.\n\nSample acceptance needs the same care. [ASTM D3776](https://www.astm.org/d3776_d3776m-20.html) covers the measurement of fabric mass per unit area. Its small-swatch option carries an explicit limit: the results apply to the sample only and not necessarily to the lot[9]. The quotation should say what the swatch is for, what the inspection report will measure on the bulk lot, and who signs off when the two disagree.\n\nFor example, a buyer who weighs one swatch and finds it heavier than expected cannot reject the whole delivery on that number alone. ASTM D3776 applies small-swatch results to the sample only[9].\n\nAn order carries a spec sheet, a lab dip for dyed-to-order orders, an inspection report, a packing list and a certificate of origin where required. Name each on the quotation as an acceptance test both sides accept before approval.\n\nThe skeins above are the raw material at the yarn stage. Raw silk yarn on this site is traded by weight; the meter is the unit for the woven cloth.",
         "image": {
           "src": "/fabric-library/dupioni/dupioni-003.jpg",
           "alt": "Close-up of dupioni silk fabric showing irregular slubs and a plain weave",
-          "caption": "<b>图：</b>Dupioni 真丝布面（双宫丝平纹，可见不规则竹节）。<b>来源：</b>第三方零售商 Fabric Wholesale Direct 产品照，原始链接 https://www.fabricwholesaledirect.com/products/silk-dupioni-fabric?variant=39460378378355 ；非本站自有图，仅作布面示例，授权待核实。<b>关键属性：</b>标签标注幅宽约 54″；姆米/克重未注明。<b>时间/系列：</b>未注明。"
+          "caption": "What: Dupioni silk fabric surface, a plain weave carrying visible irregular slubs. Source: third-party retailer Fabric Wholesale Direct product photo, original listing https://www.fabricwholesaledirect.com/products/silk-dupioni-fabric?variant=39460378378355; this is not a Christopher Bu photograph, it is used only as a surface example and its license is unverified. Key attributes: the listing states a width of about 54 in; momme and grams per square meter are not stated. Time/series: not recorded."
         }
       },
       {
         "heading": "Certificates and the scope a buyer has to check",
-        "body": "Certificate numbers arrive with the written quotation and the shipping documents, and a number on its own proves little until its scope matches the goods. OEKO-TEX runs [the Label Check](https://www.oeko-tex.com/en/label-check/) where a buyer enters a label number to confirm whether a label is official; the numbers are case sensitive[10]. That is the verification entry point, not a claim that any certificate on this site has been checked through it.\n\nSTANDARD 100, the OEKO-TEX label for textiles tested for harmful substances, sets a benchmark that runs from yarn to finished product and divides certified articles into four product classes; Class 2 covers products with direct skin contact[11]. A buyer reading a certificate should check which class and which production stage it covers, because a certificate scoped to yarn is a different document from one scoped to a finished garment. The standard describes the scheme; it does not say that any cloth on this site is certified.\n\n**A transaction certificate** is the lot-level document GOTS uses to track certified material through production[12].\n\nGOTS is a processing standard for textiles made with certified organic fibers, and it relies on documented tracking of certified materials through production, using transaction certificates and other verification mechanisms where applicable[12]. The document to ask for is the transaction certificate that covers the specific lot, and the first thing to check is the scope: the fiber, the product and the processor named. Read that scope beside the specification before approving the order.\n\nConsider a certificate scoped to yarn: it documents the yarn stage, so a buyer cannot offer it as the finished-product document the order calls for.\n\nThe archive image shows a made-up garment; the fabric itself is covered in the specification guide.",
+        "body": "Certificate numbers arrive with the written quotation and the shipping documents, and a number on its own proves little until its scope matches the goods. OEKO-TEX runs [the Label Check](https://www.oeko-tex.com/en/label-check/) where a buyer enters a label number to confirm whether a label is official; the numbers are case sensitive[10]. That is the verification entry point, not a claim that any certificate on this site has been checked through it.\n\nSTANDARD 100, the OEKO-TEX label for textiles tested for harmful substances, sets a benchmark that runs from yarn to finished product. It divides certified articles into four product classes, and Class 2 covers products with direct skin contact[11]. A buyer reading a certificate should check which class and which production stage it covers. A certificate scoped to yarn is a different document from one scoped to a finished garment. The standard describes the scheme; it does not say that any cloth on this site is certified.\n\n**A transaction certificate** is the lot-level document GOTS uses to track certified material through production[12].\n\nGOTS is a processing standard for textiles made with certified organic fibers. It relies on documented tracking of certified materials through production, using transaction certificates and other verification mechanisms where applicable[12]. The document to ask for is the transaction certificate that covers the specific lot, and the first thing to check is the scope: the fiber, the product and the processor named. Read that scope beside the spec before approving the order.\n\nConsider a certificate scoped to yarn: it documents the yarn stage, so a buyer cannot offer it as the finished-product document the order calls for.\n\nThe archive image shows a made-up garment; the fabric itself is covered in the specification guide.",
         "image": {
           "src": "/fabric-library/dupioni/dupioni-009.jpg",
           "alt": "Close-up of iridescent silver sage dupioni silk fabric showing irregular slubs",
-          "caption": "<b>图：</b>Dupioni 真丝布面（双宫丝平纹，可见不规则竹节）。<b>来源：</b>第三方零售商 ebay 卖家产品照，原始链接 https://www.ebay.com/itm/Iridescent-Silver-Sage-Dupioni-100-Silk-Fabric-44-Wide-By-The-Yard-S-180-/272276105180 ；非本站自有图，仅作布面示例，授权待核实。<b>关键属性：</b>标签标注幅宽约 44″、颜色 Iridescent Silver Sage；姆米/克重未注明。<b>时间/系列：</b>未注明。"
+          "caption": "What: Dupioni silk fabric surface, a plain weave carrying visible irregular slubs. Source: third-party eBay seller product photo, original listing https://www.ebay.com/itm/272276105180; this is not a Christopher Bu photograph, it is used only as a surface example and its license is unverified. Key attributes: the listing states a width of about 44 in and the color Iridescent Silver Sage; momme and grams per square meter are not stated. Time/series: not recorded."
         }
       },
       {
-        "heading": "How to request a written quotation for your specification",
-        "body": "Ask for paper before asking for a number. Name the fabric, the weight in momme, the width, the finish, the color route, the order size, the packing and the shipping term, then add the compliance fields: the fiber content line, the test methods for dimensional change and color fastness, the inspection documents and the certificate scope you expect.\n\nA sample goes out first, and a dyed-to-order enquiry carries a lab dip. Both sides confirm the inspection report and the certificate scope in writing before the order is approved. Certificate numbers come with the quotation and the shipping documents, and a buyer should verify each one through the issuer's own check tool[10].\n\nThe planning values on this site are its own published fields, checked against current availability before a quotation is issued; the binding figures for one order sit in the signed documents. A buyer who wants the current published numbers can read the site's own published product specification[13].\n\nTo request a quotation, send the full specification and ask for a written quotation that names every field above."
+        "heading": "How to request a written quotation for your spec",
+        "body": "Ask for paper before asking for a number. Name the fabric, the weight in momme, the width, the finish, the color route, the order size, the packing and the shipping term. Then add the compliance fields: the fiber content line, the test methods for dimensional change and color fastness, the inspection documents and the certificate scope you expect.\n\nA sample goes out first, and a dyed-to-order enquiry carries a lab dip. Both sides confirm the inspection report and the certificate scope in writing before the order is approved. Certificate numbers come with the quotation and the shipping documents, and a buyer should verify each one through the issuer's own check tool[10].\n\nThe planning values on this site are its own published fields, checked against current availability before a quotation is issued; the binding figures for one order sit in the signed documents. A buyer who wants the current published numbers can read the site's own published product specification[13].\n\nTo request a quotation, send the full specification and ask for a written quotation that names every field above."
       },
       {
         "heading": "Is there a published per-yard price for dupioni silk?",
-        "body": "No. There is no public per-yard price and no price list to download. A written quotation states the cost for one specification after the buyer names the fields.",
+        "body": "No. There is no public per-yard price and no price list to download. A written quotation states the cost for one spec after the buyer names the fields.",
         "level": 3
       },
       {
@@ -372,12 +372,12 @@ export const d1Posts: BlogPost[] = [
       },
       {
         "heading": "Can I get a cost before approving a sample?",
-        "body": "A written quotation follows a specification. A sample, a lab dip for a dyed-to-order order and an agreed test method come first, and both sides confirm the inspection report and the certificate scope in writing before approval. Name the test method for color fastness and dimensional change rather than a vague promise[6][8].",
+        "body": "A written quotation follows a spec. A sample, a lab dip for a dyed-to-order order and an agreed test method come first, and both sides confirm the inspection report and the certificate scope in writing before approval. Name the test method for color fastness and dimensional change rather than a vague promise[6][8].",
         "level": 3
       },
       {
         "heading": "When does a certificate number arrive, and how do I check it?",
-        "body": "With the written quotation and the shipping documents. Verify the number through the issuer's own check tool, then read the scope beside the specification[10]. For an organic claim, ask for the transaction certificate that names the lot and check its scope before you accept it[12].",
+        "body": "With the written quotation and the shipping documents. Verify the number through the issuer's own check tool, then read the scope beside the spec[10]. For an organic claim, ask for the transaction certificate that names the lot and check its scope before you accept it[12].",
         "level": 3
       },
       {
@@ -392,7 +392,7 @@ export const d1Posts: BlogPost[] = [
     "references": [
       {
         "publisher": "USITC",
-        "title": "Harmonized Tariff Schedule of the United",
+        "title": "Harmonized Tariff Schedule of the United States, heading 5007: woven fabrics of silk",
         "year": "2026",
         "url": "https://hts.usitc.gov/search?query=5003.00.9000"
       },
@@ -404,7 +404,7 @@ export const d1Posts: BlogPost[] = [
       },
       {
         "publisher": "eCFR",
-        "title": "16 CFR \xc2\xa7303.6, Generic names of fibers",
+        "title": "16 CFR §303.6, Generic names of fibers to be used",
         "year": "2026",
         "url": "https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-303/section-303.6"
       },
@@ -412,7 +412,7 @@ export const d1Posts: BlogPost[] = [
         "publisher": "FTC",
         "title": "Textile Fiber Products Identification Act",
         "year": "2026",
-        "url": "https://www.ftc.gov/legal-library/browse/rules/textile-products-identification-act-text"
+        "url": "https://www.law.cornell.edu/uscode/text/15/70"
       },
       {
         "publisher": "Standardization Administration of China",
@@ -440,7 +440,7 @@ export const d1Posts: BlogPost[] = [
       },
       {
         "publisher": "ASTM International",
-        "title": "D3776/D3776M-20, Standard Test Methods",
+        "title": "D3776/D3776M-20, Standard Test Methods for Mass Per Unit Area (Weight) of Fabric",
         "year": "2020",
         "url": "https://www.astm.org/d3776_d3776m-20.html"
       },
@@ -464,7 +464,7 @@ export const d1Posts: BlogPost[] = [
       },
       {
         "publisher": "Christopher Bu",
-        "title": "Dupioni Silk: the site's own published",
+        "title": "Dupioni Silk: the site's own published product specification",
         "year": "2026",
         "url": "https://www.christopherbu.com/products/dupioni/"
       }

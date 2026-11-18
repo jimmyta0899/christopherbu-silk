@@ -38,6 +38,10 @@ export async function generateMetadata({
     title: `Archive moved: ${slug}`,
     description: `The ${slug} silhouette archive now lives at ${target}`,
     alternates: { canonical: target },
+    // 旧地址的跳转桩：正文只是一段说明加一个链接，没有独立内容，
+    // 让它进索引只会和 /rtw/xx/ 抢同一批词。canonical 已指向新地址，
+    // 这里再显式 noindex，两者一致。
+    robots: { index: false, follow: true },
   };
 }
 
@@ -56,9 +60,9 @@ export default async function LegacySeasonRedirect({
       className="mx-auto flex min-h-[70dvh] max-w-2xl flex-col items-center justify-center px-6 text-center"
     >
       <meta httpEquiv="refresh" content={`0; url=${href}`} />
-      <p className="font-display text-2xl font-medium text-jade-deep md:text-3xl">
+      <h1 className="font-display text-2xl font-medium text-jade-deep md:text-3xl">
         The {slug} archive has moved
-      </p>
+      </h1>
       <p className="mt-4 max-w-md text-base leading-relaxed text-ink-soft">
         This address was used before our 2026 rebuild. The {slug} silhouette
         archive now lives at{" "}

@@ -44,9 +44,9 @@ const HUB_UPDATED = "2026-11-07";
 const sources: HubSource[] = [
   {
     publisher: "Standardization Administration of China",
-    title: "GB/T 1797-2008 生丝 (Raw silk)",
+    title: "GB/T 1797-2008 Raw Silk",
     year: "2008",
-    url: "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7764FD3A7E05397BE0A0AB82A",
+    url: "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=AE531C4DFAD83C19095DD539C1663E7E",
     supports:
       "The national standard that defines raw silk grades and the denier notation used in the weight discussion on this page.",
   },
@@ -336,7 +336,7 @@ const choosePaths = [
   },
   {
     t: "You are cutting qipao, hanfu or ceremonial dress",
-    d: "The cloth has to carry a motif. Jacquard does the work that embroidery would otherwise do, at a fraction of the labour, and reads correctly under stage and camera light. Satin and georgette handle the plain panels around it.",
+    d: "The cloth has to carry a motif. Jacquard does the work that embroidery would otherwise do, at a fraction of the labor, and reads correctly under stage and camera light. Satin and georgette handle the plain panels around it.",
     links: [
       { label: "Jacquard Luo", href: "/products/jacquard-luo" },
       { label: "Satin", href: "/products/satin" },
@@ -474,7 +474,7 @@ export default function SilkFabricsPage() {
             rounding error. Degumming, the process that removes sericin from
             the yarn, takes 22–28% of the greige weight (
             <a
-              href="https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7764FD3A7E05397BE0A0AB82A"
+              href="https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=AE531C4DFAD83C19095DD539C1663E7E"
               rel="noopener noreferrer"
               target="_blank"
               className="underline underline-offset-2 hover:text-gold"

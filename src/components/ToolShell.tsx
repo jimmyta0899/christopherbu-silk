@@ -40,7 +40,7 @@ export function ToolShell({
   /** Where the constants come from. */
   methodSources: { publisher: string; title: string; year?: string; url?: string }[];
   faq: ToolFaq[];
-  /** Cross-links back into the catalogue. */
+  /** Cross-links back into the catalog. */
   related: { href: string; label: string; note: string }[];
 }) {
   return (
@@ -90,8 +90,9 @@ export function ToolShell({
                   {s.url ? (
                     <a
                       href={s.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      {...(s.url.startsWith("/")
+                        ? {}
+                        : { target: "_blank", rel: "noopener noreferrer" })}
                       className="underline underline-offset-2 hover:text-jade"
                     >
                       {s.publisher}: {s.title}

@@ -114,8 +114,8 @@ export const d1Nov15Posts: BlogPost[] = [
         "body": "A slub accepted on the flat can still fail in the seam. Threads Magazine reports that double-cocoon silk is weaker than regular silk because of the irregularity of the yarn[11], and seam slippage is one place a workroom meets that weakness. Approve a sewn seam sample with the flat sample, and decide who carries the cost of a resewn panel. The range the cloth is judged against is written down in [where the slub sets the tolerance](/blog/dupioni-silk-fabric-wholesale/).",
         "image": {
           "src": "/fabric-library/dupioni/dupioni-045.jpg",
-          "alt": "Folded length of silver grey dupioni silk showing slubs along the folds",
-          "caption": "<b>Subject:</b> Dupioni Silk, a folded length showing body and fold retention. <b>Source:</b> mill archive stock photograph on this site at /fabric-library/dupioni/dupioni-045.jpg. <b>Attributes:</b> woven silk, silver grey tone, slubs along the folds, firm fold line; momme and width not stated. <b>Date:</b> undated stock photograph, mill archive collection, no specific year recorded."
+          "alt": "Folded length of silver gray dupioni silk showing slubs along the folds",
+          "caption": "<b>Subject:</b> Dupioni Silk, a folded length showing body and fold retention. <b>Source:</b> mill archive stock photograph on this site at /fabric-library/dupioni/dupioni-045.jpg. <b>Attributes:</b> woven silk, silver gray tone, slubs along the folds, firm fold line; momme and width not stated. <b>Date:</b> undated stock photograph, mill archive collection, no specific year recorded."
         }
       },
       {
@@ -297,7 +297,7 @@ export const d1Nov15Posts: BlogPost[] = [
     "coverImage": {
       "src": "/fabric-library/greige-fabric/greige-fabric-010.jpg",
       "alt": "Greige Silk Fabric draped, showing cream color, visible weave texture and scattered short slubs",
-      "caption": "Greige Silk Fabric, a draped length of undyed cloth | Site fabric library asset /fabric-library/greige-fabric/greige-fabric-010.jpg, catalogued 2026 from a seller listing photograph | Cream ground, open weave texture visible across the folds, scattered darker flecks and short slubs, matte surface with little sheen; momme not stated on the source | Undyed state before dyeing, 2026 library record"
+      "caption": "Greige Silk Fabric, a draped length of undyed cloth | Site fabric library asset /fabric-library/greige-fabric/greige-fabric-010.jpg, cataloged 2026 from a seller listing photograph | Cream ground, open weave texture visible across the folds, scattered darker flecks and short slubs, matte surface with little sheen; momme not stated on the source | Undyed state before dyeing, 2026 library record"
     },
     "intro": "Raw silk is a yarn sold by denier, and greige is cloth in the state it leaves the loom, still carrying its gum. Degumming is the bath that takes that gum out, while dyed to order is a delivery route rather than a kind of fabric. One piece of silk passes through all four states, which is why the words get used as if they were interchangeable.",
     "takeaways": [
@@ -313,12 +313,12 @@ export const d1Nov15Posts: BlogPost[] = [
       },
       {
         "heading": "Raw Silk Yarn is a yarn, measured in denier",
-        "body": "**Raw silk** is filament reeled straight from the cocoon and left untreated, which is why the older trade names for it are untreated silk and gum silk [2]. Each filament is a pair of fibroin strands cemented by **sericin**, the gum protein that also gives the yarn enough body to unwind at all [3]. The gum is not an impurity to be apologised for at this stage, since without it the filament would part on the reel.\n\nYarn is sold by denier because denier measures the filament, and our 20/22 denier white raw silk runs to GB/T 1797-2008 with moisture held below 11 per cent, shipping as natural white or natural dupion. Denier says nothing about how heavy a cloth will be once that yarn has been woven; that number is momme, and momme only exists when there is a fabric to weigh.",
+        "body": "**Raw silk** is filament reeled straight from the cocoon and left untreated, which is why the older trade names for it are untreated silk and gum silk [2]. Each filament is a pair of fibroin strands cemented by **sericin**, the gum protein that also gives the yarn enough body to unwind at all [3]. The gum is not an impurity to be apologized for at this stage, since without it the filament would part on the reel.\n\nYarn is sold by denier because denier measures the filament, and our 20/22 denier white raw silk runs to GB/T 1797-2008 with moisture held below 11 percent, shipping as natural white or natural dupion. Denier says nothing about how heavy a cloth will be once that yarn has been woven; that number is momme, and momme only exists when there is a fabric to weigh.",
         "level": 3
       },
       {
         "heading": "Greige Silk Fabric: the state every weave passes through",
-        "body": "**Greige** is, in Merriam-Webster's wording, \"being in an unbleached undyed state as taken from a loom\", used of textiles [4]. Every woven silk passes through that state, so a habotai, a satin and a jacquard all leave the loom as greige before becoming something else. The word entered English from French *grège*, meaning raw or unfinished, in the 1830s, and it also names a beige-grey color, which is where a fair share of search confusion begins.\n\nBecause greige names a condition rather than a cloth, it has no single weight. Our Greige Silk Fabric is quoted by base weave, running roughly 8 to 30 momme across weaves at 114 cm or 140 cm. A mill asked for greige without a weave or a target weight will reply with a question instead of a price.\n\nThe trade says greige goods for the same thing. The related term PFD, prepared for dyeing, describes cloth that has been washed but neither bleached nor optically whitened, as one US supplier sets out plainly in its [fabric notes](https://www.dharmatrading.com/blogs/a/about-our-fabrics) [5]. The two labels sit close together without being identical, since greige is the state off the loom while PFD is a promise about what has been done to the cloth since.\n\nAn undyed roll is still a textile fiber product, because the [Textile Fiber Products Identification Act](https://www.ftc.gov/legal-library/browse/rules/textile-products-identification-act-text) covers \"any yarn or fabric, whether in the finished or unfinished state\" [6]. The fiber rules then require the generic name for anything present at 5% or more by weight, with silk named as silk ([16 CFR 303.6](https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-303/section-303.6)) [7], and greige does not escape the label by being unfinished.",
+        "body": "**Greige** is, in Merriam-Webster's wording, \"being in an unbleached undyed state as taken from a loom\", used of textiles [4]. Every woven silk passes through that state, so a habotai, a satin and a jacquard all leave the loom as greige before becoming something else. The word entered English from French *grège*, meaning raw or unfinished, in the 1830s, and it also names a beige-gray color, which is where a fair share of search confusion begins.\n\nBecause greige names a condition rather than a cloth, it has no single weight. Our Greige Silk Fabric is quoted by base weave, running roughly 8 to 30 momme across weaves at 114 cm or 140 cm. A mill asked for greige without a weave or a target weight will reply with a question instead of a price.\n\nThe trade says greige goods for the same thing. The related term PFD, prepared for dyeing, describes cloth that has been washed but neither bleached nor optically whitened, as one US supplier sets out plainly in its [fabric notes](https://www.dharmatrading.com/blogs/a/about-our-fabrics) [5]. The two labels sit close together without being identical, since greige is the state off the loom while PFD is a promise about what has been done to the cloth since.\n\nAn undyed roll is still a textile fiber product, because the [Textile Fiber Products Identification Act](https://www.law.cornell.edu/uscode/text/15/70) covers \"any yarn or fabric, whether in the finished or unfinished state\" [6]. The fiber rules then require the generic name for anything present at 5% or more by weight, with silk named as silk ([16 CFR 303.6](https://www.ecfr.gov/current/title-16/chapter-I/subchapter-C/part-303/section-303.6)) [7], and greige does not escape the label by being unfinished.",
         "level": 3
       },
       {
@@ -333,7 +333,7 @@ export const d1Nov15Posts: BlogPost[] = [
         "image": {
           "src": "/fabric-library/greige-fabric/greige-fabric-010.jpg",
           "alt": "Greige Silk Fabric draped, showing cream color, visible weave texture and scattered short slubs",
-          "caption": "Greige Silk Fabric, a draped length of undyed cloth | Site fabric library asset /fabric-library/greige-fabric/greige-fabric-010.jpg, catalogued 2026 from a seller listing photograph | Cream ground, open weave texture visible across the folds, scattered darker flecks and short slubs, matte surface with little sheen; momme not stated on the source | Undyed state before dyeing, 2026 library record"
+          "caption": "Greige Silk Fabric, a draped length of undyed cloth | Site fabric library asset /fabric-library/greige-fabric/greige-fabric-010.jpg, cataloged 2026 from a seller listing photograph | Cream ground, open weave texture visible across the folds, scattered darker flecks and short slubs, matte surface with little sheen; momme not stated on the source | Undyed state before dyeing, 2026 library record"
         }
       },
       {
@@ -342,7 +342,7 @@ export const d1Nov15Posts: BlogPost[] = [
         "image": {
           "src": "/fabric-library/greige-fabric/greige-fabric-007.jpg",
           "alt": "Greige Silk Fabric in undyed cream, fine slub lines and soft folds across the cloth surface",
-          "caption": "Greige Silk Fabric, undyed cloth off the loom | Site fabric library asset /fabric-library/greige-fabric/greige-fabric-007.jpg, catalogued 2026 from a seller listing photograph | Cream to ivory ground, fine slub lines running across the cloth, soft folds holding a crease, muted rather than glossy surface; momme not stated on the source | Undyed state before dyeing, 2026 library record"
+          "caption": "Greige Silk Fabric, undyed cloth off the loom | Site fabric library asset /fabric-library/greige-fabric/greige-fabric-007.jpg, cataloged 2026 from a seller listing photograph | Cream to ivory ground, fine slub lines running across the cloth, soft folds holding a crease, muted rather than glossy surface; momme not stated on the source | Undyed state before dyeing, 2026 library record"
         }
       },
       {
@@ -403,8 +403,8 @@ export const d1Nov15Posts: BlogPost[] = [
         "level": 3
       },
       {
-        "heading": "Does greige mean the cloth is grey?",
-        "body": "It does not: the word came into English from French *grège*, meaning raw or unfinished, and the cloth itself is cream to ivory. Greige also happens to be the name of a beige-grey color, which is the source of the mix-up, and of a good deal of irrelevant search traffic.",
+        "heading": "Does greige mean the cloth is gray?",
+        "body": "It does not: the word came into English from French *grège*, meaning raw or unfinished, and the cloth itself is cream to ivory. Greige also happens to be the name of a beige-gray color, which is the source of the mix-up, and of a good deal of irrelevant search traffic.",
         "level": 3
       },
       {
@@ -464,10 +464,10 @@ export const d1Nov15Posts: BlogPost[] = [
         "url": "https://www.dharmatrading.com/blogs/a/about-our-fabrics"
       },
       {
-        "publisher": "Federal Trade Commission",
-        "title": "Textile Fiber Products Identification Act",
+        "publisher": "Cornell Legal Information Institute",
+        "title": "Textile Fiber Products Identification Act, 15 U.S.C. 70",
         "year": "n.d.",
-        "url": "https://www.ftc.gov/legal-library/browse/rules/textile-products-identification-act-text"
+        "url": "https://www.law.cornell.edu/uscode/text/15/70"
       },
       {
         "publisher": "eCFR",

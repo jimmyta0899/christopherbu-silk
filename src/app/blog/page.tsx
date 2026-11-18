@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { pageOpenGraph } from "@/lib/seo-metadata";
+import { imgDims } from "@/lib/image-dims";
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -57,6 +58,9 @@ export default function BlogPage() {
                   <img
                     src={post.coverImage.src}
                     alt={post.coverImage.alt}
+                    {...imgDims(post.coverImage.src)}
+                    loading="lazy"
+                    decoding="async"
                     className="h-44 w-full object-cover transition-transform duration-300 group-hover:scale-105 sm:h-full"
                   />
                 </div>

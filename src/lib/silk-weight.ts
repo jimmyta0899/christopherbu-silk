@@ -148,7 +148,7 @@ export const silkWeightGrades: SilkWeightGrade[] = [
       {
         h2: "Weight per meter, both standard widths",
         paragraphs: [
-          "At 16 momme the cloth is 69.44 g/m². One meter at 114 cm is 0.0792 kg, and at 140 cm it is 0.0972 kg. The 22.8 per cent difference comes from the width alone, so a quotation that gives one figure without saying which width it was weighed at cannot be compared with another.",
+          "At 16 momme the cloth is 69.44 g/m². One meter at 114 cm is 0.0792 kg, and at 140 cm it is 0.0972 kg. The 22.8 percent difference comes from the width alone, so a quotation that gives one figure without saying which width it was weighed at cannot be compared with another.",
         ],
         table: {
           head: ["Weight", "g/m²", "114 cm", "140 cm"],
@@ -201,16 +201,16 @@ export const silkWeightGrades: SilkWeightGrade[] = [
         ],
       },
       {
-        h2: "The step to 22 momme is 15.8 per cent, not a rounding",
+        h2: "The step to 22 momme is 15.8 percent, not a rounding",
         paragraphs: [
-          "19 momme is 82.46 g/m² and 22 momme is 95.48 g/m². The gap is 13.02 g/m², or 15.8 per cent of the lighter cloth. Buyers often treat 19 and 22 as neighbouring options and expect a small difference; it is the largest proportional step in the common range between 16 and 25.",
+          "19 momme is 82.46 g/m² and 22 momme is 95.48 g/m². The gap is 13.02 g/m², or 15.8 percent of the lighter cloth. Buyers often treat 19 and 22 as neighbouring options and expect a small difference; it is the largest proportional step in the common range between 16 and 25.",
           "That gap is why 19 is the gown weight and 22 is a bedding weight. A gown gains nothing from the extra 13 g/m² except weight on the shoulder. Bedding gains durability, because a sheet at 95 g/m² survives washing cycles that would thin an 82 g/m² one.",
         ],
       },
       {
         h2: "What a running meter weighs at each width",
         paragraphs: [
-          "At 140 cm, one meter of 19 momme is 0.1154 kg. At 114 cm it is 0.0940 kg. If a quotation is per meter, the width decides whether you are paying for 1.14 m² or 1.40 m² of cloth, and that difference is 22.8 per cent per square meter at the same headline price.",
+          "At 140 cm, one meter of 19 momme is 0.1154 kg. At 114 cm it is 0.0940 kg. If a quotation is per meter, the width decides whether you are paying for 1.14 m² or 1.40 m² of cloth, and that difference is 22.8 percent per square meter at the same headline price.",
         ],
         table: {
           head: ["Weight", "g/m²", "114 cm", "140 cm"],
@@ -230,7 +230,7 @@ export const silkWeightGrades: SilkWeightGrade[] = [
       },
       {
         q: "How much heavier is 22 momme than 19 momme?",
-        a: "22 momme is 95.48 g/m² against 82.46 g/m² at 19, so it is 15.8 per cent heavier. On a 140 cm width that is 0.1337 kg per meter against 0.1154 kg.",
+        a: "22 momme is 95.48 g/m² against 82.46 g/m² at 19, so it is 15.8 percent heavier. On a 140 cm width that is 0.1337 kg per meter against 0.1154 kg.",
       },
       {
         q: "Why do two 19 momme swatches feel so different?",
@@ -249,7 +249,7 @@ export const silkWeightGrades: SilkWeightGrade[] = [
       "22 momme silk is 95.48 g/m². Standard high-end bedding weight. What 15.8% over 19 buys, greige vs finished, per-meter weight.",
     h1: "22 Momme Silk Fabric: 95 g/m², the Weight Bedding Is Specified At",
     answer:
-      "22 momme silk weighs 95.48 g/m². It sits in the 22 to 25 satin band used for high-end bedding, and it is 15.8 per cent heavier than 19 momme. One meter at 140 cm weighs 0.1337 kg, at 114 cm 0.1088 kg. Ask whether the figure is greige or finished before you compare.",
+      "22 momme silk weighs 95.48 g/m². It sits in the 22 to 25 satin band used for high-end bedding, and it is 15.8 percent heavier than 19 momme. One meter at 140 cm weighs 0.1337 kg, at 114 cm 0.1088 kg. Ask whether the figure is greige or finished before you compare.",
     rows: [
       { widthCm: 114, kgPerMeter: kg(22, 114) },
       { widthCm: 140, kgPerMeter: kg(22, 140) },
@@ -265,7 +265,7 @@ export const silkWeightGrades: SilkWeightGrade[] = [
       {
         h2: "Greige 22 and finished 22 are not the same cloth",
         paragraphs: [
-          "Momme is measured on a specific piece of cloth, and greige is the state straight off the loom before finishing. Sericin, the gum that binds the filament, is 25 to 30 per cent of raw silk weight, and degumming removes up to a quarter of that weight. A cloth specified at 22 momme on greige therefore lands near 16 to 17 momme once it is finished and reaches a cutting table.",
+          "Momme is measured on a specific piece of cloth, and greige is the state straight off the loom before finishing. Sericin, the gum that binds the filament, is 25 to 30 percent of raw silk weight, and degumming removes up to a quarter of that weight. A cloth specified at 22 momme on greige therefore lands near 16 to 17 momme once it is finished and reaches a cutting table.",
           "That is the same figure our momme guide states, and it is the reason two suppliers can both quote 22 and ship cloth of visibly different weight. Treat a greige 22 as an instruction about the base cloth, and ask which side of the degumming bath the number came from. A quotation that gives one momme figure without saying which state it refers to cannot be compared with another.",
         ],
       },

@@ -226,7 +226,7 @@ export default function SpecComparisonPage() {
           {
             publisher: "Christopher Bu",
             title: "Product specification pages (the source of every figure here)",
-            url: "https://www.christopherbu.com/products/",
+            url: "/products/",
           },
         ]}
         faq={faq}

@@ -5,7 +5,7 @@ import type { ReactNode } from "react";
  *
  * Why this exists: FAQ rich results were switched off for all sites in May
  * 2026, so structured data no longer buys a snippet. What still gets quoted by
- * Google and by AI answers is a short, visible, plainly-labelled answer block
+ * Google and by AI answers is a short, visible, plainly-labeled answer block
  * in the first screenful. This component is that block: 40–60 words, no
  * preamble, a visible label so both readers and parsers can see it is the
  * answer, and a review date so the claim can be aged.

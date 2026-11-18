@@ -31,9 +31,9 @@ const sources: HubSource[] = [
   },
   {
     publisher: "Standardization Administration of China",
-    title: "GB/T 1797-2008 生丝 (Raw silk)",
+    title: "GB/T 1797-2008 Raw Silk",
     year: "2008",
-    url: "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7764FD3A7E05397BE0A0AB82A",
+    url: "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=AE531C4DFAD83C19095DD539C1663E7E",
     supports:
       "The grading basis quoted when a bulk order specifies raw silk grade alongside fabric weight.",
   },
@@ -495,7 +495,7 @@ export default function WholesaleSilkFabricPage() {
               Most wholesale silk is quoted by a trading desk that never cuts
               the cloth. We quote fabric we also cut in the atelier, which
               changes what gets flagged. A cloth that passes a test report can
-              still photograph grey under flash. It can crease at the hip after
+              still photograph gray under flash. It can crease at the hip after
               twenty minutes of sitting, or lose its edge on a bias seam. Those
               are the failures that cost a production run. A clean inspection
               sheet does not capture any of them.

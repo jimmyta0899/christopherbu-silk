@@ -129,9 +129,9 @@ export default function YarnCountPage() {
           },
           {
             publisher: "GB/T 1797-2008",
-            title: "生丝 (Raw silk) — the Chinese standard for the 20/22D notation",
+            title: "Raw Silk — the Chinese standard for the 20/22D notation",
             year: "2008",
-            url: "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7764FD3A7E05397BE0A0AB82A",
+            url: "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=AE531C4DFAD83C19095DD539C1663E7E",
           },
         ]}
         faq={faq}

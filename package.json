@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node scripts/rsc-aliases.mjs && node scripts/legacy-index-alias.mjs",
+    "build": "next build && node scripts/rsc-aliases.mjs && node scripts/legacy-index-alias.mjs && node scripts/fix-404-page.mjs",
     "start": "next start",
     "lint": "eslint"
   },

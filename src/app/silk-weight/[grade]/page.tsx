@@ -56,6 +56,7 @@ export default async function SilkWeightPage({ params }: Props) {
       headline: entry.h1,
       description: entry.description,
       path: `/silk-weight/${entry.slug}`,
+      image: "/og-cover.png",
       datePublished: "2026-11-15",
       dateModified: "2026-11-15",
     }),

@@ -22,9 +22,9 @@ const HUB_UPDATED = "2026-11-07";
 const sources: HubSource[] = [
   {
     publisher: "Standardization Administration of China",
-    title: "GB/T 1797-2008 生丝 (Raw silk)",
+    title: "GB/T 1797-2008 Raw Silk",
     year: "2008",
-    url: "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7764FD3A7E05397BE0A0AB82A",
+    url: "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=AE531C4DFAD83C19095DD539C1663E7E",
     supports:
       "The grade scale quoted in a raw silk price, which is measured on the yarn and not on the finished cloth.",
   },
@@ -153,7 +153,7 @@ const faqs: HubFaq[] = [
   },
   {
     q: "Why is silk fabric so expensive?",
-    a: "Because the raw material is labour-intensive to produce and the yield is low. A single cocoon yields one continuous filament of roughly 600 to 900 meters, and it takes several cocoons reeled together to make one 20/22 denier thread. On top of the fiber there is loom time, dyeing, finishing, inspection and the rejection rate at every stage. Weight compounds it: a 30 momme cloth uses nearly twice the silk of a 16 momme cloth of the same area.",
+    a: "Because the raw material is labor-intensive to produce and the yield is low. A single cocoon yields one continuous filament of roughly 600 to 900 meters, and it takes several cocoons reeled together to make one 20/22 denier thread. On top of the fiber there is loom time, dyeing, finishing, inspection and the rejection rate at every stage. Weight compounds it: a 30 momme cloth uses nearly twice the silk of a 16 momme cloth of the same area.",
   },
   {
     q: "Why do two suppliers quote very different prices for the same silk?",
@@ -254,7 +254,7 @@ export default function SilkFabricPriceGuidePage() {
             <strong>Grade</strong> is the quality classification of the raw silk
             yarn. It is set under GB/T 1797-2008 (
             <a
-              href="https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7764FD3A7E05397BE0A0AB82A"
+              href="https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=AE531C4DFAD83C19095DD539C1663E7E"
               rel="noopener noreferrer"
               target="_blank"
               className="underline underline-offset-2 hover:text-gold"
@@ -435,7 +435,7 @@ export default function SilkFabricPriceGuidePage() {
               width, or reduced testing. Grade is the one worth checking first,
               because it is measured on the yarn against a published scale (
               <a
-                href="https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7764FD3A7E05397BE0A0AB82A"
+                href="https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=AE531C4DFAD83C19095DD539C1663E7E"
                 rel="noopener noreferrer"
                 target="_blank"
                 className="underline underline-offset-2 hover:text-gold"
