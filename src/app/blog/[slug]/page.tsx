@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { blogPosts, getPost } from "@/lib/blog";
+import { clusterSiblings } from "@/lib/blog-clusters";
 import { pageOpenGraph } from "@/lib/seo-metadata";
 import { imgDims } from "@/lib/image-dims";
 import { siteConfig } from "@/lib/site-config";
@@ -460,7 +461,14 @@ export default async function BlogPostPage({ params }: Props) {
             ...blogPosts.slice(idx + 1),
             ...blogPosts.slice(0, Math.max(idx, 0)),
           ];
+          // 先放同簇成员（blog-clusters.ts 里显式钉过的），再补同类/轮转，
+          // 保证有真实流量的页之间永远互链，而不是被发布时间冲散。
+          const bySlug = new Map(blogPosts.map((p) => [p.slug, p]));
+          const curated = clusterSiblings(post.slug)
+            .map((s) => bySlug.get(s))
+            .filter((p): p is (typeof blogPosts)[number] => Boolean(p));
           const pool = [
+            ...curated,
             ...blogPosts.filter((p) => p.slug !== post.slug && p.type === post.type),
             ...rotated,
           ];

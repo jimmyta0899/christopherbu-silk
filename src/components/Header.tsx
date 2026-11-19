@@ -161,10 +161,14 @@ export function Header() {
                       item.children.length > 12 ? "grid w-[360px] grid-cols-2" : "w-48"
                     }`}
                   >
+                    {/* 下拉子项不预取：这些链接在 hover 前不可见，Next 仍会为
+                        它们各发一个 /_rsc 请求（实测每页 77 个、约 1.6 MB，占传输
+                        42%）。悬停时浏览器再取也只是多一次往返，换掉的是首屏带宽。 */}
                     {item.children.map((c) => (
                       <Link
                         key={c.href}
                         href={c.href}
+                        prefetch={false}
                         {...(c.external ? { target: "_blank", rel: "noopener noreferrer nofollow" } : {})}
                         className="block px-4 py-2 text-sm text-ivory/90 transition-colors hover:bg-gold-bright/10 hover:text-gold-bright"
                       >
@@ -174,6 +178,7 @@ export function Header() {
                     {item.href === "/products" && (
                       <Link
                         href="/products"
+                        prefetch={false}
                         className="block border-t border-gold-bright/20 px-4 py-2 text-xs text-ivory/70 transition-colors hover:bg-gold-bright/10 hover:text-gold-bright"
                       >
                         View all products →
