@@ -39,6 +39,25 @@ export default function Analytics() {
             var host = window.location.hostname;
             if (host !== 'christopherbu.com' && host !== 'www.christopherbu.com') return;
 
+            // AUTOMATION GATE: headless renderers report navigator.webdriver
+            // as true; real browsers never do.
+            //
+            // Incident 2026-11-19: three sessions landed in the China segment
+            // as "Nexus 5 / Android / Chrome 99.0.4844.51" with a 1600x1200
+            // viewport, 3 events each and zero engagement. That combination is
+            // a Puppeteer fingerprint, not a phone: Puppeteer's built-in
+            // "Nexus 5" device descriptor froze its user agent at Chrome 99 in
+            // 2022, and a viewport of 1600x1200 means setViewport was never
+            // called, so the default headless window size leaked through.
+            // Lighthouse is ruled out: it brands the UA with the real Chrome
+            // version and pins a 412x823 viewport. GA4's built-in bot
+            // filtering misses this because the UA looks like an ordinary
+            // Android handset.
+            //
+            // Cost of this check for real visitors: two property reads.
+            if (navigator.webdriver) return;
+            if (/HeadlessChrome|Googlebot|Lighthouse|Puppeteer|Playwright|Selenium|PhantomJS/i.test(navigator.userAgent)) return;
+
             var q = url.searchParams.get('cbteam');
 
             if (q !== null) {
