@@ -45,7 +45,7 @@ export default async function ProductPage({ params }: Props) {
     },
     category: product.category,
     image: `${siteConfig.url}${product.image}`,
-    url: `${siteConfig.url}/products/${product.slug}`,
+    url: `${siteConfig.url}/products/${product.slug}/`,
     material: "Mulberry silk",
     audience: {
       "@type": "BusinessAudience",
@@ -77,13 +77,13 @@ export default async function ProductPage({ params }: Props) {
         "@type": "ListItem",
         position: 2,
         name: "Products",
-        item: `${siteConfig.url}/products`,
+        item: `${siteConfig.url}/products/`,
       },
       {
         "@type": "ListItem",
         position: 3,
         name: product.name,
-        item: `${siteConfig.url}/products/${product.slug}`,
+        item: `${siteConfig.url}/products/${product.slug}/`,
       },
     ],
   };

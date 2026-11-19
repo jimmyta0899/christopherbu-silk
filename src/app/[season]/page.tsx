@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { rtwSeasons } from "@/lib/rtw";
 import { siteConfig } from "@/lib/site-config";
+import { pageOpenGraph } from "@/lib/seo-metadata";
 
 /**
  * 旧站遗留 URL 的迁移承接页。
@@ -38,6 +39,9 @@ export async function generateMetadata({
     title: `Archive moved: ${slug}`,
     description: `The ${slug} silhouette archive now lives at ${target}`,
     alternates: { canonical: target },
+    // og:url 必须与 canonical 同址。不显式声明时，这一页会继承根 layout 的
+    // og:url="/"，分享卡片会把旧地址标成首页。
+    openGraph: pageOpenGraph(`/rtw/${slug}/`),
     // 旧地址的跳转桩：正文只是一段说明加一个链接，没有独立内容，
     // 让它进索引只会和 /rtw/xx/ 抢同一批词。canonical 已指向新地址，
     // 这里再显式 noindex，两者一致。

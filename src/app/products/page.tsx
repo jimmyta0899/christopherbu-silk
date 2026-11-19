@@ -24,7 +24,7 @@ export default function ProductsPage() {
       "@type": "ListItem",
       position: i + 1,
       name: p.name,
-      url: `${siteConfig.url}/products/${p.slug}`,
+      url: `${siteConfig.url}/products/${p.slug}/`,
     })),
   };
 

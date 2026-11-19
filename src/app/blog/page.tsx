@@ -20,12 +20,12 @@ export default function BlogPage() {
     "@context": "https://schema.org",
     "@type": "Blog",
     name: "The sourcing journal",
-    url: `${siteConfig.url}/blog`,
+    url: `${siteConfig.url}/blog/`,
     publisher: { "@type": "Organization", name: siteConfig.name },
     blogPost: blogPosts.map((post) => ({
       "@type": "BlogPosting",
       headline: post.title,
-      url: `${siteConfig.url}/blog/${post.slug}`,
+      url: `${siteConfig.url}/blog/${post.slug}/`,
       datePublished: post.publishDate,
     })),
   };

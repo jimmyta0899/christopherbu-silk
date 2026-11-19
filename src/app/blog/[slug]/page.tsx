@@ -149,14 +149,15 @@ export default async function BlogPostPage({ params }: Props) {
       name: siteConfig.name,
       url: siteConfig.url,
     },
-    mainEntityOfPage: `${siteConfig.url}/blog/${post.slug}`,
+    mainEntityOfPage: `${siteConfig.url}/blog/${post.slug}/`,
     keywords: post.keywords.join(", "),
   };
 
   // 文章封面图入 schema，便于文章 Rich Result 带缩略图。
   // coverImage 缺失时不输出，避免占位值。
   if (post.coverImage?.src) {
-    jsonLd["image"] = post.coverImage.src;
+    // schema 里必须是绝对 URL：相对路径会让 Rich Results 抓不到图。
+    jsonLd["image"] = `${siteConfig.url}${post.coverImage.src}`;
   }
 
   // 面包屑结构化数据：页面本身已有可视面包屑，但缺 JSON-LD，

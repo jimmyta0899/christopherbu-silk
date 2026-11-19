@@ -222,9 +222,12 @@ export default function RawSilkSpecsPage() {
       "Spec sheet for 20/22D mulberry raw silk from Yizhou: denier, grade, HS 5002, packing, MOQ and export terms, all per written quotation.",
     datePublished: "2026-11-06",
     dateModified: "2026-11-06",
+    // TechArticle 是 Article 的子类型，image 同样必须给绝对 URL，
+    // 否则 Rich Results 报 Missing field image。用页面同主题的真实产品图，不编造。
+    image: `${siteConfig.url}/products/raw-silk-20-22d.webp`,
     author: { "@id": ORGANIZATION_ID },
     publisher: { "@id": ORGANIZATION_ID },
-    mainEntityOfPage: `${siteConfig.url}/raw-silk-specs`,
+    mainEntityOfPage: `${siteConfig.url}/raw-silk-specs/`,
     keywords: "20/22 denier raw silk, 4A 5A 6A grade, HS 5002, raw silk yarn spec sheet",
   };
 
@@ -233,9 +236,9 @@ export default function RawSilkSpecsPage() {
     "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: `${siteConfig.url}/` },
-      { "@type": "ListItem", position: 2, name: "Products", item: `${siteConfig.url}/products` },
-      { "@type": "ListItem", position: 3, name: "Raw Silk Yarn", item: `${siteConfig.url}/products/raw-silk` },
-      { "@type": "ListItem", position: 4, name: "Specifications", item: `${siteConfig.url}/raw-silk-specs` },
+      { "@type": "ListItem", position: 2, name: "Products", item: `${siteConfig.url}/products/` },
+      { "@type": "ListItem", position: 3, name: "Raw Silk Yarn", item: `${siteConfig.url}/products/raw-silk/` },
+      { "@type": "ListItem", position: 4, name: "Specifications", item: `${siteConfig.url}/raw-silk-specs/` },
     ],
   };
 
