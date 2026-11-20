@@ -303,7 +303,7 @@ export const products: Product[] = [
     specs: [
       { label: "Type", value: "Mulberry silk satin (crepe-back satin, 5-end weave)" },
       { label: "Momme", value: "10 / 12 / 14 / 16 / 19 / 22 / 25 / 30 mm" },
-      { label: "Weight", value: "≈43–129 g/m² (1 mm ≈ 4.3 g/m²)" },
+      { label: "Weight", value: "≈43–130 g/m² (1 mm ≈ 4.34 g/m²)" },
       { label: "Width", value: "114 cm / 140 cm" },
       { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom color)" },
       { label: "Character", value: "High-gloss face, matt reverse, fluid drape" },
@@ -438,7 +438,7 @@ export const products: Product[] = [
     specs: [
       { label: "Type", value: "Mulberry silk georgette" },
       { label: "Momme", value: "8 / 10 / 12 / 14 / 16 mm (heavy georgette 22 mm)" },
-      { label: "Weight", value: "≈34–95 g/m² (1 mm ≈ 4.3 g/m²)" },
+      { label: "Weight", value: "≈35–95 g/m² (1 mm ≈ 4.34 g/m²)" },
       { label: "Width", value: "114 cm / 140 cm" },
       { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom color)" },
       { label: "Character", value: "Sheer, crinkled texture, flowing drape" },
@@ -507,7 +507,7 @@ export const products: Product[] = [
     specs: [
       { label: "Type", value: "Mulberry silk habotai (pongee, plain weave)" },
       { label: "Momme", value: "6 / 8 / 10 / 12 / 14 / 15 / 16 mm" },
-      { label: "Weight", value: "≈26–69 g/m² (1 mm ≈ 4.3 g/m²)" },
+      { label: "Weight", value: "≈26–69 g/m² (1 mm ≈ 4.34 g/m²)" },
       { label: "Width", value: "114 cm" },
       { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom color)" },
       { label: "Character", value: "Crisp, firm hand, even surface" },
@@ -574,7 +574,7 @@ export const products: Product[] = [
       { label: "Weave", value: "Satin (5-end)" },
       { label: "Composition", value: "~94% silk / 6% spandex, or ~93% silk / 7% spandex" },
       { label: "Momme", value: "14 / 16 / 19 / 22 / 25 / 28 mm" },
-      { label: "Weight", value: "≈60–121 g/m² (1 mm ≈ 4.3 g/m²)" },
+      { label: "Weight", value: "≈61–122 g/m² (1 mm ≈ 4.34 g/m²)" },
       { label: "Width", value: "140 cm" },
       { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom color)" },
       { label: "Character", value: "Satin face, comfort stretch, good recovery" },
@@ -710,7 +710,7 @@ export const products: Product[] = [
     specs: [
       { label: "Type", value: "Dupioni (double-cocoon) mulberry silk" },
       { label: "Momme", value: "16 / 19 mm (up to 21–22 mm)" },
-      { label: "Weight", value: "≈69–95 g/m² (1 mm ≈ 4.3 g/m²)" },
+      { label: "Weight", value: "≈69–95 g/m² (1 mm ≈ 4.34 g/m²)" },
       { label: "Width", value: "114 cm / 140 cm" },
       { label: "Texture", value: "Slubbed, textured surface" },
       { label: "Finish", value: "Greige (undyed) or dyed to order (standard shade card / custom color)" },
