@@ -62,8 +62,8 @@ M = [
  ("src/app/couture/page.tsx", "A look at the couture design language of",
   "The Christopher Bu couture language — gowns showing how premium mulberry silk carries embroidery, drape and structure, from Yizhou's raw silk capital."),
  # blog.ts
- ("src/lib/blog.ts", "How dupioni silk travels from 20/22 denier",
-  "Dupioni silk from 20/22D Yizhou raw silk to finished gown: slub texture, 19/23/30/40 momme, 5% shrinkage, with 2013 Fan Bingbing pieces as proof."),
+ ("src/lib/blog.ts", "Dupioni silk from 20/22D Yizhou raw silk",
+  "Dupioni silk: 20/22D Yizhou raw silk to gown, slub texture, 16/19 momme (to 22), 114/140 cm, 5% shrinkage, with 2013 Fan Bingbing pieces as proof."),
  ("src/lib/blog.ts", "A practical guide for couture ateliers in",
   "For couture ateliers in Europe, North America and the Middle East sourcing mulberry silk: lead times, MOQ, FOB terms, landed cost, and why sample first."),
 ]

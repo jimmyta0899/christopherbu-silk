@@ -5,7 +5,7 @@ import type { BlogPost } from "./blog";
 export const d1Nov15bPosts: BlogPost[] = [
   {
     "slug": "four-point-fabric-inspection-report",
-    "title": "How to Read a Four-Point Fabric",
+    "title": "How to Read a Four-Point Inspection Report",
     "metaDescription": "A four-point report is a division. What was counted, what area it was divided by, and which rolls the result describes decide whether a roll is",
     "type": "Quality / inspection",
     "publishDate": "2026-11-15",

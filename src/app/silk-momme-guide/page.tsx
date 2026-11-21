@@ -120,7 +120,7 @@ const skuWeights = [
 const faqs: HubFaq[] = [
   {
     q: "What does momme mean in silk?",
-    a: "Momme (mm) is a Japanese weight unit used for silk cloth. One momme equals 4.34 grams per square meter, so a 19 momme satin weighs roughly 82 g/m². It is a measure of the woven cloth, not of the fiber quality: grade (4A, 5A, 6A) describes the filament, momme describes the fabric.",
+    a: "Momme (mm) is a unit of weight used for silk cloth. One momme equals 4.34 grams per square meter, so a 19 momme satin weighs roughly 82 g/m². It is a measure of the woven cloth, not of the fiber quality: grade (4A, 5A, 6A) describes the filament, momme describes the fabric.",
   },
   {
     q: "What is 22 momme silk used for?",

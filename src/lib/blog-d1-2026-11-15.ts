@@ -5,7 +5,7 @@ import type { BlogPost } from "./blog";
 export const d1Nov15Posts: BlogPost[] = [
   {
     "slug": "dupioni-slub-acceptance",
-    "title": "Slubs Are Not Defects: Agreeing an",
+    "title": "Slubs Are Not Defects: Agreeing a Standard",
     "metaDescription": "A slub in Dupioni Silk comes from the doupion yarn, not from a fault, so a claim only starts where the cloth leaves an agreed range.",
     "type": "Fabric / dupioni",
     "publishDate": "2026-11-15",
@@ -227,7 +227,7 @@ export const d1Nov15Posts: BlogPost[] = [
       },
       {
         "publisher": "Threads Magazine",
-        "title": "The Difference Between Dupioni and",
+        "title": "The Difference Between Dupioni and Shantung",
         "year": "2021",
         "url": "https://www.threadsmagazine.com/2021/08/29/the-difference-between-dupioni-and-shantung"
       },

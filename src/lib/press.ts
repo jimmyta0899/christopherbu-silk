@@ -35,7 +35,7 @@ const pressSlugs: { slug: string; image: string; imageAlt: string }[] = [
       "Fan Bingbing in the Christopher Bu Forbidden City jacquard cape at the 2015 Met Gala",
   },
   {
-    slug: "christopher-bu-couture-house-profile",
+    slug: "dupioni-silk-in-practice",
     image: "blog/fan-bingbing-paris-stamp-skirt.webp",
     imageAlt:
       "Fan Bingbing in a Christopher Bu silk ensemble against the Eiffel Tower in Paris",

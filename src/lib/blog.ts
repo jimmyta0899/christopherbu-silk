@@ -157,7 +157,7 @@ export const blogPosts: BlogPost[] = [
         heading: "How Yizhou silk reaches the world's red carpets",
         body: "This is where the longevity town connects to the label. The mulberry silk woven in Yizhou is the base of the couture gowns Christopher Bu designs. The dupioni cut for Fan Bingbing in 2013 came from this silk base, as did the jacquard of the Forbidden City gown she wore to the 2015 Met Gala and the Snow Plum Blossom dress Paz Vega wore to the 2018 Oscars. The silk does the quiet work in each piece: it holds the shape, carries the motif, and gives the gown its movement, while the design and the craft decide what the world sees. [UNIQUE INSIGHT] The connection runs through three different crafts but one cloth. Dupioni, jacquard, and embroidery all begin from the same reeling and grading, so the consistency of the county shows up as the one thing the three gowns share before the design diverges. A buyer who wants that consistency is really asking for the same origin, not the same style. [ORIGINAL DATA] The label's own production records place the silk for these gowns in Yizhou. What the press photographs of those red-carpet moments do not show is the county behind the cloth, a place that has grown more silk than anywhere else in the country for two decades.",
         links: [
-          { text: "read the dupioni story", href: "/blog/christopher-bu-couture-house-profile" },
+          { text: "read the dupioni story", href: "/blog/dupioni-silk-in-practice" },
           { text: "read the jacquard story", href: "/blog/forbidden-city-silk-jacquard-fan-bingbing" },
           { text: "read the embroidery story", href: "/blog/paz-vega-hand-embroidered-silk-oscars" },
         ],
@@ -335,7 +335,7 @@ export const blogPosts: BlogPost[] = [
     intro:
       "If you are specifying silk for a gown, you need two numbers. Momme tells you the weight of the cloth; denier tells you the thickness of the yarn. They measure different things, and a buyer who reads them together gets the fabric right the first time instead of ordering a weight that feels wrong in the hand.",
     takeaways: [
-      "Momme measures fabric weight: one momme equals about 3.75 grams per square meter.",
+      "Momme measures fabric weight: one momme equals about 4.34 grams per square meter.",
       "Denier measures yarn thickness: grams per 9,000 meters, with 20/22 denier the standard mulberry raw silk.",
       "A heavier momme holds a silhouette; a lighter one drapes. Match the weight to the end use.",
       "For a gown choose a heavier momme, for an overlay a lighter one, for embroidery a stable greige base.",
@@ -343,7 +343,7 @@ export const blogPosts: BlogPost[] = [
     sections: [
       {
         heading: "What momme measures",
-        body: "**Momme** is a unit of silk fabric weight, equal to about 3.75 grams per square meter. A higher momme means a heavier, more structured cloth, and a lower momme means a lighter, softer one. The number comes from the weight of a standard bolt, and it is the figure a mill quotes when you ask how heavy the silk is[1]. For gowns the useful range is narrow, and it helps to think of it as a band rather than a single number. A 19 momme double crepe is the entry weight, light enough to move and heavy enough to hold a silhouette, while a 22 momme fabric has more presence and is what a structured evening gown wants. Below 19 the cloth starts to feel like a lining; above 30 it reads as a jacket or coat weight. For example, the same dress cut in 19 momme drapes softly, where the 30 momme version stands away from the body.",
+        body: "**Momme** is a unit of silk fabric weight, equal to about 4.34 grams per square meter. A higher momme means a heavier, more structured cloth, and a lower momme means a lighter, softer one. The number comes from the weight of a standard bolt, and it is the figure a mill quotes when you ask how heavy the silk is[1]. For gowns the useful range is narrow, and it helps to think of it as a band rather than a single number. A 19 momme double crepe is the entry weight, light enough to move and heavy enough to hold a silhouette, while a 22 momme fabric has more presence and is what a structured evening gown wants. Below 19 the cloth starts to feel like a lining; above 30 it reads as a jacket or coat weight. For example, the same dress cut in 19 momme drapes softly, where the 30 momme version stands away from the body.",
         image: {
           src: "/fabric-library/habotai/habotai-005.jpg",
           alt: "Silk habotai from the Christopher Bu fabric library, a light plain weave where yarn denier shows through the cloth",
@@ -358,7 +358,7 @@ export const blogPosts: BlogPost[] = [
           caption: "The two silk specs and what they tell you",
           headers: ["Spec", "What it measures", "Unit", "What it tells you"],
           rows: [
-            ["Momme", "Fabric weight", "3.75 g/m²", "How heavy and structured the cloth is"],
+            ["Momme", "Fabric weight", "4.34 g/m²", "How heavy and structured the cloth is"],
             ["Denier", "Yarn thickness", "g/9,000m", "How fine or coarse the thread is"],
             ["Width", "Cloth width", "cm", "How much usable cloth per meter"],
           ],
@@ -377,10 +377,10 @@ export const blogPosts: BlogPost[] = [
           caption: "Momme weights and their typical uses",
           headers: ["Weight", "Approx. gsm", "Typical use"],
           rows: [
-            ["19 momme", "82 gsm", "Dresses, blouses, lining-adjacent gown work"],
-            ["23 momme", "100 gsm", "Structured evening gowns, bridal"],
-            ["30 momme", "129 gsm", "Tailored jackets, heavier couture"],
-            ["40 momme", "172 gsm", "Coat-weight pieces, structured suiting"],
+            ["19 momme", "82.5 gsm", "Dresses, blouses, lining-adjacent gown work"],
+            ["23 momme", "99.8 gsm", "Structured evening gowns, bridal"],
+            ["30 momme", "130.2 gsm", "Tailored jackets, heavier couture"],
+            ["40 momme", "173.6 gsm", "Coat-weight pieces, structured suiting"],
           ],
         },
         links: [
@@ -421,11 +421,11 @@ export const blogPosts: BlogPost[] = [
       "Methodology: the momme and denier definitions and the weight table in this page come from the supplier's standard spec sheet, the same figures quoted to buyers. This page is reviewed by the Christopher Bu editorial team.",
   },
   {
-    slug: "christopher-bu-couture-house-profile",
+    slug: "dupioni-silk-in-practice",
     title:
       "Dupioni Silk in Practice: Slub to Garment",
     metaDescription:
-      "Dupioni silk from 20/22D Yizhou raw silk to finished gown: slub texture, 19/23/30/40 momme, 5% shrinkage, with 2013 Fan Bingbing pieces as proof.",
+      "Dupioni silk: 20/22D Yizhou raw silk to gown, slub texture, 16/19 momme (to 22), 114/140 cm, 5% shrinkage, with 2013 Fan Bingbing pieces as proof.",
     type: "Material deep-dive",
     publishDate: "2026-10-30",
     keywords: [
@@ -446,7 +446,7 @@ export const blogPosts: BlogPost[] = [
       "Dupioni is a mulberry silk with a visible, irregular texture. Two silkworms spin one cocoon, their filaments tangle, and the yarn comes off the reel with thick-and-thin slubs along its length. Woven plain, those slubs give a dress structure and a play of light that a flat crepe cannot match. This guide walks the fabric from raw silk to a finished garment, with the 2013 Fan Bingbing pieces as proof of how it performs on a body.",
     takeaways: [
       "Dupioni forms when two silkworms spin a single cocoon and the filaments cannot separate cleanly, leaving slubs in the yarn.",
-      "We supply it in 19, 23, 30 and 40 momme, in 90, 114 and 140 cm widths — greige or dyed to order; 19 momme is the standard gown weight.",
+      "We supply it in 16 and 19 momme, up to 21-22 on request, in 114 and 140 cm widths. It ships greige or dyed to order, and 19 momme is the most-requested gown weight.",
       "Allow about 5% shrinkage because the slub is part of the weave, so a cutter builds it into the block.",
       "Fan Bingbing wore two Christopher Bu dupioni pieces in 2013, one in Paris and one in Cannes, and the photographs show how the cloth holds a shape.",
     ],
@@ -476,15 +476,14 @@ export const blogPosts: BlogPost[] = [
       },
       {
         heading: "Step 3: the weights, widths and shrinkage to specify",
-        body: "We supply dupioni greige straight off the loom, or dyed to order from a standard shade card or your custom color, so you get the exact shade you need. **Momme** is a silk weight unit; one momme equals about 3.75 grams per square meter. **Slub** is the irregular thick-and-thin texture woven into the cloth. Standard dupioni weights are 19, 23, 30 and 40 momme in 90, 114 and 140 cm widths. The 19 momme dupioni is the entry weight for gowns: light enough to move, heavy enough to hold a silhouette. Because the slub is part of the weave, allow about 5% shrinkage in the cutting block, the hand-wash shrinkage standard for dupioni[2].",
+        body: "We supply dupioni greige straight off the loom, or dyed to order from a standard shade card or your custom color, so you get the exact shade you need. **Momme** is a silk weight unit; one momme equals about 4.34 grams per square meter. **Slub** is the irregular thick-and-thin texture woven into the cloth. Standard dupioni weights are 16 and 19 momme, with 21-22 momme available on request, in 114 and 140 cm widths. The 19 momme dupioni is the most-requested weight for gowns and bridal: light enough to move, heavy enough to hold a silhouette. Because the slub is part of the weave, allow about 5% shrinkage in the cutting block, the hand-wash shrinkage standard for dupioni[2].",
         table: {
-          caption: "Dupioni weights and their typical uses",
-          headers: ["Weight", "Approx. gsm", "Typical use"],
+          caption: "Dupioni weights we supply",
+          headers: ["Weight", "Approx. gsm", "Specification"],
           rows: [
-            ["19 momme", "82 gsm", "Dresses, blouses, lining-adjacent gown work"],
-            ["23 momme", "100 gsm", "Structured evening gowns, bridal"],
-            ["30 momme", "129 gsm", "Tailored jackets, heavier couture"],
-            ["40 momme", "172 gsm", "Coat-weight pieces, structured suiting"],
+            ["16 momme", "≈69 gsm", "Lighter option in 114 and 140 cm"],
+            ["19 momme", "≈82.5 gsm", "Most-requested for gowns and bridal"],
+            ["21-22 momme", "≈91–95 gsm", "Heavier weight, available on request"],
           ],
         },
         links: [
@@ -531,7 +530,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "What weights and widths do you supply dupioni in?",
         level: 3,
-        body: "We supply dupioni in 19, 23, 30 and 40 momme, in 90, 114 and 140 cm widths — greige or dyed to order. The 19 momme weight is the standard for gowns.",
+        body: "We supply dupioni in 16 and 19 momme, up to 21-22 on request, in 114 and 140 cm widths. It ships greige or dyed to order, and 19 momme is the most-requested weight for gowns.",
       },
       {
         heading: "Do I need to allow for shrinkage?",

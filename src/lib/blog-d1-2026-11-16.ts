@@ -5,7 +5,7 @@ import type { BlogPost } from "./blog";
 export const d1Nov16Posts: BlogPost[] = [
   {
     "slug": "how-silk-fabric-weight-is-measured",
-    "title": "How Silk Fabric Weight Is Measured, and",
+    "title": "How Silk Fabric Weight Is Measured",
     "metaDescription": "A fabric weight in g/m\xc2\xb2 is a mass divided by an area, taken from a named population in a named atmosphere.",
     "type": "Measurement / testing",
     "publishDate": "2026-11-16",

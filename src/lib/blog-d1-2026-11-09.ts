@@ -241,7 +241,7 @@ export const d1Posts: BlogPost[] = [
   },
   {
     "slug": "dupioni-silk-price-per-yard",
-    "title": "Dupioni Silk Price Per Yard: What Drives",
+    "title": "Dupioni Silk Price: What Drives the Cost",
     "metaDescription": "No public per-yard price: how tariff classification, fiber labeling, test methods and certificate scope shape the written quotation for dupioni silk.",
     "type": "Fabric / dupioni",
     "publishDate": "2026-11-09",

@@ -139,10 +139,9 @@ export default function MommeConverterPage() {
               Momme is a weight. The historical definition is the weight in
               pounds of a piece of silk 45 inches wide and 100 yards long:
               45 in × 100 yd is 104.5 m², and one pound is 453.6 g, so
-              453.6 ÷ 104.5 gives 4.340 g/m² per momme. The name comes from the
-              Japanese <em>monme</em>, a unit of mass fixed at 3.75 g — which is
-              why momme and millimeters share the abbreviation but measure
-              different things entirely.
+              453.6 ÷ 104.5 gives 4.340 g/m² per momme. Momme measures mass per
+              unit area of cloth; the millimeter measures length, and the two
+              share an abbreviation but measure different things entirely.
             </p>
             <p>
               Because both g/m² and oz/yd² are area weights, the three-way

@@ -5,7 +5,7 @@ import type { BlogPost } from "./blog";
 export const d1Nov10Posts: BlogPost[] = [
   {
     "slug": "dupioni-vs-habotai-silk",
-    "title": "Dupioni Silk vs Habotai Silk: Telling Two",
+    "title": "Dupioni vs Habotai: Read the Surface",
     "metaDescription": "Dupioni Silk and Habotai Silk are both plain weaves, but only Dupioni Silk carries cross-grain slubs from double-cocoon weft yarn.",
     "type": "Fabric / dupioni",
     "publishDate": "2026-11-10",
@@ -190,7 +190,7 @@ export const d1Nov10Posts: BlogPost[] = [
       },
       {
         "publisher": "Threads Magazine",
-        "title": "The Difference Between Dupioni and",
+        "title": "The Difference Between Dupioni and Shantung",
         "year": "2021",
         "url": "https://www.threadsmagazine.com/2021/08/29/the-difference-between-dupioni-and-shantung"
       },
@@ -491,7 +491,7 @@ export const d1Nov10Posts: BlogPost[] = [
       },
       {
         "publisher": "Threads Magazine",
-        "title": "The Difference Between Dupioni and",
+        "title": "The Difference Between Dupioni and Shantung",
         "year": "2021",
         "url": "https://www.threadsmagazine.com/2021/08/29/the-difference-between-dupioni-and-shantung"
       },
