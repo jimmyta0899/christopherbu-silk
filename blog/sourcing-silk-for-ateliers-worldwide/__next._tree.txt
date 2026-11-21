@@ -6,4 +6,4 @@
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"sourcing-silk-for-ateliers-worldwide","s":["christopher-bu-couture-house-profile"]},"h":96,"c":"$Q3"}]]
 1:[["children",{"s":"blog","h":64,"c":"$Q2"}]]
-0:{"b":"G5MudhRrhJIvOji8_6nGS","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
+0:{"b":"g0f8V7AInP5izIMbz1Bba","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
