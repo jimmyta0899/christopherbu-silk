@@ -116,6 +116,16 @@ export default async function BlogPostPage({ params }: Props) {
   const post = getPost(slug);
   if (!post) notFound();
 
+  // 结构化数据文本清洗：去内部标记、引用角标与 Markdown，供 articleBody 与 FAQ 共用。
+  const cleanSchemaText = (text: string) =>
+    text
+      .replace(/<!--.*?-->/g, "")
+      .replace(/\[(?:ORIGINAL DATA|UNIQUE INSIGHT|PERSONAL EXPERIENCE)\]/gi, "")
+      .replace(/\[\d+\]/g, "")
+      .replace(/\[([^\]]+)\]\((?:https?:\/\/|\/)[^)\s]+\)/g, "$1")
+      .replace(/\*\*([^*]+)\*\*/g, "$1")
+      .replace(/^-\s+/gm, "");
+
   // 正文全文（供 AI/搜索引擎从结构化数据直接读取，而不只是抓正文 HTML）
   const articleBody = [
     post.intro,
@@ -123,11 +133,9 @@ export default async function BlogPostPage({ params }: Props) {
     ...post.sections.map((s) => `${s.heading}\n${s.body}`),
   ]
     .join("\n\n")
-    // 去掉内部注释标记与 [n] 引用角标，保留干净正文
     .replace(/<!--.*?-->/g, "")
     .replace(/\[(?:ORIGINAL DATA|UNIQUE INSIGHT|PERSONAL EXPERIENCE)\]/gi, "")
     .replace(/\[\d+\]/g, "")
-    // 链接降为纯文本、去掉加粗与列表符，避免结构化数据里混入 Markdown
     .replace(/\[([^\]]+)\]\((?:https?:\/\/|\/)[^)\s]+\)/g, "$1")
     .replace(/\*\*([^*]+)\*\*/g, "$1")
     .replace(/^-\s+/gm, "");
@@ -183,6 +191,21 @@ export default async function BlogPostPage({ params }: Props) {
     ],
   };
 
+  // FAQPage 结构化数据：抽取正文里以问号结尾的问答小标题（level 3），
+  // 内容一字不改，只做 Markdown 清洗。没有问答对的文章不输出空 schema。
+  const faqPairs = post.sections.filter((s) => s.heading.trim().endsWith("?"));
+  const faqJsonLd = faqPairs.length
+    ? {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: faqPairs.map((s) => ({
+          "@type": "Question",
+          name: cleanSchemaText(s.heading),
+          acceptedAnswer: { "@type": "Answer", text: cleanSchemaText(s.body) },
+        })),
+      }
+    : null;
+
   return (
     <>
       <Header />
@@ -195,6 +218,12 @@ export default async function BlogPostPage({ params }: Props) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
         />
+        {faqJsonLd && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+          />
+        )}
 
         {/* 面包屑 */}
         <nav className="text-sm text-ink-muted">
