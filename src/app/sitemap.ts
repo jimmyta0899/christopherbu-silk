@@ -10,8 +10,11 @@ export const dynamic = "force-static";
  * 内容基线日期：只在页面实质内容更新时手动上调。
  * 用 new Date() 当 lastmod 会让每一页都拿到构建时间，Google 会判定该字段
  * 不可信并整体忽略——等于白给。
+ *
+ * 2026-11-22：全站 40 处 local mill(s) -> local manufacturer(s)、
+ * Organization sameAs 加 LinkedIn、/sustainability/ 描述改写。
  */
-const CONTENT_UPDATED = new Date("2026-11-17");
+const CONTENT_UPDATED = new Date("2026-11-22");
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = siteConfig.url;
