@@ -80,6 +80,13 @@ export default function HomePage() {
                 <p className="mt-4 text-base leading-relaxed text-ivory/70">
                   From our roots in Yizhou — the world&apos;s largest raw silk origin — we offer silk fabric for wholesale and export from China, with OEKO-TEX and GOTS certification available on request.
                 </p>
+                <p className="mt-3 text-sm leading-relaxed text-ivory/60">
+                  Need a custom width, weight or private-label program? See{" "}
+                  <Link href="/services" className="text-gold-bright underline underline-offset-4 hover:text-ivory">
+                    how we work with mills and brands
+                  </Link>
+                  .
+                </p>
                 <div className="mt-8 flex flex-wrap gap-4">
                   <Link
                     href="/samples"

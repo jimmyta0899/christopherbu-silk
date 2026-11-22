@@ -43,6 +43,14 @@ export default function AboutPage() {
             — for textile mills, brands and designers worldwide.
           </p>
           <p>
+            Alongside in-stock supply, we run custom development and
+            private-label programs. Read more about{" "}
+            <Link href="/services" className="text-jade underline underline-offset-4 hover:text-jade-deep">
+              the services we offer to brands and mills
+            </Link>
+            .
+          </p>
+          <p>
             The mills we work with across this district supply raw silk to
             luxury houses including Louis Vuitton and Hermès.
           </p>

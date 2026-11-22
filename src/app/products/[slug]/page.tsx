@@ -314,6 +314,13 @@ export default async function ProductPage({ params }: Props) {
             destination. Our B2B team will respond with a tailored quotation and
             available certification.
           </p>
+          <p className="mt-3 max-w-xl text-sm leading-relaxed text-ink-soft">
+            Need a custom width, weight or private-label program? See{" "}
+            <Link href="/services" className="text-jade underline underline-offset-4 hover:text-jade-deep">
+              our sourcing and custom development services
+            </Link>
+            .
+          </p>
           <div className="mt-6 flex flex-wrap gap-4">
             <Link
               href="/samples"
