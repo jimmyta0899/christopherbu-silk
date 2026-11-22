@@ -6,4 +6,4 @@
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":{"n":"slug","t":"d","k":"dupioni-silk-price-per-yard","s":["christopher-bu-couture-house-profile"]},"h":96,"c":"$Q3"}]]
 1:[["children",{"s":"blog","h":64,"c":"$Q2"}]]
-0:{"b":"yDB-oX15-2qhP5jldU_XX","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
+0:{"b":"vs-WehT1YoxX3DfJFGCqN","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
