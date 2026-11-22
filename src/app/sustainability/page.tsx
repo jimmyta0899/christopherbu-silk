@@ -7,7 +7,7 @@ import { siteConfig } from "@/lib/site-config";
 export const metadata: Metadata = {
   title: "Sustainability & Traceability",
   description:
-    "Christopher Bu × Yizhou Silk supplies traceable mulberry raw silk and greige fabric; OEKO-TEX 100 and GOTS available directly from local manufacturers on request.",
+    "Christopher Bu × Yizhou Silk offers traceable mulberry raw silk and greige fabric; OEKO-TEX 100 and GOTS available directly from local manufacturers on request.",
   keywords: [
     "sustainable silk fabric B2B",
     "traceable mulberry silk supplier",
