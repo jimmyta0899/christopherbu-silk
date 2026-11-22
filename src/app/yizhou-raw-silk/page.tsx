@@ -229,7 +229,7 @@ export default function YizhouRawSilkPage() {
     url: siteConfig.url,
     email: siteConfig.email,
     description:
-      "Couture house and silk supplier working with local mills in Yizhou, Guangxi, China.",
+      "Couture house and silk supplier working with local manufacturers in Yizhou, Guangxi, China.",
   };
 
   const placeJsonLd = {
@@ -275,7 +275,7 @@ export default function YizhouRawSilkPage() {
           >
             Yizhou District Government
           </a>
-          , 2023). The local mills we work with draw from this district. What
+          , 2023). The local manufacturers we work with draw from this district. What
           follows is what the official figures actually say. It also covers
           where the widely repeated versions are wrong. Then it explains why the
           origin matters to a buyer specifying cloth rather than a story.
@@ -567,7 +567,7 @@ export default function YizhouRawSilkPage() {
           </h2>
           <div className="mt-6 max-w-3xl space-y-4 text-base leading-relaxed text-ink-soft">
             <p>
-              We work with local mills in Yizhou rather than describing
+              We work with local manufacturers in Yizhou rather than describing
               ourselves as a trader who found a good price. That distinction
               matters operationally. It is why we can tell you which reeling run
               a lot came from. It is why we push back when a specification will
@@ -576,7 +576,7 @@ export default function YizhouRawSilkPage() {
             </p>
             <p>
               For example, a buyer may ask for a 16 momme charmeuse at 140 cm.
-              The question we can answer is whether the local mills can hold
+              The question we can answer is whether the local manufacturers can hold
               that width and weight in the same run. The second question is
               what the graded yarn behind it will be. That answer comes from
               the reeling floor rather than a catalog page.

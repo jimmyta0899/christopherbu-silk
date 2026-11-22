@@ -172,7 +172,7 @@ export default function SiteIndex() {
             Fabrics and yarns
           </h2>
           <p className="mt-3 max-w-3xl text-sm leading-relaxed text-ink-soft">
-            Everything in this group is supplied from local mills in our own
+            Everything in this group is supplied directly from local manufacturers in our own
             region, in greige, undyed or dyed to order. The{" "}
             <Link href="/products" className="underline underline-offset-2 hover:text-gold">
               product index

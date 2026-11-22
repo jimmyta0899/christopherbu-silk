@@ -35,11 +35,11 @@ export const siteConfig = {
   certifications: {
     oekoTex: {
       label: "OEKO-TEX® STANDARD 100 (Class II)",
-      note: "held by local mill; certificate number provided on quotation",
+      note: "held by local manufacturer; certificate number provided on quotation",
     },
     gots: {
       label: "GOTS (Global Organic Textile Standard)",
-      note: "held by local mill; certificate number provided on quotation",
+      note: "held by local manufacturer; certificate number provided on quotation",
     },
     gotsOrganic: {
       label: "GOTS-Certified Organic Silk",
@@ -74,6 +74,10 @@ export const siteConfig = {
     // profile.php?id=100028486554642 与 /people/... 形式都会 302 跳到此地址。
     // sameAs / 外链统一用最终 URL，避免爬虫把跳转地址当成独立实体。
     facebook: "https://www.facebook.com/christopherbuofficial/",
+    // 2026-11-22 用户授权免费创建，登录态（Jimmy Tang, Brand Manager）核实：
+    // /company/christopherbu/ -> 重定向到 company id 144172356 的管理后台，页面真实存在。
+    // 与站点 Organization.name 同名，作为 sameAs 实体关联。
+    linkedin: "https://www.linkedin.com/company/christopherbu/",
     whatsapp: "+1-202-579-8256",
   },
 } as const;

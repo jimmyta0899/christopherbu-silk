@@ -7,7 +7,7 @@ import { siteConfig } from "@/lib/site-config";
 export const metadata: Metadata = {
   title: "Sustainability & Traceability",
   description:
-    "Christopher Bu × Yizhou Silk supplies traceable mulberry raw silk and greige fabric; OEKO-TEX 100 and GOTS available from local mills on request.",
+    "Christopher Bu × Yizhou Silk supplies traceable mulberry raw silk and greige fabric; OEKO-TEX 100 and GOTS available directly from local manufacturers on request.",
   keywords: [
     "sustainable silk fabric B2B",
     "traceable mulberry silk supplier",
@@ -108,7 +108,7 @@ export default function SustainabilityPage() {
               },
               {
                 q: "Can you provide OEKO-TEX or GOTS certification?",
-                a: "Certification is held by our local mills. The certificate number is provided with your quotation, so you can verify it independently before ordering.",
+                a: "Certification is held by our local manufacturers. The certificate number is provided with your quotation, so you can verify it independently before ordering.",
               },
               {
                 q: "Do you supply GOTS-certified organic silk?",

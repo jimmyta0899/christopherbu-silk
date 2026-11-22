@@ -43,7 +43,7 @@ const sources: HubSource[] = [
     year: "2023",
     url: "http://www.hcyzq.gov.cn/zjyz/yzgk/t4682604.shtml",
     supports:
-      "The reeling and processing base behind the local mills named on this page.",
+      "The reeling and processing base behind the local manufacturers named on this page.",
   },
 ];
 
@@ -165,11 +165,11 @@ const steps = [
 const certifications = [
   {
     label: "OEKO-TEX® STANDARD 100 (Class II)",
-    note: "Held by the local mill. Certificate number provided on quotation.",
+    note: "Held by the local manufacturer. Certificate number provided on quotation.",
   },
   {
     label: "GOTS (Global Organic Textile Standard)",
-    note: "Held by the local mill. License number and validity provided on quotation.",
+    note: "Held by the local manufacturer. License number and validity provided on quotation.",
   },
   {
     label: "GOTS-certified organic silk",
@@ -218,7 +218,7 @@ const faqs: HubFaq[] = [
   },
   {
     q: "Are you a manufacturer or a trading company?",
-    a: "We work with local mills in Yizhou, and we are a couture house with its own design and production standard. In practice that means the cloth we quote is the cloth we cut. The specification is written by people who see it on a fitting model, not only on a test report. Our export and sourcing operations run through Beijing Qingshanyimu Trading Co., Ltd.",
+    a: "We work with local manufacturers in Yizhou, and we are a couture house with its own design and production standard. In practice that means the cloth we quote is the cloth we cut. The specification is written by people who see it on a fitting model, not only on a test report. Our export and sourcing operations run through Beijing Qingshanyimu Trading Co., Ltd.",
   },
   {
     q: "How long does bulk production take?",
@@ -226,7 +226,7 @@ const faqs: HubFaq[] = [
   },
   {
     q: "Do you supply OEKO-TEX or GOTS certified silk?",
-    a: "Yes, and the certificates are held by the local mill rather than issued to us. We provide the certificate number and validity on quotation so you can verify them with the issuing body. We do not display certificate numbers on this website, because a badge you cannot check is worse than no badge.",
+    a: "Yes, and the certificates are held by the local manufacturer rather than issued to us. We provide the certificate number and validity on quotation so you can verify them with the issuing body. We do not display certificate numbers on this website, because a badge you cannot check is worse than no badge.",
   },
   {
     q: "Can you develop a custom weave, width or pattern?",
@@ -256,7 +256,7 @@ export default function WholesaleSilkFabricPage() {
         </h1>
 
         <p className="mt-6 max-w-3xl text-lg leading-relaxed text-ink-soft">
-          Nine standing constructions from local mills in Yizhou, dyed to order
+          Nine standing constructions directly from local manufacturers in Yizhou, dyed to order
           on either a standard shade card or a custom match, shipped FOB or FCA
           with inspection records. This page sets out the seven steps from
           enquiry to container, and the terms we quote. It also covers the
@@ -266,7 +266,7 @@ export default function WholesaleSilkFabricPage() {
         
         <KeyTakeaways
           items={[
-            "Nine constructions are standing products from local mills in Yizhou; the rest are woven to order, and the page states which is which.",
+            "Nine constructions are standing products directly from local manufacturers in Yizhou; the rest are woven to order, and the page states which is which.",
             "Color runs on two routes: a standard shade card, or a custom match to your sample. Greige ships undyed for buyers with their own dyehouse.",
             "Terms are FOB Nansha, Yantian or Qinzhou, or FCA Yizhou, which we prefer because the inland leg stays visible in your landed cost.",
             "Seven steps run from enquiry to container, and the approved lab dip is the reference for inspection, not a photograph.",
@@ -423,7 +423,7 @@ export default function WholesaleSilkFabricPage() {
             Certifications, and what we will not display
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-relaxed text-ink-soft">
-            The certificates behind these claims are held by the local mills,
+            The certificates behind these claims are held by the local manufacturers,
             not by us, so the verifiable artefact is the number, not a badge on
             a website. We provide numbers on quotation and you can check them
             with the issuing body.
@@ -692,7 +692,7 @@ export default function WholesaleSilkFabricPage() {
                 headline:
                   "Wholesale silk fabric from China: how a bulk order actually runs",
                 description:
-                  "Nine standing constructions from local mills in Yizhou, two color routes, FOB or FCA terms, and the seven steps from enquiry to container.",
+                  "Nine standing constructions directly from local manufacturers in Yizhou, two color routes, FOB or FCA terms, and the seven steps from enquiry to container.",
                 image: "/products/dupioni2.webp",
                 datePublished: HUB_UPDATED,
               }),

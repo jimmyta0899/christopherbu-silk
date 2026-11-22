@@ -24,7 +24,8 @@ export function buildOrganizationSchema() {
     sameAs: [
       siteConfig.social.instagram,
       siteConfig.social.facebook,
-      // LinkedIn / 行业目录挂靠：待用户提供已核实 URL 后追加，未核实前不写，避免虚构实体关联
+      siteConfig.social.linkedin,
+      // 行业目录（Europages / Kompass 等）：档案审核通过后追加真实 URL，未核实前不写。
     ],
     // legalName 沿用 site-config.legalEntity.name（既有配置，非本次编造）。
     // 若与实际注册名不一致，请用户提供真实值后替换。

@@ -367,7 +367,7 @@ const faqs: HubFaq[] = [
   },
   {
     q: "Are gazar, mikado, radzimir, faille and peau de soie available?",
-    a: "These are woven to order through the local mills we work with, and we quote them only after confirming the construction, width and color against current mill capacity. We do not hold them as stock items, and this page does not state a minimum or a price for them. Ask for a sample and we will tell you honestly whether the construction is available for your quantity.",
+    a: "These are woven to order through the local manufacturers we work with, and we quote them only after confirming the construction, width and color against current mill capacity. We do not hold them as stock items, and this page does not state a minimum or a price for them. Ask for a sample and we will tell you honestly whether the construction is available for your quantity.",
   },
   {
     q: "Is your silk fabric dyed to order?",
@@ -561,7 +561,7 @@ export default function SilkFabricsPage() {
           <p className="mt-3 text-xs text-ink-muted">
             &ldquo;In stock&rdquo; means the construction has its own product page
             with a published specification. &ldquo;Woven to order&rdquo; means the
-            local mills we work with weave it on request, with no stock
+            local manufacturers we work with weave it on request, with no stock
             commitment. &ldquo;Sample on request&rdquo; means we confirm the
             construction, width and color against current mill capacity before
             quoting, and state no minimum on this page.
@@ -713,7 +713,7 @@ export default function SilkFabricsPage() {
                 img: "/blog/yizhou-riverside-dawn.webp",
                 alt: "The Xiajian River valley in Yizhou at dawn, the mulberry silk growing region",
                 t: "Where the fiber starts",
-                d: "Yizhou, Guangxi. The raw silk origin the local mills we work with draw from. The full production record. What the official figures actually say.",
+                d: "Yizhou, Guangxi. The raw silk origin the local manufacturers we work with draw from. The full production record. What the official figures actually say.",
                 href: "/yizhou-raw-silk",
                 label: "Yizhou raw silk",
               },
