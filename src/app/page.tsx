@@ -325,7 +325,7 @@ export default function HomePage() {
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               {[
                 {
-                  t: "Unique Supply Chain",
+                  t: "Local Vertical Integration",
                   d: "Coordinated vertical industrial chain covering mulberry resources, silkworm cocoon sourcing, raw silk reeling, fabric weaving and finishing — all in one local area.",
                 },
                 {

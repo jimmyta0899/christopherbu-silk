@@ -229,9 +229,9 @@ export const products: Product[] = [
       "dyed silk fabric to order",
     ],
     body: [
-      "Greige (or gray) silk fabric is the raw state of the cloth — undyed, unfinished mulberry silk straight off the loom, before any dyeing, printing or finishing. Greige is not a variety of silk; it is a state that every silk fabric passes through. Whether the finished cloth becomes double crepe, charmeuse, habotai or another weave, it starts here.",
-      "Because greige is a state rather than a variety, its momme is not a single fixed number — it follows the base weave you specify. Yizhou mills commonly run greige in double crepe, habotai (pongee) and charmeuse (satin) constructions, each with its own natural momme range. Tell us the weave and target weight, and we quote the greige to match, so you can develop your own color, print and finish from a blank, undyed base.",
-      "You can take greige silk as-is and finish it in-house, or have it dyed to order — we offer both a standard shade card and custom color matching. Supplying greige gives brands, ateliers and finishing houses full control over the final color, print and hand.",
+      "Greige (or gray) silk fabric is the raw state of the cloth — undyed, unfinished mulberry silk straight off the loom, before any dyeing or finishing. Greige is not a variety of silk; it is a state that every silk fabric passes through. Whether the finished cloth becomes double crepe, charmeuse, habotai or another weave, it starts here.",
+      "Because greige is a state rather than a variety, its momme is not a single fixed number — it follows the base weave you specify. Yizhou mills commonly run greige in double crepe, habotai (pongee) and charmeuse (satin) constructions, each with its own natural momme range. Tell us the weave and target weight, and we quote the greige to match, so you can develop your own color and finish from a blank, undyed base.",
+      "You can take greige silk as-is and finish it in-house, or have it dyed to order — we offer both a standard shade card and custom color matching. Supplying greige gives brands, ateliers and finishing houses full control over the final color and hand.",
     ],
     image: "/products/greige-fabric.webp",
     imageAlt:
@@ -253,7 +253,7 @@ export const products: Product[] = [
     faq: [
       {
         q: "What is greige silk fabric, and why buy it undyed?",
-        a: "Greige (or gray) fabric is undyed, unfinished silk cloth straight off the loom — the raw state before any dyeing, printing or finishing. Buying greige gives you full control over color, print and finishing for your own production.",
+        a: "Greige (or gray) fabric is undyed, unfinished silk cloth straight off the loom — the raw state before any dyeing or finishing. Buying greige gives you full control over color and finishing for your own production.",
       },
       {
         q: "What momme is your greige silk?",

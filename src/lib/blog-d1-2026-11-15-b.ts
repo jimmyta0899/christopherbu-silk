@@ -6,7 +6,7 @@ export const d1Nov15bPosts: BlogPost[] = [
   {
     "slug": "four-point-fabric-inspection-report",
     "title": "How to Read a Four-Point Inspection Report",
-    "metaDescription": "A four-point report is a division. What was counted, what area it was divided by, and which rolls the result describes decide whether a roll is",
+    "metaDescription": "A four-point report is a division. What was counted, what area it was divided by, and which rolls the result describes decide whether a roll is accepted.",
     "type": "Quality / inspection",
     "publishDate": "2026-11-15",
     "keywords": [
@@ -25,7 +25,7 @@ export const d1Nov15bPosts: BlogPost[] = [
     "coverImage": {
       "src": "/products/dupion-silk-yarn.webp",
       "alt": "Three hanks of undyed silk yarn in skeins, pale white filament lying parallel along each hank",
-      "caption": "Raw Silk Yarn in skeins, three hanks of undyed filament | Site product image /products/dupion-silk-yarn.webp, photographed in house by Christopher Bu (Yizhou) | White undyed filament in hank form, fibers lying parallel along each skein, thick and thin places visible where filaments cross; no count or twist stated on the asset | Undyed yarn before weaving, part of the site's in-house product photography collection, undated"
+      "caption": "Raw Silk Yarn in skeins, three hanks of undyed filament | /products/dupion-silk-yarn.webp, site catalog image | White undyed filament in hank form, fibers lying parallel along each skein, thick and thin places visible where filaments cross; no count or twist stated on the asset | Undyed yarn before weaving, part of the site's product image library, undated"
     },
     "intro": "An inspection report puts one number at the top, a figure such as 28.6 points per 100 square yards quoted without its formula, and a decision follows: accept the roll, claim against it, or send it back. The number looks measured. It is a division, and behind it sit conventions buyer and seller may have set differently: what was counted, what area it was divided by, and which rolls the answer describes.",
     "takeaways": [
@@ -42,7 +42,7 @@ export const d1Nov15bPosts: BlogPost[] = [
         "image": {
           "src": "/products/dupion-silk-yarn.webp",
           "alt": "Three hanks of undyed silk yarn in skeins, pale white filament lying parallel along each hank",
-          "caption": "Raw Silk Yarn in skeins, three hanks of undyed filament | Site product image /products/dupion-silk-yarn.webp, photographed in house by Christopher Bu (Yizhou) | White undyed filament in hank form, fibers lying parallel along each skein, thick and thin places visible where filaments cross; no count or twist stated on the asset | Undyed yarn before weaving, part of the site's in-house product photography collection, undated"
+          "caption": "Raw Silk Yarn in skeins, three hanks of undyed filament | /products/dupion-silk-yarn.webp, site catalog image | White undyed filament in hank form, fibers lying parallel along each skein, thick and thin places visible where filaments cross; no count or twist stated on the asset | Undyed yarn before weaving, part of the site's product image library, undated"
         }
       },
       {

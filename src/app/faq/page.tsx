@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { pageOpenGraph } from "@/lib/seo-metadata";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -52,6 +53,34 @@ export default function FaqPage() {
           label="The short version"
           answer="MOQ is not fixed: small trial rolls, custom widths and samples may be possible subject to material, mill and schedule review. Export runs FOB or FCA against T/T, and OEKO-TEX or GOTS certification is available within the document scope stated in the quotation."
         />
+
+        <p className="mt-6 text-sm leading-relaxed text-ink-soft">
+          The numbers behind these answers live on their own pages:{" "}
+          <Link href="/products/raw-silk/" className="underline">
+            raw silk denier and yarn count
+          </Link>
+          ,{" "}
+          <Link href="/silk-weight/" className="underline">
+            the momme-to-gram ladder by fabric weight
+          </Link>
+          , and the{" "}
+          <Link href="/certificates/" className="underline">
+            document scope for OEKO-TEX and GOTS
+          </Link>
+          . Payment, packing and claim wording sits in the{" "}
+          <Link href="/trade-terms/" className="underline">
+            trade terms
+          </Link>
+          , and the measurement method behind any grams-per-square-meter figure
+          is worked through in{" "}
+          <Link
+            href="/blog/how-silk-fabric-weight-is-measured/"
+            className="underline"
+          >
+            how silk fabric weight is measured
+          </Link>
+          .
+        </p>
 
         <div className="mt-12 space-y-4">
           {faqs.map((f) => (

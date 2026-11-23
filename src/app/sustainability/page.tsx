@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { pageOpenGraph } from "@/lib/seo-metadata";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -49,7 +50,7 @@ export default function SustainabilityPage() {
             </h2>
             <p className="mt-3 text-sm leading-relaxed text-ink-soft">
               The leading standard for organic textiles, covering environmental
-              and social criteria along the supply chain.
+              and social criteria from fiber to finished cloth.
             </p>
             <p className="mt-3 text-sm text-ink-muted">
               {siteConfig.certifications.gots.note}
@@ -95,6 +96,23 @@ export default function SustainabilityPage() {
             </p>
           </div>
         </div>
+
+        <p className="mt-10 text-sm leading-relaxed text-ink-soft">
+          A certificate says little until it is read against a scope. The{" "}
+          <Link href="/certificates/" className="underline">
+            certificates page
+          </Link>{" "}
+          sets out which document covers which material, the{" "}
+          <Link href="/products/raw-silk/" className="underline">
+            raw silk sheet
+          </Link>{" "}
+          lists what can be supplied as GOTS-certified organic, and the{" "}
+          <Link href="/trade-terms/" className="underline">
+            trade terms
+          </Link>{" "}
+          explain how certificate numbers and validity dates are released with a
+          quotation.
+        </p>
 
         <section className="mt-14 border-t border-line pt-10">
           <h2 className="font-display text-2xl font-medium text-jade-deep">

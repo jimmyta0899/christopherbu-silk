@@ -25,7 +25,7 @@ export const d1Nov16Posts: BlogPost[] = [
     "coverImage": {
       "src": "/products/satin.webp",
       "alt": "Deep red silk satin fabric filling the frame, with a smooth glossy surface and soft highlights across the face",
-      "caption": "Satin Silk Fabric, red satin face | /products/satin.webp, in-house product photography | High-lustre face, flat and even; width and weight not marked on the asset | Undated, from the site's product collection."
+      "caption": "Satin Silk Fabric, red satin face | /products/satin.webp, site catalog image | High-lustre face, flat and even; width and weight not marked on the asset | Undated, from the site's product collection."
     },
     "intro": "A mass per unit area result is a division: grams of cloth over square meters of cloth. The division is the easy part. What decides whether the number describes your shipment is what went on the balance, how many pieces of it, and in what air. ASTM D3776 leaves those choices to four named options[2](https://www.astm.org/d3776-09.html), and its small-swatch option carries a sentence that buyers read past: the results are considered applicable to the sample only and not necessarily to the lot[2]. Two honest reports can still disagree about the same cloth.",
     "takeaways": [
@@ -42,7 +42,7 @@ export const d1Nov16Posts: BlogPost[] = [
         "image": {
           "src": "/products/satin.webp",
           "alt": "Deep red silk satin fabric filling the frame, with a smooth glossy surface and soft highlights across the face",
-          "caption": "Satin Silk Fabric, red satin face | /products/satin.webp, in-house product photography | High-lustre face, flat and even; width and weight not marked on the asset | Undated, from the site's product collection."
+          "caption": "Satin Silk Fabric, red satin face | /products/satin.webp, site catalog image | High-lustre face, flat and even; width and weight not marked on the asset | Undated, from the site's product collection."
         }
       },
       {

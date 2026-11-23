@@ -215,7 +215,7 @@ const faqs: HubFaq[] = [
     a: "Three variables: the mulberry leaf, the climate, and the reeling discipline. Leaf quality drives filament strength and length. Heat and humidity through the growing season affect cocoon shell thickness. Reeling practice decides how much of that potential survives into the yarn. Two regions can run the same silkworm breed and still produce yarn that breaks at different rates.",
   },
   {
-    q: "Can I visit or audit the supply chain?",
+    q: "Can I visit or audit the production sites?",
     a: "Buyer factory audits are possible and we publish the checklist we work to. If you are arranging a visit, tell us in advance what you need to see: reeling floor, grading records, lot marking, moisture testing. Not every stage happens at the same site, and some require the mill to schedule around production.",
   },
 ];

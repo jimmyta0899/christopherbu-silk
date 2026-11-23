@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     "Yizhou mulberry silk supplier",
     "silk fabric export China",
     "silk fabric wholesale China",
-    "Yizhou silk supply chain B2B",
+    "Yizhou silk production B2B",
     "traceable mulberry silk supplier",
   ],
   // Open Graph / Twitter Card 基础设置。
