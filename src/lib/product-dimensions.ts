@@ -7,7 +7,7 @@ export const productDimensions: Record<string,[number,number]> = {
   "/products/greige-fabric.webp": [412, 384],
   "/products/jacquard-luo.webp": [1200, 800],
   "/products/luxury-silk-yarn.webp": [1200, 840],
-  "/products/organic-silk.webp": [1200, 1200],
+  "/products/organic-silk.webp": [1600, 1600],
   "/products/pongee.webp": [1200, 800],
   "/products/raw-silk-20-22d.webp": [1200, 900],
   "/products/raw-silk-cocoon.webp": [2000, 2000],
