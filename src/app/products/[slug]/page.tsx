@@ -265,6 +265,13 @@ export default async function ProductPage({ params }: Props) {
             >
               View the raw silk yarn specification sheet →
             </Link>
+            <p className="mt-3 max-w-2xl text-sm leading-relaxed text-ink-soft">
+              Before the first bulk order, the{" "}
+              <Link href="/blog/buyer-factory-audit-checklist-silk/" className="text-jade hover:underline">
+                factory audit checklist
+              </Link>{" "}
+              lists the certificate and grading documents to settle in writing.
+            </p>
           </section>
         )}
 

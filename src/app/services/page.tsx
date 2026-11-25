@@ -231,7 +231,12 @@ export default function ServicesPage() {
           </h2>
           <p className="mt-3 max-w-2xl text-sm leading-relaxed text-ink-soft">
             Four inspection stages keep every order within specification, from
-            raw material to final shipment.
+            raw material to final shipment. For the documentary checks a buyer
+            closes before a visit, see the{" "}
+            <Link href="/blog/buyer-factory-audit-checklist-silk/" className="text-jade hover:underline">
+              mill audit compliance checklist
+            </Link>
+            .
           </p>
           <div className="mt-8 grid gap-6 md:grid-cols-2">
             {qcSteps.map((s, i) => (

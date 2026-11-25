@@ -495,7 +495,12 @@ export default function SilkFabricsPage() {
             </a>
             , 2008). A cloth sold as 22 momme on greige therefore lands near 16
             to 17 momme finished, and the finished figure is the one that
-            decides how a garment hangs.
+            decides how a garment hangs. When a first order also needs a
+            supplier review, the{" "}
+            <Link href="/blog/buyer-factory-audit-checklist-silk/" className="text-jade hover:underline">
+              mill audit checklist
+            </Link>{" "}
+            sets out the documentary rows to close before the visit.
           </p>
         </section>
 
