@@ -316,17 +316,17 @@ export default function HomePage() {
               </h2>
               <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink-soft">
                 Five areas address the key wholesale procurement demands:
-                coordinated vertical supply, broad product-category coverage,
-                applicable certification documentation, ethnic product
-                differentiation and responsive custom-order review.
+                greige and dyed-to-order options, broad product-category
+                coverage, applicable certification documentation, ethnic
+                product differentiation and responsive custom-order review.
               </p>
             </div>
 
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               {[
                 {
-                  t: "Local Vertical Integration",
-                  d: "Coordinated vertical industrial chain covering mulberry resources, silkworm cocoon sourcing, raw silk reeling, fabric weaving and finishing — all in one local area.",
+                  t: "Greige or Dyed to Order",
+                  d: "Raw silk and silk fabrics can be supplied greige or dyed to order, using a standard shade card or custom color matching.",
                 },
                 {
                   t: "Complete Product Portfolio",
