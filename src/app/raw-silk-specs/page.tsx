@@ -424,6 +424,10 @@ export default function RawSilkSpecsPage() {
             <Link href="/blog/sourcing-silk-for-ateliers-worldwide" className="text-jade hover:underline">
               sourcing silk for ateliers worldwide
             </Link>
+            ; and for the documents to settle before a mill visit, see the{" "}
+            <Link href="/blog/buyer-factory-audit-checklist-silk/" className="text-jade hover:underline">
+              factory audit checklist
+            </Link>
             . Full commercial terms are on the{" "}
             <Link href="/trade-terms" className="text-jade hover:underline">
               export terms page

@@ -213,6 +213,8 @@ export const deepDraftPosts: BlogPost[] = [
     "metaDescription": "A mill audit cannot prove a certificate scope. The checklist a silk buyer settles in writing before the visit, and where each row is recorded.",
     "type": "Sourcing / due diligence",
     "publishDate": "2026-11-06",
+    "updatedDate": "2026-11-25",
+    "reviewNote": "Reviewed November 25, 2026. The documentary rows and the five written-quotation groups were checked again against the current certificates and raw silk spec pages. No certificate scope, standard or specification was changed in this review.",
     "keywords": [
       "raw silk",
       "mill audit",

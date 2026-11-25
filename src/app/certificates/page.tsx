@@ -143,6 +143,16 @@ export default function CertificatesPage() {
               national standard for raw silk).
             </li>
           </ul>
+          <p className="mt-4 text-sm leading-relaxed text-ink-soft">
+            Before you travel, work through the{" "}
+            <Link
+              href="/blog/buyer-factory-audit-checklist-silk/"
+              className="text-jade hover:underline"
+            >
+              mill audit compliance checklist
+            </Link>{" "}
+            and settle each documentary row in writing first.
+          </p>
         </div>
 
         <div className="mt-12">

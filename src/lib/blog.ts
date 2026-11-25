@@ -46,6 +46,10 @@ export type BlogPost = {
   metaDescription: string;
   type: string;
   publishDate: string;
+  // 可选：只在实质复核过该篇后填写。用于 sitemap lastmod 与 JSON-LD dateModified，
+  // 不允许拿构建时间冒充，也不允许未复核就批量刷日期。
+  updatedDate?: string;
+  reviewNote?: string;
   keywords: string[];
   anchorTexts: string[];
   linkTo: string;

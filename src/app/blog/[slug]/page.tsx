@@ -147,7 +147,7 @@ export default async function BlogPostPage({ params }: Props) {
     description: post.metaDescription,
     articleBody,
     datePublished: post.publishDate,
-    dateModified: post.publishDate,
+    dateModified: post.updatedDate ?? post.publishDate,
     author: {
       "@type": "Organization",
       name: siteConfig.name,
@@ -244,6 +244,9 @@ export default async function BlogPostPage({ params }: Props) {
               {post.type}
             </span>
             <span className="text-ink-muted">{post.publishDate}</span>
+            {post.updatedDate && (
+              <span className="text-ink-muted">Reviewed {post.updatedDate}</span>
+            )}
           </div>
           <h1 className="font-display mt-4 text-4xl font-medium text-jade-deep md:text-5xl">
             {post.title}
@@ -258,6 +261,12 @@ export default async function BlogPostPage({ params }: Props) {
               ))}
           </div>
         </div>
+
+        {post.reviewNote && (
+          <p className="mt-4 text-xs leading-relaxed text-ink-muted">
+            {post.reviewNote}
+          </p>
+        )}
 
         {/* 摘要框（Key Takeaways） */}
         {post.takeaways && post.takeaways.length > 0 && (

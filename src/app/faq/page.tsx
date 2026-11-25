@@ -67,7 +67,11 @@ export default function FaqPage() {
           <Link href="/certificates/" className="underline">
             document scope for OEKO-TEX and GOTS
           </Link>
-          . Payment, packing and claim wording sits in the{" "}
+          . The{" "}
+          <Link href="/blog/buyer-factory-audit-checklist-silk/" className="underline">
+            mill audit checklist
+          </Link>{" "}
+          lists the documentary rows to close before a visit. Payment, packing and claim wording sits in the{" "}
           <Link href="/trade-terms/" className="underline">
             trade terms
           </Link>

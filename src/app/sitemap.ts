@@ -94,7 +94,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const blogRoutes = blogPosts.map((post) => ({
     url: abs(`/blog/${post.slug}`),
-    lastModified: new Date(post.publishDate),
+    // 只有该篇真的复核过才用 updatedDate；其余仍用发布日，不拿构建时间刷全站。
+    lastModified: new Date(post.updatedDate ?? post.publishDate),
     changeFrequency: "monthly" as const,
     priority: 0.6,
   }));
