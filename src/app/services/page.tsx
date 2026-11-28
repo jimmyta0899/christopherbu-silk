@@ -6,16 +6,17 @@ import { Footer } from "@/components/Footer";
 import { AnswerBlock } from "@/components/AnswerBlock";
 
 export const metadata: Metadata = {
-  title: "Services: Private Label & Custom Silk",
+  title: "Custom Silk Garment Factory & Private Label",
   description:
-    "Custom mulberry silk supply from Yizhou, China: private-label OEM, custom width, color and pattern development, and full QC for global B2B buyers.",
+    "Custom silk garment factory in Yizhou, China: private-label OEM, custom dyed mulberry silk, and full production lines for global B2B buyers.",
   keywords: [
-    "custom silk supply",
+    "custom silk garment factory",
+    "custom silk production solutions",
+    "full production line silk supplier",
     "private label silk OEM",
     "silk ODM supplier China",
     "custom dyed silk fabric",
     "silk fabric custom width",
-    "jacquard pattern development",
     "Yizhou silk sourcing",
   ],
   alternates: { canonical: "/services" },

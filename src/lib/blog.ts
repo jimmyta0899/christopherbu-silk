@@ -50,6 +50,8 @@ export type BlogPost = {
   // 不允许拿构建时间冒充，也不允许未复核就批量刷日期。
   updatedDate?: string;
   reviewNote?: string;
+  // 可选：只给方法类文章。HowTo 步骤逐字取自正文，不新增事实。
+  howToSteps?: string[];
   keywords: string[];
   anchorTexts: string[];
   linkTo: string;

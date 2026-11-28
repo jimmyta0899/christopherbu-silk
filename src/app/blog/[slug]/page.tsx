@@ -191,6 +191,27 @@ export default async function BlogPostPage({ params }: Props) {
     ],
   };
 
+  // HowTo 结构化数据：只给方法类文章输出。步骤来自正文「How to run ...」段，
+  // 逐句拆成命名步骤，措辞不超出原文，不新增任何事实。
+  const methodSection = post.sections.find((s) =>
+    s.heading.startsWith("How to run the checklist")
+  );
+  const howToJsonLd =
+    methodSection && post.howToSteps?.length
+      ? {
+          "@context": "https://schema.org",
+          "@type": "HowTo",
+          name: post.title,
+          description: post.metaDescription,
+          step: post.howToSteps.map((text, i) => ({
+            "@type": "HowToStep",
+            position: i + 1,
+            name: `Step ${i + 1}`,
+            text: cleanSchemaText(text),
+          })),
+        }
+      : null;
+
   // FAQPage 结构化数据：抽取正文里以问号结尾的问答小标题（level 3），
   // 内容一字不改，只做 Markdown 清洗。没有问答对的文章不输出空 schema。
   const faqPairs = post.sections.filter((s) => s.heading.trim().endsWith("?"));
@@ -210,15 +231,21 @@ export default async function BlogPostPage({ params }: Props) {
     <>
       <Header />
       <main id="main-content" className="mx-auto max-w-3xl px-6 py-16 md:py-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      {howToJsonLd && (
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(howToJsonLd) }}
         />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
-        />
-        {faqJsonLd && (
+      )}
+      {faqJsonLd && (
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}

@@ -42,6 +42,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/silk-momme-guide", priority: 0.8, freq: "monthly" },
     { path: "/silk-fabric-price-guide", priority: 0.7, freq: "monthly" },
     { path: "/raw-silk-specs", priority: 0.9, freq: "monthly" },
+    // 专题 hub：audit 意图的落地入口，聚合合规与规格页并回指清单长文。
+    { path: "/silk-mill-audit", priority: 0.8, freq: "monthly" },
     // 工具页：唯一「用工具换停留时长」的资产，之前站上是 0 个。
     // priority 给到 0.8，与 hub 同级——它们是答案层的一部分，不是附属页面。
     { path: "/tools", priority: 0.8, freq: "monthly" },
